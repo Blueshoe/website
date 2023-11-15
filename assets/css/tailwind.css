@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bs-color-green: rgb(99, 217, 182);
+    --bs-color-blue: rgb(36, 112, 169);
+    --bs-color-gray: rgb(245, 245, 245);
+    --bs-color-text: rgb(33, 37, 41);
+}
+
+@layer components {
+    .bs-container {
+        @apply container mx-auto px-[15px];
+    }
+}
