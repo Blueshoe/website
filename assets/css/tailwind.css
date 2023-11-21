@@ -29,7 +29,11 @@
     @apply list-disc pl-6;
   }
 
-  .slider-item-shadow {
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  .slider-with-image-shadow {
+    box-shadow: 0 3px 35px rgb(0 0 0 / 0.2);
+  }
+
+  .slider-shadow {
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.6);
   }
 }

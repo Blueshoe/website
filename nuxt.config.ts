@@ -10,8 +10,8 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/i18n',
     'nuxt-simple-robots',
-    '@zadigetvoltaire/nuxt-gtm'
-    // '@nuxt/image'
+    '@zadigetvoltaire/nuxt-gtm',
+    '@nuxt/image'
   ],
   components: {
     global: true,

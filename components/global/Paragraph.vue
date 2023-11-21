@@ -1,5 +1,5 @@
 <template>
-  <p class="font-light leading-[26px] font-source-sans-pro" :class="[color, fontSize]">
+  <p class="font-light font-source-sans-pro" :class="[color, fontSize]">
     <ContentSlot unwrap="p" />
   </p>
 </template>
