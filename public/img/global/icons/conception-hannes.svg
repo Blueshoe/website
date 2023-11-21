@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .conception-cls-1 {
+        fill: #edeff0;
+      }
+
+      .conception-cls-1,
+      .conception-cls-2 {
+        stroke: #ff7680;
+      }
+
+      .conception-cls-1,
+      .conception-cls-2,
+      .conception-cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 0.75px;
+      }
+
+      .conception-cls-2,
+      .conception-cls-3 {
+        fill: #fff;
+      }
+
+      .conception-cls-3 {
+        stroke: #63d9b6;
+      }
+
+    </style>
+  </defs>
+  <title>2. Conception</title>
+  <circle class="conception-cls-1" cx="46.47" cy="53.53" r="26.95" />
+  <circle class="conception-cls-2" cx="46.47" cy="53.53" r="22.5" />
+  <circle class="conception-cls-1" cx="46.47" cy="53.53" r="18.06" />
+  <circle class="conception-cls-2" cx="46.47" cy="53.53" r="13.61" />
+  <circle class="conception-cls-1" cx="46.47" cy="53.53" r="9.16" />
+  <circle class="conception-cls-2" cx="46.47" cy="53.53" r="4.71" />
+  <polygon class="conception-cls-3" points="67.83 32.17 74.8 32.87 80.48 27.2 79.51 20.49 72.8 19.52 67.13 25.2 67.83 32.17" />
+  <line class="conception-cls-3" x1="76.21" y1="23.79" x2="67.83" y2="32.17" />
+  <path class="conception-cls-3" d="M49.83,50.17h0a2,2,0,0,1,0-2.91L67.57,30.67l1.76,1.76L52.74,50.14A2,2,0,0,1,49.83,50.17Z" />
+  <line class="conception-cls-3" x1="49.83" y1="50.17" x2="46.47" y2="53.53" />
+</svg>

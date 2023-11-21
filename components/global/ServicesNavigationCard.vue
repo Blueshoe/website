@@ -1,5 +1,7 @@
 <template>
-  <div class="p-5">Test Header <ContentSlot unwrap="p" /></div>
+  <div>
+    <div></div>
+  </div>
 </template>
 
 <script setup lang="ts"></script>

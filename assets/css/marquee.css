@@ -1,0 +1,110 @@
+@keyframes loop {
+    0% {
+        transform: translateX(0) translateZ(0);
+    }
+    100% {
+        transform: translateX(-100%) translateZ(0);
+    }
+}
+.marquee-container .text-wrapper {
+    margin-top: -20px;
+}
+.marquee-container .marquee {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+.marquee-container .marquee > div {
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 450px;
+}
+.marquee-container .marquee > div div {
+    position: absolute;
+    left: 0;
+    height: 450px;
+    width: 0;
+    overflow: hidden;
+}
+.marquee-container .marquee > div > div > img {
+    left: 0;
+}
+.marquee-container .marquee > div > div.cloud {
+    width: 2571px;
+    animation-delay: 2s;
+    will-change: transform;
+}
+@media (min-width: 992px) {
+    .marquee-container .marquee > div > div.cloud {
+        animation: loop 75s linear infinite;
+    }
+}
+.marquee-container .marquee .window-container {
+    width: 100%;
+}
+.marquee-container .marquee .window-container > div {
+    float: left;
+    animation-delay: 2s;
+    will-change: transform;
+}
+@media (min-width: 992px) {
+    .marquee-container .marquee .window-container > div {
+        animation: loop 68s linear infinite;
+    }
+}
+@media (max-width: 991px) {
+    .marquee-container .marquee .window-container > div {
+        transform: translateX(-950px);
+    }
+}
+.marquee-container .marquee > div > .window-container > div.window {
+    height: 450px;
+    width: 2571px;
+}
+.marquee-container .marquee > div > .window-container > div.window2 {
+    left: 2571px;
+    width: 2571px;
+}
+.marquee-container .marquee .desks-container {
+    width: 100%;
+}
+.marquee-container .marquee .desks-container > div {
+    float: left;
+    animation-delay: 2s;
+    will-change: transform;
+}
+@media (min-width: 992px) {
+    .marquee-container .marquee .desks-container > div {
+        animation: loop 55s linear infinite;
+    }
+}
+@media (max-width: 991px) {
+    .marquee-container .marquee .desks-container > div {
+        transform: translateX(-950px);
+    }
+}
+.marquee-container .marquee > div > .desks-container > div.desks {
+    height: 420px;
+    width: 2399px;
+}
+.marquee-container .marquee > div > .desks-container > div.desks2 {
+    left: 2399px;
+    width: 2399px;
+}
+.marquee-container .overlay {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+}
+.marquee-container .intro {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+}
