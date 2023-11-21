@@ -5,7 +5,7 @@
       :class="bgColor"
     >
       <div class="sm:order-2 flex items-center justify-center px-6 sm:p-0">
-        <NuxtImg :src="'/' + src" class="max-w-full sm:max-w-[160px] sm:w-full lg:min-w-[100px]" />
+        <NuxtImg :src="src" class="max-w-full sm:max-w-[160px] sm:w-full lg:min-w-[100px]" />
       </div>
       <div class="sm:order-1">
         <h3 class="text-xl font-extralight font-oswald uppercase text-bs-blue mb-3">

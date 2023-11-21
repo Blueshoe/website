@@ -54,6 +54,8 @@ export default defineNuxtConfig({
     devtools: true
   },
   image: {
-    // Options
+    cloudflare: {
+      baseURL: 'https://blueshoe-io.pages.dev/'
+    }
   }
 });
