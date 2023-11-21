@@ -4,5 +4,11 @@ export type Menu = {
   icon?: string;
   dropDown?: boolean;
   isDropDown?: boolean;
-  children?: Menu[][];
+  children?: SubMenu[][];
+};
+
+export type SubMenu = {
+  name: string;
+  href: string;
+  icon: string;
 };

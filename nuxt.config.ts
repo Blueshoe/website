@@ -43,20 +43,13 @@ export default defineNuxtConfig({
     defaultLocale: 'en'
   },
   gtm: {
-    id: 'GTM-XXXXXXX',
-    queryParams: {
-      gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
-      gtm_preview: 'env-4',
-      gtm_cookies_win: 'x'
-    },
+    id: 'GTM-MGZWK6W',
     defer: false,
     compatibility: false,
-    nonce: '2726c7f26c',
     enabled: true,
     debug: true,
     loadScript: true,
     enableRouterSync: true,
-    ignoredViews: ['homepage'],
     trackOnNextTick: false,
     devtools: true
   },

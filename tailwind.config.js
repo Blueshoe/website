@@ -22,8 +22,17 @@ export default {
       fontFamily: {
         oswald: ['Oswald', 'sans-serif'],
         'source-sans-pro': ['Source Sans Pro', 'sans-serif']
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 85s linear infinite'
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' }
+        }
       }
     }
   },
-  plugins: []
+  plugins: [require('@tailwindcss/typography')]
 };

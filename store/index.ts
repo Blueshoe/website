@@ -1,80 +1,80 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-import { Menu } from '~/types';
+import type { Menu } from '~/types';
 
 export const useGeneralStore = defineStore('general', () => {
   const development = [
     {
       name: 'softwareDevelopment',
       href: '/our-services/cloud-application-development',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/cloud-storage.svg'
+      icon: '/img/global/icons/cloud-storage.svg'
     },
     {
       name: 'headlessCms',
       href: '/our-services/headless-cms',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/cms_1.svg'
+      icon: '/img/global/icons/cms_1.svg'
     },
     {
       name: 'wagtailCms',
       href: '/our-services/wagtail-cms',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/bird_1.svg'
+      icon: '/img/global/icons/bird_1.svg'
     },
     {
       name: 'pythonDjango',
       href: '/our-services/python-django-agency',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/python.svg'
+      icon: '/img/global/icons/python.svg'
     },
     {
       name: 'headlessECommerce',
       href: '/our-services/headless-e-commerce',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/buy-online.svg'
+      icon: '/img/global/icons/buy-online.svg'
     },
     {
       name: 'apiDevelopment',
       href: '/our-services/api-development-agency',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/api_1.svg'
+      icon: '/img/global/icons/api_1.svg'
     },
     {
       name: 'oscarECommerce',
       href: '/our-services/oscar-e-commerce',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/shopping-cart.svg'
+      icon: '/img/global/icons/shopping-cart.svg'
     },
     {
       name: 'workflowAutomation',
       href: '/our-services/workflow-automation',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/data-transformation.svg'
+      icon: '/img/global/icons/data-transformation.svg'
     }
   ];
   const consulting = [
     {
       name: 'cloudConsulting',
       href: '/our-services/cloud-native-consulting',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/consulting_1.svg'
+      icon: '/img/global/icons/consulting_1.svg'
     },
     {
       name: 'microserviceArchitecture',
       href: '/our-services/microservice-architecture-consulting',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/infrastructure_1.svg'
+      icon: '/img/global/icons/infrastructure_1.svg'
     },
     {
       name: 'kubernetesMigration',
       href: '/our-services/migration-to-kubernetes',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/migration.svg'
+      icon: '/img/global/icons/migration.svg'
     },
     {
       name: 'cloudNativeTools',
       href: '/our-services/cloud-native-tools',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/repair.svg'
+      icon: '/img/global/icons/repair.svg'
     },
     {
       name: 'cloudSecurity',
       href: '/our-services/cloud-security-services',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/cyber-security.svg'
+      icon: '/img/global/icons/cyber-security.svg'
     },
     {
       name: 'cloudInfrastructure',
       href: '/our-services/cloud-infrastructure-consulting',
-      icon: 'https://storage.googleapis.com/blueshoe-website-v4.appspot.com/documents/cloud-computing.svg'
+      icon: '/img/global/icons/cloud-computing.svg'
     }
   ];
   const menu = ref<Menu[]>([
