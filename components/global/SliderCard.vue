@@ -5,7 +5,7 @@
         <slot name="title"></slot>
       </div>
       <div class="w-[150px] mb-6">
-        <NuxtImg :src="'/' + logo.src" :alt="logo.alt" width="150" />
+        <NuxtImg :src="logo.src" :alt="logo.alt" width="150" />
         <div class="h-1 bg-bs-blue mt-6"></div>
       </div>
       <div class="mb-6 font-light font-medium font-source-sans-pro text-lg text-bs-blue">
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div v-if="image" class="hidden md:flex items-center justify-center p-4 lg:p-10 xl:p-20">
-      <NuxtImg :src="'/' + image.src" :alt="image.alt" class="min-w-full" />
+      <NuxtImg :src="image.src" :alt="image.alt" class="min-w-full" />
     </div>
     <div>
       <slot name="button"></slot>
