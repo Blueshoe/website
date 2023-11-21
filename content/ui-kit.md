@@ -7,7 +7,7 @@ We are Blueshoe
 ::
 
 ::GlobalParagraph{.bs-container .mb-8}
-We are your reliable partner for the implementation of cloud native software, websites, platforms,
+We are your reliable partner for the implementation of cloud native software, websites, platforms, 
 apps, PWAs and online shops built on top of Kubernetes.
 ::
 
@@ -92,6 +92,6 @@ As unique as your demands
 
 ::
 
-[//]: # (::GlobalSectionWithImage{:isButton=true :buttonLabel="Book a meeting" :buttonUrl="#" :buttonTarget="_blank"})
+[//]: # (::GlobalSectionWithImage{:isButton=true :buttonLabel="Book a meeting" :buttonUrl="/meetings/hannes/anfrage" :buttonTarget="_blank"})
 
 [//]: # (::)

@@ -73,7 +73,7 @@ We help you figure out how to approach cloud native development and all the comp
 Cloud Consulting
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="/our-services/products"}
 <p class='mb-3'>
 Giving back to the community
 </p>

@@ -4,9 +4,9 @@
       <div
         v-for="(heading, i) in headingListData.slice().reverse()"
         :key="i"
+        @click="handleScroll(heading)"
         class="text-bs-blue uppercase py-[6px]"
         :class="{ 'border-b-4 border-bs-green': heading.active }"
-        @click="handleScroll(heading)"
       >
         <a class="text-lg font-source-sans-pro font-semibold cursor-pointer">{{ heading.title }}</a>
       </div>

@@ -1,7 +1,8 @@
 <template>
   <div>
-    <ul class="absolute left-0 bg-white w-full overflow-auto" v-if="!isDropDownOpen">
+    <ul class="absolute left-0 bg-white w-full overflow-auto">
       <li
+        v-if="!isDropDownOpen"
         v-for="(nav, i) in menu"
         :key="i"
         class="cursor-pointer border-b border-bs-menu-hover hover:bg-bs-menu-hover px-4 pt-4 pb-5 first:pr-1"
@@ -31,7 +32,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <NuxtImg :src="child.icon" width="40" />
+              <NuxtImg :src="'/' + child.icon" width="40" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>
@@ -46,7 +47,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <NuxtImg :src="child.icon" width="40" />
+              <NuxtImg :src="'/' + child.icon" width="40" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>

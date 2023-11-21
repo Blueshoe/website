@@ -17,12 +17,12 @@
             :virtual="true"
           >
             <SwiperSlide v-for="(number, i) in props.numberCards" :key="i" :virtual-index="i" class="mb-10">
-              <div class="w-full flex">
+              <div class="w-full">
                 <div class="mb-4">
                   <slot :name="'card' + number" />
                 </div>
                 <div class="flex justify-center">
-                  <NuxtImg :src="images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
+                  <NuxtImg :src="'/' + images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
                 </div>
               </div>
             </SwiperSlide>
@@ -30,15 +30,20 @@
         </div>
         <div class="hidden lg:grid lg:grid-cols-2">
           <div class="flex justify-center" :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']">
-            <NuxtImg :src="images[activeSlider].src" :alt="images[activeSlider].alt" class="max-w-[500px] w-full" />
+            <NuxtImg
+              :src="'/' + images[activeSlider].src"
+              :alt="images[activeSlider].alt"
+              class="max-w-[500px] w-full"
+            />
           </div>
           <div class="flex flex-col relative" :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">
             <div
               v-for="(number, i) in props.numberCards"
               :key="i"
               @mouseover="handleSlider(i)"
+              @mouseleave="mouseOver = null"
               class="px-10 py-6 duration-500 transition-all"
-              :class="{ 'slider-item-shadow': activeSlider === i }"
+              :class="{ 'slider-with-image-shadow': activeSlider === i && mouseOver === i }"
             >
               <slot :name="'card' + number" />
             </div>
@@ -64,10 +69,12 @@ const props = withDefaults(defineProps<Props>(), {
   imagePosition: 'left'
 });
 
-const activeSlider = ref(1);
+const activeSlider = ref(0);
+const mouseOver = ref<number | null>(null);
 
 function handleSlider(i: number) {
   activeSlider.value = i;
+  mouseOver.value = i;
 }
 </script>
 
