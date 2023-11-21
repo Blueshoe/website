@@ -21,7 +21,7 @@ Why do you need a cloud application development agency?
 As your cloud application development agency, we strongly believe in the benefits of cloud applications that enable you to make your applications more reliable, scalable and manageable - all while reducing overall costs. We see cloud applications as an opportunity that allows you to focus on your product, service or idea. Why spend your time on technical details that have already been solved and optimized by others? Instead, we help you to take full advantage of cloud applications.
 ::::
 #button
-::GlobalButton{:url="/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="#" :label="Book a meeting" :target="_blank"}
 ::
 :::
 
@@ -45,7 +45,7 @@ Cloud-native application development vs. standard application development
 The advantages of cloud-native applications over standard applications are founded by the usage of the cloud as well as the approach of application development itself. Check out the following article, to learn more about the evolution of application development.
 ::::
 #button
-::GlobalButton{:url="/blog/evolution-of-application-development-to-cloud-native/" :label="The evolution of application development"}
+::GlobalButton{:url="#" :label="The evolution of application development"}
 ::
 :::
 
@@ -109,7 +109,7 @@ Application development by blueshoe
 As your custom software development agency, we specialize in providing custom-made software solutions that perfectly solve your use case. We will not hesitate to suggest the use of standard solutions when possible. However, experience shows that these are often not the right solution for a particular problem or especially for your future vision for your application. When developing applications for you, we remain agile, delivering incremental progress and staying in constant communication with you. With our experience and expertise in cloud application development, we deliver solutions that can be deployed directly into the cloud. In fact, we often strive to develop applications directly in the cloud or in cloud-like configurations to ensure functionality and compatibility. Contact us for more information on our approach.
 ::::
 #button
-::GlobalButton{:url="/meetings/contact" :label="Contact us" :color="black"}
+::GlobalButton{:url="#" :label="Contact us" :color="black"}
 ::
 :::
 
@@ -126,7 +126,7 @@ How do you
 ::::GlobalBlock{.mb-4 .ul-disk}
 - build your overall [service architecture?](/our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 - implement CI/CD (continuous integration / continuous delivery) pipelines?
-- use [containers and orchestrate them?](/container-orchestration-options-comparison){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+- use [containers and orchestrate them?](#){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 - manage secrets and certificates?
 - use [API gateways](/our-services/api-development-agency){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, logging, monitoring, altering or even tracing?
 ::::
@@ -165,7 +165,7 @@ Some of our articles that may also interest you...
 ::::
 
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/local-kubernetes-development"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
 How does local development with Kubernetes work?
 :::
@@ -176,7 +176,7 @@ By Robert Gutschale
 Local K8s Development
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/django-development-for-kubernetes"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
 A Kubernetes native stack created for django
 :::
