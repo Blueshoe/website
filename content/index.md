@@ -45,6 +45,7 @@ Whether you need a hands-on partner for your cloud native development needs or a
 Here is what we do
 ::::
 #cards
+
 ::GlobalSmallCardWithImage{:src="/img/global/icons/cloud-storage.svg" :href="/our-services/cloud-application-development"}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
 Modern application development for the cloud
@@ -55,6 +56,7 @@ We build individual and potentially complex software products for you, that run 
 #title
 Cloud Development
 ::
+
 ::GlobalSmallCardWithImage{:src="/img/global/icons/consulting_1.svg" :href="/our-services/cloud-native-consulting"}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
 We help you figure out solutions
@@ -65,6 +67,7 @@ We help you figure out how to approach cloud native development and all the comp
 #title
 Cloud Consulting
 ::
+
 ::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="#"}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
 Giving back to the community

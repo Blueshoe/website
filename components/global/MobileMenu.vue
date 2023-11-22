@@ -1,8 +1,7 @@
 <template>
   <div>
-    <ul class="absolute left-0 bg-white w-full overflow-auto">
+    <ul v-if="!isDropDownOpen" class="absolute left-0 bg-white w-full overflow-auto">
       <li
-        v-if="!isDropDownOpen"
         v-for="(nav, i) in menu"
         :key="i"
         class="cursor-pointer border-b border-bs-menu-hover hover:bg-bs-menu-hover px-4 pt-4 pb-5 first:pr-1"

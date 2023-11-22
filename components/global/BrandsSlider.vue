@@ -5,7 +5,7 @@
     <ul
       class="flex items-center justify-center md:gap-5 lg:gap-10 xl:gap-16 md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
     >
-      <li v-for="(img, i) in images">
+      <li v-for="(img, i) in images" :key="i">
         <img :src="img.img" :alt="img.alt" :style="{ filter: 'grayscale(100%)' }" />
       </li>
     </ul>
@@ -14,7 +14,7 @@
       class="flex items-center justify-center md:gap-5 lg:gap-10 xl:gap-16 md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
       aria-hidden="true"
     >
-      <li v-for="(img, i) in images">
+      <li v-for="(img, i) in images" :key="i">
         <img :src="img.img" :alt="img.alt" :style="{ filter: 'grayscale(100%)' }" />
       </li>
     </ul>
@@ -25,11 +25,12 @@
 const logos = ref(null);
 
 onMounted(() => {
-  let ul = logos.value;
+  const ul: HTMLElement = logos.value;
   if (!ul) return;
   ul.insertAdjacentHTML('afterend', ul.outerHTML);
-  ul.nextSibling.setAttribute('aria-hidden', 'true');
+  ul.nextSibling?.setAttribute('aria-hidden', 'true');
 });
+
 const images = ref([
   { img: '/img/brands-slides/allgau.jpg', alt: 'Allgau' },
   { img: '/img/brands-slides/allianz-logo.jpg', alt: 'Allianz' },

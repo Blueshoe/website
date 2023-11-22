@@ -36,10 +36,10 @@
             <div
               v-for="(number, i) in props.numberCards"
               :key="i"
-              @mouseover="handleSlider(i)"
-              @mouseleave="mouseOver = null"
               class="px-10 py-6 duration-500 transition-all"
               :class="{ 'slider-with-image-shadow': activeSlider === i && mouseOver === i }"
+              @mouseover="handleSlider(i)"
+              @mouseleave="mouseOver = null"
             >
               <slot :name="'card' + number" />
             </div>
