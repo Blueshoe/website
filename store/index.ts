@@ -1,8 +1,11 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import type { Menu } from '~/types';
+import type { Heading } from '~/types';
 
 export const useGeneralStore = defineStore('general', () => {
+  const headingListData = ref<Heading[]>([]);
+
   const development = [
     {
       name: 'softwareDevelopment',
@@ -94,6 +97,7 @@ export const useGeneralStore = defineStore('general', () => {
   ]);
 
   return {
-    menu
+    menu,
+    headingListData
   };
 });

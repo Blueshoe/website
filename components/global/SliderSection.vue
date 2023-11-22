@@ -1,11 +1,11 @@
 <template>
   <div :class="bg">
     <div class="bs-container">
-      <div class="py-10 px-10 lg:px-0">
+      <div class="py-10 px-4 lg:px-0">
         <div class="mb-12">
           <slot />
         </div>
-        <div class="block z-0 slider-shadow relative mx-5">
+        <div class="block z-0 slider-shadow relative lg:mx-5">
           <Swiper
             :modules="[SwiperNavigation, SwiperVirtual]"
             :slides-per-view="1"
@@ -23,8 +23,8 @@
               </div>
             </SwiperSlide>
           </Swiper>
-          <div ref="prev" class="swiper-button-prev"></div>
-          <div ref="next" class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </div>
@@ -32,27 +32,14 @@
 </template>
 
 <script setup lang="ts">
-import 'swiper/css';
-import 'swiper/css/pagination';
 interface Props {
   bg?: 'bg-bs-blue' | 'bg-white';
   numberCards: number;
-  images: { src: string; alt: string }[];
-  imagePosition?: 'left' | 'right';
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  bg: 'bg-white',
-  imagePosition: 'left'
+  bg: 'bg-white'
 });
-
-const activeSlider = ref(1);
-const prev = ref(null);
-const next = ref(null);
-
-function handleSlider(i: number) {
-  activeSlider.value = i;
-}
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 <template>
   <div class="fixed z-50 bg-white w-full">
     <div class="bs-container flex h-[70px] justify-between items-center">
-      <NuxtLink to="/"><NuxtImg src="/img/blueshoe-navbar-logo.png" width="200" /></NuxtLink>
+      <NuxtLink to="/"><img src="/img/blueshoe-navbar-logo.png" width="200" /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight">
         <button
           v-if="isMobile"

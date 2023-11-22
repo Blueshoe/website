@@ -1,3 +1,5 @@
+@import 'swiper/css';
+@import 'swiper/css/pagination';
 @import './marquee.css';
 @tailwind base;
 @tailwind components;
@@ -8,6 +10,10 @@
   --bs-color-blue: rgb(36, 112, 169);
   --bs-color-gray: rgb(245, 245, 245);
   --bs-color-text: rgb(33, 37, 41);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @layer base {

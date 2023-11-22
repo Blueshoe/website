@@ -32,7 +32,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <NuxtImg :src="child.icon" width="40" />
+              <img :src="child.icon" width="40" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>
@@ -47,7 +47,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <NuxtImg :src="child.icon" width="40" />
+              <img :src="child.icon" width="40" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>

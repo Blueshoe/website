@@ -1,11 +1,11 @@
 <template>
   <div class="w-full lg:grid lg:grid-cols-2">
     <div class="lg:order-2 flex justify-center items-center mb-8">
-      <NuxtImg :src="image" class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px]" />
+      <img :src="image" class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px]" />
     </div>
     <div>
       <div
-        class="lg:order-1 lg:min-h-[360px] xl:min-h-[280px] text-lg font-light font-source-sans-pro leading-[26px] text-bs-text mb-4"
+        class="lg:order-1 lg:min-h-[370px] xl:min-h-[280px] text-lg font-light font-source-sans-pro leading-[26px] text-bs-text mb-4"
       >
         <ContentSlot />
       </div>
@@ -14,8 +14,8 @@
           Technologies
         </div>
         <div class="flex flex-wrap items-center mb-4">
-          <div v-for="(img, i) in icons" class="px-4 py-2">
-            <NuxtImg :src="img" width="50" />
+          <div v-for="(img, i) in icons" :key="i" class="px-4 py-2">
+            <img :src="img" width="50" />
           </div>
         </div>
       </div>

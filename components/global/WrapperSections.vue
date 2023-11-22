@@ -1,7 +1,7 @@
 <template>
   <div ref="refWrapperMain" class="relative">
-    <slot />
-    <!--    <ServicesNavigationCard :headings="headingListData" />-->
+    <slot :data="headingListData" />
+    <ServicesNavigationCard :headings="headingListData" />
   </div>
 </template>
 
