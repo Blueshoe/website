@@ -2,10 +2,10 @@
 title: 'Services'
 ---
 
-::GlobalWrapperSections
+::GlobalWrapperSections{:data="data"}
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
-::::GlobalTitle{.mb-8}
+::::GlobalTitle{.mb-6}
 Cloud application development
 ::::
 ::::globalParagraph
@@ -13,8 +13,12 @@ We live the cloud-first approach
 ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/development-icon.jpg" :alt="development" :imagePosition="left" :isButton=true}
-::::GlobalTitle{.mb-8}
+:::GlobalServicesNavigationCard{:headings="data"}
+
+:::
+
+:::GlobalSectionWithImage{:image="/img/services/development-icon.jpg" :alt="development" :imagePosition="left" :isButton=true data-title="Do you need a cloud development agency?"}
+::::GlobalTitle{.mb-6}
 Why do you need a cloud application development agency?
 ::::
 ::::GlobalParagraph
@@ -25,8 +29,8 @@ As your cloud application development agency, we strongly believe in the benefit
 ::
 :::
 
-:::GlobalSimpleSection
-::::GlobalTitle{.mb-8}
+:::GlobalSimpleSection{data-title="What are cloud applications?"}
+::::GlobalTitle{.mb-6}
 What are cloud applications?
 ::::
 ::::GlobalParagraph{.mb-4}
@@ -37,8 +41,8 @@ For most organizations and applications, the public cloud is the solution of cho
 ::::
 :::
 
-:::GlobalSimpleSection{:bg="bg-white" :isButton=true}
-::::GlobalTitle{.mb-8}
+:::GlobalSimpleSection{:bg="bg-white" :isButton=true data-title="Cloud-native application development vs. standard development"}
+::::GlobalTitle{.mb-6}
 Cloud-native application development vs. standard application development
 ::::
 ::::GlobalParagraph{.mb-4}
@@ -49,11 +53,10 @@ The advantages of cloud-native applications over standard applications are found
 ::
 :::
 
-:::GlobalSliderWithImageSection{:numberCards=3 :images='[{"src": "/img/services/cost_2.svg", "alt": "cost"}, {"src": "/img/services/cube.svg", "alt": "cube"}, {"src": "/img/services/handshake.svg", "alt": "handshake"}]'}
-::::GlobalTitle{:color="text-white" .mb-8}
+:::GlobalSliderWithImageSection{:numberCards=3 :images='[{"src": "/img/services/cost_2.svg", "alt": "cost"}, {"src": "/img/services/cube.svg", "alt": "cube"}, {"src": "/img/services/handshake.svg", "alt": "handshake"}]' data-title="Advantages of the cloud approach"}
+::::GlobalTitle{:color="text-white" .mb-6}
 Advantages of the cloud approach
 ::::
-
 #card1
 ::GlobalTitle{:color="text-white" :size="lg" .mb-4 }
 Cost Reduction:
@@ -61,7 +64,6 @@ Cost Reduction:
 ::GlobalParagraph{:fontSize="text-lg" :color="text-white"}
 Especially when using public cloud providers, you only pay for what you use - basically you rent your infrastructure. Thus, cloud applications require minimal or no upfront investment in IT infrastructure. You are free of having to purchase and maintain any hardware related equipment. No servers, no administration, no power consumption, air conditioning, upgrades, defects or any operation related costs.
 ::
-
 #card2
 ::GlobalTitle{:color="text-white" :size="lg" .mb-4}
 Scalability:
@@ -69,7 +71,6 @@ Scalability:
 ::GlobalParagraph{:fontSize="text-lg" :color="text-white"}
 You can easily and fast scale your cloud applications up or down in response to changed user demand. Again, you can rely on your cloud provider to handle the infrastructure. You simply have to request more compute power, which often is available within minutes. It can even be possible to automatically scale your cloud applications depending on resource usage.
 ::
-
 #card3
 ::GlobalTitle{:color="text-white" :size="lg" .mb-4}
 Reliability:
@@ -79,11 +80,10 @@ Cloud providers are experts in managing infrastructure. They have more cloud res
 ::
 :::
 
-:::GlobalSliderWithImageSection{:numberCards=2 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]'}
-::::GlobalTitle{.mb-8}
+:::GlobalSliderWithImageSection{:numberCards=2 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' data-title="Advantages of cloud-native applications"}
+::::GlobalTitle{.mb-6}
 Advantages of cloud-native applications
 ::::
-
 #card1
 ::GlobalTitle{:size="lg" .mb-4}
 Accessibility:
@@ -91,7 +91,6 @@ Accessibility:
 ::GlobalParagraph{:fontSize="text-lg"}
 Cloud applications can rely on computing power and storage capacity within the cloud. They can even be built to consume very little computing power and almost no storage space on a local device. Thus, you can provide cloud applications which might have resource requirements which are exceeding resources available by most users. All the heavy lifting is done remotely.
 ::
-
 #card2
 ::GlobalTitle{:size="lg" .mb-4}
 Software updates:
@@ -102,7 +101,7 @@ As cloud applications do not require local installations, they can be updated wh
 :::
 
 :::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="development" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-8}
+::::GlobalTitle{.mb-6}
 Application development by blueshoe
 ::::
 ::::GlobalParagraph
@@ -113,8 +112,8 @@ As your custom software development agency, we specialize in providing custom-ma
 ::
 :::
 
-:::GlobalSimpleSection{:bg="bg-white"}
-::::GlobalTitle{.mb-8}
+:::GlobalSimpleSection{:bg="bg-white" data-title="Choose the right cloud-native tools"}
+::::GlobalTitle{.mb-6}
 Choose the right cloud-native tools
 ::::
 ::::GlobalParagraph{.mb-4}
@@ -135,8 +134,8 @@ Especially when transitioning to cloud application development, choosing the rig
 ::::
 :::
 
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
-::::GlobalTitle{:color="text-white" .mb-8}
+:::GlobalSimpleSection{:bg="bg-bs-blue" data-title="Workflow automation"}
+::::GlobalTitle{:color="text-white" .mb-6}
 Workflow automation
 ::::
 ::::GlobalParagraph{:color="text-white" .mb-4}
@@ -144,8 +143,8 @@ Automate! Automate! Automate your workflows! We do not like to perform tedious, 
 ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/infrastructure_1.svg" :alt="development" :imagePosition="right" :isButton=true}
-::::GlobalTitle{.mb-8}
+:::GlobalSectionWithImage{:image="/img/services/infrastructure_1.svg" :alt="development" :imagePosition="right" :isButton=true data-title="Basics of our cloud-native approach"}
+::::GlobalTitle{.mb-6}
 Basics of our cloud-native approach
 ::::
 ::::GlobalParagraph
@@ -160,10 +159,9 @@ Overall, we see the cloud-native approach as an optimal way to develop, customiz
 :::
 
 :::GlobalSmallCardWithImageSection
-::::GlobalTitle{.mb-8}
+::::GlobalTitle{.mb-6}
 Some of our articles that may also interest you...
 ::::
-
 #cards
 ::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
@@ -200,7 +198,7 @@ K8s Development Tools
 :::
 
 :::GlobalSliderSection{:numberCards=5}
-::::GlobalTitle{.mb-8}
+::::GlobalTitle{.mb-6}
 Cloud-native projects
 ::::
 ::::GlobalParagraph
@@ -231,55 +229,68 @@ Infrastructure for automated seminar and webinar management. Including consent m
 Fondsfinanz - Automation Hub
 :::
 #button
-:::GlobalButton{:url="https://www.fondsfinanz.de/weiterbildung/online-angebot" :label="Contact us" :target="_blank"}
+:::GlobalButton{:url="https://www.fondsfinanz.de/weiterbildung/online-angebot" :label="Find out more" :target="_blank"}
 :::
 ::
 
 #card3
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/fondsfinanz.jpg", "alt": "fonds finanz"}' :image='{"src": "/img/global/slide/bildschirmfoto.jpg", "alt": "fonds finanz"}' :tags='["Django CMS", "Redis", "VueJS", "Docker", "Manage Kubernetes (AKS)", "Amazon Web Services", "Aurora DB", "Amazon S3", "RabbitMQ"]'}
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :image='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :tags='["Django", "Wagtail CMS", "Oscar", "Manage Kubernetes (GKE)", "Microservices", "Google Cloud", "Keycloak", "Cloud Build"]'}
 :::GlobalParagraph{:fontSize="text-lg"}
-Infrastructure for automated seminar and webinar management. Including consent management, connection to existing systems and interfaces to external applications such as Go2Webinar. Service based architecture running on top of Kubernetes
+Technical re-development of the website and implementation of a e-commerce backend for administration of the product catalogue for simple sample ordering, a product selector and a product configurator.
 :::
 #title
 :::GlobalTitle
-Fondsfinanz - Automation Hub
+Winter & Company
 :::
 #button
-:::GlobalButton{:url="https://www.fondsfinanz.de/weiterbildung/online-angebot" :label="Contact us" :target="_blank"}
+:::GlobalButton{:url="https://www.winter-company.com" :label="Find out more" :target="_blank"}
 :::
 ::
 
 #card4
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/fondsfinanz.jpg", "alt": "fonds finanz"}' :image='{"src": "/img/global/slide/bildschirmfoto.jpg", "alt": "fonds finanz"}' :tags='["Django CMS", "Redis", "VueJS", "Docker", "Manage Kubernetes (AKS)", "Amazon Web Services", "Aurora DB", "Amazon S3", "RabbitMQ"]'}
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/ofa-bamberg.jpg", "alt": "ofa bamberg"}' :image='{"src": "/img/global/slide/ofa-bamberg-foto.jpg", "alt": "ofa bamberg"}' :tags='["Kubernetes", "Microservices", "Django", "Hetzner", "Varnish", "PostgreSQL", "Solr"]'}
 :::GlobalParagraph{:fontSize="text-lg"}
-Infrastructure for automated seminar and webinar management. Including consent management, connection to existing systems and interfaces to external applications such as Go2Webinar. Service based architecture running on top of Kubernetes
+Kubernetes migration of the whole application landscape including the website, the retailer portal and the online shop resulting in a more secure and stable of the whole landscape.
 :::
 #title
 :::GlobalTitle
-Fondsfinanz - Automation Hub
+Ofa Bamberg
 :::
 #button
-:::GlobalButton{:url="https://www.fondsfinanz.de/weiterbildung/online-angebot" :label="Contact us" :target="_blank"}
+:::GlobalButton{:url="https://www.ofa-bamberg.com/en/" :label="Visit website" :target="_blank"}
 :::
 ::
 
 #card5
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/fondsfinanz.jpg", "alt": "fonds finanz"}' :image='{"src": "/img/global/slide/bildschirmfoto.jpg", "alt": "fonds finanz"}' :tags='["Django CMS", "Redis", "VueJS", "Docker", "Manage Kubernetes (AKS)", "Amazon Web Services", "Aurora DB", "Amazon S3", "RabbitMQ"]'}
+::GlobalSliderCard{:image='{"src": "/img/global/slide/nick-fewings.jpg", "alt": "nick fewings"}' :tags='["Cloud-native development"]'}
 :::GlobalParagraph{:fontSize="text-lg"}
-Infrastructure for automated seminar and webinar management. Including consent management, connection to existing systems and interfaces to external applications such as Go2Webinar. Service based architecture running on top of Kubernetes
+Pssst! We have already worked in the field of cloud-native for a well-known car manufacturer. For some other clients as well. If you want to know more, just give us a call!
 :::
 #title
 :::GlobalTitle
-Fondsfinanz - Automation Hub
+Secret Projects
 :::
 #button
-:::GlobalButton{:url="https://www.fondsfinanz.de/weiterbildung/online-angebot" :label="Contact us" :target="_blank"}
+:::GlobalButton{:url="/contact" :label="Contact us"}
 :::
 ::
 :::
 
-:::GlobalServicesNavigationCard
-
+:::GlobalPodcastSection
+::::GlobalPreTitle{:color="text-bs-green" .mb-3}
+OUR PODCAST
+::::
+::::GlobalTitle{.mb-6}
+TftC - E1: Kubernetes development environments
+::::
+::::globalParagraph{.mb-4}
+Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
+::::
+::::globalParagraph{.mb-4}
+More of our podcasts can be found here:
+::::
+::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::
 :::
 
 ::

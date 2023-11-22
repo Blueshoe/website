@@ -22,7 +22,7 @@
                   <slot :name="'card' + number" />
                 </div>
                 <div class="flex justify-center">
-                  <NuxtImg :src="images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
+                  <img :src="images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
                 </div>
               </div>
             </SwiperSlide>
@@ -30,7 +30,7 @@
         </div>
         <div class="hidden lg:grid lg:grid-cols-2">
           <div class="flex justify-center" :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']">
-            <NuxtImg :src="images[activeSlider].src" :alt="images[activeSlider].alt" class="max-w-[500px] w-full" />
+            <img :src="images[activeSlider].src" :alt="images[activeSlider].alt" class="max-w-[500px] w-full" />
           </div>
           <div class="flex flex-col relative" :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">
             <div

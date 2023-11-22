@@ -5,8 +5,8 @@
         <div>
           <slot />
         </div>
-        <div class="mt-8">
-          <slot v-if="isButton" name="button" />
+        <div v-if="isButton" class="mt-8">
+          <slot name="button" />
         </div>
       </div>
     </div>

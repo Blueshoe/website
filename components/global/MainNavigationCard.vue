@@ -1,5 +1,7 @@
 <template>
-  <div class="fixed z-10 -rotate-90 top-1/2 -left-[180px] transform -translate-y-1/2 bg-white rounded-full px-5">
+  <div
+    class="hidden lg:block fixed z-10 -rotate-90 top-1/2 -left-[180px] transform -translate-y-1/2 bg-white rounded-full px-5"
+  >
     <div class="flex gap-8">
       <div
         v-for="(heading, i) in headingListData.slice().reverse()"

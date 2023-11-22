@@ -13,7 +13,7 @@
 type Bg = 'bg-white' | 'bg-bs-blue' | 'bg-bs-gray';
 
 interface Props {
-  bg?: string;
+  bg?: Bg;
 }
 
 const props = withDefaults(defineProps<Props>(), {
