@@ -20,8 +20,8 @@
           <div class="text-base text-black font-normal px-6 py-2">{{ t('development') }}</div>
           <div class="grid grid-cols-2">
             <li
-              v-for="(child, i) in nav.children[0]"
-              :key="i"
+              v-for="(child, index) in nav.children[0]"
+              :key="index"
               class="font-source-sans-pro font-normal text-base py-2.5"
             >
               <NuxtLink :to="child.href">
@@ -37,8 +37,8 @@
           <div class="text-base text-black font-normal px-6 py-2">{{ t('consulting') }}</div>
           <div class="grid grid-cols-2">
             <li
-              v-for="(child, i) in nav.children[1]"
-              :key="i"
+              v-for="(child, index2) in nav.children[1]"
+              :key="index2"
               class="font-source-sans-pro font-normal text-base py-2.5"
             >
               <NuxtLink :to="child.href">
