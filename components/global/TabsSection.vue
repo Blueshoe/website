@@ -12,9 +12,9 @@
             <div
               v-for="(tab, index) in tabs"
               :key="index"
-              @click="selectTab(index)"
               class="text-lg font-normal leading-[26px] font-source-sans-pro uppercase text-center w-full md:w-fit rounded-full py-2 px-8"
               :class="activeTab === index ? 'bg-bs-green text-white' : 'text-gray-400'"
+              @click="selectTab(index)"
             >
               {{ tab.label }}
             </div>

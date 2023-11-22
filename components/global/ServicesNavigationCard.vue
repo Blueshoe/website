@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li v-for="(heading, i) in headings">{{ heading.title }}</li>
+      <li v-for="(heading, i) in headings" :key="i">{{ heading.title }}</li>
     </ul>
   </div>
 </template>
