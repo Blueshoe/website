@@ -6,7 +6,7 @@
           <img
             :src="image"
             :alt="alt"
-            class="mx-auto h-auto max-w-[360px] sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[500px] 2xl:max-w-[600px] w-full"
+            class="mx-auto h-auto max-w-[360px] sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full"
           />
         </div>
         <div :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">

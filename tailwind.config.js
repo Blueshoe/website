@@ -10,6 +10,12 @@ export default {
     './error.vue'
   ],
   theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px'
+    },
     extend: {
       colors: {
         'bs-green': 'rgb(99, 217, 182)',

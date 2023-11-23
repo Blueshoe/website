@@ -1,16 +1,17 @@
 <template>
   <div ref="refWrapperMain" class="relative">
-    <slot :data="headingListData" />
-    <ServicesNavigationCard :headings="headingListData" />
+    <slot />
   </div>
 </template>
 
 <script setup lang="ts">
-import type { Heading } from '~/types';
-import ServicesNavigationCard from '~/components/global/ServicesNavigationCard.vue';
+import { storeToRefs } from 'pinia';
+import { useGeneralStore } from '~/store';
+
+const generalStore = useGeneralStore();
+const { headingListData } = storeToRefs(generalStore);
 
 const refWrapperMain = ref<HTMLElement | null>(null);
-const headingListData = ref<Heading[]>([]);
 
 onMounted(() => {
   const headings = refWrapperMain.value.querySelectorAll('[data-title]');
