@@ -9,10 +9,15 @@
           <VideoPlayerModal>
             <template #modalTriggerElement="{ open }">
               <div @click="open">
-                <VideoPlayer :modal="true" :video-url="videoUrl" :video-id="id" :thumbnail-url="thumbnailUrl" />
+                <VideoPlayer
+                  :modal="true"
+                  :video-url="videoUrl"
+                  :video-id="props.videoId"
+                  :thumbnail-url="props.thumbnailUrl"
+                />
               </div>
             </template>
-            <VideoPlayer :modal="false" :video-url="videoUrl" :video-id="id" :thumbnail-url="thumbnailUrl" />
+            <VideoPlayer :modal="false" :video-url="videoUrl" :video-id="videoId" :thumbnail-url="props.thumbnailUrl" />
           </VideoPlayerModal>
         </div>
       </div>
@@ -26,10 +31,9 @@ import VideoPlayer from './VideoPlayer.vue';
 
 interface Props {
   bg?: 'bg-bs-gray' | 'bg-white';
-  id: number;
   videoId: string;
   videoPosition?: 'left' | 'right';
-  thumbnailUrl?: string;
+  thumbnailUrl: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {

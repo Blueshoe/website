@@ -276,7 +276,7 @@ Secret Projects
 ::
 :::
 
-:::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :id="1"}
+:::GlobalPodcastSection{:videoId="tyvE9VlSWkE"}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST
 ::::
