@@ -12,8 +12,8 @@ import Plyr from 'plyr';
 
 interface Props {
   videoUrl: string;
-  thumbnailUrl?: string;
-  videoId: number;
+  thumbnailUrl: string;
+  videoId: string;
   modal: boolean;
 }
 
@@ -59,8 +59,8 @@ const embedId = computed(() => {
 onMounted(() => {
   player.value = new Plyr(`#${playerId.value}`, {
     controls: controlsList.value,
-    muted: props.modal,
-    autoplay: props.modal
+    muted: props.modal
+    // autoplay: props.modal
     // fullscreen: { enabled: true, fallback: true, iosNative: true },
     // youtube: { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1 }
   });

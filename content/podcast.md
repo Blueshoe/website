@@ -13,7 +13,7 @@ If you find yourself lost in the perplexing labyrinth of Kubernetes development,
 :::
 ::
 
-::GlobalPodcastSection{:videoId="5wNTUUSk1jA" :videoPosition="right" :id="1"}
+::GlobalPodcastSection{:videoId="5wNTUUSk1jA" :videoPosition="right"}
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 TOOLS FOR THE CRAFT: NAVIGATING THE KUBERNETES ECOSYSTEM
 :::
@@ -31,7 +31,7 @@ This edition's subject: What is Getdeck and how does it work?
 :::
 ::
 
-::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="right" :bg="bg-white" :id="2"}
+::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="right" :bg="bg-white"}
 :::GlobalPreTitle{:color="text-bs-blue" .mb-3}
 TOOLS FOR THE CRAFT: NAVIGATING THE KUBERNETES ECOSYSTEM
 :::
@@ -48,7 +48,7 @@ This edition's subject: What can a remote Kubernetes development environment loo
 :::
 ::
 
-::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="right" :id="3"}
+::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="right"}
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 TOOLS FOR THE CRAFT: NAVIGATING THE KUBERNETES ECOSYSTEM
 :::
