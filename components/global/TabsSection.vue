@@ -7,12 +7,12 @@
         </div>
         <div class="flex flex-col">
           <div
-            class="flex flex-col items-center sm:flex-row bg-white rounded-3xl border-4 border-white shadow-md md:w-fit mb-8"
+            class="flex flex-col items-center sm:flex-row bg-white rounded-3xl border-4 border-white shadow-md lg:w-fit mb-8"
           >
             <div
               v-for="(tab, index) in tabs"
               :key="index"
-              class="text-lg font-normal leading-[26px] font-source-sans-pro uppercase text-center w-full md:w-fit rounded-full py-2 px-8"
+              class="text-lg font-normal leading-[26px] font-source-sans-pro uppercase text-center w-full lg:w-fit rounded-full py-2 px-8"
               :class="activeTab === index ? 'bg-bs-green text-white' : 'text-gray-400'"
               @click="selectTab(index)"
             >

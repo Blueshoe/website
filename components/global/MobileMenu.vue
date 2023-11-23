@@ -20,7 +20,7 @@
         class="text-base text-black font-normal cursor-pointer border-b-2 border-bs-menu-hover px-6 py-6"
         @click="isDropDownOpen = false"
       >
-        Zurück
+        Back
       </div>
       <div class="border-b-2 border-bs-menu-hover">
         <div class="text-base text-black font-normal px-6 py-2">{{ t('development') }}</div>

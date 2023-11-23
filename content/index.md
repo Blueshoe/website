@@ -1,6 +1,7 @@
 ---
 title: 'Homepage'
 description: 'What a lovely page.'
+
 head:
   meta:
     - name: 'keywords'

@@ -1,8 +1,10 @@
 <template>
-  <video v-if="!isYoutube" :id="playerId" playsinline :data-poster="thumbnailUrl">
-    <source :src="videoUrl" type="video/mp4" />
-  </video>
-  <div v-else :id="playerId" data-plyr-provider="youtube" :data-plyr-embed-id="embedId"></div>
+  <div>
+    <video v-if="!isYoutube" :id="playerId" playsinline :data-poster="thumbnailUrl">
+      <source :src="videoUrl" type="video/mp4" />
+    </video>
+    <div v-else :id="playerId" data-plyr-provider="youtube" :data-plyr-embed-id="embedId"></div>
+  </div>
 </template>
 
 <script setup lang="ts">

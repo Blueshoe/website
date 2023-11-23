@@ -2,7 +2,7 @@
 title: 'Services'
 ---
 
-::GlobalWrapperSections{:data="data"}
+::GlobalWrapperSections
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
 ::::GlobalTitle{.mb-6}
@@ -13,7 +13,7 @@ We live the cloud-first approach
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:headings="data"}
+:::GlobalServicesNavigationCard
 
 :::
 
@@ -41,7 +41,7 @@ For most organizations and applications, the public cloud is the solution of cho
 ::::
 :::
 
-:::GlobalSimpleSection{:bg="bg-white" :isButton=true data-title="Cloud-native application development vs. standard development"}
+:::GlobalSimpleSection{:bg="bg-white" :isButton=true data-title="Cloud-native development vs. standard development"}
 ::::GlobalTitle{.mb-6}
 Cloud-native application development vs. standard application development
 ::::
@@ -276,7 +276,7 @@ Secret Projects
 ::
 :::
 
-:::GlobalPodcastSection
+:::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :id="1"}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST
 ::::
