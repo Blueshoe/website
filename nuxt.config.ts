@@ -1,10 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  target: 'static',
   devtools: { enabled: true },
   css: ['@/assets/css/fonts.css', 'vue-final-modal/style.css'],
   modules: [
-    '@nuxtjs/tailwindcss',
     '@nuxt/content',
+    '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
     'nuxt-swiper',
     'nuxt-icon',
@@ -17,6 +18,11 @@ export default defineNuxtConfig({
     global: true,
     dirs: ['~/components']
   },
+  content: {
+    experimental: {
+      clientDb: true
+    }
+  },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config',
@@ -25,9 +31,6 @@ export default defineNuxtConfig({
     config: {},
     injectPosition: 'first',
     viewer: true
-  },
-  content: {
-    // ... options
   },
   i18n: {
     vueI18n: './translations/i18n.config.ts',
