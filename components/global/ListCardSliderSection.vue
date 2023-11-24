@@ -17,7 +17,7 @@
             }"
             :virtual="true"
           >
-            <SwiperSlide v-for="(number, i) in props.numberCards" :key="i" :virtual-index="i"
+            <SwiperSlide v-for="(number, i) in props.numberCards" :key="i" :virtual-index="i" class="mb-8"
               ><slot :name="'card' + number"
             /></SwiperSlide>
           </Swiper>

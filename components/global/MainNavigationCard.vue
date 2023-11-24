@@ -1,6 +1,7 @@
 <template>
   <div
-    class="hidden lg:block fixed z-10 -rotate-90 top-1/2 -left-[180px] transform -translate-y-1/2 bg-white rounded-full px-5"
+    class="hidden lg:block fixed z-10 -rotate-90 top-1/2 transform -translate-y-1/2 bg-white rounded-full navigation-card-shadow px-5"
+    :style="{ left: `${props.left}px` }"
   >
     <div class="flex gap-8">
       <div
@@ -22,6 +23,7 @@ import type { Heading } from '~/types';
 
 const props = defineProps<{
   headings: Heading[];
+  left: number;
 }>();
 
 const headingListData = ref(props.headings);

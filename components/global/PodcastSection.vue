@@ -33,7 +33,7 @@ interface Props {
   bg?: 'bg-bs-gray' | 'bg-white';
   videoId: string;
   videoPosition?: 'left' | 'right';
-  thumbnailUrl: string;
+  thumbnailUrl?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
