@@ -1,6 +1,7 @@
 @import 'swiper/css';
 @import 'swiper/css/pagination';
 @import './marquee.css';
+@import './sliderImage.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -41,5 +42,9 @@
 
   .slider-shadow {
     box-shadow: 0 0 15px rgb(0 0 0 / 0.6);
+  }
+
+  .navigation-card-shadow {
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
   }
 }

@@ -8,7 +8,7 @@
         <img v-if="logo" :src="logo.src" :alt="logo.alt" width="150" />
         <div class="h-1 bg-bs-blue mt-6"></div>
       </div>
-      <div class="mb-6 font-light font-medium font-source-sans-pro text-lg text-bs-blue">
+      <div class="mb-6 font-medium font-source-sans-pro text-lg text-bs-blue">
         <span v-for="(tag, i) in tags" :key="i">
           {{ tag }}
           <span v-if="tags?.length !== i + 1"> | </span>
@@ -18,8 +18,42 @@
         <ContentSlot unwrap="p"></ContentSlot>
       </div>
     </div>
-    <div v-if="image" class="hidden md:flex items-center justify-center p-4 lg:p-10 xl:p-20">
-      <img :src="image.src" :alt="image.alt" class="min-w-full" />
+    <div v-if="isImage" class="relative hidden md:flex items-center justify-center p-4 lg:p-10 xl:p-20">
+      <!--      <img :src="image.src" :alt="image.alt" class="min-w-full" />-->
+      <div v-if="desktopImage" class="desktop-scene">
+        <div class="cube">
+          <div
+            class="desktop-image"
+            :style="{
+              backgroundImage: `url(${desktopImage.src})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }"
+          ></div>
+          <div class="face face-front">
+            <div></div>
+          </div>
+          <div class="face face-right"></div>
+          <div class="face face-bottom"></div>
+        </div>
+      </div>
+      <div v-if="mobileImage" class="mobile-scene">
+        <div class="cube">
+          <div
+            class="desktop-image"
+            :style="{
+              backgroundImage: `url(${mobileImage.src})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }"
+          ></div>
+          <div class="face face-front">
+            <div></div>
+          </div>
+          <div class="face face-right"></div>
+          <div class="face face-bottom"></div>
+        </div>
+      </div>
     </div>
     <div>
       <slot name="button"></slot>
@@ -31,11 +65,14 @@
 interface Props {
   logo?: { src: string; alt: string };
   tags?: string[];
-  image?: { src: string; alt: string };
+  isImage?: boolean;
+  desktopImage?: { src: string; alt: string };
+  mobileImage?: { src: string; alt: string };
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  tags: () => []
+  tags: () => [],
+  isImage: true
 });
 </script>
 

@@ -25,7 +25,7 @@ Why do you need a cloud application development agency?
 As your cloud application development agency, we strongly believe in the benefits of cloud applications that enable you to make your applications more reliable, scalable and manageable - all while reducing overall costs. We see cloud applications as an opportunity that allows you to focus on your product, service or idea. Why spend your time on technical details that have already been solved and optimized by others? Instead, we help you to take full advantage of cloud applications.
 ::::
 #button
-::GlobalButton{:url="#" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
 ::
 :::
 
@@ -58,24 +58,24 @@ The advantages of cloud-native applications over standard applications are found
 Advantages of the cloud approach
 ::::
 #card1
-::GlobalTitle{:color="text-white" :size="lg" .mb-4 }
+::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4 }
 Cost Reduction:
 ::
-::GlobalParagraph{:fontSize="text-lg" :color="text-white"}
+::GlobalParagraph{:fontSize="lg" :color="text-white"}
 Especially when using public cloud providers, you only pay for what you use - basically you rent your infrastructure. Thus, cloud applications require minimal or no upfront investment in IT infrastructure. You are free of having to purchase and maintain any hardware related equipment. No servers, no administration, no power consumption, air conditioning, upgrades, defects or any operation related costs.
 ::
 #card2
-::GlobalTitle{:color="text-white" :size="lg" .mb-4}
+::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}
 Scalability:
 ::
-::GlobalParagraph{:fontSize="text-lg" :color="text-white"}
+::GlobalParagraph{:fontSize="lg" :color="text-white"}
 You can easily and fast scale your cloud applications up or down in response to changed user demand. Again, you can rely on your cloud provider to handle the infrastructure. You simply have to request more compute power, which often is available within minutes. It can even be possible to automatically scale your cloud applications depending on resource usage.
 ::
 #card3
-::GlobalTitle{:color="text-white" :size="lg" .mb-4}
+::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}
 Reliability:
 ::
-::GlobalParagraph{:fontSize="text-lg" :color="text-white"}
+::GlobalParagraph{:fontSize="lg" :color="text-white"}
 Cloud providers are experts in managing infrastructure. They have more cloud resources and expertise available than most companies. They achieve high reliability and uptime which would be hard to match by maintaining similar resources on-site.
 ::
 :::
@@ -85,17 +85,17 @@ Cloud providers are experts in managing infrastructure. They have more cloud res
 Advantages of cloud-native applications
 ::::
 #card1
-::GlobalTitle{:size="lg" .mb-4}
+::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Accessibility:
 ::
-::GlobalParagraph{:fontSize="text-lg"}
+::GlobalParagraph{:fontSize="lg"}
 Cloud applications can rely on computing power and storage capacity within the cloud. They can even be built to consume very little computing power and almost no storage space on a local device. Thus, you can provide cloud applications which might have resource requirements which are exceeding resources available by most users. All the heavy lifting is done remotely.
 ::
 #card2
-::GlobalTitle{:size="lg" .mb-4}
+::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Software updates:
 ::
-::GlobalParagraph{:fontSize="text-lg"}
+::GlobalParagraph{:fontSize="lg"}
 As cloud applications do not require local installations, they can be updated whenever you have new features or bug fixes. Hereby users might not even realize that you have rolled out a new verson, since they do not have to manually confirm updates or wait for them to finish. You can drastically increase the release cycle of your applications. Yes, you can release new versions several times a day.
 ::
 :::
@@ -164,10 +164,10 @@ Some of our articles that may also interest you...
 ::::
 #cards
 ::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 How does local development with Kubernetes work?
 :::
-:::GlobalParagraph{:fontSize="text-lg"}
+:::GlobalParagraph{:fontSize="lg"}
 By Robert Gutschale
 :::
 #title
@@ -175,10 +175,10 @@ Local K8s Development
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 A Kubernetes native stack created for django
 :::
-:::GlobalParagraph{:fontSize="text-lg"}
+:::GlobalParagraph{:fontSize="lg"}
 By Robert Gutschale
 :::
 #title
@@ -186,10 +186,10 @@ Django Hurricane
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/our-services/cloud-application-development/#"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Minikube vs. k3d vs. kind vs. Getdeck Beiboot
 :::
-:::GlobalParagraph{:fontSize="text-lg"}
+:::GlobalParagraph{:fontSize="lg"}
 By Michael Schilonka
 :::
 #title
@@ -206,8 +206,8 @@ Setting up our customer projects according to the cloud-native approach helps us
 ::::
 
 #card1
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/maurer-logo-kundenreferen.jpg", "alt": "maurer"}' :image='{"src": "/img/global/slide/maurer-login-kkundenreferenz.jpg", "alt": "maurer"}' :tags='["Manage Kubernetes (AKS)", "Azure", "Harbor", "Keycloak", "Django", "Azure Active Directory"]'}
-:::GlobalParagraph{:fontSize="text-lg"}
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/maurer-logo-kundenreferen.jpg", "alt": "maurer"}' :desktopImage='{"src": "/img/global/slide/maurer-login-kkundenreferenz.jpg", "alt": "maurer"}' :tags='["Manage Kubernetes (AKS)", "Azure", "Harbor", "Keycloak", "Django", "Azure Active Directory"]'}
+:::GlobalParagraph{:fontSize="lg"}
 Building of Kubernetes platform with a staging and a production environment. Installation of a central login and of required support applications to enable internal and external development teams to deliver highly specialized software products.
 :::
 #title
@@ -220,8 +220,8 @@ Maurer
 ::
 
 #card2
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/fondsfinanz.jpg", "alt": "fonds finanz"}' :image='{"src": "/img/global/slide/bildschirmfoto.jpg", "alt": "fonds finanz"}' :tags='["Django CMS", "Redis", "VueJS", "Docker", "Manage Kubernetes (AKS)", "Amazon Web Services", "Aurora DB", "Amazon S3", "RabbitMQ"]'}
-:::GlobalParagraph{:fontSize="text-lg"}
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/fondsfinanz.jpg", "alt": "fonds finanz"}' :desktopImage='{"src": "/img/global/slide/bildschirmfoto.jpg", "alt": "fonds finanz"}' :tags='["Django CMS", "Redis", "VueJS", "Docker", "Manage Kubernetes (AKS)", "Amazon Web Services", "Aurora DB", "Amazon S3", "RabbitMQ"]'}
+:::GlobalParagraph{:fontSize="lg"}
 Infrastructure for automated seminar and webinar management. Including consent management, connection to existing systems and interfaces to external applications such as Go2Webinar. Service based architecture running on top of Kubernetes
 :::
 #title
@@ -234,8 +234,8 @@ Fondsfinanz - Automation Hub
 ::
 
 #card3
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :image='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :tags='["Django", "Wagtail CMS", "Oscar", "Manage Kubernetes (GKE)", "Microservices", "Google Cloud", "Keycloak", "Cloud Build"]'}
-:::GlobalParagraph{:fontSize="text-lg"}
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :desktopImage='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :mobileImage='{"src": "/img/global/slide/wintercompany_mobile.jpg", "alt": "winter&company"}' :tags='["Django", "Wagtail CMS", "Oscar", "Manage Kubernetes (GKE)", "Microservices", "Google Cloud", "Keycloak", "Cloud Build"]'}
+:::GlobalParagraph{:fontSize="lg"}
 Technical re-development of the website and implementation of a e-commerce backend for administration of the product catalogue for simple sample ordering, a product selector and a product configurator.
 :::
 #title
@@ -248,8 +248,8 @@ Winter & Company
 ::
 
 #card4
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/ofa-bamberg.jpg", "alt": "ofa bamberg"}' :image='{"src": "/img/global/slide/ofa-bamberg-foto.jpg", "alt": "ofa bamberg"}' :tags='["Kubernetes", "Microservices", "Django", "Hetzner", "Varnish", "PostgreSQL", "Solr"]'}
-:::GlobalParagraph{:fontSize="text-lg"}
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/ofa-bamberg.jpg", "alt": "ofa bamberg"}' :desktopImage='{"src": "/img/global/slide/ofa-bamberg-foto.jpg", "alt": "ofa bamberg"}' :mobileImage='{"src": "/img/global/slide/ofa-bamberg-mobile.jpg", "alt": "ofa bamberg"}' :tags='["Kubernetes", "Microservices", "Django", "Hetzner", "Varnish", "PostgreSQL", "Solr"]'}
+:::GlobalParagraph{:fontSize="lg"}
 Kubernetes migration of the whole application landscape including the website, the retailer portal and the online shop resulting in a more secure and stable of the whole landscape.
 :::
 #title
@@ -262,8 +262,8 @@ Ofa Bamberg
 ::
 
 #card5
-::GlobalSliderCard{:image='{"src": "/img/global/slide/nick-fewings.jpg", "alt": "nick fewings"}' :tags='["Cloud-native development"]'}
-:::GlobalParagraph{:fontSize="text-lg"}
+::GlobalSliderCard{:desktopImage='{"src": "/img/global/slide/nick-fewings.jpg", "alt": "nick fewings"}' :tags='["Cloud-native development"]'}
+:::GlobalParagraph{:fontSize="lg"}
 Pssst! We have already worked in the field of cloud-native for a well-known car manufacturer. For some other clients as well. If you want to know more, just give us a call!
 :::
 #title

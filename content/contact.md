@@ -1,17 +1,26 @@
-contact
+---
+title: 'Services'
+---
 
-1. Section 1
-    - Title (40,200,48,Oswald, sans-serif)
-    - Text (20,200,32,"Source Sans Pro", sans-serif)
-    - Text (20,200,32,"Source Sans Pro", sans-serif)
-    - Button
-2. Section 2
-    - Title (40,200,48,Oswald, sans-serif)
-    - Text (20,200,32,"Source Sans Pro", sans-serif)
-    - Text (20,200,32,"Source Sans Pro", sans-serif)
-3. Section 3
-    - Title (40,200,48,Oswald, sans-serif)
-    - Text (20,200,32,"Source Sans Pro", sans-serif)
-    - Text (20,200,32,"Source Sans Pro", sans-serif)
+::GlobalSectionWithImage{:image="/img/contact/blue_shoes-61.jpg" :alt="blue shoes" :imagePosition="left" :isButton=true :bg="bg-bs-blue"}
+:::GlobalContactCard{:title="Project enquiries" :tel="+498954198422" :email="projekt@blueshoe.de" :color="text-white" :isButton=true}
+
+#button
+::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :color="green" :target="_blank"}
+::
+:::
+::
+
+::GlobalSectionWithImage{:image="/img/contact/contact-header.jpg" :alt="blue shoes" :imagePosition="right" :isButton=true :bg="bg-white"}
+:::GlobalContactCard{:title="General enquiries" :tel="+4989954594230" :email="hello@blueshoe.io" :color="text-bs-text"}
+:::
+::
+
+::GlobalSectionWithImage{:image="/img/contact/blue_shoes-28.jpg" :alt="blue shoes" :imagePosition="left" :isButton=true :bg="bg-bs-green"}
+
+:::GlobalContactCard{:title="Jobs and career" :tel="+4989954594230" :email="jobs@blueshoe.de" :color="text-white"}
+
+:::
+::
 
 

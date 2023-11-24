@@ -18,10 +18,10 @@ We love Open Source software. In most of our projects we using Open Source compo
 
 #cards
 ::GlobalSmallCardWithImage{:src="/img/global/icons/vertical_for_white_bg.svg" :href="https://getdeck.dev/"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Virtual clusters for development and testing
 :::
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Create ad-hoc clusters in mere seconds. Save your state, tear the cluster down and reload it as you please. It's the future of K8s development.
 :::
 #title
@@ -29,10 +29,10 @@ Getdeck
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/gefyra.svg" :href="https://gefyra.dev/"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Local Kubernetes development made easy
 :::
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Enable blazingly fast rock solid local Kubernetes development. No more custom docker-compose setups.
 :::
 #title
@@ -40,10 +40,10 @@ Gefyra
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/unikube-logo.svg" :href="https://unikube.io/"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Streamlining K8s development processes
 :::
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Unikube is the all-in-one tool for making true cloud native development easy and accessible. No expert knowledge needed.
 :::
 #title
@@ -51,7 +51,7 @@ Unikube
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="https://unikube.io/"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 Fit Django perfectly with K8s
 :::
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
@@ -62,10 +62,10 @@ Django Hurricane
 ::
 
 ::GlobalSmallCardWithImage{:href="https://github.com/Blueshoe/pycloak"}
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 A Python package for Keycloak
 :::
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 This project contains utilities for django to support Social Login providers such as Keycloak.
 :::
 #title
