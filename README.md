@@ -44,14 +44,32 @@ Build the application for production:
 
 ```bash
 # npm
-npm run generate
+npm run build
 
 # pnpm
-pnpm run generate
+pnpm run build
 
 # yarn
-yarn generate
+yarn build
 
 # bun
-bun run generate
+bun run build
 ```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

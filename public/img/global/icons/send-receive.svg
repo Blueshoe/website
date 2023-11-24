@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-send-1,
+      .cls-send-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-send-1 {
+        stroke: #63d9b6;
+      }
+
+      .cls-send-2 {
+        stroke: #fff;
+      }
+
+    </style>
+  </defs>
+  <path class="cls-send-1" d="M167,293.22l-14.64,14.64a10.74,10.74,0,0,1-18.33-7.59V278.2a36.92,36.92,0,0,1-36.92-36.92V166.59a36.92,36.92,0,0,1,36.92-36.92h162A36.92,36.92,0,0,1,333,166.59V189" />
+  <path class="cls-send-2" d="M365.94,189h-162A36.92,36.92,0,0,0,167,225.89v74.7a36.91,36.91,0,0,0,36.91,36.91H318l29.65,29.66a10.73,10.73,0,0,0,18.33-7.59V337.5a36.91,36.91,0,0,0,36.92-36.91v-74.7A36.92,36.92,0,0,0,365.94,189Z" />
+  <circle class="cls-send-2" cx="226.75" cy="263.24" r="20.41" />
+  <circle class="cls-send-2" cx="284.94" cy="263.24" r="20.41" />
+  <circle class="cls-send-2" cx="343.14" cy="263.24" r="20.41" />
+</svg>
