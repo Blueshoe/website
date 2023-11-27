@@ -5,12 +5,11 @@
         <div>
           <slot />
         </div>
-        <div class="block md:hidden">
+        <div class="block md:hidden mb-2">
           <Swiper
             :modules="[SwiperPagination, SwiperVirtual]"
             :slides-per-view="1"
             :allow-touch-move="true"
-            :loop="true"
             :pagination="{
               clickable: true,
               type: 'bullets'
@@ -22,8 +21,11 @@
             /></SwiperSlide>
           </Swiper>
         </div>
-        <div class="hidden md:grid md:grid-cols-2">
+        <div class="hidden md:grid md:grid-cols-2 mb-2">
           <div v-for="(number, i) in props.numberCards" :key="i"><slot :name="'card' + number" /></div>
+        </div>
+        <div v-if="isButton">
+          <slot name="button" />
         </div>
       </div>
     </div>
@@ -34,10 +36,12 @@
 interface Props {
   bg?: 'bg-bs-gray' | 'bg-white';
   numberCards: number;
+  isButton?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  bg: 'bg-bs-gray'
+  bg: 'bg-bs-gray',
+  isButton: false
 });
 </script>
 

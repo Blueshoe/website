@@ -5,7 +5,7 @@ title: 'Services'
 ::GlobalWrapperSections
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
-::::GlobalTitle{.mb-6}
+::::GlobalPageTitle{.mb-6}
 Cloud application development
 ::::
 ::::globalParagraph
@@ -158,42 +158,46 @@ Overall, we see the cloud-native approach as an optimal way to develop, customiz
 ::
 :::
 
-:::GlobalSmallCardWithImageSection
+:::GlobalSmallCardWithImageSection{:numberCards=3}
 ::::GlobalTitle{.mb-6}
-Some of our articles that may also interest you...
+Some of our articles that may also interest you
 ::::
 #cards
 ::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 How does local development with Kubernetes work?
 :::
-:::GlobalParagraph{:fontSize="lg"}
+:::GlobalParagraph{:fontSize="lg" .leading-6}
 By Robert Gutschale
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Local K8s Development
+:::
 ::
-
 ::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 A Kubernetes native stack created for django
 :::
-:::GlobalParagraph{:fontSize="lg"}
+:::GlobalParagraph{:fontSize="lg" .leading-6}
 By Robert Gutschale
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Django Hurricane
+:::
 ::
-
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/our-services/cloud-application-development/#"}
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/our-services/cloud-application-development"}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Minikube vs. k3d vs. kind vs. Getdeck Beiboot
 :::
-:::GlobalParagraph{:fontSize="lg"}
+:::GlobalParagraph{:fontSize="lg" .leading-6}
 By Michael Schilonka
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 K8s Development Tools
+:::
 ::
 :::
 
