@@ -7,29 +7,23 @@
     </div>
 
     <GlobalFooter />
+    <div class="hidden">
+      <a v-for="(link, i) in servicesData" :key="i" :href="link._path">{{ link._id }}</a>
+      <a v-for="(link, i) in blogssData" :key="i" :href="link._path">{{ link._id }}</a>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
-console.log(services.value);
-
-const servicesData = []
-for (let i = 0; i < services.value.length; i++) {
-  const data = await useAsyncData(`services ${i}`, () => queryContent(services.value[i]._path).find());
-  servicesData.push(data);
-}
+const servicesData = ref(services.value);
 
 const tools = await useAsyncData('tools', () => queryContent('/products').findOne());
 const podcast = await useAsyncData('podcast', () => queryContent('/podcast').findOne());
 const aboutUS = await useAsyncData('aboutUs', () => queryContent('/about-us').findOne());
 
-const blogsData = []
-const { data: blogs } = await useAsyncData('blog', () => queryContent('/blog').find());
-for (let i = 0; i < blogs.value.length; i++) {
-  const data = await useAsyncData(`blog ${i}`, () => queryContent(blogs.value[i]._path).find());
-  blogsData.push(data);
-}
+const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
+const blogssData = ref(blogs.value);
 
 const contacts = await useAsyncData('contacts', () => queryContent('/contact').findOne());
 </script>
