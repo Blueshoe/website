@@ -5,12 +5,11 @@
         <div class="mb-12">
           <slot />
         </div>
-        <div class="block z-0 slider-shadow relative lg:mx-5">
+        <div class="block z-0 slider-shadow relative lg:mx-5" :class="bgSlider">
           <Swiper
             :modules="[SwiperNavigation, SwiperVirtual]"
             :slides-per-view="1"
             :allow-touch-move="true"
-            :loop="true"
             :virtual="true"
             :navigation="{
               prevEl: '.swiper-button-prev',
@@ -34,11 +33,13 @@
 <script setup lang="ts">
 interface Props {
   bg?: 'bg-bs-blue' | 'bg-white';
+  bgSlider?: 'bg-white';
   numberCards: number;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  bg: 'bg-white'
+  bg: 'bg-white',
+  bgSlider: 'bg-white'
 });
 </script>
 

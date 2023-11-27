@@ -40,10 +40,8 @@ onMounted(() => {
         const title = entry.target.getAttribute('data-title');
         headingListData.value.forEach((obj) => {
           if (obj.title === title) {
-            console.log(1, obj.title);
             obj.active = true;
           } else {
-            console.log(2, obj.title);
             obj.active = false;
           }
         });

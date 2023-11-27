@@ -9,6 +9,9 @@
       class="absolute z-10 left-1/2 transform -translate-x-1/2 bottom-12 lg:bottom-9 bg-white w-[80%] sm:w-[60%] md:w-[575px] lg:w-[775px] xl:w-[925px] md:h-auto border-t-[6px] border-t-bs-green px-4 pt-2 pb-12 md:pb-4 overflow-hidden transition-all duration-500"
       :class="[isMinimizedMenu ? 'h-[180px]' : 'h-auto']"
     >
+      <h3 v-if="title" class="text-[20px] leading-[26px] text-bs-text font-oswald font-extralight pl-5 mb-3">
+        {{ title }}
+      </h3>
       <ClientOnly>
         <ul ref="refNavigationList" class="md:grid md:grid-cols-2">
           <li
@@ -46,6 +49,7 @@ import { scrollToElement } from '~/utils/scrollHelpers';
 
 interface Props {
   bg?: 'bg-bs-green' | 'bg-bs-blue' | 'bg-white';
+  title?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
