@@ -7,7 +7,7 @@
 <script setup lang="ts">
 type Color = 'text-bs-text' | 'text-bs-blue' | 'text-bs-green' | 'text-white';
 type Font = 'font-oswald' | 'font-source-sans-pro';
-type Size = 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+type Size = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
 
 interface Props {
   color?: Color;
@@ -26,6 +26,9 @@ const props = withDefaults(defineProps<Props>(), {
 const text = ref('');
 
 switch (props.size) {
+  case 'xs':
+    text.value = 'text-[20px] leading-[26px]';
+    break;
   case 'sm':
     text.value = 'text-[24px] leading-[28px]';
     break;

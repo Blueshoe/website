@@ -35,7 +35,7 @@ Precise. Pragmatic. Professional.
 :::
 
 
-:::GlobalSmallCardWithImageSection{data-title="Services" :bg="bg-bs-blue"}
+:::GlobalSmallCardWithImageSection{data-title="Services" :bg="bg-bs-blue" :numberCards=3}
 ::::GlobalTitle{:color="text-white" .text-center .mb-6}
 Your cloud native software development agency
 ::::
@@ -48,36 +48,42 @@ Here is what we do
 #cards
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/cloud-storage.svg" :href="/our-services/cloud-application-development"}
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Modern application development for the cloud
 :::
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 We build individual and potentially complex software products for you, that run in the cloud on top of Kubernetes.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Cloud Development
+:::
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/consulting_1.svg" :href="/our-services/cloud-native-consulting"}
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 We help you figure out solutions
 :::
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 We help you figure out how to approach cloud native development and all the complexity that can come with service architectures and Kubernetes.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Cloud Consulting
+:::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="#"}
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="/products"}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Giving back to the community
 :::
-:::GlobalParagraph{:fontSize="lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 We develop Open Source products to make cloud native development more approachable for developers.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Open Source Products
+:::
 ::
 :::
 

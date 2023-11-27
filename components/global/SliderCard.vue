@@ -1,5 +1,5 @@
 <template>
-  <div class="md:grid md:grid-cols-2 px-11 pt-11">
+  <div class="md:grid md:grid-cols-2 px-11 pt-11" :class="bg">
     <div>
       <div class="mb-6">
         <slot name="title"></slot>
@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div v-if="isButton">
       <slot name="button"></slot>
     </div>
   </div>
@@ -63,16 +63,20 @@
 
 <script setup lang="ts">
 interface Props {
+  bg?: 'bg-white';
   logo?: { src: string; alt: string };
   tags?: string[];
   isImage?: boolean;
+  isButton?: boolean;
   desktopImage?: { src: string; alt: string };
   mobileImage?: { src: string; alt: string };
 }
 
 const props = withDefaults(defineProps<Props>(), {
   tags: () => [],
-  isImage: true
+  isImage: true,
+  isButton: true,
+  bg: 'bg-white'
 });
 </script>
 

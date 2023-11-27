@@ -14,7 +14,7 @@ We love Open Source software. In most of our projects we using Open Source compo
 :::
 ::
 
-::GlobalSmallCardWithImageSection{:isMainSlot=false :bg="bg-bs-blue"}
+::GlobalSmallCardWithImageSection{:isMainSlot=false :numberCards=5 :bg="bg-bs-blue"}
 
 #cards
 ::GlobalSmallCardWithImage{:src="/img/global/icons/vertical_for_white_bg.svg" :href="https://getdeck.dev/"}
@@ -25,7 +25,9 @@ Virtual clusters for development and testing
 Create ad-hoc clusters in mere seconds. Save your state, tear the cluster down and reload it as you please. It's the future of K8s development.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Getdeck
+:::
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/gefyra.svg" :href="https://gefyra.dev/"}
@@ -36,7 +38,9 @@ Local Kubernetes development made easy
 Enable blazingly fast rock solid local Kubernetes development. No more custom docker-compose setups.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Gefyra
+:::
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/unikube-logo.svg" :href="https://unikube.io/"}
@@ -47,7 +51,9 @@ Streamlining K8s development processes
 Unikube is the all-in-one tool for making true cloud native development easy and accessible. No expert knowledge needed.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Unikube
+:::
 ::
 
 ::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="https://unikube.io/"}
@@ -58,7 +64,9 @@ Fit Django perfectly with K8s
 A Kubernetes Native Stack specifically created For Django. Run Django in a Cloud Native environment, including a Tornado-powered app server.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 Django Hurricane
+:::
 ::
 
 ::GlobalSmallCardWithImage{:href="https://github.com/Blueshoe/pycloak"}
@@ -69,6 +77,8 @@ A Python package for Keycloak
 This project contains utilities for django to support Social Login providers such as Keycloak.
 :::
 #title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
 PyCloak
+:::
 ::
 ::

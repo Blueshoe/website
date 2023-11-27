@@ -29,6 +29,10 @@ onMounted(() => {
     }
   }
 });
+
+onBeforeUnmount(() => {
+  headingListData.value = [];
+});
 </script>
 
 <style scoped></style>
