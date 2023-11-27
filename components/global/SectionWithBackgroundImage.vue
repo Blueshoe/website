@@ -1,7 +1,9 @@
 <template>
   <div class="bg-bs-gray py-10">
     <div class="bs-container relative">
-      <div class="px-2 sm:w-[540px] sm:mx-auto md:w-[700px] xl:w-[330px] lg:mx-0 lg:absolute lg:left-0 lg:top-0">
+      <div
+        class="px-2 sm:w-[540px] sm:mx-auto md:w-[700px] lg:w-[500px] xl:w-[450px] lg:mx-0 lg:absolute lg:left-0 lg:top-0"
+      >
         <slot />
       </div>
     </div>

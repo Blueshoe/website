@@ -1,12 +1,12 @@
 <template>
-  <div class="font-light leading-[26px] font-source-sans-pro" :class="[color, fontSize]">
+  <div class="font-light font-source-sans-pro" :class="[color, size]">
     <ContentSlot unwrap="div" />
   </div>
 </template>
 
 <script setup lang="ts">
 type Color = 'text-bs-text' | 'text-white';
-type FontSize = 'text-lg' | 'text-xl';
+type FontSize = 'lg' | 'xl';
 interface Props {
   color?: Color;
   fontSize?: FontSize;
@@ -14,6 +14,17 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   color: 'text-bs-text',
-  fontSize: 'text-xl'
+  fontSize: 'xl'
 });
+
+const size = ref('');
+
+switch (props.fontSize) {
+  case 'lg':
+    size.value = 'text-lg';
+    break;
+  case 'xl':
+    size.value = 'text-xl';
+    break;
+}
 </script>
