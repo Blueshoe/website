@@ -37,16 +37,18 @@ interface Props {
   bg?: 'bg-bs-gray' | 'bg-white';
   numberCards: number;
   isButton?: boolean;
+  dotColor?: 'white' | 'black';
 }
 
 const props = withDefaults(defineProps<Props>(), {
   bg: 'bg-bs-gray',
-  isButton: false
+  isButton: false,
+  dotColor: 'white'
 });
 </script>
 
 <style>
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #000;
+  background: v-bind(dotColor) !important;
 }
 </style>

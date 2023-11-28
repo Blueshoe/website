@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 interface Props {
-  bg?: 'bg-bs-blue' | 'bg-white';
+  bg?: 'bg-bs-blue' | 'bg-white' | 'bg-bs-gray';
   bgSlider?: 'bg-white';
   numberCards: number;
 }

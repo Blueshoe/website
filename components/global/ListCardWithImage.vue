@@ -1,6 +1,6 @@
 <template>
   <div class="mb-6 md:mr-6">
-    <div><img :src="src" width="100" /></div>
+    <div v-if="src"><img :src="src" width="100" /></div>
     <div>
       <slot />
     </div>
@@ -9,10 +9,12 @@
 
 <script setup lang="ts">
 interface Props {
-  src: string;
+  src?: string;
 }
 
-const props = withDefaults(defineProps<Props>(), {});
+const props = withDefaults(defineProps<Props>(), {
+  src: ''
+});
 </script>
 
 <style scoped></style>
