@@ -80,7 +80,7 @@ Cloud providers are experts in managing infrastructure. They have more cloud res
 ::
 :::
 
-:::GlobalSliderWithImageSection{:numberCards=2 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' data-title="Advantages of cloud-native applications"}
+:::GlobalSliderWithImageSection{:numberCards=2 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="Advantages of cloud-native applications"}
 ::::GlobalTitle{.mb-6}
 Advantages of cloud-native applications
 ::::
@@ -187,7 +187,7 @@ By Robert Gutschale
 Django Hurricane
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/our-services/cloud-application-development"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Minikube vs. k3d vs. kind vs. Getdeck Beiboot
 :::

@@ -88,7 +88,7 @@ Open Source Products
 :::
 
 
-:::GlobalListCardSliderSection{:bg="bg-bs-gray" :numberCards=4 data-title="Kubernetes"}
+:::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=4 data-title="Kubernetes"}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR SERVICES
 ::::

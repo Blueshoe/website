@@ -4,7 +4,7 @@ title: 'Headless e-commerce'
 
 ::GlobalWrapperSections
 
-:::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
+:::GlobalSectionWithBackgroundImage{:src="/img/services/headless_commerce.svg"}
 ::::GlobalPageTitle{.mb-6}
 Individual headless e-commerce systems
 ::::

@@ -58,11 +58,13 @@ interface Props {
   numberCards: number;
   images: { src: string; alt: string }[];
   imagePosition?: 'left' | 'right';
+  dotColor?: 'white' | 'black';
 }
 
 const props = withDefaults(defineProps<Props>(), {
   bg: 'bg-bs-blue',
-  imagePosition: 'left'
+  imagePosition: 'left',
+  dotColor: 'white'
 });
 
 const activeSlider = ref(0);
@@ -76,6 +78,6 @@ function handleSlider(i: number) {
 
 <style>
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #fff;
+  background: v-bind(dotColor) !important;
 }
 </style>
