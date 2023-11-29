@@ -23,7 +23,7 @@ CLOUD NATIVE SOFTWARE DEVELOPMENT & CONSULTING
 We are Blueshoe
 ::::
 ::::GlobalParagraph{.mb-6}
-We are your reliable partner for the implementation of cloud native software, websites, platforms, apps, PWAs and online shops built on top of Kubernetes.
+We are your reliable partner for the implementation of cloud-native software, websites, platforms, apps, PWAs and online shops built on top of Kubernetes.
 ::::
 ::::GlobalParagraph
 Precise. Pragmatic. Professional.
