@@ -2,19 +2,19 @@
   <div :class="bg">
     <div class="bs-container">
       <div class="flex flex-col sm:grid sm:grid-cols-2 py-10 px-4 lg:px-0">
-        <div :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']" class="">
+        <div :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']" class="mb-8">
           <img
             :src="image"
             :alt="alt"
-            class="mx-auto h-auto max-w-[360px] sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full"
+            class="mx-auto h-auto max-w-full sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full"
           />
         </div>
-        <div :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">
+        <div :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']" class="">
           <div>
             <slot />
           </div>
-          <div class="mt-8">
-            <slot v-if="isButton" name="button" />
+          <div v-if="isButton" class="mt-8">
+            <slot name="button" />
           </div>
         </div>
       </div>

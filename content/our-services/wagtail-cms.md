@@ -17,7 +17,7 @@ What do Google, NASA and BMW have in common? The Wagtail CMS!
 
 :::
 
-:::GlobalListCardSliderSection{:bg="bg-white" :numberCards=2 data-title="Benefits of Wagtail CMS"}
+:::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=2 data-title="Benefits of Wagtail CMS"}
 ::::GlobalPreTitle{:color="text-bs-blue" .mb-3}
 HEADLESS IS SIMPLY FUN
 ::::
@@ -44,7 +44,7 @@ Wagtail is just as attractive to developers as it is to authors. What’s more, 
 ::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/wagtail_cms_2.jpg" :alt="wagtail cms" :bg="bg-bs-blue" :imagePosition="left" :isButton=false data-title="Why we love Wagtail CMS"}
+:::GlobalSectionWithIcon{:image="/img/services/wagtail_cms_2.jpg" :alt="wagtail cms" :bg="bg-bs-blue" :imagePosition="left" :isButton=false data-title="Why we love Wagtail CMS"}
 ::::GlobalTitle{:color="text-white" .mb-6}
 That’s why we love Wagtail CMS
 ::::
@@ -103,7 +103,7 @@ Frontend error Handling
 ::
 :::
 
-:::GlobalListCardSliderSection{:bg="bg-white" :numberCards=2 :isButton=true data-title="Why is Blueshoe your expert for Wagtail CMS?"}
+:::GlobalListCardSliderSection{:bg="bg-white" :numberCards=2 :dotColor="black" :isButton=true data-title="Why is Blueshoe your expert for Wagtail CMS?"}
 ::::GlobalTitle{.mb-6}
 Why is Blueshoe your expert for Wagtail CMS?
 ::::

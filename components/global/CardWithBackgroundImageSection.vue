@@ -1,9 +1,10 @@
 <template>
   <div
     :style="{
-      backgroundImage: `url(${src})`,
+      backgroundImage: `linear-gradient(black, black), url(${src})`,
       backgroundSize: 'cover',
-      backgroundPosition: 'center'
+      backgroundPosition: 'left top',
+      backgroundBlendMode: 'saturation'
     }"
   >
     <div class="bs-container py-10 px-8">

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full lg:grid lg:grid-cols-2">
     <div class="lg:order-2 flex justify-center items-center mb-8">
-      <img :src="image" class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px]" />
+      <img :src="image" class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px] w-full" />
     </div>
     <div>
       <div

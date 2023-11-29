@@ -21,7 +21,10 @@
             /></SwiperSlide>
           </Swiper>
         </div>
-        <div class="hidden md:grid md:grid-cols-2 mb-2">
+        <div
+          class="hidden md:grid md:grid-cols-2 mb-2"
+          :class="{ 'lg:grid-cols-3': props.numberCards > 2 && props.numberCards !== 4 }"
+        >
           <div v-for="(number, i) in props.numberCards" :key="i"><slot :name="'card' + number" /></div>
         </div>
         <div v-if="isButton">
@@ -37,16 +40,18 @@ interface Props {
   bg?: 'bg-bs-gray' | 'bg-white';
   numberCards: number;
   isButton?: boolean;
+  dotColor?: 'white' | 'black';
 }
 
 const props = withDefaults(defineProps<Props>(), {
   bg: 'bg-bs-gray',
-  isButton: false
+  isButton: false,
+  dotColor: 'white'
 });
 </script>
 
 <style>
-.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #000;
+.swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: v-bind(dotColor) !important;
 }
 </style>
