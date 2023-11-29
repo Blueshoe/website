@@ -91,12 +91,59 @@ export const useGeneralStore = defineStore('general', () => {
     { name: 'podcast', href: '/podcast', dropDown: false },
     { name: 'aboutUs', href: '/about-us', dropDown: false },
     { name: 'blog', href: '/blog', dropDown: false },
-    { name: 'contactUs', href: '/contact', dropDown: false },
-    { name: 'UI-Kit', href: '/ui-kit', dropDown: false }
+    { name: 'contactUs', href: '/contact', dropDown: false }
+  ]);
+
+  const authors = ref([
+    { name: 'Robert Gutschale', isSelected: false },
+    { name: 'Victor Studenyak', isSelected: false },
+    { name: 'Robert Stein', isSelected: false },
+    { name: 'Michael Schilonka', isSelected: false },
+    { name: 'Tobias Frölich', isSelected: false },
+    { name: 'Hannes Hanusch', isSelected: false },
+    { name: 'Tina Söll', isSelected: false }
+  ]);
+
+  const technology = ref([
+    { name: 'Helm', isSelected: false },
+    { name: 'Kubernetes', isSelected: false },
+    { name: 'Argo CD', isSelected: false },
+    { name: 'Unikube', isSelected: false },
+    { name: 'Docker', isSelected: false },
+    { name: 'Telepresence', isSelected: false },
+    { name: 'K3D', isSelected: false },
+    { name: 'Django', isSelected: false },
+    { name: 'Python', isSelected: false },
+    { name: 'Gefyra', isSelected: false },
+    { name: 'Vue JS', isSelected: false },
+    { name: 'Grafana', isSelected: false },
+    { name: 'Loki', isSelected: false },
+    { name: 'Promtail', isSelected: false }
+  ]);
+
+  const productUpdates = ref([
+    { name: 'Gefyra', isSelected: false },
+    { name: 'Getdeck', isSelected: false },
+    { name: 'Hurricane', isSelected: false },
+    { name: 'Unikube', isSelected: false }
+  ]);
+
+  const topic = ref([
+    { name: 'Project management', isSelected: false },
+    { name: 'Development', isSelected: false },
+    { name: 'Operation', isSelected: false }
+  ]);
+
+  const filters = ref([
+    { label: 'Author', items: authors, isOpen: false },
+    { label: 'Technology', items: technology, isOpen: false },
+    { label: 'Product Updates', items: productUpdates, isOpen: false },
+    { label: 'Topic', items: topic, isOpen: false }
   ]);
 
   return {
     menu,
-    headingListData
+    headingListData,
+    filters
   };
 });

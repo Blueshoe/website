@@ -36,6 +36,10 @@
     @apply list-disc pl-6;
   }
 
+  .ol-decimal ol {
+    @apply list-decimal pl-6;
+  }
+
   .slider-with-image-shadow {
     box-shadow: 0 3px 35px rgb(0 0 0 / 0.2);
   }

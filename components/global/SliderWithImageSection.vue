@@ -77,7 +77,7 @@ function handleSlider(i: number) {
 </script>
 
 <style>
-.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: v-bind(dotColor) !important;
 }
 </style>

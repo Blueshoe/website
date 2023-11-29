@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="relative bg-bs-green transition-all duration-500"
-    :class="bg"
-    :style="`height: ${navigationCardHeight - 40}px;`"
-  >
+  <div class="relative transition-all duration-500" :class="bg" :style="`height: ${navigationCardHeight - 40}px;`">
     <div
       ref="refNavigationCard"
       class="absolute z-10 left-1/2 transform -translate-x-1/2 bottom-12 lg:bottom-9 bg-white w-[80%] sm:w-[60%] md:w-[575px] lg:w-[775px] xl:w-[925px] md:h-auto border-t-[6px] border-t-bs-green px-4 pt-2 pb-12 md:pb-4 overflow-hidden transition-all duration-500"
