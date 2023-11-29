@@ -149,7 +149,7 @@ Companies that trust us
 :::
 
 
-:::GlobalCardWithBackgroundImageSection{data-title="Method" :src="/img/homepage/team3-klein-black.jpg"}
+:::GlobalCardWithBackgroundImageSection{data-title="Method" :src="/img/homepage/team3-klein.jpg"}
 ::::GlobalPreTitle{.mb-2}
 Cloud native software development
 ::::

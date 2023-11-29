@@ -1,5 +1,5 @@
 <template>
-  <div class="font-light font-source-sans-pro" :class="[color, size]">
+  <div class="font-light font-source-sans-pro pl-4" :class="[color, size]">
     <ContentSlot unwrap="div" />
   </div>
 </template>
