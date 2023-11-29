@@ -16,6 +16,7 @@
 
 <script setup lang="ts">
 const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
+
 const servicesData = ref(services.value);
 
 const tools = await useAsyncData('tools', () => queryContent('/products').findOne());

@@ -88,7 +88,7 @@ Open Source Products
 :::
 
 
-:::GlobalListCardSliderSection{:bg="bg-bs-gray" :numberCards=4 data-title="Kubernetes"}
+:::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=4 data-title="Kubernetes"}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR SERVICES
 ::::
@@ -149,7 +149,7 @@ Companies that trust us
 :::
 
 
-:::GlobalCardWithBackgroundImageSection{data-title="Method" :src="/img/homepage/team3-klein-black.jpg"}
+:::GlobalCardWithBackgroundImageSection{data-title="Method" :src="/img/homepage/team3-klein.jpg"}
 ::::GlobalPreTitle{.mb-2}
 Cloud native software development
 ::::

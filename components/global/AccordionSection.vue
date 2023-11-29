@@ -7,10 +7,10 @@
         </div>
         <ClientOnly>
           <div class="mb-3">
-            <div v-for="(number, i) in props.numberItems" :key="i" class="border-b border-b-white border-opacity-20">
+            <div v-for="(number, i) in props.numberItems" :key="i" :class="bColor">
               <div
-                class="flex items-center justify-between cursor-pointer py-6 pl-2 hover:bg-white hover:bg-opacity-20"
-                :class="activeAccordion === number ? 'bg-white bg-opacity-20' : ''"
+                class="flex items-center justify-between cursor-pointer py-6 pl-2 hover:bg-zinc-100"
+                :class="[activeAccordion === number ? activeColor : '', hColor]"
                 @click="setActiveAccordion(number)"
                 @mouseenter="setIconColor(number)"
                 @mouseleave="removeIconColor(number)"
@@ -34,7 +34,7 @@
                 @before-leave="beforeLeave"
                 @leave="leave"
               >
-                <div v-show="activeAccordion === number" class="overflow-hidden transition-all duration-500 pl-8">
+                <div v-show="activeAccordion === number" class="overflow-hidden transition-all duration-500 pl-6">
                   <div class="py-6">
                     <slot :name="`text-${number}`" />
                   </div>
@@ -53,20 +53,49 @@ interface Props {
   bg?: 'bg-bs-blue' | 'bg-white';
   numberItems: number;
   color?: 'text-white' | 'text-bs-text';
+  iconColor?: 'text-white' | 'text-bs-text';
+  hoverColor?: 'white' | 'gray';
+  borderColor?: 'white' | 'gray';
 }
 
 const props = withDefaults(defineProps<Props>(), {
   bg: 'bg-bs-blue',
-  color: 'text-white'
+  color: 'text-white',
+  iconColor: 'text-white',
+  hoverColor: 'white',
+  borderColor: 'white'
 });
 const activeAccordion = ref(0);
-const iconColors = ref(Array(props.numberItems).fill('text-white'));
+const iconColors = ref(Array(props.numberItems).fill(props.iconColor));
+const hColor = ref('');
+const bColor = ref('');
+const activeColor = ref('');
+
+switch (props.hoverColor) {
+  case 'white':
+    hColor.value = 'hover:bg-white hover:bg-opacity-20';
+    activeColor.value = 'bg-white bg-opacity-20';
+    break;
+  case 'gray':
+    hColor.value = 'hover:bg-zinc-100';
+    activeColor.value = 'bg-zinc-100';
+    break;
+}
+
+switch (props.borderColor) {
+  case 'white':
+    bColor.value = 'border-b border-b-white border-opacity-20';
+    break;
+  case 'gray':
+    bColor.value = 'border-b border-b-zinc-200';
+    break;
+}
 
 const setActiveAccordion = (index: number) => {
   if (activeAccordion.value === index) activeAccordion.value = 0;
   else activeAccordion.value = index;
 
-  iconColors.value = Array(props.numberItems).fill('text-white');
+  iconColors.value = Array(props.numberItems).fill(props.iconColor);
   iconColors.value[index] = 'text-bs-green';
 };
 
@@ -76,8 +105,7 @@ const setIconColor = (index: number) => {
 
 const removeIconColor = (index: number) => {
   if (activeAccordion.value !== index) {
-    console.log(activeAccordion.value, index);
-    iconColors.value[index] = 'text-white';
+    iconColors.value[index] = props.iconColor;
   }
 };
 
