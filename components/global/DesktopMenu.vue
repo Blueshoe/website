@@ -22,9 +22,12 @@
             <li
               v-for="(child, index) in nav.children[0]"
               :key="index"
-              class="font-source-sans-pro font-normal text-base py-2.5"
+              class="relative font-source-sans-pro font-normal text-base py-2.5"
             >
-              <NuxtLink :to="child.href">
+              <NuxtLink
+                :to="child.href"
+                class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
+              >
                 <div class="flex items-center gap-2 px-6 py-1">
                   <img :src="child.icon" width="40" />
                   <span>{{ t(child.name) }}</span>
@@ -39,9 +42,12 @@
             <li
               v-for="(child, index2) in nav.children[1]"
               :key="index2"
-              class="font-source-sans-pro font-normal text-base py-2.5"
+              class="relative font-source-sans-pro font-normal text-base py-2.5"
             >
-              <NuxtLink :to="child.href">
+              <NuxtLink
+                :to="child.href"
+                class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
+              >
                 <div class="flex items-center gap-2 px-6 py-1">
                   <img :src="child.icon" width="40" />
                   <span>{{ t(child.name) }}</span>

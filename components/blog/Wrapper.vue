@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="bs-container py-10 blog">
     <slot />
   </div>
 </template>
