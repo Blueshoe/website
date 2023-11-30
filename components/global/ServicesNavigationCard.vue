@@ -13,8 +13,8 @@
           <li
             v-for="(heading, i) in headingListData"
             :key="i"
-            @click="handleScroll(heading)"
             class="flex text-lg font-source-sans-pro font-light leading-6 text-bs-text cursor-pointer"
+            @click="handleScroll(heading)"
           >
             <div class="pr-4"><Icon name="el:ok-circle" width="16" height="16" class="text-bs-green" /></div>
             <a :class="{ 'underline underline-offset-2 text-bs-green': heading.active }">{{ heading.title }}</a>

@@ -19,7 +19,6 @@
       </div>
     </div>
     <div v-if="isImage" class="relative hidden md:flex items-center justify-center p-4 lg:p-10 xl:p-20">
-      <!--      <img :src="image.src" :alt="image.alt" class="min-w-full" />-->
       <div v-if="desktopImage" class="desktop-scene">
         <div class="cube">
           <div
