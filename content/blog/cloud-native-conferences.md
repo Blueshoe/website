@@ -11,7 +11,7 @@ technology: []
 productUpdates: []
 topic: []
 ---
-Cloud-native [technology](/test) has revolutionized the tech industry by enabling scalable and flexible software development. It focuses on containerization, microservices, and continuous integration, which are essential for modern applications. As the demand for cloud-native solutions grows, conferences in 2023 offer invaluable insights and networking opportunities for professionals in this field.
+Cloud-native technology has revolutionized the tech industry by enabling scalable and flexible software development. It focuses on containerization, microservices, and continuous integration, which are essential for modern applications. As the demand for cloud-native solutions grows, conferences in 2023 offer invaluable insights and networking opportunities for professionals in this field.
 
 Cloud-native conferences serve as hubs of innovation, bringing together experts, enthusiasts, and learners to discuss and explore the latest trends and advancements in the field.
 <!--more-->
