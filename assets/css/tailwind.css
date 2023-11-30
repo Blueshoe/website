@@ -51,4 +51,8 @@
   .navigation-card-shadow {
     box-shadow: 0 0 5px rgb(0 0 0 / 0.2);
   }
+
+  .blog p {
+    @apply pb-6;
+  }
 }

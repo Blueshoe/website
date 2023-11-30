@@ -7,6 +7,7 @@
 <script setup lang="ts">
 type Color = 'text-bs-text' | 'text-white';
 type FontSize = 'lg' | 'xl';
+
 interface Props {
   color?: Color;
   fontSize?: FontSize;

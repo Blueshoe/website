@@ -60,9 +60,6 @@ onMounted(() => {
   player.value = new Plyr(`#${playerId.value}`, {
     controls: controlsList.value,
     muted: props.modal
-    // autoplay: props.modal
-    // fullscreen: { enabled: true, fallback: true, iosNative: true },
-    // youtube: { noCookie: true, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1 }
   });
 
   if (props.modal) {

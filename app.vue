@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <NuxtLayout>
     <NuxtPage />
     <ModalsContainer />
-  </div>
+  </NuxtLayout>
 </template>
 <script setup lang="ts">
 import { ModalsContainer } from 'vue-final-modal';
