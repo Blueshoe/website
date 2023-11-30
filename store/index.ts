@@ -4,6 +4,8 @@ import type { Menu, Heading } from '~/types';
 
 export const useGeneralStore = defineStore('general', () => {
   const headingListData = ref<Heading[]>([]);
+  const sortedBlogs = ref([]);
+  const isMobileMenuOpen = ref(false);
 
   const development = [
     {
@@ -47,6 +49,7 @@ export const useGeneralStore = defineStore('general', () => {
       icon: '/img/global/icons/data-transformation.svg'
     }
   ];
+
   const consulting = [
     {
       name: 'cloudConsulting',
@@ -79,6 +82,7 @@ export const useGeneralStore = defineStore('general', () => {
       icon: '/img/global/icons/cloud-computing.svg'
     }
   ];
+
   const menu = ref<Menu[]>([
     {
       name: 'services',
@@ -94,6 +98,7 @@ export const useGeneralStore = defineStore('general', () => {
     { name: 'contactUs', href: '/contact', dropDown: false }
   ]);
 
+  // TODO: get them dynamically from the content
   const authors = ref([
     { name: 'Robert Gutschale', isSelected: false },
     { name: 'Victor Studenyak', isSelected: false },
@@ -129,21 +134,23 @@ export const useGeneralStore = defineStore('general', () => {
   ]);
 
   const topic = ref([
-    { name: 'Project management', isSelected: false },
-    { name: 'Development', isSelected: false },
-    { name: 'Operation', isSelected: false }
+    { name: 'Project management', label: 'Author', isSelected: false },
+    { name: 'Development', label: 'Author', isSelected: false },
+    { name: 'Operation', label: 'Author', isSelected: false }
   ]);
 
   const filters = ref([
-    { label: 'Author', items: authors, isOpen: false },
-    { label: 'Technology', items: technology, isOpen: false },
-    { label: 'Product Updates', items: productUpdates, isOpen: false },
-    { label: 'Topic', items: topic, isOpen: false }
+    { name: 'author', label: 'Author', items: authors, isOpen: false },
+    { name: 'technology', label: 'Technology', items: technology, isOpen: false },
+    { name: 'productUpdates', label: 'Product Updates', items: productUpdates, isOpen: false },
+    { name: 'topic', label: 'Topic', items: topic, isOpen: false }
   ]);
 
   return {
     menu,
     headingListData,
-    filters
+    isMobileMenuOpen,
+    filters,
+    sortedBlogs
   };
 });

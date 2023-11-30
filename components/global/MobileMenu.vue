@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <ul v-if="!isDropDownOpen" class="absolute left-0 bg-white w-full overflow-auto">
+  <div class="absolute w-full h-auto text-xl text-bs-menu font-oswald font-extralight">
+    <ul v-if="!isDropDownOpen" class="left-0 bg-white w-full">
       <li
         v-for="(nav, i) in menu"
         :key="i"
@@ -15,7 +15,7 @@
         </NuxtLink>
       </li>
     </ul>
-    <ul v-if="isDropDownOpen" class="absolute z-10 left-0 bg-white w-full overflow-auto">
+    <ul v-if="isDropDownOpen" class="z-10 left-0 bg-white w-full overflow-auto">
       <div
         class="text-base text-black font-normal cursor-pointer border-b-2 border-bs-menu-hover px-6 py-6"
         @click="isDropDownOpen = false"
@@ -28,6 +28,7 @@
           v-for="(child, i) in subMenu[0]"
           :key="i"
           class="font-source-sans-pro font-normal text-base hover:bg-bs-menu-hover py-2.5"
+          @click="isMobileMenuOpen = false"
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
@@ -43,6 +44,7 @@
           v-for="(child, i) in subMenu[1]"
           :key="i"
           class="font-source-sans-pro font-normal text-base hover:bg-bs-menu-hover py-2.5"
+          @click="isMobileMenuOpen = false"
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
@@ -66,13 +68,17 @@ const { t } = useI18n({
 });
 
 const generalStore = useGeneralStore();
-const { menu } = storeToRefs(generalStore);
+const { menu, isMobileMenuOpen } = storeToRefs(generalStore);
 
 const isDropDownOpen = ref(false);
 const subMenu = ref<SubMenu[][]>([]);
 
 const toggleSubmenu = (nav: Menu) => {
-  nav.dropDown ? (nav.isDropDown = !nav.isDropDown) : null;
+  if (!nav.dropDown) {
+    isMobileMenuOpen.value = false;
+    return;
+  }
+  nav.isDropDown = !nav.isDropDown;
   isDropDownOpen.value = !isDropDownOpen.value;
   subMenu.value = nav.children ? nav.children : [];
 };
