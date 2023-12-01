@@ -14,7 +14,7 @@
       </NuxtLink>
       <ul
         v-if="nav.dropDown && nav.children && nav.isDropDown"
-        class="absolute left-0 top-[70px] grid grid-cols-2 bg-white shadow-lg w-full py-2"
+        class="absolute left-[12px] top-[70px] grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
       >
         <div class="border-r-2 border-bs-menu-hover">
           <div class="text-base text-black font-normal px-6 py-2">{{ t('development') }}</div>
