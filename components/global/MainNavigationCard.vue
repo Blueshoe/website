@@ -8,7 +8,7 @@
         v-for="(heading, i) in headingListData.slice().reverse()"
         :key="i"
         class="text-bs-blue uppercase py-[6px]"
-        :class="{ 'border-b-4 border-bs-green': heading.active }"
+        :class="[heading.active ? 'border-b-4 border-bs-green' : 'border-b-4 border-white']"
         @click="handleScroll(heading)"
       >
         <a class="text-lg font-source-sans-pro font-semibold cursor-pointer">{{ heading.title }}</a>
@@ -30,7 +30,7 @@ const headingListData = ref(props.headings);
 
 function handleScroll(heading: Heading) {
   scrollToElement(heading.id);
-  headingListData.value.map((item) => {
+  headingListData.value.forEach((item) => {
     item.active = item.id === heading.id;
   });
 }

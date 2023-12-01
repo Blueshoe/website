@@ -1,8 +1,8 @@
 <template>
-  <div class="bs-container">
+  <div class="bs-container mb-10">
     <GlobalTitle class="px-4 mt-6 mb-6"> Blog </GlobalTitle>
 
-    <GlobalParagraph class="px-4">
+    <GlobalParagraph class="px-4 mb-10">
       We write about all things cloud native and let you have a look into our approaches to different challenges to
       occur when developing within cloud native infrastructures.
     </GlobalParagraph>

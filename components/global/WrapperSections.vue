@@ -13,7 +13,7 @@ const { headingListData } = storeToRefs(generalStore);
 
 const refWrapperMain = ref<HTMLElement | null>(null);
 
-onMounted(() => {
+onMounted(async () => {
   const headings = refWrapperMain.value?.querySelectorAll('[data-title]');
 
   if (!headings) return;
@@ -23,7 +23,7 @@ onMounted(() => {
       headings[i].setAttribute('id', 'heading' + i);
       const title = headings[i].getAttribute('data-title') as string;
 
-      headingListData.value.push({
+      await headingListData.value.push({
         id: 'heading' + i,
         title,
         active: false

@@ -35,8 +35,8 @@ Precise. Pragmatic. Professional.
 :::
 
 
-:::GlobalSmallCardWithImageSection{data-title="Services" :bg="bg-bs-blue" :numberCards=3}
-::::GlobalTitle{:color="text-white" .text-center .mb-6}
+:::GlobalSmallCardWithImageSection{ :bg="bg-bs-blue" :numberCards=3}
+::::GlobalTitle{:color="text-white" .text-center .mb-6 data-title="Services"}
 Your cloud native software development agency
 ::::
 ::::GlobalParagraph{color="text-white" .mb-6}
@@ -88,11 +88,11 @@ Open Source Products
 :::
 
 
-:::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=4 data-title="Kubernetes"}
+:::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=4}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR SERVICES
 ::::
-::::GlobalTitle{.mb-6}
+::::GlobalTitle{.mb-6 data-title="Kubernetes"}
 Kubernetes everywhere
 ::::
 ::::GlobalParagraph{.mb-6}
@@ -149,11 +149,11 @@ Companies that trust us
 :::
 
 
-:::GlobalCardWithBackgroundImageSection{data-title="Method" :src="/img/homepage/team3-klein.jpg"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/homepage/team3-klein.jpg" }
 ::::GlobalPreTitle{.mb-2}
 Cloud native software development
 ::::
-::::GlobalTitle{.mb-6}
+::::GlobalTitle{.mb-6 data-title="Method"}
 As unique as your demands
 ::::
 ::::GlobalParagraph
@@ -162,11 +162,11 @@ Individual tasks and complex requirements need precisely fitting software. We be
 :::
 
 
-:::GlobalTabsSection{:labels='["Infrastructure", "Backend", "Frontend"]' data-title="Tech"}
+:::GlobalTabsSection{:labels='["Infrastructure", "Backend", "Frontend"]'}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 TOOLS, FRAMEWORKS AND TECHNOLOGIES WE WORK WITH
 ::::
-::::GlobalTitle{.mb-6}
+::::GlobalTitle{.mb-6 data-title="Tech"}
 Our tech stack
 ::::
 #tab-0

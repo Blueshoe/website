@@ -13,7 +13,7 @@ Setup your architecture for the future with microservices
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:bg="bg-bs-blue"}
+:::GlobalServicesNavigationCard
 
 :::
 
