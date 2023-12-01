@@ -5,7 +5,7 @@
     </div>
     <div>
       <div
-        class="lg:order-1 lg:min-h-[370px] xl:min-h-[280px] text-lg font-light font-source-sans-pro leading-[26px] text-bs-text mb-4"
+        class="lg:order-1 lg:min-h-[370px] xl:min-h-[320px] text-lg font-light font-source-sans-pro leading-[26px] text-bs-text mb-4"
       >
         <ContentSlot />
       </div>

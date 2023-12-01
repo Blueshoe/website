@@ -12,12 +12,35 @@
     </div>
 
     <GlobalFooter />
+
+    <button v-if="toTopBtn" class="back-to-top" @click="scrollToTop">
+      <Icon name="ri:arrow-up-s-fill" width="30" height="30" />
+    </button>
   </div>
 </template>
 
 <script setup lang="ts">
-const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
+const toTopBtn = ref(false);
 
+function scrollToTop() {
+  if (process.browser) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+onMounted(() => {
+  if (process.client) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 150) {
+        toTopBtn.value = true;
+      } else {
+        toTopBtn.value = false;
+      }
+    });
+  }
+});
+
+const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
 const servicesData = ref(services.value);
 
 const tools = await useAsyncData('tools', () => queryContent('/products').findOne());

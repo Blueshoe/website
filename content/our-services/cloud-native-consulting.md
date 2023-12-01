@@ -13,7 +13,7 @@ Gain competitive advantage with a cloud native strategy
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:bg="bg-bs-blue"}
+:::GlobalServicesNavigationCard
 
 :::
 

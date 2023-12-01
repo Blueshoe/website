@@ -1,6 +1,5 @@
 ---
 title: 'Headless e-commerce'
-testProperty: 'Oleg'
 ---
 
 ::GlobalWrapperSections

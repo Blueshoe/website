@@ -4,6 +4,7 @@ import type { Menu, Heading } from '~/types';
 
 export const useGeneralStore = defineStore('general', () => {
   const headingListData = ref<Heading[]>([]);
+  const blogHeading = ref<Heading[]>([]);
   const sortedBlogs = ref([]);
   const isMobileMenuOpen = ref(false);
 
@@ -149,6 +150,7 @@ export const useGeneralStore = defineStore('general', () => {
   return {
     menu,
     headingListData,
+    blogHeading,
     isMobileMenuOpen,
     filters,
     sortedBlogs

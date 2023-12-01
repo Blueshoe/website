@@ -3,8 +3,8 @@ title: 'About us'
 ---
 ::GlobalWrapperMain{:leftNavigationCard=-145}
 
-:::GlobalSectionWithImage{:image="/img/about-us/hannes_robert_michael.jpg" :alt="hannes robert michael" :bg="bg-bs-blue" :imagePosition="right" :isButton=false data-title="Who we are" .md:w-3/4 .md:mx-auto}
-::::GlobalTitle{:color="text-white" .mb-6}
+:::GlobalSectionWithImage{:image="/img/about-us/hannes_robert_michael.jpg" :alt="hannes robert michael" :bg="bg-bs-blue" :imagePosition="right" :isButton=false .md:w-3/4 .md:mx-auto}
+::::GlobalTitle{:color="text-white" .mb-6 data-title="Who we are"}
 Who we are
 ::::
 ::::GlobalParagraph{:color="text-white" .mb-6}
@@ -24,8 +24,8 @@ We are 100% flexible to any situation. We love new challenges and tackle them wi
 ::::
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Vision" :src="/img/about-us/blue_shoes-47-black.jpg" :width="md:w-3/5"}
-::::GlobalTitle{.mb-6}
+:::GlobalCardWithBackgroundImageSection{:src="/img/about-us/blue_shoes-47-black.jpg" :width="md:w-3/5"}
+::::GlobalTitle{.mb-6 data-title="Vision"}
 The future of Blueshoe
 ::::
 ::::GlobalTitle{:size="lg" :tag="h3" .mb-6}
@@ -46,13 +46,13 @@ Our Vision
 ::::
 :::
 
-:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=6 data-title="Our values"}
-::::GlobalTitle{:color="text-white" .mb-6}
+:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=6}
+::::GlobalTitle{:color="text-white" .mb-6 data-title="Our values"}
 Our values
 ::::
 #card1
 ::GlobalListCardWithImage{:src="/img/global/icons/you-build-it-you-run-it.svg"}
-:::GlobalTitle{:size="sm" :color="text-white" :tag="h4" .mb-4}
+:::GlobalTitle{:size="sm" :color="text-white" :tag="h4" .mb-4 }
 You build it, you run it
 :::
 :::GlobalParagraph{:fontSize="lg"  :color="text-white"}

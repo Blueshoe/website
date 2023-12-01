@@ -13,7 +13,7 @@ Find and implement the perfect toolchain with us
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:bg="bg-bs-blue"}
+:::GlobalServicesNavigationCard
 
 :::
 
