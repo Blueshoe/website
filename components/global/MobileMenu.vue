@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute w-full h-auto text-xl text-bs-menu font-oswald font-extralight">
+  <div class="absolute w-full h-screen text-xl text-bs-menu font-oswald font-extralight overflow-y-scroll">
     <ul v-if="!isDropDownOpen" class="left-0 bg-white w-full">
       <li
         v-for="(nav, i) in menu"

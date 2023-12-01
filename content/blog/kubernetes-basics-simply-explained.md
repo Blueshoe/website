@@ -17,7 +17,7 @@ technology:
 productUpdates: []
 topic: []
 ---
-Kubernetes is a complex technology that keeps challenging even the most experienced developers. That’s why numerous providers have developed tools designed to simplify the work with Kubernetes.
+[Kubernetes](https://kubernetes.io/) is a complex technology that keeps challenging even the most experienced developers. That’s why numerous providers have developed tools designed to simplify the work with Kubernetes.
 
 In this article, we’ll have a closer look at the technological toolbox available to us. We’ll outline the scope of application for various tools and provide examples of the solutions they offer.
 <!--more-->

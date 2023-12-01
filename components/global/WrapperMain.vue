@@ -35,15 +35,22 @@ onMounted(() => {
     }
   }
 
-  const elements = document.querySelectorAll('div[data-title]');
+  const elements = document.querySelectorAll('h2[data-title]');
+
   observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         const title = entry.target.getAttribute('data-title');
+
+        headingListData.value.forEach((obj, i) => {
+          if (obj.title === title && headingListData.value[i - 1].active === false) {
+            obj.active = true;
+          }
+        });
+      } else {
+        const title = entry.target.getAttribute('data-title');
         headingListData.value.forEach((obj) => {
           if (obj.title === title) {
-            obj.active = true;
-          } else {
             obj.active = false;
           }
         });

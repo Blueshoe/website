@@ -1,7 +1,7 @@
 <template>
   <div>
     <BlogWrapper>
-      <GlobalParagraph font-іize="lg" class="mb-4">
+      <GlobalParagraph font-size="lg">
         {{ data?.date }}
       </GlobalParagraph>
 
@@ -13,7 +13,7 @@
         {{ data?.title }}
       </GlobalTitle>
 
-      <ContentDoc class="blog">
+      <ContentDoc class="text-xl font-extralight font-source-sans-pro text-bs-text">
         <template #not-found>
           <h1>Document not found</h1>
         </template>

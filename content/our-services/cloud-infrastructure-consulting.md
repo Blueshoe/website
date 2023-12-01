@@ -13,7 +13,7 @@ Cloud infrastructure that best fits your specific needs.
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:bg="bg-bs-blue"}
+:::GlobalServicesNavigationCard
 
 :::
 
