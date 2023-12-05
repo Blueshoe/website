@@ -21,6 +21,11 @@ export default defineNuxtConfig({
   content: {
     experimental: {
       clientDb: true
+    },
+    highlight: {
+      theme: {
+        default: 'monokai'
+      }
     }
   },
   tailwindcss: {
@@ -59,6 +64,12 @@ export default defineNuxtConfig({
   image: {
     cloudflare: {
       baseURL: 'https://blueshoe-io.pages.dev/'
+    }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml'],
+      failOnError: false
     }
   }
 });

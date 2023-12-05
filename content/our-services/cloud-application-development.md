@@ -1,5 +1,6 @@
 ---
-title: 'Services'
+title: 'Cloud application development by experts'
+description: 'content="Cloud Native Development Experts. We develop complex applications for for cloud based infrastructures. ✅ Microservices ✅ Kubernetes ✅ APIs"'
 ---
 
 ::GlobalWrapperSections
@@ -288,10 +289,10 @@ OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E1: Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

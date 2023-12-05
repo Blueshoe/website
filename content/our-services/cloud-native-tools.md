@@ -1,5 +1,6 @@
 ---
-title: 'Cloud Native Tools'
+title: 'Cloud native tools. We help you implement the perfect toolchain'
+description: 'Using software tools for streamlining your development and deployment processes is essentiell. We help you figure out the best setup for your team.'
 ---
 
 ::GlobalWrapperSections
@@ -113,7 +114,7 @@ If you want to roll out a Kubernetes-based development workflow in your company,
 ::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalPreTitle{.mb-4}
 FIND THE NEEDLE IN THE TOOL HAYSTACK
 ::::
@@ -226,10 +227,10 @@ OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E2: Remote Kubernetes Development
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In the second edition of our podcast "Tools for the Craft - Navigating the Kubernetes ecosystem" Michael and Robert talk about the various options developers have for remote K8s development and will show some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

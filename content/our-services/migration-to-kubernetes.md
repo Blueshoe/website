@@ -1,5 +1,6 @@
 ---
-title: 'Migration to Kubernetes'
+title: 'Migration to Kubernetes with our expert help'
+description: 'We help you plan and implement your Kubernetes migrations and moving your legacy applications into the cloud native sphere.'
 ---
 
 ::GlobalWrapperSections
@@ -17,7 +18,7 @@ Setup your architecture for the future with microservices
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Get help with your Kubernetes migration" :src="/img/services/blue_shoes-32-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Get help with your Kubernetes migration" :src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalPreTitle{.mb-4}
 GO THE CLOUD NATIVE WAY WITH KUBERNETES AND OUR HELP
 ::::
@@ -156,10 +157,10 @@ OUR PODCAST: TOOLS FOR THE CRAFT
 ::::GlobalTitle{.mb-6}
 E2: Remote Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Michael and Robert take a closer look at the different options for remote Kubernetes development and give some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

@@ -1,5 +1,6 @@
 ---
-title: 'Cloud security services'
+title: 'Cloud security services for your  business. Better safe than sorry.'
+description: 'Blueshoe develops tailored strategies for your business to ensure end-to-end workload security. Contact us today and let us assess your needs together.'
 ---
 
 ::GlobalWrapperSections
@@ -17,7 +18,7 @@ Find and implement the perfect toolchain with us
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Close your cloud security gaps" :src="/img/homepage/team3-klein-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Close your cloud security gaps" :src="/img/homepage/team3-klein.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Close your cloud security gaps
 ::::
@@ -276,7 +277,7 @@ These are just some of the considerations organizations face when migrating to t
 ::::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32-black.jpg" :isButton=true  :width="md:w-2/3" data-title="Let us help you be safe"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3" data-title="Let us help you be safe"}
 ::::GlobalTitle{.mb-6}
 Let us help you be safe
 ::::
@@ -386,10 +387,10 @@ OUR KUBERNETES PODCASTS
 ::::GlobalTitle{.mb-6}
 E2: Remote Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In the second edition of our podcast "Tools for the Craft - Navigating the Kubernetes ecosystem" Michael and Robert talk about the various options developers have for remote K8s development and will show some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}

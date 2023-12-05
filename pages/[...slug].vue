@@ -2,7 +2,7 @@
   <div>
     <ContentDoc>
       <template #not-found>
-        <h1>Document not found</h1>
+        <GlobalPageNotFound />
       </template>
     </ContentDoc>
   </div>

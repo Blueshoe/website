@@ -1,5 +1,9 @@
 <template>
-  <div class="relative transition-all duration-500" :class="bg" :style="`height: ${navigationCardHeight}px;`">
+  <div
+    class="relative transition-all duration-500"
+    :class="bg"
+    :style="`height: ${navigationCardHeight}px !important;`"
+  >
     <div
       id="navigationCard"
       ref="refNavigationCard"
@@ -100,15 +104,23 @@ const handleClickOutside = (event: Event) => {
   }
 };
 
+watch(
+  () => headingListData.value.length,
+  () => {
+    getHeightBlock();
+  }
+);
+
 function getHeightBlock() {
-  navigationCardHeight.value = Math.ceil(refNavigationCard.value?.offsetHeight / 1.5) || 0;
+  const headings = headingListData.value.length > 7 ? headingListData.value.length / 2 : headingListData.value.length;
+  const headingHeight = 24;
+  navigationCardHeight.value = Math.round(headings * headingHeight + 8 + 16 + 26) * 0.7;
 }
 
 onMounted(async () => {
-  await nextTick();
   window.addEventListener('resize', getHeightBlock);
   window.addEventListener('click', handleClickOutside);
-  navigationCardHeight.value = refNavigationCard.value?.offsetHeight || 0;
+  getHeightBlock();
 });
 </script>
 

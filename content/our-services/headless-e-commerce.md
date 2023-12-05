@@ -1,5 +1,6 @@
 ---
-title: 'Headless e-commerce'
+title: 'Individual headless e-commerce systems'
+description: 'We build your super fast online shop. ✅ Lightning fast ✅ Robust ✅ Scalable | Find out more about state-of-the-art e-commerce.'
 ---
 
 ::GlobalWrapperSections
@@ -29,14 +30,14 @@ It’s precisely this approach that the headless commerce technology pursues, to
 ::::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein-black.jpg" :isButton=true data-title="Faster, higher, further!"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.jpg" :isButton=true data-title="Faster, higher, further!"}
 ::::GlobalPreTitle{.mb-2}
 WHY CHOOSE HEADLESS E-COMMERCE
 ::::
 ::::GlobalTitle{.mb-6}
 Faster, higher, further!
 ::::
-::::GlobalParagraph
+::::GlobalParagraph{.mb-4}
 The requirements of a modern online shop are high! **Fast performance, intuitive interfaces and the management of huge amounts of data** are just some of the challenges that a modern e-commerce system has to face.
 ::::
 ::::GlobalParagraph
@@ -77,7 +78,7 @@ All contents and products are stored in a central place and optimised for the re
 ::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/blue_shoes-47.jpg" :alt="blue shoes" :imagePosition="right" :isButton=true data-title="Why is Blueshoe your expert for headless e-commerce?"}
+:::GlobalSectionWithImage{:image="/img/services/blue_shoes-47.jpg" :alt="blue shoes" :imagePosition="right" :isButton=true :bg="bg-bs-gray" data-title="Why is Blueshoe your expert for headless e-commerce?"}
 ::::GlobalTitle{.mb-6}
 Why is Blueshoe your expert for headless e-commerce?
 ::::
@@ -92,7 +93,7 @@ Shop components (like the search, check-out or product display) have to be compa
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3}
+:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-white"}
 ::::GlobalTitle{.mb-6}
 Some of our articles that may also interest you
 ::::
@@ -142,10 +143,10 @@ CHECK OUT OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E1: Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

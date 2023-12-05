@@ -1,5 +1,6 @@
 ---
-title: 'Our Tools'
+title: 'Our Open Source Tools'
+description: ''
 ---
 
 ::GlobalSimpleSection{:bg="bg-white"}
@@ -60,7 +61,7 @@ Unikube
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Fit Django perfectly with K8s
 :::
-:::GlobalParagraph{:fontSize="text-lg" .mb-4}
+:::GlobalParagraph{:fontSize="lg" .mb-4}
 A Kubernetes Native Stack specifically created For Django. Run Django in a Cloud Native environment, including a Tornado-powered app server.
 :::
 #title

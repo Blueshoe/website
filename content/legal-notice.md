@@ -1,5 +1,6 @@
 ---
-title: 'Legal Notice'
+title: 'Legal notice'
+description: 'Contact details as well as the disclaimer of liability can be found in our legal notice.'
 ---
 
 ::LegalWrapper

@@ -42,6 +42,7 @@
     "nuxt-swiper": "^1.2.2",
     "pinia": "^2.1.7",
     "plyr": "^3.7.8",
+    "sitemap": "^7.1.1",
     "vue-final-modal": "^4.4.6"
   }
 }

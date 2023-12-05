@@ -77,7 +77,7 @@
     @apply pb-4;
   }
 
-  .blog a {
+  .bs-link-blue {
     @apply text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid;
   }
 
