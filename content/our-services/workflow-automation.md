@@ -1,5 +1,6 @@
 ---
-title: 'Workflow Automation'
+title: 'We help you automate your development and release workflows'
+description: 'Great automation helps you save costs while dramatically improving development and release velocity. Let us guide you towards your automated future.'
 ---
 
 ::GlobalWrapperSections
@@ -17,7 +18,7 @@ Develop and release faster while saving costs
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Automation saves costs" :src="/img/homepage/team3-klein-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Automation saves costs" :src="/img/homepage/team3-klein.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Automation saves costs
 ::::
@@ -93,10 +94,10 @@ KUBERNETES PODCAST
 ::::GlobalTitle{.mb-6}
 Tools for the Craft: E2 - Remote K8s dev environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In our podcast we discuss the different tool options that developers have to make their live easier and give you our opinion on the various options.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More episodes of the podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
@@ -146,7 +147,7 @@ DevOps
 ::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Let us help you
 ::::

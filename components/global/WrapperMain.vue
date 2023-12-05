@@ -17,50 +17,80 @@ const refWrapperMain = ref<HTMLElement | null>(null);
 const headingListData = ref<Heading[]>([]);
 let observer: IntersectionObserver;
 
-onMounted(() => {
-  const headings = refWrapperMain.value?.querySelectorAll('[data-title]');
+const scrollPosition = ref(0);
+const scrollDirectionTop = ref();
 
+onMounted(() => {
+  window.addEventListener('scroll', () => {
+    if (scrollPosition.value < document.documentElement.scrollTop) {
+      scrollDirectionTop.value = false;
+    } else {
+      scrollDirectionTop.value = true;
+    }
+    scrollPosition.value = document.documentElement.scrollTop;
+    handleScroll();
+  });
+
+  const headings = refWrapperMain.value?.querySelectorAll('[data-title]');
   if (!headings) return;
 
   for (let i = 0; i < headings.length; i++) {
     if (headings[i].hasAttribute('data-title')) {
       headings[i].setAttribute('id', 'heading' + i);
+      headings[i].setAttribute('ref', 'heading' + i);
       const title = headings[i].getAttribute('data-title') as string;
 
       headingListData.value.push({
         id: 'heading' + i,
         title,
+        visible: false,
         active: false
       });
     }
   }
 
-  const elements = document.querySelectorAll('h2[data-title]');
+  function handleScroll() {
+    for (let i = 0; i < headingListData.value.length; i++) {
+      const element = headingListData.value[i];
+      const el = document.getElementById(element.id);
+      element.active = isElementInViewport(el);
+    }
 
-  observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const title = entry.target.getAttribute('data-title');
+    const activeHeadings = headingListData.value.filter((obj) => obj.active);
+    if (activeHeadings.length > 1 && scrollDirectionTop.value) {
+      const activeHeading = activeHeadings[0].id;
+      headingListData.value.map((obj) => {
+        if (obj.id === activeHeading) {
+          obj.active = true;
+        } else {
+          obj.active = false;
+        }
+      });
+    } else if (activeHeadings.length > 1 && !scrollDirectionTop.value) {
+      const activeHeading = activeHeadings[activeHeadings.length - 1].id;
+      headingListData.value.map((obj) => {
+        if (obj.id === activeHeading) {
+          obj.active = true;
+        } else {
+          obj.active = false;
+        }
+      });
+    }
+  }
 
-        headingListData.value.forEach((obj, i) => {
-          if (obj.title === title && headingListData.value[i - 1].active === false) {
-            obj.active = true;
-          }
-        });
-      } else {
-        const title = entry.target.getAttribute('data-title');
-        headingListData.value.forEach((obj) => {
-          if (obj.title === title) {
-            obj.active = false;
-          }
-        });
-      }
-    });
-  }, {});
-
-  elements.forEach((element) => {
-    observer.observe(element);
-  });
+  function isElementInViewport(el: HTMLElement): boolean {
+    const rect = el.getBoundingClientRect();
+    if (!scrollDirectionTop.value) {
+      return (
+        (rect.top >= 0 && rect.top < window.innerHeight) ||
+        (rect.top < window.innerHeight && rect.bottom > window.innerHeight)
+      );
+    }
+    return (
+      (rect.bottom >= 0 && rect.bottom < window.innerHeight) ||
+      (rect.top < window.innerHeight && rect.bottom > window.innerHeight)
+    );
+  }
 });
 </script>
 

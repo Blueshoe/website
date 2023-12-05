@@ -1,17 +1,6 @@
 ---
-title: 'Homepage'
-description: 'What a lovely page.'
-
-head:
-  meta:
-    - name: 'keywords'
-      content: 'nuxt, vue, content'
-    - name: 'robots'
-      content: 'index, follow'
-    - name: 'author'
-      content: 'NuxtLabs'
-    - name: 'copyright'
-      content: '© 2022 NuxtLabs'
+title: 'Cloud Native Consulting and Application Development'
+description: 'Experts for Cloud Native architectures and application development. We help you on the path to become a fully cloud native company.'
 ---
 ::GlobalWrapperMain{:leftNavigationCard=-180}
 

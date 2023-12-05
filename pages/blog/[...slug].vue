@@ -9,13 +9,13 @@
         {{ data?.preTitle }}
       </GlobalPreTitle>
 
-      <GlobalTitle class="mb-6">
+      <GlobalTitle tag="h1" class="mb-6">
         {{ data?.title }}
       </GlobalTitle>
 
       <ContentDoc class="text-xl font-extralight font-source-sans-pro text-bs-text">
         <template #not-found>
-          <h1>Document not found</h1>
+          <GlobalPageNotFound />
         </template>
       </ContentDoc>
     </BlogWrapper>

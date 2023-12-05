@@ -1,5 +1,6 @@
 ---
-title: 'Python Django'
+title: 'Python and django development by THE experts'
+description: 'We are your partner for efficient software development with Python and Django. On time and on budget. ✅ Modern ✅ Scalable ✅ Fast'
 ---
 
 ::GlobalWrapperSections
@@ -146,7 +147,7 @@ Language comparison
 ::
 :::
 
-:::GlobalSimpleSection{:isButton=true data-title="Why are Blueshoe your experts for Python and Django?"}
+:::GlobalSimpleSection{:isButton=true :bg="bg-white" data-title="Why are Blueshoe your experts for Python and Django?"}
 ::::GlobalTitle{.mb-6}
 Why are Blueshoe your experts for Python and Django?
 ::::
@@ -265,10 +266,10 @@ OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E1: Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

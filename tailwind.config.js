@@ -23,7 +23,9 @@ export default {
         'bs-gray': 'rgb(245, 245, 245)',
         'bs-text': 'rgb(33, 37, 41)',
         'bs-menu': 'rgb(35, 48, 61)',
-        'bs-menu-hover': 'rgb(237, 239, 240)'
+        'bs-menu-hover': 'rgb(237, 239, 240)',
+        'bs-code': 'rgb(204, 204, 204)',
+        'bs-bg-code': 'rgb(45, 45, 45)'
       },
       fontFamily: {
         oswald: ['Oswald', 'sans-serif'],

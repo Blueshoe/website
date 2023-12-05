@@ -1,5 +1,6 @@
 ---
-title: 'Cloud security services'
+title: 'Get the perfect cloud infrastructure set up with our neutral experts'
+description: 'We have no vendor deals and can neutrally help you figure out the best provider for your cloud infrastructure. We can also help you with the migration of your applications.'
 ---
 
 ::GlobalWrapperSections
@@ -17,7 +18,7 @@ Cloud infrastructure that best fits your specific needs.
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Simplify choosing your cloud provider" :src="/img/homepage/team3-klein-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Simplify choosing your cloud provider" :src="/img/homepage/team3-klein.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Simplify choosing your cloud provider
 ::::
@@ -213,7 +214,7 @@ Before you start looking at cloud providers, have a checklist of your requiremen
 ::::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32-black.jpg" :isButton=true  :width="md:w-2/3" data-title="Let us help you be safe"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Let us help you
 ::::
@@ -268,7 +269,7 @@ Hyper scaler comparison
 ::
 :::
 
-:::GlobalSliderSection{:numberCards=3}
+:::GlobalSliderSection{:numberCards=3 data-title="Our past cloud projects"}
 ::::GlobalTitle{.mb-6}
 Cloud-native projects
 ::::
@@ -323,10 +324,10 @@ OUR KUBERNETES PODCASTS
 ::::GlobalTitle{.mb-6}
 TftC - E2: Remote Kubernetes development
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In the second edition of our podcast "Tools for the Craft - Navigating the Kubernetes ecosystem" Michael and Robert talk about the various options developers have for remote K8s development and will show some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}

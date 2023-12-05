@@ -1,5 +1,6 @@
 ---
-title: 'Services'
+title: 'Headless CMS - We develop State-of-the-Art'
+description: 'We develop websites with the headless cms approach. ✅ super fast ✅ rock solid ✅ scalable ✅ expandable. Find out more!'
 ---
 
 ::GlobalWrapperSections
@@ -113,7 +114,7 @@ Technologies like static site generators. Front-end frameworks like Vue, React o
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3}
+:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-white"}
 ::::GlobalTitle{.mb-6}
 Some of our articles that may also interest you
 ::::
@@ -156,7 +157,7 @@ Frontend error Handling
 ::
 :::
 
-:::GlobalSliderSection{:numberCards=3 data-title="Successful projects"}
+:::GlobalSliderSection{:numberCards=3 data-title="Successful projects" :bg="bg-bs-gray"}
 ::::GlobalTitle{.mb-6}
 Examples of headless CMS projects
 ::::
@@ -226,10 +227,10 @@ OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E1: Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

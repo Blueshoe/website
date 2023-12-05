@@ -1,5 +1,6 @@
 ---
-title: 'Headless e-commerce'
+title: 'We help building the APIs for your service based architectures'
+description: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
 ---
 
 ::GlobalWrapperSections
@@ -17,7 +18,7 @@ Discover and implement an API strategy for your applications
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes_42_black.jpg" :isButton=true}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-42.jpg" :isButton=true}
 ::::GlobalTitle{.mb-6}
 Don't worry, go API
 ::::
@@ -108,7 +109,7 @@ GraphQL works by allowing clients to make a single request to an API that specif
 ::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32-black.jpg" :isButton=true}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true}
 ::::GlobalTitle{.mb-6}
 We love technology and strive for innovation.
 ::::
@@ -132,7 +133,7 @@ One huge advantage of REST using HTTP, which GraphQL itself lacks, is the relati
 ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="blue shoes" :isButton=true :bg="bg-bs-gray" :imagePosition="right" data-title="Testing APIs at the core of your API first strategy"}
+:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="blue shoes" :isButton=true :bg="bg-white" :imagePosition="right" data-title="Testing APIs at the core of your API first strategy"}
 ::::GlobalColorTitle{:color="text-bs-blue" .mb-6}
 OH NO, ANOTHER THING THAT NEEDS TESTING
 ::::
@@ -260,10 +261,10 @@ OUR PODCAST: TOOLS FOR THE CRAFT
 ::::GlobalTitle{.mb-6}
 E2: Remote Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In the second edition of our podcast "Tools for the Craft: Navigating the Kubernetes ecosystem" Michael and Robert take a look at various options for remote Kubernetes development and show up with some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="More podcast!" :color="green"}
