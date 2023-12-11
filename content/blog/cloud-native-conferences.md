@@ -165,6 +165,6 @@ Unleashing the power of cloud-native conferences: shaping the future of tech
 In wrapping up, we can't stress enough the significance of [cloud-native](/our-services/cloud-native-consulting){.bs-link-blue} conferences. They're a goldmine for knowledge sharing, networking, and staying on top of industry trends. These gatherings are a catalyst for technological advancement, pushing the boundaries of what's possible in the cloud. They offer a platform to hear from the experts, learn from real-world case studies, and even get hands-on with new tools. So, gear up, mark your calendars, and get ready to dive into the world of cloud-native. Your participation could help shape the future of this ever-evolving tech landscape. Don't miss out!
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/alternative-to-telepresence-2-gefyra", "/blog/php-vs-python", "/blog/cloud-native-conferences"]'}
 
 :::

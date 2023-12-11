@@ -4,7 +4,7 @@ img: '/img/blogs/kubernetes_gefyra_getdeck.jpg'
 alt: 'kubernetes gefyra getdeck'
 preTitle: 'Building a platform with Kubernetes'
 title: "Kubernetes basics - simply explained"
-description:
+description: ''
 date: '08.08.2023'
 author:
   - Oliver Hientz
@@ -18,10 +18,10 @@ technology:
 productUpdates: []
 topic: []
 ---
-[Kubernetes](https://kubernetes.io/){.bs-link-blue} is a complex technology that keeps challenging even the most experienced developers. That’s why numerous providers have developed tools designed to simplify the work with Kubernetes.
-
 In this article, we’ll have a closer look at the technological toolbox available to us. We’ll outline the scope of application for various tools and provide examples of the solutions they offer.
 <!--more-->
+[Kubernetes](https://kubernetes.io/){.bs-link-blue} is a complex technology that keeps challenging even the most experienced developers. That’s why numerous providers have developed tools designed to simplify the work with Kubernetes.
+
 
 ![kubernetes_gefyra_getdeck](/img/blogs/kubernetes_gefyra_getdeck.jpg){.object-cover .max-w-full .mb-6}
 
@@ -515,6 +515,6 @@ And still, we think our products are the real deal. They offer exactly what deve
 Sparked your curiosity about our products? Keen to find out more? Go on then, give us a shout – we can’t wait to tell you more!
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
 
 :::

@@ -24,7 +24,7 @@ interface Props {
   alt: string;
   preTitle: string;
   title: string;
-  description: string;
+  description: any;
   author: string[];
   date: string;
 }

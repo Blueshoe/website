@@ -19,7 +19,6 @@ Virtualization lets multiple OS instances run on one system and has modernized o
 ![my image](/img/blogs/kubernetes-vcluster-getdeck.jpg){.object-cover .max-w-full .mb-5}
 
 :::BlogNavigationCard{:title="Table of contents"}
-
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -70,6 +69,7 @@ Much like vcluster, [Getdeck](/products){.bs-link-blue} provides a Kubernetes-in
 **Automatic cluster management:** Getdeck can automatically delete clusters at a specified time, or also dynamically by setting usage-timeouts.
 :::
 
+
 :::GlobalPodcastSection{:videoId="5wNTUUSk1jA" :videoPosition="left" .mb-6}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 Our Kubernetes podcast
@@ -86,6 +86,7 @@ More editions of our podcast can be found here:
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
 ::::
 :::
+
 
 :::globalTitle{:size="lg" .mb-5}
 Comparing vcluster and Getdeck
@@ -149,5 +150,4 @@ As with most technology choices, understanding your requirements and mapping the
 
 
 :::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
-
 :::
