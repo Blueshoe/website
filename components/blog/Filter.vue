@@ -133,7 +133,6 @@ const refDesktopFilter = ref([]);
 const initialSorting = ref(sortedBlogs.value);
 const filterArray = ref([]);
 
-// TODO: add types
 const handleDesktopFilterItems = (filter) => {
   filters.value.forEach((filter) => {
     filter.isOpen = false;

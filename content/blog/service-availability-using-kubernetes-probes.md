@@ -52,7 +52,7 @@ Wait a second! We just jumped from scaling an application to writing yaml files.
 :::
 
 :::BlogCode{.mb-5}
-```yaml
+```bash
 ...
    livenessProbe:
       exec:
