@@ -151,10 +151,56 @@ For a working local k3d cluster (k3d version >= 5) you run:
 *k3d cluster create mycluster --agents 1 -p 8080:80@agent:0 -p 31820:31820/UDP@agent:0*
 :::
 
+:::BlogTerminal{:input='> gefyra up'}
+First thing to do is connect Gefyra with the cluster running
+#lines
+- \[INFO] Installing Gefyra Operator
+- \[INFO] Pulling image "quay.io/gefyra/operator:latest"
+- \[INFO] Successfully pulled image "quay.io/gefyra/operator:latest" in 638.596569ms
+- \[INFO] Pulling image "quay.io/gefyra/stowaway:latest"
+- \[INFO] Successfully pulled image "quay.io/gefyra/stowaway:latest" in 7.092248247s
+- \[INFO] Operator became ready in 15.2887 seconds
+- \[INFO] Creating Docker network
+- \[INFO] Created network 'gefyra' (156bace408)
+:::
+
+:::BlogTerminal{:input='> gefyra run -i pyserver -N mypyserver -n default'}
+Now, Gefyra is connected to the cluster.
+
+All you have to do now is to run a local container with:
+#lines
+- \[INFO] Container image 'pyserver:latest' started with name 'mypyserver' in Kubernetes namespace 'default'
+:::
+
+:::BlogTerminal{:input='> gefyra bridge -N mypyserver -n default --deployment hello-nginxdemo --port 80:8000 --container-name hello-nginx -I myp'}
+**Mind the -n default** which places the container *“mypyserver”* in the Kubernetes namespace of your choice. There are a couple of options available for the run action, for example you can **ask Gefyra to copy the environment** from a container within the cluster.
+
+This is handy if you need to connect to a cluster-based database for which a container within the cluster already holds the parameters.
+
+If you want to **intercept a cluster-based container** in a *pod* of a certain *deployment*, you can do so with the bridge action.
+#lines
+- \[INFO] Creating bridge for Pod hello-nginxdemo-7d648bd866-xsd28
+- \[INFO] Waiting for the bridge(s) to become active
+- \[INFO] Bridge mypybridge established
+:::
+
+:::BlogTerminal{:input='> gefyra down'}
+This action will make the “hello-nginx” container in all pods of the deployment *“hello-nginxdemo”* to redirect their traffic to the local instance of *“mypyserver”*.
+
+Now, you are able to write code or make other changes and instantly see it interacting with other Kubernetes-based components.
+
+To clean up everything you simply run:
 
 
-[//]: # (TODO add load code)
-
+To find even more examples please check out https://gefyra.dev.
+#lines
+- \[INFO] Removing running bridges
+- \[INFO] Uninstalling Operator
+- \[INFO] Removing Cargo
+- \[INFO] Stopping remainder container from Gefyra network
+- \[INFO] Removing Docker network
+- \[INFO] Removed 1 docker networks with name 'gefyra'
+:::
 
 :::globalTitle{:size="lg" .mb-5}
 Summary
