@@ -22,7 +22,7 @@
                   <slot :name="'card' + number" />
                 </div>
                 <div class="flex justify-center">
-                  <img :src="images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
+                  <speedkit-image :src="images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
                 </div>
               </div>
             </SwiperSlide>
@@ -30,7 +30,11 @@
         </div>
         <div class="hidden lg:grid lg:grid-cols-2">
           <div class="flex justify-center" :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']">
-            <img :src="images[activeSlider].src" :alt="images[activeSlider].alt" class="max-w-[500px] w-full" />
+            <speedkit-image
+              :src="images[activeSlider].src"
+              :alt="images[activeSlider].alt"
+              class="max-w-[500px] w-full"
+            />
           </div>
           <div class="flex flex-col relative" :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">
             <div
@@ -51,6 +55,7 @@
 </template>
 
 <script setup lang="ts">
+import SpeedkitImage from '#speedkit/components/SpeedkitImage';
 import 'swiper/css';
 import 'swiper/css/pagination';
 interface Props {

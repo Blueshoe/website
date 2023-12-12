@@ -32,7 +32,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <img :src="child.icon" width="40" />
+              <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>
@@ -48,7 +48,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <img :src="child.icon" width="40" />
+              <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>
@@ -59,6 +59,7 @@
 </template>
 
 <script setup lang="ts">
+import SpeedkitImage from '#speedkit/components/SpeedkitImage';
 import { storeToRefs } from 'pinia';
 import { useGeneralStore } from '~/store';
 import type { Menu, SubMenu } from '~/types';

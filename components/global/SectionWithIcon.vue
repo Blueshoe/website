@@ -3,7 +3,11 @@
     <div class="bs-container">
       <div class="flex flex-col sm:grid sm:grid-cols-2 py-10 px-4 lg:px-0">
         <div :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']" class="">
-          <img :src="image" :alt="alt" class="mx-auto h-auto max-w-[250px] sm:max-w-[200px] md:max-w-[250px] w-full" />
+          <speedkit-image
+            :src="image"
+            :alt="alt"
+            class="mx-auto h-auto max-w-[250px] sm:max-w-[200px] md:max-w-[250px] w-full"
+          />
         </div>
         <div :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']" class="mb-8">
           <div>
@@ -19,6 +23,7 @@
 </template>
 
 <script setup lang="ts">
+import SpeedkitImage from '#speedkit/components/SpeedkitImage';
 interface Props {
   image: string;
   alt: string;
