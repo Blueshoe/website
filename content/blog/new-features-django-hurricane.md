@@ -92,12 +92,12 @@ python manage.py serve --webhook-url „http://<Adresse>“
 Every one of the webhooks also contains certain data:
 :::
 :::GlobalBlock{.ul-disk .mb-5}
-- Status: ‘failed’ or ‘succeeded’ – this depends on whether the probe is run successfully or whether it fails.
-- Type: ‘startup’, ‘readiness’ or ‘liveness’.
+- Status: _‘failed’_ or _‘succeeded’_ – this depends on whether the probe is run successfully or whether it fails.
+- Type: _‘startup’_, _‘readiness’_ or _‘liveness’_.
 - Timestamp: the moment when the webhook was initiated.
 - Hostname: the name of the computer or server.
 - Version: the Hurricane version.
-- Error trace: if the webhook has the status ‘failed’, the server will send the error message along with the error path.
+- Error trace: if the webhook has the status _‘failed’_, the server will send the error message along with the error path.
 :::
 
 ![cyclone](/img/blogs/cyclone.jpg){.object-cover .max-w-full .mb-5}
@@ -110,7 +110,7 @@ Despite all our hard work on the [Django-Hurricane to-do list](https://django-hu
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR KUBERNETES PODCAST
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 Tools for the Craft: Navigating the Kubernetes ecosystem
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -125,6 +125,6 @@ More editions of our podcast can be found here:
 
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/django-development-for-kubernetes", "/blog/python-executables-linux-macos-windows", "/blog/strategies-for-slim-docker-images", "/blog/container-orchestration-options-comparison", "/blog/docker-desktop-and-kubernetes"]'}
 
 :::

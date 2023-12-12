@@ -29,7 +29,7 @@ Why are we talking about Docker images?
 Docker images have become our preferred technology – to develop applications locally on the one hand and to run applications in a testing/staging or production system (‘deployment’) on the other. As python developers, we don’t just face the unfamiliar situation of suddenly having a certain build waiting time again, but we’ve also noticed that some of the resulting Docker images are pretty big.
 :::
 
-:::globalTitle{:size="md" :tag="h3" .mb-5}
+:::globalTitle{:size="md" .mb-5}
 Reducing the Docker images' size
 :::
 :::globalParagraph
@@ -127,7 +127,7 @@ If you don’t specify a stage at which you want to stop during the build proces
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR KUBERNETES PODCAST
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 Tools for the Craft: Navigating the Kubernetes ecosystem
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -291,6 +291,6 @@ We’re not just recommending multi-stage builds because of the resulting image 
 :::
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/container-orchestration-options-comparison", "/blog/performance-comparison-gke-vs-eks", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/evolution-of-application-development-to-cloud-native"]'}
 
 :::

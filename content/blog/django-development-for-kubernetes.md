@@ -125,6 +125,8 @@ In order for the probes to do their job, they actually have to be able to make a
 More logic might well be necessary in order to establish the liveness or readiness of an application rather than just an endpoint which sends back a 200. Hurricane’s probe endpoint runs Django’s check framework. This makes it possible for the **additional logic** required for the application to be displayed in Django’s checks.
 :::
 
+<hr class="mb-6">
+
 :::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="left" .mb-6}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST: TOOLS FOR THE CRAFT
@@ -138,9 +140,11 @@ Michael and Robert are talking about the various options developers have for run
 ::::globalParagraph{:font-size="lg" }
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
 ::::
 :::
+
+<hr class="mb-6">
 
 :::globalTitle{:size="md" .mb-5}
 Roadmap and further development

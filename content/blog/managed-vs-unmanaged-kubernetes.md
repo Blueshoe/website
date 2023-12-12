@@ -69,11 +69,11 @@ Below is an example of a standard, albeit shortened, **procedure of the manual i
 
 <hr class='mb-8'>
 
-::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="left" :bg="bg-bs-gray" .mb-5}
+::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" :bg="bg-bs-gray" .mb-5}
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR KUBERNETES PODCAST
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 TftC E1: Kubernetes development environments
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -121,6 +121,6 @@ Good to know: When it comes to [Unikube](https://unikube.io/){.bs-link-blue}, th
 
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/performance-comparison-gke-vs-eks", "/blog/container-orchestration-options-comparison", "/blog/strategies-for-slim-docker-images", "/blog/local-kubernetes-development", "/blog/evolution-of-application-development-to-cloud-native"]'}
 
 :::

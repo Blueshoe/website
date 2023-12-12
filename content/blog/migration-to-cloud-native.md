@@ -46,7 +46,7 @@ In the following graphic, which illustrates the temporal development of developm
 ![Migration to cloud-native](/img/blogs/migration-to-cloud-native-1.jpg){.object-cover .w-full .mb-5}
 
 
-:::globalTitle{:size="md" :teg="h3" :color="text-bs-blue" .mb-5}
+:::globalTitle{:size="md" :tag="h3" :color="text-bs-blue" .mb-5}
 Example 1: Local development using Vagrant
 :::
 
@@ -63,7 +63,7 @@ The second step is to create the Kubernetes manifests – via Helm charts, for e
 Finally, you ‘only’ have to transition the development process to Kubernetes. This means that our developers have private or individual clusters are their disposal. On the one hand, this could be local clusters which are simulated via [k3d, microk8s or minikube](https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/){.bs-link-blue}. Or one the other, these individual ‘developer clusters’ might also exist remotely – meaning it’s a real K8s cluster, but it’s only used by one developer.
 :::
 
-:::globalTitle{:size="md" :teg="h3" :color="text-bs-blue" .mb-5}
+:::globalTitle{:size="md" :tag="h3" :color="text-bs-blue" .mb-5}
 Example 2: Local development and hosting with Docker Compose
 :::
 :::globalParagraph
@@ -77,13 +77,15 @@ Naturally, in this case the local development process will then have to be trans
 :::
 
 
-:::globalTitle{:size="md" :teg="h3" :color="text-bs-blue" .mb-5}
+:::globalTitle{:size="md" :tag="h3" :color="text-bs-blue" .mb-5}
 Example 3: Local development via Docker Compose, hosting via Kubernetes
 :::
 
 :::globalParagraph
 With this project, we have already subdivided our services and we also have one or several Dockerfiles. For the local development, Docker Compose is used while the hosting takes place via Kubernetes. Thus, the only migration step is the transition of the local development process to Kubernetes. Other than that, the production environment for the local development always has to be simulated in the *Docker-Compose.yaml*. This does require a certain amount of extra effort on the one hand and on the other, it does create the problem that the local environment doesn’t quite match the production environment. This means that unexpected problems or side effects can occur during deployment.
 :::
+
+<hr class="mb-6">
 
 :::globalTitle{:size="lg" .mb-5}
 Challenges during migration

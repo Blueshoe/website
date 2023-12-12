@@ -33,7 +33,7 @@ Since “local Kubernetes” is kind of “our thing” we of course had to chim
 In general “testing code locally” in a Kubernetes infrastructure was a true issue we had to deal with on a daily basis. In the end we feel the best solution would be if developers would Kubernetes already during the local development process as that already solves a bunch of the main issues.
 :::
 
-![Test locally](/img/blogs/test-kubernetes-locally-1.jpg){.object-cover .max-w-full .mb-5}
+![Test locally](/img/blogs/test-kubernetes-locally-1.jpg){.object-cover .w-full .mb-5}
 
 
 :::globalTitle{:size="lg" .mb-5}
@@ -75,9 +75,9 @@ Moments of clarity
 We don’t think that this can be the answer.
 :::
 :::GlobalBlock{.ul-disk .mb-5}
-1. Who is responsible for the mock service implementation?
-2. The neighboring development team writing the actual service?
-3. Or the team depending on that particular service?
+- Who is responsible for the mock service implementation?
+- The neighboring development team writing the actual service?
+- Or the team depending on that particular service?
 :::
 :::globalParagraph
    We did that in the past and found mocking services to be not enough. Three relevant points:

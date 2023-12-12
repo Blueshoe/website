@@ -117,6 +117,6 @@ More editions of our podcast can be found here:
 ::::
 :::
 
-:::BlogRelatedPosts{:url='["/blog/django-development-for-kubernetes", "/blog/php-vs-python", "/blog/new-features-django-hurricane", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot"]'}
+:::BlogRelatedPosts{:tag='h2' :url='["/blog/django-development-for-kubernetes", "/blog/php-vs-python", "/blog/new-features-django-hurricane", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot"]'}
 
 :::

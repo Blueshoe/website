@@ -137,6 +137,6 @@ Unlocking application availability: harnessing Kubernetes probes for enhanced us
 The concept of probes within Kubernetes provides us with a comfortable way to gain feedback from applications which allows us to tackle basic availability issues. While I did not comment on technical details on how probes communicate with the application (commands, HTTP, TCP, or gRPC), by now you should have understood the overall concept and importance of probes and be able to start using them to achieve higher availability. Certainly there will be additional technical challenges in order to provide the endpoints used by the probes within your application. These, however, highly depend on the application and may even not be required to be handled by yourself. And if you are confronted with them, there is no lack of documentation. Therefore, I encourage you to start using kubernetes probes to tackle basic availability issues in order to increase user satisfaction.
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/kubernetes-explained-for-non-developers", "/blog/local-kubernetes-development", "/blog/managed-vs-unmanaged-kubernetes", "/blog/container-orchestration-options-comparison", "/blog/kubernetes-community-days-munich-2023"]'}
 
 :::

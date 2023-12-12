@@ -80,6 +80,6 @@ Conclusion
 The Kubernetes Community Days Munich is back, bigger and better than ever! With an expanded program, a larger venue, and a vibrant community, KCD Munich 2023 promises to be a blast!
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/cilium-kubernetes-networking-observability", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/performance-comparison-gke-vs-eks", "/blog/docker-desktop-and-kubernetes", "/blog/local-kubernetes-development"]'}
 
 :::

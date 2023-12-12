@@ -155,6 +155,6 @@ More editions of our podcast can be found here:
 ::::
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/kubernetes-community-days-munich-2023", "/blog/cilium-kubernetes-networking-observability", "/blog/performance-comparison-gke-vs-eks", "/blog/local-kubernetes-development", "/blog/evolution-of-application-development-to-cloud-native"]'}
 
 :::

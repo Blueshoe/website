@@ -141,7 +141,7 @@ Let’s dive a bit deeper into the build process of the frontend.
 
 
 :::globalTitle{:size="md" .mb-5}
-Sentry Source Maps and Release Health
+Docker Arguments and Secrets
 :::
 :::globalParagraph
 Since we make use of environment variables, which may differ from one environment to the other (compare development and production), those variables need to be set at build time. The 'dist' version of the frontend is served through a simple NGINX docker container. Therefore we leverage Docker’s arguments to pass in environment variables at build time (for the docker image as well as for the frontend).
@@ -183,6 +183,8 @@ However, the SentryCLIPlugin sends something to our Sentry installation and ther
 Docker injects the secret as a file, located under '/run/secrets/SENTRY_AUTH_TOKEN'. This file then is read by the 'SentryCLIPlugin'.
 :::
 
+<hr class="mb-6">
+
 :::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="left" .mb-6}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST: TOOLS FOR THE CRAFT
@@ -199,6 +201,8 @@ More editions of our podcast can be found here:
 ::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
 ::::
 :::
+
+<hr class="mb-6">
 
 :::globalTitle{:size="md" .mb-5}
 Github Actions
