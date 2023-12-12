@@ -164,7 +164,7 @@ Define the boundaries
 The proposal should define clear boundaries. For clients in particular, it’s not always clear what hides behind the different elements of the quote. It may even make sense to include an additional document in the proposal, which explains these points in further detail.
 :::
 
-:::globalTitle{:size="md" :tag="h3" .mb-5}
+:::globalTitle{:size="md" .mb-5}
 Better distribution of project management costs
 :::
 :::globalParagraph
@@ -183,7 +183,7 @@ And there’s an additional fifth insight for a successful implementation of pro
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 PODCAST: TOOLS FOR THE CRAFT
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 Edition 2: Remote Kubernetes development environments
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -211,6 +211,6 @@ For us, it’s always vital that we are able to react flexibly to changes in the
 
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/evolution-of-application-development-to-cloud-native", "/blog/kubernetes-explained-for-non-developers", "/blog/managed-vs-unmanaged-kubernetes", "/blog/container-orchestration-options-comparison", "/blog/local-kubernetes-development"]'}
 
 :::

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GlobalTitle size="lg" tag="h3" class="mb-6"> Some of our other articles you may like: </GlobalTitle>
+    <GlobalTitle size="lg" :tag="tag" class="mb-6"> Some of our other articles you may like: </GlobalTitle>
     <GlobalBlock class="ul-disk">
       <ul>
         <li v-for="(blog, i) in preparedBlogs" :key="i" class="cursor-pointer">
@@ -20,10 +20,12 @@ import { convertToDate } from '~/utils/convertToDate';
 interface Props {
   number?: number;
   url?: string[];
+  tag?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  number: 5
+  number: 5,
+  tag: 'h3'
 });
 
 const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
@@ -32,7 +34,7 @@ const preparedBlogs = computed(() => {
   if (!props.url) {
     return sortedBlogs?.slice(0, props.number);
   } else {
-    return blogs.value?.filter((blog) => {
+    return sortedBlogs?.filter((blog) => {
       return props.url?.includes(blog.src);
     });
   }

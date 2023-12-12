@@ -159,7 +159,7 @@ Cost Considerations
 Cost considerations play a significant role when comparing FaaS and Kubernetes. FaaS platforms operate on a pay-per-use model, where organizations are charged based on the number of function invocations and their resource consumption. This can be cost-effective for applications with sporadic or unpredictable traffic patterns. Kubernetes, on the other hand, requires organizations to provision and manage their own infrastructure, which may involve upfront costs for hardware or cloud resources. Kubernetes applications need to maintain continuous operation to ensure service availability, regardless of whether they receive incoming requests or not. However, once set up, Kubernetes offers more cost predictability and control for long-running or continuously active applications.
 :::
 
-:::GlobalTitle{:size="lg" .mb-5}
+:::GlobalTitle{:size="lg" :tag="h3" .mb-5}
 Reflections on Function-as-a-Service (FaaS) and Kubernetes
 :::
 :::GlobalParagraph
@@ -178,6 +178,6 @@ Ultimately, there is no one-size-fits-all solution. The choice between FaaS and 
 As technology continues to evolve, new advancements and platforms will emerge, further expanding the options available to developers and organizations. Keeping abreast of industry trends and continuously evaluating the suitability of platforms will ensure that you stay at the forefront of innovation and deliver optimal solutions for your applications.
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/service-availability-using-kubernetes-probes", "/blog/local-kubernetes-development", "/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/migration-to-cloud-native", "/blog/cloud-native-conferences"]'}
 
 :::

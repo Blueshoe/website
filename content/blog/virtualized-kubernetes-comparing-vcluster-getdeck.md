@@ -149,5 +149,5 @@ As with most technology choices, understanding your requirements and mapping the
 :::
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/kubernetes-basics-simply-explained", "/blog/function-as-a-service-faas-vs-kubernetes", "/blog/cloud-native-conferences", "/blog/local-kubernetes-development", "/blog/migration-to-cloud-native"]'}
 :::

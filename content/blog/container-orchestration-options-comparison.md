@@ -149,7 +149,7 @@ And as with the Unmanaged Kubernetes setup, you don’t only have to manage all 
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST: TOOLS FOR THE CRAFT
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 E2: Remote Kubernetes development environments
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -173,6 +173,6 @@ Also, check out [Unikube](https://unikube.io/){.bs-link-blue}, which makes Kuber
 :::
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/evolution-of-application-development-to-cloud-native", "/blog/managed-vs-unmanaged-kubernetes", "/blog/strategies-for-slim-docker-images", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot"]'}
 
 :::

@@ -274,7 +274,7 @@ loki-grafana-64b4b79494-8bt7c   1/1     Running   0          1h
 All three components are up and running, sweet! Now that we’re all set up, let’s look at how we can actually put this to use.
 :::
 
-:::GlobalPodcastSection{:videoId="5wNTUUSk1jA" :videoPosition="left" .mb-6}
+:::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" .mb-6}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR KUBERNETES PODCAST
 ::::

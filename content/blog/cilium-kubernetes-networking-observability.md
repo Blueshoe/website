@@ -308,6 +308,6 @@ Service Mesh
 Cilium [service mesh](https://docs.cilium.io/en/stable/network/servicemesh/){.bs-link-blue} aims to replace more traditional service mesh solutions like Linkerd. It has one key difference, though: While Linkerd relies on sidecar proxies to manage traffic between pods, Cilium service mesh uses eBPF on the node level to manage traffic, improving performance, reducing load and further decoupling the service mesh from the actual workloads.
 :::
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/docker-desktop-and-kubernetes", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/docker-vs-podman", "/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/alternative-to-telepresence-2-gefyra"]'}
 
 :::

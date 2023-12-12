@@ -64,6 +64,6 @@ This episode's big subject: What can a (local) Kubernetes development look like?
 - minikube: [https://minikube.sigs.k8s.io/docs/](https://minikube.sigs.k8s.io/docs/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
-Related Blogpost: [How does local Kubernetes development work?](#){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+Related Blogpost: [How does local Kubernetes development work?](/blog/local-kubernetes-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 :::
 ::

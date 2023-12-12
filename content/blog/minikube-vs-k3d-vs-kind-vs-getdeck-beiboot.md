@@ -408,7 +408,7 @@ minikube profile list
 When you have a cluster running, you can always open up the official Kubernetes dashboard with *minikube dashboard* (for the default profile). Of course, you can always install the Kubernetes dashboard to any cluster, but this command is really a shortcut to get a visual interface to this cluster after a few seconds.
 :::
 
-![minikube dashboard](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-4.jpg){.object-cover .max-w-full .mb-5}
+![minikube dashboard](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-4.jpg){.object-cover .w-full .mb-5}
 
 :::globalParagraph
 **Add that ingress**
@@ -455,7 +455,7 @@ k3d
 The installation of the k3d CLI is very simple. You can get it via brew, script, or download it as binary and put it manually to your path. However, the CLI needs more time to get used to it. Compared to minikube, k3d does not provide so many features on the command line, yet you can realise almost all required setups with k3d just as well.
 :::
 
-:::globalTitle{:size="md" :tag="h3" .mb-5}
+:::globalTitle{:size="sm" :tag="h3" .mb-5}
 Fewer CLI options but ingress out of the box
 :::
 :::globalParagraph
@@ -466,7 +466,7 @@ k3d comes with traefik as an ingress controller. It’s always installed, except
 :::
 
 
-:::globalTitle{:size="md" :tag="h3" .mb-5}
+:::globalTitle{:size="sm" :tag="h3" .mb-5}
 Port mapping meh
 :::
 :::globalParagraph
@@ -497,7 +497,7 @@ k3d cluster create --config myconfig.yaml
 A command to generate the tab-completion script is available for many terminals, too.
 :::
 
-:::globalTitle{:size="md" :tag="h3" .mb-5}
+:::globalTitle{:size="sm" :tag="h3" .mb-5}
 kind
 :::
 :::globalParagraph
@@ -689,6 +689,6 @@ If you want to know more about Kubernetes-based development [follow me on Linked
 :::
 
 
-:::BlogRelatedPosts
+:::BlogRelatedPosts{:url='["/blog/docker-vs-podman", "/blog/performance-comparison-gke-vs-eks", "/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/local-kubernetes-development", "/blog/vuejs-error-tracking-with-sentry"]'}
 
 :::

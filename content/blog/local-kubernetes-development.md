@@ -65,7 +65,7 @@ In the upcoming sections, we will have a look at how we overcome these challenge
 :::
 
 ::GlobalPodcastSection{:videoId="FazRUwBWPUI" :videoPosition="left" :bg="bg-bs-gray" .mb-5}
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 Local Kubernetes Development using Gefyra
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -78,7 +78,7 @@ You can check out Gefyra here:
 ::::
 ::
 
-:::globalTitle{:size="sm" :tag="h4" .font-normal .mb-5}
+:::globalTitle{:size="sm" .font-normal .mb-5}
 K3D/K3S – Lightweight Kubernetes in Docker
 :::
 :::globalParagraph
@@ -338,20 +338,17 @@ Afterwards, we browse the _Debug-URL_. Here, too, we have to remember that _DEBU
 
 ![pasted_image](/img/blogs/debug_kubernetes.jpg){.object-cover .max-w-full .mb-5}
 
-::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="left" :bg="bg-bs-gray" .mb-5}
-:::GlobalPreTitle{:color="text-bs-green" .mb-3}
-OUR KUBERNETES PODCAST
-:::
-:::GlobalTitle{.mb-6}
-Tools for the Craft: Navigating the Kubernetes ecosystem
+::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" :bg="bg-bs-gray" .mb-5}
+:::GlobalTitle{:tag="h3" .mb-6}
+Tools for the Craft - Edition 1: Kubernetes development environments
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
-Michael and Robert are talking about the various options developers have for running remote Kubernetes development environments.
+You can also check out the first edition of our Kubernetes podcast "Tools for the Craft: Navigating the Kubernetes ecosystem" here. Michael and Robert are talking in depth about the ins and outs of local Kubernetes development and also provide some real coding examples.
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 :::
-::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
+::::GlobalButton{:url="/podcast" :label="More podcast editions!" :color="green"}
 ::::
 ::
 
@@ -372,6 +369,6 @@ And finally, let’s not forget the **buzzword counter:** I got to **23 unique b
 
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/docker-desktop-and-kubernetes", "/blog/docker-vs-podman", "/blog/alternative-to-telepresence-2-gefyra", "/blog/kubernetes-logging-with-promtail-loki-and-grafana"]'}
 
 :::

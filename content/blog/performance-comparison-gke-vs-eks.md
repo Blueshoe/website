@@ -147,7 +147,7 @@ This command executes the CPU benchmark for one minute.
 :::
 
 :::globalTitle{:size="md" .mb-5}
-1 GKE vs EKS: CPU events per second
+1\) GKE vs EKS: CPU events per second
 :::
 :::globalParagraph
    sysbench captures the executed loops (aka events) calculating all prime numbers up to a certain parameter in a given timeframe. It indicates how much CPU time was granted to the process and how fast the calculation was in general.
@@ -158,7 +158,7 @@ This command executes the CPU benchmark for one minute.
 :::
 
 :::globalTitle{:size="md" .mb-5}
-2 GKE vs. EKS: CPU latency
+2\) GKE vs. EKS: CPU latency
 :::
 :::globalParagraph
 Sysbench records the CPU latency for a requested event. It aggregates the results and returns the minimum, maximum, average and 95th percentile values.
@@ -197,7 +197,7 @@ The filesystem performance results paint a particularly dramatic picture. The sy
 :::
 
 :::globalTitle{:size="md" .mb-5}
-1 GKE vs EKS: File throughput
+1\) GKE vs EKS: File throughput
 :::
 :::globalParagraph
 The file throughput benchmark simply writes a file to the filesystem and reads an artificial file from the filesystem.
@@ -209,7 +209,7 @@ The write and read performance of a container running on EKS is about 95% better
 :::
 
 :::globalTitle{:size="md" .mb-5}
-2 File input/output latency
+2\) File input/output latency
 :::
 ![kubernetes](/img/blogs/performance-comparison-gke-vs-eks-5.jpg){.object-cover .w-max-full .mb-5}
 
@@ -218,7 +218,7 @@ The file latency is almost on par for both platforms. Personally, I’d not put 
 :::
 
 :::globalTitle{:size="md" .mb-5}
-3 File operations per second
+3\) File operations per second
 :::
 ![kubernetes](/img/blogs/performance-comparison-gke-vs-eks-6.jpg){.object-cover .w-max-full .mb-5}
 

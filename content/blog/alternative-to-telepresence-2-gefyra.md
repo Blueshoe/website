@@ -68,7 +68,7 @@ Another architectural decision of the Telepresence team was to modify the worklo
 :::
 
 
-:::globalTitle{:size="sm" :tag="h3 .mb-5}
+:::globalTitle{:size="sm" .mb-5}
 Bypassing of containers
 :::
 :::globalParagraph
@@ -192,7 +192,7 @@ Now, you are able to write code or make other changes and instantly see it inter
 To clean up everything you simply run:
 
 
-To find even more examples please check out https://gefyra.dev.
+To find even more examples please check out [https://gefyra.dev](https://gefyra.dev){.bs-link-blue}.
 #lines
 - \[INFO] Removing running bridges
 - \[INFO] Uninstalling Operator

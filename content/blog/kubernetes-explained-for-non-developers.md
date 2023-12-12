@@ -131,7 +131,7 @@ Kubernetes alternatives
 Kubernetes isn’t the only service that orchestrates the software execution in a container on virtual machines (the nodes). Apart from Kubernetes, there are a whole lot of other providers: Docker Swarm, Nomad or Kontena, among others. You can find comparisons of these and other applications with Kubernetes in various online resources.
 :::
 
-:::globalTitle{:size="lg" .mb-5}
+:::globalTitle{:size="md" .mb-5}
 Why use Kubernetes?
 :::
 :::globalParagraph
@@ -141,7 +141,7 @@ Kubernetes undeniably offers many benefits – but along with those come a few d
 Here are some arguments for and against the use of Kubernetes:
 :::
 
-![monolith vs. microservices](/img/blogs/kubernetes-explained-for-non-developers-2.jpg){.object-cover .max-w-full .mb-5}
+![monolith vs. microservices](/img/blogs/kubernetes-explained-for-non-developers-2.jpg){.object-cover .w-full .mb-5}
 
 :::globalParagraph
 With every benefit of Kubernetes, you’ll also find a drawback. So there’s no easy answer to the question ‘Should I use Kubernetes?’. Every reply is as unique as every software or every one of Blueshoe’s clients.
@@ -277,13 +277,18 @@ With Kubernetes, in order to start and manage the deployment, the command-line i
 
 ![ReplicaSets](/img/blogs/kubernetes-explained-for-non-developers-5.jpg){.object-cover .max-w-full .mb-5}
 ![ReplicaSets](/img/blogs/kubernetes-explained-for-non-developers-6.jpg){.object-cover .max-w-full .mb-5}
+
+:::globalTitle{:size="md" .mb-5}
+Service, label and selector
+:::
+
 ![ReplicaSets](/img/blogs/kubernetes-explained-for-non-developers-7.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
 A service in Kubernetes has nothing to do with a ‘managed Kubernetes service’ (see above), but is in fact a part of the cluster. A service could be considered as an abstraction which gathers pods together in a logical sense and defines how the pods can interact with one another. They do not interact with each other directly, though. Instead, the pods can be assigned labels. This service also includes a complementary selector. Pods can then interact with one another via the labels on the pod and the selectors of the service.
 :::
 
-:::globalTitle{:size="md" .mb-5}
+:::globalTitle{:size="lg" .mb-5}
 The Cluster: a summary
 :::
 :::globalParagraph

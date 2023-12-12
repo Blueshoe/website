@@ -373,6 +373,6 @@ If you want to know more about Kubernetes-based development [follow me on Linked
 
 
 
-:::BlogRelatedPosts{:url='["/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/docker-vs-podman", "/blog/local-kubernetes-development", "blog/local-kubernetes-development", "/blog/performance-comparison-gke-vs-eks"]'}
+:::BlogRelatedPosts{:url='["/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/docker-vs-podman", "/blog/local-kubernetes-development", "/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/performance-comparison-gke-vs-eks"]'}
 
 :::

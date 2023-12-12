@@ -38,7 +38,7 @@ PHP is a programming language, Django is a web framework, Wordpress and Drupal a
 :::
 
 :::globalTitle{:size="lg" .mb-5}
-Why does Blueshoe trust in django?
+PHP is a burden
 :::
 :::globalParagraph
 PHP is a popular programming language used by many sources and many projects. Having said that, the modern world of web applications is slowly but steadily moving away from PHP:
@@ -117,7 +117,7 @@ Of course, there are PHP developers who manage to structure their code in a clea
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR KUBERNETES PODCAST
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 Tools for the Craft: Navigating the Kubernetes ecosystem
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -155,7 +155,7 @@ Django describes itself as ‘the web framework for perfectionists with deadline
 Okay, so Django is secure, it’s well-structured, has very good maintainability and allows for many functionalities to be implemented within a short timeframe. But who uses Django? Are there examples of other well-known websites that count on Python/Django?
 :::
 
-:::globalTitle{:size="md" :tag="h3" .mb-5}
+:::globalTitle{:size="md" .mb-5}
 Who else puts their faith in Python/Django?
 :::
 
@@ -213,7 +213,7 @@ Python and Django have active communities, they are constantly being developed f
 To cut a long story short: Python/Django are a terrific basis for various different projects. We trust in them and our experience speaks for itself. We encounter new challenges on a daily basis and have never been let down by Django. It simply matches the core of our mentality – after all, we are perfectionists with deadlines.
 :::
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]' .mb-5}
+:::BlogRelatedPosts{:url='["/blog/django-development-for-kubernetes", "/blog/new-features-django-hurricane", "/blog/python-executables-linux-macos-windows", "/blog/local-kubernetes-development", "/blog/strategies-for-slim-docker-images"]' .mb-5}
 
 :::
 

@@ -115,7 +115,7 @@ If you want more insights into the Kubernetes ecosystem, feel free to [follow Mi
 :::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST: TOOLS FOR THE CRAFT
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:tag="h3" .mb-6}
 E2: Remote Kubernetes development environments
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
@@ -129,6 +129,6 @@ More editions of our podcast can be found here:
 ::
 
 
-:::BlogRelatedPosts{:url='["/blog/virtualized-kubernetes-comparing-vcluster-getdeck", "/blog/kubernetes-basics-simply-explained", "/blog/cloud-native-conferences"]'}
+:::BlogRelatedPosts{:url='["/blog/container-orchestration-options-comparison", "/blog/performance-comparison-gke-vs-eks", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/docker-vs-podman"]'}
 
 :::

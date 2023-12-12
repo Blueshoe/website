@@ -105,7 +105,7 @@ Check out the first edition of our Kubernetes podcast "Tools for the Craft: Navi
 ::::globalParagraph{:font-size="lg" }
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast" :label="Show more podcast editions" :color="green"}
 ::::
 :::
 
@@ -164,8 +164,8 @@ Unfulfilled promises
 Hence, I find this feature misleading, especially with the communication and documentation of Podman. No, I cannot define a Podman pod on a local machine and migrate it that easily to production Kubernetes. On Kubernetes, we use strong networking mechanisms such as load balancers, IP routing, network policies and with it, loose coupling.
 :::
 
-:::globalTitle{:size="lg" .mb-5}
-Podman pods and Kubernetes
+:::globalTitle{:size="md" .mb-5}
+Conclusion
 :::
 :::globalParagraph
 I hope this article has given you a better understanding of the differences between Podman and Docker. As you can see, there are many similarities between the two tools, but they also have some key differences that could make one option more suitable than the other, depending on your use case. While Podman is still in its early stages of development, it has already shown signs of being a worthy alternative to Docker by providing a simpler user experience while still maintaining compatibility with existing images from other registries like Docker Hub or Google Container Registry (GCR). I look forward to seeing how these tools evolve over time as they both continue to add new features. Be sure to have a look at [Podman Desktop](https://podman-desktop.io/){.bs-link-blue}, too. I am not sure if Podman is also going the developer experience (‘DX’) path, just like Docker, or if are they trying to operate production servers. Let me know what you think.
