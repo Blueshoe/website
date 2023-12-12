@@ -159,7 +159,7 @@ TOOLS, FRAMEWORKS AND TECHNOLOGIES WE WORK WITH
 Our tech stack
 ::::
 #tab-0
-::GlobalTab{:image="/img/global/tabs/technogolies_panel_3.svg" :isIcons=true :icons='["/img/global/icons/docker.svg", "/img/global/icons/kubernetes-seeklogo.svg", "/img/global/icons/google-cloud-1.svg", "/img/global/icons/amazon_web_services_logo.svg"]'  }
+::GlobalTab{:image="/img/global/tabs/technogolies_panel_3.svg" :isIcons=true :icons='["/img/global/icons/docker.svg", "/img/global/icons/kubernetes-seeklogo.svg", "/img/global/icons/google-cloud-1.svg", "/img/global/icons/amazon_web_services_logo.svg"]' .min-h-[520px]}
 :::GlobalParagraph{:fontSize="text-lg" .mb-4}
 The foundation for any web project is a solid infrastructure. It ensures that the application runs stably and can process the requests that arise. A good infrastructure automatically scales the performance needed for the current task. What used to be a Herculean task is many times easier in times of cloud infrastructure.
 :::
