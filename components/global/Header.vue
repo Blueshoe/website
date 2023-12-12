@@ -2,7 +2,7 @@
   <div class="fixed z-50 bg-white w-full">
     <div class="relative bs-container flex h-[70px] justify-between items-center">
       <NuxtLink to="/"
-        ><speedkit-image src="/img/blueshoe-navbar-logo.png" width="200" class="max-w-[200px]"
+        ><speedkit-image src="/img/blueshoe-navbar-logo.png" width="200" height="51" class="max-w-[200px]"
       /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight">
         <button
