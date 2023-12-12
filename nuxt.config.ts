@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     'nuxt-simple-robots',
     '@zadigetvoltaire/nuxt-gtm',
-    '@nuxt/image'
+    'nuxt-speedkit'
   ],
   components: {
     global: true,
@@ -21,6 +21,11 @@ export default defineNuxtConfig({
   content: {
     experimental: {
       clientDb: true
+    },
+    highlight: {
+      theme: {
+        default: 'monokai'
+      }
     }
   },
   tailwindcss: {
@@ -56,9 +61,63 @@ export default defineNuxtConfig({
     trackOnNextTick: false,
     devtools: true
   },
+  delayHydration: {
+    mode: 'mount',
+    debug: process.env.NODE_ENV === 'development'
+  },
+  speedkit: {
+    detection: {
+      performance: true,
+      browserSupport: true
+    },
+
+    performanceMetrics: {
+      device: {
+        hardwareConcurrency: { min: 2, max: 48 },
+        deviceMemory: { min: 2 }
+      },
+      timing: {
+        fcp: 800,
+        dcl: 1200
+      }
+    },
+
+    targetFormats: ['webp', 'avif', 'jpg|jpeg|png|gif'],
+
+    componentAutoImport: false,
+    componentPrefix: undefined,
+
+    lazyOffset: {
+      component: '0%',
+      asset: '0%'
+    }
+  },
+
   image: {
+    screens: {
+      default: 320,
+      xxs: 480,
+      xs: 576,
+      sm: 768,
+      md: 996,
+      lg: 1200,
+      xl: 1367,
+      xxl: 1600,
+      '4k': 1921
+    },
     cloudflare: {
-      baseURL: 'https://blueshoe-io.pages.dev/'
+      baseURL: 'https://that-test.site'
+    },
+    domains: ['img.youtube.com', 'i.vimeocdn.com'],
+    alias: {
+      youtube: 'https://img.youtube.com',
+      vimeo: 'https://i.vimeocdn.com'
+    }
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml'],
+      failOnError: false
     }
   }
 });

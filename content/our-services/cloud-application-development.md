@@ -1,5 +1,6 @@
 ---
-title: 'Services'
+title: 'Cloud application development by experts'
+description: 'content="Cloud Native Development Experts. We develop complex applications for for cloud based infrastructures. ✅ Microservices ✅ Kubernetes ✅ APIs"'
 ---
 
 ::GlobalWrapperSections
@@ -125,7 +126,7 @@ How do you
 ::::GlobalBlock{.mb-4 .ul-disk}
 - build your overall [service architecture?](/our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 - implement CI/CD (continuous integration / continuous delivery) pipelines?
-- use [containers and orchestrate them?](#){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+- use [containers and orchestrate them?](/blog/container-orchestration-options-comparison){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 - manage secrets and certificates?
 - use [API gateways](/our-services/api-development-agency){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, logging, monitoring, altering or even tracing?
 ::::
@@ -288,10 +289,10 @@ OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E1: Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

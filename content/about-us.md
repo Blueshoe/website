@@ -1,5 +1,5 @@
 ---
-title: 'About us'
+
 ---
 ::GlobalWrapperMain{:leftNavigationCard=-145}
 
@@ -24,7 +24,7 @@ We are 100% flexible to any situation. We love new challenges and tackle them wi
 ::::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/about-us/blue_shoes-47-black.jpg" :width="md:w-3/5"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/about-us/blue_shoes-47.jpg" :width="md:w-3/5"}
 ::::GlobalTitle{.mb-6 data-title="Vision"}
 The future of Blueshoe
 ::::

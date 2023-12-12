@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="src" class="navigation-card-shadow m-2">
     <div>
-      <img :src="img" :alt="alt" class="object-cover max-w-full" />
+      <speedkit-image :src="img" :alt="alt" class="object-cover max-w-full" />
     </div>
     <div class="p-6 blog">
       <h6 class="text-xl font-oswald font-extralight text-bs-green">{{ preTitle }}</h6>
@@ -18,13 +18,15 @@
 </template>
 
 <script setup lang="ts">
+import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+
 interface Props {
   src: string;
   img: string;
   alt: string;
   preTitle: string;
   title: string;
-  description: string;
+  description: any;
   author: string[];
   date: string;
 }

@@ -99,7 +99,6 @@ export const useGeneralStore = defineStore('general', () => {
     { name: 'contactUs', href: '/contact', dropDown: false }
   ]);
 
-  // TODO: get them dynamically from the content
   const authors = ref([
     { name: 'Robert Gutschale', isSelected: false },
     { name: 'Victor Studenyak', isSelected: false },

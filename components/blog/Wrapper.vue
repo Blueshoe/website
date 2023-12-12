@@ -1,5 +1,5 @@
 <template>
-  <div ref="refWrapperBlog" class="bs-container py-10 blog">
+  <div ref="refWrapperBlog" class="bs-container py-10 px-8 lg:px-4 blog">
     <slot />
   </div>
 </template>
@@ -18,12 +18,15 @@ onMounted(() => {
 
   if (!headings) return;
 
+  const toKebabCase = (string: string) => string.replace(/:/g, '').replace(/\s+/g, '-').toLowerCase();
+
   for (let i = 0; i < headings.length; i++) {
-    headings[i].setAttribute('id', 'heading' + i);
+    headings[i].setAttribute('id', toKebabCase(headings[i].innerText));
 
     blogHeading.value.push({
-      id: 'heading' + i,
+      id: toKebabCase(headings[i].innerText),
       title: headings[i].innerText,
+      visible: false,
       active: false
     });
   }

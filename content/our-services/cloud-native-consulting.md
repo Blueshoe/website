@@ -1,5 +1,6 @@
 ---
-title: 'Cloud Consulting'
+title: 'Cloud native consulting'
+description: 'Cloud Native Consulting. We help you setting up your cloud native strategy.  ✅ Dev process ✅ Migration to K8s ✅ Cloud Migration'
 ---
 
 ::GlobalWrapperSections
@@ -224,10 +225,10 @@ CHECK OUT OUR PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E2: Remote Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In the second edition of our podcast "Tools for the Craft - Navigating the Kubernetes ecosystem" Michael and Robert talk about the various options developers have for remote K8s development and will show some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

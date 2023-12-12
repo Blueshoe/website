@@ -37,22 +37,18 @@
         </ul>
       </div>
       <div class="flex justify-end">
-        <button
-          class="font-oswald font-normal text-lg text-bs-blue border-[3px] border-bs-blue px-8 py-2 my-6"
-          @click="resetFilters"
-        >
-          Reset Filters
-        </button>
+        <GlobalButton label="Reset Filters" class="px-8 py-2 my-6" @click="resetFilters" />
       </div>
     </div>
     <div v-if="isMobileFilter" class="flex justify-center">
-      <button
-        v-if="!isMobileFilterOpen"
-        class="font-oswald font-normal text-base text-bs-blue border-[3px] border-bs-blue px-4 py-[2px]"
-        @click="isMobileFilterOpen = true"
-      >
-        Filter posts
-      </button>
+      <transition name="button">
+        <GlobalButton
+          label="Filter posts"
+          v-if="!isMobileFilterOpen && !isMobileFilterItemsOpen"
+          class="px-4 py-[2px] transition-all duration-300 delay-300"
+          @click="isMobileFilterOpen = true"
+        />
+      </transition>
       <div
         class="absolute top-[70px] bg-white w-full shadow transition-all duration-300 delay-300"
         :class="[isMobileFilterOpen ? 'left-0' : '-left-[100%]']"
@@ -77,12 +73,7 @@
           </li>
         </ul>
         <div class="flex justify-end">
-          <button
-            class="font-oswald font-normal text-base text-bs-blue border-[3px] border-bs-blue px-4 py-[2px] m-4"
-            @click="resetFilters"
-          >
-            Reset Filters
-          </button>
+          <GlobalButton label="Reset Filters" class="px-4 py-[2px] m-4" @click="resetFilters" />
         </div>
       </div>
       <div
@@ -118,12 +109,7 @@
           </li>
         </ul>
         <div class="flex justify-end">
-          <button
-            class="font-oswald font-normal text-base text-bs-blue border-[3px] border-bs-blue px-4 py-[2px] m-4"
-            @click="resetFilters"
-          >
-            Reset Filters
-          </button>
+          <GlobalButton label="Reset Filters" class="px-4 py-[2px] m-4" @click="resetFilters" />
         </div>
       </div>
     </div>
@@ -147,7 +133,6 @@ const refDesktopFilter = ref([]);
 const initialSorting = ref(sortedBlogs.value);
 const filterArray = ref([]);
 
-// TODO: add types
 const handleDesktopFilterItems = (filter) => {
   filters.value.forEach((filter) => {
     filter.isOpen = false;
@@ -213,4 +198,13 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.button-enter-active,
+.button-leave-active {
+  opacity: 0;
+}
+.button-enter,
+.button-leave-to {
+  transition: opacity 0.3s;
+}
+</style>

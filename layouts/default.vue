@@ -51,6 +51,12 @@ const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').
 const blogssData = ref(blogs.value);
 
 const contacts = await useAsyncData('contacts', () => queryContent('/contact').findOne());
+
+useHead({
+  titleTemplate: (titleChunk: string) => {
+    return titleChunk ? `${titleChunk} | BLUESHOE` : 'BLUESHOE';
+  }
+});
 </script>
 
 <style scoped></style>
