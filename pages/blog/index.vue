@@ -30,18 +30,26 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
 import { useGeneralStore } from '~/store';
+import { convertToDate } from '~/utils/convertToDate';
+
+useHead({
+  title: 'The Cloud Native Blog',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+    }
+  ]
+});
 
 const generalStore = useGeneralStore();
 const { sortedBlogs } = storeToRefs(generalStore);
 
-const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
-
-sortedBlogs.value = blogs.value?.sort((a, b) => {
-  return convertToDate(b.date) - convertToDate(a.date);
+onMounted(async () => {
+  const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
+  sortedBlogs.value = blogs.value?.sort((a, b) => {
+    return convertToDate(b.date) - convertToDate(a.date);
+  });
 });
-
-function convertToDate(dateString: string) {
-  const [day, month, year] = dateString.split('.');
-  return new Date(Number(year), Number(month) - 1, Number(day));
-}
 </script>

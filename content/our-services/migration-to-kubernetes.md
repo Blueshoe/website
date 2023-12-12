@@ -1,5 +1,6 @@
 ---
-title: 'Migration to Kubernetes'
+title: 'Migration to Kubernetes with our expert help'
+description: 'We help you plan and implement your Kubernetes migrations and moving your legacy applications into the cloud native sphere.'
 ---
 
 ::GlobalWrapperSections
@@ -17,7 +18,7 @@ Setup your architecture for the future with microservices
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Get help with your Kubernetes migration" :src="/img/services/blue_shoes-32-black.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Get help with your Kubernetes migration" :src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3"}
 ::::GlobalPreTitle{.mb-4}
 GO THE CLOUD NATIVE WAY WITH KUBERNETES AND OUR HELP
 ::::
@@ -100,7 +101,7 @@ LOOKING AT THE EMERGENCE OF DEVELOPMENT PLATFORMS
 Types of Kubernetes Migrations
 ::::
 ::::GlobalParagraph{.mb-4 .sm:px-8 .md:px-20 .xl:px-0}
-We want to migrate our production and staging/testing systems to Kubernetes (K8s) and have developers develop with private or individual Kubernetes clusters. Check out this blog post for an [example of local development with Kubernetes.](/#){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} Depending on the development process, existing projects may need to be prepared before migration. We'll look at three example projects that differ in development procedure and hosting: one developed locally using Vagrant, two using Docker images, and hosted with either Docker Compose or Kubernetes. The goal is for all three projects to appear both in development and operating under the stage ‘Container-Orchestrated’.
+We want to migrate our production and staging/testing systems to Kubernetes (K8s) and have developers develop with private or individual Kubernetes clusters. Check out this blog post for an [example of local development with Kubernetes.](/blog/local-kubernetes-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} Depending on the development process, existing projects may need to be prepared before migration. We'll look at three example projects that differ in development procedure and hosting: one developed locally using Vagrant, two using Docker images, and hosted with either Docker Compose or Kubernetes. The goal is for all three projects to appear both in development and operating under the stage ‘Container-Orchestrated’.
 ::::
 ::::GlobalParagraph{.mb-4 .sm:px-8 .md:px-20 .xl:px-0}
 The following graphic illustrates the temporal development of development and hosting systems, we can clearly assign our example projects but will ignore the first stage, "Bare Metal".
@@ -156,10 +157,10 @@ OUR PODCAST: TOOLS FOR THE CRAFT
 ::::GlobalTitle{.mb-6}
 E2: Remote Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Michael and Robert take a closer look at the different options for remote Kubernetes development and give some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

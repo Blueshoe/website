@@ -1,5 +1,6 @@
 ---
-title: 'Microservice Architecture Consulting'
+title: 'Microservice Architecture Consulting for your business'
+description: 'Microservice Architecture Consulting. We help you setting your microservice strategy. Develop features faster.'
 ---
 
 ::GlobalWrapperSections
@@ -257,10 +258,10 @@ OUR KUBERNETES PODCAST
 ::::GlobalTitle{.mb-6}
 TftC - E2: Remote Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 In the second edition of our podcast "Tools for the Craft - Navigating the Kubernetes ecosystem" Michael and Robert talk about the various options developers have for remote K8s development and will show some real life examples.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

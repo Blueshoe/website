@@ -1,5 +1,6 @@
 ---
-title: 'Waigtail CMS'
+title: 'Wagtail CMS | Headless Content Management'
+description: 'Wagtail CMS is the way to go if you want a Headless CMS. ✅ Super fast ✅ Multi-lingual ✅  Easy feature adoption|Check it out!'
 ---
 
 ::GlobalWrapperSections
@@ -130,12 +131,12 @@ We love Django CMS for its flexibility – and Wagtail is just as flexible. With
 ::
 :::
 
-:::GlobalSliderSection{:numberCards=3 data-title="Successful Wagtail CMS websites"}
+:::GlobalSliderSection{:numberCards=3 :bg="bg-bs-gray" data-title="Successful Wagtail CMS websites"}
 ::::GlobalTitle{.mb-6}
-Examples of headless CMS projects
+Successful projects with Wagtail
 ::::
 ::::GlobalParagraph
-What do websites look like that have been developed using the headless approach? Well, just like this:
+This is where we use Wagtail CMS. If you’d like to find out more about our projects, feel free to contact us.
 ::::
 
 #card1
@@ -181,17 +182,17 @@ Allianz Global Benefits
 ::
 :::
 
-:::GlobalPodcastSection{:videoId="tyvE9VlSWkE"}
+:::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :bg="bg-white"}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 OUR PODCAST
 ::::
 ::::GlobalTitle{.mb-6}
 TftC - E1: Kubernetes development environments
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
 ::::
-::::globalParagraph{.mb-4}
+::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
 ::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}

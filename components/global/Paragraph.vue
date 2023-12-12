@@ -21,10 +21,10 @@ const size = ref('');
 
 switch (props.fontSize) {
   case 'lg':
-    size.value = 'text-lg';
+    size.value = 'text-base';
     break;
   case 'xl':
-    size.value = 'text-xl';
+    size.value = 'text-lg';
     break;
 }
 </script>

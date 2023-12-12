@@ -1,5 +1,6 @@
 ---
-title: 'Services'
+title: 'Contact us'
+description: 'Do you have a project where you need help from professionals?  Get in toch with us! phone: 089 954594 230 I mail: projekt@blueshoe.de'
 ---
 
 ::GlobalSectionWithImage{:image="/img/contact/blue_shoes-61.jpg" :alt="blue shoes" :imagePosition="left" :isButton=true :bg="bg-bs-blue"}
