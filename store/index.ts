@@ -6,6 +6,7 @@ export const useGeneralStore = defineStore('general', () => {
   const headingListData = ref<Heading[]>([]);
   const blogHeading = ref<Heading[]>([]);
   const sortedBlogs = ref([]);
+  const initialSorting = ref(sortedBlogs.value);
   const isMobileMenuOpen = ref(false);
 
   const development = [
@@ -152,6 +153,7 @@ export const useGeneralStore = defineStore('general', () => {
     blogHeading,
     isMobileMenuOpen,
     filters,
-    sortedBlogs
+    sortedBlogs,
+    initialSorting
   };
 });

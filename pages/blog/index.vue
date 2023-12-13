@@ -44,12 +44,13 @@ useHead({
 });
 
 const generalStore = useGeneralStore();
-const { sortedBlogs } = storeToRefs(generalStore);
+const { sortedBlogs, initialSorting } = storeToRefs(generalStore);
 
 onMounted(async () => {
   const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
   sortedBlogs.value = blogs.value?.sort((a, b) => {
     return convertToDate(b.date) - convertToDate(a.date);
   });
+  initialSorting.value = sortedBlogs.value;
 });
 </script>
