@@ -10,8 +10,12 @@ author:
   - Tobias Frölich
 technology:
   - Kubernetes
+  - Grafana
+  - Loki
+  - Promtail
 productUpdates: []
-topic: []
+topic:
+  - Operation
 ---
 Reading logs from multiple Kubernetes Pods using kubectl can become cumbersome fast. What if there was a way to collect logs from across the cluster in a single place and make them easy to filter, query and analyze? Enter Promtail, Loki, and Grafana.
 <!--more-->

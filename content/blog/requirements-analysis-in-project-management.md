@@ -8,10 +8,10 @@ description: "The magic triangle of project management! Find out how to align cl
 date: '20.08.2020'
 author:
   - Tina
-technology:
-  - Kubernetes
+technology: []
 productUpdates: []
-topic: []
+topic:
+  - Project management
 ---
 Whether a project runs like clockwork or drags on forever depends on how precisely the client requests were identified and implemented. In this article, we’d like to share the experiences we gained from various projects. We’ll show where the challenges lurk when analysing the client requirements and how this process can be integrated into the project schedule.
 <!--more-->

@@ -8,13 +8,18 @@
       >
         <ul v-for="(filter, i) in filters" :key="i" class="relative border-[3px] border-white py-2 px-8">
           <li class="flex items-center cursor-pointer" @click="handleDesktopFilterItems(filter)">
-            <span class="text-lg font-oswald font-normal text-bs-blue uppercase">{{ filter.label }}</span>
+            <span class="text-lg font-oswald font-normal text-bs-blue uppercase"
+              >{{ filter.label }}
+              <span v-if="filter.items.filter((i) => i.isSelected).length"
+                >({{ filter.items.filter((i) => i.isSelected).length }})</span
+              >
+            </span>
 
             <span class="ml-2"><Icon name="ri:arrow-down-s-fill" width="20" height="20" /></span>
           </li>
           <ul
             v-if="filter.isOpen"
-            class="absolute z-10 top-[47px] left-0 bg-bs-gray max-h-[350px] w-max overflow-y-scroll shadow-lg"
+            class="absolute z-[100] top-[47px] left-0 bg-bs-gray max-h-[350px] w-max overflow-y-scroll shadow-lg"
           >
             <li
               v-for="(item, i) in filter.items"
@@ -133,9 +138,15 @@ const refDesktopFilter = ref([]);
 const filterArray = ref([]);
 
 const handleDesktopFilterItems = (filter) => {
+  if (filter.isOpen) {
+    filter.isOpen = false;
+    return;
+  }
+
   filters.value.forEach((filter) => {
     filter.isOpen = false;
   });
+
   filter.isOpen = true;
 };
 
@@ -162,16 +173,37 @@ const handleSelect = (item, filter) => {
 
   sortedBlogs.value = initialSorting.value.filter((arr1Item) => {
     return filterArray.value.every((arr2Item) => {
-      return arr1Item[arr2Item.filter] && arr1Item[arr2Item.filter].includes(arr2Item.item);
+      if (arr1Item[arr2Item.filter]) {
+        for (let i = 0; i < arr2Item.items.length; i++) {
+          if (arr1Item[arr2Item.filter].includes(arr2Item.items[i])) {
+            return true;
+          }
+        }
+      } else {
+        return false;
+      }
     });
   });
 };
 
-const prepareFilterArray = (item, filter) => {
+const prepareFilterArray = (item, filter: any) => {
+  const index = filterArray.value.findIndex((i) => i.filter === filter.name);
+
   if (item.isSelected) {
-    filterArray.value.push({ filter: filter.name, item: item.name });
+    if (index !== -1) filterArray.value[index].items = [...filterArray.value[index].items, item.name];
+    else filterArray.value.push({ filter: filter.name, items: [item.name] });
+    console.log(filterArray.value[index]);
   } else {
-    filterArray.value = filterArray.value.filter((i) => i.item !== item.name);
+    const newItems = filterArray.value[index].items.filter((i) => i !== item.name);
+    filterArray.value[index].items = newItems;
+  }
+
+  if (
+    filterArray.value[index] &&
+    filterArray.value[index].filter === filter.name &&
+    filterArray.value[index].items.length === 0
+  ) {
+    filterArray.value.splice(index, 1);
   }
 };
 
@@ -182,6 +214,7 @@ const resetFilters = () => {
     });
   });
   sortedBlogs.value = initialSorting.value;
+  filterArray.value = [];
 };
 
 const updateWidth = () => {

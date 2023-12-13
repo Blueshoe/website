@@ -4,15 +4,19 @@ img: '/img/blogs/local-kubernetes-development.jpg'
 alt: 'How does local Kubernetes development work?'
 preTitle: "Let's go Cloud Native!"
 title: "How does local Kubernetes development work?"
-description: 'You want to know more about local Kubernetes development? We explain key facts with code examples. 
+description: 'You want to know more about local Kubernetes development? We explain key facts with code examples.
 ✔ Local Kubernetes ✔ Helm ✔ Telepresence ✔ Cloud Native'
 date: '07.07.2021'
 author:
   - Robert Gutschale
 technology:
   - Kubernetes
-productUpdates: []
-topic: []
+  - K3D
+productUpdates:
+  - Gefyra
+  - Unikube
+topic:
+  - Development
 ---
 ‘Local Kubernetes development’ aka ‘development of containerised microservices in a local Kubernetes cluster’ means that applications are designed and developed for a Kubernetes architecture – i. e. a developer works with a Kubernetes architecture locally. In this blog post, we’ll show you how local Kubernetes development works.
 <!--more-->

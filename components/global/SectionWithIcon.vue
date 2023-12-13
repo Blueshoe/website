@@ -7,6 +7,7 @@
             :src="image"
             :alt="alt"
             class="mx-auto h-auto max-w-[250px] sm:max-w-[200px] md:max-w-[250px] w-full"
+            format="webp"
           />
         </div>
         <div :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']" class="mb-8">

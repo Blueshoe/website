@@ -8,7 +8,12 @@
       </div>
     </div>
     <div class="w-full overflow-hidden pt-8 pb-12 lg:pb-20 lg:top-[20%] lg:z-0">
-      <speedkit-image :src="props.src" class="w-[200%] lg:w-full -ml-[80%] lg:ml-0" />
+      <speedkit-image
+        :src="props.src"
+        class="w-[200%] lg:w-full -ml-[80%] lg:ml-0"
+        alt="background image"
+        format="webp"
+      />
     </div>
   </div>
 </template>

@@ -10,8 +10,11 @@ author:
   - Michael Schilonka
 technology:
   - Kubernetes
+  - Telepresence
+  - Gefyra
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 Reddit can be a wonderful community, not just for entertainment but also for professional purposes. We regularly skim through r/kubernetes and the level of discussion can be quite enlightening.
 
@@ -89,12 +92,12 @@ We don’t think that this can be the answer.
    ::::globalParagraph
    The mock service is doomed to become outdated. Interfaces develop, data structures evolve over time, etc. Those mock services usually do have their own logic to create mock answers to mock complex scenarios. Since a mock service is perceived to not really contribute to the usable system the responsibility question is difficult to figure out within companies.
    ::::
-   
+
 2. **Bugs are rarely just in one service**
    ::::globalParagraph
    Our dev teams quite often experienced bugs to be in between two or more services. That often depends on somewhat special data constellations in all participating applications. Something you can’t really test or hunt down running mock services.
 ::::
-   
+
 3. **What would your devs prefer?**
    ::::globalParagraph
    After all, it’s not massive fun for developers to only write against mock services, contracts, and so on. Having real world setups with close-to-production data feels more productive as you can test your development effort and get instant feedback. From my point of view this is not negligible.

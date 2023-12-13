@@ -11,7 +11,8 @@ author:
 technology:
   - Kubernetes
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 Becoming a truly cloud-native company is not easy. It takes evolution. But what stages of evolution do companies have to go through to arrive at the desired stage? And what does that stage entail? Take a look with us!
 <!--more-->
