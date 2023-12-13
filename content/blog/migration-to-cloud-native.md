@@ -8,9 +8,9 @@ description: 'Check out our three examples to show you the necessary steps that 
 date: '30.08.2021'
 author:
   - Robert Gutschale
-technology:
-  - Kubernetes
-productUpdates: []
+technology: []
+productUpdates:
+  - Unikube
 topic: []
 ---
 The ‘cloud-native’ development process is an integral part of our projects. However, it can be quite a challenge to migrate existing projects into the cloud-native workflow. In this blog post, we’ll use three examples to show you the steps that a migration to cloud-native requires.

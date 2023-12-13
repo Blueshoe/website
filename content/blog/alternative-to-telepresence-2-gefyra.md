@@ -10,8 +10,12 @@ author:
   - Michael Schilonka
 technology:
   - Kubernetes
-productUpdates: []
-topic: []
+  - Telepresence
+  - Gefyra
+productUpdates:
+  - Gefyra
+topic:
+  - Development
 ---
 There are a couple of different approaches to develop locally using Kubernetes. One very well-known tool for a few different scenarios ranging from local to remote Kubernetes application development is Telepresence. Although Telepresence 2 comes with great features, we have not been completely satisfied with the extent of supported use cases. So we decided to build our own solution. May we introduce: [Gefyra](https://gefyra.dev/){.bs-link-blue}.
 <!--more-->

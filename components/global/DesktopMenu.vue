@@ -29,7 +29,7 @@
                 class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
               >
                 <div class="flex items-center gap-2 px-6 py-1">
-                  <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" />
+                  <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" alt="menu icon" />
                   <span>{{ t(child.name) }}</span>
                 </div>
               </NuxtLink>
@@ -49,7 +49,7 @@
                 class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
               >
                 <div class="flex items-center gap-2 px-6 py-1">
-                  <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" />
+                  <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" alt="menu icon" />
                   <span>{{ t(child.name) }}</span>
                 </div>
               </NuxtLink>

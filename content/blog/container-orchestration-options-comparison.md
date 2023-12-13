@@ -11,7 +11,8 @@ author:
 technology:
   - Kubernetes
 productUpdates: []
-topic: []
+topic:
+  - Operation
 ---
 There are plenty of possibilities for orchestrating your container landscape and we want to give you a quick little introduction to your possibilities. Taking a look at both cloud-offerings and on-site options.
 <!--more-->

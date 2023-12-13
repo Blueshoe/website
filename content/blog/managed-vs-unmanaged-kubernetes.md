@@ -11,7 +11,8 @@ author:
 technology:
   - Kubernetes
 productUpdates: []
-topic: []
+topic:
+  - Operation
 ---
 We’ve noticed an increasing interest in Kubernetes (K8s) when speaking to techies and even more so when speaking to our clients. So in this blog article, we’re asking the question of what managed and unmanaged Kubernetes actually is.
 <!--more-->

@@ -32,7 +32,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" />
+              <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" alt="icon" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>
@@ -48,7 +48,7 @@
         >
           <NuxtLink :to="child.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" />
+              <speedkit-image :src="child.icon" width="40" class="max-w-[40px]" alt="icon" />
               <span>{{ t(child.name) }}</span>
             </div>
           </NuxtLink>

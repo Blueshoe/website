@@ -10,8 +10,12 @@ author:
   - Robert Gutschale
 technology:
   - Kubernetes
-productUpdates: []
-topic: []
+  - Django
+  - Python
+productUpdates:
+  - Hurricane
+topic:
+  - Development
 ---
 We’ve had another think about how to make the running of Django applications more Cloud Native and ready for Kubernetes. The result was Django-Hurricane which we’d like to introduce in this blog post and which we will make available as an open-source project.
 <!--more-->
@@ -85,7 +89,7 @@ LOGGING = {
           "handlers": ["console"],
           "level": os.getenv("HURRICANE_LOG_LEVEL", "INFO"),
           "propagate": False,
-        },  
+        },
     },
     # [...]
 }
@@ -107,7 +111,7 @@ The configuration also takes place entirely via management command options. Here
 :::GlobalBlock{.ul-disk .mb-5}
 - static: serve static files
 - media: serve media files
-- autoreload: load code changes dynamically  
+- autoreload: load code changes dynamically
 - debug: set a Tornado debug flag (not to be confused with Django’s DEBUG=True)
 - port: the port on which Tornado should run (default: 8000)
 - probe: the path for the liveliness and readiness probes (default: /alive)

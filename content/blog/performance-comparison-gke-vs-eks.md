@@ -11,7 +11,8 @@ author:
 technology:
   - Kubernetes
 productUpdates: []
-topic: []
+topic:
+  - Operation
 ---
 The solid performance of managed Kubernetes platforms is generally regarded as a given and is hardly ever put into question. However, maybe there is a difference in how containers perform on different popular managed Kubernetes platforms. I wanted to take a deeper look and selected the two most popular Kubernetes services we use at Blueshoe for our clients: Amazon Elastic Kubernetes Service (EKS) and the Google Kubernetes Engine (GKE).
 <!--more-->

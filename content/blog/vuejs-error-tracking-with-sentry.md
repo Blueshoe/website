@@ -9,9 +9,11 @@ date: '02.12.2021'
 author:
   - Robert Stein
 technology:
-  - Kubernetes
+    - Docker
+    - Vue JS
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 When it comes to error tracking in our Cloud Native applications Sentry has become our go-to solution. We do love the ease of use, the deep insights and the well-structured documentation. This blog post aims to provide you with our learnings on using Sentry on Unikube’s VueJS based frontend.
 <!--more-->
@@ -123,7 +125,7 @@ if (process.env.NODE_ENV === 'production') {
               authToken: sentryAuthToken,
               include: '.',
               ignore: ['node_modules', 'babel.config.js', 'apollo.config.js', '.eslintrc.js'],
-              release: `unikube-frontend@${process.env.VUE_APP_VERSION}`, 
+              release: `unikube-frontend@${process.env.VUE_APP_VERSION}`,
     }),
   );
 }
@@ -290,7 +292,7 @@ jobs:
                     SENTRY_PROJECT=${{ secrets.SENTRY_PROJECT }}
                     SENTRY_URL=${{ secrets.SENTRY_URL }}
             - name: Image digest
-            run: echo ${{ steps.docker_build.outputs.digest }}    
+            run: echo ${{ steps.docker_build.outputs.digest }}
 ```
 :::
 

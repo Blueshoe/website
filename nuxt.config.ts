@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     'nuxt-icon',
     '@nuxtjs/i18n',
-    'nuxt-simple-robots',
     '@zadigetvoltaire/nuxt-gtm',
     'nuxt-speedkit'
   ],
@@ -94,6 +93,8 @@ export default defineNuxtConfig({
   },
 
   image: {
+    targetFormats: ['webp', 'jpg|jpeg|png|gif'],
+
     screens: {
       default: 320,
       xxs: 480,

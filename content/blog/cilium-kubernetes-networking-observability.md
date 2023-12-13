@@ -8,7 +8,8 @@ description: 'Unravel FaaS vs. Kubernetes in our in-depth guide. Understand thei
 date: '19.04.2023'
 author:
   - Tobias Frölich
-technology: []
+technology:
+  - Kubernetes
 productUpdates: []
 topic: []
 ---

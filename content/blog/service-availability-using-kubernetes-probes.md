@@ -8,7 +8,8 @@ description: 'Maximize service availability with Kubernetes probes. Enhance user
 date: '20.07.2023'
 author:
   - Christian Busch
-technology: []
+technology:
+  - Kubernetes
 productUpdates: []
 topic: []
 ---

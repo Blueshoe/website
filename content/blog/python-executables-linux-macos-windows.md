@@ -9,9 +9,11 @@ date: '05.07.2022'
 author:
   - Michael Schilonka
 technology:
-  - Kubernetes
+  - Python
+  - Gefyra
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 Before going into more details about how to develop an executable for a Python project, get some background information on our CLI tool Gefyra, a tool for local application development directly with Kubernetes. This is an Open Source Python project, that we are trying to wrap into convenient executables in this blog post.
 <!--more-->

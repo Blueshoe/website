@@ -5,6 +5,7 @@
         <speedkit-image
           :src="src"
           class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
+          alt="background image"
         />
       </div>
       <div class="sm:order-1">

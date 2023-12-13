@@ -14,7 +14,7 @@ technology:
   - Argo CD
   - Getdeck
   - Telepresence
-  - Grafana
+  - Gefyra
 productUpdates: []
 topic: []
 ---
