@@ -6,7 +6,7 @@
       class="flex items-center justify-center md:gap-5 lg:gap-10 xl:gap-16 md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
     >
       <li v-for="(img, i) in images" :key="i">
-        <speedkit-image :src="img.img" :alt="img.alt" :style="{ filter: 'grayscale(100%)' }" format="webp" />
+        <img :src="img.img" :alt="img.alt" :style="{ filter: 'grayscale(100%)' }" />
       </li>
     </ul>
     <ul
@@ -15,7 +15,7 @@
       aria-hidden="true"
     >
       <li v-for="(img, i) in images" :key="i">
-        <speedkit-image :src="img.img" :alt="img.alt" :style="{ filter: 'grayscale(100%)' }" format="webp" />
+        <img :src="img.img" :alt="img.alt" :style="{ filter: 'grayscale(100%)' }" />
       </li>
     </ul>
   </div>
