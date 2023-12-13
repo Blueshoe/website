@@ -22,7 +22,12 @@
                   <slot :name="'card' + number" />
                 </div>
                 <div class="flex justify-center">
-                  <speedkit-image :src="images[i].src" :alt="images[i].alt" class="max-w-[500px] w-full" />
+                  <speedkit-image
+                    :src="images[i].src"
+                    :alt="images[i].alt"
+                    class="max-w-[500px] w-full"
+                    format="webp"
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -34,6 +39,7 @@
               :src="images[activeSlider].src"
               :alt="images[activeSlider].alt"
               class="max-w-[500px] w-full"
+              format="webp"
             />
           </div>
           <div class="flex flex-col relative" :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">

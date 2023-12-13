@@ -1,7 +1,7 @@
 <template>
   <NuxtLink :to="src" class="navigation-card-shadow m-2">
     <div>
-      <speedkit-image :src="img" :alt="alt" class="object-cover max-w-full" />
+      <speedkit-image :src="img" :alt="alt" class="object-cover max-w-full" format="webp" />
     </div>
     <div class="p-6 blog">
       <h6 class="text-xl font-oswald font-extralight text-bs-green">{{ preTitle }}</h6>

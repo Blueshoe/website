@@ -8,6 +8,7 @@
           height="51"
           class="max-w-[200px]"
           alt="Blushoe logo"
+          format="webp"
       /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight">
         <button
