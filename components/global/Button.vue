@@ -7,7 +7,7 @@
     @mouseover="addColorEffect"
     @mouseleave="removeColorEffect"
   >
-    <span class="relative z-50">{{ label }}</span>
+    <span class="relative z-10">{{ label }}</span>
     <span
       class="absolute -top-[100%] z-0 left-0 w-full h-full"
       :class="[isColorActive ? 'active-color' : '', bgColor]"

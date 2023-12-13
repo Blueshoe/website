@@ -24,7 +24,16 @@ Build the application for production:
 
 ```bash
 # npm
-npm run build
+npm run generate
+
+# pnpm
+pnpm run generate
+
+# yarn
+yarn generate
+
+# bun
+bun run generate
 
 ```
 

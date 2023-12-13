@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex gap-1 border-b border-bs-menu-hover">
+  <ul class="flex gap-1 border-b border-bs-menu-hover z-20">
     <li
       v-for="(nav, i) in menu"
       :key="i"
