@@ -14,7 +14,7 @@
           </li>
           <ul
             v-if="filter.isOpen"
-            class="absolute top-[47px] left-0 bg-bs-gray max-h-[350px] w-max overflow-y-scroll shadow-lg"
+            class="absolute z-10 top-[47px] left-0 bg-bs-gray max-h-[350px] w-max overflow-y-scroll shadow-lg"
           >
             <li
               v-for="(item, i) in filter.items"
@@ -121,7 +121,7 @@ import { storeToRefs } from 'pinia';
 import { useGeneralStore } from '~/store';
 
 const generalStore = useGeneralStore();
-const { filters, sortedBlogs } = storeToRefs(generalStore);
+const { filters, sortedBlogs, initialSorting } = storeToRefs(generalStore);
 
 const isDesktopFilter = ref(false);
 const isMobileFilter = ref(false);
@@ -130,7 +130,6 @@ const isMobileFilterItemsOpen = ref(false);
 const filterItemLabel = ref('');
 const filterMobile = ref([]);
 const refDesktopFilter = ref([]);
-const initialSorting = ref(sortedBlogs.value);
 const filterArray = ref([]);
 
 const handleDesktopFilterItems = (filter) => {
@@ -153,9 +152,13 @@ const handleMobileBack = () => {
 };
 
 const handleSelect = (item, filter) => {
-  console.log('filter', filter);
   item.isSelected = !item.isSelected;
   prepareFilterArray(item, filter);
+
+  if (filterArray.value.length === 0) {
+    sortedBlogs.value = initialSorting.value;
+    return;
+  }
 
   sortedBlogs.value = initialSorting.value.filter((arr1Item) => {
     return filterArray.value.every((arr2Item) => {
