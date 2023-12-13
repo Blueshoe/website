@@ -25,7 +25,7 @@ interface Props {
   img: string;
   alt: string;
   preTitle: string;
-  title: string;
+  title?: string;
   description: any;
   author: string[];
   date: string;

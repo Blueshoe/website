@@ -14,7 +14,7 @@ function open() {
   <VueFinalModal
     v-model="show"
     class="flex justify-center items-center"
-    content-class="p-4 bg-white rounded-lg space-y-2 min-w-[90%]"
+    content-class="p-4 bg-white rounded-lg space-y-2 min-w-[90%] md:min-w-[90%] xl:min-w-[70%]"
   >
     <div>
       <slot />
