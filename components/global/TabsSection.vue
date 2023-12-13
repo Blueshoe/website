@@ -33,13 +33,24 @@
 interface Props {
   labels: string[];
   bg?: 'bg-bs-gray' | 'bg-white';
+  init?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  bg: 'bg-bs-gray'
+  bg: 'bg-bs-gray',
+  init: false
 });
 
 const activeTab = ref(0);
+
+if (props.init) {
+  for (let i = 0; i < props.labels.length; i++) {
+    activeTab.value = i;
+  }
+
+  activeTab.value = 0;
+}
+
 const tabs = reactive(props.labels.map((label, index) => ({ label, index })));
 
 const selectTab = (index: number) => {
