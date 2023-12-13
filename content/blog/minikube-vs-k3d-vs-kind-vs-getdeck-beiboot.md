@@ -10,8 +10,10 @@ author:
   - Michael Schilonka
 technology:
   - Kubernetes
-productUpdates: []
-topic: []
+productUpdates:
+  - Getdeck
+topic:
+  - Development
 ---
 What is the best Kubernetes tool for development in 2023? This article compares three of the most popular solutions. Getdeck, created by Blueshoe, is a new alternative to local Kubernetes development entering the market.
 <!--more-->
@@ -430,7 +432,7 @@ minikube addons enable ingress
 :::
 
 :::globalParagraph
-and you can create ingress objects that will be served under http://192.168.49.2. Please note that the IP address of your cluster can be a different one. You can find it out with  
+and you can create ingress objects that will be served under http://192.168.49.2. Please note that the IP address of your cluster can be a different one. You can find it out with
 :::
 :::BlogCode{.mb-5}
 ```json

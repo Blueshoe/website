@@ -9,9 +9,10 @@ date: '13.02.2023'
 author:
   - Michael Schilonka
 technology:
-  - Kubernetes
+    - Docker
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 In this article, we'll compare Podman and Docker to see how they stack up against each other. We'll start with an overview of what each tool is and why you might want to choose one over the other. Then, we'll dive into the details of what makes each tool unique before coming to our conclusion about which one is best for your needs: Podman or Docker!
 <!--more-->

@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: */*.js
+Allow: */*.css
+Allow: */*.jpg
+Allow: */*.jpeg
+Allow: */*.gif
+Allow: */*.png
+
+Sitemap: https://www.blueshoe.io/sitemap.xml
+Host: https://www.blueshoe.io/

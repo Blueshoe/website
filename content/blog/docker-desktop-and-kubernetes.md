@@ -10,8 +10,10 @@ author:
   - Michael Schilonka
 technology:
   - Kubernetes
+  - Docker
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 In this article, we will take a glance at Docker Desktop in 2023 and focus on how developers can work with Kubernetes. Our team at Blueshoe just recently published a custom Docker Desktop extension for our open-source development tool Gefyra. We want to provide the most convenient developer experience (“DX”) for Kubernetes-based development workflows and Docker Desktop may be a good foundation. So let’s see.
 <!--more-->

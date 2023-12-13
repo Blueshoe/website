@@ -1,7 +1,11 @@
 <template>
   <div class="w-full lg:grid lg:grid-cols-2">
     <div class="lg:order-2 flex justify-center items-start mb-8">
-      <speedkit-image :src="image" class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px] w-full" />
+      <speedkit-image
+        :src="image"
+        class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px] w-full"
+        alt="icon"
+      />
     </div>
     <div>
       <div
@@ -15,7 +19,7 @@
         </div>
         <div class="flex flex-wrap items-center mb-4">
           <div v-for="(img, i) in icons" :key="i" class="px-4 py-2">
-            <speedkit-image :src="img" width="50" class="max-w-[50px]" />
+            <speedkit-image :src="img" width="50" class="max-w-[50px]" alt="icon" />
           </div>
         </div>
       </div>
