@@ -10,6 +10,7 @@
               width="2400"
               height="420"
               class="max-w-[2400px] max-h-[420px]"
+              format="webp"
             />
           </div>
           <div class="window-container">
@@ -20,6 +21,8 @@
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
+                format="webp"
+                :lazy="false"
               />
             </div>
             <div class="window">
@@ -29,6 +32,8 @@
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
+                format="webp"
+                :lazy="false"
               />
             </div>
           </div>
@@ -40,6 +45,7 @@
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
+                format="webp"
               />
             </div>
             <div class="desks2">
@@ -49,6 +55,7 @@
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
+                format="webp"
               />
             </div>
           </div>
