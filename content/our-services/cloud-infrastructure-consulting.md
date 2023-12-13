@@ -18,7 +18,7 @@ Cloud infrastructure that best fits your specific needs.
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Simplify choosing your cloud provider" :src="/img/homepage/team3-klein.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Simplify choosing your cloud provider" :src="/img/homepage/team3-klein.webp" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Simplify choosing your cloud provider
 ::::

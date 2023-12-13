@@ -18,7 +18,7 @@ Find and implement the perfect toolchain with us
 
 :::
 
-:::GlobalCardWithBackgroundImageSection{data-title="Close your cloud security gaps" :src="/img/homepage/team3-klein.jpg" :isButton=true  :width="md:w-2/3"}
+:::GlobalCardWithBackgroundImageSection{data-title="Close your cloud security gaps" :src="/img/homepage/team3-klein.webp" :isButton=true  :width="md:w-2/3"}
 ::::GlobalTitle{.mb-6}
 Close your cloud security gaps
 ::::

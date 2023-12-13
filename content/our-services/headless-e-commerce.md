@@ -30,7 +30,7 @@ It’s precisely this approach that the headless commerce technology pursues, to
 ::::
 :::
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.jpg" :isButton=true data-title="Faster, higher, further!"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.webp" :isButton=true data-title="Faster, higher, further!"}
 ::::GlobalPreTitle{.mb-2}
 WHY CHOOSE HEADLESS E-COMMERCE
 ::::

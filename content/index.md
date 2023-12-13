@@ -138,7 +138,7 @@ Companies that trust us
 :::
 
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/homepage/team3-klein.jpg" }
+:::GlobalCardWithBackgroundImageSection{:src="/img/homepage/team3-klein.webp" }
 ::::GlobalPreTitle{.mb-2}
 Cloud native software development
 ::::
