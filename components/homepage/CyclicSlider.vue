@@ -15,47 +15,41 @@
           </div>
           <div class="window-container">
             <div class="window2">
-              <speedkit-image
+              <img
                 src="/img/homepage/layer_2.svg"
                 alt="Blueshoe Windows"
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
-                format="webp"
-                :lazy="false"
               />
             </div>
             <div class="window">
-              <speedkit-image
+              <img
                 src="/img/homepage/layer_2.svg"
                 alt="Blueshoe Windows"
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
-                format="webp"
-                :lazy="false"
               />
             </div>
           </div>
           <div class="desks-container">
             <div class="desks">
-              <speedkit-image
+              <img
                 src="/img/homepage/layer_1.svg"
                 alt="Blueshoe Office"
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
-                format="webp"
               />
             </div>
             <div class="desks2">
-              <speedkit-image
+              <img
                 src="/img/homepage/layer_1.svg"
                 alt="Blueshoe Office"
                 width="2400"
                 height="420"
                 class="max-w-[2400px] max-h-[420px]"
-                format="webp"
               />
             </div>
           </div>
