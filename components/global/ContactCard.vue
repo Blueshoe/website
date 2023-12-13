@@ -19,7 +19,7 @@
 <script setup lang="ts">
 type Color = 'text-bs-text' | 'text-white';
 interface Props {
-  title: string;
+  title?: string;
   tel: string;
   email: string;
   color?: Color;

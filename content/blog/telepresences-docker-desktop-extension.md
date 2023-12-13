@@ -8,8 +8,10 @@ description: "Telepresence's Docker Desktop Extension currently has limited capa
 date: '14.06.2023'
 author:
   - Robert Stein
-technology: []
-productUpdates: []
+technology:
+  - Telepresence
+productUpdates:
+  - Gefyra
 topic: []
 ---
 Robert tried out Telepresence’s Docker Desktop extension and drew comparisons to Blueshoe’s own cloud-native development tool Gefyra. This post is the result of a live video exploring session on the first time use of the extension.

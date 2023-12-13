@@ -9,9 +9,11 @@ date: '30.01.2017'
 author:
   - Robert Stein
 technology:
-  - Kubernetes
+  - Django
+  - Python
 productUpdates: []
-topic: []
+topic:
+  - Development
 ---
 Why does Blueshoe trust in Django and Python even though PHP is much more widespread? We’ve certainly got our reasons and don’t want to keep them from you.
 

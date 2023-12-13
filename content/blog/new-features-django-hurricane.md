@@ -10,7 +10,10 @@ author:
   - Viktor Studenyak
 technology:
   - Kubernetes
-productUpdates: []
+  - Django
+  - Python
+productUpdates:
+  - Hurricane
 topic: []
 ---
 We are pushing the development in the areas of Django and Kubernetes with our open-source project **Django-Hurricane**. Today, we’d like to show you some **new features**.

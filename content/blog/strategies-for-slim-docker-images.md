@@ -10,8 +10,11 @@ author:
   - Robert Gutschale
 technology:
   - Kubernetes
+  - Docker
+  - Python
 productUpdates: []
-topic: []
+topic:
+  - Operation
 ---
 Docker has become more and more popular in recent years and has now essentially become the industry-standard for containerisation – be it via docker-compose or Kubernetes. When creating Dockerfiles, there are certain aspects that need to be considered. In this blog post, we’ll show you some strategies with which to create slim Docker images.
 <!--more-->
@@ -41,7 +44,7 @@ There are a number of reasons why a Docker image should only contain the absolut
 :::GlobalBlock{.ul-disk .mb-5}
 - For one, the security of the image is increased. If I just want to run a simple Django application, I certainly don’t need a whole Debian or Ubuntu image. A simple Python image as a basis will be enough – it practically doesn’t need to be able to do anything more than running the Django application via a Python interpreter or application server. Why does this increase the security? Easy: fewer libraries mean that less can go wrong. Although [this article](https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/){.bs-link-blue} is already a year old, it provides an informative insight into the underlying problems and outlines how to reduce the usual CVEs ([Common Vulnerabilities and Exposures](https://cve.mitre.org/){.bs-link-blue}) with smaller versions of the base image.
 - Another issue is speed. On the surface, it doesn’t really matter whether the Docker image has a size of 2 gigabytes or only 200 megabytes when running the application. The deployment is often automated and it usually doesn’t make much difference if it takes a few minutes longer until the (new) code is deployed. But here, too, the golden rule is of course: whatever unnecessary data usage and data transfer can be avoided should be avoided.
-- As a developer, I can primarily benefit from smaller Docker images if I don’t have an automated build pipeline but am instead building them myself and deploying them in a container registry (the central storage for images), for example. If I’ve created a Dockerfile with a size of 2 gigabytes and I’m sitting in my home office due to Corona with a less than optimal internet connection, the upload may well take a while. It’s certainly annoying if the development process is prolonged unnecessarily, even if that’s just by half a minute for each build. 
+- As a developer, I can primarily benefit from smaller Docker images if I don’t have an automated build pipeline but am instead building them myself and deploying them in a container registry (the central storage for images), for example. If I’ve created a Dockerfile with a size of 2 gigabytes and I’m sitting in my home office due to Corona with a less than optimal internet connection, the upload may well take a while. It’s certainly annoying if the development process is prolonged unnecessarily, even if that’s just by half a minute for each build.
 - The next point is the resource consumption. Not only the one on my laptop, where more and more Docker images get dumped over time, but also the one in the container registry. The registry might be hosted by Gitlab, for example. And sure, storage space is usually not a major cost factor, but if every Docker image has a size of 1 to 2 gigabytes each and if the registry gets bombarded with dozens of images week after week, the used storage space can add up to quite a lot. If we manage to reduce the Docker images to a half or a quarter of their original size, we’ve already made a good amount of progress.
 - Last but not least, we mustn’t forget about the environment. First, every Docker image gets pushed into a registry and downloaded again from there – be it on a developer’s laptop or from a production system. If my Docker images are four times larger than they need to be, I am permanently creating four times as much traffic by using my images or I might even become the reason why additional storage systems have to be used.
 :::

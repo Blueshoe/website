@@ -27,7 +27,7 @@ import type { Heading } from '~/types';
 import { scrollToElement } from '~/utils/scrollHelpers';
 
 interface Props {
-  title: string;
+  title?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {});
