@@ -192,6 +192,7 @@ const prepareFilterArray = (item, filter: any) => {
   if (item.isSelected) {
     if (index !== -1) filterArray.value[index].items = [...filterArray.value[index].items, item.name];
     else filterArray.value.push({ filter: filter.name, items: [item.name] });
+    console.log(filterArray.value[index]);
   } else {
     const newItems = filterArray.value[index].items.filter((i) => i !== item.name);
     filterArray.value[index].items = newItems;
