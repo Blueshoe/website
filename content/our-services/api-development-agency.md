@@ -216,7 +216,7 @@ We understand that having quality API documentation is essential for successful 
 Some of our articles that you may also like
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/cilium-kubernetes-networking-observability/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Using Cilium for Kubernetes networking
 :::
@@ -228,7 +228,7 @@ By Tobias Frölich
 Kubernetes Observability
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/docker-vs-podman/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 What's the best option for you?
 :::
@@ -240,7 +240,7 @@ By Michael Schilonka
 Docker vs Podman
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/strategies-for-slim-docker-images/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Strategies for slim Docker images
 :::

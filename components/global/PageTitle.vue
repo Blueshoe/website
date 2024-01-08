@@ -1,5 +1,5 @@
 <template>
-  <h2 class="text-[40px] xl:text-5xl font-oswald font-extralight" :class="[color]">
+  <h2 class="text-[40px] leading-[48px] xl:text-5xl xl:leading-[56px] font-oswald font-extralight" :class="[color]">
     <ContentSlot unwrap="p" />
   </h2>
 </template>
