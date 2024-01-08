@@ -109,7 +109,7 @@ More episodes of the podcast can be found here:
 Other articles that may interest you
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="/blog/kubernetes-logging-with-promtail-loki-and-grafana/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Kubernetes Logging with Promtail, Loki and Grafana
 :::
@@ -121,7 +121,7 @@ By Tobias Frölich
 Observability
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="/blog/vuejs-error-tracking-with-sentry/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 VueJS error tracking with Sentry
 :::
@@ -133,7 +133,7 @@ By Robert Stein
 Frontend Error Handling
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="/blog/evolution-of-application-development-to-cloud-native/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Evolution of application development
 :::

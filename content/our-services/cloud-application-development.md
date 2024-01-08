@@ -164,7 +164,7 @@ Overall, we see the cloud-native approach as an optimal way to develop, customiz
 Some of our articles that may also interest you
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/local-kubernetes-development/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 How does local development with Kubernetes work?
 :::
@@ -176,7 +176,7 @@ By Robert Gutschale
 Local K8s Development
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/django-development-for-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 A Kubernetes native stack created for django
 :::
@@ -188,7 +188,7 @@ By Robert Gutschale
 Django Hurricane
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Minikube vs. k3d vs. kind vs. Getdeck Beiboot
 :::

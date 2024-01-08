@@ -119,7 +119,7 @@ Technologies like static site generators. Front-end frameworks like Vue, React o
 Some of our articles that may also interest you
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Options you have for container orchestration
 :::
@@ -131,7 +131,7 @@ By Hannes Hanusch
 Containerization
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Managed or unmanaged Kubernetes. What's right?
 :::
@@ -143,7 +143,7 @@ By Robert Gutschale
 K8s Infrastructure
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/vuejs-error-tracking-with-sentry/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Using Sentry for VueJS error tracking
 :::

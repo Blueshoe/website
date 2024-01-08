@@ -294,7 +294,7 @@ Interested in assessing your cloud security risks and closing your security gaps
 Some of our articles that you may also like
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/cilium-kubernetes-networking-observability/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Using Cilium for Kubernetes networking
 :::
@@ -306,7 +306,7 @@ By Tobias Frölich
 Kubernetes Observability
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/kubernetes-logging-with-promtail-loki-and-grafana/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Kubernetes Logging with Promtail, Loki and Grafana
 :::
@@ -318,7 +318,7 @@ By Tobias Frölich
 Read the logs
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/docker-vs-podman/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Docker vs. Podman
 :::
