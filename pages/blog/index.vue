@@ -7,7 +7,7 @@
       occur when developing within cloud native infrastructures.
     </GlobalParagraph>
 
-    <BlogFilter class="my-6"  />
+    <BlogFilter class="my-6" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <BlogCard
@@ -45,9 +45,9 @@ useHead({
 
 const generalStore = useGeneralStore();
 const { sortedBlogs, initialSorting } = storeToRefs(generalStore);
+const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
 
 onMounted(async () => {
-  const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
   sortedBlogs.value = blogs.value?.sort((a, b) => {
     return convertToDate(b.date) - convertToDate(a.date);
   });
