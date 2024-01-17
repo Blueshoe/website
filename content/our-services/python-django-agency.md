@@ -109,7 +109,7 @@ Programming with Python means
 Some of our articles that you may also like
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/python-executables-linux-macos-windows/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Creating Python executables for Win, MacOS, Linux
 :::
@@ -121,7 +121,7 @@ By Michael Schilonka
 Python Development
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/django-development-for-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Django development for Kubernetes
 :::
@@ -133,7 +133,7 @@ By Robert Gutschale
 Django Hurricane
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/php-vs-python/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 PHP or Python? Let's compare!
 :::

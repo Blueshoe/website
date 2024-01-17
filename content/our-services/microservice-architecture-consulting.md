@@ -165,7 +165,7 @@ In order to handle the increased amount of services, however, it is greatly advi
 Some of our articles that you may also like
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Comparison of container orchestration options.
 :::
@@ -177,7 +177,7 @@ By Hannes Hanusch
 Containerization
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 The evolution of application development
 :::
@@ -189,7 +189,7 @@ By Michael Schilonka
 Tech History
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Minikube vs. k3d vs. kind vs. Getdeck Beiboot
 :::
