@@ -98,7 +98,7 @@ Shop components (like the search, check-out or product display) have to be compa
 Some of our articles that may also interest you
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/requirements-analysis-in-project-management/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Requirements analysis in project management
 :::
@@ -110,7 +110,7 @@ By Tina Söll
 Project management
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/kubernetes-explained-for-non-developers/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Kubernetes explained for non-developers
 :::
@@ -122,7 +122,7 @@ By Tina Söll
 Knowledge
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 The evolution of application development
 :::

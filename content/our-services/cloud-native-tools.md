@@ -134,7 +134,7 @@ Figuring out exactly what you need, what fits into your processes and philosophi
 Some of our articles that may also interest you
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/alternative-to-telepresence-2-gefyra/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 An alternative to Telepresence 2: Gefyra
 :::
@@ -146,7 +146,7 @@ By Michael Schilonka
 Development Tools
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Minikube vs. k3d vs. kind vs. Getdeck Beiboot
 :::
@@ -158,7 +158,7 @@ By Michael Schilonka
 Tool Comparison
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/cilium-kubernetes-networking-observability/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Using Cilium for Kubernetes networking
 :::

@@ -14,6 +14,12 @@ export default defineEventHandler(async (event) => {
       changefreq: 'monthly'
     });
   }
+
+  sitemap.write({
+    url: '/blog',
+    changefreq: 'monthly'
+  });
+
   sitemap.end();
 
   return streamToPromise(sitemap);

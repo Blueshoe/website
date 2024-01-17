@@ -106,7 +106,7 @@ Curious?
 Some of our articles that may also interest you
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/our-services/headless-e-commerce/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 We develop individual headless e-commerce systems.
 :::
@@ -118,7 +118,7 @@ Find out more here.
 Cloud native e-commerce
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 The evolution of application development
 :::
@@ -130,7 +130,7 @@ By Michael Schilonka
 Tech History
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/requirements-analysis-in-project-management/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Requirements analysis in project management
 :::

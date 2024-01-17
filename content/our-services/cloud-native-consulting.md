@@ -288,7 +288,7 @@ Secret Projects
 Some of our articles that you may also like
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Managed vs. unmanaged Kubernetes
 :::
@@ -300,7 +300,7 @@ By Robert Gutschale
 Hosting options
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 The evolution of application development
 :::
@@ -312,7 +312,7 @@ By Michael Schilonka
 Tech Background
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/local-kubernetes-development/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 How does local Kubernetes development work?
 :::

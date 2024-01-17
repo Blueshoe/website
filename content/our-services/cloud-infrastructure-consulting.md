@@ -231,7 +231,7 @@ Ready to get started on your cloud infrastructure and migration journey? Let’s
 Some of our articles that you may also like
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Managed vs. unmanaged Kubernetes
 :::
@@ -243,7 +243,7 @@ By Robert Gutschale
 Hosting options
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Comparison of container orchestration options
 :::
@@ -255,7 +255,7 @@ By Hannes Hanusch
 Containerization
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="#"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/performance-comparison-gke-vs-eks/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Performance benchmark of GKE vs. EKS
 :::

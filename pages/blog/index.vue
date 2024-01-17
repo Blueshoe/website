@@ -7,7 +7,7 @@
       occur when developing within cloud native infrastructures.
     </GlobalParagraph>
 
-    <BlogFilter class="my-6" />
+    <GlobalFilter class="my-6" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <BlogCard
