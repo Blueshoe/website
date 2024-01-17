@@ -55,7 +55,7 @@
         />
       </transition>
       <div
-        class="absolute top-[70px] bg-white w-full shadow transition-all duration-300 delay-300"
+        class="absolute z-[100] top-[70px] bg-white w-full shadow transition-all duration-300 delay-300"
         :class="[isMobileFilterOpen ? 'left-0' : '-left-[100%]']"
       >
         <div
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div
-        class="absolute top-[70px] bg-white w-full shadow transition-all duration-300 delay-300"
+        class="absolute z-[100] top-[70px] bg-white w-full shadow transition-all duration-300 delay-300"
         :class="[isMobileFilterItemsOpen ? 'left-0' : '-left-[100%]']"
       >
         <div
