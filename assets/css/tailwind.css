@@ -50,7 +50,7 @@
   }
 
   .bs-container {
-    @apply container mx-auto px-[15px];
+    @apply container mx-auto px-[65px];
   }
 
   .ul-disk ul {

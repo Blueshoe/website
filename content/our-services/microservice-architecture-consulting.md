@@ -160,47 +160,8 @@ In order to handle the increased amount of services, however, it is greatly advi
 ::::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Comparison of container orchestration options.
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Hannes Hanusch
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Containerization
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-The evolution of application development
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Tech History
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Minikube vs. k3d vs. kind vs. Getdeck Beiboot
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Tool comparison
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that you may also like"}
+
 :::
 
 :::GlobalSliderSection{:numberCards=3 data-title="Cloud-native projects"}

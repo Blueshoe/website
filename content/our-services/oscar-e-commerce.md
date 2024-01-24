@@ -101,47 +101,8 @@ Curious?
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-white"}
-::::GlobalTitle{.mb-6}
-Some of our articles that may also interest you
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/our-services/headless-e-commerce/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We develop individual headless e-commerce systems.
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-Find out more here.
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Cloud native e-commerce
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-The evolution of application development
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Tech History
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/requirements-analysis-in-project-management/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Requirements analysis in project management
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Tina Söll
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Project Management
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that may also interest you" :cardBg="bg-bs-gray" blockBg="bg-white"}
+
 :::
 
 :::GlobalSliderSection{:numberCards=2 :bg="bg-bs-gray" data-title="Successful Oscar Commerce projects"}

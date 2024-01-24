@@ -83,7 +83,7 @@ Our philosophy has at its core, that we use tools wherever possible. Ideally som
 And all of this also sometimes led to us developing our own open source tools, when we just couldn’t find the right match.
 ::::
 #button
-::GlobalButton{:url="/products" :label="Our Open Source Tools" :target="_blank"}
+::GlobalButton{:url="/products" :label="Our Open Source Tools"}
 ::
 :::
 
@@ -104,47 +104,8 @@ More episodes of the podcast can be found here:
 ::::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-white" data-title="Other articles of interest"}
-::::GlobalTitle{.mb-6}
-Other articles that may interest you
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="/blog/kubernetes-logging-with-promtail-loki-and-grafana/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Kubernetes Logging with Promtail, Loki and Grafana
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Tobias Frölich
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Observability
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="/blog/vuejs-error-tracking-with-sentry/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-VueJS error tracking with Sentry
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Stein
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Frontend Error Handling
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :bg="bg-bs-gray" :href="/blog/evolution-of-application-development-to-cloud-native/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Evolution of application development
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-DevOps
-:::
-::
+:::GlobalRelatedArticles{:title="Other articles that may interest you" :cardBg="bg-bs-gray" blockBg="bg-white"}
+
 :::
 
 :::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true  :width="md:w-2/3"}

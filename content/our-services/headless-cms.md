@@ -114,47 +114,8 @@ Technologies like static site generators. Front-end frameworks like Vue, React o
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-white"}
-::::GlobalTitle{.mb-6}
-Some of our articles that may also interest you
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Options you have for container orchestration
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Hannes Hanusch
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Containerization
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Managed or unmanaged Kubernetes. What's right?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-K8s Infrastructure
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/vuejs-error-tracking-with-sentry/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Using Sentry for VueJS error tracking
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Stein
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Frontend error Handling
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that may also interest you" :cardBg="bg-bs-gray" blockBg="bg-white"}
+
 :::
 
 :::GlobalSliderSection{:numberCards=3 data-title="Successful projects" :bg="bg-bs-gray"}
@@ -216,7 +177,7 @@ Why is Blueshoe your expert for headless CMS?
 We love flexible solutions – that’s why, in our opinion, rigid CMS structures make little sense. As contents are consumed via different platforms and devices nowadays, we think a headless CMS like Wagtail or Saleor is the most modern option. Smartphone, AI virtual assistant or VR headset – if you choose a headless CMS by Blueshoe, your content managers will thank you for it.
 ::::
 #button
-::GlobalButton{:url="contact" :label="Contact us!" :color="green"}
+::GlobalButton{:url="/contact" :label="Contact us!" :color="green"}
 ::
 :::
 
