@@ -1,6 +1,20 @@
 ---
 title: 'Cloud application development by experts'
 description: 'content="Cloud Native Development Experts. We develop complex applications for for cloud based infrastructures. ✅ Microservices ✅ Kubernetes ✅ APIs"'
+articles: 
+  - title: 'Local K8s Development'
+    content: 'How does local development with Kubernetes work?'
+    author: 'By Robert Gutschale'
+    url: '/blog/local-kubernetes-development/'
+  - title: 'Django Hurricane'
+    content: 'A Kubernetes native stack created for django'
+    author: 'By Robert Gutschale'
+    url: '/blog/django-development-for-kubernetes/'
+  - title: 'K8s Development Tools'
+    content: 'Minikube vs. k3d vs. kind vs. Getdeck Beiboot'
+    author: 'By Michael Schilonka'
+    url: '/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot'
+---
 ---
 
 ::GlobalWrapperSections
@@ -50,7 +64,7 @@ Cloud-native application development vs. standard application development
 The advantages of cloud-native applications over standard applications are founded by the usage of the cloud as well as the approach of application development itself. Check out the following article, to learn more about the evolution of application development.
 ::::
 #button
-::GlobalButton{:url="#" :label="The evolution of application development"}
+::GlobalButton{:url="/blog/evolution-of-application-development-to-cloud-native/" :label="The evolution of application development"}
 ::
 :::
 
@@ -109,7 +123,7 @@ Application development by blueshoe
 As your custom software development agency, we specialize in providing custom-made software solutions that perfectly solve your use case. We will not hesitate to suggest the use of standard solutions when possible. However, experience shows that these are often not the right solution for a particular problem or especially for your future vision for your application. When developing applications for you, we remain agile, delivering incremental progress and staying in constant communication with you. With our experience and expertise in cloud application development, we deliver solutions that can be deployed directly into the cloud. In fact, we often strive to develop applications directly in the cloud or in cloud-like configurations to ensure functionality and compatibility. Contact us for more information on our approach.
 ::::
 #button
-::GlobalButton{:url="#" :label="Contact us" :color="black"}
+::GlobalButton{:url="/contact" :label="Contact us" :color="black"}
 ::
 :::
 
@@ -159,47 +173,8 @@ Overall, we see the cloud-native approach as an optimal way to develop, customiz
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3}
-::::GlobalTitle{.mb-6}
-Some of our articles that may also interest you
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/local-kubernetes-development/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-How does local development with Kubernetes work?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Local K8s Development
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/django-development-for-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-A Kubernetes native stack created for django
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Django Hurricane
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Minikube vs. k3d vs. kind vs. Getdeck Beiboot
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-K8s Development Tools
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that may also interest you" :articles=articles}
+
 :::
 
 
