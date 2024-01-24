@@ -18,7 +18,7 @@ We love Open Source software. In most of our projects we using Open Source compo
 ::GlobalSmallCardWithImageSection{:isMainSlot=false :numberCards=5 :bg="bg-bs-blue"}
 
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/vertical_for_white_bg.svg" :href="https://getdeck.dev/"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/vertical_for_white_bg.svg" :href="https://getdeck.dev/" :target="_blank"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Virtual clusters for development and testing
 :::
@@ -31,7 +31,7 @@ Getdeck
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/gefyra.svg" :href="https://gefyra.dev/"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/gefyra.svg" :href="https://gefyra.dev/" :target="_blank"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Local Kubernetes development made easy
 :::
@@ -44,7 +44,7 @@ Gefyra
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/unikube-logo.svg" :href="https://unikube.io/"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/unikube-logo.svg" :href="https://unikube.io/" :target="_blank"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Streamlining K8s development processes
 :::
@@ -57,7 +57,7 @@ Unikube
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="https://unikube.io/"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="https://unikube.io/" :target="_blank"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Fit Django perfectly with K8s
 :::
@@ -70,7 +70,7 @@ Django Hurricane
 :::
 ::
 
-::GlobalSmallCardWithImage{:href="https://github.com/Blueshoe/pycloak"}
+::GlobalSmallCardWithImage{:href="https://github.com/Blueshoe/pycloak" :target="_blank"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 A Python package for Keycloak
 :::

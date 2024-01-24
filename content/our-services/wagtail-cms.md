@@ -61,47 +61,8 @@ That’s why we love Wagtail CMS
 ::::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3}
-::::GlobalTitle{.mb-6}
-Some of our articles that may also interest you
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Options you have for container orchestration
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Hannes Hanusch
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Containerization
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Managed or unmanaged Kubernetes. What's right?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-K8s Infrastructure
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/vuejs-error-tracking-with-sentry/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Using Sentry for VueJS error tracking
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Stein
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Frontend error Handling
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that may also interest you"}
+
 :::
 
 :::GlobalListCardSliderSection{:bg="bg-white" :numberCards=2 :dotColor="black" :isButton=true data-title="Why is Blueshoe your expert for Wagtail CMS?"}

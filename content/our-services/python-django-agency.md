@@ -104,47 +104,8 @@ Programming with Python means
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/python-executables-linux-macos-windows/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Creating Python executables for Win, MacOS, Linux
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Python Development
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/django-development-for-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Django development for Kubernetes
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Django Hurricane
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/php-vs-python/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-PHP or Python? Let's compare!
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Stein
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Language comparison
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that you may also like"}
+
 :::
 
 :::GlobalSimpleSection{:isButton=true :bg="bg-white" data-title="Why are Blueshoe your experts for Python and Django?"}
@@ -255,7 +216,7 @@ We know that requirements can change during the development process and that a s
 Curious?
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us now!" :target="_blank"}
+::GlobalButton{:url="/contact" :label="Contact us now!"}
 ::
 :::
 

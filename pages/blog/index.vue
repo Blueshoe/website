@@ -7,11 +7,11 @@
       occur when developing within cloud native infrastructures.
     </GlobalParagraph>
 
-    <GlobalFilter class="my-6" />
+    <GlobalFilter :initial-filters="filters" class="my-6" />
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <BlogCard
-        v-for="blog in sortedBlogs"
+        v-for="blog in sortedItems"
         :key="blog.id"
         :src="blog.src"
         :img="blog.img"
@@ -44,13 +44,13 @@ useHead({
 });
 
 const generalStore = useGeneralStore();
-const { sortedBlogs, initialSorting } = storeToRefs(generalStore);
+const { sortedItems, initialSorting, filters } = storeToRefs(generalStore);
 
 onMounted(async () => {
   const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
-  sortedBlogs.value = blogs.value?.sort((a, b) => {
+  sortedItems.value = blogs.value?.sort((a, b) => {
     return convertToDate(b.date) - convertToDate(a.date);
   });
-  initialSorting.value = sortedBlogs.value;
+  initialSorting.value = sortedItems.value;
 });
 </script>

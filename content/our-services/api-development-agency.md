@@ -211,47 +211,8 @@ We understand that having quality API documentation is essential for successful 
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-white"}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/cilium-kubernetes-networking-observability/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Using Cilium for Kubernetes networking
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Tobias Frölich
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Kubernetes Observability
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/docker-vs-podman/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-What's the best option for you?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Docker vs Podman
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/strategies-for-slim-docker-images/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Strategies for slim Docker images
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Dockerfiles
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that you may also like" :cardBg="bg-bs-gray" blockBg="bg-white"}
+
 :::
 
 :::GlobalPodcastSection{:videoId="KapP6ouEL3E"}

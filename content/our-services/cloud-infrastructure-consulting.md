@@ -103,7 +103,7 @@ Based on the development process, we’ll work with your teams to set everything
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Let's hop on a call today"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Let's hop on a call today" :target="_blank"}
 ::
 :::
 
@@ -226,47 +226,8 @@ Ready to get started on your cloud infrastructure and migration journey? Let’s
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Managed vs. unmanaged Kubernetes
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Hosting options
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Comparison of container orchestration options
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Hannes Hanusch
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Containerization
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/performance-comparison-gke-vs-eks/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Performance benchmark of GKE vs. EKS
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Hyper scaler comparison
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that you may also like"}
+
 :::
 
 :::GlobalSliderSection{:numberCards=3 data-title="Our past cloud projects"}

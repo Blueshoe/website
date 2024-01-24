@@ -72,7 +72,7 @@ Blueshoe guides you through implementing your strategy so you can quickly discov
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Let's hop on a call today"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Let's hop on a call today" :target="_blank"}
 ::
 :::
 
@@ -248,7 +248,7 @@ If you have a hybrid and/or distributed workforce, you need cloud products that 
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation" target="_blank"}
 ::
 :::
 
@@ -289,47 +289,8 @@ Interested in assessing your cloud security risks and closing your security gaps
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/cilium-kubernetes-networking-observability/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Using Cilium for Kubernetes networking
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Tobias Frölich
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Kubernetes Observability
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/kubernetes-logging-with-promtail-loki-and-grafana/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Kubernetes Logging with Promtail, Loki and Grafana
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Tobias Frölich
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Read the logs
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/docker-vs-podman/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Docker vs. Podman
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Comparison
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that you may also like"}
+
 :::
 
 :::GlobalSliderSection{:numberCards=3}

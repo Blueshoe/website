@@ -9,6 +9,7 @@
     <div class="hidden">
       <a v-for="(link, i) in servicesData" :key="i" :href="link._path">{{ link._id }}</a>
       <a v-for="(link, i) in blogssData" :key="i" :href="link._path">{{ link._id }}</a>
+      <a v-for="(link, i) in projectsData" :key="i" :href="link._path">{{ link._id }}</a>
     </div>
 
     <GlobalFooter />
@@ -42,6 +43,9 @@ onMounted(() => {
 
 const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
 const servicesData = ref(services.value);
+
+const { data: projects } = await useAsyncData('projects', () => queryContent('/our-services').find());
+const projectsData = ref(projects.value);
 
 const tools = await useAsyncData('tools', () => queryContent('/products').findOne());
 const podcast = await useAsyncData('podcast', () => queryContent('/podcast').findOne());

@@ -88,7 +88,7 @@ Using a good set of tools when developing for a Kubernetes infrastructure is imp
 Gefyra
 :::
 :::GlobalParagraph{:fontSize="lg" .mb-3}
-[Gefyra](https://gefyra.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} allows developers to “bridge” a locally running container into a Kubernetes cluster. Either a dedicated development cluster (provided with Getdeck) or any pre-production system can be used. Gefyra connects the developer’s machine (Windows, MacOS or Linux) with the selected environment and makes Kuberntes-based resources (such as data layers, other services, Kubernetes API-extensions) available to the developers code - no more break between development and production environment - No more time-consuming back and forth with the integration system. If you need support for your developers, Blueshoe is here to help.
+<a href="https://gefyra.dev/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Gefyra</a> allows developers to “bridge” a locally running container into a Kubernetes cluster. Either a dedicated development cluster (provided with Getdeck) or any pre-production system can be used. Gefyra connects the developer’s machine (Windows, MacOS or Linux) with the selected environment and makes Kuberntes-based resources (such as data layers, other services, Kubernetes API-extensions) available to the developers code - no more break between development and production environment - No more time-consuming back and forth with the integration system. If you need support for your developers, Blueshoe is here to help.
 :::
 ::
 #card2
@@ -97,7 +97,7 @@ Gefyra
 Getdeck
 :::
 :::GlobalParagraph{:fontSize="lg" .mb-3}
-Use the Kubernetes configurations that you already have for your production environment and simply roll them out to your developers. [Getdeck](https://getdeck.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} allows you to pull all components together and provide a developer with an individual development environment that matches production. Remove that “works on my machine” and standardize the development environments across all development teams. If you already have members in your team putting a lot of effort in writing secure, compliant and off-the-shelf Kubernetes workloads, why don't you use (at least parts of it) these for development, too? Get in touch with Blueshoe to find out how your development team can benefit from using Getdeck today.
+Use the Kubernetes configurations that you already have for your production environment and simply roll them out to your developers. <a href="https://getdeck.dev/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Getdeck</a> allows you to pull all components together and provide a developer with an individual development environment that matches production. Remove that “works on my machine” and standardize the development environments across all development teams. If you already have members in your team putting a lot of effort in writing secure, compliant and off-the-shelf Kubernetes workloads, why don't you use (at least parts of it) these for development, too? Get in touch with Blueshoe to find out how your development team can benefit from using Getdeck today.
 :::
 ::
 #card3
@@ -106,11 +106,11 @@ Use the Kubernetes configurations that you already have for your production envi
 Getdeck Beiboot
 :::
 :::GlobalParagraph{:fontSize="lg" .mb-3}
-If you want to roll out a Kubernetes-based development workflow in your company, but these workloads grew to large for Windows or MacOS development machines: [Getdeck Beiboot](https://getdeck.dev/docs/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} is here to help. Beiboot is a Kubernetes-in-Kubernetes solution that allows your developers to spin up pre-provisioned Kubernetes cluster (for a particular development environment) within seconds. All it takes is a physical Kubernetes cluster made available for your development teams. If you want to learn more about how to leverage a cloud-based development workflow using Getdeck Beiboot, please get in touch with us.
+If you want to roll out a Kubernetes-based development workflow in your company, but these workloads grew to large for Windows or MacOS development machines: <a href="https://getdeck.dev/docs/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Getdeck Beiboot</a> is here to help. Beiboot is a Kubernetes-in-Kubernetes solution that allows your developers to spin up pre-provisioned Kubernetes cluster (for a particular development environment) within seconds. All it takes is a physical Kubernetes cluster made available for your development teams. If you want to learn more about how to leverage a cloud-based development workflow using Getdeck Beiboot, please get in touch with us.
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation" :target="_blank"}
 ::
 :::
 
@@ -129,47 +129,8 @@ Figuring out exactly what you need, what fits into your processes and philosophi
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Some of our articles that may also interest you
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/alternative-to-telepresence-2-gefyra/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-An alternative to Telepresence 2: Gefyra
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Development Tools
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Minikube vs. k3d vs. kind vs. Getdeck Beiboot
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Tool Comparison
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/cilium-kubernetes-networking-observability/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Using Cilium for Kubernetes networking
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Tobias Frölich
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Kubernetes observability
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that may also interest you"}
+
 :::
 
 :::GlobalSliderSection{:numberCards=3 data-title="Cloud-native projects"}

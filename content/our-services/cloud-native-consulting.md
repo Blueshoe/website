@@ -283,47 +283,8 @@ Secret Projects
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Managed vs. unmanaged Kubernetes
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Hosting options
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/evolution-of-application-development-to-cloud-native/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-The evolution of application development
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Michael Schilonka
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Tech Background
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/local-kubernetes-development/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-How does local Kubernetes development work?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Development
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that you may also like"}
+
 :::
 
 ::
