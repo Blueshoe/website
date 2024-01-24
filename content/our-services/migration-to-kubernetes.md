@@ -138,8 +138,8 @@ For the migration, a few challenges need to be overcome. These include the trans
 Obstacles from a developers point of view:
 ::::
 ::::GlobalBlock{.ol-decimal .mb-4 .ml-4 .sm:px-8 .md:px-20 .xl:px-0}
-1. Learning how to use [kubectl](https://kubernetes.io/docs/reference/kubectl/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} in order to enable the direct interaction with the cluster.
-2. Live code-reloading: when the code is changed, it should be possible to test the alterations as quickly as possible – without having to first build a new Docker image and deploy it in the local cluster. This is possible via [Gefyra](https://gefyra.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, for example
+1. Learning how to use <a href="https://kubernetes.io/docs/reference/kubectl/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">kubectl</a> in order to enable the direct interaction with the cluster.
+2. Live code-reloading: when the code is changed, it should be possible to test the alterations as quickly as possible – without having to first build a new Docker image and deploy it in the local cluster. This is possible via <a href="https://gefyra.dev/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Gefyra</a>, for example
 3. For most developers, the debugger is undoubtedly an important part of an optimal development process. With a local Kubernetes cluster, this debugger has to be explicitly configured again. In a Python environment, for example, you do this using python remote debug.
 ::::
 ::::GlobalParagraph{.mb-6 .sm:px-8 .md:px-20 .xl:px-0}
@@ -309,7 +309,7 @@ The first step is to containerize your application by packaging it into an image
 One tool that is currently all the rage when it comes to containerizing your applications is buildpacks.io
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-[Buildpacks.io](https://buildpacks.io/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} is a platform that provides developers with a set of tools to easily build and deploy applications in any language on any cloud. It provides a unified workflow for building, testing, and deploying applications across multiple clouds, including AWS, Google Cloud Platform, Microsoft Azure, and more. Buildpacks.io also offers an intuitive UI to manage your application's infrastructure and configuration, as well as an API to automate the process.
+<a href="https://buildpacks.io/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Buildpacks.io</a> is a platform that provides developers with a set of tools to easily build and deploy applications in any language on any cloud. It provides a unified workflow for building, testing, and deploying applications across multiple clouds, including AWS, Google Cloud Platform, Microsoft Azure, and more. Buildpacks.io also offers an intuitive UI to manage your application's infrastructure and configuration, as well as an API to automate the process.
 ::
 #label-2
 ::GlobalTitle{:size="md" :tag="h4"}
@@ -350,26 +350,26 @@ After configuring the Kubernetes deployment, you can create a CD pipeline that w
 ::
 #label-6
 ::GlobalTitle{:size="md" :tag="h4"}
-  Test locally
+Test locally
 ::
 #text-6
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Once you have created the necessary manifests, it’s important to test them locally before deploying them to the cluster. This will ensure that everything works as expected before going live. To make this as easy as possible, we can provide you with perfectly fitted open source tools that help you abstract most of the complexity that comes with this. Check out:
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-[https://getdeck.dev/](https://getdeck.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+<a href="https://getdeck.dev/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Getdeck</a>
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Easily create Kubernetes environments. A simple CLI that helps you to easily provision reproducible K8s environments with all dependencies managed.
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-[https://getdeck.dev/beiboot/](https://getdeck.dev/beiboot/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+<a href="https://getdeck.dev/beiboot/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Getdeck Beiboot</a>
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 A Kubernetes-in-Kubernetes solution that was born from the idea to provide Getdeck users a simple yet flexible solution to spin up hybrid cloud development infrastructure. This is useful for development workloads which grew too large to run on a development machine
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-[Gefyra](https://gefyra.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+<a href="https://gefyra.dev/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Gefyra</a>
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Gefyra runs local code in any Kubernetes cluster without the build and push cycle. It overlays containers in the cluster making code changes immediately available.
@@ -459,47 +459,8 @@ Secret Projects
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:numberCards=3 :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Some of our articles that you may also like
-::::
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/local-kubernetes-development/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-How does local development with Kubernetes work?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Local K8s Development
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/managed-vs-unmanaged-kubernetes/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Figure out what Kubernetes service is best for you
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-By Robert Gutschale
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Managed or Unmanaged
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/blog.svg" :href="/blog/container-orchestration-options-comparison/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Which is the best container orchestration option?
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6}
-Hannes Hanusch
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Containerization
-:::
-::
+:::GlobalRelatedArticles{:title="Some of our articles that may also interest you"}
+
 :::
 
 ::
