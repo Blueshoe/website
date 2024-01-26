@@ -66,19 +66,19 @@ const props = withDefaults(defineProps<Props>(), {
       title: 'Local K8s Development',
       content: 'How does local development with Kubernetes work?',
       author: 'By Robert Gutschale',
-      url: '/blog/local-kubernetes-development/'
+      url: 'https://www.blueshoe.io/blog/local-kubernetes-development/'
     },
     {
       title: 'Django Hurricane',
       content: 'A Kubernetes native stack created for django',
       author: 'By Robert Gutschale',
-      url: '/blog/django-development-for-kubernetes/'
+      url: 'https://www.blueshoe.io/blog/django-development-for-kubernetes/'
     },
     {
       title: 'K8s Development Tools',
       content: 'Minikube vs. k3d vs. kind vs. Getdeck Beiboot',
       author: 'By Michael Schilonka',
-      url: '/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot'
+      url: 'https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot'
     }
   ]
 });

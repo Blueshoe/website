@@ -39,7 +39,7 @@ E-Mail: <a href="mailto:hello@blueshoe.io">hello@blueshoe.io</a>
 Data Protection Officer
 :::
 :::globalParagraph{.mb-4}
-Proliance GmbH / [www.datenschutzexperte.de](https://www.datenschutzexperte.de)
+Proliance GmbH / [www.datenschutzexperte.de](https://www.datenschutzexperte.de){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph{.mb-4}
 Data Protection Officer
@@ -58,7 +58,7 @@ Leopoldstr. 21
 Definitions
 :::
 :::globalParagraph{.mb-6}
-Our privacy policy should be simple and understandable for everyone. For this reason, our privacy policy generally uses the official terms of the General Data Protection Regulation (GDPR). The official definitions are explained in [Art. 4 GDPR.](https://gdpr-info.eu/art-4-gdpr/)
+Our privacy policy should be simple and understandable for everyone. For this reason, our privacy policy generally uses the official terms of the General Data Protection Regulation (GDPR). The official definitions are explained in [Art. 4 GDPR.](https://gdpr-info.eu/art-4-gdpr/){.bs-link-blue :target="_blank"}
 :::
 
 :::GlobalTitle{:size="md" .mb-6}
@@ -136,10 +136,10 @@ European office: HubSpot Ireland Limited at 2nd Floor 30 North Wall Quay, Dublin
 Address USA: HubSpot, Inc. at 25 First St., 2nd floor, Cambridge, Massachusetts 02141, USA.
 :::
 :::globalParagraph{.mb-4}
-Privacy Policy: [https://legal.hubspot.com/privacy-policy](https://legal.hubspot.com/privacy-policy)
+Privacy Policy: [https://legal.hubspot.com/privacy-policy](https://legal.hubspot.com/privacy-policy){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph{.mb-6}
-Standard Contractual Clauses: We have concluded Standard Contractual Clauses with the provider based in the USA pursuant to Art. 46 (2) lit. c GDPR to ensure an adequate level of data protection. [https://legal.hubspot.com/dpa](https://legal.hubspot.com/dpa)
+Standard Contractual Clauses: We have concluded Standard Contractual Clauses with the provider based in the USA pursuant to Art. 46 (2) lit. c GDPR to ensure an adequate level of data protection. [https://legal.hubspot.com/dpa](https://legal.hubspot.com/dpa){.bs-link-blue :target="_blank"}
 :::
 
 :::GlobalTitle{:size="md" .mb-6}
@@ -188,10 +188,10 @@ European branch: HubSpot Ireland Limited at 2nd Floor 30 North Wall Quay, Dublin
 Address USA: HubSpot, Inc., 25 First St., 2nd floor, Cambridge, Massachusetts 02141, USA.
 :::
 :::globalParagraph{.mb-4}
-Privacy Policy: [https://legal.hubspot.com/privacy-policy](https://legal.hubspot.com/privacy-policy)
+Privacy Policy: [https://legal.hubspot.com/privacy-policy](https://legal.hubspot.com/privacy-policy){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph{.mb-6}
-Standard Contractual Clauses: We have concluded Standard Contractual Clauses with the provider based in the USA pursuant to Art. 46 (2) lit. c GDPR to ensure an adequate level of data protection. [https://legal.hubspot.com/dpa](https://legal.hubspot.com/dpa)
+Standard Contractual Clauses: We have concluded Standard Contractual Clauses with the provider based in the USA pursuant to Art. 46 (2) lit. c GDPR to ensure an adequate level of data protection. [https://legal.hubspot.com/dpa](https://legal.hubspot.com/dpa){.bs-link-blue :target="_blank"}
 :::
 
 :::GlobalTitle{:size="md" .mb-6}
@@ -240,10 +240,10 @@ European branch: HubSpot Ireland Limited at 2nd Floor 30 North Wall Quay, Dublin
 Address USA: HubSpot, Inc., 25 First St., 2nd floor, Cambridge, Massachusetts 02141, USA.
 :::
 :::globalParagraph{.mb-4}
-Privacy Policy: [https://legal.hubspot.com/privacy-policy](https://legal.hubspot.com/privacy-policy)
+Privacy Policy: [https://legal.hubspot.com/privacy-policy](https://legal.hubspot.com/privacy-policy){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph{.mb-4}
-Standard Contractual Clauses: We have concluded Standard Contractual Clauses with the provider based in the USA pursuant to Art. 46 (2) lit. c GDPR to ensure an adequate level of data protection. [https://legal.hubspot.com/dpa](https://legal.hubspot.com/dpa)
+Standard Contractual Clauses: We have concluded Standard Contractual Clauses with the provider based in the USA pursuant to Art. 46 (2) lit. c GDPR to ensure an adequate level of data protection. [https://legal.hubspot.com/dpa](https://legal.hubspot.com/dpa){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph{.mb-4}
 Our provider uses this information for the dispatch and statistical evaluation of the newsletter on our behalf. For the evaluation the sent emails contain so-called web beacons or tracking pixels, which are one-pixel image files stored on our website. In this way it can be determined whether a newsletter message has been opened and which links have been clicked on, if applicable. Conversion tracking can also be used to analyse whether a predefined action (e.g. purchase of a product on our website) was carried out after clicking on the link in the newsletter. Technical information is also recorded (e.g. time of access, IP address, browser type and operating system). The data is collected pseudonymously and is not linked to your other personal data, a direct personal reference is excluded. These data are used exclusively for statistical analysis of newsletter campaigns. The results of these analyses can be used to better adapt future newsletters to the interests of the recipients. The legal basis for this data processing is your consent pursuant to Art. 6 (1) lit. a GDPR, which you give in the course of the newsletter registration.
@@ -280,14 +280,14 @@ You can set your browser to
 The cookie settings can be managed under the following links for each browser:
 :::
 :::GlobalBlock{.ul-disk .mb-4}
-- [Google Chrome](https://support.google.com/chrome/answer/2790761?co=GENIE.Platform%3DDesktop&hl=en)
-- [Mozilla Firefox](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop)
-- [Edge (Microsoft)](https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d)
-- [Safari](https://support.apple.com/uk-ua/guide/safari/sfri11471/mac)
-- [Opera](https://help.opera.com/en/latest/web-preferences/#cookies)
+- [Google Chrome](https://support.google.com/chrome/answer/2790761?co=GENIE.Platform%3DDesktop&hl=en){.bs-link-blue :target="_blank"}
+- [Mozilla Firefox](https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop){.bs-link-blue :target="_blank"}
+- [Edge (Microsoft)](https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d){.bs-link-blue :target="_blank"}
+- [Safari](https://support.apple.com/uk-ua/guide/safari/sfri11471/mac){.bs-link-blue :target="_blank"}
+- [Opera](https://help.opera.com/en/latest/web-preferences/#cookies){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph{.mb-4}
-Additionally, you can prevent the loading of so-called scripts by default. "NoScript" allows the execution of JavaScripts, Java and other plug-ins only at trusted domains of your choice. Information and instructions on how to edit this function can be obtained from the provider of your browser (e.g. for Mozilla Firefox at: [https://addons.mozilla.org/en-US/firefox/addon/noscript/](https://addons.mozilla.org/en-US/firefox/addon/noscript/) ).
+Additionally, you can prevent the loading of so-called scripts by default. "NoScript" allows the execution of JavaScripts, Java and other plug-ins only at trusted domains of your choice. Information and instructions on how to edit this function can be obtained from the provider of your browser (e.g. for Mozilla Firefox at: [https://addons.mozilla.org/en-US/firefox/addon/noscript/](https://addons.mozilla.org/en-US/firefox/addon/noscript/){.bs-link-blue :target="_blank"} ).
 :::
 :::globalParagraph{.mb-4}
 Please note that if you disable cookies, the functionality of our website may be limited.
