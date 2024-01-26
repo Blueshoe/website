@@ -30,14 +30,14 @@ We are pushing the development in the areas of Django and Kubernetes with our op
 Towards the end of 2020, we told you about our new **open-source** project Django-Hurricane. You can read our blog post about the launch here. With this project, we want to drive the **Django and Kubernetes** development forward and make our developers’ lives easier by eliminating a lot of routine jobs that pop up during the project set-up, transferring them to a robust framework.
 :::
 :::globalParagraph
-We also worked on the to-do list in the [GitHub Repository](https://github.com/django-hurricane/django-hurricane){.bs-link-blue} and are now able to show you some new features of [Django-Hurricane](https://django-hurricane.io/){.bs-link-blue}.
+We also worked on the to-do list in the <a href="https://github.com/django-hurricane/django-hurricane" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GitHub Repository</a> and are now able to show you some new features of <a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django-Hurricane</a>.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
 Documentation
 :::
 :::globalParagraph
-We have done extensive work on the [documentation](https://django-hurricane.readthedocs.io/en/latest/){.bs-link-blue}. Apart from the **user guide**, there’s also a low-level API documentation. The user guide provides helpful information about the use of **Django-Hurricane**, such as the available command options, useful tips for the configuration as well as general information about the individual components of Django-Hurricane. In the API documentation, you’ll be able to look up the features of those individual components.
+We have done extensive work on the <a href="https://django-hurricane.readthedocs.io/en/latest/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">documentation</a>. Apart from the **user guide**, there’s also a low-level API documentation. The user guide provides helpful information about the use of **Django-Hurricane**, such as the available command options, useful tips for the configuration as well as general information about the individual components of Django-Hurricane. In the API documentation, you’ll be able to look up the features of those individual components.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -77,7 +77,7 @@ Probe endpoints can now be defined separately using the ‘serve’ command. The
 Webhooks for probe events
 :::
 :::globalParagraph
-In addition to this, we have also implemented a new feature for [Django-Hurricane](https://django-hurricane.io/){.bs-link-blue}: the ability to send **webhooks** to a specific address. By now, there are three webhooks which correspond to the three probes. The first one is the startup webhook. It is run after the start of the HTTP server and sent to the specified address. Should the application have failed to start, a startup webhook with the status ‘failed’ is initiated. After this, the application is stopped.
+In addition to this, we have also implemented a new feature for <a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django-Hurricane</a>: the ability to send **webhooks** to a specific address. By now, there are three webhooks which correspond to the three probes. The first one is the startup webhook. It is run after the start of the HTTP server and sent to the specified address. Should the application have failed to start, a startup webhook with the status ‘failed’ is initiated. After this, the application is stopped.
 :::
 :::globalParagraph
 The liveness and readiness webhooks are initiated after the respective **probe requests**. The webhooks are only run following a change in state – i. e. when the first probe request occurs, which changes the state from ‘None’ to ‘Healthy/Unhealthy’, as well as when the state changes from ‘Healthy’ to ‘Unhealthy’ or from ‘Unhealthy’ to ‘Healthy’. In the case of a webhook with the status ‘failed’, a corresponding error traceback is also sent.
@@ -106,7 +106,7 @@ Every one of the webhooks also contains certain data:
 ![cyclone](/img/blogs/cyclone.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-Despite all our hard work on the [Django-Hurricane to-do list](https://django-hurricane.readthedocs.io/en/latest/todos.html){.bs-link-blue} in the last few months, we’ve still got some unchecked boxed left. We’d therefore be very grateful for any help with the further development of Django-Hurricane as well as any of our other **open-source projects**. We’re already excited about the new challenges of the development and are looking forward to ticking off some more boxes in our GitHub Repository to-do list.
+Despite all our hard work on the <a href="https://django-hurricane.readthedocs.io/en/latest/todos.html" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django-Hurricane to-do list</a> in the last few months, we’ve still got some unchecked boxed left. We’d therefore be very grateful for any help with the further development of Django-Hurricane as well as any of our other **open-source projects**. We’re already excited about the new challenges of the development and are looking forward to ticking off some more boxes in our GitHub Repository to-do list.
 :::
 
 ::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="left" :bg="bg-bs-gray" .mb-5}

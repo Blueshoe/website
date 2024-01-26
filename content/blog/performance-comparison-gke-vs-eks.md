@@ -27,7 +27,7 @@ The solid performance of managed Kubernetes platforms is generally regarded as a
 EKS vs. GKE – and why does it matter?
 :::
 :::globalParagraph
-According to [this statistic](https://www.statista.com/statistics/1230308/container-technology-orchestrator-use/){.bs-link-blue} from February 2020, 540 respondents answered the question ‘Which of the following container orchestrators do you use?’ with:
+According to <a href="https://www.statista.com/statistics/1230308/container-technology-orchestrator-use/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">this statistic</a> from February 2020, 540 respondents answered the question ‘Which of the following container orchestrators do you use?’ with:
 :::
 :::GlobalBlock{.ul-disk .mb-5}
 - 37% of all respondents use EKS
@@ -101,16 +101,16 @@ One of the main goals of running a performance analysis is to enable very easy r
 :::
 
 :::globalParagraph
-A quite commonly used tool with only a few known weaknesses is [sysbench](https://github.com/akopytov/sysbench){.bs-link-blue}. With about 5k stars on GitHub and a rather large and active community, it may be suitable for my requirements. A big plus is the extensibility and the many built-in complex benchmark types, such as database benchmarks etc.
+A quite commonly used tool with only a few known weaknesses is <a href="https://github.com/akopytov/sysbench" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">sysbench</a>. With about 5k stars on GitHub and a rather large and active community, it may be suitable for my requirements. A big plus is the extensibility and the many built-in complex benchmark types, such as database benchmarks etc.
 :::
 :::globalParagraph
-Luckily, someone at [Severalnines](https://severalnines.com/blog/){.bs-link-blue} has created a container image for sysbench already and made it public. So the benchmarking tool is ready.
+Luckily, someone at <a href="https://severalnines.com/blog/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Severalnines</a> has created a container image for sysbench already and made it public. So the benchmarking tool is ready.
 :::
 :::globalParagraph
 To simplify this process and make it easily reproducible, I started a little test runner for sysbench. This tool schedules the benchmark in the cluster (with a node selector), waits for the job to complete, parses the result and compiles a file with the test results.
 :::
 :::globalParagraph
-[I made the code public here](https://github.com/Schille/k8s-perf){.bs-link-blue}. It is based on Python and Poetry. If you do have Poetry installed, you can simply run poetry run benchmark <node selector> and it will benchmark the capacity of the CPU, memory and file system.
+<a href="https://github.com/Schille/k8s-perf" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">I made the code public here</a>. It is based on Python and Poetry. If you do have Poetry installed, you can simply run poetry run benchmark <node selector> and it will benchmark the capacity of the CPU, memory and file system.
 :::
 
 :::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" .mb-6}
@@ -241,7 +241,7 @@ When trying to comprehend the results, I found Amazon’s Nitro system, a hardwa
 At Blueshoe, we love to work with the Google Cloud Platform, as we generally consider it more user-friendly and clear compared with the AWS console. Performance considerations are indeed very important, but there are other essential criteria, too, when it comes to selecting a managed Kubernetes offering. Also, please read this benchmark with a grain of salt, as there are plenty of configurations one may choose that can have a huge impact on the overall system performance.
 :::
 :::globalParagraph
-Feel free to [follow me on LinkedIn](https://www.linkedin.com/in/michael-schilonka/){.bs-link-blue} or join our [discord](https://discord.gg/eQBkQwYAYy){.bs-link-blue}.
+Feel free to <a href="https://www.linkedin.com/in/michael-schilonka/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">follow me on LinkedIn</a>or join our <a href="https://discord.gg/eQBkQwYAYy" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">discord</a>.
 :::
 
 

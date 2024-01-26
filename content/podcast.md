@@ -45,7 +45,7 @@ This edition's subject: What can a remote Kubernetes development environment loo
 :::GlobalBlock{.mb-4 :font-size="lg" .ul-disk}
 - Why is remote Kubernetes development a good idea?
 - Shared vs. dedicated remote Kubernetes clusters
-- Demo time Getdeck: [https://getdeck.dev/](https://getdeck.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+- Demo time Getdeck: [https://getdeck.dev/](https://getdeck.dev/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid :target="_blank"}
 :::
 ::
 
@@ -60,8 +60,8 @@ E1: Local Kubernetes development environments
 This episode's big subject: What can a (local) Kubernetes development look like? Tools used in the show:
 :::
 :::GlobalBlock{:font-size="lg" .mb-4 .ul-disk}
-- k3d: [https://k3d.io](https://k3d.io){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
-- minikube: [https://minikube.sigs.k8s.io/docs/](https://minikube.sigs.k8s.io/docs/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+- k3d: [https://k3d.io](https://k3d.io){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid :target="_blank"}
+- minikube: [https://minikube.sigs.k8s.io/docs/](https://minikube.sigs.k8s.io/docs/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid :target="_blank"}
 :::
 :::globalParagraph{:font-size="lg" .mb-4}
 Related Blogpost: [How does local Kubernetes development work?](/blog/local-kubernetes-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}

@@ -33,14 +33,14 @@ Cilium is a networking solution for Kubernetes that provides advanced networking
 In this article, we’ll explore how to use Cilium for Kubernetes networking. We will cover the basics of setting up Cilium in a cluster, configuring network policies and using Hubble for observability. We’ll also discuss best practices for using Cilium in production environments and troubleshooting common issues. Let’s get started by installing Cilium to our Kubernetes cluster!
 :::
 :::GlobalParagraph
-Note: We recommend using [kind](https://github.com/kubernetes-sigs/kind){.bs-link-blue} to try this out on your local machine. K3d (which uses k3s under the hood) does not ship bash in its node images, causing the cilium installation to fail.
+Note: We recommend using <a href="https://github.com/kubernetes-sigs/kind" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">kind</a> to try this out on your local machine. K3d (which uses k3s under the hood) does not ship bash in its node images, causing the cilium installation to fail.
 :::
 
 :::GlobalTitle{:size="lg" .mb-5}
 Installing Cilium
 :::
 :::GlobalParagraph
-First of all, we need to install the Cilium CLI as described in the [documentation](https://docs.cilium.io/en/stable/gettingstarted/k8s-install-default/#install-the-cilium-cli){.bs-link-blue}.
+First of all, we need to install the Cilium CLI as described in the <a href="https://docs.cilium.io/en/stable/gettingstarted/k8s-install-default/#install-the-cilium-cli" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">documentation</a>.
 :::
 :::GlobalParagraph
 Once the CLI installation is finished, we can install Cilium to our cluster by running:
@@ -187,7 +187,7 @@ spec:
 This network policy will allow all ingress traffic from endpoints with the label ```role: client``` and that connect to endpoints with the label ```role: backend-api```.
 :::
 :::GlobalParagraph
-Moving up the [OSI model layers](https://en.wikipedia.org/wiki/OSI_model){.bs-link-blue}, we can also lock down HTTP methods and paths like this:
+Moving up the <a href="https://en.wikipedia.org/wiki/OSI_model" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">OSI model layers</a>, we can also lock down HTTP methods and paths like this:
 :::
 
 :::BlogCode{.mb-5}
@@ -244,7 +244,7 @@ $ cilium hubble enable --ui
 If we run “cilium status” again, we’ll see that Hubble is enabled and running.
 :::
 :::GlobalParagraph
-To make use of the data that’s being collected, we install the Hubble CLI as described in the [documentation](https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client){.bs-link-blue}. Once the installation is complete, we can verify Hubble API access by first creating a port forward for hubble and then using the Hubble CLI to inspect Hubble status and to query the API, like this:
+To make use of the data that’s being collected, we install the Hubble CLI as described in the <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">documentation</a>. Once the installation is complete, we can verify Hubble API access by first creating a port forward for hubble and then using the Hubble CLI to inspect Hubble status and to query the API, like this:
 :::
 
 :::BlogCode{.mb-5}
@@ -276,7 +276,7 @@ Apr  4 07:14:30.121: 10.244.0.166:41986 (host) <- cilium-test/echo-same-node-9f8
 :::
 
 :::GlobalParagraph
-If you like graphical user interfaces, you can also deploy [Hubble UI](https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client){.bs-link-blue} to your cluster. Hubble UI gives you access to a graphical service map that can be used to visually inspect traffic within the cluster. For our example setup, Hubble UI looks like this:
+If you like graphical user interfaces, you can also deploy <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Hubble UI</a> to your cluster. Hubble UI gives you access to a graphical service map that can be used to visually inspect traffic within the cluster. For our example setup, Hubble UI looks like this:
 :::
 
 ![hubble_ui](/img/blogs/hubble-ui.jpg){.object-cover .max-w-full .mb-6}
@@ -299,14 +299,14 @@ Cilium offers way more features than we can cover in this post, so here’s a sh
 Cluster Mesh
 :::
 :::GlobalParagraph
-With [cluster mesh](https://docs.cilium.io/en/stable/network/clustermesh/){.bs-link-blue}, we can extend networking paths across multiple Kubernetes clusters, allowing endpoints in connected clusters to communicate with each other while also enforcing network policies.
+With <a href="https://docs.cilium.io/en/stable/network/clustermesh/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">cluster mesh</a>, we can extend networking paths across multiple Kubernetes clusters, allowing endpoints in connected clusters to communicate with each other while also enforcing network policies.
 :::
 
 :::GlobalTitle{:size="md" .mb-5}
 Service Mesh
 :::
 :::GlobalParagraph
-Cilium [service mesh](https://docs.cilium.io/en/stable/network/servicemesh/){.bs-link-blue} aims to replace more traditional service mesh solutions like Linkerd. It has one key difference, though: While Linkerd relies on sidecar proxies to manage traffic between pods, Cilium service mesh uses eBPF on the node level to manage traffic, improving performance, reducing load and further decoupling the service mesh from the actual workloads.
+Cilium <a href="https://docs.cilium.io/en/stable/network/servicemesh/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">service mesh</a> aims to replace more traditional service mesh solutions like Linkerd. It has one key difference, though: While Linkerd relies on sidecar proxies to manage traffic between pods, Cilium service mesh uses eBPF on the node level to manage traffic, improving performance, reducing load and further decoupling the service mesh from the actual workloads.
 :::
 
 :::BlogRelatedPosts{:url='["/blog/docker-desktop-and-kubernetes", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/docker-vs-podman", "/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/alternative-to-telepresence-2-gefyra"]'}

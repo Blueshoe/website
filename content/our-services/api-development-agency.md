@@ -26,7 +26,7 @@ Don't worry, go API
 Figuring out the right architecture for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Reach out to us" :color="blue"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Reach out to us" :color="blue" :target="_blank"}
 ::
 :::
 

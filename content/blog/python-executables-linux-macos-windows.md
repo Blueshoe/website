@@ -32,9 +32,9 @@ Approach:
 :::
 
 :::GlobalBlock{.ol-decimal .mb-5}
-1. [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/){.bs-link-blue}
-2. [Nuitka](https://nuitka.net/){.bs-link-blue}
-3. [PyOxidizer](https://pyoxidizer.readthedocs.io/en/stable/){.bs-link-blue}
+1. <a href="https://pyinstaller.readthedocs.io/en/stable/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PyInstaller</a>
+2. <a href="https://nuitka.net/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Nuitka</a>
+3. <a href="https://pyoxidizer.readthedocs.io/en/stable/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PyOxidizer</a>
 :::
 
 
@@ -42,10 +42,10 @@ Approach:
 PyInstaller
 :::
 :::globalParagraph
-PyInstaller was quite easy to set up. However, the resulting executable was complained about by [Virustotal](https://www.virustotal.com/gui/home/upload){.bs-link-blue} because of PyInstaller's bootloader. Somehow the code signature was also found in viruses. The compilation of a bootloader removed the virus issues.
+PyInstaller was quite easy to set up. However, the resulting executable was complained about by <a href="https://www.virustotal.com/gui/home/upload" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Virustotal</a> because of PyInstaller's bootloader. Somehow the code signature was also found in viruses. The compilation of a bootloader removed the virus issues.
 :::
 :::globalParagraph
-Facing startup times of more than 10 seconds with internet connection and about 3 seconds without internet connection showed that the concept of PyInstaller will potentially always be a problem for fast startup times. Mac users complained about this issue before in the context of the former docker-compose command being created from [PyInstaller](https://github.com/docker/compose/issues/6956){.bs-link-blue}.
+Facing startup times of more than 10 seconds with internet connection and about 3 seconds without internet connection showed that the concept of PyInstaller will potentially always be a problem for fast startup times. Mac users complained about this issue before in the context of the former docker-compose command being created from <a href="https://github.com/docker/compose/issues/6956" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PyInstaller</a>.
 :::
 :::globalParagraph
 This makes it unsuitable for CLI applications.
@@ -65,10 +65,10 @@ PyOxidizer
 PyOxidizer turned out to be the best approach. This well-crafted toolkit compiles Python to Rust code and also includes all dependencies into one handy binary executable. With no special optimizations startup times of about 700 ms were possible. Those times being almost acceptable this was the basis for further development.
 :::
 :::globalParagraph
-The examination of the output of python -X importtime -m gefyra 2> import.log was the starting point to check the imports. There is an awesome tool to analyze the Python imports: [tuna](https://github.com/nschloe/tuna){.bs-link-blue}. tuna allows analyzing the import times from the log. Run it like this tuna import.log. It opens a browser window and visualizes the import times.
+The examination of the output of python -X importtime -m gefyra 2> import.log was the starting point to check the imports. There is an awesome tool to analyze the Python imports: <a href="https://github.com/nschloe/tuna" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">tuna</a>. tuna allows analyzing the import times from the log. Run it like this tuna import.log. It opens a browser window and visualizes the import times.
 :::
 :::globalParagraph
-Thus it is possible to manually move all imports to the functions in which they are needed (and bring in some other optimizations). This greatly violates [PEP 8](https://peps.python.org/pep-0008/#imports){.bs-link-blue} but leads to very fast startup times.
+Thus it is possible to manually move all imports to the functions in which they are needed (and bring in some other optimizations). This greatly violates <a href="https://peps.python.org/pep-0008/#imports" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PEP 8</a> but leads to very fast startup times.
 :::
 :::globalParagraph
 These are the startup values finally reached with gefyra under average modern Ubuntu:
@@ -96,7 +96,7 @@ In comparison the kubectl executable:
 :::
 
 :::globalParagraph
-In addition, [GitHub actions](https://github.com/gefyrahq/gefyra/blob/main/.github/workflows/dist-build-linux.yaml){.bs-link-blue} were created to run the PyOxidizer builds once a new version is released. Only Windows is missing at the moment.
+In addition, <a href="https://github.com/gefyrahq/gefyra/blob/main/.github/workflows/dist-build-linux.yaml" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GitHub actions</a> were created to run the PyOxidizer builds once a new version is released. Only Windows is missing at the moment.
 :::
 :::globalParagraph
 Although PyInstaller and Nuitka did not deliver the best startup times, the intent of this article is not to speak them ill. They probably shine at other aspects.
