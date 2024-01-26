@@ -89,7 +89,7 @@ At Blueshoe, we have made the conscious choice to live by the native-first princ
 Shop components (like the search, check-out or product display) have to be compatible with one another via interfaces – not much more! Everything else can be developed individually. And that’s where we come in.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :color="green" :label="Book an appointment now!"}
+::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :color="green" :label="Book an appointment now!" :target="_blank"}
 ::
 :::
 

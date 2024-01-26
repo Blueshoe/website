@@ -25,14 +25,14 @@ When it comes to error tracking in our Cloud Native applications Sentry has beco
 :::
 
 :::globalParagraph
-[Sentry](https://sentry.io/){.bs-link-blue} is simply a great piece of software we love to use in our everyday work and we want to share our learnings on using Sentry on Unikube’s VueJS based frontend with you. The code snippets are a bit simplified compared to the originals, however, they contain all necessary information.
+<a href="https://sentry.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Sentry</a> is simply a great piece of software we love to use in our everyday work and we want to share our learnings on using Sentry on Unikube’s VueJS based frontend with you. The code snippets are a bit simplified compared to the originals, however, they contain all necessary information.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
 General information & dependencies
 :::
 :::globalParagraph
-Unikube’s [frontend](https://app.unikube.io/){.bs-link-blue} provides a UI to our many backend microservices. All our microservices are equipped with GraphQL interfaces which are then federated via [Apollo Federation](https://www.apollographql.com/docs/federation/){.bs-link-blue}. This gives us the convenience of consuming the whole (external) graph through one endpoint. The frontend itself is a monolithic single page application, built with TypeScript on top of VueJS and Vuetify. We have included internationalisation via [vue-i18n](https://kazupon.github.io/vue-i18n/){.bs-link-blue} and frontend permission management through [CASL](https://casl.js.org/v5/en/){.bs-link-blue}.
+Unikube’s <a href="https://app.unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">frontend</a> provides a UI to our many backend microservices. All our microservices are equipped with GraphQL interfaces which are then federated via <a href="https://www.apollographql.com/docs/federation/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Apollo Federation</a>. This gives us the convenience of consuming the whole (external) graph through one endpoint. The frontend itself is a monolithic single page application, built with TypeScript on top of VueJS and Vuetify. We have included internationalisation via <a href="https://kazupon.github.io/vue-i18n/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">vue-i18n</a> and frontend permission management through <a href="https://casl.js.org/v5/en/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">CASL</a>.
 :::
 :::globalParagraph
 When it comes to error tracking we have included Sentry’s SDK, which already includes a beautiful integration for VueJS.
@@ -176,10 +176,10 @@ ARG SENTRY_URL
 ```
 :::
 :::globalParagraph
-If you wonder about the difference between docker ARG and ENV check it out [here](https://vsupalov.com/docker-arg-env-variable-guide/){.bs-link-blue}.
+If you wonder about the difference between docker ARG and ENV check it out <a href="https://vsupalov.com/docker-arg-env-variable-guide/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">here</a>.
 :::
 :::globalParagraph
-However, the SentryCLIPlugin sends something to our Sentry installation and therefore needs some kind of authentication. For that, the 'authToken' configuration parameter is used. Now - Unikube is an open-source project, which means our CI pipelines are open source as well. Nevertheless, we would like to keep our 'authToken' a secret, so that no one else can manipulate any release information on our Sentry installation. For that, we use [Docker’s secret management](https://docs.docker.com/engine/swarm/secrets/){.bs-link-blue}. It allows us to inject secret information into the build process, which can only be used during build time. This is exactly what we need since the release information (including the source maps) only need to be generated once when the Docker image is built.
+However, the SentryCLIPlugin sends something to our Sentry installation and therefore needs some kind of authentication. For that, the 'authToken' configuration parameter is used. Now - Unikube is an open-source project, which means our CI pipelines are open source as well. Nevertheless, we would like to keep our 'authToken' a secret, so that no one else can manipulate any release information on our Sentry installation. For that, we use <a href="https://docs.docker.com/engine/swarm/secrets/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker’s secret management</a>. It allows us to inject secret information into the build process, which can only be used during build time. This is exactly what we need since the release information (including the source maps) only need to be generated once when the Docker image is built.
 :::
 :::globalParagraph
 Docker injects the secret as a file, located under '/run/secrets/SENTRY_AUTH_TOKEN'. This file then is read by the 'SentryCLIPlugin'.
@@ -301,7 +301,7 @@ There are a few things to consider here:
 :::
 :::GlobalBlock{.ol-decimal .mb-5}
 1. We use Github Action’s 'matrix' keyword to use the same job template for multiple environment builds.
-2. We log in [to quay.io](http://quay.io/){.bs-link-blue} which is the service hosting our Docker images.
+2. We log in <a href="http://quay.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">to quay.io</a> which is the service hosting our Docker images.
 3. Secret and Arguments are passed via 'docker/build-push-action@v2'.
 :::
 

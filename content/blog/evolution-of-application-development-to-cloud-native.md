@@ -109,7 +109,7 @@ There is an update that requires a data migration? No problem, for your Kubernet
 Are you at stage 5 yet? Yes? Congratulations! But if not, don’t worry. From our own assessment, there are still very few companies that have truly arrived in stage 5 already. We feel that every organisation should do its best to arrive at stage 3 sooner rather than later and immediately start looking towards the mid-term goal of reaching stage 4. If that is the strategy, you are on a good way to be set up for future success.
 :::
 :::globalParagraph
-If you want more insights into the Kubernetes ecosystem, feel free to [follow Michael Schilonka on LinkedIn](https://www.linkedin.com/in/michael-schilonka/){.bs-link-blue}.
+If you want more insights into the Kubernetes ecosystem, feel free to <a href="https://www.linkedin.com/in/michael-schilonka/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">follow Michael Schilonka on LinkedIn</a>.
 :::
 
 ::GlobalPodcastSection{:videoId="KapP6ouEL3E" :videoPosition="left" :bg="bg-bs-gray" .mb-5}

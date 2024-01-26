@@ -143,12 +143,12 @@ The development of new features, bug fixes, and so on happens locally using the 
 An alternative to telepresence
 ::::
 ::::globalParagraph{:font-size="lg" .mb-4}
-We decided to create an alternative to Telepresence 2. Check it out if you like: https://gefyra.dev
+We decided to create an alternative to Telepresence 2. Check it out if you like: [https://gefyra.dev](https://gefyra.dev){.bs-link-blue :target="_blank"}
 ::::
 ::::globalParagraph{:font-size="lg" }
-Also, have a look at my talk at [Conf42](https://www.conf42.com/cloud2022){.bs-link-blue} about debugging a container with sidecar using Gefyra.
+Also, have a look at my talk at <a href="https://www.conf42.com/cloud2022" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Conf42</a> about debugging a container with sidecar using Gefyra.
 ::::
-::::GlobalButton{:url="https://gefyra.dev/" :label="Gefyra" :color="blue"}
+::::GlobalButton{:url="https://gefyra.dev/" :label="Gefyra" :color="blue" target="_blank"}
 ::::
 :::
 

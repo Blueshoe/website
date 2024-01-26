@@ -49,7 +49,7 @@ Quick summary:
 - Benefits thanks to open source
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a consultation!" :color="green"}
+::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a consultation!" :color="green" :target="_blank"}
 ::
 :::
 
@@ -136,7 +136,7 @@ For Hamburg University of Technology, we created the ‘Digital Learning Hub’,
 Hamburg University of Technology
 :::
 #button
-:::GlobalButton{:url="https://digitallearninglab.de/" :label="To the Digital Learning Lab"}
+:::GlobalButton{:url="https://digitallearninglab.de/" :label="To the Digital Learning Lab" :target="_blank"}
 :::
 ::
 

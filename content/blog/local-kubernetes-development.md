@@ -31,7 +31,7 @@ topic:
 Prerequisites
 :::
 :::globalParagraph
-‘Local Kubernetes development’ – or rather, ‘How can I stuff as **many tech buzzwords** into a short blog article as possible?’ One might also want to pop in the term ‘K8s’ somewhere, which is used as an abbreviation for ‘Kubernetes’ … but let’s not go crazy here. In order to understand this blog post, we’ll assume you have a **basic understanding of Kubernetes**. If that’s not the case, we can recommend this [Comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic){.bs-link-blue} by Google:
+‘Local Kubernetes development’ – or rather, ‘How can I stuff as **many tech buzzwords** into a short blog article as possible?’ One might also want to pop in the term ‘K8s’ somewhere, which is used as an abbreviation for ‘Kubernetes’ … but let’s not go crazy here. In order to understand this blog post, we’ll assume you have a **basic understanding of Kubernetes**. If that’s not the case, we can recommend this <a href="https://cloud.google.com/kubernetes-engine/kubernetes-comic" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Comic</a> by Google:
 :::
 
 ![bildschirmfoto_3](/img/blogs/bildschirmfoto_3.jpg){.object-cover .max-w-full .mb-5}
@@ -47,7 +47,7 @@ Status Quo
 The **project example** described above has now become a pretty common scenario. How can we now ensure that our programmers are also able to use their own laptops to develop as closely to the Kubernetes architecture as possible? A common method of running Docker containers locally is **_docker-compose_**. While this one’s especially easy to manage, it does have one major drawback: a docker-compose set-up doesn’t display the eventual production environment, i.e. the Kubernetes set-up. The worst-case scenario would be that you’ve programmed something which functions locally in your docker-compose set-up but not in the production system due to the image being run differently here.
 :::
 :::globalParagraph
-As an alternative, technologies have been developed which simulate Kubernetes clusters on local computers. **_Minikube_** is a pretty widespread solution, but there are also more and more other alternatives which have been gaining ground in recent times. Some of those worth mentioning are **_microk8s_** by Canonical, for example, or **_k3s_** and [**_k3d_**](https://github.com/k3d-io/k3d){.bs-link-blue} by Rancher which are more resource-efficient. K3d uses k3s to simulate more [**_Worker Nodes_**](https://kubernetes.io/docs/concepts/architecture/nodes/){.bs-link-blue} in the local Kubernetes cluster. Usually, **_kubectl_** is then used for the interaction with the cluster.
+As an alternative, technologies have been developed which simulate Kubernetes clusters on local computers. **_Minikube_** is a pretty widespread solution, but there are also more and more other alternatives which have been gaining ground in recent times. Some of those worth mentioning are **_microk8s_** by Canonical, for example, or **_k3s_** and **_<a href="https://github.com/k3d-io/k3d" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">k3d</a>_** by Rancher which are more resource-efficient. K3d uses k3s to simulate more **_<a href="https://kubernetes.io/docs/concepts/architecture/nodes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Worker Nodes</a>_** in the local Kubernetes cluster. Usually, **_kubectl_** is then used for the interaction with the cluster.
 :::
 :::globalParagraph
 As a developer, you now simply have to build a Docker image of your service and make it available to your colleagues. They can deploy the image in their local cluster and will then have local access to the most up-to-date status of your service.
@@ -65,7 +65,7 @@ Two exciting challenges still remain at this point, however:
 How does local Kubernetes development work?
 :::
 :::globalParagraph
-In the upcoming sections, we will have a look at how we overcome these challenges concerning local Kubernetes development. For this, we’ll be using [**_k3d_**](https://github.com/k3d-io/k3d){.bs-link-blue} as a **local Kubernetes cluster** as well as **_PyCharm_** as our **_development environment_**. We’ll also be using [**_Helm_**](https://helm.sh/){.bs-link-blue} for the **cluster management** as well as [**_Telepresence_**](https://www.telepresence.io/){.bs-link-blue} to manage the **live code reloading**. The following installation examples were all carried out on an up-to-date Ubuntu system.
+In the upcoming sections, we will have a look at how we overcome these challenges concerning local Kubernetes development. For this, we’ll be using **_<a href="https://github.com/k3d-io/k3d" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">k3d</a>_** as a **local Kubernetes cluster** as well as **_PyCharm_** as our **_development environment_**. We’ll also be using **_<a href="https://helm.sh/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Helm</a>_** for the **cluster management** as well as **_<a href="https://www.telepresence.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Telepresence</a>_** to manage the **live code reloading**. The following installation examples were all carried out on an up-to-date Ubuntu system.
 :::
 
 ::GlobalPodcastSection{:videoId="FazRUwBWPUI" :videoPosition="left" :bg="bg-bs-gray" .mb-5}
@@ -78,7 +78,7 @@ Gefyra is an Open Source intiative that aims to make local Kubernetes Developmen
 :::globalParagraph{:font-size="lg" .mb-4}
 You can check out Gefyra here:
 :::
-::::GlobalButton{:url="https://gefyra.dev/" :label="Show me Gefyra" :color="green"}
+::::GlobalButton{:url="https://gefyra.dev/" :label="Show me Gefyra" :color="green" target="_blank"}
 ::::
 ::
 
@@ -112,7 +112,7 @@ k3d cluster create buzzword-counter --agents 1 -p 8080:80@agent[0] -p 31820:3182
 ```
 :::
 :::globalParagraph
-Here we have created a cluster called **buzzword-counter** and, amongst other things, have mapped the local port 8080 on the cluster’s internal port 80 so that we can access our cluster in the web browser via port 8080. Additionally we mapped port 31820, which we later need for Gefyra. We also enable local Docker images to be deployed in the cluster using the flag **--registry-create**, which creates a [local registry](https://docs.docker.com/registry/){.bs-link-blue} named _k3d-buzzword-counter-registry_. We need an entry in our **/etc/hosts** file for the local registry:
+Here we have created a cluster called **buzzword-counter** and, amongst other things, have mapped the local port 8080 on the cluster’s internal port 80 so that we can access our cluster in the web browser via port 8080. Additionally we mapped port 31820, which we later need for Gefyra. We also enable local Docker images to be deployed in the cluster using the flag **--registry-create**, which creates a <a href="https://docs.docker.com/registry/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">local registry</a> named _k3d-buzzword-counter-registry_. We need an entry in our **/etc/hosts** file for the local registry:
 :::
 :::BlogCode{.mb-5}
 ```docker
@@ -137,7 +137,7 @@ export KUBECONFIG="$(k3d get-kubeconfig --name='buzzword-counter')"
 Helm – Kubernetes Package Manager
 :::
 :::globalParagraph
-We often use Helm to manage our Kubernetes cluster. Helm describes itself as a package manager for Kubernetes and it also enables the **mapping of complex Kubernetes applications in templates**. Here, the buzzword is **‘infrastructure as code’**. Thanks to the templates, our application can be deployed into a new Kubernetes cluster at any time and without any major effort. To install Helm, you can simply download a binary file: [to the download](https://get.helm.sh/helm-v2.16.5-linux-amd64.tar.gz){.bs-link-blue}
+We often use Helm to manage our Kubernetes cluster. Helm describes itself as a package manager for Kubernetes and it also enables the **mapping of complex Kubernetes applications in templates**. Here, the buzzword is **‘infrastructure as code’**. Thanks to the templates, our application can be deployed into a new Kubernetes cluster at any time and without any major effort. To install Helm, you can simply download a binary file: <a href="https://get.helm.sh/helm-v2.16.5-linux-amd64.tar.gz" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">to the download</a>
 :::
 
 :::globalTitle{:size="sm" :tag="h4" .font-normal .mb-5}
@@ -147,10 +147,10 @@ Example deployment: Buzzword counter
 To show you a practical example, we have created a simple deployment for this blog post and put it up on Github:
 :::
 :::globalParagraph
-[Buzzword counter](https://github.com/Blueshoe/buzzword-counter){.bs-link-blue}
+<a href="https://github.com/Blueshoe/buzzword-counter" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Buzzword counter</a>
 :::
 :::globalParagraph
-[Buzzword charts](https://github.com/Blueshoe/buzzword-charts){.bs-link-blue}
+<a href="https://github.com/Blueshoe/buzzword-charts" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Buzzword charts</a>
 :::
 :::globalParagraph
 This deployment includes a simple Django application, a **_Celery distributed task queue_** with **_rabbitmq_** as message broker to **process asynchronous tasks** as well as a **PostgreSQL databank**. With our application, we can count buzzwords and add new ones, too. The adding of buzzwords is implemented as a Celery task – in this example, it’s pretty pointless, but it demonstrates the functionality of our Celery distributed task queue perfectly.
@@ -186,7 +186,7 @@ kubectl logs -f buzzword-counter-worker-XXXXX-XXXXXXXX
 ```
 :::
 :::globalParagraph
-As we use nip.io, we can simply access our service under [_http://buzzword-counter.127.0.0.1.nip.io:8080_](http://buzzword-counter.127.0.0.1.nip.io:8080/){.bs-link-blue}. If DNS Rebinding doesn’t work or isn’t allowed on your local setup and therefore you can’t use nip.io, you need to add an entry to your /etc/hosts in order to access the url:
+As we use nip.io, we can simply access our service under _<a href="http://buzzword-counter.127.0.0.1.nip.io:8080/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">http://buzzword-counter.127.0.0.1.nip.io:8080</a>_. If DNS Rebinding doesn’t work or isn’t allowed on your local setup and therefore you can’t use nip.io, you need to add an entry to your /etc/hosts in order to access the url:
 :::
 :::BlogCode{.mb-5}
 ```docker
@@ -208,7 +208,7 @@ kubectl logs -f buzzword-counter-worker-XXXXX-XXXXXXXX
 Gefyra - Fast, local development for Kubernetes
 :::
 :::globalParagraph
-In order to access live code reloading, i. e. to make code changes done in our IDE immediately available in the cluster, we use [Gefyra](https://gefyra.dev/){.bs-link-blue}. Without live code reloading, we have to build a new Docker image and deploy it in the cluster after every change – which is pretty inconvenient and can become very time-consuming. Please follow the [instructions to install](https://gefyra.dev/docs/installation/){.bs-link-blue} Gefyra.
+In order to access live code reloading, i. e. to make code changes done in our IDE immediately available in the cluster, we use <a href="https://gefyra.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Gefyra</a>. Without live code reloading, we have to build a new Docker image and deploy it in the cluster after every change – which is pretty inconvenient and can become very time-consuming. Please follow the <a href="https://gefyra.dev/docs/installation/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">instructions to install</a> Gefyra.
 :::
 :::globalParagraph
 To make our local code available in the cluster we need to run following commands, you need to adapt the path in LOCAL_DIR to the directory of your local buzzword-counter copy:
@@ -226,7 +226,7 @@ gefyra bridge -N buzzword-dev -n default --deployment buzzword-counter-web --por
 Let’s go over it in more detail. First, we built our development image.
 :::
 :::globalParagraph
-Then we initialized gefyra in the cluster and executed our image with _gefyra run_, to make it part of the cluster. We can see it running with _docker ps_. Additionally we mounted the local source code directory into the container and specified that the new container should copy the environment from container _buzzword-counter of pod buzzword-counter-web-69d98bb99d-62p4q_. You need to change it appropriately to the name of the pod that’s running in your cluster, if you’re following these steps. We start the container with [Hurricanes](https://django-hurricane.io/){.bs-link-blue} serve command with the _autoreload_ flag and two flags for debugging, which we need later on.
+Then we initialized gefyra in the cluster and executed our image with _gefyra run_, to make it part of the cluster. We can see it running with _docker ps_. Additionally we mounted the local source code directory into the container and specified that the new container should copy the environment from container _buzzword-counter of pod buzzword-counter-web-69d98bb99d-62p4q_. You need to change it appropriately to the name of the pod that’s running in your cluster, if you’re following these steps. We start the container with <a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Hurricanes</a> serve command with the _autoreload_ flag and two flags for debugging, which we need later on.
 :::
 :::globalParagraph
 Finally, we created a bridge with _gefyra_ bridge in order to intercept the traffic to the cluster application with the one running locally.
@@ -280,10 +280,10 @@ We can now set breakpoints and start debugging our code. And with that we have a
 Telepresence: Another option for local development
 :::
 :::globalParagraph
-\[This section was originally written in March 2020 with Telepresence 1. In the meantime Telepresence 2 has been released. Please refer to their [documentation](https://www.telepresence.io/docs/latest/quick-start/){.bs-link-blue} or check out our [comparison of Telepresence 2 and Gefyra](/blog/alternative-to-telepresence-2-gefyra/){.bs-link-blue}.]
+\[This section was originally written in March 2020 with Telepresence 1. In the meantime Telepresence 2 has been released. Please refer to their <a href="https://www.telepresence.io/docs/latest/quick-start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">documentation</a> or check out our [comparison of Telepresence 2 and Gefyra](/blog/alternative-to-telepresence-2-gefyra/){.bs-link-blue}.]
 :::
 :::globalParagraph
-Another solution for local Kubernetes development ist Telepresence. It is a so-called **sandbox project by the CNCF**, the [Cloud Native Computing Foundation](https://www.cncf.io/){.bs-link-blue}. With Telepresence (v1), you can run a locally built Docker image in a cluster by ‘swapping’ a deployment.
+Another solution for local Kubernetes development ist Telepresence. It is a so-called **sandbox project by the CNCF**, the <a href="https://www.cncf.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Cloud Native Computing Foundation</a>. With Telepresence (v1), you can run a locally built Docker image in a cluster by ‘swapping’ a deployment.
 :::
 :::globalParagraph
 This is pretty spectacular from a technical point of view. However, for this post, it’ll be sufficient to use a command to swap the **buzzword counter web deployment** of our Kubernetes cluster and run the specified Docker image instead. First, though, we’ll have to create the Docker image. For both commands, we’ll have to be in the **directory of our Django application’s source code**:
@@ -325,7 +325,7 @@ So now we can deploy our application in the local Kubernetes cluster with live c
 ![pasted_image](/img/blogs/pasted_image_0_2.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-Do bear in mind that it’s crucial that an **absolute path** is specified in the path mapping (the ~ shortcut for the home directory doesn’t work). As you can see in the image above, the configuration also needs a specific version of the **Python package** [_pydevd-pycharm_](https://pypi.org/project/pydevd-pycharm/){.bs-link-blue}.
+Do bear in mind that it’s crucial that an **absolute path** is specified in the path mapping (the ~ shortcut for the home directory doesn’t work). As you can see in the image above, the configuration also needs a specific version of the <b>Python package </b> _<a href="https://pypi.org/project/pydevd-pycharm/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">pydevd-pycharm</a>_.
 :::
 :::globalParagraph
 In order to avoid this package being unnecessarily part of our production deployment, we’re creating a second Dockerfile which installs upgraded **_pip requirements_**. Furthermore, we’ve added a simple view to our application (in urls.py) so that we can conveniently establish a connection between our cluster and the _PyCharm Debugger_ via URL. What’s important here is that the IP address and the port match the configuration in _PyCharm_.

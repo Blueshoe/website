@@ -60,7 +60,7 @@ FaaS offers several advantages over traditional server-based architectures:
 - **High scalability:** FaaS automatically scales resources up or down based on demand, which ensures that applications can handle sudden spikes in traffic without any downtime.
 - **Increased resiliency:** Serverless platforms typically offer built-in fault tolerance and can automatically handle failures, which ensures that applications are highly resilient and can handle unexpected errors without any downtime.
 - **Cost flexibility:** With FaaS, you only pay for the compute time your code actually uses, allowing for more precise cost control and potentially lower overall costs than traditional server-based architectures, where you need to pay for the entire server or a fixed amount of computing resources regardless of the actual usage.
-- **Seamless cloud integration:** [AWS Lambda](https://aws.amazon.com/de/lambda/){.bs-link-blue} integrates seamlessly with other AWS cloud services such as DynamoDB and SQS, making it easy for developers to build complex and scalable applications that leverage multiple services. This allows businesses to create customized solutions that meet their specific needs and easily integrate with existing workflows.
+- **Seamless cloud integration:** <a href="https://aws.amazon.com/de/lambda/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">AWS Lambda</a> integrates seamlessly with other AWS cloud services such as DynamoDB and SQS, making it easy for developers to build complex and scalable applications that leverage multiple services. This allows businesses to create customized solutions that meet their specific needs and easily integrate with existing workflows.
 :::
 
 :::GlobalTitle{:size="md" :color="text-bs-blue" :tag="h3" .mb-5}
@@ -85,7 +85,7 @@ Function as a Service has been used by businesses of all sizes to build innovati
 - **Lightweight applications:** FaaS is a great option for lightweight applications, where you need to quickly deploy and scale applications without the need for heavy infrastructure management. This can be especially useful for small startups or individual developers who need to focus on building their applications, rather than managing infrastructure.
 :::
 :::GlobalParagraph
-  [AWS Lambda](https://aws.amazon.com/de/lambda/){.bs-link-blue} is one of the most popular FaaS solutions available today. If you want to unlock the full potential of serverless computing, superluminar are the experts you need on your side. As an AWS Advanced Consulting Partner, they specialize in creating cutting-edge, cost-effective solutions, particularly with serverless computing including AWS Lambda at their core.
+  <a href="https://aws.amazon.com/de/lambda/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">AWS Lambda</a> is one of the most popular FaaS solutions available today. If you want to unlock the full potential of serverless computing, superluminar are the experts you need on your side. As an AWS Advanced Consulting Partner, they specialize in creating cutting-edge, cost-effective solutions, particularly with serverless computing including AWS Lambda at their core.
 :::
 
 :::GlobalTitle{:size="lg" .mb-5}
@@ -119,7 +119,7 @@ While Kubernetes has gained popularity as a robust container orchestration syste
 Use Cases for Kubernetes
 :::
 :::GlobalParagraph
-Kubernetes is particularly well-suited for managing complex and scalable applications. Its flexible architecture and resource management capabilities make it an ideal choice for [microservices architectures](/our-services/microservice-architecture-consulting/){.bs-link-blue}, where applications are composed of multiple small, independent services. Kubernetes enables efficient deployment, scaling, and monitoring (using additional tools like [prometheus](https://prometheus.io/){.bs-link-blue}) of these services, allowing organizations to build highly resilient and adaptable systems.
+Kubernetes is particularly well-suited for managing complex and scalable applications. Its flexible architecture and resource management capabilities make it an ideal choice for [microservices architectures](/our-services/microservice-architecture-consulting/){.bs-link-blue}, where applications are composed of multiple small, independent services. Kubernetes enables efficient deployment, scaling, and monitoring (using additional tools like <a href="https://prometheus.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">prometheus</a>) of these services, allowing organizations to build highly resilient and adaptable systems.
 :::
 :::GlobalParagraph
 Data-intensive applications, such as those involving big data processing or machine learning, can greatly benefit from Kubernetes. It allows organizations to leverage the power of distributed computing by efficiently distributing workloads across a cluster of machines. Kubernetes provides the necessary tools and abstractions to manage large-scale data processing pipelines, making it an attractive option for data-driven applications.
@@ -135,7 +135,7 @@ Comparing FaaS and Kubernetes
 Architecture and scalability
 :::
 :::GlobalParagraph
-When comparing Functions as a Service (FaaS) and Kubernetes, one of the key aspects to consider is their architectural differences. FaaS platforms, such as [AWS Lambda](https://aws.amazon.com/de/lambda/){.bs-link-blue} or [Azure](https://azure.microsoft.com/de-de){.bs-link-blue} Functions, are designed for event-driven, serverless computing. They execute individual functions in response to events, allowing for high scalability and resource efficiency. On the other hand, Kubernetes follows a container-based architecture, where applications are divided into smaller, isolated applications (containers) that can be scaled independently. Kubernetes offers robust scalability capabilities, allowing organizations to scale their applications both horizontally and vertically based on demand.
+When comparing Functions as a Service (FaaS) and Kubernetes, one of the key aspects to consider is their architectural differences. FaaS platforms, such as <a href="https://aws.amazon.com/de/lambda/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">AWS Lambda</a> or <a href="https://azure.microsoft.com/de-de" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Azure</a> Functions, are designed for event-driven, serverless computing. They execute individual functions in response to events, allowing for high scalability and resource efficiency. On the other hand, Kubernetes follows a container-based architecture, where applications are divided into smaller, isolated applications (containers) that can be scaled independently. Kubernetes offers robust scalability capabilities, allowing organizations to scale their applications both horizontally and vertically based on demand.
 :::
 
 :::GlobalTitle{:size="md" :color="text-bs-blue" :tag="h3" .mb-5}

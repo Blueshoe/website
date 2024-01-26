@@ -89,7 +89,7 @@ No vendor lock-in: a well set up Kubernetes implementation puts you in the posit
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation" :target="_blank"}
 ::
 :::
 
@@ -357,13 +357,13 @@ Test locally
 Once you have created the necessary manifests, it’s important to test them locally before deploying them to the cluster. This will ensure that everything works as expected before going live. To make this as easy as possible, we can provide you with perfectly fitted open source tools that help you abstract most of the complexity that comes with this. Check out:
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-<a href="https://getdeck.dev/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Getdeck</a>
+[https://getdeck.dev/](https://getdeck.dev/){.bs-link-blue :target="_blank"}
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Easily create Kubernetes environments. A simple CLI that helps you to easily provision reproducible K8s environments with all dependencies managed.
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-<a href="https://getdeck.dev/beiboot/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Getdeck Beiboot</a>
+[https://getdeck.dev/beiboot/](https://getdeck.dev/beiboot/){.bs-link-blue :target="_blank"}
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 A Kubernetes-in-Kubernetes solution that was born from the idea to provide Getdeck users a simple yet flexible solution to spin up hybrid cloud development infrastructure. This is useful for development workloads which grew too large to run on a development machine

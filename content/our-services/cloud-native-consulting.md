@@ -35,7 +35,7 @@ Blueshoe builds and optimizes your cloud native strategy so your teams and busin
 Goodbye, friction. Hello, cloud native transformation.
 ::::
 ::::GlobalParagraph{.mb-4}
-Without the right system in place, the cloud native development process can be [onerous and error-prone.](https://www.infoq.com/presentations/fail-cloud-native-migration/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+Without the right system in place, the cloud native development process can be <a href="https://www.infoq.com/presentations/fail-cloud-native-migration/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">onerous and error-prone.</a>
 ::::
 ::::GlobalParagraph{.mb-4}
 A cloud native model gives your teams more flexibility, resiliency, and scalability than legacy or hybrid models.
