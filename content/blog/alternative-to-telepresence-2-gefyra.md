@@ -17,7 +17,7 @@ productUpdates:
 topic:
   - Development
 ---
-There are a couple of different approaches to develop locally using Kubernetes. One very well-known tool for a few different scenarios ranging from local to remote Kubernetes application development is Telepresence. Although Telepresence 2 comes with great features, we have not been completely satisfied with the extent of supported use cases. So we decided to build our own solution. May we introduce: [Gefyra](https://gefyra.dev/){.bs-link-blue}.
+There are a couple of different approaches to develop locally using Kubernetes. One very well-known tool for a few different scenarios ranging from local to remote Kubernetes application development is Telepresence. Although Telepresence 2 comes with great features, we have not been completely satisfied with the extent of supported use cases. So we decided to build our own solution. May we introduce: [Gefyra](https://gefyra.dev/){.bs-link-blue :target="_blank"}.
 <!--more-->
 
 ![An alternative to Telepresence 2: Gefyra](/img/blogs/alternative-to-telepresence-2-gefyra.jpg){.object-cover .max-w-full .mb-5}
@@ -30,16 +30,16 @@ There are a couple of different approaches to develop locally using Kubernetes. 
 Introduction
 :::
 :::globalParagraph
-For local [Kubernetes development](https://unikube.io/blog/how-does-kubernetes-development-work/){.bs-link-blue} there are few possibilities to make writing code right within Kubernetes feasible. One of the simpler solutions with a limited feature set are host path mappings (such as the local-path-provisioner in [K3d](https://k3d.io/v5.4.1/){.bs-link-blue}) in Kubernetes. Among others, the biggest concern with that is the missing portability of that approach to remote Kubernetes development scenarios.
+For local <a href="https://unikube.io/blog/how-does-kubernetes-development-work/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes development</a> there are few possibilities to make writing code right within Kubernetes feasible. One of the simpler solutions with a limited feature set are host path mappings (such as the local-path-provisioner in <a href="https://k3d.io/v5.4.1/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">K3d</a>) in Kubernetes. Among others, the biggest concern with that is the missing portability of that approach to remote Kubernetes development scenarios.
 :::
 :::globalParagraph
-Hence, we started to use Telepresence (back in the days in version 1) in all of our development infrastructures. That empowered our teams to utilize the same tool regardless of their development setups: either locally or remotely running Kubernetes environments. The [Unikube CLI](https://cli.unikube.io/){.bs-link-blue} offered this functionality to their users by building on top of the free open source parts of [Telepresence 2](https://www.google.com/url?q=https://www.telepresence.io/docs/latest/reference/architecture/&sa=D&source=docs&ust=1648632856349606&usg=AOvVaw31APOl5v44M1FDpFE5inou){.bs-link-blue}.
+Hence, we started to use Telepresence (back in the days in version 1) in all of our development infrastructures. That empowered our teams to utilize the same tool regardless of their development setups: either locally or remotely running Kubernetes environments. The <a href="https://cli.unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Unikube CLI</a> offered this functionality to their users by building on top of the free open source parts of <a href="https://www.telepresence.io/docs/latest/reference/architecture/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Telepresence 2</a>.
 :::
 :::globalParagraph
 Unfortunately, we have always had troubles with Telepresence. We experienced quite some issues on different platforms and environments. That’s why we decided to create an alternative to Telepresence 2 and started the development of Gefyra.
 :::
 :::globalParagraph
-Today, [Gefyra](https://gefyra.dev/){.bs-link-blue} is part of the Unikube CLI and replaces Telepresence as the default development mechanism while having the same or even better experience. The following article will go into detail why we decided to start Gefyra and what the biggest differences between Telepresence and Gefyra are.
+Today, <a href="https://gefyra.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Gefyra</a> is part of the Unikube CLI and replaces Telepresence as the default development mechanism while having the same or even better experience. The following article will go into detail why we decided to start Gefyra and what the biggest differences between Telepresence and Gefyra are.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -49,7 +49,7 @@ Working with Telepresence
 Telepresence 2 is a very comprehensive tool to create a seamless Kubernetes-based development experience while having established equipment available. These include favorite IDEs (integrated development environments), debugging tools, code hot reloading, environment variables and so on. Using Telepresence comes with the great advantage of having developers work with Kubernetes from the beginning without leaving too far from the familiar surroundings.
 :::
 :::globalParagraph
-The makers of Telepresence 2 are addressing a new paradigm, new development workflow and development environment: it essentially means that Kubernetes is becoming part of the software it runs. And so the development workflow and tooling must be adapted, too. [This is concisely written down here](https://www.google.com/url?q=https://www.telepresence.io/docs/latest/concepts/devloop/&sa=D&source=docs&ust=1648632856348876&usg=AOvVaw1dKaSAnSn70yTHo6dQAFoE){.bs-link-blue}.
+The makers of Telepresence 2 are addressing a new paradigm, new development workflow and development environment: it essentially means that Kubernetes is becoming part of the software it runs. And so the development workflow and tooling must be adapted, too. <a href="https://www.telepresence.io/docs/latest/concepts/devloop/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">This is concisely written down here</a>.
 :::
 :::globalParagraph
 Additionally to the free part, Telepresence offers commercial only features in combination with the Ambassador Cloud, for example preview links. They allow sharing of development states even within a production(-near) environment with other teams.
@@ -99,7 +99,7 @@ Gefyra declares four relevant operations: *up, down, run, bridge*. Similar to Te
 In contrast to Telepresence, Gefyra does not modify the workload manifest in the cluster. In case something goes wrong, deleting the Pod will restore its original state.
 :::
 :::globalParagraph
-If you want to know more about Gefyra’s architecture, please head over to the documentation: https://gefyra.dev/architecture/
+If you want to know more about Gefyra’s architecture, please head over to the documentation: [https://gefyra.dev/architecture/](https://gefyra.dev/architecture/){.bs-link-blue :target="_blank"}
 :::
 :::globalParagraph
 The following table compares the approaches of Telepresence 2 and Gefyra side-by-side:
@@ -130,16 +130,16 @@ More editions of our podcast can be found here:
 Using Gefyra: an Overview
 :::
 :::globalParagraph
-If you want to use Gefyra then simply head over to the installation guide: https://gefyra.dev/installation/. There are installation candidates for Windows, Linux and MacOS with different installation methods. Once the executable is available you can run
+If you want to use Gefyra then simply head over to the installation guide: [https://gefyra.dev/installation/](https://gefyra.dev/installation/){.bs-link-blue :target="_blank"}. There are installation candidates for Windows, Linux and MacOS with different installation methods. Once the executable is available you can run
 :::
 :::globalParagraph
 Gefyra actions.
 :::
 :::globalParagraph
-But before you go on, please make sure you have a working *kubectl* connection set. If not, or you simply want to work with a local Kubernetes cluster, you can easily create one using *[k3d](https://k3d.io/){.bs-link-blue}*.
+But before you go on, please make sure you have a working *kubectl* connection set. If not, or you simply want to work with a local Kubernetes cluster, you can easily create one using *<a href="https://k3d.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">k3d</a>*.
 :::
 :::globalParagraph
-Also, when you tried Gefyra, we would really [appreciate feedback and have prepared a quick questionaire](https://forms.gle/5U6EPgkq3RzQyYcz9){.bs-link-blue}. This should not take you more than 3 minutes and really helps us.
+Also, when you tried Gefyra, we would really <a href="https://forms.gle/5U6EPgkq3RzQyYcz9" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">appreciate feedback and have prepared a quick questionnaire</a>. This should not take you more than 3 minutes and really helps us.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -196,7 +196,7 @@ Now, you are able to write code or make other changes and instantly see it inter
 To clean up everything you simply run:
 
 
-To find even more examples please check out [https://gefyra.dev](https://gefyra.dev){.bs-link-blue}.
+To find even more examples please check out <a href="https://gefyra.dev" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">https://gefyra.dev</a>.
 #lines
 - \[INFO] Removing running bridges
 - \[INFO] Uninstalling Operator
@@ -217,7 +217,7 @@ In this blog post, we introduced our Telepresence 2 alternative Gefyra. Although
 Gefyra in Unikube
 :::
 :::globalParagraph
-Gefyra will replace Telepresence 2 in the upcoming release of the Unikube CLI and become the new standard provider for the [switch operation](https://unikube.io/docs/guides/developing-with-unikube.html#switch-operation){.bs-link-blue}. This will significantly reduce the issues that our users are experiencing with Telepresence and improve the overall performance. Moreover, since we are now in control of the entire stack, the development team of Unikube will finally be able to help out with all problems related to this operation. We’re looking forward to receiving feedback.
+Gefyra will replace Telepresence 2 in the upcoming release of the Unikube CLI and become the new standard provider for the <a href="https://unikube.io/docs/guides/developing-with-unikube.html#switch-operation" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">switch operation</a>. This will significantly reduce the issues that our users are experiencing with Telepresence and improve the overall performance. Moreover, since we are now in control of the entire stack, the development team of Unikube will finally be able to help out with all problems related to this operation. We’re looking forward to receiving feedback.
 :::
 
 :::BlogRelatedPosts{:url='["/blog/performance-comparison-gke-vs-eks", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/evolution-of-application-development-to-cloud-native", "/blog/docker-desktop-and-kubernetes"]'}

@@ -222,30 +222,30 @@ To cut a long story short: Python/Django are a terrific basis for various differ
 <hr class='mb-5'>
 
 :::globalParagraph
-\[1][http://blog.codinghorror.com/the-php-singularity/](http://blog.codinghorror.com/the-php-singularity/){.bs-link-blue}<br>
+\[1][http://blog.codinghorror.com/the-php-singularity/](http://blog.codinghorror.com/the-php-singularity/){.bs-link-blue :target="_blank"}<br>
 
-\[2][http://php.net/manual/de/history.php.php](http://php.net/manual/de/history.php.php){.bs-link-blue}<br>
+\[2][http://php.net/manual/de/history.php.php](http://php.net/manual/de/history.php.php){.bs-link-blue :target="_blank"}<br>
 
-\[3][https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/#stance](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/#stance){.bs-link-blue}<br>
+\[3][https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/#stance](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/#stance){.bs-link-blue :target="_blank"}<br>
 
-\[4][https://www.python.org/dev/peps/pep-0008](https://www.python.org/dev/peps/pep-0008){.bs-link-blue}<br>
+\[4][https://www.python.org/dev/peps/pep-0008](https://www.python.org/dev/peps/pep-0008){.bs-link-blue :target="_blank"}<br>
 
-\[5][https://www.owasp.org/index.php/Top_10_2013-Top_10](https://www.owasp.org/index.php/Top_10_2013-Top_10){.bs-link-blue}<br>
+\[5][https://www.owasp.org/index.php/Top_10_2013-Top_10](https://www.owasp.org/index.php/Top_10_2013-Top_10){.bs-link-blue :target="_blank"}<br>
 
-\[6][https://www.djangoproject.com/](https://www.djangoproject.com/){.bs-link-blue}<br>
+\[6][https://www.djangoproject.com/](https://www.djangoproject.com/){.bs-link-blue :target="_blank"}<br>
 
-\[7][https://docs.djangoproject.com/en/stable/misc/design-philosophies/](https://docs.djangoproject.com/en/stable/misc/design-philosophies/){.bs-link-blue}<br>
+\[7][https://docs.djangoproject.com/en/stable/misc/design-philosophies/](https://docs.djangoproject.com/en/stable/misc/design-philosophies/){.bs-link-blue :target="_blank"}<br>
 
-\[8][http://highscalability.com/youtube-architecture](http://highscalability.com/youtube-architecture){.bs-link-blue}<br>
+\[8][http://highscalability.com/youtube-architecture](http://highscalability.com/youtube-architecture){.bs-link-blue :target="_blank"}<br>
 
-\[9][http://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html](http://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html){.bs-link-blue}<br>
+\[9][http://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html](http://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html){.bs-link-blue :target="_blank"}<br>
 
-\[10][http://www.tornadoweb.org/en/stable/](http://www.tornadoweb.org/en/stable/){.bs-link-blue}<br>
+\[10][http://www.tornadoweb.org/en/stable/](http://www.tornadoweb.org/en/stable/){.bs-link-blue :target="_blank"}<br>
 
-\[11][https://labs.spotify.com/2013/03/20/how-we-use-python-at-spotify/](https://labs.spotify.com/2013/03/20/how-we-use-python-at-spotify/){.bs-link-blue}<br>
+\[11][https://labs.spotify.com/2013/03/20/how-we-use-python-at-spotify/](https://labs.spotify.com/2013/03/20/how-we-use-python-at-spotify/){.bs-link-blue :target="_blank"}<br>
 
-\[12][http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances){.bs-link-blue}<br>
+\[12][http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances](http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances){.bs-link-blue :target="_blank"}<br>
 
-\[13][http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views](http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views){.bs-link-blue}<br>
+\[13][http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views](http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views){.bs-link-blue :target="_blank"}<br>
 :::
 

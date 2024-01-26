@@ -28,20 +28,20 @@ In this article, we will take a glance at Docker Desktop in 2023 and focus on ho
 Installation
 :::
 :::globalParagraph
-The [installation of Docker Desktop](https://www.docker.com/products/docker-desktop/){.bs-link-blue} is quite simple for all major platforms. You will find installation candidates for Apple’s new silicon and Intel-based chipsets, too. That’s convenient and will be easy for any developer that wants to start a journey with Container-based development.
+The <a href="https://www.docker.com/products/docker-desktop/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">installation of Docker Desktop</a> is quite simple for all major platforms. You will find installation candidates for Apple’s new silicon and Intel-based chipsets, too. That’s convenient and will be easy for any developer that wants to start a journey with Container-based development.
 :::
 :::globalParagraph
-However, as someone who works with Linux (specifically with Ubuntu), it bothers me a bit to download a >500 MiB install package from the browser to my machine. I usually want to add a software repository and with that automatically configure update strategies. If I wanted to update Docker Desktop (yes, Docker Desktop tells me in the UI) I have to load another installation package from the website and run the [updater accordingly](https://docs.docker.com/desktop/install/ubuntu/#upgrade-docker-desktop){.bs-link-blue}.
+However, as someone who works with Linux (specifically with Ubuntu), it bothers me a bit to download a >500 MiB install package from the browser to my machine. I usually want to add a software repository and with that automatically configure update strategies. If I wanted to update Docker Desktop (yes, Docker Desktop tells me in the UI) I have to load another installation package from the website and run the <a href="https://docs.docker.com/desktop/install/ubuntu/#upgrade-docker-desktop" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">updater accordingly</a>.
 :::
 :::globalParagraph
-At its core, the idea is simple: running a logical or "virtual" [Kubernetes](https://kubernetes.io/de/docs/concepts/overview/what-is-kubernetes/){.bs-link-blue} cluster within a physical or "host" Kubernetes cluster. This concept brings a new layer of flexibility, allowing developers to spin up isolated environments quickly without the overhead of managing multiple physical clusters. With this, developers can replicate production environments, experiment safely, and optimize applications for the Kubernetes ecosystem.
+At its core, the idea is simple: running a logical or "virtual" <a href="https://kubernetes.io/de/docs/concepts/overview/what-is-kubernetes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes</a> cluster within a physical or "host" Kubernetes cluster. This concept brings a new layer of flexibility, allowing developers to spin up isolated environments quickly without the overhead of managing multiple physical clusters. With this, developers can replicate production environments, experiment safely, and optimize applications for the Kubernetes ecosystem.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
 VM backend on all platforms needed
 :::
 :::globalParagraph
-Docker Desktop needs a virtual machine (VM) backend on all platforms, including Linux. That is required because software containers are a Linux-native technology and thus not directly supported on Windows and Mac. On Windows, you can either use the [WSL2 subsystem](https://learn.microsoft.com/en-us/windows/wsl/faq){.bs-link-blue} (which is a lightweight VM with a limited Hyper-V toolset to run the Linux kernel) or a Hyper-V backend. Depending on the Windows edition the [first or second option is recommended](https://docs.docker.com/desktop/install/windows-install/){.bs-link-blue}. On macOS, Docker Desktop runs with HyperKit, a toolkit for embedding hypervisor capabilities into an application. On Linux it uses [QEMU](https://www.qemu.org/){.bs-link-blue}.
+Docker Desktop needs a virtual machine (VM) backend on all platforms, including Linux. That is required because software containers are a Linux-native technology and thus not directly supported on Windows and Mac. On Windows, you can either use the <a href="https://learn.microsoft.com/en-us/windows/wsl/faq" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">WSL2 subsystem</a> (which is a lightweight VM with a limited Hyper-V toolset to run the Linux kernel) or a Hyper-V backend. Depending on the Windows edition the <a href="https://docs.docker.com/desktop/install/windows-install/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">first or second option is recommended</a>. On macOS, Docker Desktop runs with HyperKit, a toolkit for embedding hypervisor capabilities into an application. On Linux it uses <a href="https://www.qemu.org/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">QEMU</a>.
 :::
 :::globalParagraph
 The question of why Docker Desktop exactly needs a VM on Linux is answered here. I found the raised points relatable, although it means I do have to sacrifice performance.
@@ -86,10 +86,10 @@ All you additionally need is kubectl, the primary interface to any Kubernetes cl
 Setting up Docker Desktop Kubernetes
 :::
 :::globalParagraph
-Working with Kubernetes in Docker Desktop requires a rather powerful development machine. Aside from that requirement, you may face the limitation that there is only one Kubernetes version available: the one shipping with the installed Docker Desktop version. That may be a problem if you want to match the specific Kubernetes version of your production system (speaking about [dev/prod parity](https://12factor.net/dev-prod-parity){.bs-link-blue}).
+Working with Kubernetes in Docker Desktop requires a rather powerful development machine. Aside from that requirement, you may face the limitation that there is only one Kubernetes version available: the one shipping with the installed Docker Desktop version. That may be a problem if you want to match the specific Kubernetes version of your production system (speaking about <a href="https://12factor.net/dev-prod-parity" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">dev/prod parity</a>).
 :::
 :::globalParagraph
-[If you want to install a specific Kubernetes version check out this article](https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/){.bs-link-blue}. You could use minikube with the --kubernetes-version flag and the Docker driver to install any available Kubernetes version on Docker Desktop. That might be even faster regarding the boot-up time.
+[If you want to install a specific Kubernetes version check out this article](/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/){.bs-link-blue}. You could use minikube with the --kubernetes-version flag and the Docker driver to install any available Kubernetes version on Docker Desktop. That might be even faster regarding the boot-up time.
 :::
 :::globalParagraph
 The Kubernetes distribution coming with Docker Desktop is unopinionated. That’s an advantage if you want to work with a production close setup. However, the downside is that developers have to provide every building block by themselves. For example, there is no ingress controller available by default. Compared to k3d, it takes a few additional steps to make it available:
@@ -100,14 +100,14 @@ The Kubernetes distribution coming with Docker Desktop is unopinionated. That’
 Which ingress controller should be used?
 :::
 :::globalParagraph
-You can choose from a range of different ingress controllers for Kubernetes. The platform “learnk8s” maintains a very comprehensive spreadsheet that compares basically all Kubernetes ingress controllers: [https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238){.bs-link-blue}
+You can choose from a range of different ingress controllers for Kubernetes. The platform “learnk8s” maintains a very comprehensive spreadsheet that compares basically all Kubernetes ingress controllers: [https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238){.bs-link-blue :target="_blank"}
 :::
 
 ![kubernetes](/img/blogs/docker-desktop-and-kubernetes-2.jpg){.object-cover .w-full .mb-5}
 
 
 :::globalParagraph
-This should not be a very relevant decision made by developers though. If you still don’t know which ingress controller to use with Docker Desktop, chances are you can choose any of them. I’d personally recommend the [Ingress-Nginx controller](https://github.com/kubernetes/ingress-nginx){.bs-link-blue} which also happens to be an official Kubernetes project.
+This should not be a very relevant decision made by developers though. If you still don’t know which ingress controller to use with Docker Desktop, chances are you can choose any of them. I’d personally recommend the <a href="https://github.com/kubernetes/ingress-nginx" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ingress-Nginx controller</a> which also happens to be an official Kubernetes project.
 :::
 
 
@@ -181,7 +181,7 @@ Let’s confirm it working by applying some test workload and exposing it with a
 :::
 
 :::globalParagraph
-(This is the “hello-nginx” application, from our Kubernetes development tool [Gefyra](https://github.com/gefyrahq/gefyra/blob/main/testing/workloads/hello_dd.yaml){.bs-link-blue})
+(This is the “hello-nginx” application, from our Kubernetes development tool <a href="https://github.com/gefyrahq/gefyra/blob/main/testing/workloads/hello_dd.yaml" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Gefyra</a>)
 :::
 :::globalParagraph
 If you check the ingress objects with:
@@ -266,16 +266,16 @@ From here you have basically a few options to set up the development tooling.
 Running local container images in Kubernetes
 :::
 :::globalParagraph
-Kubernetes usually pulls images from a container registry, which means you have to push and pull the image we have built after every change. Docker Desktop makes this easy by using [dockershim](https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-removal-affects-you/){.bs-link-blue} to share the image cache between the Docker engine and Kubernetes.
+Kubernetes usually pulls images from a container registry, which means you have to push and pull the image we have built after every change. Docker Desktop makes this easy by using <a href="https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/check-if-dockershim-removal-affects-you/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">dockershim</a> to share the image cache between the Docker engine and Kubernetes.
 :::
 :::globalParagraph
-The dockershim is a component coming with Docker Desktop Kubernetes that translates between the Kubernetes [kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/){.bs-link-blue} and the Docker Engine.
+The dockershim is a component coming with Docker Desktop Kubernetes that translates between the Kubernetes <a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">kubelet</a> and the Docker Engine.
 :::
 :::globalParagraph
-This is a huge advantage for developers as they don’t have to push and pull their container images before they can run them in Docker Desktop Kubernetes. This feature is somewhat similar to what you can achieve [with k3d, minikube, and kind by importing the container image to their cluster nodes](https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/){.bs-link-blue}. Yet, with Docker Desktop you literally only need to build the container image as usual and don’t have to import it to a Kubernetes node. So that is even faster than what you get with other local Kubernetes solutions.
+This is a huge advantage for developers as they don’t have to push and pull their container images before they can run them in Docker Desktop Kubernetes. This feature is somewhat similar to what you can achieve <a href="https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">with k3d, minikube, and kind by importing the container image to their cluster nodes</a>. Yet, with Docker Desktop you literally only need to build the container image as usual and don’t have to import it to a Kubernetes node. So that is even faster than what you get with other local Kubernetes solutions.
 :::
 :::globalParagraph
-If you wanted to modify the output of the [“hello-nginx”](https://github.com/nginxinc/NGINX-Demos/tree/master/nginx-hello-nonroot){.bs-link-blue} application from above, then first take a look at the workload specification:
+If you wanted to modify the output of the <a href="https://github.com/nginxinc/NGINX-Demos/tree/master/nginx-hello-nonroot" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">“hello-nginx”</a> application from above, then first take a look at the workload specification:
 :::
 
 :::BlogCode{.mb-5}
@@ -351,17 +351,17 @@ If you don’t want to build the container image every time you make a code chan
 Blueshoe created Gefyra for exactly that use case. With it, you can simply docker run …, pardon me, I meant gefyra run … (it is almost similar) your container image without even forcing any Kubernetes pod to reload. That way, you can mount your current working tree into the container and activate the hot-reloading flag in your process (if available). You can easily set environment variables and best of all, expose that container on a dedicated local port to iterate even faster. The container will behave as it would run within a Kubernetes pod (including networking semantics), hence reaching all Kubernetes-based resources such as databases or other applications.
 :::
 :::globalParagraph
-This works with the command line application gefyra or alternatively, developers can take advantage of the [Gefyra Docker Desktop extension from the marketplace](https://hub.docker.com/extensions/gefyra/docker-desktop-extension){.bs-link-blue}.
+This works with the command line application gefyra or alternatively, developers can take advantage of the <a href="https://hub.docker.com/extensions/gefyra/docker-desktop-extension" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Gefyra Docker Desktop extension from the marketplace</a>.
 :::
 :::globalParagraph
-Check out Gefyra and our [getting started guide to use it with Docker Desktop Kubernetes](https://gefyra.dev/getting-started/docker-desktop-kubernetes-osx/){.bs-link-blue} or the [Docker Desktop extension](https://gefyra.dev/docker-desktop-extension/){.bs-link-blue}.
+Check out Gefyra and our <a href="https://gefyra.dev/getting-started/docker-desktop-kubernetes-osx/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">getting started guide to use it with Docker Desktop Kubernetes</a> or the <a href="https://gefyra.dev/docker-desktop-extension/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker Desktop extension</a>.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
 Closing Remarks
 :::
 :::globalParagraph
-Although Docker Desktop makes the development work with Kubernetes simple, there are still a few challenges. The resource requirements are overwhelming, and setting up a cluster that is close to production takes time and knowledge. [I created a discussion at Dockers idea board](https://github.com/docker/extension-ideas/discussions/152){.bs-link-blue} on GitHub to make this process simpler in the future. Maybe it’s picked up and will be realized.
+Although Docker Desktop makes the development work with Kubernetes simple, there are still a few challenges. The resource requirements are overwhelming, and setting up a cluster that is close to production takes time and knowledge.<a href="https://github.com/docker/extension-ideas/discussions/152" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">I created a discussion at Docker's idea board</a> on GitHub to make this process simpler in the future. Maybe it’s picked up and will be realized.
 :::
 :::globalParagraph
 There are a couple of other interesting Docker Desktop extensions already in the marketplace that can improve the development experience even further. Stay tuned for another article in which we want to present existing Kubernetes-based development extensions.
@@ -370,7 +370,7 @@ There are a couple of other interesting Docker Desktop extensions already in the
 In the long run, I actually don’t see local Kubernetes development as a sustainable option, though. Remote development environments are the future! Getdeck Beiboot will run all Kubernetes-based resources, and with tools like Gefyra, we enable developers to work in a real Kubernetes-based development environment with just a few containers running locally.
 :::
 :::globalParagraph
-If you want to know more about Kubernetes-based development [follow me on LinkedIn](https://www.linkedin.com/in/michael-schilonka/){.bs-link-blue} or drop us a line at Blueshoe.
+If you want to know more about Kubernetes-based development <a href="https://www.linkedin.com/in/michael-schilonka/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">follow me on LinkedIn</a> or drop us a line at Blueshoe.
 :::
 
 

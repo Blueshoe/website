@@ -27,17 +27,17 @@ We’ve had another think about how to make the running of Django applications m
 :::
 
 :::globalParagraph
-We’ve always been fans of **open source** and we use it in many of our projects. Amongst other things, we use the **Django framework** a lot and also make an effort to support open-source projects when working on maintenance and further development. On top of this, **Kubernetes** has also been a regular presence for some time now – which is why we’re increasingly striving to face the challenge of developing in a **Cloud Native** environment as much as possible. We’ve already written a few blog posts about this – check out [Cloud Native Kubernetes development](https://www.blueshoe.io/blog/local-kubernetes-development/){.bs-link-blue}, for example.
+We’ve always been fans of **open source** and we use it in many of our projects. Amongst other things, we use the **Django framework** a lot and also make an effort to support open-source projects when working on maintenance and further development. On top of this, **Kubernetes** has also been a regular presence for some time now – which is why we’re increasingly striving to face the challenge of developing in a **Cloud Native** environment as much as possible. We’ve already written a few blog posts about this – check out <a href="https://www.blueshoe.io/blog/local-kubernetes-development/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Cloud Native Kubernetes development</a>, for example.
 :::
 :::globalParagraph
-The logical consequence was to think about how to make the running of Django applications more Cloud Native. The result was **[Django-Hurricane](https://django-hurricane.io/){.bs-link-blue}** which we’d like to introduce in this blog post and will make available as an open-source tool.
+The logical consequence was to think about how to make the running of Django applications more Cloud Native. The result was **<a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django-Hurricane</a>** which we’d like to introduce in this blog post and will make available as an open-source tool.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
 "Classic" deployment
 :::
 :::globalParagraph
-First, let’s have a quick look at how Django is often run on a server or a VM. To do this, we usually use a stack with Nginx as a web server as well as uWSGI as an application server which runs the Django code. App servers like [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/){.bs-link-blue} have a **highly optimised** process model for this type of deployment, with many CPUs, several threads etc. With enough knowledge of the application and sufficient experience in the execution of Django applications, the application server can be configured in the most optimal way possible – also because there are typically enough options available.
+First, let’s have a quick look at how Django is often run on a server or a VM. To do this, we usually use a stack with Nginx as a web server as well as uWSGI as an application server which runs the Django code. App servers like <a href="https://uwsgi-docs.readthedocs.io/en/latest/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">uWSGI</a> have a **highly optimised** process model for this type of deployment, with many CPUs, several threads etc. With enough knowledge of the application and sufficient experience in the execution of Django applications, the application server can be configured in the most optimal way possible – also because there are typically enough options available.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -61,7 +61,7 @@ Django-Hurricane
 ![Django Hurricane](/img/blogs/django-development-for-kubernetes-2.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-That’s why we’ve developed **[Django Hurricane](https://django-hurricane.io/){.bs-link-blue}** which we are building on the [Tornado web server](https://github.com/tornadoweb/tornado){.bs-link-blue}. Hurricane can be run as a simple Django **management command** and can also be configured using **flags**. No further configuration files are required.
+That’s why we’ve developed **<a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django Hurricane</a>** which we are building on the <a href="https://github.com/tornadoweb/tornado" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Tornado web server</a>. Hurricane can be run as a simple Django **management command** and can also be configured using **flags**. No further configuration files are required.
 :::
 :::globalParagraph
 The installation can simply take place using *pip*:
@@ -156,7 +156,7 @@ Roadmap and further development
 ![Roadmap](/img/blogs/django-development-for-kubernetes-3.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-Even if Hurricane can already be used for production systems, the development is still in its **infancy**. We still have some **further features** in mind and the [to-do list in the GitHub Repository](https://github.com/Blueshoe/django-hurricane/){.bs-link-blue} has some remaining unticked boxes left. **Support** in the further development is always welcome, of course, just like in all open-source projects. Either way, we’ll keep the ball rolling and there’s surely going to be one or two blog posts in the future that deal with **[new Hurricane features](https://www.blueshoe.io/blog/new-features-django-hurricane/){.bs-link-blue}**, application scenarios and other related subjects.
+Even if Hurricane can already be used for production systems, the development is still in its **infancy**. We still have some **further features** in mind and the <a href="https://github.com/Blueshoe/django-hurricane/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">to-do list in the GitHub Repository</a> has some remaining unticked boxes left. **Support** in the further development is always welcome, of course, just like in all open-source projects. Either way, we’ll keep the ball rolling and there’s surely going to be one or two blog posts in the future that deal with **<a href="https://www.blueshoe.io/blog/new-features-django-hurricane/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">new Hurricane features</a>**, application scenarios and other related subjects.
 :::
 
 :::BlogRelatedPosts{:url='["/blog/python-executables-linux-macos-windows", "/blog/php-vs-python", "/blog/new-features-django-hurricane", "/blog/strategies-for-slim-docker-images", "/blog/local-kubernetes-development"]'}

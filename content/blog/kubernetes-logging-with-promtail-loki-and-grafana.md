@@ -40,7 +40,7 @@ Developed by Grafana Labs, ‘Loki is a horizontally scalable, highly available,
 Deck
 :::
 :::globalParagraph
-If you just want to take a quick look around, you can use Deck to set up this stack on your machine with one command. After [installing Deck](https://getdeck.dev/docs/deck/installation){.bs-link-blue}, you can run:
+If you just want to take a quick look around, you can use Deck to set up this stack on your machine with one command. After <a href="https://getdeck.dev/docs/deck/installation" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">installing Deck</a>, you can run:
 :::
 :::BlogCode{.mb-5}
 ```docker
@@ -55,10 +55,10 @@ Follow the instructions that show up after the installation process is complete 
 Setup
 :::
 :::globalParagraph
-In this article, we’ll focus on the Helm installation. Grafana Labs offers a bunch of [other installation methods](https://grafana.com/docs/loki/latest/installation/?pg=get&plcmt=selfmanaged-box2-cta1){.bs-link-blue}.
+In this article, we’ll focus on the Helm installation. Grafana Labs offers a bunch of <a href="https://grafana.com/docs/loki/latest/installation/?pg=get&plcmt=selfmanaged-box2-cta1" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">other installation methods</a>.
 :::
 :::globalParagraph
-In [Grafana’s Helm chart repository](https://github.com/grafana/helm-charts){.bs-link-blue} , you’ll find 5 charts related to Loki. *Loki-canary* allows you to install canary builds of Loki to your cluster. *Loki-distributed* installs the relevant components as microservices, giving you the usual advantages of microservices, like scalability, resilience etc. while allowing you to configure them independently of one another. *Loki-simple-scalable* is similar - however, some of the components are always on, taking away a number of the configuration possibilities. The chart named *Loki* will deploy a single StatefulSet to your cluster containing everything you need to run Loki. The last of the bunch is *loki-stack*, which deploys the same StatefulSet as the Loki chart in addition to Promtail, Grafana and some others. For our use case, we chose the Loki chart. In addition to Loki itself, our cluster also runs Promtail and Grafana. In the following section, we’ll show you how to install this log aggregation stack to your cluster!
+In <a href="https://github.com/grafana/helm-charts" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Grafana’s Helm chart repository</a>, you’ll find 5 charts related to Loki. *Loki-canary* allows you to install canary builds of Loki to your cluster. *Loki-distributed* installs the relevant components as microservices, giving you the usual advantages of microservices, like scalability, resilience etc. while allowing you to configure them independently of one another. *Loki-simple-scalable* is similar - however, some of the components are always on, taking away a number of the configuration possibilities. The chart named *Loki* will deploy a single StatefulSet to your cluster containing everything you need to run Loki. The last of the bunch is *loki-stack*, which deploys the same StatefulSet as the Loki chart in addition to Promtail, Grafana and some others. For our use case, we chose the Loki chart. In addition to Loki itself, our cluster also runs Promtail and Grafana. In the following section, we’ll show you how to install this log aggregation stack to your cluster!
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -169,7 +169,7 @@ config:
 ```
 :::
 :::globalParagraph
-Under ‘lokiAddress’, we specify that we want Promtail to send logs to ‘http://loki:3100/loki/api/v1/push’. Note that if Loki is not running in the same namespace as Promtail, you’ll have to use the full service address notation like so: ‘<service-name>.<namespace>.svc.cluster.local:<service-port>'. Promtail runs as a DaemonSet and has the following Tolerations in order to run on master and worker nodes.
+Under ‘lokiAddress’, we specify that we want Promtail to send logs to ‘[http://loki:3100/loki/api/v1/push](http://loki:3100/loki/api/v1/push){.bs-link-blue :target="_blank"}’. Note that if Loki is not running in the same namespace as Promtail, you’ll have to use the full service address notation like so: ‘<service-name>.<namespace>.svc.cluster.local:<service-port>'. Promtail runs as a DaemonSet and has the following Tolerations in order to run on master and worker nodes.
 :::
 :::BlogCode{.mb-5}
 ```json
@@ -299,7 +299,7 @@ More editions of our podcast can be found here:
 Usage
 :::
 :::globalParagraph
-Connecting your newly created Loki instance to Grafana is simple. All you need to do is create a data source in Grafana. Under Configuration → Data Sources, click ‘Add data source’ and pick Loki from the list. You’ll be presented with this settings panel, where all you need to configure, in order to analyze your logs with Grafana, is the URL of your Loki instance. Since Grafana is running in the same namespace as Loki, specifying ‘http://loki:3001’ is sufficient.
+Connecting your newly created Loki instance to Grafana is simple. All you need to do is create a data source in Grafana. Under Configuration → Data Sources, click ‘Add data source’ and pick Loki from the list. You’ll be presented with this settings panel, where all you need to configure, in order to analyze your logs with Grafana, is the URL of your Loki instance. Since Grafana is running in the same namespace as Loki, specifying ‘[http://loki:3001](http://loki:3001){.bs-link-blue :target="_blank"}’ is sufficient.
 :::
 ![Usage](/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana-1.jpg){.object-cover .max-w-full .mb-5}
 :::globalParagraph
@@ -316,7 +316,7 @@ LogQL
 With LogQL, you can easily run queries against your logs. You can either run log queries to get the contents of actual log lines, or you can use metric queries to calculate values based on results.
 :::
 :::globalParagraph
-LogQL is [well-documented](https://grafana.com/docs/loki/latest/logql/){.bs-link-blue}, so we won’t go into detail about every feature, but instead give you some queries you can run against your logs right now in order to get started. Go to the Explore panel in Grafana (${grafanaUrl}/explore), pick your Loki data source in the dropdown and check out what Loki collected for you so far.
+LogQL is <a href="https://grafana.com/docs/loki/latest/logql/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">well-documented</a>, so we won’t go into detail about every feature, but instead give you some queries you can run against your logs right now in order to get started. Go to the Explore panel in Grafana (${grafanaUrl}/explore), pick your Loki data source in the dropdown and check out what Loki collected for you so far.
 :::
 
 :::globalTitle{:size="md" .mb-5}
@@ -350,7 +350,7 @@ sum(count_over_time({namespace="loki"} |= "error" [$__range]))
 Average response time in a namespace, by path and app
 :::
 :::globalParagraph
-This query is as complex as it will get in this article. It collects logs from a namespace before applying multiple neat features LogQL offers, like pattern matching, regular expressions, line formatting and filtering. In the end, you’ll receive the average response time of apps running in the given namespace within the selected interval. You’ll effectively be filtering out the log lines that are generated by Kubernetes liveness and readiness probes, grouped by app label and path. Note: this exact query will work for [Django Hurricane’s](https://django-hurricane.io/){.bs-link-blue} log format, but you can tweak it by changing the pattern to match your log format.
+This query is as complex as it will get in this article. It collects logs from a namespace before applying multiple neat features LogQL offers, like pattern matching, regular expressions, line formatting and filtering. In the end, you’ll receive the average response time of apps running in the given namespace within the selected interval. You’ll effectively be filtering out the log lines that are generated by Kubernetes liveness and readiness probes, grouped by app label and path. Note: this exact query will work for <a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django Hurricane’s</a> log format, but you can tweak it by changing the pattern to match your log format.
 :::
 :::BlogCode{.mb-5}
 ```
@@ -365,10 +365,10 @@ Other Features/Further Reading/Caveats
 If you don’t want to store your logs in your cluster, Loki allows you to send whatever it collects to S3-compatible storage solutions like Amazon S3 or MinIO. The log analysing/viewing process stays the same.
 :::
 :::globalParagraph
-File system storage does not work when using the distributed chart, as it would require multiple Pods to do read/write operations to the same PV. This is documented in the [chart repo](https://github.com/kubernetes-sigs/kind){.bs-link-blue}, but it’s sadly not mentioned in Loki’s official documentation.
+File system storage does not work when using the distributed chart, as it would require multiple Pods to do read/write operations to the same PV. This is documented in the <a href="https://github.com/kubernetes-sigs/kind" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">chart repo</a>, but it’s sadly not mentioned in Loki’s official documentation.
 :::
 :::globalParagraph
-[LogCLI](https://grafana.com/docs/loki/latest/tools/logcli/){.bs-link-blue} is Loki’s CLI tool, allowing you to easily browse your logs from the comfort of your terminal. This requires you to expose your Loki instance via http or use port forwarding from your cluster to your machine.
+<a href="https://grafana.com/docs/loki/latest/tools/logcli/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">LogCLI</a> is Loki’s CLI tool, allowing you to easily browse your logs from the comfort of your terminal. This requires you to expose your Loki instance via http or use port forwarding from your cluster to your machine.
 :::
 
 
