@@ -19,7 +19,7 @@ productUpdates: []
 topic: []
 ---
 :::globalParagraph
-[Kubernetes](https://kubernetes.io/){.bs-link-blue} is a complex technology that keeps challenging even the most experienced developers. That’s why numerous providers have developed tools designed to simplify the work with Kubernetes.
+<a href="https://kubernetes.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes</a> is a complex technology that keeps challenging even the most experienced developers. That’s why numerous providers have developed tools designed to simplify the work with Kubernetes.
 :::
 :::globalParagraph
 In this article, we’ll have a closer look at the technological toolbox available to us. We’ll outline the scope of application for various tools and provide examples of the solutions they offer.
@@ -34,7 +34,7 @@ In this article, we’ll have a closer look at the technological toolbox availab
 :::
 
 :::globalParagraph
-[Kubernetes](https://kubernetes.io/){.bs-link-blue} is an open source technology for managing containerized software and helps developers keep individual applications highly available to end users.
+<a href="https://kubernetes.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes</a> is an open source technology for managing containerized software and helps developers keep individual applications highly available to end users.
 :::
 :::globalParagraph
 The Kubernetes technology can be used by developers completely independently - to manage "just" software. An application can then generally be run independently on the cluster. However, if this application is not only to be executed in the cluster, but is also to be accessible "from outside", e.g. by an end user, a technology such as Ingress is required in addition to Kubernetes. This is already the start of building an entire platform.
@@ -66,7 +66,7 @@ As previously explained in our article about [Kubernetes for non-developers](/bl
 Who are the providers?
 :::
 :::globalParagraph
-The most well-known providers for managed Kubernetes clusters are [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service){.bs-link-blue}, [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine){.bs-link-blue} and [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/){.bs-link-blue}.
+The most well-known providers for managed Kubernetes clusters are <a href="https://azure.microsoft.com/en-us/products/kubernetes-service" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Azure Kubernetes Service (AKS)</a>, <a href="https://cloud.google.com/kubernetes-engine" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Google Kubernetes Engine (GKE)</a> and <a href="https://aws.amazon.com/eks/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Amazon Elastic Kubernetes Service (EKS)</a>.
 :::
 :::globalParagraph
 All providers supply the user with a user interface as well as additional services for the work with Kubernetes. Whether individual services are already included in the basic packages or whether they’ll have to be purchased as part of licences very much depends on the respective provider.
@@ -125,7 +125,7 @@ Here is an article about [managed vs. unmanaged Kubernetes](/blog/managed-vs-unm
 What does it do?
 :::
 :::globalParagraph
-[Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/){.bs-link-blue} is a web-based user interface. As part of Kubernetes, this user interface lets you deploy containerised software on a cluster, for example, or manage its resources. This allows you to have an overview of all applications and services that run in a cluster. It also enables you to modify individual Kubernetes resources like Jobs, deployments etc.
+<a href="https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes Dashboard</a> is a web-based user interface. As part of Kubernetes, this user interface lets you deploy containerised software on a cluster, for example, or manage its resources. This allows you to have an overview of all applications and services that run in a cluster. It also enables you to modify individual Kubernetes resources like Jobs, deployments etc.
 :::
 :::globalParagraph
 It should be noted, though, that Kubernetes Dashboard isn’t installed as the default user interface in a cluster – you’ll specifically have to select it.
@@ -154,7 +154,7 @@ While we should imagine a cluster as an autonomous, self-contained entity, it do
 That’s where the user interface comes in: it can display the packaged information to the cluster and allows developers to communicate with the cluster. However, most developers prefer to work with so-called command line tools: information can be retrieved without any major graphic processing or relayed straight to the cluster.
 :::
 :::globalParagraph
-Imagine command line tools like integrated development environments during software development: different tools each have a different range of functions and also focus on various different areas of application. You can find some examples in this [article about integrated development environments.](https://en.wikipedia.org/wiki/Integrated_development_environment){.bs-link-blue} And along the same lines, there are also different command line tools that developers can use for their work with a Kubernetes cluster, if they prefer to do so.
+Imagine command line tools like integrated development environments during software development: different tools each have a different range of functions and also focus on various different areas of application. You can find some examples in this <a href="https://en.wikipedia.org/wiki/Integrated_development_environment" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">article about integrated development environments.</a> And along the same lines, there are also different command line tools that developers can use for their work with a Kubernetes cluster, if they prefer to do so.
 :::
 
 :::globalTitle{:size="sm" :tag="h4" .mb-5}
@@ -174,7 +174,7 @@ Let’s use a car as an analogy: imagine Kubernetes contains the concept of the 
 What does it do?
 :::
 :::globalParagraph
-‘Classic’ applications tend to be designed using a monolithic architecture. ‘Modern’ cloud-native application architectures, on the other hand, are all about individual microservices. In this case, the application can only develop via the intertwining and interaction of several microservices. Individual services are packaged in containers which are compiled in individual pods. These pods communicate with one another and exchange information. Check out our blog to find out more about the [difference between monoliths and microservices.](blog/kubernetes-explained-for-non-developers/#monolith-vs-microservices){.bs-link-blue}
+‘Classic’ applications tend to be designed using a monolithic architecture. ‘Modern’ cloud-native application architectures, on the other hand, are all about individual microservices. In this case, the application can only develop via the intertwining and interaction of several microservices. Individual services are packaged in containers which are compiled in individual pods. These pods communicate with one another and exchange information. Check out our blog to find out more about the [difference between monoliths and microservices.](/blog/kubernetes-explained-for-non-developers/){.bs-link-blue}
 :::
 :::globalParagraph
 The communication between individual pods (which contain the containerised code) takes place within a Kubernetes cluster and is defined by the developers. In addition to this, the developers can also use a so-called service mesh which allows for the communication between the pods to be specified even further.
@@ -196,7 +196,7 @@ What tools are out there?
 Examples of tools that provide the service mesh technology are Istio, Linkerd and Cilium.
 :::
 :::globalParagraph
-The tools all offer a different range of possible usages. Linkerd, for example, has so-called ‘sidecar proxies’ which enable the set-up of encrypted communication between the pods inside the cluster. While Istio does not offer this function, it does have some benefits compared with Linkerd: it’s less complex, has a leaner architecture and does not require any code changes in the Kubernetes application itself. Which tool is the best choice will ultimately have to be checked and evaluated by the developers. Check out online articles like this [list by DevOpsCube](https://devopscube.com/service-mesh-tools/){.bs-link-blue} that dive deeper into the individual tools.
+The tools all offer a different range of possible usages. Linkerd, for example, has so-called ‘sidecar proxies’ which enable the set-up of encrypted communication between the pods inside the cluster. While Istio does not offer this function, it does have some benefits compared with Linkerd: it’s less complex, has a leaner architecture and does not require any code changes in the Kubernetes application itself. Which tool is the best choice will ultimately have to be checked and evaluated by the developers. Check out online articles like this <a href="https://devopscube.com/service-mesh-tools/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">list by DevOpsCube</a> that dive deeper into the individual tools.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5}
@@ -206,7 +206,7 @@ The tools all offer a different range of possible usages. Linkerd, for example, 
 What does it do?
 :::
 :::globalParagraph
-[‘Ingress traffic’](https://kubernetes.io/docs/concepts/services-networking/ingress/){.bs-link-blue} refers to the data traffic that originates outside of a computer network and is directed at this network. With regard to a cluster, this means that a request from outside a cluster is directed at this cluster, i.e. a user calls up a website or service which is run in a cluster. The technology or resource ‘Ingress’ makes HTTP and HTTPS requests from outside the cluster available for services within the cluster.
+<a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">‘Ingress traffic’</a> refers to the data traffic that originates outside of a computer network and is directed at this network. With regard to a cluster, this means that a request from outside a cluster is directed at this cluster, i.e. a user calls up a website or service which is run in a cluster. The technology or resource ‘Ingress’ makes HTTP and HTTPS requests from outside the cluster available for services within the cluster.
 :::
 :::globalParagraph
 Similar to the technical concept of Kubernetes, the technology ‘Ingress’ also is an abstract technical blueprint. What exactly the implementation of this technical blueprint looks like, also depends on the supplier. To use the car analogy again: it’s up to the individual car manufacturer to decide whether the motor should be a combustion engine or an electric engine.
@@ -222,13 +222,13 @@ But Ingress controllers are not only relevant with respect to the Kubernetes clu
 **What tools are out there?**
 :::
 :::globalParagraph
-There is a whole range of available [Ingress controllers.](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/){.bs-link-blue} Some of the most well-known ones that are often used in combination with Kubernetes clusters are [Nginx](https://www.nginx.com/){.bs-link-blue} and [Traefik.](https://doc.traefik.io/traefik/){.bs-link-blue}
+There is a whole range of available <a href="https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ingress controllers.</a> Some of the most well-known ones that are often used in combination with Kubernetes clusters are <a href="https://www.nginx.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Nginx</a> and <a href="https://doc.traefik.io/traefik/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Traefik.</a>
 :::
 :::globalParagraph
 Both have various benefits and drawbacks, depending on how they’re used.
 :::
 :::globalParagraph
-The decision of which Ingress controller to choose should not be underestimated and needs to be based on a thorough evaluation by specialised developers. This unfortunately exceeds the scope of this article. We can recommend these two articles about [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/){.bs-link-blue} and [Ingress controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/){.bs-link-blue} from the Kubernetes website, however, to help you continue your research.
+The decision of which Ingress controller to choose should not be underestimated and needs to be based on a thorough evaluation by specialised developers. This unfortunately exceeds the scope of this article. We can recommend these two articles about <a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ingress</a> and <a href="https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ingress controllers</a> from the Kubernetes website, however, to help you continue your research.
 :::
 
 ![technology_in_cluster](/img/blogs/technology-in-cluster.jpg){.object-cover .max-w-full .mb-6}
@@ -243,16 +243,16 @@ The decision of which Ingress controller to choose should not be underestimated 
 Container Images
 :::
 :::globalParagraph
-Kubernetes is a technology for the orchestration of containerised software. Head to our blog article [‘Kubernetes explained for non-developers’](/blog/kubernetes-explained-for-non-developers/#back-to-the-roots-container){.bs-link-blue} to find out more about this subject. Unless you have containerised software, it’s pretty pointless to use Kubernetes – because ultimately, Kubernetes can only work with containerised software.
+Kubernetes is a technology for the orchestration of containerised software. Head to our blog article [‘Kubernetes explained for non-developers’](/blog/kubernetes-explained-for-non-developers){.bs-link-blue} to find out more about this subject. Unless you have containerised software, it’s pretty pointless to use Kubernetes – because ultimately, Kubernetes can only work with containerised software.
 :::
 :::globalParagraph
-After a code for an application has been written by a developer, a so-called [‘container image’](https://kubernetes.io/docs/concepts/containers/images/){.bs-link-blue} is created based on this code. In Kubernetes, the respective container image is then referenced later on. These container images are either managed in an autonomous container registry outside of the cluster or directly in the cluster itself. This referenced container image will technically only become an independent container once it’s run in Kubernetes.
+After a code for an application has been written by a developer, a so-called <a href="https://kubernetes.io/docs/concepts/containers/images/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">‘container image’</a> is created based on this code. In Kubernetes, the respective container image is then referenced later on. These container images are either managed in an autonomous container registry outside of the cluster or directly in the cluster itself. This referenced container image will technically only become an independent container once it’s run in Kubernetes.
 :::
 :::globalParagraph
 A container image is a read-only template of an application’s code, including all necessary information that is relevant for the running of the code. For example, configuration data, environment variables, libraries etc. So you could imagine a container image as an unmodifiable digital image of the code. The benefit of container images is the fact that they can be duplicated and used by several different developers simultaneously. This makes container images the ideal resource as they can be split in a cluster. It allows application code to be run on several pods within a cluster, for example, which also means you can scale it.
 :::
 :::globalParagraph
-Another benefit of using container images is the fact that the image already contains the configuration for the container that will later be created. Unlike the running of software code on your own server, the containers already receive all the required configuration via the information from the images. All containers that are generated based on the images later on are subsequently all configured in the same way. If software code is run on individual servers, the configuration has to be carried out individually for every single server. A time-consuming process that is highly prone to error. You can find more information about this subject in this [article about Docker](https://aws.amazon.com/docker/?nc1=h_ls){.bs-link-blue} and in this [article about Docker images.](https://www.computerweekly.com/de/definition/Docker-Image){.bs-link-blue}
+Another benefit of using container images is the fact that the image already contains the configuration for the container that will later be created. Unlike the running of software code on your own server, the containers already receive all the required configuration via the information from the images. All containers that are generated based on the images later on are subsequently all configured in the same way. If software code is run on individual servers, the configuration has to be carried out individually for every single server. A time-consuming process that is highly prone to error. You can find more information about this subject in this <a href="https://aws.amazon.com/docker/?nc1=h_ls" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">article about Docker</a> and in this <a href="https://www.computerweekly.com/de/definition/Docker-Image" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">article about Docker images.</a>
 :::
 
 :::globalTitle{:size="sm" :tag="h4" .mb-5}
@@ -265,10 +265,10 @@ The most well-known provider of tools that allow you to create a container image
 Docker specifically is a visualised operating system for containers and behaves similarly to a virtual machine (VM): a VM visualises server hardware, while containers virtualise a server’s operating system.
 :::
 :::globalParagraph
-Docker is currently the market leader for this service. However, do check out [Docker in comparison with other providers](https://www.ionos.de/digitalguide/server/knowhow/docker-alternativen-im-ueberblick/){.bs-link-blue} along with their pros and cons before making your decision. Which tool is ultimately selected to implement this technology, mostly depends on the technical requirements and the respective developer’s preferences. For example, are they working with Windows, Linux or Mac?
+Docker is currently the market leader for this service. However, do check out <a href="https://www.ionos.de/digitalguide/server/knowhow/docker-alternativen-im-ueberblick/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker in comparison with other providers</a> along with their pros and cons before making your decision. Which tool is ultimately selected to implement this technology, mostly depends on the technical requirements and the respective developer’s preferences. For example, are they working with Windows, Linux or Mac?
 :::
 :::globalParagraph
-To manage container images, you can use [quay.io](https://quay.io/){.bs-link-blue}, for example. Or check out these [alternatives to quay.io](https://stackshare.io/quay-io/alternatives){.bs-link-blue} to compare the different tools – we’d particularly like to point out [Harbor](https://goharbor.io/){.bs-link-blue}. While quay.io is a tool that provides a container registry outside of the cluster, Harbor can be installed directly in the cluster. This means that the management of images is effectively carried out directly in the cluster, too. The benefit? This way, no additional external service outside of the cluster will be necessary anymore. Whatever option is the best choice is still a decision each individual developer team has to make. It’ll depend on the individual requirements of the software that is to be created.
+To manage container images, you can use <a href="https://quay.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">quay.io</a>, for example. Or check out these <a href="https://stackshare.io/quay-io/alternatives" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">alternatives to quay.io</a> to compare the different tools – we’d particularly like to point out <a href="https://goharbor.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Harbor</a>. While quay.io is a tool that provides a container registry outside of the cluster, Harbor can be installed directly in the cluster. This means that the management of images is effectively carried out directly in the cluster, too. The benefit? This way, no additional external service outside of the cluster will be necessary anymore. Whatever option is the best choice is still a decision each individual developer team has to make. It’ll depend on the individual requirements of the software that is to be created.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5}
@@ -300,7 +300,7 @@ The most well-known tool that is installed outside a cluster in order to create 
 In so-called Helm charts, a number of things are defined: they specify the dependencies between individual applications within the cluster, which Kubernetes resources are required and whatever else is necessary in order to provide and run container applications.
 :::
 :::globalParagraph
-A Helm chart can be used in the cluster as many times as you need in order to implement any number of application instances and thereby to easily scale the system. You can find more relevant information on the subject in this [article about Helm charts.](https://circleci.com/blog/what-is-helm/){.bs-link-blue}
+A Helm chart can be used in the cluster as many times as you need in order to implement any number of application instances and thereby to easily scale the system. You can find more relevant information on the subject in this <a href="https://circleci.com/blog/what-is-helm/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">article about Helm charts.</a>
 :::
 :::globalParagraph
 Helm charts can also be shared with other people. This means they are the central instance for a one-off definition of the application and can subsequently be managed by many different people with minimal effort.
@@ -332,7 +332,7 @@ Tools for local development
 Examples of tools that offer this technology are minikube, kind and K3s.
 :::
 :::globalParagraph
-You can find a good overview of the different scope of each tool and their possible application [here.](https://opensource.com/article/20/11/run-kubernetes-locally){.bs-link-blue}
+You can find a good overview of the different scope of each tool and their possible application <a href="https://opensource.com/article/20/11/run-kubernetes-locally" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">here.</a>
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5}
@@ -367,7 +367,7 @@ What tools are available for bridging?
 One of the most well-known tools for bridging is ‘Telepresence’.
 :::
 :::globalParagraph
-For this purpose, Blueshoe has also developed their own tool called [‘Gefyra’](https://gefyra.dev/){.bs-link-blue}. While Gefyra isn’t quite as comprehensive as Telepresence in terms of its functionalities, it is considerably more convenient for developers when creating a bridge. The reason: it focuses on the actual usage. If you want to find out more about this, you can find a detailed [comparison of Gefyra and Telepresence](/blog/alternative-to-telepresence-2-gefyra/){.bs-link-blue} in our blog.
+For this purpose, Blueshoe has also developed their own tool called <a href="https://gefyra.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">‘Gefyra’</a>. While Gefyra isn’t quite as comprehensive as Telepresence in terms of its functionalities, it is considerably more convenient for developers when creating a bridge. The reason: it focuses on the actual usage. If you want to find out more about this, you can find a detailed [comparison of Gefyra and Telepresence](/blog/alternative-to-telepresence-2-gefyra/){.bs-link-blue} in our blog.
 :::
 
 ![bridge](/img/blogs/bridge.jpg){.object-cover .max-w-full .mb-6}
@@ -391,7 +391,7 @@ It also makes sense to ‘prefill’ the local development cluster, meaning it�
 So effectively, we have tools that allow for clusters to be created on the local development environment of individual developers. These tools ensure that all developers have the same configuration at their disposal. One example of this is minikube (see above).
 :::
 :::globalParagraph
-Other tools allow the developers to edit existing code in the local development cluster and to then ‘try’ this code in the cluster before deployment. Examples of such tools are ‘Telepresence’ and [‘Gefyra’](https://gefyra.dev/){.bs-link-blue} (see above).
+Other tools allow the developers to edit existing code in the local development cluster and to then ‘try’ this code in the cluster before deployment. Examples of such tools are ‘Telepresence’ and <a href="https://gefyra.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">‘Gefyra’</a> (see above).
 :::
 :::globalParagraph
 And then there are tools introduced in the following section which allow you to provision local clusters with data and/or third-party systems that are as close to the live system as possible.
@@ -401,7 +401,7 @@ And then there are tools introduced in the following section which allow you to 
 What tools are out there?
 :::
 :::globalParagraph
-Here’s another Blueshoe original: we have developed a tool called [‘Getdeck’](https://getdeck.dev/){.bs-link-blue} which enables the fast and simple provision of virtual Kubernetes clusters to developers. With [Getdeck's Shelf feature](https://getdeck.dev/docs/selfhosted/shelf/){.bs-link-blue} you can prepare fully configured virtual clusters that have all configurations of your production system available and can simply be picked of the shelf and used by developer. Want to find out more? Then head to the [Getdeck website.](https://getdeck.dev/){.bs-link-blue} We strongly believe in our tool and use it in our work on a daily basis. Feel free to book an appointment with us and we will be more than happy to tell you more about Getdeck.
+Here’s another Blueshoe original: we have developed a tool called <a href="https://getdeck.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">‘Getdeck’</a> which enables the fast and simple provision of virtual Kubernetes clusters to developers. With <a href="https://getdeck.dev/docs/selfhosted/shelf/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Getdeck's Shelf feature</a> you can prepare fully configured virtual clusters that have all configurations of your production system available and can simply be picked of the shelf and used by developer. Want to find out more? Then head to the <a href="https://getdeck.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Getdeck website.</a> We strongly believe in our tool and use it in our work on a daily basis. Feel free to book an appointment with us and we will be more than happy to tell you more about Getdeck.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5}
@@ -435,7 +435,7 @@ A solution for this issue is the CI/CD method. The acronyms stand for:
 Automation process for developers
 :::
 :::globalParagraph
-Individual developers’ code changes are regularly merged, which is particularly beneficial since it allows for a significantly earlier detection of incompatibilities. More on the subject can be found in this [article about CIs and CDs.](https://www.redhat.com/en/topics/devops/what-is-ci-cd?cicd=32h281b){.bs-link-blue}
+Individual developers’ code changes are regularly merged, which is particularly beneficial since it allows for a significantly earlier detection of incompatibilities. More on the subject can be found in this <a href="https://www.redhat.com/en/topics/devops/what-is-ci-cd?cicd=32h281b" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">article about CIs and CDs.</a>
 :::
 
 <hr>
@@ -465,7 +465,7 @@ There are now special tools that make the CD process available specifically to s
 The Argo CD tool
 :::
 :::globalParagraph
-At Blueshoe, we use the tool Argo CD. Argo CD is a Kubernetes controller that monitors a running application at all times. It constantly compares the live status of a code with a certain desired status, as specified in a Git depository (the new software code can be included here, too). Argo CD can then automatically rectify any deviations or visualise the deviations for the developers so that they can quickly be rectified manually. If you want to find out more about this subject, head over to the [Argo CD website.](https://argo-cd.readthedocs.io/en/stable/){.bs-link-blue}
+At Blueshoe, we use the tool Argo CD. Argo CD is a Kubernetes controller that monitors a running application at all times. It constantly compares the live status of a code with a certain desired status, as specified in a Git depository (the new software code can be included here, too). Argo CD can then automatically rectify any deviations or visualise the deviations for the developers so that they can quickly be rectified manually. If you want to find out more about this subject, head over to the <a href="https://argo-cd.readthedocs.io/en/stable/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Argo CD website.</a>
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5}
@@ -482,20 +482,20 @@ Even small projects require certain data that have to remain secret and should o
 What tools are out there?
 :::
 :::globalParagraph
-The [Secrets plugin for Helm](https://github.com/jkroepke/helm-secrets){.bs-link-blue} encrypts values in the Helm yaml data locally thanks to a key (Mozilla SOPS, for example) that doesn’t live in the repository and is made available to the operator by other means. Only the encrypted secrets are then versioned. When using the charts, the plugin decrypts these values and thereby delivers the secret data to the cluster.
+The <a href="https://github.com/jkroepke/helm-secrets" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Secrets plugin for Helm</a> encrypts values in the Helm yaml data locally thanks to a key (Mozilla SOPS, for example) that doesn’t live in the repository and is made available to the operator by other means. Only the encrypted secrets are then versioned. When using the charts, the plugin decrypts these values and thereby delivers the secret data to the cluster.
 :::
 :::globalParagraph
-[Bitnami Sealed Secrets](https://bitnami.com/stack/sealed-secrets){.bs-link-blue} acts in a similar way but encrypts the secret data within the cluster and generates its own objects, the type being SealedSecrets. These can be versioned and, when the resources are being used, they can be decrypted by an operator and turned into ‘real’ Kubernetes secrets.
+<a href="https://bitnami.com/stack/sealed-secrets" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Bitnami Sealed Secrets</a> acts in a similar way but encrypts the secret data within the cluster and generates its own objects, the type being SealedSecrets. These can be versioned and, when the resources are being used, they can be decrypted by an operator and turned into ‘real’ Kubernetes secrets.
 :::
 :::globalParagraph
-Examples of other tools or technologies that can be used solo or in combination with the previously mentioned tools are [HashiCorp Vault,](https://www.vaultproject.io/){.bs-link-blue} [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/#product-overview){.bs-link-blue} and [AWS Secrets Manager.](https://aws.amazon.com/secrets-manager/){.bs-link-blue}
+Examples of other tools or technologies that can be used solo or in combination with the previously mentioned tools are <a href="https://www.vaultproject.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">HashiCorp Vault,</a> <a href="https://azure.microsoft.com/en-us/products/key-vault/#product-overview" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Azure Key Vault</a> and <a href="https://aws.amazon.com/secrets-manager/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">AWS Secrets Manager.</a>
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5}
 3.8 Technologies for monitoring, logging and metrics collection
 :::
 :::globalParagraph
-In a system with many different elements, you need to stay on top of things. To ensure this, it makes sense to gather all logs and other data that provide information about each individual component’s status in one central place and to structure this data in a clear manner. Examples of tools that are used in this context are [**Prometheus**](https://prometheus.io/){.bs-link-blue}, [**Open Telemetry**](https://opentelemetry.io/){.bs-link-blue}, [**Grafana**](https://grafana.com/){.bs-link-blue} and [**Logstash.**](https://www.elastic.co/logstash/){.bs-link-blue}
+In a system with many different elements, you need to stay on top of things. To ensure this, it makes sense to gather all logs and other data that provide information about each individual component’s status in one central place and to structure this data in a clear manner. Examples of tools that are used in this context are **<a href="https://prometheus.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Prometheus</a>**, **<a href="https://opentelemetry.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Open Telemetry</a>**, **<a href="https://grafana.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Grafana</a>** and **<a href="https://www.elastic.co/logstash/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Logstash</a>**.
 :::
 
 ![technology_ausserhalb-_luster](/img/blogs/technology-ausserhalb-cluster.jpg){.object-cover .max-w-full .mb-6}
@@ -504,13 +504,13 @@ In a system with many different elements, you need to stay on top of things. To 
 4 Cloud-native development
 :::
 :::globalParagraph
-Cloud-native development describes a software development approach that focuses on designing applications that are ready to be used in the cloud right from the start [(Gitlab)](https://about.gitlab.com/topics/cloud-native/){.bs-link-blue}. It therefore makes sense for the actual development to take place in the future cloud environment as much as possible.
+Cloud-native development describes a software development approach that focuses on designing applications that are ready to be used in the cloud right from the start <a href="https://about.gitlab.com/topics/cloud-native/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">(Gitlab)</a>. It therefore makes sense for the actual development to take place in the future cloud environment as much as possible.
 :::
 :::globalParagraph
-With our in-house Blueshoe tech stack consisting of [Gefyra](https://gefyra.dev/){.bs-link-blue} and [Getdeck](https://getdeck.dev/){.bs-link-blue}, we have made a signification contribution to making this process more efficient and effective for entire development teams.
+With our in-house Blueshoe tech stack consisting of <a href="https://gefyra.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Gefyra</a> and <a href="https://getdeck.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Getdeck</a>, we have made a signification contribution to making this process more efficient and effective for entire development teams.
 :::
 :::globalParagraph
-With that being said, we cannot ignore that there are competitors to our own products that are definitely worth mentioning, such as [Okteto](https://www.okteto.com/){.bs-link-blue} and [Skaffold.](https://skaffold.dev/){.bs-link-blue}
+With that being said, we cannot ignore that there are competitors to our own products that are definitely worth mentioning, such as <a href="https://www.okteto.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Okteto</a> and <a href="https://skaffold.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Skaffold.</a>
 :::
 :::globalParagraph
 And still, we think our products are the real deal. They offer exactly what development teams require, have been thoroughly tested and keep getting integrated into other tools: Gefyra, for example, has now become its own Docker Desktop extension.

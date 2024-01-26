@@ -21,12 +21,12 @@ Robert tried out Telepresence’s Docker Desktop extension and drew comparisons 
 
 
 :::GlobalParagraph
-For the past couple of years Blueshoe has been working intensely on an alternative solution to Telepresence - called [Gefyra](/products/){.bs-link-blue}. Since the good folks of [Ambassador](https://www.getambassador.io/){.bs-link-blue} Labs have released Telepresence v2, which was a massive rewrite, fixed some issues, added new features as well as a Docker Desktop Extension.
+For the past couple of years Blueshoe has been working intensely on an alternative solution to Telepresence - called [Gefyra](/products/){.bs-link-blue}. Since the good folks of <a href="https://www.getambassador.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ambassador</a> Labs have released Telepresence v2, which was a massive rewrite, fixed some issues, added new features as well as a Docker Desktop Extension.
 :::
 
 :::GlobalPodcastSection{:videoId="Sxf0onWzXyo" :bg="bg-white" :videoPosition="left" .mb-6}
 ::::GlobalParagraph
-Since then Gefyra also came a long way, we released Gefyra v1 as well as a Docker Desktop Extension. This blog post is a summary of the [exploration session video](https://www.youtube.com/watch?v=Sxf0onWzXyo){.bs-link-blue} I did in the beginning of May 2023.
+Since then Gefyra also came a long way, we released Gefyra v1 as well as a Docker Desktop Extension. This blog post is a summary of the <a href="https://www.youtube.com/watch?v=Sxf0onWzXyo" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">exploration session video</a> I did in the beginning of May 2023.
 ::::
 :::
 
@@ -79,7 +79,7 @@ Make sure to tick “Install Telepresence on this cluster” since it - same as 
 After a short loading time everything is available. In the video I am trying out the demo case and struggle a bit, since there have been other components installed in the cluster. I leave it out here for the sake of the reader 🙂
 :::
 :::GlobalParagraph
-On the following screen Telepresence displays the “services” for a given namespace. In case you watch the video - I was a bit confused since my service did not show up here. Turns out Telepresence does not allow to intercept [pods](https://kubernetes.io/de/docs/concepts/workloads/pods/){.bs-link-blue} - rather it wants to work with [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/){.bs-link-blue}.
+On the following screen Telepresence displays the “services” for a given namespace. In case you watch the video - I was a bit confused since my service did not show up here. Turns out Telepresence does not allow to intercept <a href="https://kubernetes.io/de/docs/concepts/workloads/pods/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">pods</a> - rather it wants to work with <a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">deployments</a>.
 :::
 
 ![telepresence](/img/blogs/telepresence-6.jpg){.object-cover .max-w-full .mb-6}
@@ -127,7 +127,7 @@ After stopping the intercept we are redirected to the home screen:
 ![telepresence](/img/blogs/telepresence-11.jpg){.object-cover .max-w-full .mb-6}
 
 :::GlobalParagraph
-One thing I also noticed during the exploration of this Docker Desktop Extension was that it is not open source (8 May 2023). All of Gefyra’s components and extensions are fully [open source](https://github.com/gefyrahq/){.bs-link-blue} - this way developers can actually check what happens on their machine and in their clusters.
+One thing I also noticed during the exploration of this Docker Desktop Extension was that it is not open source (8 May 2023). All of Gefyra’s components and extensions are fully <a href="https://github.com/gefyrahq/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">open source</a> - this way developers can actually check what happens on their machine and in their clusters.
 :::
 
 :::GlobalTitle{:size="lg" .mb-5}

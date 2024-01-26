@@ -34,7 +34,7 @@ Kubernetes overview
 For this blog post, we will assume that you have a [basic understanding of Kubernetes](/blog/local-kubernetes-development/){.bs-link-blue} (K8s). However, we do still want to have a quick look at how Kubernetes actually works and in particular, how it interacts:
 :::
 :::globalParagraph
-At the bottom of the graphic, there are technically no changes; just ‘like before’, virtual servers are still being used to run the code. **Kubernetes acts as a kind of abstraction layer above the virtual servers – in this case, they’re called nodes and they are combined to a cluster** (see diagram below by [Kubernetes.io](https://kubernetes.io/docs/concepts/overview/){.bs-link-blue}). This means that as a developer and operations specialist, I don’t really need to worry about which of the nodes my application ends up running on. I only need to teach Kubernetes the framework of my application in the form of manifest files and subsequently, K8s will ensure that a suitable node is used.
+At the bottom of the graphic, there are technically no changes; just ‘like before’, virtual servers are still being used to run the code. **Kubernetes acts as a kind of abstraction layer above the virtual servers – in this case, they’re called nodes and they are combined to a cluster** (see diagram below by <a href="https://kubernetes.io/docs/concepts/overview/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes.io</a>). This means that as a developer and operations specialist, I don’t really need to worry about which of the nodes my application ends up running on. I only need to teach Kubernetes the framework of my application in the form of manifest files and subsequently, K8s will ensure that a suitable node is used.
 :::
 
 ![bildschirmfoto](/img/blogs/bildschirmfoto_1.jpg){.object-cover .w-full .mb-5}
@@ -99,10 +99,10 @@ In contrast, managed Kubernetes describes **a Kubernetes installation which is m
 **The degree of the management can vary.** In many cases, there’s ‘only’ the option to have a Kubernetes infrastructure provided – meaning, to have a cluster created as well as having the number and specification of the worker nodes configured. That’s already a lot more convenient than unmanaged Kubernetes. Usually, a web interface or a command line interface is provided for the interaction. On top of this, further worker nodes can be added, or the Kubernetes version can be conveniently updated.
 :::
 :::globalParagraph
-Right at the top of the ‘managed’ range, you’ll find the managed Kubernetes offer by [Canonical](https://ubuntu.com/kubernetes/managed){.bs-link-blue}, among others. With this set-up, the entire Kubernetes infrastructure is installed and maintained by the provider. With such an offer, the operational part is reduced to the creation of the Kubernetes manifests or Helm charts.
+Right at the top of the ‘managed’ range, you’ll find the managed Kubernetes offer by <a href="https://ubuntu.com/kubernetes/managed" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Canonical</a>, among others. With this set-up, the entire Kubernetes infrastructure is installed and maintained by the provider. With such an offer, the operational part is reduced to the creation of the Kubernetes manifests or Helm charts.
 :::
 :::globalParagraph
-In the upper range of the ‘managed’ services, Google has [GKE Autopilot](https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot){.bs-link-blue} on offer. With this one, the nodes are automatically scaled according to the resources required by the application. Here I can also limit my responsibilities to the creation of the Kubernetes manifests or Helm charts as a developer of operations specialist. We will be having a closer look at the GKE Autopilot in a future blog post.
+In the upper range of the ‘managed’ services, Google has <a href="https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GKE Autopilot</a> on offer. With this one, the nodes are automatically scaled according to the resources required by the application. Here I can also limit my responsibilities to the creation of the Kubernetes manifests or Helm charts as a developer of operations specialist. We will be having a closer look at the GKE Autopilot in a future blog post.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -115,7 +115,7 @@ Summary
 **If there are explicit requirements of on-premise hosting** or valid reasons to run Kubernetes in your own data centre, then there’s **no getting around unmanaged Kubernetes.**
 :::
 :::globalParagraph
-Good to know: When it comes to [Unikube](https://unikube.io/){.bs-link-blue}, the issue of ‘managed vs. unmanaged Kubernetes’ isn’t even a problem in the first place. Whether in its entirety or only partially managed, unmanaged or even just simulated locally with Unikube, it doesn’t matter how the K8s cluster was installed.
+Good to know: When it comes to <a href="https://unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Unikube</a>, the issue of ‘managed vs. unmanaged Kubernetes’ isn’t even a problem in the first place. Whether in its entirety or only partially managed, unmanaged or even just simulated locally with Unikube, it doesn’t matter how the K8s cluster was installed.
 :::
 
 

@@ -59,12 +59,12 @@ Minikube vs. k3d
 Minikube
 :::
 :::globalParagraph
-[minikube](https://minikube.sigs.k8s.io/){.bs-link-blue} is one of the most mature solutions on the market. When our team at Blueshoe started adopting Kubernetes in 2017, minikube was already available. The first version 0.1.0 was released on May 30, 2016, shortly after the [initial commit on Github](https://github.com/kubernetes/minikube){.bs-link-blue}, on Apr 16, 2016.
+<a href="https://minikube.sigs.k8s.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube</a> is one of the most mature solutions on the market. When our team at Blueshoe started adopting Kubernetes in 2017, minikube was already available. The first version 0.1.0 was released on May 30, 2016, shortly after the <a href="https://github.com/kubernetes/minikube" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">initial commit on Github</a>, on Apr 16, 2016.
 :::
 ![minikube](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-1.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-minikube was started by a Kubernetes SIG, a special interest group, that recognized the need for local Kubernetes environments. Today, the [SIG is very close to the Kubernetes development team](https://minikube.sigs.k8s.io/community/){.bs-link-blue} and hence up-to-speed with the official Kubernetes code base.
+minikube was started by a Kubernetes SIG, a special interest group, that recognized the need for local Kubernetes environments. Today, the <a href="https://minikube.sigs.k8s.io/community/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">SIG is very close to the Kubernetes development team</a> and hence up-to-speed with the official Kubernetes code base.
 :::
 
 :::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" .mb-6}
@@ -82,7 +82,7 @@ Michael and Robert talk about how we got from docker compose to truly developing
 Jack of all platform-trades
 :::
 :::globalParagraph
-A very important difference between minikube and all other contestants is that it can deploy Kubernetes clusters [with one of the multiple drivers](https://minikube.sigs.k8s.io/docs/drivers/){.bs-link-blue}. These drivers implement the way you run the Kubernetes cluster on a development machine: either based in a virtual machine (for example Hyper-V, KVM2, QEMU, or others) or in a container runtime (for example with Docker or Podman). When looking at minikube with the evaluation aspects from above, one can spot differences in the details between these drivers. Yet, in general, minikube abstracts the driver's implementation for the developer.
+A very important difference between minikube and all other contestants is that it can deploy Kubernetes clusters <a href="https://minikube.sigs.k8s.io/docs/drivers/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">with one of the multiple drivers</a>. These drivers implement the way you run the Kubernetes cluster on a development machine: either based in a virtual machine (for example Hyper-V, KVM2, QEMU, or others) or in a container runtime (for example with Docker or Podman). When looking at minikube with the evaluation aspects from above, one can spot differences in the details between these drivers. Yet, in general, minikube abstracts the driver's implementation for the developer.
 :::
 :::globalParagraph
 Hence, it’s more than likely that minikube can run Kubernetes for virtually any platform a developer is working on. Coming with a unified interface, minikube is a very platform-agnostic solution. If your team is working with Windows, macOS, Linux, or even more exotic platforms, it’s a great benefit to have all members use the same tool. They will be able to share knowledge more easily, provide scripts for automation and write documentation that covers all platforms equally.
@@ -158,7 +158,7 @@ Minikube Profiles: multiple logical clusters on one dev machine
 When we started adopting Kubernetes, we were looking for a solution that allowed us to manage multiple logical clusters on one development machine. In 2016/2017, minikube did not put much focus on that particular feature. It was only possible to spin up one cluster per machine, and there was only a single-node cluster configuration possible. That is why we at Blueshoe decided to work with k3d. However, minikube caught up with this important developer feature and does now support multiple so-called minikube profiles.
 :::
 :::globalParagraph
-minikube profiles are logical clusters that can be started and stopped separately from each other. It allows a developer to have more than one Kubernetes-based development environment. Just think of multiple disjunct projects that require different Kubernetes API versions, features, or simply different workloads running in them. [You can run](https://minikube.sigs.k8s.io/docs/commands/start/){.bs-link-blue}:
+minikube profiles are logical clusters that can be started and stopped separately from each other. It allows a developer to have more than one Kubernetes-based development environment. Just think of multiple disjunct projects that require different Kubernetes API versions, features, or simply different workloads running in them. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">You can run</a>:
 :::
 
 :::BlogCode{.mb-5}
@@ -174,25 +174,25 @@ and you will get a blank new cluster with a fresh profile that can exist along w
 k3d
 :::
 :::globalParagraph
-k3d is more limited when it comes to deploying it on a development machine. From the very beginning, k3d only supported a local container runtime for running the Kubernetes cluster. Yet, as I mentioned before, it was always possible to manage multiple separate clusters for development on one host. That was a real killer feature, especially for Blueshoe, as we are running multiple different Kubernetes projects for several clients. Especially with our maintenance work, it is a must to have an up-to-head (don’t worry, I created that term) development environment, as well as a [close-to-production stable environment](https://12factor.net/dev-prod-parity){.bs-link-blue} at the same time. As a developer, I need to provide bug fixes in no time and drive the development of new features.
+k3d is more limited when it comes to deploying it on a development machine. From the very beginning, k3d only supported a local container runtime for running the Kubernetes cluster. Yet, as I mentioned before, it was always possible to manage multiple separate clusters for development on one host. That was a real killer feature, especially for Blueshoe, as we are running multiple different Kubernetes projects for several clients. Especially with our maintenance work, it is a must to have an up-to-head (don’t worry, I created that term) development environment, as well as a <a href="https://12factor.net/dev-prod-parity" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">close-to-production stable environment</a> at the same time. As a developer, I need to provide bug fixes in no time and drive the development of new features.
 :::
 ![k3d](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-2.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-k3d is based on k3s, a lightweight Kubernetes solution that is developed by Rancher. However, k3d is not deeply affiliated with k3s and is driven by a [community of developers](https://k3d.io/v5.4.7/#what-is-k3d){.bs-link-blue}.
+k3d is based on k3s, a lightweight Kubernetes solution that is developed by Rancher. However, k3d is not deeply affiliated with k3s and is driven by a <a href="https://k3d.io/v5.4.7/#what-is-k3d" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">community of developers</a>.
 :::
 :::globalParagraph
-The characteristic of k3s is that it replaces some of the Kubernetes default components, such as [etcd](https://etcd.io/){.bs-link-blue}, with less scalable and less resource-intensive alternatives (e.g. SQLite). In addition, the whole system is compiled into one very small binary executable (less than 40 MiB) which makes it very low on storage requirements, too. The base Kubernetes system k3s was originally developed for IoT and edge computing environments. I’d say, that makes it perfect for development environments, too, as these little resource requirements are a perfect fit. We will see the comparison of the resource consumption later in this article.
+The characteristic of k3s is that it replaces some of the Kubernetes default components, such as <a href="https://etcd.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">etcd</a>, with less scalable and less resource-intensive alternatives (e.g. SQLite). In addition, the whole system is compiled into one very small binary executable (less than 40 MiB) which makes it very low on storage requirements, too. The base Kubernetes system k3s was originally developed for IoT and edge computing environments. I’d say, that makes it perfect for development environments, too, as these little resource requirements are a perfect fit. We will see the comparison of the resource consumption later in this article.
 :::
 :::globalParagraph
-Since k3d is just a wrapper for k3s, it can focus on the developer’s experience. It comes with [very good documentation](https://k3d.io/v5.4.7/usage/commands/k3d/){.bs-link-blue}, just like minikube, that also contains tutorials for certain use case scenarios. For example, you can find a development workflow example using [Tilt](https://tilt.dev/){.bs-link-blue} and a build-push-test cycle using k3d’s [container image-sharing](https://k3d.io/v5.4.7/usage/registries/#using-a-local-registry){.bs-link-blue} capability.
+Since k3d is just a wrapper for k3s, it can focus on the developer’s experience. It comes with <a href="https://k3d.io/v5.4.7/usage/commands/k3d/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">very good documentation</a>, just like minikube, that also contains tutorials for certain use case scenarios. For example, you can find a development workflow example using <a href="https://tilt.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Tilt</a> and a build-push-test cycle using k3d’s <a href="https://k3d.io/v5.4.7/usage/registries/#using-a-local-registry" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">container image-sharing</a> capability.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5 .mt-8}
 Good for teams: Sharing k3d configurations
 :::
 :::globalParagraph
-One great advantage that k3d provides (which minikube misses at this point) is that k3d provides a [cluster configuration file](https://k3d.io/v5.4.7/usage/configfile/#using-config-files){.bs-link-blue} (as of version 4.0.0). It allows development teams to persist the configuration of a k3d cluster to a local YAML file that can be shared across the team. This file contains the configuration for almost all parameters that make up a cluster, for example, the number of cluster nodes, the Kubernetes version, the locally mapped ports, registries, features, and many more. That file makes it very easy to spin up the same cluster configuration across the team without having the developer follow along with a readme or a script to set up their local Kubernetes cluster. You can run k3d cluster create --config mycluster1.yaml and everything will be provisioned as specified. In my eyes, that is much more simple than what you can currently do with minikube.
+One great advantage that k3d provides (which minikube misses at this point) is that k3d provides a <a href="https://k3d.io/v5.4.7/usage/configfile/#using-config-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">cluster configuration file</a> (as of version 4.0.0). It allows development teams to persist the configuration of a k3d cluster to a local YAML file that can be shared across the team. This file contains the configuration for almost all parameters that make up a cluster, for example, the number of cluster nodes, the Kubernetes version, the locally mapped ports, registries, features, and many more. That file makes it very easy to spin up the same cluster configuration across the team without having the developer follow along with a readme or a script to set up their local Kubernetes cluster. You can run k3d cluster create --config mycluster1.yaml and everything will be provisioned as specified. In my eyes, that is much more simple than what you can currently do with minikube.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5 .mt-8}
@@ -209,14 +209,14 @@ Less complexity, fewer CLI commands
 As k3d does not provide the complexity of minikube, the CLI is much less comprehensive, yet straightforward. I’d say, for developers working with the CLI, this is a plus. Especially when using the k3d configuration file, I can spare most of the typing on command line interfaces and reduce the surface of the CLI to the few required commands: starting, stopping, and deleting a cluster.
 :::
 :::globalParagraph
-I would suspect that there are only a few features missing in k3d, as they are not supported in k3s, but for 95% of the development work, it should be totally sufficient. Even the [snapshot-controller](https://github.com/k3s-io/k3s/pull/6459){.bs-link-blue} was recently added to k3s.
+I would suspect that there are only a few features missing in k3d, as they are not supported in k3s, but for 95% of the development work, it should be totally sufficient. Even the <a href="https://github.com/k3s-io/k3s/pull/6459" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">snapshot-controller</a> was recently added to k3s.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
 Minikube vs. kind
 :::
 :::globalParagraph
-Kind is another project driven by a [Kubernetes SIG](https://kind.sigs.k8s.io/){.bs-link-blue}. At this point, I couldn’t find out why it is still maintained (I found a reason, but read on). Kind is an acronym for “Kubernetes in Docker'' and was born from the idea to run Kubernetes on a container runtime (instead of a virtual machine). However, nowadays, minikube also prefers to use Docker as a deployment option, so there is no difference between minikube and kind anymore regarding this important point. However, they put up a neat page in their documentation explaining kind’s [principles and target use cases](https://kind.sigs.k8s.io/docs/design/principles/){.bs-link-blue}. I’d say it all boils down to automation.
+Kind is another project driven by a <a href="https://kind.sigs.k8s.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes SIG</a>. At this point, I couldn’t find out why it is still maintained (I found a reason, but read on). Kind is an acronym for “Kubernetes in Docker'' and was born from the idea to run Kubernetes on a container runtime (instead of a virtual machine). However, nowadays, minikube also prefers to use Docker as a deployment option, so there is no difference between minikube and kind anymore regarding this important point. However, they put up a neat page in their documentation explaining kind’s <a href="https://kind.sigs.k8s.io/docs/design/principles/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">principles and target use cases</a>. I’d say it all boils down to automation.
 :::
 ![minikube vs. kind](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-3.jpg){.object-cover .max-w-full .mb-5}
 
@@ -224,7 +224,7 @@ Kind is another project driven by a [Kubernetes SIG](https://kind.sigs.k8s.io/){
 Config files and K8s features
 :::
 :::globalParagraph
-Just like k3d, kind also provides the possibility to use [configuration files](https://kind.sigs.k8s.io/docs/user/configuration/#a-note-on-cli-parameters-and-configuration-files){.bs-link-blue}. Similar to k3d, you can run...
+Just like k3d, kind also provides the possibility to use <a href="https://kind.sigs.k8s.io/docs/user/configuration/#a-note-on-cli-parameters-and-configuration-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">configuration files</a>. Similar to k3d, you can run...
 :::
 :::BlogCode{.mb-5}
 ```json
@@ -243,13 +243,13 @@ Kind does also provide feature gates to enable experimental Kubernetes features 
 Podman? Rootless? Kind!
 :::
 :::globalParagraph
-Compared to minikube where running on Podman is considered experimental, kind is one leap ahead and provides solid Podman support. The project team even invested some serious effort in running kind in [rootless](https://kind.sigs.k8s.io/docs/user/rootless/){.bs-link-blue} mode, too. For whom this could be important, kind is currently the only solution. Yet, it comes with several limitations, of course.
+Compared to minikube where running on Podman is considered experimental, kind is one leap ahead and provides solid Podman support. The project team even invested some serious effort in running kind in <a href="https://kind.sigs.k8s.io/docs/user/rootless/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">rootless</a> mode, too. For whom this could be important, kind is currently the only solution. Yet, it comes with several limitations, of course.
 :::
 :::globalParagraph
 Kind comes with a less complex CLI comparing it to minikube. The command line interface also renounces the emojis which can be a benefit. But that is a matter of taste.
 :::
 :::globalParagraph
-Comparing the front page of both products, minikube claims to be “[...] [focusing on helping application developers and new Kubernetes users](https://minikube.sigs.k8s.io/docs/){.bs-link-blue}.” whereas kind “[was primarily designed for testing Kubernetes itself, but may be used for local development or CI](https://kind.sigs.k8s.io/){.bs-link-blue}”. I think this gives a certain foreshadowing of what it is all about.
+Comparing the front page of both products, minikube claims to be “[...] <a href="https://minikube.sigs.k8s.io/docs/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">focusing on helping application developers and new Kubernetes users</a>.” whereas kind “<a href="https://kind.sigs.k8s.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">was primarily designed for testing Kubernetes itself, but may be used for local development or CI</a>”. I think this gives a certain foreshadowing of what it is all about.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
@@ -369,13 +369,13 @@ All tools are currently available as CLI (command line interface) only. That’s
 minikube
 :::
 :::globalParagraph
-minikube comes with a CLI that employs a lot of emojis. That’s a very individual preference, but I find them a bit annoying. However, [they can be disabled](https://github.com/kubernetes/minikube/issues/5024){.bs-link-blue}.
+minikube comes with a CLI that employs a lot of emojis. That’s a very individual preference, but I find them a bit annoying. However, <a href="https://github.com/kubernetes/minikube/issues/5024" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">they can be disabled</a>.
 :::
 :::globalParagraph
 The installation is very simple, you can get it via brew, script, or download it as binary and put it manually to your path.
 :::
 :::globalParagraph
-minikube makes it very easy and swift to create a new cluster. It’s just one command with two words: *minikube start*. That’s simple enough. How would you think to pass configuration options? Right! Directly as an argument to the start operation. One very important configuration is the Kubernetes API version. It doesn’t matter which version of minikube you have installed on your local machine, you can [always select a different Kubernetes API version](https://kubernetes.io/releases/){.bs-link-blue} than the default. And that’s very simple and intuitive. Your production cluster runs on version 1.25.5, then you want to run:
+minikube makes it very easy and swift to create a new cluster. It’s just one command with two words: *minikube start*. That’s simple enough. How would you think to pass configuration options? Right! Directly as an argument to the start operation. One very important configuration is the Kubernetes API version. It doesn’t matter which version of minikube you have installed on your local machine, you can <a href="https://kubernetes.io/releases/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">always select a different Kubernetes API version</a> than the default. And that’s very simple and intuitive. Your production cluster runs on version 1.25.5, then you want to run:
 :::
 :::BlogCode{.mb-5}
 ```json
@@ -532,7 +532,7 @@ Mounting local code
 minikube and k3d provide the capability to mount code from the developer’s machine directly into the running Kubernetes node.
 :::
 :::globalParagraph
-With k3d this is possible with the [local path provisioner](https://docs.k3s.io/storage){.bs-link-blue} of k3s. A developer can create a [PersistentVolumeClaim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/){.bs-link-blue} that points to a path on the host system. Subsequently, this PVC can be mounted into a container instance and used in the container process. This will allow you to either run a container process with the current code (restarting the container once the code changed) or start the container process with *hot reloading capabilities*. Of course, this is highly specific to a framework or process that is being run and has nothing to do with Kubernetes. However, this only works at the cluster creation time like so:
+With k3d this is possible with the <a href="https://docs.k3s.io/storage" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">local path provisioner</a> of k3s. A developer can create a <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PersistentVolumeClaim</a> that points to a path on the host system. Subsequently, this PVC can be mounted into a container instance and used in the container process. This will allow you to either run a container process with the current code (restarting the container once the code changed) or start the container process with *hot reloading capabilities*. Of course, this is highly specific to a framework or process that is being run and has nothing to do with Kubernetes. However, this only works at the cluster creation time like so:
 :::
 
 :::BlogCode{.mb-5}
@@ -542,10 +542,10 @@ k3d cluster create my-cluster --volume /my/home/go/src/github.com/nginx:/data
 :::
 
 :::globalParagraph
-Adding volumes after the cluster has been created and is running is [still an open issue](https://github.com/k3d-io/k3d/issues/566){.bs-link-blue}.
+Adding volumes after the cluster has been created and is running is <a href="https://github.com/k3d-io/k3d/issues/566" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">still an open issue</a>.
 :::
 :::globalParagraph
-With the [minikube mount](https://minikube.sigs.k8s.io/docs/handbook/mount/){.bs-link-blue} command, exactly the same is possible. You can even mount storage volumes after creating the cluster. Instead of using a Kubernetes PVC, you can mount to code using the *hostPath* property of a Pod, which makes it a bit more convenient
+With the <a href="https://minikube.sigs.k8s.io/docs/handbook/mount/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube mount</a>command, exactly the same is possible. You can even mount storage volumes after creating the cluster. Instead of using a Kubernetes PVC, you can mount to code using the *hostPath* property of a Pod, which makes it a bit more convenient
 :::
 
 
@@ -557,7 +557,7 @@ Loading a local container image
 A more practical and less invasive approach to run local code in minikube, k3d and kind is the load-image feature. Why less invasive? - As a developer, you don’t need to adjust the Kubernetes objects (Pods, PVCs, etc.) for your local environment, based on the paths that are potentially unique to your system (e.g. mounting home directories are usually different between developers). Instead, you make a container image available to your local cluster without the need for a dedicated container registry. That means, you build a local container image based on your current code (e.g. *docker build . -t myimage*) and transfer it directly into your local Kubernetes to run it.
 :::
 :::globalParagraph
-That approach is leveraged by almost all Kubernetes development toolkits such as [tilt.dev](https://tilt.dev/){.bs-link-blue}, [devspace](https://www.devspace.sh/){.bs-link-blue}, and others. Watching for code changes, these kinds of development tools automatically run a build-load-execute cycle. This approach is slower than mounting local code with an adjusted container process, but at least it does not (always) modify the Kubernetes objects.
+That approach is leveraged by almost all Kubernetes development toolkits such as <a href="https://tilt.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">tilt.dev</a>, <a href="https://www.devspace.sh/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">devspace</a>, and others. Watching for code changes, these kinds of development tools automatically run a build-load-execute cycle. This approach is slower than mounting local code with an adjusted container process, but at least it does not (always) modify the Kubernetes objects.
 :::
 :::globalParagraph
 In order to do so with minikube, you run...
@@ -605,7 +605,7 @@ The almighty debugger, that is not easily attached to a process running in Kuber
 :::
 
 :::globalParagraph
-At this point Blueshoe decided to construct a more sophisticated development tool, that spares the developer from spending time in the build-load-execute cycle or get local directories to run in Kubernetes: [Gefyra](https://gefyra.dev/){.bs-link-blue}.
+At this point Blueshoe decided to construct a more sophisticated development tool, that spares the developer from spending time in the build-load-execute cycle or get local directories to run in Kubernetes: <a href="https://gefyra.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Gefyra</a>.
 :::
 :::globalParagraph
 Gefyra does not only connect to local Kubernetes clusters based on minikube, k3d or kind. It connects to virtually any Kubernetes cluster that runs anywhere. This allows Gefyra users to create dedicated development clusters in the cloud while providing local coding experiences to the developers.
@@ -615,7 +615,7 @@ Gefyra does not only connect to local Kubernetes clusters based on minikube, k3d
 Gefyra runs the code on a local Docker runtime (without Kubernetes at all) but does some networking and process magic to connect the local container instance with a Kubernetes cluster. The process on a developer machine will feel like it would run directly within a Kubernetes namespace (including networking features) with the upside of having all common development tools available locally. This can drastically improve the development velocity while maintaining a very good dev/prod parity.
 :::
 :::globalParagraph
-If you have an opinion about Gefyra, missing features or need to file a bug report, feel free to open an issue or discussion on [GitHub](https://github.com/gefyrahq/gefyra){.bs-link-blue}.
+If you have an opinion about Gefyra, missing features or need to file a bug report, feel free to open an issue or discussion on <a href="https://github.com/gefyrahq/gefyra" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GitHub</a>.
 :::
 
 
@@ -623,7 +623,7 @@ If you have an opinion about Gefyra, missing features or need to file a bug repo
 Graphical User Interfaces and Docker Desktop
 :::
 :::globalParagraph
-If you are looking for a graphical user interface for your local Kubernetes cluster, please have a look at [K3x](https://github.com/inercia/k3x){.bs-link-blue} and [minikube GUI](https://github.com/kubernetes-sigs/minikube-gui){.bs-link-blue}. Both projects are in a very early stage of development as of the time writing this article.
+If you are looking for a graphical user interface for your local Kubernetes cluster, please have a look at <a href="https://github.com/inercia/k3x" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">K3x</a> and <a href="https://github.com/kubernetes-sigs/minikube-gui" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube GUI</a>. Both projects are in a very early stage of development as of the time writing this article.
 :::
 :::globalParagraph
 The main goals of these projects are to allow the user to create, start and stop, and destroy Kubernetes clusters with a click of a button. In addition, it allows developers to manage the most important operations with keyboard shortcuts and to reduce the learning curve of using Kubernetes.
@@ -639,7 +639,7 @@ A cloud-based Kubernetes development environment with Getdeck
 At Blueshoe, we realised that local Kubernetes clusters are a challenge with growing workloads. Especially on Windows and macOS, even a few development workloads in Kubernetes turn the development machine into a slow-walking zombie. That was very impractical, hence we decided to look for other solutions for our development teams. For the complex Kubernetes-native software architecture we are developing, it was not possible to create a shared cluster setup. Splitting up one physical cluster using namespaces is something that many development teams are currently doing. Instead, we wanted to provide dedicated, full-blown, on-demand Kubernetes clusters to our developers. But with all the features that a mature development organisation is demanding, such as lifecycle management, resource constraints, and so on.
 :::
 :::globalParagraph
-We created [Getdeck](https://getdeck.dev/beiboot/){.bs-link-blue} for that.
+We created <a href="https://getdeck.dev/beiboot/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Getdeck</a> for that.
 :::
 :::globalParagraph
 With Getdeck Beiboot, a team of developers only need to operate one physical Kubernetes cluster. The Beiboot operator spins up “virtual” Kubernetes clusters within the host cluster and manages their lifecycles. The creation of an ad-hoc Kubernetes environment takes about 20 seconds and does not consume any resources on a development machine.
@@ -651,7 +651,7 @@ In addition, the Beiboot Shelf feature allows developers to create pre-provision
 And the best: these clusters are tunnelled to the local machine, so that it feels like they would run on the local host. That is very handy.
 :::
 :::globalParagraph
-Getdeck now also comes with a graphical user interface: [Getdeck Desktop](https://github.com/Getdeck/Getdeck-Desktop){.bs-link-blue}.
+Getdeck now also comes with a graphical user interface: <a href="https://github.com/Getdeck/Getdeck-Desktop" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Getdeck Desktop</a>.
 :::
 :::globalParagraph
 It allows developers to manage Beiboot clusters in no time. They can establish a connection to it and work with it as it would run on their local machine, but without the computer blasting off.
@@ -687,7 +687,7 @@ For some of our automated test cases, we switched over to minikube, because of t
 In the long run, we actually don’t see local Kubernetes development as a sustainable option. Remote development environments are the future! Getdeck Beiboot will run all Kubernetes-based resources, and with tools like Gefyra, we enable developers to work in a real Kubernetes-based development environment.
 :::
 :::globalParagraph
-If you want to know more about Kubernetes-based development [follow me on LinkedIn](http://www.linkedin.com/in/michael-schilonka){.bs-link-blue}, [join our discord](https://discord.gg/7A8mnvQjRp){.bs-link-blue} or drop us a line at Blueshoe.
+If you want to know more about Kubernetes-based development <a href="http://www.linkedin.com/in/michael-schilonka" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">follow me on LinkedIn</a>, <a href="https://discord.gg/7A8mnvQjRp" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">join our discord</a> or drop us a line at Blueshoe.
 :::
 
 

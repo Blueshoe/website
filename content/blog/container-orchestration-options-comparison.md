@@ -81,10 +81,10 @@ Kubernetes has been all the rage over the last few years but as a platform, it c
 In the end, it’s very convenient again as the only thing you’ll have to worry about is the management of your application and the respective data. Your cloud provider will again take care of orchestration, OS, virtualization, networking, storage and the server.
 :::
 :::globalParagraph
-Also, in a [Managed Kubernetes](/blog/managed-vs-unmanaged-kubernetes/){.bs-link-blue} environment your provider will take care of updating and patches and it will generally need a lot fewer experts in your team to run your infrastructure.
+Also, in a <a href="/blog/managed-vs-unmanaged-kubernetes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Managed Kubernetes</a> environment your provider will take care of updating and patches and it will generally need a lot fewer experts in your team to run your infrastructure.
 :::
 :::globalParagraph
-And if you want to take things even further, you can have a look at [GKE autopilot](https://chaordic.io/blog/gke-autopilot-a-serverless-game-changer/){.bs-link-blue}, a service by Google built for the Google Kubernetes Engine, that takes even more of the hard work out of your hands by providing a very automated and opinionated configuration of GKE.
+And if you want to take things even further, you can have a look at <a href="https://chaordic.io/blog/gke-autopilot-a-serverless-game-changer/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GKE autopilot</a>, a service by Google built for the Google Kubernetes Engine, that takes even more of the hard work out of your hands by providing a very automated and opinionated configuration of GKE.
 :::
 :::globalParagraph
 But what’s the difference to the PaaS offering of the cloud providers? Well, mostly you would be putting your money on the current and feature industry-standard, that is Kubernetes. Also, you would now have a portable infrastructure and are not as eternally attached to your provider anymore. Portability is clearly one of Kubernetes’ strong sides.
@@ -170,7 +170,7 @@ Conclusion
 Of course, we would like to give a recommendation of what your choice should be but that is unfortunately impossible as this is completely depending on your individual requirements. However, in general we would say, if you want to be ready for the future, go with one of the possible setups that entail a Kubernetes infrastructure. We also did that switch once and never looked back since.
 :::
 :::globalParagraph
-Also, check out [Unikube](https://unikube.io/){.bs-link-blue}, which makes Kubernetes really accessible for your developers. [Cloud Native Development](/blog/evolution-of-application-development-to-cloud-native/){.bs-link-blue} out of the box, so to say.
+Also, check out <a href="https://unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Unikube</a>, which makes Kubernetes really accessible for your developers. [Cloud Native Development](/blog/evolution-of-application-development-to-cloud-native/){.bs-link-blue} out of the box, so to say.
 :::
 
 

@@ -68,7 +68,7 @@ After successful integration, continuous delivery automates the creation and rel
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Let's hop on a call today"}
+::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Let's hop on a call today" :target="_blank"}
 ::
 :::
 

@@ -29,7 +29,7 @@ We’re going to look at these questions and provide a broad overview of Kuberne
 What is Kubernetes?
 :::
 :::globalParagraph
-Kubernetes is not a service offered by individual providers. Instead, Kubernetes is an open-source technology that enables the management and orchestration of [applications packaged in containers](https://www.blueshoe.io/blog/container-orchestration-options-comparison/){.bs-link-blue}.
+Kubernetes is not a service offered by individual providers. Instead, Kubernetes is an open-source technology that enables the management and orchestration of <a href="https://www.blueshoe.io/blog/container-orchestration-options-comparison/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">applications packaged in containers</a>.
 :::
 :::globalParagraph
 In theory, Kubernetes can be downloaded for free on GitHub and then be made available on local servers or publicly (e.g. for a client).
@@ -45,7 +45,7 @@ With all these services, Kubernetes is still free to use – but the cloud resou
 Back to the roots: monolith vs. microservices
 :::
 :::globalParagraph
-Put very simply, software development can be done via two different approaches: the monolithic approach and the [building of microservices](https://www.blueshoe.io/our-services/microservice-architecture-consulting/){.bs-link-blue}.
+Put very simply, software development can be done via two different approaches: the monolithic approach and the <a href="https://www.blueshoe.io/our-services/microservice-architecture-consulting/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">building of microservices</a>.
 :::
 :::globalParagraph
 In the case of monoliths, all relevant components are included in one application. With microservices, on the other hand, there is an independent application for every component which only works on one specific part of the task. If one microservice requires the input of another microservice in order to get its job done, the respective microservices communicate with each other via interfaces. One advantage of microservices compared with a monolithic architecture: if one microservice malfunctions, it doesn’t necessarily make the entire system inoperable. However, neither of the two options is superior. At Blueshoe, we mostly use microservices for our work as they’re simply more beneficial for our purposes.
@@ -69,13 +69,13 @@ In order to grant non-developers a brief insight into why containers are used, l
 Software containers can literally be regarded as just that – containers. They form a predefined environment within which the code can be run. A container therefore does not only contain the software – it also provides the opportunity to preconfigure the environment in which the software will be run (i.e. the container). Before the dawn of containerised software, the software always had to be run in various different environments, for example on different computers. So you didn’t just face the challenge of the software having to be free of errors, but every environment also had to be configured exactly the same way. With software containerisation, the container itself is the environment in which the software is run. So the software can be run on different servers without every single server having to be configured individually.
 :::
 :::globalParagraph
-The most well-known provider that allows for the software packaging in containers is Docker. That’s why the term ‘Docker container’ is now commonly used – and in fact, it’s often used synonymously with ‘container’. [In order to use Kubernetes, it’s necessary for the software to be packaged in containers](https://www.blueshoe.io/our-services/migration-to-kubernetes/){.bs-link-blue}. It doesn’t matter what technology is used to achieve this, though.
+The most well-known provider that allows for the software packaging in containers is Docker. That’s why the term ‘Docker container’ is now commonly used – and in fact, it’s often used synonymously with ‘container’. <a href="https://www.blueshoe.io/our-services/migration-to-kubernetes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">In order to use Kubernetes, it’s necessary for the software to be packaged in containers</a>. It doesn’t matter what technology is used to achieve this, though.
 :::
 :::globalParagraph
 The size of the individual containerised applications is equally irrelevant (see above: monolithic architecture vs microservices) – Kubernetes can be used with both approaches.
 :::
 :::globalParagraph
-The software that has been packaged in a container will be placed in a specified place. This is called a ‘[Docker image](https://www.blueshoe.io/blog/strategies-for-slim-docker-images/){.bs-link-blue}’. When the software is run, this image is always referenced. This means that the software can be run in several instances if the same image is referenced.
+The software that has been packaged in a container will be placed in a specified place. This is called a ‘<a href="https://www.blueshoe.io/blog/strategies-for-slim-docker-images/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker image</a>’. When the software is run, this image is always referenced. This means that the software can be run in several instances if the same image is referenced.
 :::
 
 
@@ -164,13 +164,13 @@ Should you host Kubernetes yourself or use a managed service?
 As mentioned above, Kubernetes is an open-source technology. So its use is basically (licence-)free and can be hosted completely independently. AKS, GKE, EKS and other providers offer additional managed services that are designed to make the use of Kubernetes easier. And the use of these services is what such providers charge for.
 :::
 :::globalParagraph
-So what do you do? [Do you host yourself or pay money for a managed service](https://www.blueshoe.io/blog/managed-vs-unmanaged-kubernetes/){.bs-link-blue}?
+So what do you do? <a href="https://www.blueshoe.io/blog/managed-vs-unmanaged-kubernetes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Do you host yourself or pay money for a managed service</a>?
 :::
 :::globalParagraph
 When making your choice, two factors ought to be considered: For one thing, which ‘hardware’ and which services are supplied by the provider.
 :::
 :::globalParagraph
-Secondly, one must not forget that there are staff costs to be paid if you host a Kubernetes cluster yourself – and these management costs aren’t exactly negligible. This article (date: 19/05/2022 – 18:05) clearly illustrates that [if a cluster needs to be managed 24/7, at least 4 full-time developers have to be employed](https://www.koyeb.com/blog/the-true-cost-of-kubernetes-people-time-and-productivity){.bs-link-blue}. This would ensure round-the-clock management, but would also cover staff shortages due to holidays and sick leave. When using a managed service, you still need a developer to oversee it – but in this case, it is assumed that one full-time position is sufficient.
+Secondly, one must not forget that there are staff costs to be paid if you host a Kubernetes cluster yourself – and these management costs aren’t exactly negligible. This article (date: 19/05/2022 – 18:05) clearly illustrates that <a href="https://www.koyeb.com/blog/the-true-cost-of-kubernetes-people-time-and-productivity" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">if a cluster needs to be managed 24/7, at least 4 full-time developers have to be employed</a>. This would ensure round-the-clock management, but would also cover staff shortages due to holidays and sick leave. When using a managed service, you still need a developer to oversee it – but in this case, it is assumed that one full-time position is sufficient.
 :::
 :::globalParagraph
 What’s more, bear in mind that the individual providers’ cost structure for nodes, computing power etc. can sometimes be very unclear. What costs you can expect mostly depends on the scope of the information to be processed and the computing power required for this. The costs are often presented in a way that for people who aren’t familiar with the technical development and/or implementation of software (technical departments, for example), it’s hardly possible to estimate the necessary capacities and resulting costs. This means that the costs may vary significantly depending on the changing user traffic, for example, as this would require considerably more computing capacity. You should therefore always do a rough cost estimate for a managed service and allow for some buffer space in your budget. You should also always include a developer who knows the subject matter when making these calculations.
@@ -183,7 +183,7 @@ What do you need to build Kubernetes?
 Let’s have a closer look at Kubernetes itself in this second part. We’ll explain the terminology and clarify how exactly they relate to one another.
 :::
 :::globalParagraph
-Developer or no developer: If you’re checking out Kubernetes for the first time, you can find a [great initial overview of the specifics here](https://kubernetes.io/docs/tutorials/kubernetes-basics/){.bs-link-blue}(date: 07/07/2022 – 8.30). In the following, we will mostly refer to this source.
+Developer or no developer: If you’re checking out Kubernetes for the first time, you can find a <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">great initial overview of the specifics here</a> (date: 07/07/2022 – 8.30). In the following, we will mostly refer to this source.
 :::
 
 :::globalTitle{:size="md" .mb-5}
