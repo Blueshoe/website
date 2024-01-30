@@ -1,7 +1,7 @@
 ---
 title: 'Cloud application development by experts'
 description: 'content="Cloud Native Development Experts. We develop complex applications for for cloud based infrastructures. ✅ Microservices ✅ Kubernetes ✅ APIs"'
-articles: 
+articles:
   - title: 'Local K8s Development'
     content: 'How does local development with Kubernetes work?'
     author: 'By Robert Gutschale'
@@ -169,7 +169,7 @@ Truly convinced by the future of cloud-native development, we have decided to on
 Overall, we see the cloud-native approach as an optimal way to develop, customize and deploy web applications faster, with customer satisfaction at heart. We are looking forward to [advising you on cloud-native matters](/our-services/cloud-native-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, providing 24/7 support for your [cloud architecture](/our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} as well as the associated applications, and are open to share our knowledge and experience.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us" :target="_blank"}
+::GlobalButton{:url="/contact" :label="Contact us"}
 ::
 :::
 
