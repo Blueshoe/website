@@ -1,0 +1,141 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .headlesscms-cls-1,
+      .headlesscms-cls-10,
+      .headlesscms-cls-3,
+      .headlesscms-cls-6,
+      .headlesscms-cls-8 {
+        fill: #fff;
+      }
+
+      .headlesscms-cls-1,
+      .headlesscms-cls-4,
+      .headlesscms-cls-5 {
+        stroke: #97a2a6;
+      }
+
+      .headlesscms-cls-1,
+      .headlesscms-cls-10,
+      .headlesscms-cls-12,
+      .headlesscms-cls-4,
+      .headlesscms-cls-5,
+      .headlesscms-cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .headlesscms-cls-1,
+      .headlesscms-cls-10,
+      .headlesscms-cls-11,
+      .headlesscms-cls-12,
+      .headlesscms-cls-4,
+      .headlesscms-cls-5,
+      .headlesscms-cls-6,
+      .headlesscms-cls-8,
+      .cls-9 {
+        stroke-width: 3px;
+      }
+
+      .headlesscms-cls-2,
+      .headlesscms-cls-5 {
+        fill: #edeff0;
+      }
+
+      .headlesscms-cls-11,
+      .headlesscms-cls-12,
+      .headlesscms-cls-4,
+      .headlesscms-cls-9 {
+        fill: none;
+      }
+
+      .headlesscms-cls-12,
+      .headlesscms-cls-6 {
+        stroke: #63d9b6;
+      }
+
+      .headlesscms-cls-11,
+      .headlesscms-cls-6,
+      .headlesscms-cls-8 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .headlesscms-cls-7 {
+        fill: #63d9b6;
+      }
+
+      .headlesscms-cls-8 {
+        stroke: #ff7680;
+      }
+
+      .headlesscms-cls-10,
+      .headlesscms-cls-11,
+      .headlesscms-cls-9 {
+        stroke: #2470a9;
+      }
+
+      .headlesscms-cls-11 {
+        stroke-dasharray: 5;
+      }
+
+      .headlesscms-cls-13 {
+        fill: #ff7680;
+      }
+
+      .headlesscms-cls-14 {
+        fill: #f7931e;
+      }
+
+      .headlesscms-cls-15 {
+        fill: #2470a9;
+      }
+
+    </style>
+  </defs>
+  <path class="headlesscms-cls-1" d="M140.55,188.37H392.74A12.23,12.23,0,0,1,405,200.59V360.83a0,0,0,0,1,0,0H128.32a0,0,0,0,1,0,0V200.59A12.23,12.23,0,0,1,140.55,188.37Z" />
+  <path class="headlesscms-cls-2" d="M190.45,151.62H345.06a0,0,0,0,1,0,0V405.11a0,0,0,0,1,0,0H190.45a2.23,2.23,0,0,1-2.23-2.23v-249A2.23,2.23,0,0,1,190.45,151.62Z" transform="translate(545 11.72) rotate(90)" />
+  <path class="headlesscms-cls-3" d="M293.84,349.84v2c0,2.95-3.37,5.34-7.53,5.34H247c-4.16,0-7.53-2.39-7.53-5.34v-2H109.84c-3.86,0-7,2.21-7,4.94v4.89c0,5.44,6.22,9.84,13.89,9.84H416.53c7.68,0,13.9-4.4,13.9-9.84v-4.89c0-2.73-3.13-4.94-7-4.94Z" />
+  <path class="headlesscms-cls-2" d="M417.11,363.37H117.33c-7.67,0-13.89-4.41-13.89-9.85v-.71a3.74,3.74,0,0,0-.58,2v4.89c0,5.44,6.22,9.84,13.89,9.84H416.53c7.68,0,13.9-4.4,13.9-9.84v-3.35C428.72,360.39,423.41,363.37,417.11,363.37Z" />
+  <path class="headlesscms-cls-4" d="M293.84,349.84v2c0,2.95-3.37,5.34-7.53,5.34H247c-4.16,0-7.53-2.39-7.53-5.34v-2H109.84c-3.86,0-7,2.21-7,4.94v4.89c0,5.44,6.22,9.84,13.89,9.84H416.53c7.68,0,13.9-4.4,13.9-9.84v-4.89c0-2.73-3.13-4.94-7-4.94Z" />
+  <rect class="headlesscms-cls-2" x="127.74" y="356.78" width="30.09" height="6.94" rx="3" />
+  <rect class="headlesscms-cls-3" x="152.55" y="210.23" width="132.64" height="126.83" />
+  <rect class="headlesscms-cls-5" x="315.29" y="236" width="115.27" height="163.73" rx="6.94" />
+  <rect class="headlesscms-cls-3" x="302.96" y="259.31" width="139.93" height="104.28" rx="1.45" transform="translate(684.38 -61.48) rotate(90)" />
+  <rect class="headlesscms-cls-6" x="308.46" y="264.81" width="128.94" height="93.3" transform="translate(684.38 -61.48) rotate(90)" />
+  <circle class="headlesscms-cls-7" cx="372.93" cy="390.75" r="2.96" />
+  <rect class="headlesscms-cls-8" x="332.95" y="333.08" width="11.04" height="35.31" />
+  <rect class="headlesscms-cls-9" x="350.18" y="317.16" width="11.04" height="51.23" />
+  <rect class="headlesscms-cls-8" x="367.41" y="328.72" width="11.04" height="39.68" />
+  <rect class="headlesscms-cls-9" x="384.64" y="349.46" width="11.04" height="18.93" />
+  <rect class="headlesscms-cls-8" x="401.86" y="333.08" width="11.04" height="35.31" />
+  <line class="headlesscms-cls-9" x1="338.47" y1="289.24" x2="407.38" y2="289.24" />
+  <line class="headlesscms-cls-9" x1="338.47" y1="276.65" x2="407.38" y2="276.65" />
+  <line class="headlesscms-cls-9" x1="338.47" y1="264.07" x2="407.38" y2="264.07" />
+  <circle class="headlesscms-cls-10" cx="356.32" cy="264.07" r="5.22" />
+  <circle class="headlesscms-cls-10" cx="389.74" cy="276.65" r="5.22" />
+  <circle class="headlesscms-cls-10" cx="369.15" cy="289.24" r="5.22" />
+  <rect class="headlesscms-cls-5" x="372.51" y="100.27" width="58.7" height="111.48" rx="6.77" />
+  <rect class="headlesscms-cls-3" x="352.12" y="132.66" width="99.48" height="46.7" rx="0.77" transform="translate(557.87 -245.85) rotate(90)" />
+  <line class="headlesscms-cls-4" x1="385.02" y1="115.69" x2="418.7" y2="115.69" />
+  <line class="headlesscms-cls-4" x1="385.02" y1="124.82" x2="418.7" y2="124.82" />
+  <line class="headlesscms-cls-4" x1="385.02" y1="133.95" x2="418.7" y2="133.95" />
+  <line class="headlesscms-cls-4" x1="385.02" y1="143.17" x2="405.32" y2="143.17" />
+  <line class="headlesscms-cls-4" x1="385.02" y1="152.2" x2="405.32" y2="152.2" />
+  <line class="headlesscms-cls-11" x1="145.87" y1="202" x2="172.15" y2="202" />
+  <rect class="headlesscms-cls-3" x="46.49" y="111.83" width="186.82" height="167.64" rx="9.81" />
+  <rect class="headlesscms-cls-12" x="46.49" y="111.83" width="186.82" height="167.64" rx="9.81" />
+  <line class="headlesscms-cls-12" x1="233.31" y1="136.87" x2="46.49" y2="136.87" />
+  <circle class="headlesscms-cls-13" cx="192.52" cy="124.93" r="2.58" />
+  <circle class="headlesscms-cls-7" cx="204.88" cy="124.93" r="2.58" />
+  <circle class="headlesscms-cls-14" cx="217.24" cy="124.93" r="2.58" />
+  <rect class="headlesscms-cls-2" x="60.26" y="149.19" width="161.43" height="117.16" rx="5.65" />
+  <path class="headlesscms-cls-7" d="M118.24,202.39h-7.67a7.44,7.44,0,0,0-.86-2.66,6.62,6.62,0,0,0-1.66-2,7.56,7.56,0,0,0-2.34-1.27,9.37,9.37,0,0,0-2.86-.43A8.59,8.59,0,0,0,98,197.42a8.92,8.92,0,0,0-3.2,4,18.43,18.43,0,0,0,0,12.79,8.29,8.29,0,0,0,8,5.27,9.54,9.54,0,0,0,2.83-.4,7.53,7.53,0,0,0,2.31-1.18,6.7,6.7,0,0,0,1.69-1.9,7.45,7.45,0,0,0,.94-2.56l7.67,0a13.89,13.89,0,0,1-1.48,4.75,14.59,14.59,0,0,1-3.17,4.08,15,15,0,0,1-4.73,2.84,17.38,17.38,0,0,1-6.18,1A16.82,16.82,0,0,1,94.11,224a15.24,15.24,0,0,1-6-6.28,23.69,23.69,0,0,1,0-19.94,15.43,15.43,0,0,1,6-6.27,16.83,16.83,0,0,1,8.51-2.17,18.57,18.57,0,0,1,5.78.88,14.64,14.64,0,0,1,4.74,2.55,13.39,13.39,0,0,1,3.37,4.08A15.48,15.48,0,0,1,118.24,202.39Z" />
+  <path class="headlesscms-cls-7" d="M123.68,189.83H133l9.87,24.09h.42l9.88-24.09h9.34v35.86h-7.35V202.35h-.3l-9.27,23.16h-5l-9.28-23.25H131v23.43h-7.35Z" />
+  <path class="headlesscms-cls-7" d="M188.22,200.14a4.45,4.45,0,0,0-1.8-3.29,7.14,7.14,0,0,0-4.32-1.17,8.28,8.28,0,0,0-3.14.52,4.42,4.42,0,0,0-2,1.42,3.39,3.39,0,0,0-.67,2.07,2.84,2.84,0,0,0,.41,1.68,4.15,4.15,0,0,0,1.23,1.24,9.07,9.07,0,0,0,1.82.89,17.34,17.34,0,0,0,2.21.63l3.22.77a23.93,23.93,0,0,1,4.31,1.4,13.46,13.46,0,0,1,3.39,2.16,9,9,0,0,1,2.23,3,9.6,9.6,0,0,1,.82,4,9.9,9.9,0,0,1-1.67,5.7,10.63,10.63,0,0,1-4.77,3.73,19.06,19.06,0,0,1-7.48,1.32,19.59,19.59,0,0,1-7.55-1.33,11,11,0,0,1-5-3.94,11.69,11.69,0,0,1-1.88-6.49H175a5.5,5.5,0,0,0,1,3,5.62,5.62,0,0,0,2.47,1.8,9.5,9.5,0,0,0,3.51.61,9.27,9.27,0,0,0,3.36-.56,5.17,5.17,0,0,0,2.21-1.56,3.56,3.56,0,0,0,.79-2.29,3,3,0,0,0-.71-2,5.41,5.41,0,0,0-2.07-1.4,20.3,20.3,0,0,0-3.31-1.05l-3.91-1a16.36,16.36,0,0,1-7.16-3.44,8,8,0,0,1-2.61-6.32,9.31,9.31,0,0,1,1.75-5.69,11.59,11.59,0,0,1,4.84-3.8,17.08,17.08,0,0,1,7-1.37,16.61,16.61,0,0,1,7,1.37,11.06,11.06,0,0,1,4.65,3.8,10.07,10.07,0,0,1,1.72,5.63Z" />
+  <circle class="headlesscms-cls-15" cx="372.51" cy="168.81" r="7.61" />
+  <circle class="headlesscms-cls-15" cx="221.69" cy="311.45" r="7.61" />
+  <circle class="headlesscms-cls-15" cx="315.29" cy="307.39" r="7.61" />
+  <polyline class="headlesscms-cls-11" points="364.9 168.81 298 168.81 298 307.39 307.68 307.39" />
+  <line class="headlesscms-cls-11" x1="298" y1="224.55" x2="233.31" y2="224.55" />
+  <polyline class="headlesscms-cls-11" points="145.87 280.5 145.87 311.45 221.69 311.45" />
+</svg>
