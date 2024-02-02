@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<g>
+	<g>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M147.852,332c2.333-11.218,6.462-22.263,12.505-32.728
+			c6.042-10.465,13.542-19.562,22.091-27.193l-68.926-119.383C85.17,172.686,60.591,198.984,42.106,231
+			C23.622,263.016,13.134,297.452,10,332L147.852,332z" fill="#63d9b6" data-original="#cbe558" class=""></path>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M152.479,130.203l68.926,119.383
+			c10.882-3.588,22.511-5.534,34.595-5.534c12.084,0,23.712,1.947,34.595,5.534l68.926-119.383
+			c-31.487-14.558-66.552-22.695-103.521-22.695C219.031,107.509,183.965,115.644,152.479,130.203z" fill="#e09932" data-original="#ffc144" class=""></path>
+		<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M398.479,152.696l-68.926,119.383
+			c8.549,7.63,16.049,16.728,22.091,27.193c6.042,10.465,10.17,21.509,12.504,32.728H502c-3.137-34.548-13.622-68.983-32.107-101
+			C451.409,198.984,426.831,172.684,398.479,152.696z" fill="#e38082" data-original="#ff5a58" class=""></path>
+		
+			<ellipse transform="matrix(0.9886 -0.1509 0.1509 0.9886 -50.5501 42.6787)" style="fill-rule:evenodd;clip-rule:evenodd;" cx="256" cy="354.491" rx="50" ry="50" fill="#2470a9" data-original="#6d91ac" class=""></ellipse>
+	</g>
+	<g>
+		
+			<path style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;" d="
+			M152.479,130.203c31.486-14.559,66.552-22.695,103.521-22.695c36.969,0,72.034,8.137,103.521,22.695l-68.926,119.383
+			c-10.883-3.587-22.511-5.534-34.595-5.534c-12.084,0-23.714,1.946-34.595,5.534L152.479,130.203z" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#23303d" stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" data-original="#000000" class=""></path>
+		
+			<path style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;" d="
+			M398.479,152.696c28.352,19.989,52.93,46.288,71.415,78.305c18.485,32.016,28.97,66.451,32.106,101l-137.852,0
+			c-2.335-11.218-6.462-22.262-12.505-32.727c-6.042-10.465-13.542-19.564-22.091-27.193L398.479,152.696z" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#23303d" stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" data-original="#000000" class=""></path>
+		
+			<path style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;" d="
+			M170.487,251.362l11.961,20.717c-8.548,7.631-16.049,16.728-22.091,27.193c-6.042,10.465-10.171,21.509-12.505,32.728L10,332
+			C13.134,297.452,23.622,263.016,42.106,231c18.485-32.017,43.064-58.315,71.415-78.305l11.959,20.714" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#23303d" stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" data-original="#000000" class=""></path>
+		
+			<ellipse transform="matrix(0.9871 -0.1602 0.1602 0.9871 -53.4776 45.584)" style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;" cx="256" cy="354.491" rx="50" ry="50" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#23303d" stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" data-original="#000000" class=""></ellipse>
+		
+			<line style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;" x1="301.868" y1="328.01" x2="414.241" y2="263.131" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#23303d" stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.9256" data-original="#000000" class=""></line>
+		
+			<line style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:19.9998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.6131;" x1="147.977" y1="212.387" x2="147.984" y2="212.387" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#23303d" stroke-width="19.9998" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" data-original="#000000" class=""></line>
+	</g>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g></svg>
