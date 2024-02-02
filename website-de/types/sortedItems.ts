@@ -1,0 +1,25 @@
+export type SortedItems = {
+  id: number;
+  img: string;
+  src?: string;
+  alt: string;
+  preTitle?: string;
+  title: string;
+  description?: string;
+  excerpt?: object;
+  paragraphs?: string;
+  text: string;
+  date?: string;
+  buttonLabel?: string;
+  buttonLink?: string;
+  buttonTarget?: string;
+  autor?: string[];
+  technologies?: string[];
+  marketing?: string[];
+  sonstiges?: string[];
+  anforderung?: string[];
+  sektor?: string[];
+  kategorie?: string[];
+  branche?: string[];
+  technologie?: string[];
+};
