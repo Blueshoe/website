@@ -65,19 +65,7 @@ const handleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
 
-const handleClickOutside = (event: Event) => {
-  if (refNav.value && !refNav.value.contains(event.target) && isDesktop.value) {
-    isMobileMenuOpen.value = false;
-    menu.value.forEach((nav) => {
-      if (nav.dropDown) {
-        nav.isDropDown = false;
-      }
-    });
-  }
-};
-
 onMounted(() => {
-  window.addEventListener('click', handleClickOutside);
   window.addEventListener('resize', updateWidth);
   updateWidth();
 });
