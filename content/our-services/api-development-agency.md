@@ -68,7 +68,7 @@ What API technologies should I use?
 There are many different types of APIs available, including web APIs, mobile APIs, and cloud APIs. Web APIs allow developers to access data and services from websites and web applications. Mobile APIs allow developers to access data and services from mobile devices. Cloud APIs allow developers to access data and services from cloud-based applications.
 ::::
 #label-1
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 What technologies do cloud APIs use?
 ::
 #text-1
@@ -76,7 +76,7 @@ What technologies do cloud APIs use?
 Cloud APIs typically use a combination of technologies, such as Representational State Transfer (REST), Google Remote Procedure Call (gRPC), GraphQL, Simple Object Access Protocol (SOAP), and JavaScript Object Notation (JSON). These technologies allow developers to access data and services from cloud-based applications.
 ::
 #label-2
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 How do REST APIs work?
 ::
 #text-2
@@ -84,7 +84,7 @@ How do REST APIs work?
 REpresentational State Transfer (REST) is a widespread architectural style for inter application/service communication used by software applications. Underlying this style are many principles and constraints aimed at creating stateless, reliable APIs. When all REST constraints are met, APIs are also referred to as RESTful APIs. For cloud-based applications, REST APIs often communicate using the HTTP protocol, allowing interaction with application-specific data through requests to the corresponding URLs. The following API responses are often provided as JSON data, but are not limited to it.
 ::
 #label-3
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 How does gRPC work?
 ::
 #text-3
@@ -92,7 +92,7 @@ How does gRPC work?
 GRPC works by allowing clients to make remote procedure calls (RPCs) to a server. The client sends a request message to the server containing the name of the method to be called, along with any parameters needed for the call. The server then processes the request and sends back a response message containing the results of the call. GRPC uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts.
 ::
 #label-4
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 How do SOAP APIs work?
 ::
 #text-4
@@ -100,7 +100,7 @@ How do SOAP APIs work?
 A SOAP API works by sending and receiving messages in a standardized format. The messages are sent using the Simple Object Access Protocol (SOAP) over HTTP. The messages contain data that is encoded in XML format. The server then processes the message and sends a response back to the client.
 ::
 #label-5
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 How does GraphQL work?
 ::
 #text-5
