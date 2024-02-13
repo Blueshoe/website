@@ -5,7 +5,7 @@ description:
 
 ::PrivacyWrapper
 
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:size="lg" .mb-6}
 Privacy Policy [https://www.blueshoe.io/](https://www.blueshoe.io/)
 :::
 

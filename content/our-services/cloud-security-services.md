@@ -130,7 +130,7 @@ What does a secure cloud environment look like?
 Security in cloud computing has a few important pillars:
 ::::
 #label-1
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Identity and access management (IAM)
 ::
 #text-1
@@ -145,7 +145,7 @@ This addresses which users can access what parts of the cloud stack, and what th
 - Real-time behavior and credential monitoring
 ::
 #label-2
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Secure compute layer
 ::
 #text-2
@@ -160,7 +160,7 @@ Protect against the spread of malware and ensure your systems remain available a
 - Hardened images from trusted sources
 ::
 #label-3
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Storage security
 ::
 #text-3
@@ -175,7 +175,7 @@ Ensure your data buckets remain intact and accessible. Secure storage looks like
 - Real-time misconfiguration monitoring
 ::
 #label-4
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Cloud services security
 ::
 #text-4
