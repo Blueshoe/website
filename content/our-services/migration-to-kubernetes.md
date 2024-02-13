@@ -298,7 +298,7 @@ Once your application is running on Kubernetes, it’s important to monitor its 
 Prepare your application(s) for the migration
 ::::
 #label-1
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Containerize your application
 ::
 #text-1
@@ -312,7 +312,7 @@ One tool that is currently all the rage when it comes to containerizing your app
 <a href="https://buildpacks.io/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Buildpacks.io</a> is a platform that provides developers with a set of tools to easily build and deploy applications in any language on any cloud. It provides a unified workflow for building, testing, and deploying applications across multiple clouds, including AWS, Google Cloud Platform, Microsoft Azure, and more. Buildpacks.io also offers an intuitive UI to manage your application's infrastructure and configuration, as well as an API to automate the process.
 ::
 #label-2
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Create a Continuous Integration (CI) Pipeline
 ::
 #text-2
@@ -320,7 +320,7 @@ Create a Continuous Integration (CI) Pipeline
 The first step in setting up CI/CD with Kubernetes is to create a CI pipeline. This pipeline should be designed to automatically build, test, and deploy your application code whenever changes are made.
 ::
 #label-3
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Set up a container registry
 ::
 #text-3
@@ -328,7 +328,7 @@ Set up a container registry
 The next step is to set up a container registry such as Docker Hub or Google Container Registry (GCR). This will allow you to store and manage your container images for easy deployment.
 ::
 #label-4
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Create Kubernetes manifests
 ::
 #text-4
@@ -341,7 +341,7 @@ Once your application is containerized, you need to create Kubernetes manifests 
 - Kompose.io (if you know docker compose)
 ::
 #label-5
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Create Continuous Delivery (CD) Pipeline
 ::
 #text-5
@@ -349,7 +349,7 @@ Create Continuous Delivery (CD) Pipeline
 After configuring the Kubernetes deployment, you can create a CD pipeline that will automate the process of deploying new versions of your application to the cluster whenever changes are made in the source code repository.
 ::
 #label-6
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Test locally
 ::
 #text-6
@@ -375,7 +375,7 @@ A Kubernetes-in-Kubernetes solution that was born from the idea to provide Getde
 Gefyra runs local code in any Kubernetes cluster without the build and push cycle. It overlays containers in the cluster making code changes immediately available.
 ::
 #label-7
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Deploy and monitor
 ::
 #text-7
