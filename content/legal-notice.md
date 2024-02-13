@@ -5,7 +5,7 @@ description: 'Contact details as well as the disclaimer of liability can be foun
 
 ::LegalWrapper
 
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{:size="lg" .mb-6}
 Legal Notice
 :::
 :::globalParagraph{.mb-4}

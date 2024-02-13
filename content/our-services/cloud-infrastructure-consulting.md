@@ -145,7 +145,7 @@ It’s important to note first that the “best” cloud infrastructure for your
 Here are key factors in considering a cloud service provider. These are all factors that Blueshoe considers when putting together recommendations and a decision tree:
 ::::
 #label-1
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Total cost of ownership
 ::
 #text-1
@@ -153,7 +153,7 @@ Total cost of ownership
 Ensure that the provider you choose not only meets your demands and requirements, but also falls within your budget.
 ::
 #label-2
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Security
 ::
 #text-2
@@ -161,7 +161,7 @@ Security
 Select a provider with maturity in their security operations and security governance processes. Understand what your service provider is responsible for and what you are responsible for. Finally, look at their compliance standards, certifications, and internal security audit reports to ensure they live up to their stated standards.
 ::
 #label-3
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Certification and standards
 ::
 #text-3
@@ -169,7 +169,7 @@ Certification and standards
 You want to work with providers that adhere to recognized best practices and standards. Cloud certifications include NIST, SNI, and ISO. Security certifications include CSA, ISO, SSAE 16, and HIPAA. Operations certifications include ISO, ITIL, FitSM, and IFPUG.
 ::
 #label-4
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Technology alignment
 ::
 #text-4
@@ -177,7 +177,7 @@ Technology alignment
 Do the provider’s cloud architectures, standards, and services match your management processes and workloads? Does the platform align with your environment and support both your business goals and cloud objectives?
 ::
 #label-5
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Dependencies and vendor relationships
 ::
 #text-5
@@ -185,7 +185,7 @@ Dependencies and vendor relationships
 A provider’s quality is only as good as its partnerships, so it’s important that providers partner with vendors that are accredited, capable, and certified. If they work with many levels of subcontractors, that can put the provider’s—and by extension, your—security and data governance at risk.
 ::
 #label-6
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Reliability and availability
 ::
 #text-6
@@ -193,7 +193,7 @@ Reliability and availability
 You want to work with providers that have as little downtime as possible. If a provider doesn’t publish their performance over the past year, they can furnish it upon request. The provider should also have customer communication plans documented to alert customers to timelines and security assessments.
 ::
 #label-7
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Ease of exit
 ::
 #text-7

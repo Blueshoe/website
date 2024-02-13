@@ -50,7 +50,7 @@ This Oscar is one heck of an independent chap
 Oscar provides an expandable code base that is inspired by the expertise of numerous small and large e-commerce projects. Extensive customisability, excellent documentation for developers as well as specific recommended solutions for common e-commerce problems make Oscar such a unique independent and open-source framework.
 ::::
 #label-1
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Flexibility & open source
 ::
 #text-1
@@ -59,7 +59,7 @@ Flexibility & open source
 - Independence with regard to IT support
 ::
 #label-2
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Option for customisation despite out-of-the-box
 ::
 #text-2
@@ -68,7 +68,7 @@ Option for customisation despite out-of-the-box
 - Commercial breaks, promotions, vouchers, multilingualism, price adjustment, customer hierarchy and much more
 ::
 #label-3
-::GlobalTitle{:size="md" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h4"}
 Comfortable shopping experience
 ::
 #text-3

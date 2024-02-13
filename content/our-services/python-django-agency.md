@@ -77,7 +77,7 @@ Quick summary
 Well-known web applications like Instagram and Pinterest were created using Django. Due to the large community, there is also a large pool of useful packages available (more than 3000) to speed up the development of new features significantly. What’s more, the helpfulness and friendliness among the community members is simply unique.
 ::::
 #label-1
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Django in a nutshell
 ::
 #text-1
@@ -90,7 +90,7 @@ Django in a nutshell
 ::
 
 #label-2
-::GlobalTitle{:color="text-white" :size="md" :tag="h4"}
+::GlobalTitle{:color="text-white" :size="sm" :tag="h4"}
 Programming with Python means
 ::
 #text-2
