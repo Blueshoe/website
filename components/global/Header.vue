@@ -11,11 +11,7 @@
           format="webp"
       /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight">
-        <button
-          v-if="isMobile"
-          class="text-black w-10 h-10 relative focus:outline-none bg-white"
-          @click="handleMobileMenu"
-        >
+        <button class="lg:hidden text-black w-10 h-10 relative focus:outline-none bg-white" @click="handleMobileMenu">
           <span class="sr-only">Open main menu</span>
           <div class="w-5 block absolute left-1/2 top-[40%] transform -translate-x-1/2 -translate-y-1/2">
             <span
@@ -35,7 +31,7 @@
             ></span>
           </div>
         </button>
-        <DesktopMenu v-if="isDesktop" />
+        <DesktopMenu class="hidden lg:flex" />
       </nav>
     </div>
     <MobileMenu v-if="isMobileMenuOpen" />
@@ -50,23 +46,9 @@ import DesktopMenu from '~/components/global/DesktopMenu.vue';
 import MobileMenu from '~/components/global/MobileMenu.vue';
 
 const generalStore = useGeneralStore();
-const { menu, isMobileMenuOpen } = storeToRefs(generalStore);
-
-const refNav = ref(null);
-const isMobile = ref(false);
-const isDesktop = ref(false);
-
-const updateWidth = () => {
-  isMobile.value = window.innerWidth < 1024;
-  isDesktop.value = window.innerWidth >= 1024;
-};
+const { isMobileMenuOpen } = storeToRefs(generalStore);
 
 const handleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
-
-onMounted(() => {
-  window.addEventListener('resize', updateWidth);
-  updateWidth();
-});
 </script>
