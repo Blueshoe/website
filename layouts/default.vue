@@ -45,7 +45,7 @@ onMounted(() => {
 const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
 const servicesData = ref(services.value);
 
-const { data: projects } = await useAsyncData('projects', () => queryContent('/our-services').find());
+const { data: projects } = await useAsyncData('projects', () => queryContent('/projects').find());
 const projectsData = ref(projects.value);
 
 const tools = await useAsyncData('tools', () => queryContent('/products').findOne());
