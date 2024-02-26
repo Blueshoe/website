@@ -19,7 +19,7 @@ description: 'Do you have a project where you need help from professionals?  Get
 
 ::GlobalSectionWithImage{:image="/img/contact/blue_shoes-28.jpg" :alt="blue shoes" :imagePosition="left" :isButton=true :bg="bg-bs-green"}
 
-:::GlobalContactCard{:title="Jobs and career" :tel="+4989954594230" :email="jobs@blueshoe.de" :color="text-white"}
+:::GlobalContactCard{:title="Jobs and career" :tel="+49 (0) 89 95 45 94 230" :email="jobs@blueshoe.de" :color="text-white"}
 
 :::
 ::
