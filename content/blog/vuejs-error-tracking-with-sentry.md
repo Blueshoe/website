@@ -315,7 +315,7 @@ There are a few things to consider here:
 Done! This is how Unikube’s frontend currently integrates Sentry to better understand errors, fix bugs faster and provide better support for our users.
 :::
 :::globalParagraph
-Let us know if you have any [questions, feedback](hello@blueshoe.io){.bs-link-blue} or maybe things we should consider to change. Thank you very much.
+Let us know if you have any [questions, feedback](/contact){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} or maybe things we should consider to change. Thank you very much.
 :::
 
 
