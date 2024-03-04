@@ -40,6 +40,46 @@ useHead({
     {
       name: 'description',
       content: 'Du willst wissen, was wir alles schon gemacht haben? Wirf einen Blick auf unsere Projekte!'
+    },
+    {
+      property: 'og:locale',
+      content: 'en_US'
+    },
+    {
+      property: 'og:type',
+      content: 'website'
+    },
+    {
+      property: 'og:title',
+      content: 'Unsere Projekte'
+    },
+    {
+      property: 'og:description',
+      content: 'Du willst wissen, was wir alles schon gemacht haben? Wirf einen Blick auf unsere Projekte!'
+    },
+    {
+      property: 'og:image',
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    },
+    {
+      property: 'og:image:secure_url',
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary'
+    },
+    {
+      name: 'twitter:title',
+      content: 'Unsere Projekte'
+    },
+    {
+      name: 'twitter:description',
+      content: 'Du willst wissen, was wir alles schon gemacht haben? Wirf einen Blick auf unsere Projekte!'
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
     }
   ]
 });

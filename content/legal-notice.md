@@ -1,6 +1,29 @@
 ---
-title: 'Legal notice'
-description: 'Contact details as well as the disclaimer of liability can be found in our legal notice.'
+head:
+  title: 'Legal notice'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Contact details as well as the disclaimer of liability can be found in our legal notice.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Legal notice'
+    - property: 'og:description'
+      content: 'Contact details as well as the disclaimer of liability can be found in our legal notice.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Legal notice'
+    - name: 'twitter:description'
+      content: 'Contact details as well as the disclaimer of liability can be found in our legal notice.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::LegalWrapper

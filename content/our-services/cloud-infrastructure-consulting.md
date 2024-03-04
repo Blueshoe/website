@@ -1,6 +1,29 @@
 ---
-title: 'Get the perfect cloud infrastructure set up with our neutral experts'
-description: 'We have no vendor deals and can neutrally help you figure out the best provider for your cloud infrastructure. We can also help you with the migration of your applications.'
+head:
+  title: 'Get the perfect cloud infrastructure set up with our neutral experts'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'We have no vendor deals and can neutrally help you figure out the best provider for your cloud infrastructure. We can also help you with the migration of your applications.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Get the perfect cloud infrastructure set up with our neutral experts'
+    - property: 'og:description'
+      content: 'We have no vendor deals and can neutrally help you figure out the best provider for your cloud infrastructure. We can also help you with the migration of your applications.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Get the perfect cloud infrastructure set up with our neutral experts'
+    - name: 'twitter:description'
+      content: 'We have no vendor deals and can neutrally help you figure out the best provider for your cloud infrastructure. We can also help you with the migration of your applications.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

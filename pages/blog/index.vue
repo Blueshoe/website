@@ -39,6 +39,48 @@ useHead({
       name: 'description',
       content:
         'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+    },
+    {
+      property: 'og:locale',
+      content: 'en_US'
+    },
+    {
+      property: 'og:type',
+      content: 'website'
+    },
+    {
+      property: 'og:title',
+      content: 'The Cloud Native Blog'
+    },
+    {
+      property: 'og:description',
+      content:
+        'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+    },
+    {
+      property: 'og:image',
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    },
+    {
+      property: 'og:image:secure_url',
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary'
+    },
+    {
+      name: 'twitter:title',
+      content: 'The Cloud Native Blog'
+    },
+    {
+      name: 'twitter:description',
+      content:
+        'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
     }
   ]
 });

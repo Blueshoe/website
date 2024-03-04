@@ -1,6 +1,29 @@
 ---
-title: 'Python and django development by THE experts'
-description: 'We are your partner for efficient software development with Python and Django. On time and on budget. ✅ Modern ✅ Scalable ✅ Fast'
+head:
+  title: 'Python and django development by THE experts'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'We are your partner for efficient software development with Python and Django. On time and on budget. ✅ Modern ✅ Scalable ✅ Fast'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Python and django development by THE experts'
+    - property: 'og:description'
+      content: 'We are your partner for efficient software development with Python and Django. On time and on budget. ✅ Modern ✅ Scalable ✅ Fast'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Python and django development by THE experts'
+    - name: 'twitter:description'
+      content: 'We are your partner for efficient software development with Python and Django. On time and on budget. ✅ Modern ✅ Scalable ✅ Fast'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

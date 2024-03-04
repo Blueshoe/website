@@ -1,6 +1,29 @@
 ---
-title: 'Individual headless e-commerce systems'
-description: 'We build your super fast online shop. ✅ Lightning fast ✅ Robust ✅ Scalable | Find out more about state-of-the-art e-commerce.'
+head:
+  title: 'Individual headless e-commerce systems'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'We build your super fast online shop. ✅ Lightning fast ✅ Robust ✅ Scalable | Find out more about state-of-the-art e-commerce.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Individual headless e-commerce systems'
+    - property: 'og:description'
+      content: 'We build your super fast online shop. ✅ Lightning fast ✅ Robust ✅ Scalable | Find out more about state-of-the-art e-commerce.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Individual headless e-commerce systems'
+    - name: 'twitter:description'
+      content: 'We build your super fast online shop. ✅ Lightning fast ✅ Robust ✅ Scalable | Find out more about state-of-the-art e-commerce.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections
