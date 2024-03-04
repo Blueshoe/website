@@ -1,6 +1,29 @@
 ---
-title: 'We help you automate your development and release workflows'
-description: 'Great automation helps you save costs while dramatically improving development and release velocity. Let us guide you towards your automated future.'
+head:
+  title: 'We help you automate your development and release workflows'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Great automation helps you save costs while dramatically improving development and release velocity. Let us guide you towards your automated future.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'We help you automate your development and release workflows'
+    - property: 'og:description'
+      content: 'Great automation helps you save costs while dramatically improving development and release velocity. Let us guide you towards your automated future.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'We help you automate your development and release workflows'
+    - name: 'twitter:description'
+      content: 'Great automation helps you save costs while dramatically improving development and release velocity. Let us guide you towards your automated future.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

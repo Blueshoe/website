@@ -1,4 +1,29 @@
 ---
+head:
+  title: 'Exploring Telepresence’s Docker Desktop Extension'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: "Telepresence's Docker Desktop Extension currently has limited capabilities, but with their partnership with Docker, future upgrades are expected. Find out more!"
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Exploring Telepresence’s Docker Desktop Extension'
+    - property: 'og:description'
+      content: "Telepresence's Docker Desktop Extension currently has limited capabilities, but with their partnership with Docker, future upgrades are expected. Find out more!"
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Exploring Telepresence’s Docker Desktop Extension'
+    - name: 'twitter:description'
+      content: "Telepresence's Docker Desktop Extension currently has limited capabilities, but with their partnership with Docker, future upgrades are expected. Find out more!"
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/telepresences-docker-desktop-extension'
 img: '/img/blogs/gefyra-telepresence.jpg'
 alt: 'gefyra telepresence'
