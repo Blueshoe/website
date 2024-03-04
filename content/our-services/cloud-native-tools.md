@@ -1,6 +1,29 @@
 ---
-title: 'Cloud native tools. We help you implement the perfect toolchain'
-description: 'Using software tools for streamlining your development and deployment processes is essentiell. We help you figure out the best setup for your team.'
+head:
+  title: 'Cloud native tools. We help you implement the perfect toolchain'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Using software tools for streamlining your development and deployment processes is essentiell. We help you figure out the best setup for your team.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Cloud native tools. We help you implement the perfect toolchain'
+    - property: 'og:description'
+      content: 'Using software tools for streamlining your development and deployment processes is essentiell. We help you figure out the best setup for your team.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Cloud native tools. We help you implement the perfect toolchain'
+    - name: 'twitter:description'
+      content: 'Using software tools for streamlining your development and deployment processes is essentiell. We help you figure out the best setup for your team.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

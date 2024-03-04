@@ -1,7 +1,31 @@
 ---
-title: 'Our Kubernetes-Podcast: Tools for the craft - Navigating the Kubernetes Ecosystem'
-description: "If you find yourself lost in the perplexing labyrinth of Kubernetes development, fear not, for there are tools to guide you through. 'Tools for the craft: navigating the Kubernetes ecosystem' is a podcast that shines a light on the path ahead, illuminating the twists and turns of this complex ecosystem."
+head:
+  title: 'Our Kubernetes-Podcast: Tools for the craft - Navigating the Kubernetes Ecosystem'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: "If you find yourself lost in the perplexing labyrinth of Kubernetes development, fear not, for there are tools to guide you through. 'Tools for the craft: navigating the Kubernetes ecosystem' is a podcast that shines a light on the path ahead, illuminating the twists and turns of this complex ecosystem."
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Our Kubernetes-Podcast: Tools for the craft - Navigating the Kubernetes Ecosystem'
+    - property: 'og:description'
+      content: "If you find yourself lost in the perplexing labyrinth of Kubernetes development, fear not, for there are tools to guide you through. 'Tools for the craft: navigating the Kubernetes ecosystem' is a podcast that shines a light on the path ahead, illuminating the twists and turns of this complex ecosystem."
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Our Kubernetes-Podcast: Tools for the craft - Navigating the Kubernetes Ecosystem'
+    - name: 'twitter:description'
+      content: "If you find yourself lost in the perplexing labyrinth of Kubernetes development, fear not, for there are tools to guide you through. 'Tools for the craft: navigating the Kubernetes ecosystem' is a podcast that shines a light on the path ahead, illuminating the twists and turns of this complex ecosystem."
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
+
 ::GlobalSimpleSection{:bg="bg-white"}
 :::GlobalPreTitle{.mb-3}
 THIS IS WHERE WE TALK ABOUT INTERESTING TOPICS WITHIN KUBERNETES ECOSYSTEM
