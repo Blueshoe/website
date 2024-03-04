@@ -1,6 +1,29 @@
 ---
-title: 'Cloud Native Consulting and Application Development'
-description: 'Experts for Cloud Native architectures and application development. We help you on the path to become a fully cloud native company.'
+head:
+  title: Cloud Native Consulting and Application Development
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Experts for Cloud Native architectures and application development. We help you on the path to become a fully cloud native company.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Cloud Native Consulting and Application Development'
+    - property: 'og:description'
+      content: 'Experts for Cloud Native architectures and application development. We help you on the path to become a fully cloud native company.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Cloud Native Consulting and Application Development'
+    - name: 'twitter:description'
+      content: 'Experts for Cloud Native architectures and application development. We help you on the path to become a fully cloud native company.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 ::GlobalWrapperMain{:leftNavigationCard=-180}
 

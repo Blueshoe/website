@@ -1,4 +1,29 @@
 ---
+head:
+  title: "PHP or Python? Let's compare!"
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Why does Blueshoe trust in Django and Python even though PHP is much more widespread? In this article, we’ll compare Python and Django with PHP.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: "PHP or Python? Let's compare!"
+    - property: 'og:description'
+      content: 'Why does Blueshoe trust in Django and Python even though PHP is much more widespread? In this article, we’ll compare Python and Django with PHP.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: "PHP or Python? Let's compare!"
+    - name: 'twitter:description'
+      content: 'Why does Blueshoe trust in Django and Python even though PHP is much more widespread? In this article, we’ll compare Python and Django with PHP.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/php-vs-python'
 img: '/img/blogs/php-vs-python.jpg'
 alt: 'PHP or Python'
