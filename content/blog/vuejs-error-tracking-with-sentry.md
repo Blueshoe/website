@@ -316,10 +316,11 @@ Done! This is how Unikube’s frontend currently integrates Sentry to better und
 :::
 :::globalParagraph
 Let us know if you have any questions, feedback or maybe things we should consider to change. Thank you very much.
-#button
+:::
+
 ::GlobalButton{:url="/contact" :label="Contact us" :color="blue"}
 ::
-:::
+
 
 :::BlogRelatedPosts{:url='["/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/performance-comparison-gke-vs-eks", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/strategies-for-slim-docker-images"]'}
 
