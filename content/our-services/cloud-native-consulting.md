@@ -49,7 +49,7 @@ Your Skilled Team of Cloud Native Consultants
 Blueshoe builds and optimizes your cloud native strategy so your teams and business run smoothly.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :target="_blank"}
 ::
 :::
 

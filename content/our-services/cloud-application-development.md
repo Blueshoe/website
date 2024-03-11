@@ -62,7 +62,7 @@ Why do you need a cloud application development agency?
 As your cloud application development agency, we strongly believe in the benefits of cloud applications that enable you to make your applications more reliable, scalable and manageable - all while reducing overall costs. We see cloud applications as an opportunity that allows you to focus on your product, service or idea. Why spend your time on technical details that have already been solved and optimized by others? Instead, we help you to take full advantage of cloud applications.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :target="_blank"}
 ::
 :::
 

@@ -207,7 +207,7 @@ Despite its advantages, Docker Compose has some drawbacks that make it less suit
 Despite these drawbacks, many companies still use Docker Compose legacy setups due to its ease of use and familiarity. This is especially true for smaller organizations that don't have the resources or expertise needed to migrate their existing applications to more modern solutions such as Kubernetes.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :target="_blank"}
 ::
 :::
 
@@ -231,7 +231,7 @@ Overall, Kompose is a great solution for companies that are looking to migrate f
 Our experts can help you with your migration using kompose.io. Let's talk about it.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Talk to us" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Talk to us" :target="_blank"}
 ::
 :::
 
