@@ -140,7 +140,7 @@ Summary
 **If there are explicit requirements of on-premise hosting** or valid reasons to run Kubernetes in your own data centre, then there’s **no getting around unmanaged Kubernetes.**
 :::
 :::globalParagraph
-Good to know: When it comes to <a href="https://unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Unikube</a>, the issue of ‘managed vs. unmanaged Kubernetes’ isn’t even a problem in the first place. Whether in its entirety or only partially managed, unmanaged or even just simulated locally with Unikube, it doesn’t matter how the K8s cluster was installed.
+Good to know: When it comes to [Unikube](/products){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, the issue of ‘managed vs. unmanaged Kubernetes’ isn’t even a problem in the first place. Whether in its entirety or only partially managed, unmanaged or even just simulated locally with Unikube, it doesn’t matter how the K8s cluster was installed.
 :::
 
 
