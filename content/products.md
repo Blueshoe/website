@@ -67,7 +67,7 @@ Gefyra
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/unikube-logo.svg" :href="https://unikube.io/" :target="_blank"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/unikube-logo.svg"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Streamlining K8s development processes
 :::
@@ -80,7 +80,7 @@ Unikube
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="https://unikube.io/" :target="_blank"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Fit Django perfectly with K8s
 :::
