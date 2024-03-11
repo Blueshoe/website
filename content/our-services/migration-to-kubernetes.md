@@ -1,6 +1,29 @@
 ---
-title: 'Migration to Kubernetes with our expert help'
-description: 'We help you plan and implement your Kubernetes migrations and moving your legacy applications into the cloud native sphere.'
+head:
+  title: 'Migration to Kubernetes with our expert help'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'We help you plan and implement your Kubernetes migrations and moving your legacy applications into the cloud native sphere.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Migration to Kubernetes with our expert help'
+    - property: 'og:description'
+      content: 'We help you plan and implement your Kubernetes migrations and moving your legacy applications into the cloud native sphere.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Migration to Kubernetes with our expert help'
+    - name: 'twitter:description'
+      content: 'We help you plan and implement your Kubernetes migrations and moving your legacy applications into the cloud native sphere.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

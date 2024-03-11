@@ -1,6 +1,29 @@
 ---
-title: 'Headless CMS - We develop State-of-the-Art'
-description: 'We develop websites with the headless cms approach. ✅ super fast ✅ rock solid ✅ scalable ✅ expandable. Find out more!'
+head:
+  title: 'Headless CMS - We develop State-of-the-Art'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'We develop websites with the headless cms approach. ✅ super fast ✅ rock solid ✅ scalable ✅ expandable. Find out more!'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Headless CMS - We develop State-of-the-Art'
+    - property: 'og:description'
+      content: 'We develop websites with the headless cms approach. ✅ super fast ✅ rock solid ✅ scalable ✅ expandable. Find out more!'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Headless CMS - We develop State-of-the-Art'
+    - name: 'twitter:description'
+      content: 'We develop websites with the headless cms approach. ✅ super fast ✅ rock solid ✅ scalable ✅ expandable. Find out more!'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

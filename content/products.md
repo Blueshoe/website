@@ -1,6 +1,29 @@
 ---
-title: 'Our Open Source Tools'
-description: ''
+head:
+  title: Our Open Source Tools
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Our Open Source Tools'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Our Open Source Tools'
+    - property: 'og:description'
+      content: 'Our Open Source Tools'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Our Open Source Tools'
+    - name: 'twitter:description'
+      content: 'Our Open Source Tools'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalSimpleSection{:bg="bg-white"}

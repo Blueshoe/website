@@ -1,6 +1,29 @@
 ---
-title: 'Cloud native consulting'
-description: 'Cloud Native Consulting. We help you setting up your cloud native strategy.  ✅ Dev process ✅ Migration to K8s ✅ Cloud Migration'
+head:
+  title: 'Cloud native consulting'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Cloud Native Consulting. We help you setting up your cloud native strategy.  ✅ Dev process ✅ Migration to K8s ✅ Cloud Migration'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Cloud native consulting'
+    - property: 'og:description'
+      content: 'Cloud Native Consulting. We help you setting up your cloud native strategy.  ✅ Dev process ✅ Migration to K8s ✅ Cloud Migration'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Cloud native consulting'
+    - name: 'twitter:description'
+      content: 'Cloud Native Consulting. We help you setting up your cloud native strategy.  ✅ Dev process ✅ Migration to K8s ✅ Cloud Migration'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

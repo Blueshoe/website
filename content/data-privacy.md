@@ -1,6 +1,29 @@
 ---
-title: 'Data Privacy'
-description:
+head:
+  title: Data Privacy
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Data Privacy'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Data Privacy'
+    - property: 'og:description'
+      content: 'Data Privacy'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Data Privacy'
+    - name: 'twitter:description'
+      content: 'Data Privacy'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::PrivacyWrapper
