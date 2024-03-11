@@ -4,7 +4,7 @@ description: 'Do you have a project where you need help from professionals?  Get
 ---
 
 ::GlobalSectionWithImage{:image="/img/contact/blue_shoes-61.jpg" :alt="blue shoes" :imagePosition="left" :isButton=true :bg="bg-bs-blue"}
-:::GlobalContactCard{:title="Project enquiries" :tel="+498954198422" :email="project@blueshoe.de" :color="text-white" :isButton=true}
+:::GlobalContactCard{:title="Project enquiries" :tel="+498954198422" :email="project@blueshoe.io" :color="text-white" :isButton=true}
 
 #button
 ::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :color="green" :target="_blank"}
