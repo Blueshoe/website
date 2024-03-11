@@ -52,7 +52,7 @@ Tooling in software development is the set of tools used to develop, deploy, and
 Additionally, having the right tools in place can help provide visibility into the health and performance of applications as well as automate tasks such as deployment, configuration management, and service mesh management.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :target="_blank"}
 ::
 :::
 

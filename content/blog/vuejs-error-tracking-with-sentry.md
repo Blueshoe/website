@@ -57,7 +57,7 @@ When it comes to error tracking in our Cloud Native applications Sentry has beco
 General information & dependencies
 :::
 :::globalParagraph
-Unikube’s <a href="https://app.unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">frontend</a> provides a UI to our many backend microservices. All our microservices are equipped with GraphQL interfaces which are then federated via <a href="https://www.apollographql.com/docs/federation/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Apollo Federation</a>. This gives us the convenience of consuming the whole (external) graph through one endpoint. The frontend itself is a monolithic single page application, built with TypeScript on top of VueJS and Vuetify. We have included internationalisation via <a href="https://kazupon.github.io/vue-i18n/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">vue-i18n</a> and frontend permission management through <a href="https://casl.js.org/v5/en/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">CASL</a>.
+[Unikube’s frontend](/products){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} provides a UI to our many backend microservices. All our microservices are equipped with GraphQL interfaces which are then federated via <a href="https://www.apollographql.com/docs/federation/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Apollo Federation</a>. This gives us the convenience of consuming the whole (external) graph through one endpoint. The frontend itself is a monolithic single page application, built with TypeScript on top of VueJS and Vuetify. We have included internationalisation via <a href="https://kazupon.github.io/vue-i18n/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">vue-i18n</a> and frontend permission management through <a href="https://casl.js.org/v5/en/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">CASL</a>.
 :::
 :::globalParagraph
 When it comes to error tracking we have included Sentry’s SDK, which already includes a beautiful integration for VueJS.
@@ -340,8 +340,11 @@ There are a few things to consider here:
 Done! This is how Unikube’s frontend currently integrates Sentry to better understand errors, fix bugs faster and provide better support for our users.
 :::
 :::globalParagraph
-Let us know if you have any [questions, feedback](coffee@unikube.io){.bs-link-blue} or maybe things we should consider to change. Thank you very much.
+Let us know if you have any questions, feedback or maybe things we should consider to change. Thank you very much.
 :::
+
+::GlobalButton{:url="/contact" :label="Contact us" :color="blue"}
+::
 
 
 :::BlogRelatedPosts{:url='["/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/performance-comparison-gke-vs-eks", "/blog/local-kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/strategies-for-slim-docker-images"]'}
