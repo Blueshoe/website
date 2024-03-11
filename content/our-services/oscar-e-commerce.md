@@ -1,6 +1,29 @@
 ---
-title: 'Oscar E-Commerce | We are experts in e-commerce development'
-description: 'Oscar is a django based e-commerce framework, made for very individual shopping experiences.  ✅ Scalable ✅ Fast ✅ State-of-the-art'
+head:
+  title: 'Oscar E-Commerce | We are experts in e-commerce development'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Oscar is a django based e-commerce framework, made for very individual shopping experiences.  ✅ Scalable ✅ Fast ✅ State-of-the-art'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Oscar E-Commerce | We are experts in e-commerce development'
+    - property: 'og:description'
+      content: 'Oscar is a django based e-commerce framework, made for very individual shopping experiences.  ✅ Scalable ✅ Fast ✅ State-of-the-art'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Oscar E-Commerce | We are experts in e-commerce development'
+    - name: 'twitter:description'
+      content: 'Oscar is a django based e-commerce framework, made for very individual shopping experiences.  ✅ Scalable ✅ Fast ✅ State-of-the-art'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

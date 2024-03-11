@@ -1,4 +1,29 @@
 ---
+head:
+   title: 'Requirements analysis in project management'
+   meta:
+      - property: 'og:locale'
+        content: 'en_US'
+      - name: 'description'
+        content: "The magic triangle of project management! Find out how to align client's wishes, requirements and project planning."
+      - property: 'og:type'
+        content: 'website'
+      - property: 'og:title'
+        content: 'Requirements analysis in project management'
+      - property: 'og:description'
+        content: "The magic triangle of project management! Find out how to align client's wishes, requirements and project planning."
+      - property: 'og:image'
+        content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      - property: 'og:image:secure_url'
+        content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      - name: 'twitter:card'
+        content: 'summary'
+      - name: 'twitter:title'
+        content: 'Requirements analysis in project management'
+      - name: 'twitter:description'
+        content: "The magic triangle of project management! Find out how to align client's wishes, requirements and project planning."
+      - name: 'twitter:image'
+        content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/requirements-analysis-in-project-management'
 img: '/img/blogs/requirements-analysis-in-project-management.jpg'
 alt: 'Requirements analysis in project management'

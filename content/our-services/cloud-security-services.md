@@ -1,6 +1,29 @@
 ---
-title: 'Cloud security services for your  business. Better safe than sorry.'
-description: 'Blueshoe develops tailored strategies for your business to ensure end-to-end workload security. Contact us today and let us assess your needs together.'
+head:
+  title: 'Cloud security services for your  business. Better safe than sorry.'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Blueshoe develops tailored strategies for your business to ensure end-to-end workload security. Contact us today and let us assess your needs together.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'Cloud security services for your  business. Better safe than sorry.'
+    - property: 'og:description'
+      content: 'Blueshoe develops tailored strategies for your business to ensure end-to-end workload security. Contact us today and let us assess your needs together.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'Cloud security services for your  business. Better safe than sorry.'
+    - name: 'twitter:description'
+      content: 'Blueshoe develops tailored strategies for your business to ensure end-to-end workload security. Contact us today and let us assess your needs together.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections

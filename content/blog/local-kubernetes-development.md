@@ -1,4 +1,32 @@
 ---
+head:
+  title: 'How does local Kubernetes development work?'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'You want to know more about local Kubernetes development? We explain key facts with code examples.
+✔ Local Kubernetes ✔ Helm ✔ Telepresence ✔ Cloud Native'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'How does local Kubernetes development work?'
+    - property: 'og:description'
+      content: 'You want to know more about local Kubernetes development? We explain key facts with code examples.
+✔ Local Kubernetes ✔ Helm ✔ Telepresence ✔ Cloud Native'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'How does local Kubernetes development work?'
+    - name: 'twitter:description'
+      content: 'You want to know more about local Kubernetes development? We explain key facts with code examples.
+✔ Local Kubernetes ✔ Helm ✔ Telepresence ✔ Cloud Native'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/local-kubernetes-development'
 img: '/img/blogs/local-kubernetes-development.jpg'
 alt: 'How does local Kubernetes development work?'

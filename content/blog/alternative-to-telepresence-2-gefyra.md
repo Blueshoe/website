@@ -1,4 +1,29 @@
 ---
+head:
+  title: 'An alternative to Telepresence 2: Gefyra'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: "If you worked with Telepresence you know it's a great tool with a few issues. We set out to make Gefyra a viable more lightweight alternative."
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'An alternative to Telepresence 2: Gefyra'
+    - property: 'og:description'
+      content: "If you worked with Telepresence you know it's a great tool with a few issues. We set out to make Gefyra a viable more lightweight alternative."
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'An alternative to Telepresence 2: Gefyra'
+    - name: 'twitter:description'
+      content: "If you worked with Telepresence you know it's a great tool with a few issues. We set out to make Gefyra a viable more lightweight alternative."
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/alternative-to-telepresence-2-gefyra'
 img: '/img/blogs/alternative-to-telepresence-2-gefyra.jpg'
 alt: 'An alternative to Telepresence 2: Gefyra'

@@ -1,4 +1,29 @@
 ---
+head:
+  title: "Virtualized Kubernetes: comparing vcluster and Getdeck"
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'Compare vcluster and Getdeck to optimize your K8s setup. Learn how virtualized K8s boosts resource use, reduces costs, and streamlines development.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: "Virtualized Kubernetes: comparing vcluster and Getdeck"
+    - property: 'og:description'
+      content: 'Compare vcluster and Getdeck to optimize your K8s setup. Learn how virtualized K8s boosts resource use, reduces costs, and streamlines development.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: "Virtualized Kubernetes: comparing vcluster and Getdeck"
+    - name: 'twitter:description'
+      content: 'Compare vcluster and Getdeck to optimize your K8s setup. Learn how virtualized K8s boosts resource use, reduces costs, and streamlines development.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/virtualized-kubernetes-comparing-vcluster-getdeck'
 img: '/img/blogs/kubernetes-vcluster-getdeck.jpg'
 alt: 'kubernetes vcluster getdeck'

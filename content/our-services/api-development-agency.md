@@ -1,6 +1,29 @@
 ---
-title: 'We help building the APIs for your service based architectures'
-description: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+head:
+  title: 'We help building the APIs for your service based architectures'
+  meta:
+    - property: 'og:locale'
+      content: 'en_US'
+    - name: 'description'
+      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+    - property: 'og:type'
+      content: 'website'
+    - property: 'og:title'
+      content: 'We help building the APIs for your service based architectures'
+    - property: 'og:description'
+      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+    - property: 'og:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - property: 'og:image:secure_url'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+    - name: 'twitter:card'
+      content: 'summary'
+    - name: 'twitter:title'
+      content: 'We help building the APIs for your service based architectures'
+    - name: 'twitter:description'
+      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+    - name: 'twitter:image'
+      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections
