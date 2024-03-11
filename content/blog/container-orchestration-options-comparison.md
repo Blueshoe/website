@@ -195,7 +195,7 @@ Conclusion
 Of course, we would like to give a recommendation of what your choice should be but that is unfortunately impossible as this is completely depending on your individual requirements. However, in general we would say, if you want to be ready for the future, go with one of the possible setups that entail a Kubernetes infrastructure. We also did that switch once and never looked back since.
 :::
 :::globalParagraph
-Also, check out <a href="https://unikube.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Unikube</a>, which makes Kubernetes really accessible for your developers. [Cloud Native Development](/blog/evolution-of-application-development-to-cloud-native/){.bs-link-blue} out of the box, so to say.
+Also, check out [Unikube](/products){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, which makes Kubernetes really accessible for your developers. [Cloud Native Development](/blog/evolution-of-application-development-to-cloud-native/){.bs-link-blue} out of the box, so to say.
 :::
 
 
