@@ -72,7 +72,7 @@ Quick summary:
 - Benefits thanks to open source
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a consultation!" :color="green" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a consultation!" :color="green" :target="_blank"}
 ::
 :::
 

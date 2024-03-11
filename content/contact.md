@@ -30,7 +30,7 @@ head:
 :::GlobalContactCard{:title="Project enquiries" :tel="+4989954594230" :email="projekt@blueshoe.de" :color="text-white" :isButton=true}
 
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :color="green" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :color="green" :target="_blank"}
 ::
 :::
 ::
