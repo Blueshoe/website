@@ -49,7 +49,7 @@ Why microservice architectures make sense
 Microservices architecture is an architectural design choice. It structures an application into a collection of fine-grained microservices, which are responsible for specific parts of the application. Many digitally focused organizations have adopted a microservices architecture as it gives them increased freedom and performance with respect to software development: Freedom to make decisions, react to necessary changes, or adopt and embrace new technologies. Performance, as it allows to deliver value to customers faster.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a meeting" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :target="_blank"}
 ::
 :::
 

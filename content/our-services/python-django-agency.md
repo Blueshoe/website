@@ -142,7 +142,7 @@ You see, there’s a reason why our agency uses Python and Django for developmen
 When developing software, it’s important to get support from an experienced partner. It’s the only way to optimally utilise the many benefits that Python and Django offer. Our agency in Munich supports you by applying Django’s functions efficiently and by integrating them into your web application. No matter the size of your project, we are your constant advisor and consult you throughout the journey – from concept to implementation and all the way to the maintenance of your website. It’s how we create sustainable software together.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Book a consultation" :color="green" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a consultation" :color="green" :target="_blank"}
 ::
 :::
 
