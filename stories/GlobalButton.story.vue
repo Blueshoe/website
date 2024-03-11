@@ -1,15 +1,25 @@
 <script lang="ts" setup>
-const props = [
+import { reactive } from 'vue';
+const props = reactive([
   { label: 'Button 1', url: '#', color: 'blue', target: '_blank' },
   { label: 'Button 2', url: '#', color: 'green', target: '_self' },
   { label: 'Button 3', url: '#', color: 'black', target: '_blank' }
-];
-
-function initState() {
-  return { label: 'Reactive', url: '#', color: 'blue', target: '_blank' };
-}
-const state = reactive({ label: 'Reactive', url: '#', color: 'blue', target: '_blank' });
+]);
 </script>
+
+<template>
+  <Story title="GlobalButton" :layout="{ type: 'grid', width: '100%' }">
+    <Variant v-for="(propVariant, key) of props" :key="key" :title="'Variant ' + (key + 1)">
+      <GlobalButton
+        v-bind="{
+          ...propVariant,
+          color: propVariant.color as 'blue' | 'green' | 'black' | undefined,
+          target: propVariant.target as '_blank' | '_self' | undefined
+        }"
+      />
+    </Variant>
+  </Story>
+</template>
 
 <docs lang="md">
 # GlobalButton
@@ -26,21 +36,12 @@ Global button component
 ## Slots
 
 - No slots
+
+## MD files usage
+
+```
+::GlobalButton{:label="label" :url="url" :color="color" :target="target"}
+
+::
+```
 </docs>
-
-<template>
-  <Story title="GlobalButton" :layout="{ type: 'grid', width: '200px' }">
-    <Variant title="Reactive">
-      <GlobalButton :color="state.color">
-        {{ state.content }}
-      </GlobalButton>
-      <template #controls>
-        <HstText v-model="state.color" title="Color" />
-      </template>
-    </Variant>
-
-    <Variant v-for="(propVariant, key) of props" :key="key" :title="'Variant' + key">
-      <GlobalButton v-bind="propVariant" />
-    </Variant>
-  </Story>
-</template>
