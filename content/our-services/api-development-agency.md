@@ -54,7 +54,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 ::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="Why do we need APIs?"}
+:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
 ::::GlobalTitle{.mb-6}
 What is API development and why is it important?
 ::::
