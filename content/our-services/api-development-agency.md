@@ -30,35 +30,39 @@ head:
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
 ::::GlobalPageTitle{.mb-6}
-Your agency for API development
+API development services
 ::::
 ::::globalParagraph
-Discover and implement an API strategy for your applications
+Discover and implement an API-first strategy for your applications
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:title="Everything about APIs"}
+:::GlobalServicesNavigationCard{:title="API-first driven development "}
 
 :::
 
 :::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-42.jpg" :isButton=true}
 ::::GlobalTitle{.mb-6}
-Don't worry, go API
+Discover our API development and integration services
 ::::
 ::::GlobalParagraph
-Figuring out the right architecture for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
+Figuring out the right [architecture](our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+ for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Reach out to us" :color="blue" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6 " :label="Reach out to us" :color="blue" :target="_blank"}
 ::
 :::
 
 :::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="Why do we need APIs?"}
 ::::GlobalTitle{.mb-6}
-Why do we need APIs
+What is API development and why is it important?
 ::::
 ::::GlobalParagraph
-Many applications require some kind of application programming interface (API), which enables communication with internal or external services/applications. In contrast to user interfaces, APIs connect servers and software components with each other. Thus, often they are not actively perceived by end users, as there is no direct interaction. However, APIs play an important role in modern application architectures, such as microservices architecture, as they can definitely impact the overall user experience. Most applications, even seemingly small and medium sized ones, are by fact distributed systems that communicate over networks. This communication using APIs is of utmost importance for the development of functioning applications.
+API Development refers to the process of creating Application Programming Interfaces (APIs) that enable software applications to communicate and interact with each other. APIs serve as a bridge, allowing different software systems to connect and exchange data seamlessly. This is crucial in today's interconnected digital ecosystem, where the ability to integrate various technologies is key to operational efficiency and innovation.
+
+APIs are essential because they allow for the expansion of functionalities without having to create new systems from scratch. They enable businesses to leverage existing applications, enhancing user experience and streamlining operations. In the realm of modern business and technology landscapes, APIs are pivotal for integrating diverse systems - from cloud services to mobile applications, and everything in between.
+
 ::::
 :::
 
