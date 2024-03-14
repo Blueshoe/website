@@ -7,9 +7,7 @@
     </div>
 
     <div class="hidden">
-      <a v-for="(link, i) in servicesData" :key="i" :href="link._path">{{ link._id }}</a>
-      <a v-for="(link, i) in blogssData" :key="i" :href="link._path">{{ link._id }}</a>
-      <a v-for="(link, i) in projectsData" :key="i" :href="link._path">{{ link._id }}</a>
+      <a v-for="(link, i) in allPages" :key="i" :href="link._path">{{ link._id }}</a>
       <img v-for="(img, i) in images" :key="i" :src="img.src" :alt="img.alt" />
     </div>
 
@@ -42,20 +40,7 @@ onMounted(() => {
   }
 });
 
-const { data: services } = await useAsyncData('services', () => queryContent('/our-services').find());
-const servicesData = ref(services.value);
-
-const { data: projects } = await useAsyncData('projects', () => queryContent('/projects').find());
-const projectsData = ref(projects.value);
-
-const tools = await useAsyncData('tools', () => queryContent('/products').findOne());
-const podcast = await useAsyncData('podcast', () => queryContent('/podcast').findOne());
-const aboutUS = await useAsyncData('aboutUs', () => queryContent('/about-us').findOne());
-
-const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
-const blogssData = ref(blogs.value);
-
-const contacts = await useAsyncData('contacts', () => queryContent('/contact').findOne());
+const { data: allPages } = await useAsyncData('all', () => queryContent().find());
 
 useHead({
   titleTemplate: (titleChunk: string) => {
