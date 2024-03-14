@@ -33,9 +33,14 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
 import { useGeneralStore } from '~/store';
+import { baseURL } from '~/constants';
+
+const route = useRoute();
+const url = ref(route.fullPath);
 
 useHead({
   title: 'Unsere Projekte',
+  link: [{ rel: 'canonical', href: `${baseURL + url.value}` }],
   meta: [
     {
       name: 'description',

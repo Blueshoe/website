@@ -23,6 +23,13 @@
 </template>
 
 <script setup lang="ts">
+import { baseURL } from '~/constants';
+
 const route = useRoute();
 const { data } = await useAsyncData(route.fullPath, () => queryContent(route.fullPath).findOne());
+
+const url = ref(route.fullPath);
+useHead({
+  link: [{ rel: 'canonical', href: `${baseURL + url.value}` }]
+});
 </script>
