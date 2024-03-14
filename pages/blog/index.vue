@@ -31,9 +31,14 @@
 import { storeToRefs } from 'pinia';
 import { useGeneralStore } from '~/store';
 import { convertToDate } from '~/utils/convertToDate';
+import { baseURL } from '~/constants';
+
+const route = useRoute();
+const url = ref(route.fullPath);
 
 useHead({
   title: 'The Cloud Native Blog',
+  link: [{ rel: 'canonical', href: `${baseURL + url.value}` }],
   meta: [
     {
       name: 'description',
@@ -94,5 +99,6 @@ onMounted(async () => {
     return convertToDate(b.date) - convertToDate(a.date);
   });
   initialSorting.value = sortedItems.value;
+  console.log('sortedItems', sortedItems.value);
 });
 </script>
