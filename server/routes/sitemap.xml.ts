@@ -10,13 +10,13 @@ export default defineEventHandler(async (event) => {
 
   for (const doc of docs) {
     sitemap.write({
-      url: doc._path,
+      url: doc._path === '/' ? '/' : doc._path + '/',
       changefreq: 'monthly'
     });
   }
 
   sitemap.write({
-    url: '/blog',
+    url: '/blog/',
     changefreq: 'monthly'
   });
 
