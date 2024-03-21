@@ -225,7 +225,7 @@ Michael and Robert are talking about the various options developers have for run
 ::::globalParagraph{:font-size="lg" }
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcasts!" :color="green"}
 ::::
 :::
 
@@ -343,7 +343,7 @@ Done! This is how Unikube’s frontend currently integrates Sentry to better und
 Let us know if you have any questions, feedback or maybe things we should consider to change. Thank you very much.
 :::
 
-::GlobalButton{:url="/contact" :label="Contact us" :color="blue"}
+::GlobalButton{:url="/contact/" :label="Contact us" :color="blue"}
 ::
 
 

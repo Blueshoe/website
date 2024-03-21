@@ -52,7 +52,7 @@ The cloud infrastructure that works for one organization likely won’t work for
 Blueshoe understands your business, analyzes your needs, makes recommendations for providers, helps integrate a development process, and migrates your applications to the cloud.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -245,7 +245,7 @@ Let us help you
 Ready to get started on your cloud infrastructure and migration journey? Let’s talk
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -296,7 +296,7 @@ Pssst! We have already worked in the field of cloud-native for a well-known car 
 Secret Projects
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 :::
@@ -314,7 +314,7 @@ In the second edition of our podcast "Tools for the Craft - Navigating the Kuber
 ::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcasts!" :color="green"}
 ::::
 :::
 

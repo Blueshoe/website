@@ -52,7 +52,7 @@ Developing good web applications poses a new challenge time and time again. In t
 Our agency for cloud native development in Munich helps you to meet these standards and to implement individual wishes. Unlike many of our competitors, however, we don’t rely on PHP when implementing our projects. Instead, we trust in the programming language Python and the web framework Django. These two technologies are much better suited to **solid and future-oriented** software.
 ::::
 #button
-::GlobalButton{:url="/blog" :label="Find out more about our technologies in our blog"}
+::GlobalButton{:url="/blog/" :label="Find out more about our technologies in our blog"}
 ::
 :::
 
@@ -239,7 +239,7 @@ We know that requirements can change during the development process and that a s
 Curious?
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us now!"}
+::GlobalButton{:url="/contact/" :label="Contact us now!"}
 ::
 :::
 
@@ -256,7 +256,7 @@ Check out our very own podcast. In the first edition Michael and Robert discuss 
 ::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 

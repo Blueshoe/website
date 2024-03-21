@@ -1,6 +1,7 @@
 import type { RouterOptions } from '@nuxt/schema';
 
 export default <RouterOptions>{
+  strict: false,
   scrollBehavior(to, _from, savedPosition) {
     return new Promise((resolve, _reject) => {
       setTimeout(() => {

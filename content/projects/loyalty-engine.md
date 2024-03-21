@@ -33,21 +33,21 @@ description: ''
 buttonLabel: "Projektinfos"
 buttonLink: "/projects/loyalty-engine/"
 buttonTarget: "_self"
-anforderung: 
+anforderung:
   - Backend-Dev
   - Frontend-Dev
   - Infrastruktur
   - Projekt Management
   - Hosting
-sektor: 
+sektor:
   - B2C
   - B2B
-kategorie: 
+kategorie:
   - Shop
   - Plattform
-branche: 
+branche:
   - Konsumgüter
-technologie: 
+technologie:
   - Django
   - Python
   - Kubernetes
@@ -68,6 +68,6 @@ Mehr zum Projekt? Coming soon!
 Gerne erzählen wir dir von diesem Projekt persönlich, am Telefon oder via Google Meet. Melde dich einfach bei uns!
 :::
 #button
-::GlobalButton{:url="kontakt" :label="Kontaktiere uns"}
+::GlobalButton{:url="/kontakt/" :label="Kontaktiere uns"}
 ::
 ::

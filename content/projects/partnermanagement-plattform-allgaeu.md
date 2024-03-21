@@ -33,19 +33,19 @@ description: ''
 buttonLabel: "Projektinfos"
 buttonLink: "/projects/partnermanagement-plattform-allgaeu/"
 buttonTarget: "_self"
-anforderung: 
+anforderung:
   - Backend-Dev
   - Frontend-Dev
   - Infrastruktur
   - Projekt Management
   - Hosting
-sektor: 
+sektor:
   - B2B
-kategorie: 
+kategorie:
   - Plattform
-branche: 
+branche:
   - Konsumgüter
-technologie: 
+technologie:
   - Django
   - Python
 ---
@@ -80,7 +80,7 @@ Der [Dialogplattform](https://dialogplattform.allgaeu.de/anmelden/?next=/){.bs-l
 Alle zwei Jahre müssen die Markenpartner den Fragebogen erneut ausfüllen. Um den **Arbeitsaufwand für die Partner so gering wie möglich zu halten**, merkt sich unser System die Antworten, die bereits einmal gegeben wurden und spielt diese dann als personalisierten Antwortvorschlag für den jeweiligen Kunden aus.
 :::
 #button
-::GlobalButton{:url="/kontakt" :label="Gerne erzählen wir dir mehr über dieses Projekt"}
+::GlobalButton{:url="/kontakt/" :label="Gerne erzählen wir dir mehr über dieses Projekt"}
 ::
 ::
 

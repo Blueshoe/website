@@ -120,7 +120,7 @@ Working with Oscar means:
 Curious?
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us now!" :color="green"}
+::GlobalButton{:url="/contact/" :label="Contact us now!" :color="green"}
 ::
 :::
 
@@ -178,7 +178,7 @@ In the second edition of our podcast "Tools for the Craft - Navigating the Kuber
 ::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 
