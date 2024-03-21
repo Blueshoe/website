@@ -111,7 +111,7 @@ We love Django CMS for its flexibility – and Wagtail is just as flexible. With
 :::
 ::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -179,7 +179,7 @@ Check out our very own podcast. In the first edition Michael and Robert discuss 
 ::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 ::

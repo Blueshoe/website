@@ -380,7 +380,7 @@ You can also check out the first edition of our Kubernetes podcast "Tools for th
 :::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 :::
-::::GlobalButton{:url="/podcast" :label="More podcast editions!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcast editions!" :color="green"}
 ::::
 ::
 

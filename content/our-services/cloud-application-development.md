@@ -145,7 +145,7 @@ Application development by blueshoe
 As your custom software development agency, we specialize in providing custom-made software solutions that perfectly solve your use case. We will not hesitate to suggest the use of standard solutions when possible. However, experience shows that these are often not the right solution for a particular problem or especially for your future vision for your application. When developing applications for you, we remain agile, delivering incremental progress and staying in constant communication with you. With our experience and expertise in cloud application development, we deliver solutions that can be deployed directly into the cloud. In fact, we often strive to develop applications directly in the cloud or in cloud-like configurations to ensure functionality and compatibility. Contact us for more information on our approach.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us" :color="black"}
+::GlobalButton{:url="/contact/" :label="Contact us" :color="black"}
 ::
 :::
 
@@ -191,7 +191,7 @@ Truly convinced by the future of cloud-native development, we have decided to on
 Overall, we see the cloud-native approach as an optimal way to develop, customize and deploy web applications faster, with customer satisfaction at heart. We are looking forward to [advising you on cloud-native matters](/our-services/cloud-native-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, providing 24/7 support for your [cloud architecture](/our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} as well as the associated applications, and are open to share our knowledge and experience.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -218,7 +218,7 @@ Building of Kubernetes platform with a staging and a production environment. Ins
 Maurer
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 
@@ -274,7 +274,7 @@ Pssst! We have already worked in the field of cloud-native for a well-known car 
 Secret Projects
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 :::
@@ -292,7 +292,7 @@ Check out our very own podcast. In the first edition Michael and Robert discuss 
 ::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 

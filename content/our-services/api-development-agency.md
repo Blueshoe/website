@@ -140,7 +140,7 @@ We love technology and strive for innovation.
 We are experienced software developers with a deep understanding of APIs and their various uses. We help you choose the right API for your project by assessing your needs and recommending the best solution. We also provide guidance on how to use the API, as well as troubleshooting any issues that may arise. With our expertise, you can be sure that you are making the right choice when it comes to selecting an API for your project.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us today" :color="blue"}
+::GlobalButton{:url="/contact/" :label="Contact us today" :color="blue"}
 ::
 :::
 
@@ -176,7 +176,7 @@ APIs can be tested using a variety of methods, such as unit testing, integration
 But don't worry, we'll help setting up a solid testing strategy for your APIs automating as much of the testing as possible.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us" :color="blue"}
+::GlobalButton{:url="/contact/" :label="Contact us" :color="blue"}
 ::
 :::
 
@@ -230,7 +230,7 @@ Our team will work with you to develop a customized solution that meets your spe
 We understand that having quality API documentation is essential for successful integration of your APIs into other applications. That’s why we strive to provide our clients with the best possible service when it comes to setting up their API documentation.
 ::::
 #button
-::GlobalButton{:url="/contact" :color="green" :label="Reach out to us"}
+::GlobalButton{:url="/contact/" :color="green" :label="Reach out to us"}
 ::
 :::
 
@@ -251,7 +251,7 @@ In the second edition of our podcast "Tools for the Craft: Navigating the Kubern
 ::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="More podcast!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcast!" :color="green"}
 ::::
 :::
 
