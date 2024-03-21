@@ -13,7 +13,7 @@
       <BlogCard
         v-for="blog in sortedItems"
         :key="blog.id"
-        :src="blog.src"
+        :src="blog.src + '/'"
         :img="blog.img"
         :alt="blog.alt"
         :pre-title="blog.preTitle"

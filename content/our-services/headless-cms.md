@@ -81,7 +81,7 @@ Quick summary:
 Examples of headless technologies
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/2_oscar.svg" :href="/our-services/oscar-e-commerce" :bg="bg-bs-blue"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/2_oscar.svg" :href="/our-services/oscar-e-commerce/" :bg="bg-bs-blue"}
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 Headless e-commerce framework.
 :::
@@ -93,7 +93,7 @@ This is what e-commerce should look like in 2022. No other way. We’d be happy 
 Oscar E-Commerce
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/2_wagtail_cms.svg" :href="/our-services/wagtail-cms" :bg="bg-bs-blue"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/2_wagtail_cms.svg" :href="/our-services/wagtail-cms/" :bg="bg-bs-blue"}
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 State-of-the-art thanks to the headless approach.
 :::
@@ -200,7 +200,7 @@ Why is Blueshoe your expert for headless CMS?
 We love flexible solutions – that’s why, in our opinion, rigid CMS structures make little sense. As contents are consumed via different platforms and devices nowadays, we think a headless CMS like Wagtail or Saleor is the most modern option. Smartphone, AI virtual assistant or VR headset – if you choose a headless CMS by Blueshoe, your content managers will thank you for it.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us!" :color="green"}
+::GlobalButton{:url="/contact/" :label="Contact us!" :color="green"}
 ::
 :::
 
@@ -217,7 +217,7 @@ Check out our very own podcast. In the first edition Michael and Robert discuss 
 ::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 

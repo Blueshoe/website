@@ -131,7 +131,7 @@ Check out the first edition of our Kubernetes podcast "Tools for the Craft: Navi
 ::::globalParagraph{:font-size="lg" }
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more podcast editions" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more podcast editions" :color="green"}
 ::::
 :::
 

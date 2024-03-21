@@ -49,7 +49,7 @@ Close your cloud security gaps
 The right cloud-native security solutions are frictionless, minimize your vulnerabilities, and scale with your business. Blueshoe helps you devise and implement a cloud security strategy that fits with your software development life cycle.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -308,7 +308,7 @@ Let us help you be safe
 Interested in assessing your cloud security risks and closing your security gaps? Let’s talk.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -359,7 +359,7 @@ Pssst! We have already worked in the field of cloud-native for a well-known car 
 Secret Projects
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 :::
@@ -377,7 +377,7 @@ In the second edition of our podcast "Tools for the Craft - Navigating the Kuber
 ::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcasts!" :color="green"}
 ::::
 :::
 

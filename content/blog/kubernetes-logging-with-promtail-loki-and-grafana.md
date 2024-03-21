@@ -316,7 +316,7 @@ Michael and Robert are talking in depth about the ins and outs of local Kubernet
 ::::globalParagraph{:font-size="lg" }
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 

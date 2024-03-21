@@ -17,8 +17,8 @@
         <div class="mb-10 md:mb-5">
           <h4 class="mb-2.5">LINKS</h4>
           <div class="flex">
-            <NuxtLink to="/legal-notice" class="underline hover:text-bs-green mr-3">Legal notice</NuxtLink>
-            <NuxtLink to="/data-privacy" class="underline hover:text-bs-green">Data privacy</NuxtLink>
+            <NuxtLink to="/legal-notice/" class="underline hover:text-bs-green mr-3">Legal notice</NuxtLink>
+            <NuxtLink to="/data-privacy/" class="underline hover:text-bs-green">Data privacy</NuxtLink>
           </div>
         </div>
         <div class="mb-10 md:mb-5">
