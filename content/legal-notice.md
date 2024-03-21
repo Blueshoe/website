@@ -114,7 +114,7 @@ This website uses Google Analytics, a web analysis service from Google Inc. (“
 This website also uses the Google Analytics reports on demographic characteristics, in which data from Google's interest-based advertising and visitor data from third-party providers (e.g. age, gender and interests) are used. These data cannot be traced back to a specific person and can be deactivated at any time via the ad settings.
 :::
 :::globalParagraph{.mb-4}
-You can prevent Google Analytics from collecting data by clicking on the following link. An opt-out cookie is set which prevents the future collection of your data when you visit this website: [Deactivate Google Analytics.](https://unikube.io/%E2%80%9Djavascript:gaOptout()%E2%80%9D){.bs-link-blue :target="_blank"}
+You can prevent Google Analytics from collecting data by clicking on the following link. An opt-out cookie is set which prevents the future collection of your data when you visit this website: [Deactivate Google Analytics.](javascript:gaOptout()){.bs-link-blue :target="_blank"}
 :::
 
 
