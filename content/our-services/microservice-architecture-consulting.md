@@ -230,7 +230,7 @@ Pssst! We have already worked in the field of cloud-native for a well-known car 
 Secret Projects
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 :::
@@ -248,7 +248,7 @@ In the second edition of our podcast "Tools for the Craft - Navigating the Kuber
 ::::globalParagraph{:font-size="lg" .mb-4}
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 

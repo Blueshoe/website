@@ -52,7 +52,7 @@ Workflow automation is of interest to many different stakeholders in software de
 We help with the automation of your cloud native development workflows. Let us figure out how to get rid of manual efforts, human points of failure and implement a stable automated workflow that sets your company up for a great development experience and a smooth release process.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -106,7 +106,7 @@ Our philosophy has at its core, that we use tools wherever possible. Ideally som
 And all of this also sometimes led to us developing our own open source tools, when we just couldn’t find the right match.
 ::::
 #button
-::GlobalButton{:url="/products" :label="Our Open Source Tools"}
+::GlobalButton{:url="/products/" :label="Our Open Source Tools"}
 ::
 :::
 
@@ -123,7 +123,7 @@ In our podcast we discuss the different tool options that developers have to mak
 ::::globalParagraph{:font-size="lg" .mb-4}
 More episodes of the podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcasts!" :color="green"}
 ::::
 :::
 
@@ -139,7 +139,7 @@ Let us help you
 Ready to get started on your journey to full automation? Let’s talk
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -186,7 +186,7 @@ Pssst! We have already worked in the field of cloud-native for a well-known car 
 Secret Projects
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 :::

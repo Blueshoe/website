@@ -53,7 +53,7 @@ Title
 :::globalParagraph{:font-size="lg" .mb-4}
 Paragraph
 :::
-:::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+:::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 :::
 ::
 ```

@@ -52,7 +52,7 @@ We help with your Kubernetes migration
 Getting your legacy applications and monoliths ready for a cloud native future can seem like a daunting task. But don't worry, we have done this a lot in the past and know the ins and outs. Let us help you planning and implementing your migration strategy and embrace a cloud native future.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -169,7 +169,7 @@ Obstacles from a developers point of view:
 Developers may have to learn at least the basics of three further tools in order to utilise the whole scope of features which the Docker Compose setup has made available. We can help you figuring out the right [toolchain](/our-services/cloud-native-tools){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} for your business, help you with the implementation of tools and train your developers on the usage of your new toolset.
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us"}
+::GlobalButton{:url="/contact/" :label="Contact us"}
 ::
 :::
 
@@ -186,7 +186,7 @@ Michael and Robert take a closer look at the different options for remote Kubern
 ::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 
@@ -267,7 +267,7 @@ If your application is not well-suited for running in containers, or if you donâ
 :::
 ::
 #button
-::GlobalButton{:url="/contact" :label="We help you avoid these issues. Contact us today."}
+::GlobalButton{:url="/contact/" :label="We help you avoid these issues. Contact us today."}
 ::
 :::
 
@@ -477,7 +477,7 @@ Pssst! We have already worked in the field of cloud-native for a well-known car 
 Secret Projects
 :::
 #button
-:::GlobalButton{:url="/contact" :label="Contact us"}
+:::GlobalButton{:url="/contact/" :label="Contact us"}
 :::
 ::
 :::

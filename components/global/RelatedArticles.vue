@@ -78,7 +78,7 @@ const props = withDefaults(defineProps<Props>(), {
       title: 'K8s Development Tools',
       content: 'Minikube vs. k3d vs. kind vs. Getdeck Beiboot',
       author: 'By Michael Schilonka',
-      url: '/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot'
+      url: '/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/'
     }
   ]
 });

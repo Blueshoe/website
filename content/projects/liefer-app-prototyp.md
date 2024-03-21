@@ -33,16 +33,16 @@ description: ''
 buttonLabel: "Projektinfos"
 buttonLink: "/projects/liefer-app-prototyp/"
 buttonTarget: "_self"
-anforderung: 
+anforderung:
   - Projekt Management
   - Design
-sektor: 
+sektor:
   - B2B
-kategorie: 
+kategorie:
   - Plattform
-branche: 
+branche:
   - Logistik
-technologie: 
+technologie:
   - Django
   - NGINX
   - Python
@@ -72,6 +72,6 @@ Mehr zum Projekt? Coming soon!
 Gerne erzählen wir dir von diesem Projekt persönlich, am Telefon oder via Google Meet. Melde dich einfach bei uns!
 :::
 #button
-::GlobalButton{:url="kontakt" :label="Kontaktiere uns jetzt!"}
+::GlobalButton{:url="/kontakt/" :label="Kontaktiere uns jetzt!"}
 ::
 ::
