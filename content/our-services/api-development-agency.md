@@ -29,7 +29,7 @@ head:
 ::GlobalWrapperSections
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
-::::GlobalPageTitle{.mb-6}
+::::GlobalTitle{:color="text-bs-text" :font="font-oswald" :size="2xl" :tag="h1" .mb-6}
 API development services
 ::::
 ::::globalParagraph
