@@ -7,7 +7,7 @@
     </div>
 
     <div class="hidden">
-      <a v-for="(link, i) in allPages" :key="i" :href="link._path + '/'">{{ link._id }}</a>
+      <a v-for="(link, i) in allPages" :key="i" :href="link._path === '/' ? '/' : link._path + '/'">{{ link._id }}</a>
       <img v-for="(img, i) in images" :key="i" :src="img.src" :alt="img.alt" />
     </div>
 
