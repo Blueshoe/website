@@ -169,7 +169,7 @@ Michael and Robert are talking about the various options developers have for run
 ::::globalParagraph{:font-size="lg" }
 More editions of our podcast can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="More podcasts!" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="More podcasts!" :color="green"}
 ::::
 :::
 

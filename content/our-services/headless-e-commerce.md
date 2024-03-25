@@ -67,7 +67,7 @@ The requirements of a modern online shop are high! **Fast performance, intuitive
 The complexity in the area of online commerce has increased steadily in recent years. The desire for individualisation has similarly increased. Furthermore, a shop owner constantly has to **react to market changes, trends and customer requests.**
 ::::
 #button
-::GlobalButton{:url="/contact" :label="Contact us now!" :color="green"}
+::GlobalButton{:url="/contact/" :label="Contact us now!" :color="green"}
 ::
 :::
 
@@ -133,7 +133,7 @@ Check out our very own podcast. In the first edition Michael and Robert discuss 
 ::::globalParagraph{:font-size="lg" .mb-4}
 More of our podcasts can be found here:
 ::::
-::::GlobalButton{:url="/podcast" :label="Show more" :color="green"}
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
 ::::
 :::
 

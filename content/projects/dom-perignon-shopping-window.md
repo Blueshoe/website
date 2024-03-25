@@ -33,20 +33,20 @@ description: ''
 buttonLabel: "Projektinfos"
 buttonLink: "/projects/dom-perignon-shopping-window/"
 buttonTarget: "_self"
-anforderung: 
+anforderung:
   - Backend-Dev
   - Frontend-Dev
   - Infrastruktur
   - Projekt Management
   - Hosting
-sektor: 
+sektor:
   - B2C
-kategorie: 
+kategorie:
   - Shop
   - Plattform
-branche: 
+branche:
   - Konsumgüter
-technologie: 
+technologie:
   - Django
   - Python
 ---
@@ -62,7 +62,7 @@ Das digitale Schaufenster
 Dom Pérignon hat keine eigenen Ladengeschäfte. Damit sie ihren Kunden trotzdem ein exklusives Einkaufserlebnis ermöglichen können, hat das Unternehmen mehrere Schaufenster auf dem Ku' Damm in Berlin und der Maximilianstraße in München angemietet. Wir haben für den Hersteller edelster Champagner das digitale Schaufenster mit Gestensteuerung umgesetzt.
 :::
 #button
-::GlobalButton{:url="/kontakt" :label="Kontaktiere uns, wenn du mehr über dieses Projekt wissen willst"}
+::GlobalButton{:url="/kontakt/" :label="Kontaktiere uns, wenn du mehr über dieses Projekt wissen willst"}
 ::
 ::
 
