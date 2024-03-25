@@ -7,7 +7,7 @@
       <ul>
         <li v-for="(blog, i) in preparedBlogs" :key="i" class="cursor-pointer">
           <NuxtLink
-            :to="blog.src"
+            :to="blog.src + '/'"
             class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid"
             >{{ blog.title }}</NuxtLink
           >

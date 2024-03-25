@@ -33,17 +33,17 @@ description: ''
 buttonLabel: "Projektinfos"
 buttonLink: "/projects/deutsches-museum/"
 buttonTarget: "_self"
-anforderung: 
+anforderung:
   - Backend-Dev
   - Frontend-Dev
   - Projekt Management
-sektor: 
+sektor:
   - Staatlich
-kategorie: 
+kategorie:
   - Plattform
-branche: 
+branche:
   - Bildung
-technologie: 
+technologie:
   - Django
 ---
 
@@ -82,6 +82,6 @@ Die Datenbank besteht aus drei Teilbereichen: einem Archiv, einer Bibliothek sow
 Gerne erzählen wir dir mehr über dieses Projekt
 :::
 #button
-::GlobalButton{:url="/kontakt" :color="green" :label="Kontaktiere uns"}
+::GlobalButton{:url="/kontakt/" :color="green" :label="Kontaktiere uns"}
 ::
 ::

@@ -59,7 +59,7 @@ Here is what we do
 ::::
 #cards
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/cloud-storage.svg" :href="/our-services/cloud-application-development"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/cloud-storage.svg" :href="/our-services/cloud-application-development/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Modern application development for the cloud
 :::
@@ -72,7 +72,7 @@ Cloud Development
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/consulting_1.svg" :href="/our-services/cloud-native-consulting"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/consulting_1.svg" :href="/our-services/cloud-native-consulting/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 We help you figure out solutions
 :::
@@ -85,7 +85,7 @@ Cloud Consulting
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="/products"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="/products/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Giving back to the community
 :::
