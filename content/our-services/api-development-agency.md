@@ -190,16 +190,19 @@ GraphQL works by allowing clients to make a single request to an API that specif
 ::
 :::
 
+<!--- We love technology and strive for innovation -->
 :::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true}
-::::GlobalTitle{.mb-6}
-We love technology and strive for innovation.
-::::
-::::GlobalParagraph
-We are experienced software developers with a deep understanding of APIs and their various uses. We help you choose the right API for your project by assessing your needs and recommending the best solution. We also provide guidance on how to use the API, as well as troubleshooting any issues that may arise. With our expertise, you can be sure that you are making the right choice when it comes to selecting an API for your project.
-::::
+  ::::GlobalTitle{.mb-6}
+  We love technology and strive for innovation.
+  ::::
+
+  ::::GlobalParagraph
+  We are experienced software developers with a deep understanding of APIs and their various uses. We help you choose the right API for your project by assessing your needs and recommending the best solution. We also provide guidance on how to use the API, as well as troubleshooting any issues that may arise. With our expertise, you can be sure that you are making the right choice when it comes to selecting an API for your project.
+  ::::
+
 #button
-::GlobalButton{:url="/contact/" :label="Contact us today" :color="blue"}
-::
+  ::GlobalButton{:url="/contact/" :label="Contact us today" :color="blue"}
+  ::
 :::
 
 :::GlobalSectionWithImage{:image="/img/services/tools_and_systems.jpg" :alt="blue shoes" :imagePosition="right" data-title="Using the right query language: GraphQL"}
