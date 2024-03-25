@@ -55,62 +55,70 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 :::
 
 :::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
-::::GlobalTitle{.mb-6}
-What is API development and why is it important?
-::::
-::::GlobalParagraph{.mb-6}
-API Development refers to the process of creating Application Programming Interfaces (APIs) that enable software applications to communicate and interact with each other. APIs serve as a bridge, allowing different software systems to connect and exchange data seamlessly. This is crucial in today's interconnected digital ecosystem, where the ability to integrate various technologies is key to operational efficiency and innovation.
-::::
+  ::::GlobalTitle{.mb-6}
+  What is API development and why is it important?
+  ::::
+  ::::GlobalParagraph{.mb-6}
+  API Development refers to the process of creating Application Programming Interfaces (APIs) that enable software applications to communicate and interact with each other. APIs serve as a bridge, allowing different software systems to connect and exchange data seamlessly. This is crucial in today's interconnected digital ecosystem, where the ability to integrate various technologies is key to operational efficiency and innovation.
+  ::::
 
-::::GlobalParagraph{.mb-6}
-APIs are essential because they allow for the expansion of functionalities without having to create new systems from scratch. They enable businesses to leverage existing applications, enhancing user experience and streamlining operations. In the realm of modern business and technology landscapes, APIs are pivotal for integrating diverse systems - from cloud services to mobile applications, and everything in between.
-::::
+  ::::GlobalParagraph{.mb-6}
+  APIs are essential because they allow for the expansion of functionalities without having to create new systems from scratch. They enable businesses to leverage existing applications, enhancing user experience and streamlining operations. In the realm of modern business and technology landscapes, APIs are pivotal for integrating diverse systems - from cloud services to mobile applications, and everything in between.
+  ::::
 
-::::GlobalParagraph
-In essence, API development is not just about connecting software; it's about creating opportunities for new functionalities, enhancing system interoperability, and driving digital transformation across various sectors. We at Blueshoe are committed to delivering API solutions that are not only technically sound but also align with your strategic business objectives, ensuring that your investment in technology yields tangible benefits.
-::::
+  ::::GlobalParagraph
+  In essence, API development is not just about connecting software; it's about creating opportunities for new functionalities, enhancing system interoperability, and driving digital transformation across various sectors. We at Blueshoe are committed to delivering API solutions that are not only technically sound but also align with your strategic business objectives, ensuring that your investment in technology yields tangible benefits.
+  ::::
 :::
 
 :::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="How can API development benefit my business?"}
 
-::::GlobalTitle{.mb-6}
-How can API development benefit my business?
-::::
+  ::::GlobalTitle{.mb-6}
+  How can API development benefit my business?
+  ::::
 
-::::GlobalParagraph{.mb-4}
-API development can significantly benefit your business in various ways, streamlining operations, enhancing customer experiences, and driving innovation. Here are some examples illustrating these benefits:
-::::
+  ::::GlobalParagraph{.mb-4}
+  API development can significantly benefit your business in various ways, streamlining operations, enhancing customer experiences, and driving innovation. Here are some examples illustrating these benefits:
+  ::::
 
 #card1
-::GlobalTitle{:size="lg" :tag="h3" .mb-4}
-Streamlining operations:
-::
-::GlobalBlock{.mb-4 .ul-disk}
-- Automated data synchronization: APIs can automate the synchronization of data across different systems. For instance, integrating an API with your CRM and ERP systems ensures that customer data is updated in real-time across all platforms, reducing manual data entry and the risk of errors.
-- Efficient resource management: APIs allow for seamless integration with third-party services. For example, a logistics company can use APIs to integrate real-time tracking systems, optimizing routes and reducing delivery imes.
-::
+  ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+    Streamlining operations:
+  ::
+    
+  ::GlobalBlock{.mb-4 .ul-disk}
+  - Automated data synchronization: APIs can automate the synchronization of data across different systems. For instance, integrating an API with your CRM and ERP systems ensures that customer data is updated in real-time across all platforms, reducing manual data entry and the risk of errors.
+  - Efficient resource management: APIs allow for seamless integration with third-party services. For example, a logistics company can use APIs to integrate real-time tracking systems, optimizing routes and reducing delivery times.
+  ::
 
 #card2
-::GlobalTitle{:size="lg" :tag="h3" .mb-4}
-Enhancing customer experience:
-::
-::GlobalBlock{.mb-4 .ul-disk}
-- Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
-- Seamless payment processes: For e-commerce businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
-::
+  ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+  Enhancing customer experience:
+  ::
+
+  ::GlobalBlock{.mb-4 .ul-disk}
+  - Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
+  - Seamless payment processes: For e-commerce businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
+  ::
 
 #card3
-::GlobalTitle{:size="lg" :tag="h3" .mb-4}
-Driving Innovation:
-::
-::GlobalBlock{.mb-4 .ul-disk}
-- New product development: APIs can facilitate the development of new products and services. For instance, a healthcare provider can use APIs to integrate with wearable technology, developing new health monitoring services for patients.
-- Cross-platform integration: APIs enable the integration of applications across different platforms. A business can use APIs to connect its mobile app with its web-based system, providing a consistent user experience across devices.
-::
+  ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+  Driving Innovation:
+  ::
 
-::::GlobalParagraph
-API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
-::::
+  ::GlobalBlock{.mb-4 .ul-disk}
+  - New product development: APIs can facilitate the development of new products and services. For instance, a healthcare provider can use APIs to integrate with wearable technology, developing new health monitoring services for patients.
+  - Cross-platform integration: APIs enable the integration of applications across different platforms. A business can use APIs to connect its mobile app with its web-based system, providing a consistent user experience across devices.
+  ::
+:::
+
+:::GlobalSimpleSection{:bg="bg-white"}
+  ::::GlobalParagraph
+  API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
+  ::::
+:::
+
+
 
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
