@@ -92,16 +92,26 @@ Streamlining operations:
 
 #card2
 ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
-Software updates:
+Enhancing customer experience:
 ::
-::GlobalParagraph{:fontSize="lg"}
-As cloud applications do not require local installations, they can be updated whenever you have new features or bug fixes. Hereby users might not even realize that you have rolled out a new verson, since they do not have to manually confirm updates or wait for them to finish. You can drastically increase the release cycle of your applications. Yes, you can release new versions several times a day.
+::GlobalBlock{.mb-4 .ul-disk}
+- Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
+- Seamless payment processes: For e-commerce businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
 ::
 
-::::GlobalParagraph
+#card3
+::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+Driving Innovation:
+::
+::GlobalBlock{.mb-4 .ul-disk}
+- New product development: APIs can facilitate the development of new products and services. For instance, a healthcare provider can use APIs to integrate with wearable technology, developing new health monitoring services for patients.
+- Cross-platform integration: APIs enable the integration of applications across different platforms. A business can use APIs to connect its mobile app with its web-based system, providing a consistent user experience across devices.
+::
+
+::GlobalParagraph
 API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
+::
 ::::
-:::
 
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
