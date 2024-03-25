@@ -71,21 +71,32 @@ In essence, API development is not just about connecting software; it's about cr
 ::::
 :::
 
-:::GlobalSimpleSection{data-title="How can API development benefit my business?"}
+:::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="How can API development benefit my business?"}
+
 ::::GlobalTitle{.mb-6}
 How can API development benefit my business?
 ::::
+
 ::::GlobalParagraph{.mb-4}
 API development can significantly benefit your business in various ways, streamlining operations, enhancing customer experiences, and driving innovation. Here are some examples illustrating these benefits:
 ::::
 
-:::::GlobalBlock{.mb-4 .ul-disk}
-::::::GlobalTitle{:color="text-bs-text" :font="font-oswald" :size="lg" :tag="h3"}
+#card1
+::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Streamlining operations:
-::::::
+::
+::GlobalBlock{.mb-4 .ul-disk}
 - Automated data synchronization: APIs can automate the synchronization of data across different systems. For instance, integrating an API with your CRM and ERP systems ensures that customer data is updated in real-time across all platforms, reducing manual data entry and the risk of errors.
 - Efficient resource management: APIs allow for seamless integration with third-party services. For example, a logistics company can use APIs to integrate real-time tracking systems, optimizing routes and reducing delivery imes.
-:::::
+::
+
+#card2
+::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+Software updates:
+::
+::GlobalParagraph{:fontSize="lg"}
+As cloud applications do not require local installations, they can be updated whenever you have new features or bug fixes. Hereby users might not even realize that you have rolled out a new verson, since they do not have to manually confirm updates or wait for them to finish. You can drastically increase the release cycle of your applications. Yes, you can release new versions several times a day.
+::
 
 ::::GlobalParagraph
 API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
