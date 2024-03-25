@@ -108,9 +108,8 @@ Driving Innovation:
 - Cross-platform integration: APIs enable the integration of applications across different platforms. A business can use APIs to connect its mobile app with its web-based system, providing a consistent user experience across devices.
 ::
 
-::GlobalParagraph
+::::GlobalParagraph
 API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
-::
 ::::
 
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
