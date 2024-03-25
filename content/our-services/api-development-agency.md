@@ -54,6 +54,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 ::
 :::
 
+<!---  What is API development and why is it important -->
 :::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
   ::::GlobalTitle{.mb-6}
   What is API development and why is it important?
@@ -71,6 +72,8 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   ::::
 :::
 
+<!---  How can API development benefit my business? -->
+<!---  To do: Change picture -->
 :::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="How can API development benefit my business?"}
 
   ::::GlobalTitle{.mb-6}
@@ -112,6 +115,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   ::
 :::
 
+<!---  We need a slot for a bottom text after the last card. This needs to be optional. -->
 :::GlobalSimpleSection{:bg="bg-white"}
   ::::GlobalParagraph
   API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
