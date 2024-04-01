@@ -76,6 +76,11 @@ const props = reactive([
             Paragraph card 3
           </GlobalParagraph>
         </template>
+        <template #summary>
+          <GlobalParagraph font-size="lg" :color="propVariant.bg === 'bg-white' ? 'text-bs-text' : 'text-white'">
+            Paragraph summary
+          </GlobalParagraph>
+        </template>
       </GlobalSliderWithImageSection>
     </Variant>
   </Story>
@@ -100,6 +105,7 @@ Global slider with image section component
 - card1 - Content for card 1
 - card2 - Content for card 2
 - card3 - Content for card 3
+- summary - Optional. Summary content
 
 ## MD files usage
 
@@ -128,6 +134,11 @@ Card title
 ::
 ::GlobalParagraph{:fontSize="lg" :color="text-white"}
 Card paragraph
+::
+
+#summary
+::GlobalParagraph{:fontSize="lg" :color="text-white"}
+Summary paragraph
 ::
 :::
 ```
