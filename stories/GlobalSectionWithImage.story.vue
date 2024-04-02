@@ -4,7 +4,7 @@ const props = reactive([
   {
     image: '/img/services/cloud-native.jpg',
     alt: 'blue shoes',
-    bg: 'bg-bs-gray',
+    bg: 'bg-white',
     imagePosition: 'left',
     isButton: false,
     isStory: true
@@ -12,7 +12,7 @@ const props = reactive([
   {
     image: '/img/services/cloud-native.jpg',
     alt: 'blue shoes',
-    bg: 'bg-white',
+    bg: 'bg-bs-gray',
     imagePosition: 'right',
     isButton: true,
     isStory: true
@@ -29,7 +29,13 @@ const props = reactive([
           bg: propVariant.bg as 'bg-bs-gray' | 'bg-white' | undefined,
           imagePosition: propVariant.imagePosition as 'left' | 'right' | undefined
         }"
-      />
+      >
+        <GlobalTitle>Title</GlobalTitle>
+        <GlobalParagraph>Paragraph</GlobalParagraph>
+        <template #button>
+          <GlobalButton label="Button" url="#" color="blue" target="_blank" />
+        </template>
+      </GlobalSectionWithImage>
     </Variant>
   </Story>
 </template>
@@ -55,13 +61,17 @@ Global section with image component
 ## MD files usage
 
 ```
-::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right"}
+::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" :isButton=true}
 :::GlobalTitle{.mb-6}
 Title
 :::
 :::GlobalParagraph
 Paragraph
 :::
+
+#button
+::GlobalButton{:url="" :label="Label" :color="green" :target="_blank"}
+::
 ::
 ```
 </docs>
