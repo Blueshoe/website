@@ -54,6 +54,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 ::
 :::
 
+<!---  What is API development and why is it important -->
 :::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
   ::::GlobalTitle{.mb-6}
   What is API development and why is it important?
@@ -71,7 +72,9 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   ::::
 :::
 
-:::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="How can API development benefit my business?"}
+<!---  How can API development benefit my business? -->
+<!---  To do: Change picture -->
+:::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"},{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="How can API development benefit my business?"}
 
   ::::GlobalTitle{.mb-6}
   How can API development benefit my business?
@@ -110,14 +113,12 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   - New product development: APIs can facilitate the development of new products and services. For instance, a healthcare provider can use APIs to integrate with wearable technology, developing new health monitoring services for patients.
   - Cross-platform integration: APIs enable the integration of applications across different platforms. A business can use APIs to connect its mobile app with its web-based system, providing a consistent user experience across devices.
   ::
-:::
 
-:::GlobalSimpleSection{:bg="bg-white"}
-  ::::GlobalParagraph
+#summary
+  ::GlobalParagraph{:fontSize="lg" :color="text-white"}
   API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
-  ::::
+  ::
 :::
-
 
 
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
