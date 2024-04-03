@@ -120,5 +120,9 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml'],
       failOnError: false
     }
+  },
+  experimental: { defaults: { nuxtLink: { trailingSlash: 'append' } } },
+  routeRules: {
+    '^.*(?<!/)$': { redirect: '/new-page' }
   }
 });
