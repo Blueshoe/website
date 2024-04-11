@@ -29,38 +29,97 @@ head:
 ::GlobalWrapperSections
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
-::::GlobalPageTitle{.mb-6}
-Your agency for API development
+::::GlobalTitle{:color="text-bs-text" :font="font-oswald" :size="2xl" :tag="h1" .mb-6}
+API development services
 ::::
 ::::globalParagraph
-Discover and implement an API strategy for your applications
+Discover and implement an API-first strategy for your applications
 ::::
 :::
 
-:::GlobalServicesNavigationCard{:title="Everything about APIs"}
+:::GlobalServicesNavigationCard{:title="API-first driven development "}
 
 :::
 
 :::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-42.jpg" :isButton=true}
 ::::GlobalTitle{.mb-6}
-Don't worry, go API
+Discover our API development and integration services
 ::::
 ::::GlobalParagraph
-Figuring out the right architecture for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
+Figuring out the right [architecture](our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+ for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Reach out to us" :color="blue" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6 " :label="Reach out to us" :color="blue" :target="_blank"}
 ::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="Why do we need APIs?"}
-::::GlobalTitle{.mb-6}
-Why do we need APIs
-::::
-::::GlobalParagraph
-Many applications require some kind of application programming interface (API), which enables communication with internal or external services/applications. In contrast to user interfaces, APIs connect servers and software components with each other. Thus, often they are not actively perceived by end users, as there is no direct interaction. However, APIs play an important role in modern application architectures, such as microservices architecture, as they can definitely impact the overall user experience. Most applications, even seemingly small and medium sized ones, are by fact distributed systems that communicate over networks. This communication using APIs is of utmost importance for the development of functioning applications.
-::::
+<!---  What is API development and why is it important -->
+:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
+  ::::GlobalTitle{.mb-6}
+  What is API development and why is it important?
+  ::::
+  ::::GlobalParagraph{.mb-6}
+  API Development refers to the process of creating Application Programming Interfaces (APIs) that enable software applications to communicate and interact with each other. APIs serve as a bridge, allowing different software systems to connect and exchange data seamlessly. This is crucial in today's interconnected digital ecosystem, where the ability to integrate various technologies is key to operational efficiency and innovation.
+  ::::
+
+  ::::GlobalParagraph{.mb-6}
+  APIs are essential because they allow for the expansion of functionalities without having to create new systems from scratch. They enable businesses to leverage existing applications, enhancing user experience and streamlining operations. In the realm of modern business and technology landscapes, APIs are pivotal for integrating diverse systems - from cloud services to mobile applications, and everything in between.
+  ::::
+
+  ::::GlobalParagraph
+  In essence, API development is not just about connecting software; it's about creating opportunities for new functionalities, enhancing system interoperability, and driving digital transformation across various sectors. We at Blueshoe are committed to delivering API solutions that are not only technically sound but also align with your strategic business objectives, ensuring that your investment in technology yields tangible benefits.
+  ::::
 :::
+
+<!---  How can API development benefit my business? -->
+<!---  To do: Change picture -->
+:::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/development-icon.jpg", "alt": "Streamlining operations"}, {"src": "/img/services/easy_expandability-carmen.jpg", "alt": "Enhancing customer experience"},{"src": "/img/services/tools_and_systems.jpg", "alt": " Driving Innovation"}]' :dotColor="black" data-title="How can API development benefit my business?"}
+
+  ::::GlobalTitle{.mb-6}
+  How can API development benefit my business?
+  ::::
+
+  ::::GlobalParagraph{.mb-4}
+  API development can significantly benefit your business in various ways, streamlining operations, enhancing customer experiences, and driving innovation. Here are some examples illustrating these benefits:
+  ::::
+
+#card1
+  ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+    Streamlining operations:
+  ::
+    
+  ::GlobalBlock{.mb-4 .ul-disk}
+  - Automated data synchronization: APIs can automate the synchronization of data across different systems. For instance, integrating an API with your CRM and ERP systems ensures that customer data is updated in real-time across all platforms, reducing manual data entry and the risk of errors.
+  - Efficient resource management: APIs allow for seamless integration with third-party services. For example, a logistics company can use APIs to integrate real-time tracking systems, optimizing routes and reducing delivery times.
+  ::
+
+#card2
+  ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+  Enhancing customer experience:
+  ::
+
+  ::GlobalBlock{.mb-4 .ul-disk}
+  - Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
+  - Seamless payment processes: For e-commerce businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
+  ::
+
+#card3
+  ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
+  Driving Innovation:
+  ::
+
+  ::GlobalBlock{.mb-4 .ul-disk}
+  - New product development: APIs can facilitate the development of new products and services. For instance, a healthcare provider can use APIs to integrate with wearable technology, developing new health monitoring services for patients.
+  - Cross-platform integration: APIs enable the integration of applications across different platforms. A business can use APIs to connect its mobile app with its web-based system, providing a consistent user experience across devices.
+  ::
+
+#summary
+  ::GlobalParagraph{:fontSize="lg"}
+  API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
+  ::
+:::
+
 
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
@@ -132,16 +191,19 @@ GraphQL works by allowing clients to make a single request to an API that specif
 ::
 :::
 
+<!--- We love technology and strive for innovation -->
 :::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true}
-::::GlobalTitle{.mb-6}
-We love technology and strive for innovation.
-::::
-::::GlobalParagraph
-We are experienced software developers with a deep understanding of APIs and their various uses. We help you choose the right API for your project by assessing your needs and recommending the best solution. We also provide guidance on how to use the API, as well as troubleshooting any issues that may arise. With our expertise, you can be sure that you are making the right choice when it comes to selecting an API for your project.
-::::
+  ::::GlobalTitle{.mb-6}
+  We love technology and strive for innovation.
+  ::::
+
+  ::::GlobalParagraph
+  We are experienced software developers with a deep understanding of APIs and their various uses. We help you choose the right API for your project by assessing your needs and recommending the best solution. We also provide guidance on how to use the API, as well as troubleshooting any issues that may arise. With our expertise, you can be sure that you are making the right choice when it comes to selecting an API for your project.
+  ::::
+
 #button
-::GlobalButton{:url="/contact/" :label="Contact us today" :color="blue"}
-::
+  ::GlobalButton{:url="/contact/" :label="Contact us today" :color="blue"}
+  ::
 :::
 
 :::GlobalSectionWithImage{:image="/img/services/tools_and_systems.jpg" :alt="blue shoes" :imagePosition="right" data-title="Using the right query language: GraphQL"}
