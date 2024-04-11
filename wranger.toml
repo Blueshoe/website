@@ -1,0 +1,4 @@
+[build]
+command = "npm run story:build"
+cwd = "build_cwd"
+watch_dir = "build_watch_dir"
