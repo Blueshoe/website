@@ -74,7 +74,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 
 <!---  How can API development benefit my business? -->
 <!---  To do: Change picture -->
-:::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}, {"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"},{"src": "/img/services/cloud_native_development.svg", "alt": "cloud native development"}]' :dotColor="black" data-title="How can API development benefit my business?"}
+:::GlobalSliderWithImageSection{:numberCards=3 :bg="bg-white" :imagePosition="right" :images='[{"src": "/img/services/development-icon.jpg", "alt": "Streamlining operations"}, {"src": "/img/services/easy_expandability-carmen.jpg", "alt": "Enhancing customer experience"},{"src": "/img/services/tools_and_systems.jpg", "alt": " Driving Innovation"}]' :dotColor="black" data-title="How can API development benefit my business?"}
 
   ::::GlobalTitle{.mb-6}
   How can API development benefit my business?
