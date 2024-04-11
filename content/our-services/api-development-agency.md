@@ -121,6 +121,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 
 <!---  To do: LUMA-Slider einfügen -->
 
+<!---  LET'S DEVELOP YOUR API FIRST STRATEGY -->
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
 LET'S DEVELOP YOUR API FIRST STRATEGY
@@ -131,7 +132,7 @@ What is our API first approach?
 ::::GlobalParagraph{.mb-6}
 An API first strategy is an approach to software development that prioritizes the creation of an Application Programming Interface (API) before any other aspect of the application. This strategy allows developers to create a consistent, unified interface for different components of the application, making it easier to maintain and extend functionality. Additionally, this strategy encourages developers to focus on creating robust APIs that are well documented and easy to use.
 ::::
-::::GlobalButton{:url="/contact/" :label="Curious about the API first approach? Give us a call!" :color="green"}
+::::GlobalButton{:url="/contact/" :label="Curious about the API first approach? Give us a call!" :color="green" .mb-6}
 ::::
 ::::GlobalTitle{size="lg" :tag="h3" .mb-6}
 Are you looking for a way to quickly and easily build web applications?
