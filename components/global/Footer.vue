@@ -10,7 +10,7 @@
         </div>
         <div class="mb-10 md:mb-5">
           <h4 class="mb-2.5">CONTACT</h4>
-          <div><a href="tel:+498954198422">+49 (0)89 54 19 94 84 22</a></div>
+          <div><a href="tel:+498954198422">+49 (0)89 54 19 84 22</a></div>
 
           <div><a href="mailto:hello@blueshoe.io">hello@blueshoe.io</a></div>
         </div>
