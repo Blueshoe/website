@@ -115,7 +115,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   ::
 
 #summary
-  ::GlobalParagraph{:fontSize="lg" :color="text-white"}
+  ::GlobalParagraph{:fontSize="lg"}
   API development is a powerful tool for businesses looking to automate processes, enhance customer interaction, and innovate their product and service offerings. By leveraging APIs, you can not only improve operational efficiency but also create more engaging and personalized experiences for your customers, ultimately driving growth and success in the digital age.
   ::
 :::
