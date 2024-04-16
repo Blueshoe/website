@@ -137,7 +137,7 @@ An API first strategy is an approach to software development that prioritizes th
 ::::GlobalTitle{size="lg" :tag="h3" .mb-6}
 What are the benefits of the API-first approach?
 ::::
-::::GlobalParagraph{.mb-6}
+::::GlobalBlock{.mb-4 .ul-disk}
 - Rapid development: Quick and easy web application building: Accelerates the development process, enabling the creation of powerful, secure web applications much faster than traditional methods.
 - Enhanced security: Robust security measures: By focusing on API development first, applications are designed with security at the forefront, protecting against malicious attacks while ensuring a seamless user experience.
 - Scalability: Easily scalable solutions: Facilitates the quick addition of new features or scaling of existing functionalities without requiring extensive code rewrites or significant changes.
