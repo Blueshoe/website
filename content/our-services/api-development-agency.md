@@ -122,7 +122,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 <!---  To do: LUMA-Slider einfügen -->
 
 <!---  LET'S DEVELOP YOUR API FIRST STRATEGY -->
-:::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="easy expandability carmen" :bg="bg-bs-gray" :imagePosition="right" data-title="Welcome to the API first approach!"}
+:::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="api first strategy" :bg="bg-bs-gray" :imagePosition="right" data-title="What is our API first approach?"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
 LET'S DEVELOP YOUR API FIRST STRATEGY
 ::::
@@ -147,6 +147,41 @@ What are the benefits of the API-first approach?
 ::::
 :::
 
+<!---  API development with Blueshoe -->
+:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=3 data-title="API development with Blueshoe"}
+::::GlobalTitle{.mb-6}
+API development with Blueshoe
+::::
+::::GlobalParagraph{.mb-4}
+Whether you're diving into web, mobile, cloud, or looking for something custom, we've got your back
+::::
+#label-1
+::GlobalTitle{:size="sm" :tag="h4"}
+Web API development
+::
+#text-1
+::GlobalParagraph{:fontSize="lg" .leading-6}
+We're talking about crafting the digital bridges that let your web applications have smooth conversations with each other. It's all about keeping your online game strong, fast, and engaging. Your service becomes a dynamic powerhouse, pulling users into an experience they can't get enough of.
+::
+#label-2
+::GlobalTitle{:size="sm" :tag="h4"}
+Mobile API developmen
+::
+#text-2
+::GlobalParagraph{:fontSize="lg" .leading-6}
+We're focusing on giving your mobile apps the superpowers they need. From timely notifications to easy social media integration, we ensure your app delivers a top-notch mobile experience. Your app becomes everyone's favorite, working seamlessly across devices and keeping users hooked.
+::
+#label-3
+::GlobalTitle{:size="sm" :tag="h4"}
+Cloud API development
+::
+#text-3
+::GlobalParagraph{:fontSize="lg" .leading-6}
+Jump into the cloud with APIs that scale your applications, manage data efficiently, and handle any amount of traffic thrown their way. Your IT infrastructure becomes a scalable, reliable beast that grows with your business needs.
+::
+:::
+
+<!---  What API technologies should I use? -->
 :::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=5 data-title="What API technologies should I use?"}
 ::::GlobalTitle{.mb-6}
 What API technologies should I use?
