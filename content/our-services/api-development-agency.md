@@ -179,7 +179,7 @@ Cloud API development
 ::GlobalParagraph{:fontSize="lg" .leading-6}
 Jump into the cloud with APIs that scale your applications, manage data efficiently, and handle any amount of traffic thrown their way. Your IT infrastructure becomes a scalable, reliable beast that grows with your business needs.
 ::
-::::GlobalButton{:url="/cloud-application-development/" :label="Get to know our cloud application development services" :color="green"}
+::::GlobalButton{:url="/our-services/cloud-application-development/" :label="Get to know our cloud application development services" :color="green"}
 ::::
 
 #label-4
