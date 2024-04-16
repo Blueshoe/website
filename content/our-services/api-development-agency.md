@@ -135,13 +135,15 @@ An API first strategy is an approach to software development that prioritizes th
 ::::GlobalButton{:url="/contact/" :label="Curious about the API first approach? Give us a call!" :color="green" .mb-6}
 ::::
 ::::GlobalTitle{size="lg" :tag="h3" .mb-6}
-Are you looking for a way to quickly and easily build web applications?
+What are the benefits of the API-first approach?
 ::::
-::::GlobalParagraph{.mb-6}
-The API first approach is the perfect solution for you. By using an API First approach, you can create powerful, secure web applications in a fraction of the time it takes with traditional development methods. The API first approach is a modern approach to web application development that focuses on designing and developing APIs before writing any code. This approach makes it easier to develop applications quickly and securely by separating the backend logic from the frontend design. By separating the two, developers can focus on creating robust APIs that are easy to use and maintain while designers can focus on creating an attractive user interface.
-::::
-::::GlobalParagraph
-Using an API First Approach also allows developers to create applications that are more scalable and secure. By separating the backend logic from the frontend design, developers can ensure that their application is secure against malicious attacks while still providing a smooth user experience. Additionally, this approach allows developers to quickly add new features or scale up existing ones as needed without having to re-write code or make major changes. If you're looking for a way to quickly develop powerful web applications, then look no further than the API First approach. With its focus on security, scalability, and ease of use, this approach is perfect for any developer looking to create robust web applications in record time!
+::::GlobalBlock{.mb-4 .ul-disk}
+- Rapid development: Quick and easy web application building: Accelerates the development process, enabling the creation of powerful, secure web applications much faster than traditional methods.
+- Enhanced security: Robust security measures: By focusing on API development first, applications are designed with security at the forefront, protecting against malicious attacks while ensuring a seamless user experience.
+- Scalability: Easily scalable solutions: Facilitates the quick addition of new features or scaling of existing functionalities without requiring extensive code rewrites or significant changes.
+- Separation of concerns: Focused development: Separates backend logic from frontend design, allowing developers to concentrate on building reliable and maintainable APIs, while designers can focus on crafting an engaging user interface.
+- Ease of maintenance: Simplified maintenance and upgrades: With a clear separation between the API layer and the user interface, updating and maintaining web applications becomes more straightforward, reducing downtime and improving performance.
+- User experience: Smooth user experience: Ensures that users enjoy a fluid and responsive interaction with the application, thanks to the underlying robust and secure API architecture.
 ::::
 :::
 
