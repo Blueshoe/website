@@ -156,7 +156,7 @@ API development with Blueshoe
 Whether you're diving into web, mobile, cloud, or looking for something custom, we've got your back
 ::::
 #label-1
-::GlobalTitle{:size="sm" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h3"}
 Web API development
 ::
 #text-1
@@ -164,7 +164,7 @@ Web API development
 We're talking about crafting the digital bridges that let your web applications have smooth conversations with each other. It's all about keeping your online game strong, fast, and engaging. Your service becomes a dynamic powerhouse, pulling users into an experience they can't get enough of.
 ::
 #label-2
-::GlobalTitle{:size="sm" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h3"}
 Mobile API developmen
 ::
 #text-2
@@ -172,13 +172,16 @@ Mobile API developmen
 We're focusing on giving your mobile apps the superpowers they need. From timely notifications to easy social media integration, we ensure your app delivers a top-notch mobile experience. Your app becomes everyone's favorite, working seamlessly across devices and keeping users hooked.
 ::
 #label-3
-::GlobalTitle{:size="sm" :tag="h4"}
+::GlobalTitle{:size="sm" :tag="h3"}
 Cloud API development
 ::
 #text-3
 ::GlobalParagraph{:fontSize="lg" .leading-6}
 Jump into the cloud with APIs that scale your applications, manage data efficiently, and handle any amount of traffic thrown their way. Your IT infrastructure becomes a scalable, reliable beast that grows with your business needs.
 ::
+::::
+::::GlobalButton{:url="/cloud-application-development/" :label="Get to know our cloud application development services" :color="green"}
+::::
 :::
 
 <!---  What API technologies should I use? -->
