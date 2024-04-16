@@ -148,7 +148,7 @@ What are the benefits of the API-first approach?
 :::
 
 <!---  API development with Blueshoe -->
-:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=3 data-title="API development with Blueshoe"}
+:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=4 data-title="API development with Blueshoe"}
 ::::GlobalTitle{.mb-6}
 API development with Blueshoe
 ::::
@@ -179,8 +179,19 @@ Cloud API development
 ::GlobalParagraph{:fontSize="lg" .leading-6}
 Jump into the cloud with APIs that scale your applications, manage data efficiently, and handle any amount of traffic thrown their way. Your IT infrastructure becomes a scalable, reliable beast that grows with your business needs.
 ::
-::::
 ::::GlobalButton{:url="/cloud-application-development/" :label="Get to know our cloud application development services" :color="green"}
+::::
+
+#label-4
+::GlobalTitle{:size="sm" :tag="h3"}
+Custom API development
+::
+#text-4
+::GlobalParagraph{:fontSize="lg" .leading-6}
+Got unique challenges? We've got unique solutions. Our custom APIs are tailor-made to fit into your systems, enhancing your workflow and opening up new business opportunities. Your business gets exactly what it needs to stand out, with APIs designed just for you.
+::
+
+::::GlobalButton{:url="/contact/" :label="Let’s talk about your API project" :color="green"}
 ::::
 :::
 
