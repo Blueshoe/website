@@ -175,7 +175,7 @@ We're focusing on giving your mobile apps the superpowers they need. From timely
 ::GlobalTitle{:size="sm" :tag="h3"}
 Cloud API development
 ::
-#text-3{.mb-4}
+#text-3
 ::GlobalParagraph{:fontSize="lg" .leading-6}
 Jump into the cloud with APIs that scale your applications, manage data efficiently, and handle any amount of traffic thrown their way. Your IT infrastructure becomes a scalable, reliable beast that grows with your business needs.
 ::
@@ -186,7 +186,7 @@ Jump into the cloud with APIs that scale your applications, manage data efficien
 ::GlobalTitle{:size="sm" :tag="h3"}
 Custom API development
 ::
-#text-4{.mb-4}
+#text-4
 ::GlobalParagraph{:fontSize="lg" .leading-6}
 Got unique challenges? We've got unique solutions. Our custom APIs are tailor-made to fit into your systems, enhancing your workflow and opening up new business opportunities. Your business gets exactly what it needs to stand out, with APIs designed just for you.
 ::
