@@ -193,6 +193,20 @@ Got unique challenges? We've got unique solutions. Our custom APIs are tailor-ma
 
 ::::GlobalButton{:url="/contact/" :label="Let’s talk about your API project" :color="green"}
 ::::
+
+::::GlobalTitle{size="lg" :tag="h3" .mb-6}
+Process of API development
+::::
+::::GlobalBlock{.mb-4 .ul-disk}
+1. Understanding Your Vision: We begin by diving deep into your business goals, challenges, and vision for your API solution. This initial consultation is key to aligning our efforts with your objectives.
+2. Tailored Planning for Your Success: After grasping your needs, we conduct a feasibility study and tailor a project plan that outlines the scope, milestones, and resources dedicated to turning your vision into reality.
+3. Designing Your Ideal API: Our team crafts a robust API architecture and designs endpoints that cater precisely to your needs, ensuring scalability, reliability, and security are at the forefront.
+4. Bringing Your API to Life: With the blueprint ready, our developers start coding, meticulously building your API while our QA team ensures everything runs smoothly through rigorous testing.
+5. Ensuring Excellence: Before any launch, we conduct extensive QA testing and invite you to review the API, guaranteeing it meets your expectations and performs flawlessly.
+6. Launching Your Solution: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
+7. Continuous Support and Enhancement: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
+::::
+
 :::
 
 <!---  What API technologies should I use? -->
