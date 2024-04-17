@@ -193,6 +193,7 @@ Got unique challenges? We've got unique solutions. Our custom APIs are tailor-ma
 
 ::::GlobalButton{:url="/contact/" :label="Let’s talk about your API project" :color="green"}
 ::::
+:::
 
 ::::GlobalTitle{size="lg" :tag="h3" .mb-6}
 Process of API development
@@ -206,7 +207,6 @@ Process of API development
 6. Launching Your Solution: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
 7. Continuous Support and Enhancement: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
 ::::
-:::
 
 <!---  What API technologies should I use? -->
 :::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=5 data-title="What API technologies should I use?"}
