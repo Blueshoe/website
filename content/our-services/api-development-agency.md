@@ -208,6 +208,21 @@ Process of API development
 - Launching Your Solution: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
 - Continuous Support and Enhancement: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
 ::
+
+#label-6
+::GlobalTitle{:size="sm" :tag="h3"}
+How does Blueshoe ensure API performance and scalability?
+::
+#text-6
+::GlobalBlock{.mb-4 .ul-disk}
+- Discuss approaches to optimizing API performance and handling scaling issues.
+- Leverage the hosting platform to the fullest extent
+- Automate scale-out decisions for high load scenarios
+- Utilize an exception tracing solution, such as Sentry
+- Set up an application performance monitoring to recognize response-time bottlenecks early
+- Incrementally improve the implementation and refactor stability issues
+::
+
 :::
 
 
