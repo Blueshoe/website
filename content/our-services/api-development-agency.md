@@ -148,7 +148,7 @@ What are the benefits of the API-first approach?
 :::
 
 <!---  API development with Blueshoe -->
-:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=4 data-title="API development with Blueshoe"}
+:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=7 data-title="API development with Blueshoe"}
 ::::GlobalTitle{.mb-6}
 API development with Blueshoe
 ::::
@@ -193,12 +193,13 @@ Got unique challenges? We've got unique solutions. Our custom APIs are tailor-ma
 
 ::::GlobalButton{:url="/contact/" :label="Let’s talk about your API project" :color="green"}
 ::::
-:::
 
-::::GlobalTitle{size="lg" :tag="h3" .mb-6}
+#label-5
+::GlobalTitle{:size="sm" :tag="h3"}
 Process of API development
-::::
-::::GlobalBlock{.mb-4 .ul-disk}
+::
+#text-5
+::GlobalBlock{.mb-4 .ul-disk}
 1. Understanding Your Vision: We begin by diving deep into your business goals, challenges, and vision for your API solution. This initial consultation is key to aligning our efforts with your objectives.
 2. Tailored Planning for Your Success: After grasping your needs, we conduct a feasibility study and tailor a project plan that outlines the scope, milestones, and resources dedicated to turning your vision into reality.
 3. Designing Your Ideal API: Our team crafts a robust API architecture and designs endpoints that cater precisely to your needs, ensuring scalability, reliability, and security are at the forefront.
@@ -206,7 +207,9 @@ Process of API development
 5. Ensuring Excellence: Before any launch, we conduct extensive QA testing and invite you to review the API, guaranteeing it meets your expectations and performs flawlessly.
 6. Launching Your Solution: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
 7. Continuous Support and Enhancement: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
-::::
+::
+:::
+
 
 <!---  What API technologies should I use? -->
 :::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=5 data-title="What API technologies should I use?"}
