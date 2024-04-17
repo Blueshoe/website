@@ -206,7 +206,6 @@ Process of API development
 6. Launching Your Solution: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
 7. Continuous Support and Enhancement: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
 ::::
-
 :::
 
 <!---  What API technologies should I use? -->
