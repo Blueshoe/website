@@ -187,7 +187,7 @@ Jump into the cloud with APIs that scale your applications, manage data efficien
 Custom API development
 ::
 #text-4
-::GlobalParagraph{:fontSize="lg" .leading-6}
+::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Got unique challenges? We've got unique solutions. Our custom APIs are tailor-made to fit into your systems, enhancing your workflow and opening up new business opportunities. Your business gets exactly what it needs to stand out, with APIs designed just for you.
 ::
 
@@ -221,6 +221,19 @@ How does Blueshoe ensure API performance and scalability?
 - Utilize an exception tracing solution, such as Sentry
 - Set up an application performance monitoring to recognize response-time bottlenecks early
 - Incrementally improve the implementation and refactor stability issues
+::
+
+#label-7
+::GlobalTitle{:size="sm" :tag="h3"}
+Timeline for your API development project
+::
+#text-7
+::GlobalBlock{.mb-4 .ul-disk}
+- **What is typical?** Developing an API is a complex process that varies widely in timing based on several factors, including the scale and intricacy of the project. A typical API development project at Blueshoe can span anywhere from two to six months, though this is highly dependent on the specific needs and challenges of the project.
+- **What are the dependencies?** APIs are designed to connect different services and systems, enabling them to communicate effectively. This process often involves integrating third-party systems, which can introduce additional layers of complexity. The timeline can be significantly impacted by these third parties, especially if they need to modify how they handle data to work with the new API. The availability and responsiveness of these third-party providers can become a critical dependency that might extend the project duration.
+- **Which project step needs how much time?** The project itself can be broken down into several key phases, each consuming a portion of the timeline:
+
+
 ::
 
 :::
