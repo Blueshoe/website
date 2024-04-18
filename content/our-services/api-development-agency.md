@@ -138,12 +138,12 @@ An API first strategy is an approach to software development that prioritizes th
 What are the benefits of the API-first approach?
 ::::
 ::::GlobalBlock{.mb-4 .ul-disk}
-- Rapid development: Quick and easy web application building: Accelerates the development process, enabling the creation of powerful, secure web applications much faster than traditional methods.
-- Enhanced security: Robust security measures: By focusing on API development first, applications are designed with security at the forefront, protecting against malicious attacks while ensuring a seamless user experience.
-- Scalability: Easily scalable solutions: Facilitates the quick addition of new features or scaling of existing functionalities without requiring extensive code rewrites or significant changes.
-- Separation of concerns: Focused development: Separates backend logic from frontend design, allowing developers to concentrate on building reliable and maintainable APIs, while designers can focus on crafting an engaging user interface.
-- Ease of maintenance: Simplified maintenance and upgrades: With a clear separation between the API layer and the user interface, updating and maintaining web applications becomes more straightforward, reducing downtime and improving performance.
-- User experience: Smooth user experience: Ensures that users enjoy a fluid and responsive interaction with the application, thanks to the underlying robust and secure API architecture.
+- **Rapid development**: Quick and easy web application building: Accelerates the development process, enabling the creation of powerful, secure web applications much faster than traditional methods.
+- **Enhanced security**: Robust security measures: By focusing on API development first, applications are designed with security at the forefront, protecting against malicious attacks while ensuring a seamless user experience.
+- **Scalability**: Easily scalable solutions: Facilitates the quick addition of new features or scaling of existing functionalities without requiring extensive code rewrites or significant changes.
+- **Separation of concerns**: Focused development: Separates backend logic from frontend design, allowing developers to concentrate on building reliable and maintainable APIs, while designers can focus on crafting an engaging user interface.
+- **Ease of maintenance**: Simplified maintenance and upgrades: With a clear separation between the API layer and the user interface, updating and maintaining web applications becomes more straightforward, reducing downtime and improving performance.
+- **User experience**: Smooth user experience: Ensures that users enjoy a fluid and responsive interaction with the application, thanks to the underlying robust and secure API architecture.
 ::::
 :::
 
@@ -176,7 +176,7 @@ We're focusing on giving your mobile apps the superpowers they need. From timely
 Cloud API development
 ::
 #text-3
-::GlobalParagraph{:fontSize="lg" .leading-6}
+::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Jump into the cloud with APIs that scale your applications, manage data efficiently, and handle any amount of traffic thrown their way. Your IT infrastructure becomes a scalable, reliable beast that grows with your business needs.
 ::
 ::::GlobalButton{:url="/our-services/cloud-application-development/" :label="Get to know our cloud application development services" :color="green"}
@@ -200,13 +200,13 @@ Process of API development
 ::
 #text-5
 ::GlobalBlock{.mb-4 .ul-disk}
-- Understanding Your Vision: We begin by diving deep into your business goals, challenges, and vision for your API solution. This initial consultation is key to aligning our efforts with your objectives.
-- Tailored Planning for Your Success: After grasping your needs, we conduct a feasibility study and tailor a project plan that outlines the scope, milestones, and resources dedicated to turning your vision into reality.
-- Designing Your Ideal API: Our team crafts a robust API architecture and designs endpoints that cater precisely to your needs, ensuring scalability, reliability, and security are at the forefront.
-- Bringing Your API to Life: With the blueprint ready, our developers start coding, meticulously building your API while our QA team ensures everything runs smoothly through rigorous testing.
-- Ensuring Excellence: Before any launch, we conduct extensive QA testing and invite you to review the API, guaranteeing it meets your expectations and performs flawlessly.
-- Launching Your Solution: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
-- Continuous Support and Enhancement: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
+- **Understanding Your Vision**: We begin by diving deep into your business goals, challenges, and vision for your API solution. This initial consultation is key to aligning our efforts with your objectives.
+- **Tailored Planning for Your Success**: After grasping your needs, we conduct a feasibility study and tailor a project plan that outlines the scope, milestones, and resources dedicated to turning your vision into reality.
+- **Designing Your Ideal API**: Our team crafts a robust API architecture and designs endpoints that cater precisely to your needs, ensuring scalability, reliability, and security are at the forefront.
+- **Bringing Your API to Life**: With the blueprint ready, our developers start coding, meticulously building your API while our QA team ensures everything runs smoothly through rigorous testing.
+- **Ensuring Excellence**: Before any launch, we conduct extensive QA testing and invite you to review the API, guaranteeing it meets your expectations and performs flawlessly.
+- **Launching Your Solution**: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
+- **Continuous Support and Enhancement**: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
 ::
 
 #label-6
