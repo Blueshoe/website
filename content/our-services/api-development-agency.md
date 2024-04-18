@@ -228,13 +228,11 @@ How does Blueshoe ensure API performance and scalability?
 Timeline for your API development project
 ::
 #text-7
-::GlobalBlock{.mb-4 .ul-disk}
+::GlobalBlock{.ul-disk}
 - **What is typical?** Developing an API is a complex process that varies widely in timing based on several factors, including the scale and intricacy of the project. A typical API development project at Blueshoe can span anywhere from two to six months, though this is highly dependent on the specific needs and challenges of the project.
 - **What are the dependencies?** APIs are designed to connect different services and systems, enabling them to communicate effectively. This process often involves integrating third-party systems, which can introduce additional layers of complexity. The timeline can be significantly impacted by these third parties, especially if they need to modify how they handle data to work with the new API. The availability and responsiveness of these third-party providers can become a critical dependency that might extend the project duration.
 - **Which project step needs how much time?** The project itself can be broken down into several key phases, each consuming a portion of the timeline:
-::::GlobalBlock{.mb-4 .ol-decimal}
-- **Concept Phase**: This initial stage involves defining the scope and specifications of the API and can take anywhere from one to six months. The duration of this phase largely depends on the project's complexity and the number of stakeholders involved. It requires extensive coordination to ensure all parties are aligned and that all potential use cases are thoroughly planned out.
-::::
+  1. **Concept Phase**: This initial stage involves defining the scope and specifications of the API and can take anywhere from one to six months. The duration of this phase largely depends on the project's complexity and the number of stakeholders involved. It requires extensive coordination to ensure all parties are aligned and that all potential use cases are thoroughly planned out. 
 ::
 
 :::
