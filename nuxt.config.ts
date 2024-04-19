@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  extends: ['blueshoe'],
+  extends: ['./blueshoe-core'],
   target: 'static',
   devtools: { enabled: true },
   css: ['@/assets/css/fonts.css', 'vue-final-modal/style.css'],
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   ],
   components: {
     global: true,
-    dirs: ['~/components', 'node_modules/blueshoe/components']
+    dirs: ['~/components', '~/blueshoe-core/components']
   },
   content: {
     experimental: {
