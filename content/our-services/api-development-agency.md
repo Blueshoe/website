@@ -241,7 +241,7 @@ Timeline for your API development project
 
 <!---  API integration services -->
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-42.jpg" :isButton=true data-title="API integration services"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.webp" :isButton=true data-title="API integration services"}
 ::::GlobalPreTitle{.mb-2}
 MAXIMIZING EFFICIENCY WITH COMPREHENSIVE API INTEGRATION
 ::::
@@ -252,7 +252,7 @@ API integration services
 Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like e-commerce systems or CMS, as well as platforms like Google, commercetools, contentful, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
 ::::
 #button
-::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting now!" :color="blue" :target="_blank"}
+::GlobalButton{:url="/contact/" :label="Contact us now!" :color="green"}
 ::
 :::
 
