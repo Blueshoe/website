@@ -254,7 +254,7 @@ Integrating an API facilitates the fast and economical development of products o
 ::::
 
 #button
-::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6 " :label="Book a meeting now!" :color="blue" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6" :label="Book a meeting" :target="_blank"}
 ::
 :::
 
