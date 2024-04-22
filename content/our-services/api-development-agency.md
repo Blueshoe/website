@@ -256,8 +256,6 @@ Integrating an API facilitates the fast and economical development of products o
 ::
 :::
 
-:::
-
 
 <!---  What API technologies should I use? -->
 :::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=5 data-title="What API technologies should I use?"}
