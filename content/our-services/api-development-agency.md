@@ -241,21 +241,23 @@ Timeline for your API development project
 
 <!---  API integration services -->
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.webp" :isButton=true data-title="API integration services"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.webp" :isButton=true data-title="Faster, higher, further!"}
 ::::GlobalPreTitle{.mb-2}
-MAXIMIZING EFFICIENCY WITH COMPREHENSIVE API INTEGRATION
+WHY CHOOSE HEADLESS E-COMMERCE
 ::::
 ::::GlobalTitle{.mb-6}
-API integration services
+Faster, higher, further!
 ::::
 ::::GlobalParagraph{.mb-4}
-Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like e-commerce systems or CMS, as well as platforms like Google, commercetools, contentful, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
+The requirements of a modern online shop are high! **Fast performance, intuitive interfaces and the management of huge amounts of data** are just some of the challenges that a modern e-commerce system has to face.
+::::
+::::GlobalParagraph
+The complexity in the area of online commerce has increased steadily in recent years. The desire for individualisation has similarly increased. Furthermore, a shop owner constantly has to **react to market changes, trends and customer requests.**
 ::::
 #button
 ::GlobalButton{:url="/contact/" :label="Contact us now!" :color="green"}
 ::
 :::
-
 
 <!---  What API technologies should I use? -->
 :::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=5 data-title="What API technologies should I use?"}
