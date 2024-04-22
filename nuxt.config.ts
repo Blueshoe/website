@@ -123,6 +123,6 @@ export default defineNuxtConfig({
   },
   experimental: { defaults: { nuxtLink: { trailingSlash: 'append' } } },
   routeRules: {
-    '^.*(?<!/)$': { redirect: '/new-page' }
+    '/^.*(?<!/)$': { redirect: '/new-page' }
   }
 });
