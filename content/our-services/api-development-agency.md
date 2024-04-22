@@ -242,21 +242,19 @@ Timeline for your API development project
 
 <!---  API integration services -->
 
-:::GlobalCardWithBackgroundImageSection{:src="/img/services/gang1-klein.webp" :isButton=true data-title="Faster, higher, further!"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-42.jpg" :isButton=true data-title="API integration services"}
 ::::GlobalPreTitle{.mb-2}
-WHY CHOOSE HEADLESS E-COMMERCE
+MAXIMIZING EFFICIENCY WITH COMPREHENSIVE API INTEGRATION
 ::::
 ::::GlobalTitle{.mb-6}
-Faster, higher, further!
+API integration services
 ::::
 ::::GlobalParagraph{.mb-4}
-The requirements of a modern online shop are high! **Fast performance, intuitive interfaces and the management of huge amounts of data** are just some of the challenges that a modern e-commerce system has to face.
+Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like e-commerce systems or CMS, as well as platforms like Google, commercetools, contentful, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
 ::::
-::::GlobalParagraph
-The complexity in the area of online commerce has increased steadily in recent years. The desire for individualisation has similarly increased. Furthermore, a shop owner constantly has to **react to market changes, trends and customer requests.**
-::::
+
 #button
-::GlobalButton{:url="/contact/" :label="Contact us now!" :color="green"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6 " :label="Book a meeting now!" :color="blue" :target="_blank"}
 ::
 :::
 
