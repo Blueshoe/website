@@ -87,7 +87,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   ::GlobalTitle{:size="lg" :tag="h3" .mb-4}
     Streamlining operations:
   ::
-    
+
   ::GlobalBlock{.mb-4 .ul-disk}
   - Automated data synchronization: APIs can automate the synchronization of data across different systems. For instance, integrating an API with your CRM and ERP systems ensures that customer data is updated in real-time across all platforms, reducing manual data entry and the risk of errors.
   - Efficient resource management: APIs allow for seamless integration with third-party services. For example, a logistics company can use APIs to integrate real-time tracking systems, optimizing routes and reducing delivery times.
@@ -232,11 +232,13 @@ Timeline for your API development project
 - **What is typical?** Developing an API is a complex process that varies widely in timing based on several factors, including the scale and intricacy of the project. A typical API development project at Blueshoe can span anywhere from two to six months, though this is highly dependent on the specific needs and challenges of the project.
 - **What are the dependencies?** APIs are designed to connect different services and systems, enabling them to communicate effectively. This process often involves integrating third-party systems, which can introduce additional layers of complexity. The timeline can be significantly impacted by these third parties, especially if they need to modify how they handle data to work with the new API. The availability and responsiveness of these third-party providers can become a critical dependency that might extend the project duration.
 - **Which project step needs how much time?** The project itself can be broken down into several key phases, each consuming a portion of the timeline:
-::::GlobalBlock{.mb-4 .ml-4 .ol-decimal}
-  - **Concept Phase**: This initial stage involves defining the scope and specifications of the API and can take anywhere from one to six months. The duration of this phase largely depends on the project's complexity and the number of stakeholders involved. It requires extensive coordination to ensure all parties are aligned and that all potential use cases are thoroughly planned out. 
-  - **Development Phase**: Following a solid concept phase, the actual development of the API takes place. This stage typically ranges from one to four months. The efficiency of this phase can be greatly enhanced by detailed and careful planning during the concept phase.
-  - **Testing Phase**: After development, the API must undergo rigorous testing to ensure it handles all intended scenarios and edge cases effectively. This phase is crucial as it often reveals the need for minor tweaks or even significant adjustments to the API. Testing generally lasts between one and three months, depending on the complexity of the API and the issues encountered during this phase.
-::::  
+
+:::GlobalBlock{.mb-4 .ml-4 .ol-decimal}
+1. **Concept Phase**: This initial stage involves defining the scope and specifications of the API and can take anywhere from one to six months. The duration of this phase largely depends on the project's complexity and the number of stakeholders involved. It requires extensive coordination to ensure all parties are aligned and that all potential use cases are thoroughly planned out.
+2. **Development Phase**: Following a solid concept phase, the actual development of the API takes place. This stage typically ranges from one to four months. The efficiency of this phase can be greatly enhanced by detailed and careful planning during the concept phase.
+3. **Testing Phase**: After development, the API must undergo rigorous testing to ensure it handles all intended scenarios and edge cases effectively. This phase is crucial as it often reveals the need for minor tweaks or even significant adjustments to the API. Testing generally lasts between one and three months, depending on the complexity of the API and the issues encountered during this phase.
+:::
+
 ::
 :::
 
