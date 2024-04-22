@@ -11,7 +11,7 @@
           width="120"
           height="120"
         />
-        <speedkit-image
+        <booster-image
           v-if="!isStory"
           :src="src"
           class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
@@ -30,7 +30,7 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+import BoosterImage from '#booster/components/BoosterImage';
 type BgColor = 'bg-white' | 'bg-bs-blue';
 type Target = '_blank' | '_self';
 

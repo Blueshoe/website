@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   extends: ['./blueshoe-core'],
-  target: 'static',
+  ssr: false,
   devtools: { enabled: true },
   css: ['@/assets/css/fonts.css', 'vue-final-modal/style.css'],
   modules: [
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/i18n',
     '@zadigetvoltaire/nuxt-gtm',
-    'nuxt-speedkit'
+    'nuxt-booster'
   ],
   components: {
     global: true,
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
   content: {
     experimental: {
-      clientDb: true
+      clientDB: true
     },
     highlight: {
       theme: {
@@ -28,12 +28,12 @@ export default defineNuxtConfig({
     }
   },
   tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'first' }],
     configPath: 'tailwind.config',
-    exposeConfig: false,
-    exposeLevel: 2,
+    exposeConfig: {
+      level: 2
+    },
     config: {},
-    injectPosition: 'first',
     viewer: true
   },
   i18n: {
@@ -64,7 +64,7 @@ export default defineNuxtConfig({
     mode: 'mount',
     debug: process.env.NODE_ENV === 'development'
   },
-  speedkit: {
+  booster: {
     detection: {
       performance: true,
       browserSupport: true

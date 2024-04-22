@@ -10,7 +10,7 @@
         width="577"
         height="300"
       />
-      <speedkit-image
+      <booster-image
         v-if="!isStory"
         :src="image"
         class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px] w-full"
@@ -31,7 +31,7 @@
         <div class="flex flex-wrap items-center mb-4">
           <div v-for="(img, i) in icons" :key="i" class="px-4 py-2">
             <img v-if="isStory" :src="img" width="50" height="50" class="max-w-[50px]" alt="icon" />
-            <speedkit-image v-if="!isStory" :src="img" width="50" height="50" class="max-w-[50px]" alt="icon" format="webp" />
+            <booster-image v-if="!isStory" :src="img" width="50" height="50" class="max-w-[50px]" alt="icon" format="webp" />
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+import BoosterImage from '#booster/components/BoosterImage';
 
 interface Props {
   image: string;

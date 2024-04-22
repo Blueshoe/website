@@ -12,7 +12,7 @@
               height="420"
               class="max-w-[2400px] max-h-[420px]"
             />
-            <speedkit-image
+            <booster-image
               v-if="!isStory"
               src="/img/homepage/layer_3.svg"
               alt="Blueshoe Sky"
@@ -69,7 +69,7 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+import BoosterImage from '#booster/components/BoosterImage';
 
 interface Props {
   isStory?: boolean;

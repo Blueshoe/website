@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+import BoosterImage from '#booster/components/BoosterImage';
 const logos = ref(null);
 
 onMounted(() => {

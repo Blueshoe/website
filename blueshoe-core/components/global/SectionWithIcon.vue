@@ -9,7 +9,7 @@
             :alt="alt"
             class="mx-auto h-auto max-w-[250px] sm:max-w-[200px] md:max-w-[250px] w-full"
           />
-          <speedkit-image
+          <booster-image
             v-if="!isStory"
             :src="image"
             :alt="alt"
@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+import BoosterImage from '#booster/components/BoosterImage';
 interface Props {
   image: string;
   alt: string;
