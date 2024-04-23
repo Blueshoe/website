@@ -52,5 +52,6 @@
     "plyr": "^3.7.8",
     "sitemap": "^7.1.1",
     "vue-final-modal": "^4.5.3"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
