@@ -272,7 +272,17 @@ What technologies do cloud APIs use?
 ::
 #text-1
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-Cloud APIs typically use a combination of technologies, such as Representational State Transfer (REST), Google Remote Procedure Call (gRPC), GraphQL, Simple Object Access Protocol (SOAP), and JavaScript Object Notation (JSON). These technologies allow developers to access data and services from cloud-based applications.
+**Cloud APIs** typically use web-based technologies to enable interaction with cloud services. These include:
+::
+::GlobalBlock{.ul-disk .mb-2}
+- **REST** (Representational State Transfer): A lightweight architecture that uses standard HTTP methods (GET, POST, PUT, DELETE) for communication.
+- **SOAP** (Simple Object Access Protocol): A protocol that uses XML for messaging and relies on other application layer protocols, typically HTTP or SMTP, for message negotiation and transmission.
+- **gRPC** (Google Remote Procedure Call): A high-performance, open-source framework that uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features like authentication, load balancing, and more.
+- **JSON** (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.
+- **GraphQL** is a query language for APIs and a runtime for executing those queries by using a type system you define for your data.
+::
+::GlobalParagraph{:fontSize="lg" .leading-6}
+These technologies allow developers to access data and services from cloud-based applications.
 ::
 #label-2
 ::GlobalTitle{:size="sm" :tag="h4"}
@@ -280,7 +290,7 @@ How do REST APIs work?
 ::
 #text-2
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-REpresentational State Transfer (REST) is a widespread architectural style for inter application/service communication used by software applications. Underlying this style are many principles and constraints aimed at creating stateless, reliable APIs. When all REST constraints are met, APIs are also referred to as RESTful APIs. For cloud-based applications, REST APIs often communicate using the HTTP protocol, allowing interaction with application-specific data through requests to the corresponding URLs. The following API responses are often provided as JSON data, but are not limited to it.
+REST APIs work by following stateless client-server communication, where each HTTP request from a client to server must contain all the information the server needs to fulfill the request (and cannot take advantage of any stored context on the server). Resources are identified using URLs, and the standard HTTP methods are used to create, retrieve, update, or delete those resources. REST uses standard HTTP response codes to indicate the success or failure of requests.
 ::
 #label-3
 ::GlobalTitle{:size="sm" :tag="h4"}
@@ -288,7 +298,7 @@ How does gRPC work?
 ::
 #text-3
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-GRPC works by allowing clients to make remote procedure calls (RPCs) to a server. The client sends a request message to the server containing the name of the method to be called, along with any parameters needed for the call. The server then processes the request and sends back a response message containing the results of the call. GRPC uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts.
+gRPC is designed for low-latency, high-performance communication. gRPC uses HTTP/2 as its transport protocol, which allows for multiplexed requests over a single connection, leading to reduced latency. It uses Protocol Buffers, a powerful binary serialization toolset and language, as its interface description language. gRPC enables the definition of services with methods that can be called remotely, and it automatically generates client and server code. It supports four types of service methods: unary, server streaming, client streaming, and bidirectional streaming, making it versatile for various types of data exchange, including real-time communication.
 ::
 #label-4
 ::GlobalTitle{:size="sm" :tag="h4"}
@@ -296,7 +306,7 @@ How do SOAP APIs work?
 ::
 #text-4
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-A SOAP API works by sending and receiving messages in a standardized format. The messages are sent using the Simple Object Access Protocol (SOAP) over HTTP. The messages contain data that is encoded in XML format. The server then processes the message and sends a response back to the client.
+SOAP APIs work by exchanging XML-based messages over a network, typically using HTTP or SMTP for message transmission. A SOAP message is an XML document that consists of a mandatory SOAP envelope, an optional SOAP header, and a mandatory SOAP body. The SOAP envelope contains the actual SOAP message intended for the recipient. SOAP defines a set of rules for structuring these messages, which can include information about the operation being performed, the data being sent, and more. SOAP APIs are known for their strict standards, extensive feature set (like WS-Security for enhanced security measures), and ability to handle complex operations, making them suitable for enterprise-level applications.
 ::
 #label-5
 ::GlobalTitle{:size="sm" :tag="h4"}
@@ -304,14 +314,14 @@ How does GraphQL work?
 ::
 #text-5
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-GraphQL works by allowing clients to make a single request to an API that specifies exactly what data they need. The server then processes the request and returns the requested data in a predictable format. GraphQL also allows developers to create powerful APIs with less code, making it easier to develop applications quickly and efficiently. GraphQL is used by many large companies such as Facebook, Twitter, and GitHub to power their services.
+Unlike REST, which uses multiple endpoints to retrieve different pieces of data or perform different operations, GraphQL APIs use a single endpoint. Clients can specify exactly what data they need, even fetching related data in a single request. This reduces the amount of data transferred over the network and can significantly improve the efficiency of applications, especially in complex systems or mobile applications where bandwidth is a concern. GraphQL also allows for real-time updates with subscriptions, making it a powerful choice for dynamic, interactive applications. In cloud APIs, GraphQL offers a flexible and efficient way to interact with cloud services, allowing developers to build more responsive, data-driven applications. GraphQL is used by many large companies such as Facebook, X, and GitHub to power their services.
 ::
 :::
 
-<!--- We love technology and strive for innovation -->
+<!--- Let’s choose the right API for your project together  -->
 :::GlobalCardWithBackgroundImageSection{:src="/img/services/blue_shoes-32.jpg" :isButton=true}
   ::::GlobalTitle{.mb-6}
-  We love technology and strive for innovation.
+  Let’s choose the right API for your project together!
   ::::
 
   ::::GlobalParagraph
