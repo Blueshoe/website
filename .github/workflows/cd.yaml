@@ -1,4 +1,4 @@
-name: Build & Deploy Histoire
+name: Build & Deploy Histoire (from io)
 on:
     push:
         branches:
@@ -12,8 +12,11 @@ jobs:
           - uses: actions/checkout@v4
           - name: Use Node.js
             uses: actions/setup-node@v4
-          - run: npm ci
-          - run: npm run story:build
+          - name: Build stories
+            working-directory: ./io
+            run: |
+              npm ci
+              npm run story:build
           - name: Create Histoire artefact
             uses: actions/upload-artifact@v4
             with:
