@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     'nuxt-icon',
     '@nuxtjs/i18n',
-    'nuxt-speedkit'
+    'nuxt-booster'
   ],
   components: {
     global: true,
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   },
   content: {
     experimental: {
-      clientDb: true
+      clientDB: true
     },
     highlight: {
       theme: {
@@ -52,10 +52,11 @@ export default defineNuxtConfig({
     mode: 'mount',
     debug: process.env.NODE_ENV === 'development'
   },
-  speedkit: {
+  booster: {
     detection: {
       performance: true,
-      browserSupport: true
+      browserSupport: true,
+      battery: true
     },
 
     performanceMetrics: {
