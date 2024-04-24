@@ -1,0 +1,43 @@
+name: Build & Deploy Histoire (from io)
+on:
+    push:
+        branches:
+        - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        name: Build
+        steps:
+          - uses: actions/checkout@v4
+          - name: Enable corepack
+            run: corepack enable
+          - name: Use Node.js
+            uses: actions/setup-node@v4
+          - name: Build stories
+            working-directory: io
+            run: |
+              yarn install
+              yarn story:build
+          - name: Create Histoire artefact
+            uses: actions/upload-artifact@v4
+            with:
+                name: histoire
+                path: io/.histoire/dist
+    deploy:
+        runs-on: ubuntu-latest
+        needs: build
+        name: Deploy
+        steps:
+          - uses: actions/checkout@v4
+          - name: Download Histoire artefact
+            uses: actions/download-artifact@v4
+            with:
+                name: histoire
+                path: .histoire/dist
+          - name: Deploy
+            uses: cloudflare/wrangler-action@v3
+            with:
+              apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+              accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+              command: pages deploy .histoire/dist/ --project-name=histoire-blueshoe-io
