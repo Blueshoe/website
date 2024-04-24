@@ -10,7 +10,7 @@
               :class="cardBg"
             >
               <div class="sm:order-2 flex items-center justify-center px-6 sm:p-0">
-                <speedkit-image
+                <booster-image
                   src="/img/global/icons/blog.svg"
                   class="max-w-[280px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:min-w-[100px]"
                   alt="background image"
@@ -39,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
+import BoosterImage from '#booster/components/BoosterImage';
 type Bg = 'bg-white' | 'bg-bs-blue' | 'bg-bs-gray';
 type Articles = {
   title: string;
