@@ -107,6 +107,12 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: ['/sitemap.xml'],
+      // ignore external links that break github action
+      ignore: [
+        '/[https://www.ampproject.org/roadmap/',
+        '/[https://www.ampproject.org/case-studies/wired/',
+        '/[https://www.ampproject.org/case-studies/washingtonpost/'
+      ],
       failOnError: false
     }
   }
