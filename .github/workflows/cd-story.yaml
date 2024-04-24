@@ -10,13 +10,15 @@ jobs:
         name: Build
         steps:
           - uses: actions/checkout@v4
+          - name: Enable corepack
+            run: corepack enable
           - name: Use Node.js
             uses: actions/setup-node@v4
           - name: Build stories
-            working-directory: ./io
+            working-directory: io
             run: |
-              npm ci
-              npm run story:build
+              yarn install
+              yarn story:build
           - name: Create Histoire artefact
             uses: actions/upload-artifact@v4
             with:
