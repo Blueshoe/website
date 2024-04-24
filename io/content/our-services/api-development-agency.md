@@ -46,7 +46,7 @@ Discover and implement an API-first strategy for your applications
 Discover our API development and integration services
 ::::
 ::::GlobalParagraph
-Figuring out the right [architecture](our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+Figuring out the right [architecture](/our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
  for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
 ::::
 #button
@@ -60,7 +60,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
   What is API development and why is it important?
   ::::
   ::::GlobalParagraph{.mb-6}
-  API Development refers to the process of creating Application Programming Interfaces (APIs) that enable software applications to communicate and interact with each other. APIs serve as a bridge, allowing different software systems to connect and exchange data seamlessly. This is crucial in today's interconnected digital ecosystem, where the ability to integrate various technologies is key to operational efficiency and innovation.
+  API development refers to the process of creating Application Programming Interfaces (APIs) that enable software applications to communicate and interact with each other. APIs serve as a bridge, allowing different software systems to connect and exchange data seamlessly. This is crucial in today's interconnected digital ecosystem, where the ability to integrate various technologies is key to operational efficiency and innovation.
   ::::
 
   ::::GlobalParagraph{.mb-6}
@@ -100,7 +100,7 @@ Figuring out the right [architecture](our-services/microservice-architecture-con
 
   ::GlobalBlock{.mb-4 .ul-disk}
   - Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
-  - Seamless payment processes: For e-commerce businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
+  - Seamless payment processes: For [e-commerce](/our-services/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
   ::
 
 #card3
@@ -350,7 +350,7 @@ While GraphQL's lack of dedicated URLs for specific data responses poses challen
 :::
 
 <!---  API testing: the core of your API first strategy -->
-:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="blue shoes" :isButton=true :bg="bg-white" :imagePosition="right" data-title="API testing: the core of your API first strategy"}
+:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="blue shoes" :isButton=true :bg="bg-bs-gray" :imagePosition="right" data-title="API testing: the core of your API first strategy"}
 ::::GlobalColorTitle{:color="text-bs-blue" .mb-6}
 OH NO, ANOTHER THING THAT NEEDS TESTING
 ::::
@@ -414,7 +414,7 @@ But don't worry, we're here to help you set up a solid testing strategy for your
 :::
 
 <!---  The importance of API documentation -->
-:::GlobalListCardSliderSection{:bg="bg-bs-gray" :numberCards=5 data-title="The importance of API documentation"}
+:::GlobalListCardSliderSection{:bg="bg-white" :numberCards=5 data-title="The importance of API documentation"}
 ::::GlobalTitle{.mb-6}
 The importance of API documentation
 ::::
@@ -446,7 +446,7 @@ Automating API documentation
 Enhancing documentation accessibility and usability
 :::
 :::GlobalParagraph{:fontSize="lg"}
-  In our journey to deliver top-tier API documentation, we place a strong emphasis on making every piece of content not just **accessible**, but a breeze to navigate and understand. We craft our documentation with the developer's journey in mind, organizing it **intuitively** and ensuring every word serves a purpose. Our commitment to web accessibility means striving for inclusivity and making sure our documentation is usable for every developer. We design with clarity and simplicity at the forefront, creating a user-friendly interface that minimizes distractions and maximizes comprehension. This thoughtful approach ensures that developers can dive into our documentation with ease, find exactly what they need without fuss, and get back to doing what they do best: building amazing applications with our APIs.
+  In our commitment to provide top-tier API documentation, we focus on making each piece of content not only **accessible** but also **easy to navigate and understand**. We design our documentation with the developer's journey in mind, organizing content **intuitively** and ensuring clarity in every word. Our dedication to web accessibility aims for inclusivity, making sure that our materials are usable for all developers. By prioritizing simplicity and clarity, we craft a user-friendly interface that reduces distractions and enhances comprehension. This meticulous approach allows developers to quickly access the information they need, facilitating efficient use of our APIs in their application development.
 :::
 ::
 #card4
