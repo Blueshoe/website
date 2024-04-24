@@ -102,12 +102,14 @@ export const useGeneralStore = defineStore('general', () => {
 
   const authors = ref([
     { name: 'Robert Gutschale', isSelected: false },
-    { name: 'Victor Studenyak', isSelected: false },
     { name: 'Robert Stein', isSelected: false },
     { name: 'Michael Schilonka', isSelected: false },
-    { name: 'Tobias Frölich', isSelected: false },
+    { name: 'Korbinian Hadereder', isSelected: false },
     { name: 'Hannes Hanusch', isSelected: false },
+    { name: 'Victor Studenyak', isSelected: false },
+    { name: 'Tobias Frölich', isSelected: false },
     { name: 'Tina Söll', isSelected: false }
+    { name: 'Tabea Hessler', isSelected: false }
   ]);
 
   const technology = ref([
