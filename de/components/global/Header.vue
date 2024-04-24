@@ -2,7 +2,7 @@
   <div class="fixed z-50 bg-white w-full">
     <div class="relative bs-container flex h-[70px] justify-between items-center">
       <NuxtLink to="/"
-        ><speedkit-image
+        ><booster-image
           src="/img/blueshoe-navbar-logo.png"
           width="200"
           height="51"
@@ -39,8 +39,8 @@
 </template>
 
 <script setup lang="ts">
-import SpeedkitImage from '#speedkit/components/SpeedkitImage';
 import { storeToRefs } from 'pinia';
+import BoosterImage from '#booster/components/BoosterImage';
 import { useGeneralStore } from '~/store';
 import DesktopMenu from '~/components/global/DesktopMenu.vue';
 import MobileMenu from '~/components/global/MobileMenu.vue';
