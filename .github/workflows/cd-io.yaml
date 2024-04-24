@@ -34,10 +34,10 @@ jobs:
             uses: actions/download-artifact@v4
             with:
                 name: website-io
-                path: .output
+                path: io/.output
           - name: Deploy
             uses: cloudflare/wrangler-action@v3
             with:
               apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-              command: pages publish .output/ --project-name=blueshoe-io
+              command: pages publish io/.output/ --project-name=blueshoe-io
