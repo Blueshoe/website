@@ -40,4 +40,4 @@ jobs:
             with:
               apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-              command: pages publish .histoire/dist/ --project-name=histoire-blueshoe-io
+              command: pages deploy .histoire/dist/ --project-name=histoire-blueshoe-io
