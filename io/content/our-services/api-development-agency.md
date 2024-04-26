@@ -142,7 +142,7 @@ Our system architecture, based on microservices and supported by Kubernetes, all
 :::
 #title
 :::GlobalTitle
-LUMA
+LUMA DELIKATESSEN
 :::
 #button
 :::GlobalButton{:url="/contact/" :label="Contact us"}
