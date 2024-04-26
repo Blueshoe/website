@@ -119,8 +119,6 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
   ::
 :::
 
-<!---  To do: LUMA-Slider einfügen -->
-
 :::GlobalSliderSection{:numberCards=1}
 ::::GlobalTitle{.mb-6}
 API first strategy in e-commmerce
