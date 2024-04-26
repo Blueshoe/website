@@ -121,6 +121,35 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
 
 <!---  To do: LUMA-Slider einfügen -->
 
+:::GlobalSliderSection{:numberCards=1}
+::::GlobalTitle{.mb-6}
+API first strategy in e-commmerce
+::::
+::::GlobalParagraph{.mb-4}
+We developed one of the world's fastest online shops, likely the quickest online butchery globally, using an API-first strategy. This platform features a seamless integration with an ERP system and a high-quality front end, offering customers in Switzerland premium products and an exceptional user experience. The project involved migrating a vast amount of existing user data to this sophisticated e-commerce system.
+::::
+::::GlobalParagraph{.mb-4}
+Our architecture emphasizes [microservices](/our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, enhancing development speed for future enhancements and simplifying maintenance compared to traditional monolithic systems. The system's efficiency stems from numerous interconnected components through APIs, including internal and external systems like content management, [e-commerce](/our-services/headless-e-commerce){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} backend, ERP, access management, payment gateways, and marketing tools. These integrations facilitate a swift and contemporary shopping experience for discerning customers.
+::::
+::::GlobalParagraph
+All technology is supported by a [Kubernetes-based cloud architecture](/our-services/cloud-application-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, ensuring scalable performance during peak demand periods.
+::::
+
+#card1
+::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "maurer"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "maurer"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
+:::GlobalParagraph{:fontSize="lg"}
+Our system architecture, based on microservices and supported by Kubernetes, allows for scalable performance and easy maintenance, enhancing the overall efficiency and user experience by integrating various components including CMS, e-commerce backend, ERP, and payment gateways.
+:::
+#title
+:::GlobalTitle
+LUMA
+:::
+#button
+:::GlobalButton{:url="/contact/" :label="Contact us"}
+:::
+::
+:::
+
 <!---  LET'S DEVELOP YOUR API FIRST STRATEGY -->
 :::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="api first strategy" :bg="bg-bs-gray" :imagePosition="right" data-title="What is our API first approach?"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
