@@ -136,7 +136,7 @@ All technology is supported by a [Kubernetes-based cloud architecture](/our-serv
 ::::
 
 #card1
-::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "maurer"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "maurer"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
+::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "maurer"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "luma website"}' :mobileImage='{"src": "/img/projects/luma-website-mobile.png", "alt": "luma website mobile"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
 :::GlobalParagraph{:fontSize="lg"}
 Our system architecture, based on microservices and supported by Kubernetes, allows for scalable performance and easy maintenance, enhancing the overall efficiency and user experience by integrating various components including CMS, e-commerce backend, ERP, and payment gateways.
 :::
