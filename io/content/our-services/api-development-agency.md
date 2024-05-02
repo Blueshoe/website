@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'We help building the APIs for your service based architectures'
+  title: 'Custom API Development & Integration Services'
   meta:
     - property: 'og:locale'
       content: 'en_US'
     - name: 'description'
-      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+      content: 'Blueshoe provides API-first development, focusing on integration and versioning for scalable business software solutions. Contact us for details'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'We help building the APIs for your service based architectures'
     - property: 'og:description'
-      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+      content: 'Blueshoe provides API-first development, focusing on integration and versioning for scalable business software solutions. Contact us for details'
     - property: 'og:image'
       content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -100,7 +100,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
 
   ::GlobalBlock{.mb-4 .ul-disk}
   - Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
-  - Seamless payment processes: For [e-commerce](/our-services/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
+  - Seamless payment processes: For [e-commerce](/our-services/headless-e-commerce/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
   ::
 
 #card3
@@ -119,7 +119,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
   ::
 :::
 
-:::GlobalSliderSection{:numberCards=1}
+:::GlobalSliderSection{:numberCards=1 data-title="API first strategy in e-commmerce"}
 ::::GlobalTitle{.mb-6}
 API first strategy in e-commmerce
 ::::
@@ -277,7 +277,8 @@ MAXIMIZING EFFICIENCY WITH COMPREHENSIVE API INTEGRATION
 API integration services
 ::::
 ::::GlobalParagraph{.mb-4}
-Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like e-commerce systems or CMS, as well as platforms like Google, commercetools, contentful, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
+Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like [e-commerce](/our-services/headless-e-commerce/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} systems or [CMS](/our-services/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, as well as platforms like Google, <a href="https://commercetools.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">commercetools
+</a>, <a href="https://www.contentful.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">contentful</a>, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
 ::::
 
 #button
