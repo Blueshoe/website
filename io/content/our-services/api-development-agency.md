@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'We help building the APIs for your service based architectures'
+  title: 'Custom API Development & Integration Services'
   meta:
     - property: 'og:locale'
       content: 'en_US'
     - name: 'description'
-      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+      content: ' Blueshoe excels in API development and integration services, enhancing your software infrastructure with an API-first approach. Contact us today.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'We help building the APIs for your service based architectures'
+      content: 'Custom API Development & Integration Services'
     - property: 'og:description'
-      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+      content: ' Blueshoe excels in API development and integration services, enhancing your software infrastructure with an API-first approach. Contact us today.'
     - property: 'og:image'
       content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,9 +19,9 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'We help building the APIs for your service based architectures'
+      content: 'Custom API Development & Integration Services'
     - name: 'twitter:description'
-      content: 'APIs are essential for coupling services in modern application architectures. We help you discover and implement a API strategy for your applications.'
+      content: 'Blueshoe excels in API development and integration services, enhancing your software infrastructure with an API-first approach. Contact us today.'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
@@ -55,7 +55,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
 :::
 
 <!---  What is API development and why is it important -->
-:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :bg="bg-bs-gray" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
+:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :bg="bg-bs-gray" :alt="What is API development and why is it important?" :imagePosition="right" data-title="What is API development and why is it important?"}
   ::::GlobalTitle{.mb-6}
   What is API development and why is it important?
   ::::
@@ -100,7 +100,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
 
   ::GlobalBlock{.mb-4 .ul-disk}
   - Personalized services: APIs can enable personalized user experiences. For example, a retail business can use APIs to integrate with recommendation engines, offering personalized product suggestions based on customer browsing history and purchase patterns.
-  - Seamless payment processes: For [e-commerce](/our-services/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
+  - Seamless payment processes: For [e-commerce](/our-services/headless-e-commerce/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} businesses, integrating payment gateway APIs simplifies the checkout process, offering customers a variety of payment options and enhancing the overall shopping experience.
   ::
 
 #card3
@@ -119,7 +119,9 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
   ::
 :::
 
-:::GlobalSliderSection{:numberCards=1}
+<!---  API first strategy in e-commmerce -->
+
+:::GlobalSliderSection{:numberCards=1 data-title="API first strategy in e-commmerce"}
 ::::GlobalTitle{.mb-6}
 API first strategy in e-commmerce
 ::::
@@ -133,8 +135,10 @@ Our architecture emphasizes [microservices](/our-services/microservice-architect
 All technology is supported by a [Kubernetes-based cloud architecture](/our-services/cloud-application-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, ensuring scalable performance during peak demand periods.
 ::::
 
+<!---  LUMA Slider-->
+
 #card1
-::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "maurer"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "luma website"}' :mobileImage='{"src": "/img/projects/luma-website-mobile.png", "alt": "luma website mobile"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
+::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "LUMA Delikatessen"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "luma website"}' :mobileImage='{"src": "/img/projects/luma-website-mobile.png", "alt": "luma website mobile"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
 :::GlobalParagraph{:fontSize="lg"}
 Our system architecture, based on microservices and supported by Kubernetes, allows for scalable performance and easy maintenance, enhancing the overall efficiency and user experience by integrating various components including CMS, e-commerce backend, ERP, and payment gateways.
 :::
@@ -149,7 +153,7 @@ LUMA DELIKATESSEN
 :::
 
 <!---  LET'S DEVELOP YOUR API FIRST STRATEGY -->
-:::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="api first strategy" :bg="bg-bs-gray" :imagePosition="right" data-title="What is our API first approach?"}
+:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="api first strategy with BLueshoe" :bg="bg-bs-gray" :imagePosition="right" data-title="What is our API first approach?"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
 LET'S DEVELOP YOUR API FIRST STRATEGY
 ::::
@@ -277,7 +281,8 @@ MAXIMIZING EFFICIENCY WITH COMPREHENSIVE API INTEGRATION
 API integration services
 ::::
 ::::GlobalParagraph{.mb-4}
-Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like e-commerce systems or CMS, as well as platforms like Google, commercetools, contentful, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
+Integrating an API facilitates the fast and economical development of products or the addition of new functionalities while ensuring effortless interaction with various systems. API integration establishes efficient communication across different software elements, technologies, and applications. This includes integrating with industry-specific software like [e-commerce](/our-services/headless-e-commerce/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} systems or [CMS](/our-services/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, as well as platforms like Google, <a href="https://commercetools.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">commercetools
+</a>, <a href="https://www.contentful.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">contentful</a>, PayPal, Amazon, Stripe, Facebook, and X. It also covers integration with JavaScript, XML, RESTful APIs, and Oracle web services, among others. Our expertise enables you to deploy or link both internal and external API services for mobile, platform, or web applications.
 ::::
 
 #button
@@ -361,7 +366,7 @@ Unlike REST, which uses multiple endpoints to retrieve different pieces of data 
 :::
 
 <!---  GraphQL development -->
-:::GlobalSectionWithImage{:image="/img/services/tools_and_systems.jpg" :alt="blue shoes" :imagePosition="right" data-title="GraphQL development"}
+:::GlobalSectionWithImage{:image="/img/services/tools_and_systems.jpg" :alt="GraphQL development" :imagePosition="right" data-title="GraphQL development"}
 ::::GlobalTitle{.mb-6}
 GraphQL development
 ::::
@@ -377,7 +382,7 @@ While GraphQL's lack of dedicated URLs for specific data responses poses challen
 :::
 
 <!---  API testing: the core of your API first strategy -->
-:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="blue shoes" :isButton=true :bg="bg-bs-gray" :imagePosition="right" data-title="API testing: the core of your API first strategy"}
+:::GlobalSectionWithImage{:image="/img/services/api_testing_blueshoe.svg" :alt="API testing" :isButton=true :bg="bg-bs-gray" :imagePosition="right" data-title="API testing: the core of your API first strategy"}
 ::::GlobalColorTitle{:color="text-bs-blue" .mb-6}
 OH NO, ANOTHER THING THAT NEEDS TESTING
 ::::
