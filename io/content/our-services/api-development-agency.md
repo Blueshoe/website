@@ -55,7 +55,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
 :::
 
 <!---  What is API development and why is it important -->
-:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :bg="bg-bs-gray" :alt="blue shoes" :imagePosition="right" data-title="What is API development and why is it important?"}
+:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :bg="bg-bs-gray" :alt="What is API development and why is it important?" :imagePosition="right" data-title="What is API development and why is it important?"}
   ::::GlobalTitle{.mb-6}
   What is API development and why is it important?
   ::::
@@ -119,6 +119,8 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
   ::
 :::
 
+<!---  API first strategy in e-commmerce -->
+
 :::GlobalSliderSection{:numberCards=1 data-title="API first strategy in e-commmerce"}
 ::::GlobalTitle{.mb-6}
 API first strategy in e-commmerce
@@ -133,8 +135,10 @@ Our architecture emphasizes [microservices](/our-services/microservice-architect
 All technology is supported by a [Kubernetes-based cloud architecture](/our-services/cloud-application-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, ensuring scalable performance during peak demand periods.
 ::::
 
+<!---  LUMA Slider-->
+
 #card1
-::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "maurer"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "luma website"}' :mobileImage='{"src": "/img/projects/luma-website-mobile.png", "alt": "luma website mobile"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
+::GlobalSliderCard{:logo='{"src": "/img/brands-slides/luma.jpg", "alt": "LUMA Delikatessen"}' :desktopImage='{"src": "/img/projects/luma-website.png", "alt": "luma website"}' :mobileImage='{"src": "/img/projects/luma-website-mobile.png", "alt": "luma website mobile"}' :tags='["Google Kubernetes Engine (GKE Autopilot)", "Keycloak", "Django", "Gefyra", "Varnish", "NuxtJS", "Elastic Search"]'}
 :::GlobalParagraph{:fontSize="lg"}
 Our system architecture, based on microservices and supported by Kubernetes, allows for scalable performance and easy maintenance, enhancing the overall efficiency and user experience by integrating various components including CMS, e-commerce backend, ERP, and payment gateways.
 :::
@@ -149,7 +153,7 @@ LUMA DELIKATESSEN
 :::
 
 <!---  LET'S DEVELOP YOUR API FIRST STRATEGY -->
-:::GlobalSectionWithImage{:image="/img/services/easy_expandability-carmen.jpg" :alt="api first strategy" :bg="bg-bs-gray" :imagePosition="right" data-title="What is our API first approach?"}
+:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="api first strategy with BLueshoe" :bg="bg-bs-gray" :imagePosition="right" data-title="What is our API first approach?"}
 ::::GlobalColorTitle{:color="text-bs-green" .mb-6}
 LET'S DEVELOP YOUR API FIRST STRATEGY
 ::::
@@ -362,7 +366,7 @@ Unlike REST, which uses multiple endpoints to retrieve different pieces of data 
 :::
 
 <!---  GraphQL development -->
-:::GlobalSectionWithImage{:image="/img/services/tools_and_systems.jpg" :alt="blue shoes" :imagePosition="right" data-title="GraphQL development"}
+:::GlobalSectionWithImage{:image="/img/services/tools_and_systems.jpg" :alt="GraphQL development" :imagePosition="right" data-title="GraphQL development"}
 ::::GlobalTitle{.mb-6}
 GraphQL development
 ::::
@@ -378,7 +382,7 @@ While GraphQL's lack of dedicated URLs for specific data responses poses challen
 :::
 
 <!---  API testing: the core of your API first strategy -->
-:::GlobalSectionWithImage{:image="/img/services/blue_shoes-44.jpg" :alt="blue shoes" :isButton=true :bg="bg-bs-gray" :imagePosition="right" data-title="API testing: the core of your API first strategy"}
+:::GlobalSectionWithImage{:image="/img/services/api_testing_blueshoe.svg" :alt="API testing" :isButton=true :bg="bg-bs-gray" :imagePosition="right" data-title="API testing: the core of your API first strategy"}
 ::::GlobalColorTitle{:color="text-bs-blue" .mb-6}
 OH NO, ANOTHER THING THAT NEEDS TESTING
 ::::
