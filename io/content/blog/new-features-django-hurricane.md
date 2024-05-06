@@ -62,7 +62,7 @@ We also worked on the to-do list in the <a href="https://github.com/django-hurri
 Documentation
 :::
 :::globalParagraph
-We have done extensive work on the <a href="https://django-hurricane.readthedocs.io/en/latest/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">documentation</a>. Apart from the **user guide**, there’s also a low-level API documentation. The user guide provides helpful information about the use of **Django-Hurricane**, such as the available command options, useful tips for the configuration as well as general information about the individual components of Django-Hurricane. In the API documentation, you’ll be able to look up the features of those individual components.
+We have done extensive work on the <a href="https://django-hurricane.readthedocs.io/en/latest/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">documentation</a>. Apart from the **user guide**, there’s also a low-level [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} documentation. The user guide provides helpful information about the use of **Django-Hurricane**, such as the available command options, useful tips for the configuration as well as general information about the individual components of Django-Hurricane. In the [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} documentation, you’ll be able to look up the features of those individual components.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
