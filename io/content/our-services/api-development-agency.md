@@ -455,7 +455,7 @@ API documentation is crucial for enabling developers and users to effectively wo
 
 ::::
 #card1
-::GlobalListCardWithImage
+::GlobalListCardWithImage{:src="/img/global/icons/api-documentation-blueshoe.svg"}
 :::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 How can APIs be documented?
 :::
@@ -464,7 +464,7 @@ Effective API documentation incorporates several methods to accommodate differen
 :::
 ::
 #card2
-::GlobalListCardWithImage
+::GlobalListCardWithImage{:src="/img/global/icons/automating-api-documentation.svg"}
 :::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Automating API documentation
 :::
@@ -473,7 +473,7 @@ Automating API documentation
 :::
 ::
 #card3
-::GlobalListCardWithImage
+::GlobalListCardWithImage{:src="/img/global/icons/api-accessibility-usability-blueshoe.svg"}
 :::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Enhancing documentation accessibility and usability
 :::
@@ -482,7 +482,7 @@ Enhancing documentation accessibility and usability
 :::
 ::
 #card4
-::GlobalListCardWithImage
+::GlobalListCardWithImage{:src="/img/global/icons/api-documentation-user-feedback-blueshoe.svg"}
 :::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Incorporating user feedback into documentation
 :::
@@ -491,7 +491,7 @@ Incorporating user feedback into documentation
 :::
 ::
 #card5
-::GlobalListCardWithImage
+::GlobalListCardWithImage{:src="/img/global/icons/api-documentation-versions-blueshoe.svg"}
 :::GlobalTitle{:size="lg" :tag="h3" .mb-4}
 Managing documentation across API versions
 :::
