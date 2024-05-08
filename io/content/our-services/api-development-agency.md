@@ -196,7 +196,7 @@ We're talking about crafting the digital bridges that let your web applications 
 ::
 #label-2
 ::GlobalTitle{:size="sm" :tag="h3"}
-Mobile API developmen
+Mobile API development
 ::
 #text-2
 ::GlobalParagraph{:fontSize="lg" .leading-6}
