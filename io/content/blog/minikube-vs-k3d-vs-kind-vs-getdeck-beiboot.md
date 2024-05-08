@@ -183,7 +183,7 @@ Minikube Profiles: multiple logical clusters on one dev machine
 When we started adopting Kubernetes, we were looking for a solution that allowed us to manage multiple logical clusters on one development machine. In 2016/2017, minikube did not put much focus on that particular feature. It was only possible to spin up one cluster per machine, and there was only a single-node cluster configuration possible. That is why we at Blueshoe decided to work with k3d. However, minikube caught up with this important developer feature and does now support multiple so-called minikube profiles.
 :::
 :::globalParagraph
-minikube profiles are logical clusters that can be started and stopped separately from each other. It allows a developer to have more than one Kubernetes-based development environment. Just think of multiple disjunct projects that require different Kubernetes [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} versions, features, or simply different workloads running in them. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">You can run</a>:
+minikube profiles are logical clusters that can be started and stopped separately from each other. It allows a developer to have more than one Kubernetes-based development environment. Just think of multiple disjunct projects that require different Kubernetes [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} versions, features, or simply different workloads running in them. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">You can run</a>:
 :::
 
 :::BlogCode{.mb-5}
@@ -408,7 +408,7 @@ minikube start --kubernetes-version=1.25.5
 ```
 :::
 :::globalParagraph
-...and you will be provided with the correct [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} version.
+...and you will be provided with the correct [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} version.
 :::
 :::globalParagraph
 Other basic cluster operations are likewise: halting the cluster, stopping or deleting it is always only one command.

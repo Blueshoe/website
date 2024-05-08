@@ -332,7 +332,7 @@ The first step is to containerize your application by packaging it into an image
 One tool that is currently all the rage when it comes to containerizing your applications is buildpacks.io
 ::
 ::GlobalParagraph{:fontSize="lg" .leading-6}
-<a href="https://buildpacks.io/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Buildpacks.io</a> is a platform that provides developers with a set of tools to easily build and deploy applications in any language on any cloud. It provides a unified workflow for building, testing, and deploying applications across multiple clouds, including AWS, Google Cloud Platform, Microsoft Azure, and more. Buildpacks.io also offers an intuitive UI to manage your application's infrastructure and configuration, as well as an [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} to automate the process.
+<a href="https://buildpacks.io/" target="_blank" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">Buildpacks.io</a> is a platform that provides developers with a set of tools to easily build and deploy applications in any language on any cloud. It provides a unified workflow for building, testing, and deploying applications across multiple clouds, including AWS, Google Cloud Platform, Microsoft Azure, and more. Buildpacks.io also offers an intuitive UI to manage your application's infrastructure and configuration, as well as an [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} to automate the process.
 ::
 #label-2
 ::GlobalTitle{:size="sm" :tag="h4"}

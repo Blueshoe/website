@@ -280,7 +280,7 @@ Let’s say you want to bootstrap a Kubernetes-based development environment. He
 
 :::GlobalBlock{.ol-decimal .mb-5}
 1. Pull all resources for provisioning a Kubernetes cluster together (e.g. you need Helm charts, Kustomize resources or plain YAML files). If in doubt, ask your DevOps to provide you with guidance.
-2. Install all components that make up the application to your local Kubernetes cluster (i.e. required databases, caches, indexes, [APIs](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, and other applications). Alternatively, you can just install the components that are really required for your specific application to save computing capacity.
+2. Install all components that make up the application to your local Kubernetes cluster (i.e. required databases, caches, indexes, [APIs](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, and other applications). Alternatively, you can just install the components that are really required for your specific application to save computing capacity.
 3. Make sure everything is running
 :::
 :::globalParagraph
