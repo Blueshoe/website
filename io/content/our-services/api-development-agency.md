@@ -55,7 +55,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
 :::
 
 <!---  What is API development and why is it important -->
-:::GlobalSectionWithImage{:image="/img/services/cloud-native.jpg" :bg="bg-bs-gray" :alt="What is API development and why is it important?" :imagePosition="right" data-title="What is API development and why is it important?"}
+:::GlobalSectionWithImage{:image="/img/global/icons/api_1.svg" :bg="bg-bs-gray" :alt="What is API development and why is it important?" :imagePosition="right" data-title="What is API development and why is it important?"}
   ::::GlobalTitle{.mb-6}
   What is API development and why is it important?
   ::::
@@ -179,7 +179,7 @@ What are the benefits of the API-first approach?
 :::
 
 <!---  API development with Blueshoe -->
-:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=7 data-title="API development with Blueshoe"}
+:::GlobalAccordionSection{bg="bg-white" :color="text-bs-text" :iconColor="text-bs-text" :hoverColor="gray" :borderColor="gray" :numberItems=5 data-title="API development with Blueshoe"}
 ::::GlobalTitle{.mb-6}
 API development with Blueshoe
 ::::
@@ -227,21 +227,6 @@ Got unique challenges? We've got unique solutions. Our custom APIs are tailor-ma
 
 #label-5
 ::GlobalTitle{:size="sm" :tag="h3"}
-Process of API development
-::
-#text-5
-::GlobalBlock{.mb-4 .ul-disk}
-- **Understanding Your Vision**: We begin by diving deep into your business goals, challenges, and vision for your API solution. This initial consultation is key to aligning our efforts with your objectives.
-- **Tailored Planning for Your Success**: After grasping your needs, we conduct a feasibility study and tailor a project plan that outlines the scope, milestones, and resources dedicated to turning your vision into reality.
-- **Designing Your Ideal API**: Our team crafts a robust API architecture and designs endpoints that cater precisely to your needs, ensuring scalability, reliability, and security are at the forefront.
-- **Bringing Your API to Life**: With the blueprint ready, our developers start coding, meticulously building your API while our QA team ensures everything runs smoothly through rigorous testing.
-- **Ensuring Excellence**: Before any launch, we conduct extensive QA testing and invite you to review the API, guaranteeing it meets your expectations and performs flawlessly.
-- **Launching Your Solution**: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
-- **Continuous Support and Enhancement**: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
-::
-
-#label-6
-::GlobalTitle{:size="sm" :tag="h3"}
 How does Blueshoe ensure API performance and scalability?
 ::
 #text-6
@@ -253,23 +238,56 @@ How does Blueshoe ensure API performance and scalability?
 - Set up an application performance monitoring to recognize response-time bottlenecks early
 - Incrementally improve the implementation and refactor stability issues
 ::
+:::
 
-#label-7
-::GlobalTitle{:size="sm" :tag="h3"}
-Timeline for your API development project
+<!---  Process of API development -->
+
+::GlobalSectionWithImage{:image="/img/services/Process-API-development-blueshoe.png" :alt="blue shoes" :bg="bg-bs-gray" :imagePosition="right" :isButton=true}
+
+:::GlobalTitle{.mb-6}
+Process of API development
+:::
+
+:::GlobalBlock{.mb-4 .ul-disk}
+- **Understanding Your Vision**: We begin by diving deep into your business goals, challenges, and vision for your API solution. This initial consultation is key to aligning our efforts with your objectives.
+- **Tailored Planning for Your Success**: After grasping your needs, we conduct a feasibility study and tailor a project plan that outlines the scope, milestones, and resources dedicated to turning your vision into reality.
+- **Designing Your Ideal API**: Our team crafts a robust API architecture and designs endpoints that cater precisely to your needs, ensuring scalability, reliability, and security are at the forefront.
+- **Bringing Your API to Life**: With the blueprint ready, our developers start coding, meticulously building your API while our QA team ensures everything runs smoothly through rigorous testing.
+- **Ensuring Excellence**: Before any launch, we conduct extensive QA testing and invite you to review the API, guaranteeing it meets your expectations and performs flawlessly.
+- **Launching Your Solution**: Deployment is planned and executed with precision, ensuring a smooth transition and minimal disruption to your existing operations.
+- **Continuous Support and Enhancement**: Post-launch, we stay on board to monitor performance, gather feedback, and provide ongoing maintenance, ensuring your API evolves with your business.
+:::
+
+#button
+
+::GlobalButton{:url="/contact/"  :label="Contact us today" :color="green" :target="_blank"}
 ::
-#text-7
-::GlobalBlock{.ul-disk}
-- **What is typical?** Developing an API is a complex process that varies widely in timing based on several factors, including the scale and intricacy of the project. A typical API development project at Blueshoe can span anywhere from two to six months, though this is highly dependent on the specific needs and challenges of the project.
-- **What are the dependencies?** APIs are designed to connect different services and systems, enabling them to communicate effectively. This process often involves integrating third-party systems, which can introduce additional layers of complexity. The timeline can be significantly impacted by these third parties, especially if they need to modify how they handle data to work with the new API. The availability and responsiveness of these third-party providers can become a critical dependency that might extend the project duration.
-- **Which project step needs how much time?** The project itself can be broken down into several key phases, each consuming a portion of the timeline:
-::::GlobalBlock{.mb-4 .ml-4 .ol-decimal}
+
+::
+
+
+<!---  Timeline for your API development project --> -->
+::GlobalSectionWithImage{:image="/img/services/Timeline-API-development-blueshoe.png" :alt="blue shoes" :bg="bg-white" :imagePosition="left" :isButton=true}
+
+:::GlobalTitle{.mb-6}
+Timeline for your API development project
+:::
+:::GlobalParagraph{.mb-2}
+Developing an API is a complex process that varies widely in timing based on several factors, including the scale and intricacy of the project. A typical API development project at Blueshoe can span anywhere from two to six months, though this is highly dependent on the specific needs and challenges of the project.
+:::
+:::GlobalParagraph{.mb-2}
+APIs are designed to connect different services and systems, enabling them to communicate effectively. This process often involves integrating third-party systems, which can introduce additional layers of complexity. The timeline can be significantly impacted by these third parties, especially if they need to modify how they handle data to work with the new API. The availability and responsiveness of these third-party providers can become a critical dependency that might extend the project duration.
+:::
+:::GlobalParagraph{.mb-2}
+The project itself can be broken down into several key phases, each consuming a portion of the timeline:
+:::
+::::GlobalBlock{.mb-4 .ol-decimal}
   **1. Concept Phase**: This initial stage involves defining the scope and specifications of the API and can take anywhere from one to six months. The duration of this phase largely depends on the project's complexity and the number of stakeholders involved. It requires extensive coordination to ensure all parties are aligned and that all potential use cases are thoroughly planned out.   
   **2. Development Phase**: Following a solid concept phase, the actual development of the API takes place. This stage typically ranges from one to four months. The efficiency of this phase can be greatly enhanced by detailed and careful planning during the concept phase.  
   **3. Testing Phase**: After development, the API must undergo rigorous testing to ensure it handles all intended scenarios and edge cases effectively. This phase is crucial as it often reveals the need for minor tweaks or even significant adjustments to the API. Testing generally lasts between one and three months, depending on the complexity of the API and the issues encountered during this phase.
-::::  
+::::
 ::
-:::
+
 
 <!---  API integration services -->
 
