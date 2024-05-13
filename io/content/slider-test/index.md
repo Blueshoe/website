@@ -13,7 +13,7 @@ Precise. Pragmatic. Professional.
 :::
 ::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.appgoogle/1c1opTAqnXqyHrsR6/" :size="small" }
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.appgoogle/1c1opTAqnXqyHrsR6/" :size="big" }
 
 #preTitle
 Software development by Blueshoe
