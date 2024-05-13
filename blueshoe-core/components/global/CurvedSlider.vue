@@ -1,5 +1,5 @@
 <template>
-  <div :class="bg">
+  <div v-if="show" :class="bg" >
     <div class="bs-container">
       <div
         class="curved-slider py-10 px-4 lg:px-0"
@@ -131,6 +131,12 @@ interface Props {
   buttonTarget?: "_blank" | "_self";
   size: "full" | "small";
 }
+
+const show = ref(false);
+
+setTimeout(() => {
+  show.value = true;
+}, 100);
 
 const props = withDefaults(defineProps<Props>(), {
   bg: "bg-white",
