@@ -16,7 +16,9 @@
     "@nuxtjs/tailwindcss": "^6.10.4",
     "eslint": "^8.28.0",
     "nuxt": "^3.6.2",
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.3",
+    "nuxt-swiper": "^1.2.2",
+    "swiper": "^11.1.1"
   },
   "dependencies": {
     "@nuxt/content": "^2.10.0",
