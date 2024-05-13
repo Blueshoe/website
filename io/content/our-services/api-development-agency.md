@@ -229,7 +229,7 @@ Got unique challenges? We've got unique solutions. Our custom APIs are tailor-ma
 ::GlobalTitle{:size="sm" :tag="h3"}
 How does Blueshoe ensure API performance and scalability?
 ::
-#text-6
+#text-5
 ::GlobalBlock{.mb-4 .ul-disk}
 - Discuss approaches to optimizing API performance and handling scaling issues.
 - Leverage the hosting platform to the fullest extent
