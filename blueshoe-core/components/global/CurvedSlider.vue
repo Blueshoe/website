@@ -51,9 +51,11 @@
             <SwiperSlide
               v-for="idx in 6"
               :key="idx"
-              class="relative !bg-transparent"
+              class="relative !bg-transparent w-full"
+              :class="[
+                idx === 3 ? 'w-[16%] max-w-[180px]' : 'w-[25%]',
+              ]"
               :style="{
-                width: idx === 3 ? '180px' : '205px',
                 'z-index': idx === 2 ? '10' : 'auto',
                 margin: idx === 5 ? '0 -50px 0 0' : 'auto',
               }"
@@ -68,7 +70,7 @@
             v-for="idx in 5"
             :key="idx"
             class="relative w-[21%] h-[350px]"
-            :class="[idx === 3 ? 'w-[16%]' : 'w-[21%]']"
+            :class="[idx === 3 ? 'w-[16%]' : 'w-[25%]']"
           >
             <slot :size="size" :name="`card${idx}`" />
           </div>

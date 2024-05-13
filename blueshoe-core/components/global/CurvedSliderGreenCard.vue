@@ -1,7 +1,7 @@
 <template>
   <div
     ref="container"
-    class="relative border-2 border-bs-green pl-[60px] py-[25px] bg-bs-green text-white"
+    class="relative border-2 border-bs-green pl-[60px] py-[25px] bg-bs-green text-white max-w-[180px]"
   >
     <div :style="outerTriangleLeftStyle"></div>
     <div :style="innerTriangleLeftStyle"></div>
