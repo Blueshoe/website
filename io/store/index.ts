@@ -108,7 +108,7 @@ export const useGeneralStore = defineStore('general', () => {
     { name: 'Hannes Hanusch', isSelected: false },
     { name: 'Victor Studenyak', isSelected: false },
     { name: 'Tobias Frölich', isSelected: false },
-    { name: 'Tina Söll', isSelected: false }
+    { name: 'Tina Söll', isSelected: false },
     { name: 'Tabea Hessler', isSelected: false }
   ]);
 
@@ -126,7 +126,8 @@ export const useGeneralStore = defineStore('general', () => {
     { name: 'Vue JS', isSelected: false },
     { name: 'Grafana', isSelected: false },
     { name: 'Loki', isSelected: false },
-    { name: 'Promtail', isSelected: false }
+    { name: 'Promtail', isSelected: false },
+    { name: 'API', isSelected: false }
   ]);
 
   const productUpdates = ref([
