@@ -67,7 +67,65 @@ Thinking in microservices fights against the challenges and problems experienced
 Microservices are small independent services that have service boundaries aligned with respect to business boundaries. These explicit boundaries keep them from growing out of their scope. Microservices are autonomous services which can be seen as independent entities. They can be developed and deployed independently from each other. This results in many and diverse benefits, which have their foundation in distributed systems. Key benefits include:
 :::
 
-:::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=4}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" .mb-6}
+
+#preTitle
+Software development by Blueshoe
+#title
+Rock solid and long-lasting
+
+#card1
+:::GlobalCurvedSliderCard{:firstCard=true :src="/img/slider/group_7.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=5 :size="small"}
+
+#cardTitle
+<span>1.</span> Requirements Analysis Workshop
+
+#cardText
+Start your journey here
+:::
+
+#card2
+:::GlobalCurvedSliderCard{:src="/img/slider/group_5.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=4 :size="small"}
+
+#cardTitle
+<span>2.</span> Actionable Requirements Definition
+
+#cardText
+You receive a precise price indication for your project
+:::
+
+#card3
+:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small"}
+Project greenlight or stop
+:::
+
+#card4
+:::GlobalCurvedSliderCard{:src="/img/slider/group_10.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=2 :size="small"}
+
+#cardTitle
+<span>3.</span> Project Implementation
+
+#cardText
+Rock solid, blazingly fast software and infrastructure
+:::
+
+#card5
+:::GlobalCurvedSliderCard{:src="/img/slider/group_11.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=1 :size="small"}
+
+#cardTitle
+<span>4.</span> Long-lasting Maintenance
+
+#cardText
+Corrective Maintenance </br> Perfective Maintenance </br> Adaptive Maintenance
+:::
+
+#buttonBlockTitle
+Book a meeting with our expert now
+#buttonLabel
+Find a timeslot
+::
+
+:::GlobalListCardSliderSection{ :bg="bg-bs-gray" :dotColor="black" :numberCards=4}
 ::::GlobalTitle{.mb-6}
 The benefits
 ::::
@@ -109,7 +167,7 @@ Microservices are focused on one specific task within the application. This make
 ::
 :::
 
-:::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=2 data-title="How to get Started with Microservices?"}
+:::GlobalListCardSliderSection{:bg="bs-white" :dotColor="black" :numberCards=2 data-title="How to get Started with Microservices?"}
 ::::GlobalTitle{.mb-6}
 How to get Started with Microservices?
 ::::
@@ -136,7 +194,7 @@ To achieve loose coupling and high cohesion, it is important to get the service 
 ::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/okr1_services.jpg" :alt="services" :imagePosition="left" :isButton=false data-title="From Microservice to Microservices Architecture"}
+:::GlobalSectionWithImage{:image="/img/services/okr1_services.jpg" :alt="services" :imagePosition="left" :isButton=false  :bg="bg-bs-gray" data-title="From Microservice to Microservices Architecture"}
 ::::GlobalTitle{.mb-6}
 From Microservice to Microservices Architecture
 ::::
@@ -148,7 +206,7 @@ Getting the integration of microservices right is an important point that should
 ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/monolithic_architecture_vertical_1.svg" :alt="monolithic architecture vertical" :bg="bg-bs-gray" :imagePosition="right" :isButton=false data-title="Splitting up a Monolith"}
+:::GlobalSectionWithImage{:image="/img/services/monolithic_architecture_vertical_1.svg" :alt="monolithic architecture vertical" :bg="bs-white" :imagePosition="right" :isButton=false data-title="Splitting up a Monolith"}
 ::::GlobalTitle{.mb-6}
 Splitting up a Monolith
 ::::
@@ -171,7 +229,7 @@ It is important to transfer the key benefits of microservices as mentioned above
 ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/ork1_deployment.jpg" :alt="services" :imagePosition="left" :isButton=false data-title="Deployment, Testing, Monitoring and Security"}
+:::GlobalSectionWithImage{:image="/img/services/ork1_deployment.jpg" :alt="services" :imagePosition="left" :isButton=false  :bg="bg-bs-gray" data-title="Deployment, Testing, Monitoring and Security"}
 ::::GlobalTitle{.mb-6}
 Deployment, Testing, Monitoring and Security
 ::::
