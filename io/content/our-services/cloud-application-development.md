@@ -66,7 +66,65 @@ As your cloud application development agency, we strongly believe in the benefit
 ::
 :::
 
-:::GlobalSimpleSection{data-title="What are cloud applications?"}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
+
+#preTitle
+Software development by Blueshoe
+#title
+Rock solid and long-lasting
+
+#card1
+:::GlobalCurvedSliderCard{:firstCard=true :src="/img/slider/group_7.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=5 :size="small"}
+
+#cardTitle
+<span>1.</span> Requirements Analysis Workshop
+
+#cardText
+Start your journey here
+:::
+
+#card2
+:::GlobalCurvedSliderCard{:src="/img/slider/group_5.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=4 :size="small"}
+
+#cardTitle
+<span>2.</span> Actionable Requirements Definition
+
+#cardText
+You receive a precise price indication for your project
+:::
+
+#card3
+:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small"}
+Project greenlight or stop
+:::
+
+#card4
+:::GlobalCurvedSliderCard{:src="/img/slider/group_10.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=2 :size="small"}
+
+#cardTitle
+<span>3.</span> Project Implementation
+
+#cardText
+Rock solid, blazingly fast software and infrastructure
+:::
+
+#card5
+:::GlobalCurvedSliderCard{:src="/img/slider/group_11.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=1 :size="small"}
+
+#cardTitle
+<span>4.</span> Long-lasting Maintenance
+
+#cardText
+Corrective Maintenance </br> Perfective Maintenance </br> Adaptive Maintenance
+:::
+
+#buttonBlockTitle
+Book a meeting with our expert now
+#buttonLabel
+Find a timeslot
+::
+
+:::GlobalSimpleSection{ :bg="bg-white" data-title="What are cloud applications?"}
 ::::GlobalTitle{.mb-6}
 What are cloud applications?
 ::::
@@ -78,7 +136,7 @@ For most organizations and applications, the public cloud is the solution of cho
 ::::
 :::
 
-:::GlobalSimpleSection{:bg="bg-white" :isButton=true data-title="Cloud-native development vs. standard development"}
+:::GlobalSimpleSection{:bg="bg-bs-gray" :isButton=true data-title="Cloud-native development vs. standard development"}
 ::::GlobalTitle{.mb-6}
 Cloud-native application development vs. standard application development
 ::::
