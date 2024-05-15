@@ -46,7 +46,7 @@ Discover and implement an API-first strategy for your applications
 Discover our API development and integration services
 ::::
 ::::GlobalParagraph
-Figuring out the right [architecture](our-services/microservice-architecture-consulting){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+Figuring out the right [architecture](/our-services/microservice-architecture-consulting/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
  for your applications and then connecting all your different services with well working and well documented APIs can seem overwhelming at first. Don't worry though our team of experts is here to help you discovering the correct service and API strategy for your applications and will also help you with the implementation of the strategy.
 ::::
 #button

@@ -155,7 +155,6 @@ Use cases of GraphQL
 The use case for GraphQL APIs differs a little from REST. GraphQL should be used in data-rich environments with complex requirements. It’s also worth considering when you have multiple clients with different data needs.
 :::
 <!---  To do: Code Highlighting fehlt -->
-<!---  To do: Abstand zu groß -->
 :::globalParagraph
 Let’s set up the same example like the REST API and get some http.cat images with GraphQL!
 :::
