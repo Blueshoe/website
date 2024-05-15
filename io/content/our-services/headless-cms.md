@@ -65,7 +65,7 @@ Quick summary:
 - Easier integration of third-party solutions
 - Easy scalability (bigger server, f. ex.)
 - No more page reloads
-- Language-agnostic (API can be used with every programming language)
+- Language-agnostic ([API](/our-services/api-development-agency/){.text-white .underline .hover:text-bs-green} can be used with every programming language)
 - Front-end-friendly
 - Flexibility (channels, platforms etc.)
 - No more content migration
@@ -112,7 +112,7 @@ Wagtail CMS
 Headless CMS at a glance
 ::::
 :::GlobalParagraph{:color="text-white" .mb-6}
-Creating and managing all content via one interface (API) means that all contents are gathered in one place which all authors can have access to, independently from one another. Regardless of whether it will be used in two or ten different places, you don’t have to decide on the final number immediately – you can extend the number of places at any time. This is particularly handy if you’d like to be able to react flexibly to trends and changes.
+Creating and managing all content via one interface ([API](/our-services/api-development-agency/){.text-white .underline .hover:text-bs-green}) means that all contents are gathered in one place which all authors can have access to, independently from one another. Regardless of whether it will be used in two or ten different places, you don’t have to decide on the final number immediately – you can extend the number of places at any time. This is particularly handy if you’d like to be able to react flexibly to trends and changes.
 :::
 #card1
 ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4 }
@@ -133,7 +133,7 @@ No duplicate content entry by the authors. No more page reload. Optimised user e
 Attractive frontend
 ::
 ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-Technologies like static site generators. Front-end frameworks like Vue, React or Angular. Jamstack (development with JavaScript, APIs and HTML markup).
+Technologies like static site generators. Front-end frameworks like Vue, React or Angular. Jamstack (development with JavaScript, [APIs](/our-services/api-development-agency/){.text-white .underline .hover:text-bs-green} and HTML markup).
 ::
 :::
 
@@ -166,7 +166,7 @@ Hamburg University of Technology
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :desktopImage='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :mobileImage='{"src": "/img/global/slide/wintercompany_mobile.jpg", "alt": "winter&company"}' :tags='["Django", "Wagtail CMS", "Oscar", "Kubernetes", "Microservices", "Google Cloud", "Keycloak", "Cloud Build", "Docker", "JavaScript", "GKE", "Nginx", "PostgreSQL", "Python", "Varnish", "VueJS"]'}
 :::GlobalParagraph{:fontSize="lg"}
-We did a full technical overhaul of the Winter&Company Website building it on a microservice based architecture that runs on top of Kubernetes. We used a headless approach working with Wagtail CMS and are generating static pages in the frontend which makes the website very fast. Dynamic content is being loaded via an API.
+We did a full technical overhaul of the Winter&Company Website building it on a microservice based architecture that runs on top of Kubernetes. We used a headless approach working with Wagtail CMS and are generating static pages in the frontend which makes the website very fast. Dynamic content is being loaded via an [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}.
 :::
 #title
 :::GlobalTitle

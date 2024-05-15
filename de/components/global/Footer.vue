@@ -41,7 +41,7 @@
           <img src="/img/footer/footer_blue_inverted.svg" alt="Footer" style="transform: rotateY(180deg)" />
         </div>
       </div>
-      <div class="text-lg font-source-sans-pro font-light px-4">© 2023 BLUESHOE GmbH</div>
+      <div class="text-lg font-source-sans-pro font-light px-4">© 2024 BLUESHOE GmbH</div>
     </div>
   </div>
 </template>

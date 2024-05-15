@@ -33,7 +33,7 @@
           </div>
         </div>
       </div>
-      <div class="text-lg font-source-sans-pro font-light px-4">© 2023 BLUESHOE GmbH</div>
+      <div class="text-lg font-source-sans-pro font-light px-4">© 2024 BLUESHOE GmbH</div>
     </div>
   </div>
 </template>

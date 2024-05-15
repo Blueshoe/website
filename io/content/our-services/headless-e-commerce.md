@@ -49,7 +49,7 @@ What does headless e-commerce mean?
 The term ‘headless’ comes from IT architecture and indicates that **frontend and backend** do not strictly belong together anymore but are in fact **separated from one another.** Back in the day, the visualisation of content and the corresponding data of an online shop were closely linked. In the course of cloud-native development, the two areas are operating in an increasingly separated manner.
 ::::
 ::::GlobalParagraph
-It’s precisely this approach that the headless commerce technology pursues, too: front end and back end function independently from one another, communicate with each other via interfaces (API) and can be combined with different headless components. This also means **that individual components can easily be swapped or customised.**
+It’s precisely this approach that the headless commerce technology pursues, too: front end and back end function independently from one another, communicate with each other via interfaces ([API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}) and can be combined with different headless components. This also means **that individual components can easily be swapped or customised.**
 ::::
 :::
 
@@ -90,7 +90,7 @@ The modular concept allows for flexible extensions without the need to interfere
 Faster loading times, better UX
 ::
 ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-With headless e-commerce, the data is sent straight to the front end via the respective interface (API). This means no more data build-up and therefore fewer clients who will stop their buying journey during check-out.
+With headless e-commerce, the data is sent straight to the front end via the respective interface ([API](/our-services/api-development-agency/){.text-white .underline .hover:text-bs-green}). This means no more data build-up and therefore fewer clients who will stop their buying journey during check-out.
 ::
 #card3
 ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}

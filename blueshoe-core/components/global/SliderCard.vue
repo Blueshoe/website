@@ -31,7 +31,9 @@
             }"
           ></div>
           <div class="face face-front">
-            <div></div>
+            <div class="bi-three-dots flex gap-1 mt-1">
+              <div v-for="(i) in 3" class="rounded-full w-3 h-3 bg-[#2470a9]"></div>
+            </div>
           </div>
           <div class="face face-right"></div>
           <div class="face face-bottom"></div>
@@ -39,17 +41,19 @@
       </div>
       <div v-if="mobileImage" class="mobile-scene">
         <div class="cube">
+          <div class="face face-front">
+            <div class="flex justify-center">
+              <div class="absolute bottom-[4px] rounded-full w-3 h-3 bg-[#2470a9]"></div>
+            </div>
+          </div>
           <div
-            class="desktop-image"
+            class="absolute top-0 bottom-0 left-0 right-0 mb-[25px] mx-[2px] mt-[2px]"
             :style="{
               backgroundImage: `url(${mobileImage.src})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'
             }"
           ></div>
-          <div class="face face-front">
-            <div></div>
-          </div>
           <div class="face face-right"></div>
           <div class="face face-bottom"></div>
         </div>
