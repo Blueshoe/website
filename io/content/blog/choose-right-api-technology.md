@@ -30,7 +30,7 @@ alt: 'Learn how to choose the right API technology for your application. Compare
 preTitle: 'Navigating the API Landscape for Modern Applications' 
 title: "API Strategy Essentials: How to Choose the Right Technology for Your Application"
 description: "Learn how to choose the right API technology for your application. Compare REST, GraphQL, gRPC, and SOAP."
-date: '22.05.2024'
+date: '15.05.2024'
 author:
   - Korbinian Habereder
 technology:
