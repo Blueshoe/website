@@ -131,7 +131,7 @@ In this example, I used the popular <a href="https://fastapi.tiangolo.com/" clas
 This concludes this short REST example.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full"   bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full"   bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe

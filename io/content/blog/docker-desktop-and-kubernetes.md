@@ -75,7 +75,7 @@ The question of why Docker Desktop exactly needs a VM on Linux is answered here.
 At least on Linux, the alternative is to run only the Docker daemon (a.k.a Docker engine). That allows me to run and manage containers with system-level performance. It’s a huge advantage compared to other platforms. It doesn’t seem possible to use Docker Desktop with a native Docker daemon, though. It would be the best of both worlds, the features and convenience coming with Docker Desktop and the performance of a native Docker engine. Well, this option is probably never going to happen.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" :bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe

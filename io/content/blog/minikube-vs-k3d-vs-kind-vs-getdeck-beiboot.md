@@ -299,7 +299,7 @@ Popularity is an indicator of how secure the ongoing maintenance of a product is
 As you can see, all three contestants do already have significant popularity on GitHub. However, minikube is by far the most popular option. I would say that all three solutions will be maintained in perpetuity because they currently have a very vibrant community.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" :bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe
