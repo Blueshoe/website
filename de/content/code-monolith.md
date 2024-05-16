@@ -133,7 +133,7 @@ Zeit-Slot finden
 
 
 
-:::GlobalSliderSection{:numberCards=2 data-title="Beispiele für Projekte mit Service-Architektur"}
+:::GlobalSliderSection{:numberCards=2 :bg="bg-bs-gray" data-title="Beispiele für Projekte mit Service-Architektur"}
 ::::GlobalTitle{.mb-6}
 Beispiele für Projekte mit Service-Architektur
 ::::
