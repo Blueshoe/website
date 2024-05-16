@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Headless CMS - Wir entwickeln State-of-the-Art'
+  title: 'Vom Code-Monolithen zur Service-Architektur'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Wir entwicklen für dich Websites mit Headless-CMS. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
+      content: 'Wir transformieren Code-Monolithen in servicebasierte Systeme. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Headless CMS - Wir entwickeln State-of-the-Art'
+      content: 'Transformation vom Code Monolithen zur Service-Architektur'
     - property: 'og:description'
-      content: 'Wir entwicklen für dich Websites mit Headless-CMS. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
+      content: 'Wir transformieren Code-Monolithen in servicebasierte Systeme. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,9 +19,9 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Headless CMS - Wir entwickeln State-of-the-Art'
+      content: 'Service Architektur - Transformation vom Monolithen'
     - name: 'twitter:description'
-      content: 'Wir entwicklen für dich Websites mit Headless-CMS. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
+      content: 'Wir transformieren Code-Monolithen in servicebasierte Systeme. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
