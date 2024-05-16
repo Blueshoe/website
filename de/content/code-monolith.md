@@ -69,6 +69,66 @@ Mehrwerte der Transformation vom Monolithen zur Service-Architektur
 ::
 :::
 
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" }
+
+#preTitle
+Software-Entwicklung von Blueshoe
+#title
+Solide und langlebig
+
+#card1
+:::GlobalCurvedSliderCard{:firstCard=true :src="/img/slider/group_7.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=5 :size="small"}
+
+#cardTitle
+<span>1.</span> Anforderungsworkshop
+
+#cardText
+Hier geht die Reise los
+:::
+
+#card2
+:::GlobalCurvedSliderCard{:src="/img/slider/group_5.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=4 :size="small"}
+
+#cardTitle
+<span>2.</span> Umsetzbarer Anforderungskatalog
+
+#cardText
+Du erhälst eine präzise Kosteneinschätzung
+:::
+
+#card3
+:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small"}
+Projektfreigabe oder Stopp
+:::
+
+#card4
+:::GlobalCurvedSliderCard{:src="/img/slider/group_10.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=2 :size="small"}
+
+#cardTitle
+<span>3.</span> Umsetzung
+
+#cardText
+Solide Software mit einfacher Wartung und schneller Erweiterbarkeit
+:::
+
+#card5
+:::GlobalCurvedSliderCard{:src="/img/slider/group_11.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=1 :size="small"}
+
+#cardTitle
+<span>4.</span> Beständige Wartung und Support
+
+#cardText
+Corrective Maintenance </br> Perfective Maintenance </br> Adaptive Maintenance
+:::
+
+#buttonBlockTitle
+Jetzt eine kurze Videoberatung buchen
+#buttonLabel
+Zeit-Slot finden
+::
+
+
+
 :::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=2 data-title="Beispiele: Saleor und Wagtail"}
 ::::GlobalTitle{.mb-6}
 Beispiele für Headless-Technologien
