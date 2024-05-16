@@ -28,7 +28,7 @@ head:
 
 ::GlobalWrapperSections
 
-:::GlobalSectionWithBackgroundImage{:src="/img/services/headless_cms.svg"}
+:::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
 ::::GlobalPageTitle{.mb-6}
 Wir transformieren Code-Monolithen 
 ::::
@@ -41,7 +41,7 @@ Schnellere Entwicklung und einfachere Wartung durch Service-Architekturen
 
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/wagtail_cms.jpg" :alt="wagtail cms" :imagePosition="left" :isButton=false}
+:::GlobalSectionWithImage{:image="/img/landingpages/monster.svg" :alt="code monster" :imagePosition="left" :isButton=false}
 ::::GlobalTitle{.mb-6}
 Das Code-Monolith-Monster
 ::::
