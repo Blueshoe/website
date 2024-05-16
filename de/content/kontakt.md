@@ -30,7 +30,7 @@ head:
 :::GlobalContactCard{:title="Projektanfragen" :tel="+498954198422" :email="projekt@blueshoe.de" :color="text-white" :isButton=true}
 
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Gesprächstermin buchen" :color="green" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Gesprächstermin buchen" :color="green" :target="_blank"}
 ::
 :::
 ::

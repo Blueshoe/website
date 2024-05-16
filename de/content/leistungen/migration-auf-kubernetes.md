@@ -207,7 +207,7 @@ Trotz seiner vielen positiven Eigenschaften hat Docker Compose auch einige Nacht
 Trotz dieser Nachteile nutzen viele Unternehmen Docker Compose aufgrund seiner Benutzerfreundlichkeit und Vertrautheit immer noch als Legacy-Lösung. Das gilt vor allem für kleinere Unternehmen, die nicht über die Ressourcen oder das Fachwissen verfügen, um ihre bestehenden Anwendungen auf modernere Lösungen wie Kubernetes zu migrieren.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Meeting buchen" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Meeting buchen" :target="_blank"}
 ::
 :::
 
@@ -231,7 +231,7 @@ Insgesamt ist Kompose eine großartige Lösung für Unternehmen, die von Docker 
 Unsere Experten können dir bei deiner Migration mit kompose.io helfen. Lass uns darüber reden.
 ::::
 #button
-::GlobalButton{:url="https://app.hubspot.com/meetings/hannes/anfrage" :label="Sprich uns an" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Sprich uns an" :target="_blank"}
 ::
 :::
 
