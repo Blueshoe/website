@@ -53,7 +53,7 @@ Kennen und können wir fixen. Wir transformieren deinen Monolithen in eine Servi
 ::::
 :::
 
-:::GlobalSimpleSection{:bg="bg-bs-blue" :isButton=true data-title="Kurz zusammengefasst: Die Vorteile von Headless CMS"}
+:::GlobalSimpleSection{:bg="bg-bs-blue" :isButton=true data-title="Mehrwerte von Service-Architekturen"}
 ::::GlobalTitle{:color="text-white" .mb-6}
 Mehrwerte der Transformation vom Monolithen zur Service-Architektur
 ::::
@@ -133,7 +133,7 @@ Zeit-Slot finden
 
 
 
-:::GlobalSliderSection{:numberCards=2 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
+:::GlobalSliderSection{:numberCards=2 data-title="Beispiele für Projekte mit Service-Architektur"}
 ::::GlobalTitle{.mb-6}
 Beispiele für Projekte mit Service-Architektur
 ::::
@@ -170,7 +170,7 @@ Allianz Global Benefits
 ::
 :::
 
-:::GlobalSectionWithImage{:image="/img/services/beyond_the_project-carmen.jpg" :alt="wagtail cms" :imagePosition="left" :isButton=true data-title="Warum ist Blueshoe dein Experte für die Transformation von Code-Monolithen"}
+:::GlobalSectionWithImage{:image="/img/services/beyond_the_project-carmen.jpg" :alt="projects" :imagePosition="left" :isButton=true data-title="Warum ist Blueshoe dein Experte für die Transformation von Code-Monolithen"}
 ::::GlobalTitle{.mb-6}
 Warum ist Blueshoe dein Experte für den Weg zur Service-Architektur?
 ::::
