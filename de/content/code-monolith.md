@@ -43,36 +43,29 @@ Schnellere Entwicklung und einfachere Wartung durch Service-Architekturen
 
 :::GlobalSectionWithImage{:image="/img/services/wagtail_cms.jpg" :alt="wagtail cms" :imagePosition="left" :isButton=false}
 ::::GlobalTitle{.mb-6}
-Das Code Monolith Monster
+Das Code-Monolith-Monster
 ::::
 ::::GlobalParagraph{.mb-4}
-Eine Datenquelle, viele Ausspielmöglichkeiten: Ein auf [Python/django](/leistungen/python-django-agentur/) basierendes Headless CMS bietet zahlreiche Vorteile gegenüber einem traditionellen CMS. Wenn das Backend vom Frontend entkoppelt ist, wird vieles leichter.
+Na, auch vor 10 Jahren ne Applikation gebaut, die nun ein Monolith-Monster ist? Jetzt dauert jede Feature-Entwicklung ewig. Der Code ist so alt, dass vom alten Team keiner mehr da ist. Und jeder Bugfix ist ein Whack-a-Mole-Spiel?
 ::::
 ::::GlobalParagraph
-Natürlich macht es keinen Sinn, ein Headless CMS zu implementieren, wenn man sich sicher ist, dass der Content lediglich für eine einzige Webseite verwendet werden soll. Aber wenn es um mehrere Geräte bzw. Plattformen geht, auf denen der Inhalt ausgespielt werden soll, ist ein Headless CMS die ideale Lösung.
+Kennen und können wir fixen. Wir transformieren deinen Monolithen in eine Service-Architektur und wapnen euch für die Zukunft
 ::::
 :::
 
 :::GlobalSimpleSection{:bg="bg-bs-blue" :isButton=true data-title="Kurz zusammengefasst: Die Vorteile von Headless CMS"}
 ::::GlobalTitle{:color="text-white" .mb-6}
-Mehrwerte eines Python/Django-basierten Headless CMS
+Mehrwerte der Transformation vom Monolithen zur Service-Architektur
 ::::
-::::GlobalTitle{:size="md" :tag="h3" :color="text-white" .mb-6}
-Kurz zusammengefasst:
-::::
+
 ::::GlobalBlock{:color="text-white" .mb-4 .ul-disk}
-- Verminderte Komplexität (spezialisiert auf Content-Verwaltung)
-- Erleichterte Einbindung von Dritt-Lösungen
-- Leichte Skalierbarkeit (z. B. größere Server)
-- Kein Page-Reload mehr
-- Sprach-agnostisch (API kann mit jeder Programmiersprache genutzt werden)
-- Frontend-freundlich
-- Beliebigkeit (Kanäle, Plattformen etc.)
-- Keine Content-Migrationen mehr
-- Vorteile dank Open Source
+- Bessere Wartbarkeit und stabilere Systeme
+- Schnellere Weiterentwicklung und Ergänzung von Features
+- Schnellere Einarbeitung für neue Entwickler
+- Weniger Frust für Fachabteilung und Entwickler
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Beratung buchen!" :color="green" target="_blank"}
+::GlobalButton{:url="https://calendar.google.com/calendar/u/0/appointments/AcZssZ1iip-9j2S9Tm50_yZnjXGEtql-Z_J4vZ5G7wg=" :label="Beratung buchen!" :color="green" target="_blank"}
 ::
 :::
 
