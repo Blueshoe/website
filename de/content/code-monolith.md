@@ -128,9 +128,6 @@ Zeit-Slot finden
 ::
 
 
-::
-:::
-
 
 
 :::GlobalSliderSection{:numberCards=2 :bg="bg-bs-gray" data-title="Beispiele für Projekte mit Service-Architektur"}
@@ -181,5 +178,3 @@ Wir sind Fans von flexiblen Lösungen – wir wollen schnell neue Features an de
 ::GlobalButton{:url="/kontakt/" :label="Kontaktiere uns!" :color="green"}
 ::
 :::
-
-::
