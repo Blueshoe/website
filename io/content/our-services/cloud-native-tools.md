@@ -95,7 +95,7 @@ There are a variety of software tools for Kubernetes monitoring, including Prome
 ::::
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" .mb-6}
 
 #preTitle
 Software development by Blueshoe

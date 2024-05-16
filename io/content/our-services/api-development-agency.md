@@ -119,7 +119,7 @@ Figuring out the right [architecture](/our-services/microservice-architecture-co
   ::
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray"}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" :bg="bg-bs-gray"}
 
 #preTitle
 Software development by Blueshoe

@@ -120,7 +120,7 @@ Understanding Kubernetes
 [Kubernetes](/blog/local-kubernetes-development/){.bs-link-blue} is an open-source container orchestration platform that has revolutionized the way applications are managed and deployed. It provides a comprehensive solution for automating the deployment, scaling, and management of containerized applications. With its robust set of features and powerful components, Kubernetes offers a scalable and flexible platform for modern application development.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" :bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe

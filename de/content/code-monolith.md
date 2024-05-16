@@ -65,11 +65,11 @@ Mehrwerte der Transformation vom Monolithen zur Service-Architektur
 - Weniger Frust für Fachabteilung und Entwickler
 ::::
 #button
-::GlobalButton{:url="https://calendar.google.com/calendar/u/0/appointments/AcZssZ1iip-9j2S9Tm50_yZnjXGEtql-Z_J4vZ5G7wg=" :label="Beratung buchen!" :color="green" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Beratung buchen!" :color="green" target="_blank"}
 ::
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" }
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" }
 
 #preTitle
 Software-Entwicklung von Blueshoe
@@ -80,7 +80,7 @@ Solide und langlebig
 :::GlobalCurvedSliderCard{:firstCard=true :src="/img/slider/group_7.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=5 :size="small"}
 
 #cardTitle
-<span>1.</span> Anforderungsworkshop
+<span>1.</span> Anforderungs-workshop
 
 #cardText
 Hier geht die Reise los

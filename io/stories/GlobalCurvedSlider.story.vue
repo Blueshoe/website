@@ -4,7 +4,7 @@ const props = reactive([
   {
     src: '/img/slider/hannes_hanusch.png',
     alt: 'Hannes Hanusch',
-    buttonUrl: 'https://calendar.app.google/1c1opTAqnXqyHrsR6/',
+    buttonUrl: 'http://blueshoe.io/hannes',
     size: 'small'
   }
 ]);
