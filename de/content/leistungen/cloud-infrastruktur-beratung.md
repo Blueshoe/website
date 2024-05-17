@@ -126,7 +126,7 @@ Basierend auf dem Entwicklungsprozess arbeiten wir mit deinen Teams zusammen, um
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Lass uns heute noch telefonieren" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Lass uns heute noch telefonieren" :target="_blank"}
 ::
 :::
 

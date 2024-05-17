@@ -138,7 +138,7 @@ Du siehst: Nicht grundlos setzt unsere Agentur bei der Entwicklung von Webanwend
 Bei der Entwicklung von Software ist es wichtig, die Unterstützung von einem erfahrenen Partner einzuholen. Nur so kannst du die vielen Vorteile, die Python und Django mit sich bringen, optimal nutzen. Unsere [Agentur in München](/team/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} unterstützt dich dabei, die Funktionen von Django effizient einzusetzen und in deine Webanwendungen zu integrieren. Egal, [welche Größe dein Projekt](/blog/anforderungsanalyse-projektmanagement/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} hat: Wir stehen dir als Berater von Konzeption über Umsetzung bis hin zur Pflege zur Seite und schaffen damit gemeinsam zukunftsfähige Software.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Termin buchen" :color="green" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Termin buchen" :color="green" :target="_blank"}
 ::
 :::
 

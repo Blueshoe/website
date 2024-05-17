@@ -112,7 +112,7 @@ Wir bei Blueshoe haben uns bewusst dafür entschieden, den Native-First-Ansatz z
 Shop-Bausteine wie die Suche, der Checkout oder die Produktdarstellung müssen über Schnittstellen miteinander kompatibel sein – mehr aber auch nicht! Alles andere kann individuell entwickelt werden. Und da kommen wir ins Spiel.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :color="green" :label="Jetzt Termin buchen!" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :color="green" :label="Jetzt Termin buchen!" target="_blank"}
 ::
 :::
 

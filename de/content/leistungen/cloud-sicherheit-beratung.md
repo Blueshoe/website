@@ -95,7 +95,7 @@ Blueshoe begleitet dich bei der Umsetzung deiner Strategie, damit du Vorfälle s
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Lass uns telefonieren" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Lass uns telefonieren" target="_blank"}
 ::
 :::
 
@@ -271,7 +271,7 @@ Wenn du eine hybride und/oder verteilte Belegschaft hast, brauchst du Cloud-Prod
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Buche eine kostenlose Video-Beratung" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Buche eine kostenlose Video-Beratung" target="_blank"}
 ::
 :::
 

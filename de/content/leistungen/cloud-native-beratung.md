@@ -45,7 +45,7 @@ Dein erfahrenes Team von Cloud-Native-Consultants
 Blueshoe entwickelt und optimiert deine cloud-native Strategie, damit deine Teams und dein Geschäft reibungslos funktionieren.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Online-Meeting buchen" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Online-Meeting buchen" :target="_blank"}
 ::
 :::
 

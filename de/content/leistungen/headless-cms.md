@@ -72,7 +72,7 @@ Kurz zusammengefasst:
 - Vorteile dank Open Source
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Beratung buchen!" :color="green" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Beratung buchen!" :color="green" target="_blank"}
 ::
 :::
 

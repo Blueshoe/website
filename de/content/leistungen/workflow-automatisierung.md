@@ -91,7 +91,7 @@ Nach erfolgreicher Integration automatisiert Continuous Delivery die Erstellung 
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Lassen uns sprechen!" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Lassen uns sprechen!" target="_blank"}
 ::
 :::
 

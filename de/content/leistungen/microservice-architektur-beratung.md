@@ -49,7 +49,7 @@ Warum Microservice-Architekturen sinnvoll sind
 Die Microservices-Architektur ist eine Software-Designentscheidung. Sie strukturiert eine Anwendung in eine Sammlung granularer Microservices, die jeweils für bestimmte Teile der Anwendung zuständig sind. Viele digital ausgerichtete Unternehmen haben sich für eine Microservices-Architektur entschieden, da sie ihnen mehr Freiheit und Leistung bei der Softwareentwicklung bietet: Freiheit, Entscheidungen zu treffen, auf notwendige Änderungen zu reagieren oder neue Technologien einzuführen und zu nutzen. Die potentielle Leistungsfähigkeit einer Anwendung wird verstärkt, da es möglich wird, dem Kunden schneller einen Mehrwert zu bieten.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Meeting buchen" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Meeting buchen" :target="_blank"}
 ::
 :::
 

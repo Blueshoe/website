@@ -49,7 +49,7 @@ Keine Panik, wir machen API simpel
 Die richtige Architektur für Anwendungen zu finden und dann all die verschiedenen Dienste mit gut funktionierenden und gut dokumentierten APIs zu verbinden, kann überwältigend erscheinen. Aber keine Sorge, unser Expertenteam hilft dir dabei, die richtige Service- und API-Strategie für deine Anwendungen zu finden und unterstützt dich auch bei der Umsetzung der Strategie.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Sprich mit uns" :color="blue" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Sprich mit uns" :color="blue" target="_blank"}
 ::
 :::
 
@@ -230,7 +230,7 @@ Unser Team wird mit dir zusammenarbeiten und eine maßgeschneiderte Lösung entw
 Wir wissen, dass eine hochwertige API-Dokumentation für die erfolgreiche Integration deiner APIs in andere Anwendungen unerlässlich ist. Deshalb bemühen wir uns, unseren Kunden den bestmöglichen Service zu bieten, wenn es um die Erstellung der API-Dokumentation geht.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :color="green" :label="Sprich mit uns!"  :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :color="green" :label="Sprich mit uns!"  :target="_blank"}
 ::
 :::
 

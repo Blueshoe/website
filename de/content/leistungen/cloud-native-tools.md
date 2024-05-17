@@ -52,7 +52,7 @@ Unter Tools in der Softwareentwicklung versteht man die Werkzeuge, die für die 
 Außerdem können die richtigen Tools dabei helfen, den Zustand und die Leistung von Anwendungen zu überwachen und Aufgaben wie Bereitstellung, Konfigurationsmanagement und Service Mesh Management zu automatisieren.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Buche einen Videocall" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Buche einen Videocall" :target="_blank"}
 ::
 :::
 
@@ -124,7 +124,7 @@ Wenn du einen Kubernetes-basierten Entwicklungs-Workflow in deinem Unternehmen e
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Hier geht's zu einer kostenfreien Videoberatung" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Hier geht's zu einer kostenfreien Videoberatung" :target="_blank"}
 ::
 :::
 

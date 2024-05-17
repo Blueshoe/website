@@ -112,7 +112,7 @@ Kein Vendor Lock-in: Eine gut aufgesetzte Kubernetes-Implementierung versetzt di
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Buche eine kostenlose Videoberatung" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Buche eine kostenlose Videoberatung" target="_blank"}
 ::
 :::
 

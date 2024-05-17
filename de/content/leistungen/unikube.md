@@ -179,7 +179,7 @@ Unsere Mission mit [Unikube](https://unikube.io/){.text-bs-blue .hover:underline
 Wenn du mehr darüber wissen willst, stellen wir dir Unikube gerne in einem kurzen Call unverbindlich vor.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Jetzt Termin buchen" :color="green" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Jetzt Termin buchen" :color="green" target="_blank"}
 ::
 :::
 

@@ -122,7 +122,7 @@ Wir bei [Blueshoe](/team/){.text-bs-blue .hover:underline .hover:decoration-bs-b
 Wir setzen dabei auf _k3d_ als lokalen Kubernetes-Cluster sowie _PyCharm_ als unsere Entwicklungsumgebung. Außerdem nutzen wir _Helm_ für das Management des Clusters sowie _Telepresence_ um live Code-Reloading zu bewerkstelligen.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Jetzt Termin buchen" :color="blue" target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Jetzt Termin buchen" :color="blue" target="_blank"}
 ::
 :::
 

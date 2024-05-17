@@ -52,7 +52,7 @@ Cloud Native Development basiert auf einer Container-Infrastruktur. Für die Ent
 Man könnte auch einfach sagen Cloud Native Dev ist das perfekt orchestrierte Zusammenspiel zwischen DevOps, [Containern](/blog/strategien-fur-schlanke-docker-images/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, Microservices und der Cloud.
 ::::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/anfrage" :label="Jetzt Termin buchen" :target="_blank"}
+::GlobalButton{:url="http://blueshoe.io/hannes" :label="Jetzt Termin buchen" :target="_blank"}
 ::
 :::
 
