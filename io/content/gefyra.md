@@ -1,29 +1,29 @@
 ---
 head:
-  title: 'Headless CMS - We develop state-of-the-art'
+  title: 'Gefyra - Enterprise Support from Blueshoe'
   meta:
     - property: 'og:locale'
       content: 'en_US'
     - name: 'description'
-      content: 'We develop websites with headless CMS for you. ✅ Lightning fast ✅ Robust ✅ Scalable ✅ Easily extensible. Learn more now!'
+      content: 'You need support on enterprise level? Blueshoe is here to help. ✅ Responsive ✅ Individual ✅ Effective. Learn more now!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Headless CMS - We develop state-of-the-art'
+      content: 'Gefyra - Enterprise Support from Blueshoe'
     - property: 'og:description'
-      content: 'We develop websites with headless CMS for you. ✅ Lightning fast ✅ Robust ✅ Scalable ✅ Easily extensible. Learn more now!'
+      content: 'You need support on enterprise level? Blueshoe is here to help. ✅ Responsive ✅ Individual ✅ Effective. Learn more now!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/global/icons/gefyra_logo.png'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/global/icons/gefyra_logo.png'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Headless CMS - We develop state-of-the-art'
+      content: 'Gefyra - Enterprise Support from Blueshoe'
     - name: 'twitter:description'
-      content: 'We develop websites with headless CMS for you. ✅ Lightning fast ✅ Robust ✅ Scalable ✅ Easily extensible. Learn more now!'
+      content: 'You need support on enterprise level? Blueshoe is here to help. ✅ Responsive ✅ Individual ✅ Effective. Learn more now!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/global/icons/gefyra_logo.png'
 ---
 
 ::GlobalWrapperSections
@@ -62,7 +62,7 @@ We help you to:
 ::::GlobalBlock{:color="text-white" .mb-4 .ul-disk}
   - Integrate, adapt and support Gefyra in your developer tool chain
   - Implement a professional tool chain for your Kubernetes based development
-  - Build, maintain and support Cloud Native applications
+  - Build, maintain and support cloud native applications
   - Design and implement cloud native architectures
 ::::
 #button
@@ -180,13 +180,17 @@ Python and Django Development
 :::
 ::
 
-::GlobalSmallCardWithImage{bg="bg-bs-blue" :href="/our-services/workflow-automation/"}
+::GlobalSmallCardWithImage{bg="bg-bs-blue"}
 
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 Challenges worth solving
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-If you have a specific project in mind, come talk to you. We are always helpful.
+If you have a specific project in mind, come talk to us. We are always helpful.
+:::
+:::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
+**Phone:** +49 89 54 19 84 22<br/>
+**Mail:** project@blueshoe.io
 :::
 :::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :label="Book a meeting" :color="green" target="_blank"}
 :::
