@@ -191,7 +191,7 @@ If you want to roll out a Kubernetes-based development workflow in your company,
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :label="Book a free video consultation" :target="_blank"}
 ::
 :::
 

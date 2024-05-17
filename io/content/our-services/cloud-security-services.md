@@ -95,7 +95,7 @@ Blueshoe guides you through implementing your strategy so you can quickly discov
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Let's hop on a call today" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :label="Let's hop on a call today" :target="_blank"}
 ::
 :::
 
@@ -329,7 +329,7 @@ If you have a hybrid and/or distributed workforce, you need cloud products that 
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Book a free video consultation" target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :label="Book a free video consultation" target="_blank"}
 ::
 :::
 
