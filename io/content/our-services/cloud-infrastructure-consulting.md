@@ -126,7 +126,7 @@ Based on the development process, we’ll work with your teams to set everything
 :::
 ::
 #button
-::GlobalButton{:url="https://meetings.hubspot.com/hannes/kubernetes-discussion" :label="Let's hop on a call today" :target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :label="Let's hop on a call today" :target="_blank"}
 ::
 :::
 
