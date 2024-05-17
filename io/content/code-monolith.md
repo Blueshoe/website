@@ -115,7 +115,7 @@ Solid software with easy maintenance and fast extensibility
 :::GlobalCurvedSliderCard{:src="/img/slider/group_11.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=1 :size="small"}
 
 #cardTitle
-<span>4.</span> Continuous maintenance and support
+<span>4.</span> Long-lasting Maintenance
 
 #cardText
 Corrective Maintenance </br> Perfective Maintenance </br> Adaptive Maintenance
