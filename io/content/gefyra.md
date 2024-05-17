@@ -50,6 +50,9 @@ We know and can fix that. We transform your monolith into a service architecture
 ::: -->
 
 :::GlobalSimpleSection{:bg="bg-bs-blue" :isButton=true data-title="We love great developer workflows"}
+::::GlobalPreTitle{:color="text-bs-green" :tag="h2" .mb-3}
+Blazingly-fast, rock-solid, local application development with Kubernetes.
+::::
 ::::GlobalTitle{:color="text-white" .mb-6}
 We love great developer workflows
 ::::
@@ -199,3 +202,22 @@ If you have a specific project in mind, come talk to us. We are always helpful.
 Your next project
 :::
 ::
+:::
+
+
+:::GlobalPodcastSection{:videoId="tyvE9VlSWkE" bg="bg-white"}
+::::GlobalPreTitle{:color="text-bs-green" .mb-3}
+OUR PODCAST
+::::
+::::GlobalTitle{.mb-6}
+TftC - E1: Kubernetes development environments
+::::
+::::globalParagraph{:font-size="lg" .mb-4}
+Check out our very own podcast. In the first edition Michael and Robert discuss the ins and outs of Kubernetes development environments.
+::::
+::::globalParagraph{:font-size="lg" .mb-4}
+More of our podcasts can be found here:
+::::
+::::GlobalButton{:url="/podcast/" :label="Show more" :color="green"}
+::::
+:::
