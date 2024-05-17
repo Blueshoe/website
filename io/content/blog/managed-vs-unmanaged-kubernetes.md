@@ -130,7 +130,7 @@ Right at the top of the ‘managed’ range, you’ll find the managed Kubernete
 In the upper range of the ‘managed’ services, Google has <a href="https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-autopilot" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GKE Autopilot</a> on offer. With this one, the nodes are automatically scaled according to the resources required by the application. Here I can also limit my responsibilities to the creation of the Kubernetes manifests or Helm charts as a developer of operations specialist. We will be having a closer look at the GKE Autopilot in a future blog post.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" :bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe

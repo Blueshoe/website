@@ -23,7 +23,10 @@ export default defineNuxtConfig({
     highlight: {
       theme: {
         default: 'monokai'
-      }
+      },
+      langs : ['javascript', 'typescript', 'json', 'bash', 'shell',
+        'yaml', 'markdown', 'html', 'css', 'scss', 'xml',
+        'graphql', 'sql', 'python', 'java', 'php', 'ruby']
     }
   },
   tailwindcss: {

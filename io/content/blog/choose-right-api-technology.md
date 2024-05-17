@@ -102,7 +102,6 @@ A simple example could be a simple API that gets the images from http.cat and re
 ::BlogCode{.mb-5}
 
 ```python
-
 from fastapi import FastAPI
 from fastapi.responses import Response
 import requests
@@ -113,7 +112,6 @@ app = FastAPI()
 async def get_cat_status_code(status_code: int):
     response = requests.get(f"https://http.cat/{status_code}")
     return Response(response.content, media_type="image/jpeg")
-
 ```
 
 ::
@@ -131,7 +129,7 @@ In this example, I used the popular <a href="https://fastapi.tiangolo.com/" clas
 This concludes this short REST example.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full"   bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full"   bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe
@@ -220,7 +218,6 @@ This is the main code for the API using FastAPI and its GraphQL integration with
 ::BlogCode{.mb-5}
 
 ```python
-
 import strawberry
 from fastapi import FastAPI
 from strawberry.asgi import GraphQL
@@ -242,7 +239,6 @@ graphql_app = GraphQL(schema)
 app = FastAPI()
 app.add_route("/graphql", graphql_app)
 app.add_websocket_route("/graphql", graphql_app)
-
 ```
 
 ::

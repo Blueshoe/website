@@ -65,11 +65,11 @@ Benefits of transforming from monolith to service architecture
 - Less frustration for business departments and developers
 ::::
 #button
-::GlobalButton{:url="http://blueshoe.io/hannes" :label="Book a consultation!" :color="green" target="_blank"}
+::GlobalButton{:url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :label="Book a consultation!" :color="green" target="_blank"}
 ::
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" }
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" }
 
 #preTitle
 Software development by Blueshoe

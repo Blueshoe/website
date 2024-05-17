@@ -86,7 +86,7 @@ In this article, we’ll focus on the Helm installation. Grafana Labs offers a b
 In <a href="https://github.com/grafana/helm-charts" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Grafana’s Helm chart repository</a>, you’ll find 5 charts related to Loki. *Loki-canary* allows you to install canary builds of Loki to your cluster. *Loki-distributed* installs the relevant components as microservices, giving you the usual advantages of microservices, like scalability, resilience etc. while allowing you to configure them independently of one another. *Loki-simple-scalable* is similar - however, some of the components are always on, taking away a number of the configuration possibilities. The chart named *Loki* will deploy a single StatefulSet to your cluster containing everything you need to run Loki. The last of the bunch is *loki-stack*, which deploys the same StatefulSet as the Loki chart in addition to Promtail, Grafana and some others. For our use case, we chose the Loki chart. In addition to Loki itself, our cluster also runs Promtail and Grafana. In the following section, we’ll show you how to install this log aggregation stack to your cluster!
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="http://blueshoe.io/hannes" :size="full" :bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
 
 #preTitle
 Software development by Blueshoe
