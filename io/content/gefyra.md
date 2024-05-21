@@ -87,7 +87,7 @@ Our services that may interest you:
 Modern application development for the cloud
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We build individual and potentially complex software products for you, that run in the cloud on top of Kubernetes.
+Be faster than your competition with our external development power. On time and budget.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -100,7 +100,7 @@ Cloud Development
 We help you figure out solutions
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We help you figure out how to approach cloud native development and all the complexity that can come with service architectures and Kubernetes.
+Save cash by not making the mistakes we already did before. Let us help you with your cloud strategy.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -109,10 +109,10 @@ Cloud Consulting
 ::
 ::GlobalSmallCardWithImage{:src="/img/global/icons/api_1.svg" :href="/our-services/api-development-agency/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Connecting systems for fast operations
+Connect systems for faster operations
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We implement individual API solutions to better integrate systems and accelerate operations.
+Save time and money by better interconnecting your systems with our custom APIs.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -124,7 +124,7 @@ API Development
 Move to the modern orchestration framework
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We help you move your applications to the cloud and running them on top of Kubernetes.
+Increase your operations efficiency with automated scaling, deployment, and management of your applications.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -137,7 +137,7 @@ Kubernetes Migration
 Increasing developer velocity
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We implement proven developer workflows creating perfect dev-prod parity.
+Ship features faster with less developer frustration and stay ahead of your competition.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -149,7 +149,7 @@ Workflow Automation
 Transition away from monoliths
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-We transform code monoliths into easily extensible and maintainable service architectures.
+Make bug fixing a breeze. Quickly onboard new developers and increase your development speed.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
