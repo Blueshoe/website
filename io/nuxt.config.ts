@@ -125,8 +125,10 @@ export default defineNuxtConfig({
   },
   experimental: { defaults: { nuxtLink: { trailingSlash: 'append' } } },
   routeRules: {
-    '/hannes(?<!/)$': { redirect: 'https://calendar.app.google/1c1opTAqnXqyHrsR6/' },
-    '/michael(?<!/)$': { redirect: 'https://calendar.app.google/jcg6DMuBZV47i4n9A/' },
+    '/hannes$': { redirect: 'https://calendar.app.google/1c1opTAqnXqyHrsR6/' },
+    '/hannes/$': { redirect: 'https://calendar.app.google/1c1opTAqnXqyHrsR6/' },
+    '/michael$': { redirect: 'https://calendar.app.google/jcg6DMuBZV47i4n9A/' },
+    '/michael/$': { redirect: 'https://calendar.app.google/jcg6DMuBZV47i4n9A/' },
     '/^.*(?<!/)$': { redirect: '/new-page' }
   }
 });
