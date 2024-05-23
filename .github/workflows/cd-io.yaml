@@ -22,6 +22,8 @@ jobs:
             run: |
               yarn install
               yarn generate
+          - name: Copy redirects
+            run: cp io/_redirects io/.output/public/_redirects
           - name: Create site artefact
             uses: actions/upload-artifact@v4
             with:

@@ -107,7 +107,7 @@ Save cash by not making the mistakes we already did before. Let us help you with
 Cloud Consulting
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/api_1.svg" :href="/our-services/api-development-agency/"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/api_1.svg" :href="/our-services/api-development-company/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Connect systems for faster operations
 :::
