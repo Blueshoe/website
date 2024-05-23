@@ -41,7 +41,7 @@ productUpdates: []
 topic:
   - Development
 ---
-Can you imagine a world without [APIs](/our-services/api-development-agency/)? A world without the ease and reliability of an OpenAPI schema? Yeah me neither - and yet only a few years ago developers had to come up with ingenious ways to let systems talk to each other.
+Can you imagine a world without [APIs](/our-services/api-development-company/)? A world without the ease and reliability of an OpenAPI schema? Yeah me neither - and yet only a few years ago developers had to come up with ingenious ways to let systems talk to each other.
 <!--more-->
 
 ![API Strategy Essentials: How to Choose the Right Technology for Your Application](/img/blogs/api-technologies-rest-graphql.svg){.object-cover .max-w-full .mb-5}
@@ -73,7 +73,7 @@ In this post, I want to give a small overview of REST and GraphQL, compare those
 So shall we start?
 :::
 
-:::GlobalButton{:url="/our-services/api-development-agency/" :label="Learn more about our API development services" :color="blue" .mb-6} 
+:::GlobalButton{:url="/our-services/api-development-company/" :label="Learn more about our API development services" :color="blue" .mb-6} 
 :::
 
 <!---  Understanding the Fundamentals and Strengths of REST APIs -->
@@ -85,13 +85,13 @@ Understanding the Fundamentals and Strengths of REST APIs
 Characteristics of REST APIs
 :::
 :::globalParagraph
-REST [APIs](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} feature two fundamental characteristics that underpin their design: being statelessness and the utilization of HTTP methods. Firstly, REST APIs implement the stateless paradigm, meaning each request from a client to the server must contain all necessary information to understand and fulfill it, without relying on any previous interactions. This simplifies server implementation and scalability, as it eliminates the need to maintain a session state on the server. Secondly, REST APIs leverage the HTTP protocol's versatile methods, such as GET, POST, PUT, DELETE, to perform various actions on resources. These methods enable developers to create APIs that align closely with the principles of CRUD (Create, Read, Update, Delete), enhancing the clarity, predictability, and accessibility of their API endpoints.
+REST [APIs](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} feature two fundamental characteristics that underpin their design: being statelessness and the utilization of HTTP methods. Firstly, REST APIs implement the stateless paradigm, meaning each request from a client to the server must contain all necessary information to understand and fulfill it, without relying on any previous interactions. This simplifies server implementation and scalability, as it eliminates the need to maintain a session state on the server. Secondly, REST APIs leverage the HTTP protocol's versatile methods, such as GET, POST, PUT, DELETE, to perform various actions on resources. These methods enable developers to create APIs that align closely with the principles of CRUD (Create, Read, Update, Delete), enhancing the clarity, predictability, and accessibility of their API endpoints.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 Use cases of REST
 :::
 :::globalParagraph
-Whenever you are planning an [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} with a well-defined client-server contract (that means, among other things, less flexibility in server responses) REST is a very good option for you. Not only is REST efficient and easy to implement, but it also has wide support in all programming languages that can work with HTTP methods.
+Whenever you are planning an [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} with a well-defined client-server contract (that means, among other things, less flexibility in server responses) REST is a very good option for you. Not only is REST efficient and easy to implement, but it also has wide support in all programming languages that can work with HTTP methods.
 :::
 :::globalParagraph
 Although REST expects predefined requests and only gives set responses it still offers a high flexibility for creating an API. You can build anything using REST!
@@ -200,7 +200,7 @@ Although GraphQL has been around since 2015 it’s still fairly new to the API w
 Characteristics of GraphQL
 :::
 :::globalParagraph{.mb-5}
-GraphQL [APIs](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} possess distinctive characteristics that differentiate them from traditional REST APIs, offering a more flexible and efficient approach to data retrieval. One notable feature of GraphQL is its ability to optimize queries and minimize data transfer. Unlike REST APIs, where endpoints are fixed and return predefined data structures, GraphQL allows clients to specify exactly what data they need using a single query. This capability eliminates over-fetching and under-fetching issues commonly encountered with REST APIs, where clients may receive more or less data than required. Furthermore, GraphQL's type system enables clients to request nested or related data in a single query, reducing the need for multiple round trips to the server. By providing a precise and declarative syntax for data fetching, GraphQL empowers clients to fetch only the necessary data, resulting in more efficient network usage and improved performance. Additionally, GraphQL supports features like query batching and caching, further optimizing data transfer and reducing latency for client applications. Overall, GraphQL's query optimization capabilities enhance the efficiency and responsiveness of API interactions, making it a great choice for modern application development.
+GraphQL [APIs](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} possess distinctive characteristics that differentiate them from traditional REST APIs, offering a more flexible and efficient approach to data retrieval. One notable feature of GraphQL is its ability to optimize queries and minimize data transfer. Unlike REST APIs, where endpoints are fixed and return predefined data structures, GraphQL allows clients to specify exactly what data they need using a single query. This capability eliminates over-fetching and under-fetching issues commonly encountered with REST APIs, where clients may receive more or less data than required. Furthermore, GraphQL's type system enables clients to request nested or related data in a single query, reducing the need for multiple round trips to the server. By providing a precise and declarative syntax for data fetching, GraphQL empowers clients to fetch only the necessary data, resulting in more efficient network usage and improved performance. Additionally, GraphQL supports features like query batching and caching, further optimizing data transfer and reducing latency for client applications. Overall, GraphQL's query optimization capabilities enhance the efficiency and responsiveness of API interactions, making it a great choice for modern application development.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 Use cases of GraphQL
@@ -274,7 +274,7 @@ On the other hand, if you can be a bit more strict about server responses and wa
 Overview of Alternative API Technologies
 :::
 :::globalParagraph
-In the end, I want to mention two alternative approaches to [API development](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} that we also use and offer at Blueshoe.
+In the end, I want to mention two alternative approaches to [API development](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} that we also use and offer at Blueshoe.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 gRPC and its’ role in Microservices
@@ -310,7 +310,7 @@ Security Features of SOAP
 Recap
 :::
 :::globalParagraph
-As you can see there are many ways to implement an [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} and choosing the right technology can be tricky sometimes. I hope with this short overview I can give a hint on when to use a certain approach to build your API. And if you ever need a tailored solution, hit us up!
+As you can see there are many ways to implement an [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} and choosing the right technology can be tricky sometimes. I hope with this short overview I can give a hint on when to use a certain approach to build your API. And if you ever need a tailored solution, hit us up!
 :::
 
 

@@ -222,7 +222,7 @@ How do you
 - implement CI/CD (continuous integration / continuous delivery) pipelines?
 - use [containers and orchestrate them?](/blog/container-orchestration-options-comparison){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 - manage secrets and certificates?
-- use [API gateways](/our-services/api-development-agency){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, logging, monitoring, altering or even tracing?
+- use [API gateways](/our-services/api-development-company){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, logging, monitoring, altering or even tracing?
 ::::
 ::::GlobalParagraph
 Especially when transitioning to cloud application development, choosing the right tools can be difficult.
