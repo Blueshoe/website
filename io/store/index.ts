@@ -100,7 +100,7 @@ export const useGeneralStore = defineStore('general', () => {
     { name: 'contactUs', href: '/contact/', dropDown: false }
   ]);
 
-  const authors = ref([
+t
     { name: 'Robert Gutschale', isSelected: false },
     { name: 'Robert Stein', isSelected: false },
     { name: 'Michael Schilonka', isSelected: false },
