@@ -120,63 +120,8 @@ Kubernetes Verstehen
 [Kubernetes](/blog/local-kubernetes-development/){.bs-link-blue} ist eine Open-Source-Container-Orchestrierungsplattform, die die Art und Weise, wie Anwendungen verwaltet und bereitgestellt werden, revolutioniert hat. Es bietet eine umfassende Lösung zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen. Mit seinen leistungsstarken Funktionen und Komponenten bietet Kubernetes eine skalierbare und flexible Plattform für die moderne Anwendungsentwicklung.
 :::
 
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.png" :alt="Hannes Hanusch" :buttonUrl="https://calendar.app.google/1c1opTAqnXqyHrsR6/" :size="full" :bg="bg-bs-gray" .mb-6}
-
-#preTitle
-Softwareentwicklung von Blueshoe
-#title
-Solide und langlebig
-
-#card1
-:::GlobalCurvedSliderCard{:firstCard=true :src="/img/slider/group_7.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=5 :size="small"}
-
-#cardTitle
-<span>1.</span> Anforderungsanalyse-Workshop
-
-#cardText
-Starten Sie hier Ihre Reise
-:::
-
-#card2
-:::GlobalCurvedSliderCard{:src="/img/slider/group_5.png" :alt="logo" :borderColor="#63D9B6" :borderStyle="solid" :textColor="text-bs-blue" :zIndex=4 :size="small"}
-
-#cardTitle
-<span>2.</span> Handlungsorientierte Anforderungsdefinition
-
-#cardText
-Sie erhalten eine präzise Preisindikation für Ihr Projekt
-:::
-
-#card3
-:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small"}
-Projekt grünes Licht oder Stopp
-:::
-
-#card4
-:::GlobalCurvedSliderCard{:src="/img/slider/group_10.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=2 :size="small"}
-
-#cardTitle
-<span>3.</span> Projektimplementierung
-
-#cardText
-Solide, blitzschnelle Software und Infrastruktur
-:::
-
-#card5
-:::GlobalCurvedSliderCard{:src="/img/slider/group_11.png" :alt="logo" :borderColor="#2e6b96" :borderStyle="dashed" :textColor="text-bs-green" :zIndex=1 :size="small"}
-
-#cardTitle
-<span>4.</span> Langfristige Wartung
-
-#cardText
-Korrektive Wartung </br> Perfektive Wartung </br> Adaptive Wartung
-:::
-
-#buttonBlockTitle
-Vereinbaren Sie jetzt einen Termin mit unserem Experten
-#buttonLabel
-Zeitslot finden
-::
+<!--- Störer -->
+::GlobalPartial{content=catcher-1}
 
 :::GlobalTitle{:size="md" :color="text-bs-blue" :tag="h3" .mb-5}
 Vorteile der Verwendung von Kubernetes
