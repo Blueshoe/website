@@ -37,7 +37,7 @@ export const useGeneralStore = defineStore('general', () => {
     },
     {
       name: 'apiDevelopment',
-      href: '/our-services/api-development-agency/',
+      href: '/our-services/api-development-company/',
       icon: '/img/global/icons/api_1.svg'
     },
     {
