@@ -500,7 +500,7 @@ At Blueshoe, we use the tool Argo CD. Argo CD is a Kubernetes controller that mo
 Keeping data safe and encrypted?
 :::
 :::globalParagraph
-Even small projects require certain data that have to remain secret and should only be accessible to those people or apps that genuinely require this data. Such data might include passwords for the authorisation of other services (database, [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} etc.) or the keys for the encryption of stored data. Since these should not end up in the wrong hands, they must not be written in the versioned Kubernetes resources (Kustomize manifests, Helm charts etc.) without encryption (plaintext).
+Even small projects require certain data that have to remain secret and should only be accessible to those people or apps that genuinely require this data. Such data might include passwords for the authorisation of other services (database, [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} etc.) or the keys for the encryption of stored data. Since these should not end up in the wrong hands, they must not be written in the versioned Kubernetes resources (Kustomize manifests, Helm charts etc.) without encryption (plaintext).
 :::
 
 :::globalTitle{:size="sm" :tag="h4" .mb-5}

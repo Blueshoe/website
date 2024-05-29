@@ -135,7 +135,7 @@ That’s why we love Wagtail CMS
 - Control over front-end design and structure
 - High scalability
 - Cache-friendly
-- Content [API](/our-services/api-development-agency/){.text-white .underline .hover:text-bs-green} for [‘headless’ websites](/our-services/headless-cms){.text-white .underline .hover:text-bs-green}
+- Content [API](/our-services/api-development-company/){.text-white .underline .hover:text-bs-green} for [‘headless’ websites](/our-services/headless-cms){.text-white .underline .hover:text-bs-green}
 - Powerful search functionality (via Elasticsearch or PostgreSQL)
 - Excellent content embedding
 - Ready for multilingual websites
@@ -198,7 +198,7 @@ Hamburg University of Technology
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :desktopImage='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :mobileImage='{"src": "/img/global/slide/wintercompany_mobile.jpg", "alt": "winter&company"}' :tags='["Django", "Wagtail CMS", "Oscar", "Kubernetes", "Microservices", "Google Cloud", "Keycloak", "Cloud Build", "Docker", "JavaScript", "GKE", "Nginx", "PostgreSQL", "Python", "Varnish", "VueJS"]'}
 :::GlobalParagraph{:fontSize="lg"}
-We did a full technical overhaul of the Winter&Company Website building it on a microservice based architecture that runs on top of Kubernetes. We used a headless approach working with Wagtail CMS and are generating static pages in the frontend which makes the website very fast. Dynamic content is being loaded via an [API](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}.
+We did a full technical overhaul of the Winter&Company Website building it on a microservice based architecture that runs on top of Kubernetes. We used a headless approach working with Wagtail CMS and are generating static pages in the frontend which makes the website very fast. Dynamic content is being loaded via an [API](/our-services/api-development-company/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}.
 :::
 #title
 :::GlobalTitle
