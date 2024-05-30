@@ -51,10 +51,10 @@ jobs:
             with:
               apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-              command: pages deploy .output/public --project-name=blueshoe-io >> $GITHUB_OUTPUT
+              command: pages deploy .output/public --project-name=blueshoe-io
           - name: comment-pr
             uses: JoseThen/comment-pr@v1.2.0
             with:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              comment: "🚀 Deployed to ${{ steps.wrangler-deploy.outputs.preview-url }}"
+              comment: "🚀 Deployed to ${{ steps.wrangler-deploy.outputs.command-output }}"
           
