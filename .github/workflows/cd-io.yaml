@@ -54,9 +54,9 @@ jobs:
               apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
               command: pages deploy .output/public --project-name=blueshoe-io
-          - name: PR Comment
-            uses: github-actions-up-and-running/pr-comment@v1.0.1
+          - name: comment-pr
+            uses: JoseThen/comment-pr@v1.2.0
             with:
-              repo-token: ${{ secrets.GITHUB_TOKEN }}
-              message: "Deployed to [blueshoe.io](${{ needs.wrangler-deploy.outputs.preview-url }})"
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              comment: "Deployed to ${{ needs.wrangler-deploy.outputs.preview-url }}"
           
