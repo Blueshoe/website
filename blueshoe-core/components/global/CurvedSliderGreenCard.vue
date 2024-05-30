@@ -57,7 +57,7 @@ const innerTriangleLeftStyle = computed(() => {
   return {
     position: "absolute",
     // right: `-${(height / 7.2)}px`,
-    left: "-2px",
+    left: "-3px",
     top: "0",
     bottom: "0",
     width: "0",
