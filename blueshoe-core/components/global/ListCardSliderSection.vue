@@ -50,7 +50,7 @@ const props = withDefaults(defineProps<Props>(), {
 });
 </script>
 
-<style>
+<style scoped>
 .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: v-bind(dotColor) !important;
 }

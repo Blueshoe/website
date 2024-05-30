@@ -43,7 +43,7 @@ const props = withDefaults(defineProps<Props>(), {
 });
 </script>
 
-<style>
+<style scoped>
 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #fff;
 }

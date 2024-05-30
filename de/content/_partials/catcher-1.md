@@ -26,7 +26,7 @@ Sie erhalten eine genaue Preisindikation für Ihr Projekt
 :::
 
 #card3
-:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small"}
+:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small" :backgroundColor="#f5f5f5"}
 Projekt grünes Licht oder Stopp
 :::
 
