@@ -68,7 +68,7 @@
     />
     <div>
       <div :class="`flex flex-col h-[350px] ${!firstCard ? 'ml-4' : ''}`">
-        <div class="h-[40%] md:h-[30%]">
+        <div class="h-[40%]">
           <img
             :src="src"
             :alt="alt"
@@ -92,10 +92,10 @@
             <slot name="cardTitle" />
           </div>
           <div
-            class="font-roboto w-[158px] text-pretty"
+            class="font-roboto w-[158px] text-wrap"
             :class="[
               size === 'small'
-                ? 'w-[145px] xl:w-[125px] text-[14px] xl:text-[15px]'
+                ? 'w-[145px] xl:w-[125px] text-[13px] xl:text-[12px]'
                 : 'w-[150px] text-[14px] xl:text-[15px]',
             ]"
           >

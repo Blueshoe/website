@@ -31,16 +31,6 @@ const props = withDefaults(defineProps<Props>(), {
   backgroundColor: "#fff"
 });
 
-const windowWidth = ref(0);
-
-onMounted(() => {
-  window.addEventListener("resize", () => {
-    if (container.value) {
-      windowWidth.value = window.innerWidth;
-    }
-  });
-});
-
 const container = ref(null);
 
 const outerTriangleLeftStyle = computed(() => {
