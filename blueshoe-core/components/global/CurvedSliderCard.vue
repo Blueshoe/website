@@ -92,10 +92,10 @@
             <slot name="cardTitle" />
           </div>
           <div
-            class="font-roboto w-[158px] text-wrap"
+            class="font-roboto w-[158px] text-pretty"
             :class="[
               size === 'small'
-                ? 'w-[145px] xl:w-[125px] text-[13px] xl:text-[12px]'
+                ? 'w-[145px] xl:w-[125px] text-[14px] xl:text-[15px]'
                 : 'w-[150px] text-[14px] xl:text-[15px]',
             ]"
           >
