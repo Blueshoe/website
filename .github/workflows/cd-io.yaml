@@ -33,6 +33,8 @@ jobs:
         runs-on: ubuntu-latest
         needs: build
         name: Deploy
+        outputs:
+          preview-url: ${{ steps.wrangler-deploy.outputs.preview-url }}
         steps:
           - uses: actions/checkout@v4
           - name: Download site artefact
@@ -40,9 +42,16 @@ jobs:
             with:
                 name: website-io
                 path: .output
-          - name: Deploy
+          - id: wrangler-deploy
+            name: Deploy
             uses: cloudflare/wrangler-action@v3
             with:
               apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
               command: pages deploy .output/public --project-name=blueshoe-io
+          - name: PR Comment
+            uses: github-actions-up-and-running/pr-comment@v1.0.1
+            with:
+              repo-token: ${{ secrets.GITHUB_TOKEN }}
+              message: "Deployed to [blueshoe.io](${{ needs.wrangler-deploy.outputs.preview-url }})"
+          
