@@ -53,4 +53,4 @@ jobs:
             uses: JoseThen/comment-pr@v1.2.0
             with:
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              comment: "🚀 Deployed to [${{steps.regex-match.outputs.group1}}](${{ steps.regex-match.outputs.group1 }})\n![deploy](https://giphy.com/embed/26u3ZxF1ayvkE755K)"
+              comment: "🚀 Deployed to [${{steps.regex-match.outputs.group1}}](${{ steps.regex-match.outputs.group1 }})"
