@@ -31,9 +31,20 @@ const props = withDefaults(defineProps<Props>(), {
   backgroundColor: "#fff"
 });
 
+const windowWidth = ref(0);
+
+onMounted(() => {
+  window.addEventListener("resize", () => {
+    if (container.value) {
+      windowWidth.value = window.innerWidth;
+    }
+  });
+});
+
 const container = ref(null);
 
 const outerTriangleLeftStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
@@ -51,11 +62,12 @@ const outerTriangleLeftStyle = computed(() => {
 });
 
 const innerTriangleLeftStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
     // right: `-${(height / 7.2)}px`,
-    left: "-3px",
+    left: "-2px",
     top: "0",
     bottom: "0",
     width: "0",
@@ -68,6 +80,7 @@ const innerTriangleLeftStyle = computed(() => {
 });
 
 const outerTriangleRightStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
@@ -84,6 +97,7 @@ const outerTriangleRightStyle = computed(() => {
 });
 
 const innerTriangleRightStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
