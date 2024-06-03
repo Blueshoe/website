@@ -55,7 +55,7 @@ onMounted(() => {
 
     if (scrollPosition >= maxScroll / 2 && window.innerWidth > 1024) {
       // Calculate scale factor based on scroll position
-      const scaleFactor = 1 + (scrollPosition / maxScroll) * 0.5;
+      const scaleFactor = 1 + (scrollPosition / maxScroll) * 0.5; 
 
       // Apply the scale transformation
       image.style.transform = `scale(${scaleFactor})`;
