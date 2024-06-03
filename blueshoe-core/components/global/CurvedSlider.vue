@@ -51,6 +51,11 @@
               }">
               <slot v-if="idx !== 6" :name="'card' + idx" />
               <div v-else class="ml-12 flex flex-col justify-center h-[350px] md:hidden">
+                <div class="text-bs-blue font-oswald font-bold text-center" :class="[
+                    size === 'small'
+                      ? 'text-[22px] md:text-[28px] xl:leading-[28px] mb-3 xl:mb-6'
+                      : 'text-[22px] md:text-[32px] xl:leading-[32px] mb-3',
+                  ]"><slot name="endCtaTitle" /></div>
                 <NuxtLink :to="buttonUrl" :target="buttonTarget"
                   class="inline-block bg-bs-green text-center text-lg xl:text-xl font-normal font-roboto cursor-pointer text-white w-full rounded-lg"
                   :class="[

@@ -8,7 +8,7 @@
           class="bg-bs-green md:hidden text-center font-normal font-roboto cursor-pointer text-white max-w-fit rounded-lg text-lg xl:text-xl p-2">
           Book a call
         </NuxtLink>
-        <button class="lg:hidden text-black w-10 h-10 relative focus:outline-none bg-white" @click="handleMobileMenu">
+        <button class="lg:hidden text-black w-10 h-10 relative mt-2 focus:outline-none bg-white" @click="handleMobileMenu">
           <span class="sr-only">Open main menu</span>
           <div class="w-5 block absolute left-1/2 top-[40%] transform -translate-x-1/2 -translate-y-1/2">
             <span aria-hidden="true"
