@@ -46,16 +46,18 @@
             <SwiperSlide v-for="idx in 6" :key="idx" class="relative !bg-transparent w-full" :class="[
               idx === 3 ? 'w-[16%] max-w-[180px]' : 'w-[27%]',
             ]" :style="{
-                'z-index': idx === 2 ? '10' : 'auto',
-                margin: idx === 5 ? '0 -50px 0 0' : 'auto',
-              }">
+              'z-index': idx === 2 ? '10' : 'auto',
+              margin: idx === 5 ? '0 -50px 0 0' : 'auto',
+            }">
               <slot v-if="idx !== 6" :name="'card' + idx" />
               <div v-else class="ml-12 flex flex-col justify-center h-[350px] md:hidden">
                 <div class="text-bs-blue font-oswald font-bold text-center" :class="[
-                    size === 'small'
-                      ? 'text-[22px] md:text-[28px] xl:leading-[28px] mb-3 xl:mb-6'
-                      : 'text-[22px] md:text-[32px] xl:leading-[32px] mb-3',
-                  ]"><slot name="endCtaTitle" /></div>
+                  size === 'small'
+                    ? 'text-[22px] md:text-[28px] xl:leading-[28px] mb-3 xl:mb-6'
+                    : 'text-[22px] md:text-[32px] xl:leading-[32px] mb-3',
+                ]">
+                  <slot name="buttonBlockTitle" />
+                </div>
                 <NuxtLink :to="buttonUrl" :target="buttonTarget"
                   class="inline-block bg-bs-green text-center text-lg xl:text-xl font-normal font-roboto cursor-pointer text-white w-full rounded-lg"
                   :class="[
@@ -68,8 +70,8 @@
               </div>
             </SwiperSlide>
           </Swiper>
-          <div class="swiper-button-prev-curved md:hidden"></div>
-          <div class="swiper-button-next-curved md:hidden"></div>
+          <div class="swiper-button-prev-curved md:hidden z-50"></div>
+          <div class="swiper-button-next-curved md:hidden z-50"></div>
         </div>
 
         <div class="hidden relative xl:flex gap-[4px] w-full">
