@@ -2,8 +2,12 @@
   <div class="fixed z-50 bg-white w-full md:transition-transform md:duration-300">
     <div class="relative bs-container flex h-[70px] justify-between items-center">
       <NuxtLink to="/"><booster-image id="animatedLogo" src="/img/blueshoe-navbar-logo.png" width="200" height="51"
-          class="max-w-[200px] transition-transform duration-300" alt="Blushoe logo" format="webp" /></NuxtLink>
-      <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight">
+          class="max-w-[200px] md:transition-transform md:duration-300" alt="Blushoe logo" format="webp" /></NuxtLink>
+      <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight flex items-center">
+        <NuxtLink to="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank"
+          class="bg-bs-green md:hidden text-center font-normal font-roboto cursor-pointer text-white max-w-fit rounded-lg text-lg xl:text-xl p-2">
+          Book a call
+        </NuxtLink>
         <button class="lg:hidden text-black w-10 h-10 relative focus:outline-none bg-white" @click="handleMobileMenu">
           <span class="sr-only">Open main menu</span>
           <div class="w-5 block absolute left-1/2 top-[40%] transform -translate-x-1/2 -translate-y-1/2">
@@ -21,7 +25,7 @@
         <DesktopMenu class="hidden lg:flex" />
       </nav>
       <NuxtLink to="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank"
-        class="bg-bs-green text-center font-normal font-roboto cursor-pointer text-white max-w-fit rounded-lg text-lg xl:text-xl p-2">
+        class="bg-bs-green hidden md:block text-center font-normal font-roboto cursor-pointer text-white max-w-fit rounded-lg text-lg xl:text-xl p-2">
         Book a call
       </NuxtLink>
     </div>
@@ -49,7 +53,7 @@ onMounted(() => {
     const scrollPosition = window.scrollY;
     const maxScroll = document.body.scrollHeight - window.innerHeight;
 
-    if (scrollPosition >= maxScroll / 2) {
+    if (scrollPosition >= maxScroll / 2 && window.innerWidth > 1024) {
       // Calculate scale factor based on scroll position
       const scaleFactor = 1 + (scrollPosition / maxScroll) * 0.5;
 

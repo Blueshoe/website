@@ -8,87 +8,62 @@ We are Blueshoe
 :::GlobalParagraph{.mb-6}
 We are your reliable partner for the implementation of cloud native software, websites, platforms, apps, PWAs and online shops built on top of Kubernetes.
 :::
-
-GlobalParagraph
+:::GlobalParagraph
 Precise. Pragmatic. Professional.
+:::
+::
 
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing
+
+#title
+Our Pricing
 
 #card1
 :::GlobalPricingCard
 
 #title
-Quick Care
-
-#subtitle
-Test dwnada kawmdl wad adk walkd kalkwdla dlalwdjla jdwlj lkwdla jlaj lw
+Small workshop
 
 #priceDescription
-- **Maintenance**
-- 24 h per quarter
-- Important Updates
-- Reporting
+- **4h** workshop
+- Projects without interfaces
+- 1 CEO
+- Structured requirements documentation
 
 #price
-1.300 € / Month
-
-#additionals
-::::GlobalPricingAdditional
-Developer hour: 200 € 
-::::::GlobalTooltip
-A developer hour means the time a developer needs to develop
-::::::
-::::
-::::GlobalPricingAdditional
-Support hour: 180 €
-::::
+4.500€
 :::
 
 #card2
 :::GlobalPricingCard
 
 #title
-Deep Care
+Large workshop
 
 #priceDescription
-- **Maintenance and support**
-- 60 h per quarter
-- Important updates
-- Functional updates
-- Changes to the software (6 h per month)
-- Reporting
+- **1 day** workshop
+- More complex projects with interfaces
+- 1 CEO
+- Detailed requirements documentation
 
 #price
-3.000 € / Month
-
-#additionals
-::::GlobalPricingAdditional
-Developer hour: 160 €
-::::
-::::GlobalPricingAdditional
-Support hour: 140 €
-::::
-
+7.500€
 :::
 
 #card3
-:::GlobalPricingCard{:accented="true"}
+:::GlobalPricingCard
 
 #title
-Super Secure Care
+Large workshop
 
 #priceDescription
-- **Maintenance and support**
-- Indefinite hours per quarter
-- All updates
-- Changes to the software
-- Consulting and Strategy-Check
-- Workshops and Trainings
-- Individual reporting
+- **2 day** workshop
+- Very complex projects
+- 2 CEOs
+- Extensive requirements documentation
 
 #price
-::::GlobalButton{:label="Request now" :size="wide" :color="green"}
-::::
+18.500€
 :::
 
 ::
