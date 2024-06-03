@@ -45,21 +45,13 @@ jobs:
             with:
                 name: website-io
                 path: .output
-          - id: wrangler-deploy
-            name: Deploy
-            uses: cloudflare/wrangler-action@v3
+          - name: Deploy to Cloudflare Pages
+            uses: andykenward/github-actions-cloudflare-pages@v2.3.0
+            id: pages
             with:
-              apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-              accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-              command: pages deploy .output/public --project-name=blueshoe-io
-          - uses: actions-ecosystem/action-regex-match@v2
-            id: regex-match
-            with:
-              text: ${{ steps.wrangler-deploy.outputs.command-output }}
-              regex: '(https:\/\/.+)'
-          - name: comment-pr
-            uses: JoseThen/comment-pr@v1.2.0
-            with:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              comment: "🚀 Deployed to [${{steps.regex-match.outputs.group1}}](${{ steps.regex-match.outputs.group1 }})"
-          
+              cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+              cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+              cloudflare-project-name: ${{ vars.CLOUDFLARE_PROJECT_NAME_IO }}
+              directory: .output/public
+              github-token: ${{ secrets.GITHUB_TOKEN }}
+              github-environment: ${{ vars.CLOUDFLARE_PROJECT_NAME_IO }} ${{ (github.ref == 'refs/heads/main' && '(Production)') || '(Preview)' }}
