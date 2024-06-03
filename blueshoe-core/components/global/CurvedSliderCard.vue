@@ -68,7 +68,7 @@
     />
     <div>
       <div :class="`flex flex-col h-[350px] ${!firstCard ? 'ml-4' : ''}`">
-        <div class="h-[30%]">
+        <div class="h-[40%] md:h-[30%]">
           <img
             :src="src"
             :alt="alt"

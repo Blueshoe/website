@@ -112,9 +112,6 @@ Corrective Maintenance </br> Perfective Maintenance </br> Adaptive Maintenance
 Book a meeting with our expert now
 #buttonLabel
 Find a timeslot
-
-#endCtaTitle
-Book a meeting with our expert
 ::
 
 :::GlobalSimpleSection{:bg="bs-white" data-title="The problem with PHP"}
