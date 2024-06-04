@@ -1,8 +1,8 @@
 <template>
-  <div class="fixed z-50 bg-white w-full">
+  <div class="fixed z-50 bg-white w-full md:h-[150px] md:transition-transform md:duration-300">
     <div class="relative bs-container flex h-[70px] justify-between items-center">
-      <NuxtLink to="/"><booster-image id="animatedLogo" src="/img/blueshoe-navbar-logo.png" width="200" height="51"
-          class="max-w-[200px] md:transition-transform md:duration-300" alt="Blushoe logo" format="webp" /></NuxtLink>
+      <NuxtLink to="/"><booster-image src="/img/blueshoe-navbar-logo.png" width="200" height="51"
+          class="max-w-[200px]" alt="Blushoe logo" format="webp" /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight flex items-center">
         <GlobalButton class="md:hidden" url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank" label="Book a call"
           color="green" size="small">
@@ -45,20 +45,4 @@ const { isMobileMenuOpen } = storeToRefs(generalStore);
 const handleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
-
-onMounted(() => {
-  document.addEventListener("scroll", () => {
-    const image = document.getElementById("animatedLogo");
-    const scrollPosition = window.scrollY;
-    const maxScroll = document.body.scrollHeight - window.innerHeight;
-
-    if (scrollPosition >= maxScroll / 2 && window.innerWidth > 1024) {
-      // Calculate scale factor based on scroll position
-      const scaleFactor = 1 + (scrollPosition / maxScroll) * 0.5;
-
-      // Apply the scale transformation
-      image.style.transform = `scale(${scaleFactor})`;
-    }
-  });
-});
 </script>
