@@ -40,7 +40,6 @@ TODO
 :::
 ::
 
-
 ::GlobalSimplePricing{ :cardCount="3" }
 
 #card1
@@ -85,6 +84,9 @@ Deep Care
 #subtitle
 Umfangreiche Wartung für eine umfassende Pflege Deiner Software.
 
+#recommendedLabel
+Empfohlen
+
 #priceDescription
 - **Wartung und Support**
 - 60 h pro Quartal
@@ -97,13 +99,13 @@ Umfangreiche Wartung für eine umfassende Pflege Deiner Software.
 3.000 € / Monat
 
 #additionals
-::::GlobalPricingAdditional
+::::GlobalPricingAdditional{:accented="true"}
 Entwickler: 160 € / h
 ::::::GlobalTooltip
 Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
 ::::::
 ::::
-::::GlobalPricingAdditional
+::::GlobalPricingAdditional{:accented="true"}
 Support: 140 € / h
 ::::::GlobalTooltip
 Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
