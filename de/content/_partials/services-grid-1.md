@@ -1,11 +1,11 @@
 :::GlobalSmallCardWithImageSection{ :bg="bg-bs-gray" :numberCards=3}
-::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Unsere Enterprise-Lösungen"}
-Unsere Enterprise-Lösungen
+::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Dienstleistungen"}
+Unsere Dienstleistungen, die für Dich interessant sein könnten:
 ::::
 
 #cards
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/cloud-storage.svg" :href="/loesungen/cloud-native-development/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/cloud-storage.svg" :href="/unsere-dienstleistungen/cloud-anwendungsentwicklung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Moderne Anwendungsentwicklung für die Cloud
 :::
@@ -18,7 +18,7 @@ Cloud-Entwicklung
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/consulting_1.svg" :href="/loesungen/cloud-native-beratung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/consulting_1.svg" :href="/unsere-dienstleistungen/cloud-native-beratung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Wir helfen Dir, Lösungen zu finden
 :::
@@ -30,7 +30,7 @@ Spare Geld, indem Du die Fehler vermeiden, die wir bereits gemacht haben. Lass u
 Cloud-Beratung
 :::
 ::
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/api_1.svg" :href="/loesungen/api-entwicklung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/api_1.svg" :href="/unsere-dienstleistungen/api-entwicklung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Systeme für schnellere Abläufe verbinden
 :::
@@ -42,7 +42,7 @@ Sparen Sie Zeit und Geld, indem Sie Ihre Systeme besser miteinander verbinden mi
 API-Entwicklung
 :::
 ::
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/migration.svg" :href="/loesungen/migration-auf-kubernetes/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/migration.svg" :href="/unsere-dienstleistungen/migration-zu-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Umzug zum modernen Orchestrierungsframework
 :::
@@ -55,7 +55,7 @@ Kubernetes-Migration
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/workflow.svg" :href="/loesungen/workflow-automatisierung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/workflow.svg" :href="/unsere-dienstleistungen/workflow-automatisierung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Steigerung der Entwicklergeschwindigkeit
 :::
@@ -67,7 +67,7 @@ Liefern Sie Funktionen schneller mit weniger Entwicklerfrustration und bleiben S
 Workflow-Automatisierung
 :::
 ::
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/infrastructure_1.svg" :href="/loesungen/microservice-architektur-beratung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/infrastructure_1.svg" :href="/unsere-dienstleistungen/microservice-architektur-beratung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Übergang von Monolithen
 :::
@@ -80,7 +80,7 @@ Microservice-Architekturen
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/buy-online.svg" :href="/loesungen/headless-e-commerce/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/buy-online.svg" :href="/unsere-dienstleistungen/headless-e-commerce/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Steigerung des Online-Verkaufs
 :::
@@ -93,7 +93,7 @@ Individueller Headless-E-Commerce
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/python.svg" :href="/loesungen/python-django-agentur/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/python.svg" :href="/unsere-dienstleistungen/python-django-agentur/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Kostengünstige Softwareentwicklung
 :::
@@ -109,26 +109,26 @@ Python- und Django-Entwicklung
 ::GlobalSmallCardWithImage{bg="bg-bs-blue"}
 
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-Dein nächstes Projekt
+Herausforderungen, die es wert sind, gelöst zu werden
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-Du hast ein Projekt im Sinn? Sprich mit uns! Wir geben gern unverbindlich unseren Senf dazu.
+Wenn Sie ein bestimmtes Projekt im Sinn haben, kommen Sie zu uns. Wir sind immer hilfsbereit.
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 **Telefon:** +49 89 54 19 84 22<br/>
-**E-Mail:** projekte@blueshoe.de
+**E-Mail:** project@blueshoe.io
 :::
 :::GlobalButton
 ---
 url: "https://blueshoe.io/hannes/" 
-label: "Jetzt Termin buchen" 
+label: "Meeting buchen" 
 color: "green" 
 target: "_blank"
 ---
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-white" .uppercase .mb-3}
-Dein nächstes Projekt
+Ihr nächstes Projekt
 :::
 ::
 :::
