@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Unsere Wartungsangebote'
+  title: 'Unsere Service Level Agreement (SLA) Angebote'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Unsere Wartungsangebote'
+      content: 'Unsere Service Level Agreement (SLA) Angebote'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Unsere Wartungsangebote'
+      content: 'Unsere Service Level Agreement (SLA) Angebote'
     - property: 'og:description'
-      content: 'Unsere Wartungsangebote'
+      content: 'Unsere Service Level Agreement (SLA) Angebote'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,22 +19,22 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Unsere Wartungsangebote'
+      content: 'Unsere Service Level Agreement (SLA) Angebote'
     - name: 'twitter:description'
-      content: 'Unsere Wartungsangebote'
+      content: 'Unsere Service Level Agreement (SLA) Angebote'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalSimpleSection{:bg="bg-white"}
 :::GlobalPreTitle{.mb-3}
-LANGANHALTENDE WARTUNG UND SUPPORT FÜR DEIN SOFTWAREPROJEKT BEI BLUESHOE
+INCIDENT HANDLING FÜR DRINGENDE PROBLEME VON BLUESHOE
 :::
 :::GlobalTitle{.mb-6}
-Unsere Wartungsangebote
+Unsere Service Level Agreement (SLA) Angebote im Überblick
 :::
 :::GlobalParagraph
-Solide und langlebige Software benötigt anhaltende Wartung. Blueshoe is spezialisiert auf kontinuierliche Wartung und schnellem Support von Web-Systemen zu erschwinglichen Preisen.
+Wenn Software wichtig für den Geschäftsbetrieb ist, benötigt sie einen Partner der schnell bei unerwarteten Störungen hilft. Blueshoe ist dein Partner für ein effektives *Incident Handling* nach den Bedürfnissen deines Geschäfts.
 <br/>
 TODO
 :::
@@ -46,72 +46,43 @@ TODO
 :::GlobalPricingCard
 
 #title
-Quick Care
+Standby
 
 #subtitle
-Einfache Wartung für eine Basis-Pflege Deiner Software.
+Blueshoe bearbeitet innerhalb eines Werktags dein Problem.
 
 #priceDescription
-- **Wartung**
-- 24 h pro Quartal
-- Wichtige Updates
-- Reporting
+- **SLAs**
+- **4 h** Reaktionszeit bei kritische Problemen*
+- Werktags, 9:00 Uhr - 17:00 Uhr
+- Ticket-System
 
 #price
-1.300 € / Monat
-
-#additionals
-::::GlobalPricingAdditional
-Entwickler: 200 € / h
-::::::GlobalTooltip
-Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
-::::::
-::::
-::::GlobalPricingAdditional
-Support: 180 € / h
-::::::GlobalTooltip
-Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
-::::::
-::::
+1.000 € / Monat
 :::
 
 #card2
 :::GlobalPricingCard{:accented="true"}
 
 #title
-Deep Care
+Hot Standby
 
 #subtitle
-Umfangreiche Wartung für eine umfassende Pflege Deiner Software.
+Erweiterter Zeitraum für höhere Verfügbarkeit.
 
 #recommendedLabel
 Empfohlen
 
 #priceDescription
-- **Wartung und Support**
-- 60 h pro Quartal
-- Wichtige Updates
-- Funktionale Updates
-- Änderungen an der Software **enthalten** (6 h pro Monat)
-- Detailiertes Reporting
+- **SLAs**
+- **2 h** Reaktionszeit bei kritische Problemen*
+- Werktags, 8:00 Uhr - 18:00 Uhr
+- Ticket-System
+- Chat
+- **Reduzierte** Supportkosten
 
 #price
-3.000 € / Monat
-
-#additionals
-::::GlobalPricingAdditional{:accented="true"}
-Entwickler: 160 € / h
-::::::GlobalTooltip
-Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
-::::::
-::::
-::::GlobalPricingAdditional{:accented="true"}
-Support: 140 € / h
-::::::GlobalTooltip
-Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
-::::::
-::::
-
+1.800 € / Monat
 
 :::
 
@@ -119,19 +90,20 @@ Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
 :::GlobalPricingCard
 
 #title
-Super Secure Care
+Always On
 
 #subtitle
-Für spezielle Wartungsprojekte haben wir auch spezielle Angebote.
+Für besonders kritische Applikationen bieten wir auch besondere SLAs.
 
 #priceDescription
-- **Wartung und Support**
-- Beliebig viele Wartungsstunden pro Quartal (zu **Sonderkonditionen**)
-- Alle Updates
+- **SLAs**
+- **1 h** Reaktionszeit bei kritische Problemen*
+- Rund um die Uhr, 24 h / 7 Tage
 - Beliebige Änderungen an der Software enthalten
-- Beratung und Strategy-Check
-- Workshops und Trainings
-- **Individuelles Reporting**
+- Supportkosten **enthalten**
+- Ticket-System
+- Chat
+- Telefon
 
 #price
 ::::GlobalButton
@@ -147,19 +119,20 @@ target: "_blank"
 ::
 
 ::GlobalSimpleSection{:bg="bg-bs-white"}
-::GlobalParagraph
-Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Für unseren exzellente Wartung- und Support-Leistungen benötigen wir in einigen Fällen ein *onboarding* Deiner Software auf unsere Plattform (Industrie Software Stack). Dazu unterbreiten wir ein gesondertes <a href="/lift-shift-angebot/" class="text-bs-blue hover:underline">*Lift & Shift*-Angebot</a>. 
-
-::
+:::GlobalParagraph
+Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Für unsere exzellenten Incident Handling-Leistungen setzen wir eine laufende <a class="text-bs-blue hover:underline" href="/wartungsangebote/">Wartungs- und Support-Vereinbarung</a> voraus.
+<br/><br/>
+\* siehe Definition Fehlerklassen und Reaktionszeiten
+:::
 ::
 
 <!--- Was ist enthalten --->
 :::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=6}
 ::::GlobalPreTitle{:color="text-white" .mb-4 data-title="Werte"}
-WARTUNG UND SUPPORT BEI BLUESHOE
+INCIDENT HANDLING BEI BLUESHOE
 ::::
 ::::GlobalTitle{:color="text-white" .mb-6}
-Was Blueshoe der Wartung und Support besonders auszeichnet
+Was die SLAs von Blueshoe besonders auszeichnet
 ::::
 #card1
 ::GlobalListCardWithImage{:src="/img/global/icons/you-build-it-you-run-it.svg"}

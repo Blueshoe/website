@@ -4,7 +4,7 @@
       <NuxtLink to="/"><booster-image src="/img/blueshoe-navbar-logo.png" width="200" height="51"
           class="max-w-[200px] md:transition-transform md:duration-300" title="Blueshoe logo" alt="Blushoe logo" format="webp" /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight flex items-center">
-        <GlobalButton class="md:hidden" url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank" label="Book a call"
+        <GlobalButton class="md:hidden" url="https://blueshoe.io/hannes/" target="_blank" label="Termin vereinbaren"
           color="green" size="small">
         </GlobalButton>
         <button class="lg:hidden text-black w-10 h-10 relative focus:outline-none bg-white"
@@ -24,7 +24,7 @@
         </button>
         <DesktopMenu class="hidden lg:flex" />
       </nav>
-      <GlobalButton class="hidden md:block" url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank" label="Book a call"
+      <GlobalButton class="hidden md:block" url="https://blueshoe.io/hannes/" target="_blank" label="Termin vereinbaren"
         color="green" size="small">
       </GlobalButton>
     </div>

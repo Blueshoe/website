@@ -5,7 +5,7 @@ Unsere Dienstleistungen, die für Dich interessant sein könnten:
 
 #cards
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/cloud-storage.svg" :href="/unsere-dienstleistungen/cloud-anwendungsentwicklung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/cloud-storage.svg" :href="/leistungen/cloud-native-development/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Moderne Anwendungsentwicklung für die Cloud
 :::
@@ -18,7 +18,7 @@ Cloud-Entwicklung
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/consulting_1.svg" :href="/unsere-dienstleistungen/cloud-native-beratung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/consulting_1.svg" :href="/leistungen/cloud-native-beratung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Wir helfen Dir, Lösungen zu finden
 :::
@@ -30,7 +30,7 @@ Spare Geld, indem Du die Fehler vermeiden, die wir bereits gemacht haben. Lass u
 Cloud-Beratung
 :::
 ::
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/api_1.svg" :href="/unsere-dienstleistungen/api-entwicklung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/api_1.svg" :href="/leistungen/api-entwicklung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Systeme für schnellere Abläufe verbinden
 :::
@@ -42,7 +42,7 @@ Sparen Sie Zeit und Geld, indem Sie Ihre Systeme besser miteinander verbinden mi
 API-Entwicklung
 :::
 ::
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/migration.svg" :href="/unsere-dienstleistungen/migration-zu-kubernetes/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/migration.svg" :href="/leistungen/migration-auf-kubernetes/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Umzug zum modernen Orchestrierungsframework
 :::
@@ -55,7 +55,7 @@ Kubernetes-Migration
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/workflow.svg" :href="/unsere-dienstleistungen/workflow-automatisierung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/workflow.svg" :href="/leistungen/workflow-automatisierung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Steigerung der Entwicklergeschwindigkeit
 :::
@@ -67,7 +67,7 @@ Liefern Sie Funktionen schneller mit weniger Entwicklerfrustration und bleiben S
 Workflow-Automatisierung
 :::
 ::
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/infrastructure_1.svg" :href="/unsere-dienstleistungen/microservice-architektur-beratung/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/infrastructure_1.svg" :href="/leistungen/microservice-architektur-beratung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Übergang von Monolithen
 :::
@@ -80,7 +80,7 @@ Microservice-Architekturen
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/buy-online.svg" :href="/unsere-dienstleistungen/headless-e-commerce/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/buy-online.svg" :href="/leistungen/headless-e-commerce/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Steigerung des Online-Verkaufs
 :::
@@ -93,7 +93,7 @@ Individueller Headless-E-Commerce
 :::
 ::
 
-::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/python.svg" :href="/unsere-dienstleistungen/python-django-agentur/"}
+::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/python.svg" :href="/leistungen/python-django-agentur/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
 Kostengünstige Softwareentwicklung
 :::
