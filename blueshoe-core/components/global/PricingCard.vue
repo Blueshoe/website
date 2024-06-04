@@ -1,10 +1,16 @@
 <template>
     <div :class="`flex flex-col gap-4 ${accented ? '' : 'mt-5'} hover:scale-105 duration-300 group`">
         <div class="group-hover:shadow-xl relative">
-            <div v-if="accented" class="text-white bg-bs-blue uppercase absolute p-2 w-[300px] text-center">recommended
+            <div v-if="accented" class="text-white bg-bs-blue uppercase absolute p-2 w-[300px] text-center">
+                <template v-if="$slots.recommendedLabel">
+                    <slot name="recommendedLabel" />
+                </template>
+                <template v-else>
+                    recommended
+                </template>
             </div>
             <div
-                :class="`flex flex-col p-4 border-4 ${accented ? 'border-bs-blue h-[500px] w-[300px] pt-14' : 'border-bs-green'} gap-2 w-72`">
+                :class="`flex flex-col p-4 border-4 ${accented ? 'border-bs-blue min-h-[500px] w-[300px] pt-14' : 'border-bs-green'} gap-2 w-72`">
                 <div class="text-xl italic">
                     <slot name="title" />
                 </div>
