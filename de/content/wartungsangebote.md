@@ -34,7 +34,7 @@ LANGANHALTENDE WARTUNG FÜR DEIN SOFTWAREPROJEKT BEI BLUESHOE
 Unsere Wartungsangebote
 :::
 :::GlobalParagraph
-Solide und langlebige Software benötigt anhaltende Wartung. Blueshoe is spezialisiert auf kontinuierliche Wartung.
+Solide und langlebige Software benötigt anhaltende Wartung. Blueshoe is spezialisiert auf kontinuierliche Wartung und schnellem Support von Web-Systemen zu erschwinglichen Preisen.
 <br/>
 TODO
 :::
@@ -129,7 +129,7 @@ Super Secure Care
 - **Individuelles Reporting**
 
 #price
-::::GlobalButton{:label="Auf Anfrage" :size="wide" :color="green"}
+::::GlobalButton{:label="Auf Anfrage" :url="https://blueshoe.io/hannes/"  :size="wide" :color="green"}
 ::::
 :::
 
@@ -189,7 +189,13 @@ Blueshoe ist ein Anbieter zur Entwicklung spezialisierter, lizenzkostenfreier un
 <br/><br/>
 
 Möchtest Du mit uns arbeiten?
-::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Kontaktiere uns!" :color="blue"}
+::GlobalButton
+---
+url: "https://blueshoe.io/hannes/" 
+label: "Kontaktiere uns!" 
+color: "blue"
+target: "_blank"
+---
 ::
 
 ::::
