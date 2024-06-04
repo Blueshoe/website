@@ -145,7 +145,7 @@ target: "_blank"
 
 ::GlobalSimpleSection{:bg="bg-bs-white"}
 ::GlobalParagraph
-Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Für unseren exzellente Wartung- und Support-Leistungen benötigen wir in einigen Fällen ein *onboarding* Deiner Software auf unsere Plattform (Standard Software Stack). Dazu unterbreiten wir ein gesondertes [*Lift & Shift*-Angebot](/lift-und-shift-angebot/). 
+Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Für unseren exzellente Wartung- und Support-Leistungen benötigen wir in einigen Fällen ein *onboarding* Deiner Software auf unsere Plattform (Standard Software Stack). Dazu unterbreiten wir ein gesondertes <a href="/lift-und-shift-angebot/" class="text-bs-blue hover:underline">*Lift & Shift*-Angebot</a>. 
 
 ::
 ::
@@ -215,3 +215,5 @@ target: "_blank"
 
 ::::
 :::
+
+::GlobalPartial{content=services-grid-1}
