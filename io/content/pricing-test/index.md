@@ -11,13 +11,8 @@ We are your reliable partner for the implementation of cloud native software, we
 
 GlobalParagraph
 Precise. Pragmatic. Professional.
-:::
-::
 
 ::GlobalSimplePricing{ :cardCount="3" }
-
-#title
-Durable Maintenance
 
 #card1
 :::GlobalPricingCard
