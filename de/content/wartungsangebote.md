@@ -137,6 +137,12 @@ Super Secure Care
 
 ::
 
+::GlobalSimpleSection{:bg="bg-bs-white"}
+::GlobalParagraph
+All unsere Wartungsangebote sind immer in höchster Qualität verfügbar.
+::
+::
+
 <!--- Was ist enthalten --->
 :::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=6}
 ::::GlobalPreTitle{:color="text-white" .mb-4 data-title="Werte"}

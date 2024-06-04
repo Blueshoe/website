@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col md:flex-row justify-center gap-12 max-w-[90vw] md:max-w-full overflow-x-auto pt-12 md:h-screen">
+    <div class="flex flex-col md:flex-row items-center md:items-start justify-center gap-12 overflow-x-auto md:h-[800px] pt-12">
         <div v-for="(i) in cardCount" :key="i"
             class="flex flex-col items-center justify-start border-solid border-black">
             <slot :name="`card` + i" />
