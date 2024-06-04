@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed z-50 bg-white w-full md:h-[150px] md:transition-transform md:duration-300">
+  <div class="fixed z-50 bg-white w-full md:transition-transform md:duration-300">
     <div class="relative bs-container flex h-[70px] justify-between items-center">
       <NuxtLink to="/"><booster-image src="/img/blueshoe-navbar-logo.png" width="200" height="51"
           class="max-w-[200px]" alt="Blushoe logo" format="webp" /></NuxtLink>

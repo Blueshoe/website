@@ -24,6 +24,9 @@ Durable Maintenance
 #title
 Quick Care
 
+#subtitle
+Test dwnada kawmdl wad adk walkd kalkwdla dlalwdjla jdwlj lkwdla jlaj lw
+
 #priceDescription
 - **Maintenance**
 - 24 h per quarter
