@@ -2,7 +2,7 @@
   <div class="fixed z-50 bg-white w-full">
     <div class="relative container flex h-[70px] justify-between items-center mx-auto">
       <NuxtLink to="/"><booster-image src="/img/blueshoe-navbar-logo.png" width="200" height="51"
-          class="max-w-[200px] md:transition-transform md:duration-300" alt="Blushoe logo" format="webp" /></NuxtLink>
+          class="max-w-[200px] md:transition-transform md:duration-300" title="Blueshoe logo" alt="Blushoe logo" format="webp" /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight flex items-center">
         <GlobalButton class="md:hidden" url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank" label="Book a call"
           color="green" size="small">

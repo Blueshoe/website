@@ -38,7 +38,7 @@ Wir migrieren Deine Software auf den Blueshoe Standard Stack: Software, *contain
 :::
 ::
 
-::GlobalSimplePricing{:cardCount="3"}
+::GlobalSimplePricing{:cardCount="1" :hasAccent="false"}
 
 #card1
 :::GlobalPricingCard
