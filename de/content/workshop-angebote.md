@@ -122,7 +122,7 @@ target: "_blank"
 ::
 
 <!--- Was ist enthalten --->
-:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=6}
+:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=3}
 ::::GlobalPreTitle{:color="text-white" .mb-4 data-title="Werte"}
 ANFODERUNGSDEFINITION FÜR SOFTWAREPROJEKTE MIT BLUESHOE
 ::::

@@ -154,7 +154,7 @@ Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit g
 ::
 
 <!--- Was ist enthalten --->
-:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=6}
+:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=3}
 ::::GlobalPreTitle{:color="text-white" .mb-4 data-title="Werte"}
 WARTUNG UND SUPPORT BEI BLUESHOE
 ::::
