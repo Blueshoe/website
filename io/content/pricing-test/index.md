@@ -8,7 +8,8 @@ We are Blueshoe
 :::GlobalParagraph{.mb-6}
 We are your reliable partner for the implementation of cloud native software, websites, platforms, apps, PWAs and online shops built on top of Kubernetes.
 :::
-:::GlobalParagraph
+
+GlobalParagraph
 Precise. Pragmatic. Professional.
 :::
 ::
