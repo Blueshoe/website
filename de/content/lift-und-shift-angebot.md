@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Unsere Wartungsangebote'
+  title: 'Lift & Shift Angebot bei Blueshoe'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Unsere Wartungsangebote'
+      content: 'Lift & Shift Angebot bei Blueshoe'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Unsere Wartungsangebote'
+      content: 'Lift & Shift Angebot bei Blueshoe'
     - property: 'og:description'
-      content: 'Unsere Wartungsangebote'
+      content: 'Lift & Shift Angebot bei Blueshoe'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,116 +19,43 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Unsere Wartungsangebote'
+      content: 'Lift & Shift Angebot bei Blueshoe'
     - name: 'twitter:description'
-      content: 'Unsere Wartungsangebote'
+      content: 'Lift & Shift Angebot bei Blueshoe'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalSimpleSection{:bg="bg-white"}
 :::GlobalPreTitle{.mb-3}
-LANGANHALTENDE WARTUNG FÜR DEIN SOFTWAREPROJEKT BEI BLUESHOE
+DER SICHERE BETRIEB DEINER SOFTWAREPROJEKT BEI BLUESHOE IN GUTEN HÄNDEN
 :::
 :::GlobalTitle{.mb-6}
-Unsere Wartungsangebote
+Lift & Shift Angebot bei Blueshoe
 :::
 :::GlobalParagraph
-Solide und langlebige Software benötigt anhaltende Wartung. Blueshoe is spezialisiert auf kontinuierliche Wartung und schnellem Support von Web-Systemen zu erschwinglichen Preisen.
-<br/>
-TODO
+Wir migrieren Deine Software auf den Blueshoe Standard Stack: Software, *containerisiert* und bereitgestellt auf *Kubernetes*. Folgendes Angebot haben wir, wenn Du unsere Wartungs und Support-Leistungen in Anspruch nehmen willst, aber die Software noch nicht dem Blueshoe Standard Stack entspricht. Dabei behälst Du stets die volle Kontrolle über die Hosting-Dienstleister und andere angeschlossene Dienste. Blueshoe garantiert Dir, keinen *Vendor-Lock-In* Effekt zu erzeugen. 
 :::
 ::
 
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing{:cardCount="3"}
 
 #card1
 :::GlobalPricingCard
 
 #title
-Quick Care
+Als Werkvertrag
 
 #subtitle
-Einfache Wartung für eine Basis-Pflege Deiner Software.
+Wir bieten Dir eine Migration Deiner Anwendungen auf Fixpreis-Basis ohne Überraschungen.
 
 #priceDescription
-- **Wartung**
-- 24 h pro Quartal
-- Wichtige Updates
-- Reporting
-
-#price
-1.300 € / Monat
-
-#additionals
-::::GlobalPricingAdditional
-Entwickler: 200 € / h
-::::::GlobalTooltip
-Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
-::::::
-::::
-::::GlobalPricingAdditional
-Support: 180 € / h
-::::::GlobalTooltip
-Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
-::::::
-::::
-:::
-
-#card2
-:::GlobalPricingCard{:accented="true"}
-
-#title
-Deep Care
-
-#subtitle
-Umfangreiche Wartung für eine umfassende Pflege Deiner Software.
-
-#recommendedLabel
-Empfohlen
-
-#priceDescription
-- **Wartung und Support**
-- 60 h pro Quartal
-- Wichtige Updates
-- Funktionale Updates
-- Änderungen an der Software **enthalten** (6 h pro Monat)
-- Detailiertes Reporting
-
-#price
-3.000 € / Monat
-
-#additionals
-::::GlobalPricingAdditional{:accented="true"}
-Entwickler: 160 € / h
-::::::GlobalTooltip
-Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
-::::::
-::::
-::::GlobalPricingAdditional{:accented="true"}
-Support: 140 € / h
-::::::GlobalTooltip
-Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
-::::::
-::::
-
-
-:::
-
-#card3
-:::GlobalPricingCard
-
-#title
-Super Secure Care
-
-#priceDescription
-- **Wartung und Support**
-- Beliebig viele Wartungsstunden pro Quartal (zu **Sonderkonditionen**)
-- Alle Updates
-- Beliebige Änderungen an der Software enthalten
-- Beratung und Strategy-Check
-- Workshops und Trainings
-- **Individuelles Reporting**
+- **Fixierter Preis**
+- Volle Kostenkontrolle
+- Modernste Betriebsumgebung
+- Professionelle Umsetzung
+- Wartung & Support möglich
+- Incident Handling möglich
 
 #price
 ::::GlobalButton
@@ -140,12 +67,11 @@ color: "green"
 target: "_blank"
 ---
 ::::
-:::
 ::
 
 ::GlobalSimpleSection{:bg="bg-bs-white"}
 ::GlobalParagraph
-Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Für unseren exzellente Wartung- und Support-Leistungen benötigen wir in einigen Fällen ein *onboarding* Deiner Software auf unsere Plattform (Standard Software Stack). Dazu unterbreiten wir ein gesondertes [*Lift & Shift*-Angebot](/lift-und-shift-angebot/). 
+Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Für unseren exzellente Wartung- und Support-Leistungen unterbreiten wir ein gesondertes [Wartungs- und Support-Angebote](/wartungsangebote/). 
 
 ::
 ::
