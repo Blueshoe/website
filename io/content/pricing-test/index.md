@@ -13,57 +13,83 @@ Precise. Pragmatic. Professional.
 :::
 ::
 
-::GlobalSimplePricing
+::GlobalSimplePricing{ :cardCount="3" }
 
 #title
-Our Pricing
+Durable Maintenance
 
 #card1
 :::GlobalPricingCard
 
 #title
-Small workshop
+Quick Care
 
 #priceDescription
-- **4h** workshop
-- Projects without interfaces
-- 1 CEO
-- Structured requirements documentation
+- **Maintenance**
+- 24 h per quarter
+- Important Updates
+- Reporting
 
 #price
-4.500€
+1.300 € / Month
+
+#additionals
+::::GlobalPricingAdditional
+Developer hour: 200 € 
+::::::GlobalTooltip
+A developer hour means the time a developer needs to develop
+::::::
+::::
+::::GlobalPricingAdditional
+Support hour: 180 €
+::::
 :::
 
 #card2
 :::GlobalPricingCard
 
 #title
-Large workshop
+Deep Care
 
 #priceDescription
-- **1 day** workshop
-- More complex projects with interfaces
-- 1 CEO
-- Detailed requirements documentation
+- **Maintenance and support**
+- 60 h per quarter
+- Important updates
+- Functional updates
+- Changes to the software (6 h per month)
+- Reporting
 
 #price
-7.500€
+3.000 € / Month
+
+#additionals
+::::GlobalPricingAdditional
+Developer hour: 160 €
+::::
+::::GlobalPricingAdditional
+Support hour: 140 €
+::::
+
 :::
 
 #card3
-:::GlobalPricingCard
+:::GlobalPricingCard{:accented="true"}
 
 #title
-Large workshop
+Super Secure Care
 
 #priceDescription
-- **2 day** workshop
-- Very complex projects
-- 2 CEOs
-- Extensive requirements documentation
+- **Maintenance and support**
+- Indefinite hours per quarter
+- All updates
+- Changes to the software
+- Consulting and Strategy-Check
+- Workshops and Trainings
+- Individual reporting
 
 #price
-18.500€
+::::GlobalButton{:label="Request now" :size="wide" :color="green"}
+::::
 :::
 
 ::

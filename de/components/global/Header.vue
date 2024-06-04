@@ -1,14 +1,14 @@
 <template>
   <div class="fixed z-50 bg-white w-full">
     <div class="relative container flex h-[70px] justify-between items-center mx-auto">
-      <NuxtLink to="/"><booster-image id="animatedLogo" src="/img/blueshoe-navbar-logo.png" width="200" height="51"
+      <NuxtLink to="/"><booster-image src="/img/blueshoe-navbar-logo.png" width="200" height="51"
           class="max-w-[200px] md:transition-transform md:duration-300" alt="Blushoe logo" format="webp" /></NuxtLink>
       <nav ref="refNav" class="text-xl text-bs-menu font-oswald font-extralight flex items-center">
-        <NuxtLink to="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank"
-          class="bg-bs-green md:hidden text-center font-normal font-roboto cursor-pointer text-white max-w-fit rounded-lg text-lg xl:text-xl p-2">
-          Termin buchen
-        </NuxtLink>
-        <button class="lg:hidden text-black w-10 h-10 relative focus:outline-none bg-white" @click="handleMobileMenu">
+        <GlobalButton class="md:hidden" url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank" label="Book a call"
+          color="green" size="small">
+        </GlobalButton>
+        <button class="lg:hidden text-black w-10 h-10 relative focus:outline-none bg-white"
+          @click="handleMobileMenu">
           <span class="sr-only">Open main menu</span>
           <div class="w-5 block absolute left-1/2 top-[40%] transform -translate-x-1/2 -translate-y-1/2">
             <span aria-hidden="true"
@@ -24,10 +24,9 @@
         </button>
         <DesktopMenu class="hidden lg:flex" />
       </nav>
-      <NuxtLink to="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank"
-        class="bg-bs-green hidden md:block text-center font-normal font-roboto cursor-pointer text-white max-w-[320px] rounded-lg text-lg xl:text-xl p-2">
-        Termin buchen
-      </NuxtLink>
+      <GlobalButton class="hidden md:block" url="https://calendar.app.google/1c1opTAqnXqyHrsR6/" target="_blank" label="Book a call"
+        color="green" size="small">
+      </GlobalButton>
     </div>
     <MobileMenu v-if="isMobileMenuOpen" />
   </div>
@@ -47,19 +46,4 @@ const handleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
 
-onMounted(() => {
-  document.addEventListener("scroll", () => {
-    const image = document.getElementById("animatedLogo");
-    const scrollPosition = window.scrollY;
-    const maxScroll = document.body.scrollHeight - window.innerHeight;
-
-    if (scrollPosition >= maxScroll / 2 && window.innerWidth > 1024) {
-      // Calculate scale factor based on scroll position
-      const scaleFactor = 1 + (scrollPosition / maxScroll) * 0.5;
-
-      // Apply the scale transformation
-      image.style.transform = `scale(${scaleFactor})`;
-    }
-  });
-});
 </script>
