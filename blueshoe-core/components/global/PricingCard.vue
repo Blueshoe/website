@@ -11,11 +11,11 @@
             </div>
             <div
                 :class="`flex flex-col p-4 border-4 ${accented ? 'border-bs-blue min-h-[500px] w-[300px] pt-14' : 'border-bs-green'} gap-2 w-72`">
-                <div class="text-xl italic">
+                <div class="text-2xl italic">
                     <slot name="title" />
                 </div>
                 <slot name="subtitle" />
-                <div class="price-desc ml-4">
+                <div :class="`${accented ? 'accented' : ''} price-desc ml-4`">
                     <ContentSlot name="priceDescription" unwrap="div" />
                 </div>
             </div>
@@ -43,12 +43,15 @@ const props = withDefaults(defineProps<Props>(), {
 
 <style>
 .price-desc li {
-    list-style-type: "🗸";
-    padding-left: 16px;
+    background-image: url("/img/checkmark.svg");
+    padding-left: 30px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: left start;
+    margin-bottom: 8px;
 }
 
-.price-desc li::marker {
-    color: #000;
-    font-size: 25px;
+.price-desc.accented li {
+    background-image: url("/img/checkmark-accented.svg");
 }
 </style>
