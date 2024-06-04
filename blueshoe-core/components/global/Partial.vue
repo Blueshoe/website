@@ -17,8 +17,6 @@ const props = defineProps({
     }
 
 });
-const arg = ref(props.content);
-const { data } = await useAsyncData(arg.value, () => queryContent('_partials/' + arg.value).where({ _partial: true }).findOne());
-
+const data = await queryContent('_partials/' + props.content).where({ _partial: true }).findOne()
 
 </script>
