@@ -24,7 +24,7 @@ head:
       content: "Erfahren Sie, wie Sie die richtige API-Technologie für Ihre Anwendung auswählen. Vergleichen Sie REST, GraphQL, gRPC und SOAP."
     - name: 'twitter:image'
       content: 'https://www.blueshoe.io/img/blogs/api-technologies-rest-graphql.svg'
-src: '/blog/grundlagen-der-api-strategie'
+src: '/blog/richtige-api-technologie-auswaehlen'
 img: '/img/blogs/api-technologies-rest-graphql.svg'
 alt: 'Erfahren Sie, wie Sie die richtige API-Technologie für Ihre Anwendung auswählen. Vergleichen Sie REST, GraphQL, gRPC und SOAP.'
 preTitle: 'Navigieren in der API-Landschaft für moderne Anwendungen' 
@@ -41,7 +41,7 @@ productUpdates: []
 sonstiges:
   - Entwicklung
 ---
-Können Sie sich eine Welt ohne [APIs](/leistungen/api-entwicklung/) vorstellen? Eine Welt ohne die Leichtigkeit und Zuverlässigkeit eines OpenAPI-Schemas? Ja, ich auch nicht - und doch mussten Entwickler noch vor wenigen Jahren geniale Wege finden, um Systeme miteinander kommunizieren zu lassen.
+Kannst du dir eine Welt ohne [APIs](/leistungen/api-entwicklung/) vorstellen? Eine Welt ohne die Leichtigkeit und Zuverlässigkeit eines OpenAPI-Schemas? Ja, ich auch nicht - und doch mussten Entwickler noch vor wenigen Jahren geniale Wege finden, um Systeme miteinander kommunizieren zu lassen.
 <!--more-->
 
 ![Grundlagen der API-Strategie: Wie Sie die richtige Technologie für Ihre Anwendung auswählen](/img/blogs/api-technologies-rest-graphql.svg){.object-cover .max-w-full .mb-5}
@@ -90,10 +90,10 @@ REST [APIs](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:
 Anwendungsfälle von REST
 :::
 :::globalParagraph
-Wenn Sie eine [API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} mit einem klar definierten Client-Server-Vertrag planen (das bedeutet unter anderem weniger Flexibilität bei den Serverantworten), ist REST eine sehr gute Option für Sie. REST ist nicht nur effizient und einfach zu implementieren, sondern wird auch von allen Programmiersprachen weitgehend unterstützt, die mit HTTP-Methoden arbeiten können.
+Wenn du eine [API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} mit einem klar definierten Client-Server-Vertrag planst (das bedeutet unter anderem weniger Flexibilität bei den Serverantworten), ist REST eine sehr gute Option für Sie. REST ist nicht nur effizient und einfach zu implementieren, sondern wird auch von allen Programmiersprachen weitgehend unterstützt, die mit HTTP-Methoden arbeiten können.
 :::
 :::globalParagraph
-Obwohl REST vordefinierte Anfragen erwartet und nur festgelegte Antworten liefert, bietet es dennoch eine hohe Flexibilität für die Erstellung einer API. Mit REST können Sie alles aufbauen!
+Obwohl REST vordefinierte Anfragen erwartet und nur festgelegte Antworten liefert, bietet es dennoch eine hohe Flexibilität für die Erstellung einer API. Mit REST kannst du alles aufbauen!
 :::
 :::globalParagraph
 Ein einfaches Beispiel könnte eine einfache API sein, die die Bilder von http.cat abruft und an den Benutzer zurückgibt:
@@ -115,7 +115,7 @@ async def get_cat_status_code(status_code: int):
 
 ::
 :::globalParagraph
-Beachten Sie, dass http.cat bereits eine API ist, die ein Bild zurückgibt (es ist nicht ungewöhnlich, andere APIs in Ihrer API aufzurufen). Aber dieses Beispiel soll nur zeigen, was mit einer einfachen REST-API möglich ist und wie sie dem HTTP-Methodenmodell entspricht. Lassen Sie uns das genauer betrachten!
+Bitte beachte, dass http.cat bereits eine API ist, die ein Bild zurückgibt (es ist nicht ungewöhnlich, andere APIs in deiner API aufzurufen). Aber dieses Beispiel soll nur zeigen, was mit einer einfachen REST-API möglich ist und wie sie dem HTTP-Methodenmodell entspricht. Lass uns das genauer betrachten!
 :::
 :::globalParagraph
 In diesem Beispiel habe ich das beliebte <a href="https://fastapi.tiangolo.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">FastAPI-Paket</a> für Python verwendet. Es ermöglicht die einfache Erstellung von REST-APIs.
@@ -143,17 +143,16 @@ Obwohl GraphQL seit 2015 existiert, ist es im Vergleich zu REST oder sogar älte
 Eigenschaften von GraphQL
 :::
 :::globalParagraph{.mb-5}
-GraphQL [APIs](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} besitzen charakteristische Merkmale, die sie von traditionellen REST-APIs unterscheiden und einen flexibleren und effizienteren Ansatz für die Datenabfrage bieten. Eine bemerkenswerte Funktion von GraphQL ist seine Fähigkeit, Abfragen zu optimieren und den Datentransfer zu minimieren. Im Gegensatz zu REST-APIs, bei denen Endpunkte festgelegt sind und vordefinierte Datenstrukturen zurückgeben, ermöglicht GraphQL den Clients, genau anzugeben, welche Daten sie mit einer einzigen Abfrage benötigen. Diese Fähigkeit beseitigt Probleme mit Über- und Unterabfrage, die bei REST-APIs häufig auftreten, bei denen Clients möglicherweise mehr oder weniger Daten erhalten als erforderlich. Darüber hinaus ermöglicht das Typsystem von GraphQL Clients, verschachtelte oder verwandte Daten in einer einzigen Abfrage anzufordern, wodurch die Notwendigkeit für mehrere Anfragen an den Server reduziert wird. Durch Bereitstellung einer präzisen und deklarativen Syntax für die Datenabfrage ermöglicht GraphQL den Clients, nur die erforderlichen Daten abzurufen, was zu einer effizienteren Netzwerknutzung und einer verbesserten Leistung führt. Darüber hinaus unterstützt GraphQL Funktionen wie Abfragebündelung und Zwischenspeicherung, wodurch der Datentransfer optimiert und die Latenz für Clientanwendungen reduziert wird. Insgesamt verbessern die Abfrageoptimierungsfunktionen von GraphQL die Effizienz und Reaktionsfähigkeit von API-Interaktionen und machen es zu einer hervorragenden Wahl für die moderne Anwendungsentwicklung. resulting in more efficient network usage and improved performance. Additionally, GraphQL supports features like query batching and caching, further optimizing data transfer and reducing latency for client applications. Overall, GraphQL's query optimization capabilities enhance the efficiency and responsiveness of API interactions, making it a great choice for modern application development.
+GraphQL [APIs](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} besitzen charakteristische Merkmale, die sie von traditionellen REST-APIs unterscheiden und einen flexibleren und effizienteren Ansatz für die Datenabfrage bieten. Eine bemerkenswerte Funktion von GraphQL ist seine Fähigkeit, Abfragen zu optimieren und den Datentransfer zu minimieren. Im Gegensatz zu REST-APIs, bei denen Endpunkte festgelegt sind und vordefinierte Datenstrukturen zurückgeben, ermöglicht GraphQL den Clients, genau anzugeben, welche Daten sie mit einer einzigen Abfrage benötigen. Diese Fähigkeit beseitigt Probleme mit Über- und Unterabfrage, die bei REST-APIs häufig auftreten, bei denen Clients möglicherweise mehr oder weniger Daten erhalten als erforderlich. Darüber hinaus ermöglicht das Typsystem von GraphQL Clients, verschachtelte oder verwandte Daten in einer einzigen Abfrage anzufordern, wodurch die Notwendigkeit für mehrere Anfragen an den Server reduziert wird. Durch Bereitstellung einer präzisen und deklarativen Syntax für die Datenabfrage ermöglicht GraphQL den Clients, nur die erforderlichen Daten abzurufen, was zu einer effizienteren Netzwerknutzung und einer verbesserten Leistung führt. Darüber hinaus unterstützt GraphQL Funktionen wie Query Batching und Caching, wodurch der Datentransfer optimiert und die Latenz für Client-Anwendungen reduziert wird. Insgesamt verbessern die Abfrageoptimierungsfunktionen von GraphQL die Effizienz und Reaktionsfähigkeit von API-Interaktionen und machen es zu einer hervorragenden Wahl für die moderne Anwendungsentwicklung. resulting in more efficient network usage and improved performance.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 Anwendungsfälle von GraphQL
 :::
 :::globalParagraph
-Der Anwendungsfall für GraphQL-APIs unterscheidet sich etwas von REST. GraphQL sollte in datenreichen Umgebungen mit komplexen Anforderungen verwendet werden. Es ist auch sinnvoll, wenn Sie mehrere Clients mit unterschiedlichen Datenanforderungen haben.
+Der Anwendungsfall für GraphQL-APIs unterscheidet sich etwas von REST. GraphQL sollte in datenreichen Umgebungen mit komplexen Anforderungen verwendet werden. Es ist auch sinnvoll, wenn du mehrere Clients mit unterschiedlichen Datenanforderungen hast.
 :::
-<!---  To do: Code Highlighting fehlt -->
 :::globalParagraph
-Lassen Sie uns das gleiche Beispiel wie bei der REST-API einrichten und mit GraphQL einige http.cat-Bilder abrufen!
+Lass uns das gleiche Beispiel wie bei der REST-API einrichten und mit GraphQL einige http.cat-Bilder abrufen!
 :::
 :::globalParagraph
 Hier ist der Hauptcode für die API mit FastAPI und seiner GraphQL-Integration mit <a href="https://strawberry.rocks/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">strawberry</a>:
@@ -186,14 +185,14 @@ app.add_websocket_route("/graphql", graphql_app)
 
 ::
 :::globalParagraph
-Zuerst definieren wir einen strawberry-Typ namens *Cat*, dann einen weiteren namens *Query*. Query hat ein Feld namens *cat*, das ein implizites Feld *url* hat. Das Erstellen eines GraphQL-Schemas kann mit strawberry-Schema erfolgen, indem es der Query-Klasse übergeben wird.
+Zuerst definieren wir einen strawberry-Typ namens *Cat*, dann einen weiteren namens *Query*. Query hat ein Feld namens *cat*, das ein implizites Feld *url* hat. Das Erstellen eines GraphQL-Schemas kann mit strawberry-Schema erfolgen, indem es der *Query class* übergeben wird.
 :::
 :::globalParagraph
-Wie Sie sehen können, ist GraphQL nicht in der Lage, die Bildbytes direkt zurückzugeben, was bedeutet, dass Sie solche Dinge selbst behandeln müssen. Es benötigt auch einen Client auf der anderen Seite, der eine Abfrage gegen unsere API ausführen kann. Glücklicherweise hat strawberry einen integrierten Server, der einen solchen Client bereitstellt:
+Wie du sehen kannst, ist GraphQL nicht in der Lage, die Bildbytes direkt zurückzugeben, was bedeutet, dass du solche Dinge selbst erledigen musst. Es benötigt auch einen Client auf der anderen Seite, der eine Abfrage gegen unsere API ausführen kann. Glücklicherweise hat strawberry einen integrierten Server, der einen solchen Client bereitstellt:
 ![Anwendungsfälle von GraphQL](/img/blogs/GraphQL-strawberry.png){.object-cover .max-w-full .mb-5}
 :::
 :::globalParagraph
-Auf der linken Seite sehen Sie die von mir zusammengestellte Abfrage und auf der rechten Seite die JSON-Antwort von der GraphQL-API.
+Auf der linken Seite siehst du die von mir zusammengestellte Abfrage und auf der rechten Seite die JSON-Antwort von der GraphQL-API.
 :::
 
 <!---  Comparing REST and GraphQL -->
@@ -205,10 +204,10 @@ Vergleich von REST und GraphQL
 Im Internet liest man oft über REST vs GraphQL. Meiner Meinung nach kann man diese beiden Technologien nicht gegeneinander antreten lassen. Es handelt sich um zwei sehr unterschiedliche Ansätze zur Interaktion mit Daten, auf die wir zugreifen möchten. Daher ist ein Vergleich zwischen diesen beiden nicht fair und man kann nicht generell sagen, dass ein Ansatz besser ist als der andere. Ich würde eher vorschlagen, wann man welchen Ansatz verwenden sollte.
 :::
 :::globalParagraph
-Wenn Sie sich in einer Umgebung befinden, in der Sie die Anforderungen mehrerer Clients erfüllen müssen, die unterschiedlich geformte Daten benötigen, sollten Sie wahrscheinlich GraphQL verwenden. Mit seiner einfachen Abfragesprache können Sie schnelle, effiziente Antworten für Ihre Clients und ihre unterschiedlichen Anforderungen erzielen.
+Wenn du dich in einer Umgebung befindest, in der du die Anforderungen mehrerer Clients erfüllen musst, die unterschiedlich geformte Daten benötigen, solltest du wahrscheinlich GraphQL verwenden. Mit seiner einfachen Abfragesprache kannst du schnelle, effiziente Antworten für deine Clients und ihre unterschiedlichen Anforderungen erzielen.
 :::
 :::globalParagraph
-Auf der anderen Seite, wenn Sie etwas strenger in Bezug auf Serverantworten sein können und eine gute Zwischenspeicherung von Anfragen wünschen, könnte eine REST-basierte API das Richtige für Sie sein. Aufgrund ihrer Standardisierung und der Verwendung von HTTP-Methoden ist REST weit verbreitet und verwendbar. Mit ihrem Aufruf zur klaren Trennung von Zuständigkeiten und der architektonischen Kommunikation ohne Zustand ist sie auch eine sehr skalierbare Lösung.
+Auf der anderen Seite, wenn du etwas strenger in Bezug auf Serverantworten sein kannst und gern eine gute Zwischenspeicherung von Anfragen hättest, könnte eine REST-basierte API das Richtige für dich sein. Aufgrund ihrer Standardisierung und der Verwendung von HTTP-Methoden ist REST weit verbreitet und verwendbar. Mit ihrem Aufruf zur klaren Trennung von Zuständigkeiten und der architektonischen Kommunikation ohne Zustand ist sie auch eine sehr skalierbare Lösung.
 :::
 
 <!---  Übersicht über alternative API-Technologien -->
