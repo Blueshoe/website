@@ -1,6 +1,6 @@
 <template>
     <div :class="`flex flex-col gap-4 ${accented ? '' : 'mt-5'} hover:scale-105 duration-300 group`">
-        <div class="group-hover:shadow-xl">
+        <div class="group-hover:shadow-xl relative">
             <div v-if="accented" class="text-white bg-bs-blue uppercase absolute p-2 w-[300px] text-center">recommended
             </div>
             <div
