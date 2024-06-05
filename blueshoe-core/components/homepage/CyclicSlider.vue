@@ -16,6 +16,7 @@
               v-if="!isStory"
               title="Blueshoe Sky"
               src="/img/homepage/layer_3.svg"
+              title="Blueshoe Sky"
               alt="Blueshoe Sky"
               width="2400"
               height="420"

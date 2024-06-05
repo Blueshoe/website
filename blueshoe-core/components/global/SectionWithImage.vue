@@ -19,7 +19,8 @@
             :src="image"
             :alt="alt"
             :title="alt"
-            class="mx-auto h-auto max-w-full sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full p-10 transition ease-in-out delay-50 duration-200 hover:-translate-1 hover:scale-105"
+            class="mx-auto h-auto max-w-full sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full"
+            format="webp"
           />
         </div>
         <div

@@ -41,8 +41,7 @@ export default defineNuxtConfig({
         'python',
         'java',
         'php',
-        'ruby',
-        'docker'
+        'ruby'
       ]
     }
   },
