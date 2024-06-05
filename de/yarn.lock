@@ -435,21 +435,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capsizecss/metrics@npm:^1.1.1":
-  version: 1.3.0
-  resolution: "@capsizecss/metrics@npm:1.3.0"
-  checksum: 10c0/c33428773961d334fcedbfcb4792ea074815abca33be86a2a8f42f4d38bff238701cb596836a08e51b3cabd2bab08da409b5add02747d5a0f058195cbbad3f7c
+"@capsizecss/metrics@npm:^2.1.1":
+  version: 2.2.0
+  resolution: "@capsizecss/metrics@npm:2.2.0"
+  checksum: 10c0/dd83dc0f4a4b9e9c222aadf6a2b21c81664ae9b6c1d39de593f341a518ec544dbb82417c3df4a6fd936b2b59b30571b68aa9d8c124356fdefa01276eb38ac8b4
   languageName: node
   linkType: hard
 
-"@capsizecss/unpack@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@capsizecss/unpack@npm:1.0.0"
+"@capsizecss/unpack@npm:^2.0.1":
+  version: 2.2.0
+  resolution: "@capsizecss/unpack@npm:2.2.0"
   dependencies:
     blob-to-buffer: "npm:^1.2.8"
     cross-fetch: "npm:^3.0.4"
     fontkit: "npm:^2.0.2"
-  checksum: 10c0/114ac5ecb4cb2c0329dc88b609ab5cb468850174971fb9cd076dadb814abcbc8f20d6e64b65176394b6b17a1a0a0c940e2b5746880b51352232bc8efe2809758
+  checksum: 10c0/87df9ea6e4bafe947b5b8e5751c5f7847f5f8649a128707480da54bbfafd6dd7eb96f6b948f3589a3849a441fdaa11e21933ad44ba86cbd72298a0254d29696f
   languageName: node
   linkType: hard
 
@@ -1308,11 +1308,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/image@npm:1.5.0":
-  version: 1.5.0
-  resolution: "@nuxt/image@npm:1.5.0"
+"@nuxt/image@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@nuxt/image@npm:1.7.0"
   dependencies:
-    "@nuxt/kit": "npm:^3.11.1"
+    "@nuxt/kit": "npm:^3.11.2"
     consola: "npm:^3.2.3"
     defu: "npm:^6.1.4"
     h3: "npm:^1.11.1"
@@ -1326,7 +1326,7 @@ __metadata:
   dependenciesMeta:
     ipx:
       optional: true
-  checksum: 10c0/7c9e52cb703a705794cd338ca6f19d22b5255c8b4c95e8462574bb136c444ceca610b7011e66cc92baedb2a04b9d6138be98829ea65065d05a508ea5ad511c07
+  checksum: 10c0/d869244d1b19e2aa56f4051f812ed494f44660aefadf799ac6c5e22fac3dd2a623530aa4975857eb20e28b2891053b049800a6a5211b5acdcfee5f97325db7d8
   languageName: node
   linkType: hard
 
@@ -1352,7 +1352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.11.2, @nuxt/kit@npm:^3.10.2, @nuxt/kit@npm:^3.10.3, @nuxt/kit@npm:^3.11.1, @nuxt/kit@npm:^3.11.2, @nuxt/kit@npm:^3.5.0, @nuxt/kit@npm:^3.5.1, @nuxt/kit@npm:^3.6.0, @nuxt/kit@npm:^3.7.0, @nuxt/kit@npm:^3.8.1":
+"@nuxt/kit@npm:3.11.2, @nuxt/kit@npm:^3.10.2, @nuxt/kit@npm:^3.10.3, @nuxt/kit@npm:^3.11.1, @nuxt/kit@npm:^3.11.2, @nuxt/kit@npm:^3.5.0, @nuxt/kit@npm:^3.5.1, @nuxt/kit@npm:^3.7.0, @nuxt/kit@npm:^3.8.1, @nuxt/kit@npm:^3.8.2":
   version: 3.11.2
   resolution: "@nuxt/kit@npm:3.11.2"
   dependencies:
@@ -1509,16 +1509,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/fontaine@npm:0.4.1":
-  version: 0.4.1
-  resolution: "@nuxtjs/fontaine@npm:0.4.1"
+"@nuxtjs/fontaine@npm:0.4.2":
+  version: 0.4.2
+  resolution: "@nuxtjs/fontaine@npm:0.4.2"
   dependencies:
-    "@nuxt/kit": "npm:^3.6.0"
-    fontaine: "npm:^0.4.0"
-    magic-string: "npm:^0.30.0"
-    pathe: "npm:^1.0.0"
-    ufo: "npm:^1.0.0"
-  checksum: 10c0/6f09313f88fc9d20c75a0668122c41b04afbee6f9b1f37bc6fadde41574066facfd4568b35f15be3a2ffd5797c77a4b04ebe58da067062e76118698c053ec115
+    "@nuxt/kit": "npm:^3.8.2"
+    fontaine: "npm:^0.5.0"
+    magic-string: "npm:^0.30.5"
+    pathe: "npm:^1.1.1"
+    ufo: "npm:^1.3.2"
+  checksum: 10c0/99095533f4d95933bbbcb74d7bdbc7ed3d7f50f15e1420eb7cf1d71b5b56c8c6e300a103ab245f0d92f54bfbffaae3ddf77ad3d64ce102c2725cf8ce30c0bab3
   languageName: node
   linkType: hard
 
@@ -5609,7 +5609,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estree-walker@npm:^3.0.1, estree-walker@npm:^3.0.3":
+"estree-walker@npm:^3.0.3":
   version: 3.0.3
   resolution: "estree-walker@npm:3.0.3"
   dependencies:
@@ -5851,18 +5851,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fontaine@npm:^0.4.0":
-  version: 0.4.1
-  resolution: "fontaine@npm:0.4.1"
+"fontaine@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "fontaine@npm:0.5.0"
   dependencies:
-    "@capsizecss/metrics": "npm:^1.1.1"
-    "@capsizecss/unpack": "npm:^1.0.0"
-    magic-regexp: "npm:^0.7.0"
-    magic-string: "npm:^0.30.0"
-    pathe: "npm:^1.1.0"
-    ufo: "npm:^1.1.1"
-    unplugin: "npm:^1.3.1"
-  checksum: 10c0/3d08525411742e000b7ad81cbfe56b3934eb7e6a4b85c9e54f7c87f074c9156e54d2ecbb8b30c88e72d1d3068c89c36494b4ab198c0e2406b1b41e53eaa175c8
+    "@capsizecss/metrics": "npm:^2.1.1"
+    "@capsizecss/unpack": "npm:^2.0.1"
+    magic-regexp: "npm:^0.8.0"
+    magic-string: "npm:^0.30.8"
+    pathe: "npm:^1.1.2"
+    ufo: "npm:^1.4.0"
+    unplugin: "npm:^1.8.3"
+  checksum: 10c0/a7c5645cecf754db3a060c91536a528edaeec1049120fee768502dd3f88d659bb5d88119b6bd2cd311632f6c14e537badbe4bac6c7392cc6c3b3bde0d3eaf938
   languageName: node
   linkType: hard
 
@@ -7811,17 +7811,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-regexp@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "magic-regexp@npm:0.7.0"
+"magic-regexp@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "magic-regexp@npm:0.8.0"
   dependencies:
-    estree-walker: "npm:^3.0.1"
-    magic-string: "npm:^0.30.0"
-    mlly: "npm:^1.0.0"
-    type-level-regexp: "npm:~0.1.16"
-    ufo: "npm:^1.0.0"
-    unplugin: "npm:^1.0.0"
-  checksum: 10c0/f341c6aac4e1a9e5e213ac17d7518e99a01eacba4e6480a4c8662aee55500bfa93b78434c95681ef11d6e1d516d35123b5a0cdac26cd467683e05e78513db6c7
+    estree-walker: "npm:^3.0.3"
+    magic-string: "npm:^0.30.8"
+    mlly: "npm:^1.6.1"
+    regexp-tree: "npm:^0.1.27"
+    type-level-regexp: "npm:~0.1.17"
+    ufo: "npm:^1.4.0"
+    unplugin: "npm:^1.8.3"
+  checksum: 10c0/785ef825cc754ce6cb4b009b1cc7df7ea014d7a8a829cd6bbbd11618322b914ac1cdbd8fc4f2b269c80d72bbb3ad180682c5e593fb0754dd0e9bd5759cab881e
   languageName: node
   linkType: hard
 
@@ -8717,7 +8718,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mlly@npm:^1.0.0, mlly@npm:^1.2.0, mlly@npm:^1.3.0, mlly@npm:^1.4.2, mlly@npm:^1.6.1":
+"mlly@npm:^1.2.0, mlly@npm:^1.3.0, mlly@npm:^1.4.2, mlly@npm:^1.6.1":
   version: 1.6.1
   resolution: "mlly@npm:1.6.1"
   dependencies:
@@ -9221,7 +9222,7 @@ __metadata:
     eslint-plugin-nuxt: "npm:^4.0.0"
     eslint-plugin-prettier: "npm:^5.1.3"
     nuxt: "npm:^3.9.3"
-    nuxt-booster: "npm:^3.0.3"
+    nuxt-booster: "npm:^3.0.16"
     nuxt-delay-hydration: "npm:^1.3.3"
     nuxt-icon: "npm:^0.6.8"
     nuxt-swiper: "npm:^1.2.2"
@@ -9237,12 +9238,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"nuxt-booster@npm:^3.0.3":
-  version: 3.0.4
-  resolution: "nuxt-booster@npm:3.0.4"
+"nuxt-booster@npm:^3.0.16":
+  version: 3.0.16
+  resolution: "nuxt-booster@npm:3.0.16"
   dependencies:
-    "@nuxt/image": "npm:1.5.0"
-    "@nuxtjs/fontaine": "npm:0.4.1"
+    "@nuxt/image": "npm:1.7.0"
+    "@nuxtjs/fontaine": "npm:0.4.2"
     browserslist-useragent-regexp: "npm:4.1.3"
     cheerio: "npm:1.0.0-rc.12"
     defu: "npm:6.1.4"
@@ -9251,10 +9252,9 @@ __metadata:
     htmlparser2: "npm:9.1.0"
     image-meta: "npm:0.2.0"
     pathe: "npm:1.1.2"
-    serialize-to-js: "npm:3.1.2"
     sort-css-media-queries: "npm:2.2.0"
     vue3-lazy-hydration: "npm:1.2.1"
-  checksum: 10c0/07c4a1cc1f81acd37de3956e46586ab6250ffd934fc1b4d9d0c86f05af6bf5075779c16eda2efff92264295fe33e4991310d01596b7b674b6227a38a04273e6d
+  checksum: 10c0/cc6aa0638d4ab9699cf04c1452e156079bafb0d908685b5ed5e3e23c1f84a5f33bec4074151be4288f721c901d091e4604ec1c8cab840e3f0340f1458fd8d5d8
   languageName: node
   linkType: hard
 
@@ -9836,7 +9836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pathe@npm:1.1.2, pathe@npm:^1.0.0, pathe@npm:^1.1.0, pathe@npm:^1.1.1, pathe@npm:^1.1.2":
+"pathe@npm:1.1.2, pathe@npm:^1.0.0, pathe@npm:^1.1.1, pathe@npm:^1.1.2":
   version: 1.1.2
   resolution: "pathe@npm:1.1.2"
   checksum: 10c0/64ee0a4e587fb0f208d9777a6c56e4f9050039268faaaaecd50e959ef01bf847b7872785c36483fa5cdcdbdfdb31fef2ff222684d4fc21c330ab60395c681897
@@ -11229,13 +11229,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serialize-to-js@npm:3.1.2":
-  version: 3.1.2
-  resolution: "serialize-to-js@npm:3.1.2"
-  checksum: 10c0/1aa5ba6f7a8e125e8d476b736ceae37e0cee6f45506ddabb04f95f31d7ad2260c922e17fa6da714e8ec84bbd491705b98974653928a57926d8b91f10de556617
-  languageName: node
-  linkType: hard
-
 "serve-placeholder@npm:^2.0.1":
   version: 2.0.1
   resolution: "serve-placeholder@npm:2.0.1"
@@ -12344,7 +12337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-level-regexp@npm:~0.1.16":
+"type-level-regexp@npm:~0.1.17":
   version: 0.1.17
   resolution: "type-level-regexp@npm:0.1.17"
   checksum: 10c0/54798f83464cb5ce04246c9c4739ec471c526aaa7690679fddbce05b689b99403de709f3fcb494555d4276b46c606435a95855e52535602f63378ab8b38010d5
@@ -12430,7 +12423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.0.0, ufo@npm:^1.1.1, ufo@npm:^1.1.2, ufo@npm:^1.2.0, ufo@npm:^1.3.1, ufo@npm:^1.3.2, ufo@npm:^1.4.0, ufo@npm:^1.5.3":
+"ufo@npm:^1.1.2, ufo@npm:^1.2.0, ufo@npm:^1.3.1, ufo@npm:^1.3.2, ufo@npm:^1.4.0, ufo@npm:^1.5.3":
   version: 1.5.3
   resolution: "ufo@npm:1.5.3"
   checksum: 10c0/1df10702582aa74f4deac4486ecdfd660e74be057355f1afb6adfa14243476cf3d3acff734ccc3d0b74e9bfdefe91d578f3edbbb0a5b2430fe93cd672370e024
@@ -12703,7 +12696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unplugin@npm:^1.0.0, unplugin@npm:^1.1.0, unplugin@npm:^1.10.0, unplugin@npm:^1.10.1, unplugin@npm:^1.3.1, unplugin@npm:^1.5.0, unplugin@npm:^1.5.1":
+"unplugin@npm:^1.1.0, unplugin@npm:^1.10.0, unplugin@npm:^1.10.1, unplugin@npm:^1.3.1, unplugin@npm:^1.5.0, unplugin@npm:^1.5.1, unplugin@npm:^1.8.3":
   version: 1.10.1
   resolution: "unplugin@npm:1.10.1"
   dependencies:

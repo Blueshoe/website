@@ -24,18 +24,34 @@ export default defineNuxtConfig({
       theme: {
         default: 'monokai'
       },
-      langs : ['javascript', 'typescript', 'json', 'bash', 'shell',
-        'yaml', 'markdown', 'html', 'css', 'scss', 'xml',
-        'graphql', 'sql', 'python', 'java', 'php', 'ruby']
+      langs: [
+        'javascript',
+        'typescript',
+        'json',
+        'bash',
+        'shell',
+        'yaml',
+        'markdown',
+        'html',
+        'css',
+        'scss',
+        'xml',
+        'graphql',
+        'sql',
+        'python',
+        'java',
+        'php',
+        'ruby'
+      ]
     }
   },
   tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
+    cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'first' }],
     configPath: 'tailwind.config',
-    exposeConfig: false,
-    exposeLevel: 2,
+    exposeConfig: {
+      level: 2
+    },
     config: {},
-    injectPosition: 'first',
     viewer: true
   },
   i18n: {

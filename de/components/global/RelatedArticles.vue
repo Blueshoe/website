@@ -13,6 +13,7 @@
                 <booster-image
                   src="/img/global/icons/blog.svg"
                   class="max-w-[280px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:min-w-[100px]"
+                  title="background image"
                   alt="background image"
                   format="webp"
                   width="120"

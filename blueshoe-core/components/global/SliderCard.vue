@@ -6,7 +6,7 @@
       </div>
       <div class="w-[150px] mb-6">
         <img v-if="logo && isStory" :src="logo.src" :alt="logo.alt" width="150" class="max-w-[150px]" />
-        <booster-image v-if="logo && !isStory" :src="logo.src" :alt="logo.alt" width="150" class="max-w-[150px]" format="webp" />
+        <booster-image v-if="logo && !isStory" :src="logo.src" :alt="logo.alt" :title="logo.alt" width="150" class="max-w-[150px]" format="webp" />
         <div class="h-1 bg-bs-blue mt-6"></div>
       </div>
       <div class="mb-6 font-medium font-source-sans-pro text-lg text-bs-blue">

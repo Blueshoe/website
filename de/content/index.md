@@ -173,7 +173,7 @@ Individuelle Aufgabenstellungen und komplexe Anforderungen benötigen **passgena
 :::
 
 
-:::GlobalTabsSection{:labels='["Infrastructure", "Backend", "Frontend"]' :init='true'}
+:::GlobalTabsSection{:labels='["Infrastructure", "Backend", "Frontend"]' :init=true}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 TOOLS, FRAMEWORKS UND TECHNOLOGIEN, MIT DENEN WIR ARBEITEN
 ::::
