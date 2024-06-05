@@ -29,8 +29,14 @@ head:
 ::GlobalWrapperSections
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
-::::GlobalPageTitle{.mb-6}
+::::GlobalPreTitle{.mb-3}
 Functions and Roles at Blueshoe
+::::
+::::GlobalPageTitle{.mb-6}
+Who is doing what at Blueshoe
+::::
+::::GlobalParagraph{.mb-6}
+Please find all functions and contributing roles at Blueshoe below.
 ::::
 :::
 
