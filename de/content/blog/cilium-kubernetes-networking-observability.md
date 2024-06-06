@@ -5,31 +5,31 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     # - name: 'description'
-    #   content: 'Unravel FaaS vs. Kubernetes in our in-depth guide. Understand their strengths, weaknesses, use cases, and costs to inform your cloud computing decisions.'
+    #   content: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Using Cilium for Kubernetes networking and observability'
     # - property: 'og:description'
-    #   content: 'Unravel FaaS vs. Kubernetes in our in-depth guide. Understand their strengths, weaknesses, use cases, and costs to inform your cloud computing decisions.'
+    #   content: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/cilium-kubernetes.jpg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/cilium-kubernetes.jpg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Using Cilium for Kubernetes networking and observability'
     # - name: 'twitter:description'
-    #   content: 'Unravel FaaS vs. Kubernetes in our in-depth guide. Understand their strengths, weaknesses, use cases, and costs to inform your cloud computing decisions.'
+    #   content: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/cilium-kubernetes.jpg'
 src: '/blog/cilium-kubernetes-networking-observability'
 img: '/img/blogs/cilium-kubernetes.jpg'
 alt: 'cilium kubernetes'
-preTitle: 'EBPF-BASIERTES NETWORKING, BEOBACHTBARKEIT, SICHERHEIT'
+preTitle: 'eBPF-basiertes Networking, Beobachtbarkeit, Sicherheit'
 title: "Verwendung von Cilium für Kubernetes-Netzwerke und Beobachtbarkeit"
-# description: 'Unravel FaaS vs. Kubernetes in our in-depth guide. Understand their strengths, weaknesses, use cases, and costs to inform your cloud computing decisions.'
+# description: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!'
 date: '19.04.2023'
 autor:
   - Tobias Frölich
@@ -39,14 +39,16 @@ productUpdates: []
 sonstiges: []
 ---
 
-In diesem Artikel geben wir eine Einführung in Cilium, eine Netzwerklösung für Kubernetes, die eBPF für leistungsstarke Netzwerkaufgaben, Sicherheit und Beobachtbarkeit verwendet. Wir behandeln die Installation von Cilium, die Konfiguration von Netzwerkrichtlinien und die Verwendung von Hubble zur Beobachtbarkeit.
+In diesem Artikel geben wir eine Einführung in <a href="https://cilium.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Cilium</a>
+, eine Netzwerklösung für Kubernetes, die eBPF für leistungsstarke Netzwerkaufgaben, Sicherheit und Beobachtbarkeit verwendet. Wir behandeln die Installation von Cilium, die Konfiguration von Netzwerkrichtlinien und die Verwendung von Hubble zur Beobachtbarkeit.
 <!--more-->
 
 ![cilium_kubernetes](/img/blogs/cilium-kubernetes.jpg){.object-cover .max-w-full .mb-6}
 
 :::BlogNavigationCard{:title="Inhaltsverzeichnis"}
-
 :::
+
+<!--Einführung in Cilium und seine Verwendung in Kubernetes-->
 
 :::GlobalTitle{:size="lg" .mb-5}
 Einführung in Cilium und seine Verwendung in Kubernetes
@@ -58,8 +60,10 @@ Cilium ist eine Netzwerklösung für Kubernetes, die fortschrittliche Netzwerk- 
 In diesem Artikel werden wir untersuchen, wie man Cilium für das Kubernetes-Netzwerk verwendet. Wir werden die Grundlagen der Einrichtung von Cilium in einem Cluster, die Konfiguration von Netzwerkrichtlinien und die Verwendung von Hubble zur Beobachtbarkeit behandeln. Wir werden auch bewährte Verfahren für die Verwendung von Cilium in Produktionsumgebungen und die Behebung häufiger Probleme besprechen. Fangen wir an, indem wir Cilium in unseren Kubernetes-Cluster installieren!
 :::
 :::GlobalParagraph
-Hinweis: Wir empfehlen die Verwendung von <a href="https://github.com/kubernetes-sigs/kind" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">kind</a>, um dies auf Ihrem lokalen Rechner auszuprobieren. K3d (das unter der Haube k3s verwendet) enthält in seinen Knoten-Images kein Bash, was dazu führt, dass die Cilium-Installation fehlschlägt.
+Hinweis: Wir empfehlen dir die Verwendung von <a href="https://github.com/kubernetes-sigs/kind" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">kind</a>, um dies auf deinem lokalen Rechner auszuprobieren. K3d (das unter der Haube k3s verwendet) enthält in seinen Knoten-Images kein Bash, was dazu führt, dass die Cilium-Installation fehlschlägt.
 :::
+
+<!--Cilium installieren-->
 
 :::GlobalTitle{:size="lg" .mb-5}
 Cilium installieren
@@ -153,6 +157,7 @@ Weitere Ausgaben unseres Podcasts finden Sie hier:
 ::::GlobalButton{:url="/kubernetes-podcast/" :label="Show more" :color="green"}
 ::::
 :::
+<!--Konfigurieren von Netzwerkrichtlinien mit Cilium-->
 
 :::GlobalTitle{:size="lg" .mb-5}
 Konfigurieren von Netzwerkrichtlinien mit Cilium
@@ -245,6 +250,8 @@ spec:
 Dies erlaubt eingehenden HTTP-Verkehr von Endpunkten mit dem Label ```app: client``` zu Endpunkten mit dem Label ```app: api```, solange die HTTP-Methode GET ist und der Pfad "/public" ist. Anfragen an andere Ports als 80 werden abgelehnt, während andere HTTP-Verben und andere Pfade abgelehnt werden.
 :::
 
+<!--Cilium für Observability verwenden-->
+
 :::GlobalTitle{:size="lg" .mb-5}
 Cilium für Observability verwenden
 :::
@@ -256,7 +263,7 @@ Cilium Hubble ist ein leistungsstolles Observability-Tool, das tiefe Einblicke i
 Einrichten von Hubble
 :::
 :::GlobalParagraph
-Um Hubble zu verwenden, müssen wir es in unserem Kubernetes-Cluster bereitstellen, wie folgt:
+Um Hubble zu verwenden, müssen wir es, wie folgt, in unserem Kubernetes-Cluster bereitstellen:
 :::
 
 :::BlogCode{.mb-5}
