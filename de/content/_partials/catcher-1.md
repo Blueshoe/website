@@ -51,7 +51,7 @@ Korrigierende Wartung </br> Perfektive Wartung </br> Adaptive Wartung
 :::
 
 #buttonBlockTitle
-Vereinbaren Sie jetzt ein Treffen mit unserem Experten
+Vereinbare jetzt ein Treffen mit unserem Experten
 #buttonLabel
-Zeitfenster finden
+Termin finden
 ::
