@@ -1,5 +1,5 @@
 <template>
-  <div class="prose bs-container">
+  <div class="prose bs-container my-12">
     <ContentDoc>
       <template #not-found>
         <GlobalPageNotFound />
@@ -17,3 +17,5 @@ useHead({
   link: [{ rel: 'canonical', href: `${baseURL + url.value}` }]
 });
 </script>
+
+<style src="~/assets/css/alternating-heads.css"></style>

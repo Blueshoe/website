@@ -40,7 +40,7 @@ Please find all functions and contributing roles at Blueshoe below.
 ::::
 :::
 
-<div class="prose bs-container text-bs-text">
+<div class="prose bs-container text-bs-text my-12">
 
 ## Overview
 The following function clusters and functions exist.
