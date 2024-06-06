@@ -14,6 +14,7 @@
             v-if="!isStory"
             :src="image"
             :alt="alt"
+            :title="alt"
             class="mx-auto h-auto max-w-full sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full"
             format="webp"
           />

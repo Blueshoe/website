@@ -6,6 +6,7 @@
           src="/img/blueshoe-navbar-logo.png"
           width="200"
           height="51"
+          title="Blushoe logo"
           class="max-w-[200px]"
           alt="Blushoe logo"
           format="webp"

@@ -14,6 +14,7 @@
             />
             <booster-image
               v-if="!isStory"
+              title="Blueshoe Sky"
               src="/img/homepage/layer_3.svg"
               alt="Blueshoe Sky"
               width="2400"

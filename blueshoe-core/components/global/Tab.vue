@@ -13,6 +13,7 @@
       <booster-image
         v-if="!isStory"
         :src="image"
+        title="icon"
         class="max-h-[300px] md:max-h-[340px] lg:max-h-[300px] xl:max-h-[300px] w-full"
         alt="icon"
         format="webp"
@@ -31,7 +32,7 @@
         <div class="flex flex-wrap items-center mb-4">
           <div v-for="(img, i) in icons" :key="i" class="px-4 py-2">
             <img v-if="isStory" :src="img" width="50" height="50" class="max-w-[50px]" alt="icon" />
-            <booster-image v-if="!isStory" :src="img" width="50" height="50" class="max-w-[50px]" alt="icon" format="webp" />
+            <booster-image v-if="!isStory" title="icon" :src="img" width="50" height="50" class="max-w-[50px]" alt="icon" format="webp" />
           </div>
         </div>
       </div>
