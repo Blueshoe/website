@@ -1,6 +1,6 @@
 :::GlobalSmallCardWithImageSection{ :bg="bg-bs-gray" :numberCards=3}
 ::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Dienstleistungen"}
-Unsere Dienstleistungen, die für Dich interessant sein könnten:
+Unsere Lösungen, die für dich interessant sein könnten:
 ::::
 
 #cards
@@ -116,7 +116,7 @@ Wenn Sie ein bestimmtes Projekt im Sinn haben, kommen Sie zu uns. Wir sind immer
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 **Telefon:** +49 89 54 19 84 22<br/>
-**E-Mail:** project@blueshoe.io
+**E-Mail:** projekte@blueshoe.de
 :::
 :::GlobalButton
 ---

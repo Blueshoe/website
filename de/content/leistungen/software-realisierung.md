@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Unsere Workshop Angebote'
+  title: 'Software Entwicklung bei Blueshoe'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Unsere Workshop Angebote'
+      content: 'Software Entwicklung bei Blueshoe'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Unsere Workshop Angebote'
+      content: 'Software Entwicklung bei Blueshoe'
     - property: 'og:description'
-      content: 'Unsere Workshop Angebote'
+      content: 'Software Entwicklung bei Blueshoe'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,98 +19,86 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Unsere Workshop Angebote'
+      content: 'Software Entwicklung bei Blueshoe'
     - name: 'twitter:description'
-      content: 'Unsere Workshop Angebote'
+      content: 'Software Entwicklung bei Blueshoe'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalSimpleSection{:bg="bg-white"}
 :::GlobalPreTitle{.mb-3}
-STARTE DEIN PROFESSIONELLES SOFTWAREPROJEKT MIT GUTER ANFORDERUNGSDEFINITION BEI BLUESHOE
+BLUESHOE REALISIERT DEIN SOFTWARE PROJEKT NACH MODERNSTEN STANDARDS UND IN HOHER GESCHWINDIGKEIT
 :::
 :::GlobalTitle{.mb-6}
-Unsere Workshop Angebote
+Software-Entwicklungsangebote bei Blueshoe
 :::
 :::GlobalParagraph
-Solide und langlebige Software benötigt eine gute Anforderungsdefinition. Blub.
-<br/>
-TODO
+Super schnell, super sexy.
 :::
 ::
 
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing{:cardCount="2" :hasAccent="false"}
+
 
 #card1
 :::GlobalPricingCard
 
 #title
-Kleiner Workshop
+Als Dienstleistung
 
 #subtitle
-Ein Workshop über einen halben Tag um einen moderaten Anforderungskatalog zu erstellen.
+Wir realisieren deine Software nach verbrauchten Entwicklerstunden.
 
 #priceDescription
-- **4 h** Workshop
-- Für Projekte ohne Schnittstellen
-- 1 Geschäftsführer
-- Übersichtliche Anforderungsdokumentation
+- **Flexible Ressourcen**
+- Kosten nach Verbrauch
+- Keine Fixkosten
+- Aufwandsschätzung für Budgetierung
 
 #price
-4.500 €
+140 € - 200 € / Stunde
 :::
 
 #card2
-:::GlobalPricingCard{:accented="true"}
-
-#title
-Großer Workshop
-
-#subtitle
-Ein klassischer Workshop um auch umfangreichere Softwareprojekte zu definieren.
-
-#recommendedLabel
-Empfohlen
-
-#priceDescription
-- **1 Tag** Workshop
-- Für komplexere Projekte mit Schnittstellen
-- 1 Geschäftsführer
-- Ausführliche Anforderungsdokumentation
-
-#price
-7.500 €
-:::
-
-#card3
 :::GlobalPricingCard
 
 #title
-Maxi Workshop
+Als Werkvertrag
 
 #subtitle
-Für riesige Software-Plattformen und sehr kritische Anwendungen.
+Wir realisieren deine Software als Werkvertrag.
 
 #priceDescription
-- **2 Tage** Workshop
-- Für sehr komplexe Projekte mit vielen Schnittstellen
-- 2 Geschäftsführer
-- Umfangreiche Anforderungsdokumentation
+- **Fixierter Preis**
+- Volle Kostenkontrolle
+- Fester Zeitplan oder flexible Planung
+- Professionelle Umsetzung
 
 #price
-18.500 €
-:::
+::::GlobalButton
+---
+label: "Auf Anfrage" 
+url: "https://blueshoe.io/hannes/" 
+size: "wide" 
+color: "green"
+target: "_blank"
+---
+::::
 ::
 
 ::GlobalSimpleSection{:bg="bg-bs-white"}
 ::GlobalParagraph
-Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. 
+Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Mehr Infos erhälst du auch auf unserer Enwticklungskategorien:
+- <a class="text-bs-blue hover:underline" href="/leistungen/cloud-native-development/">Cloud Native Development</a>
+- <a class="text-bs-blue hover:underline" href="/leistungen/headless-e-commerce/">Headless E-Commerce</a>
+- <a class="text-bs-blue hover:underline" href="/leistungen/microservice-architektur-beratung/">Microservice-Architektur-Beratung</a>
+- <a class="text-bs-blue hover:underline" href="/leistungen/python-django-agentur/">Python & Django</a>
 
-Bitte sprich uns an, wenn du einen Workshop mit Blueshoe durchführen möchtest.
+Bitte sprich uns an, wenn du ein Softwareprojekt mit Blueshoe durchführen möchtest.
 ::::GlobalButton
 ---
-label: "Zur Vorbesprechung" 
+label: "Termin vereinbaren" 
 url: "https://blueshoe.io/hannes/" 
 size: "normal" 
 color: "blue"
@@ -124,10 +112,10 @@ target: "_blank"
 <!--- Was ist enthalten --->
 :::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=3}
 ::::GlobalPreTitle{:color="text-white" .mb-4 data-title="Werte"}
-ANFODERUNGSDEFINITION FÜR SOFTWAREPROJEKTE MIT BLUESHOE
+SOFTWARE ONBOARDING BEI BLUESHOE
 ::::
 ::::GlobalTitle{:color="text-white" .mb-6}
-Blueshoe kann Web-Software und Internet. Warum? Schau her.
+Was unser Lift & Shift Angebot besonders auszeichnet
 ::::
 #card1
 ::GlobalListCardWithImage{:src="/img/global/icons/you-build-it-you-run-it.svg"}
@@ -135,7 +123,7 @@ Blueshoe kann Web-Software und Internet. Warum? Schau her.
 Langjährige Erfahrung
 :::
 :::GlobalParagraph{:fontSize="lg"  :color="text-white"}
-Wir supporten und betreiben komplexe Kundenprojekte teilweise seit 10+ Jahren
+TODO
 :::
 ::
 #card2
@@ -144,7 +132,7 @@ Wir supporten und betreiben komplexe Kundenprojekte teilweise seit 10+ Jahren
 Spezielles Team
 :::
 :::GlobalParagraph{:fontSize="lg"  :color="text-white"}
-Software-Innovation ist bei Blueshoe eine dedizierte Abteilung
+TODO
 :::
 ::
 #card3
@@ -153,7 +141,7 @@ Software-Innovation ist bei Blueshoe eine dedizierte Abteilung
 Standardisierung
 :::
 :::GlobalParagraph{:fontSize="lg"  :color="text-white"}
-Unsere Prozesse sind standardisiert
+TODO
 :::
 ::
 :::
@@ -165,3 +153,5 @@ Unsere Prozesse sind standardisiert
 <!--- Service Grid --->
 :::GlobalPartial{content=services-grid-1}
 :::
+
+

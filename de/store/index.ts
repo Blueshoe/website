@@ -12,42 +12,42 @@ export const useGeneralStore = defineStore('general', () => {
   const entwicklung = [
     {
       name: 'cloudNativeDevelopment',
-      href: '/leistungen/cloud-native-development/',
+      href: '/loesungen/cloud-native-development/',
       icon: '/img/global/icons/cloud-storage.svg'
     },
     {
       name: 'headlessCms',
-      href: '/leistungen/headless-cms/',
+      href: '/loesungen/headless-cms/',
       icon: '/img/global/icons/cms_1.svg'
     },
     {
       name: 'wagtailCms',
-      href: '/leistungen/wagtail-cms/',
+      href: '/loesungen/wagtail-cms/',
       icon: '/img/global/icons/bird_1.svg'
     },
     {
       name: 'pythonDjango',
-      href: '/leistungen/python-django-agentur/',
+      href: '/loesungen/python-django-agentur/',
       icon: '/img/global/icons/python.svg'
     },
     {
       name: 'headlessECommerce',
-      href: '/leistungen/headless-e-commerce/',
+      href: '/loesungen/headless-e-commerce/',
       icon: '/img/global/icons/buy-online.svg'
     },
     {
       name: 'apiEntwicklung',
-      href: '/leistungen/api-entwicklung/',
+      href: '/loesungen/api-entwicklung/',
       icon: '/img/global/icons/api_1.svg'
     },
     {
       name: 'oscarECommerce',
-      href: '/leistungen/oscar-e-commerce/',
+      href: '/loesungen/oscar-e-commerce/',
       icon: '/img/global/icons/shopping-cart.svg'
     },
     {
       name: 'workflowAutomatisierung',
-      href: '/leistungen/workflow-automatisierung/',
+      href: '/loesungen/workflow-automatisierung/',
       icon: '/img/global/icons/data-transformation.svg'
     }
   ];

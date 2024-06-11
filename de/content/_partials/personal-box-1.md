@@ -4,17 +4,16 @@
 Blueshoe als persönlicher Ansprechpartner
 ::::
 ::::GlobalTitle{:tag="h3" .mb-6}
-Wir machen Software persönliche und auf Augehöhe
-::::
-::::GlobalParagraph{:fontSize="2xl" .mb-4}
-Blueshoe ist richtig gut. Warum?
+Wir arbeiten mit dir auf Augenhöhe
 ::::
 
 ::::GlobalBlock{.mb-4 .ul-disk}
-Blueshoe ist ein Anbieter zur Entwicklung spezialisierter, lizenzkostenfreier und langlebiger Software-Produkte für Unternehmen und öffentliche Einrichtungen. Wir legen Wert auf persönliche Beratung und hohe Umsetzungsgeschwindigkeit.
-<br/><br/>
-
-Möchtest Du mit uns arbeiten?
+- Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst
+- Wir kommunizieren glasklar. Auch für Nicht-Techies
+- Wir denken uns ein und suchen mit dir immer die beste Lösung. Nicht die Teuerste.
+- Wir sind Techies mit Herz und lieben komplexe Herausforderungen
+- Wir sind auch in schwierigen Situationen belastbar
+::::
 :::::GlobalButton
 ---
 url: "https://blueshoe.io/hannes/" 
@@ -23,6 +22,4 @@ color: "blue"
 target: "_blank"
 ---
 :::::
-
-::::
 :::
