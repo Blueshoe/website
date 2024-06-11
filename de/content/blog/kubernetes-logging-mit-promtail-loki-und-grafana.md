@@ -4,32 +4,32 @@ head:
   meta:
     - property: 'og:locale'
       content: 'de_DE'
-    # - name: 'description'
-    #   content: 'Docker Desktop can make the life of a developer easier but it may come with a few caveats depending on what OS you may be using. Check out our article and see whether docker desktop may be for you.'
+    - name: 'description'
+      content: 'Sammle Logs aus deinem Kubernetes-Cluster mit Promtail, Loki und Grafana. Installation, Konfiguration und Nutzung. Jetzt entdecken!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Kubernetes Logging mit Promtail, Loki und Grafana'
-    # - property: 'og:description'
-      # content: 'Docker Desktop can make the life of a developer easier but it may come with a few caveats depending on what OS you may be using. Check out our article and see whether docker desktop may be for you.'
+    - property: 'og:description'
+      content: 'Sammle Logs aus deinem Kubernetes-Cluster mit Promtail, Loki und Grafana. Installation, Konfiguration und Nutzung. Jetzt entdecken!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana.jpg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana.jpg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Kubernetes Logging mit Promtail, Loki und Grafana'
     - name: 'twitter:description'
-      # content: 'Docker Desktop can make the life of a developer easier but it may come with a few caveats depending on what OS you may be using. Check out our article and see whether docker desktop may be for you.'
+      content: 'Sammle Logs aus deinem Kubernetes-Cluster mit Promtail, Loki und Grafana. Installation, Konfiguration und Nutzung. Jetzt entdecken!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana.jpg'
 src: '/blog/kubernetes-logging-mit-promtail-loki-und-grafana'
 img: '/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana.jpg'
 alt: 'Kubernetes Logging mit Promtail, Loki und Grafana'
 preTitle: 'Logs aus dem gesamten Cluster sammeln'
 title: "Kubernetes Logging mit Promtail, Loki und Grafana"
-# description: 'Docker Desktop can make the life of a developer easier but it may come with a few caveats depending on what OS you may be using. Check out our article and see whether docker desktop may be for you.'
+description: 'Sammle Logs aus deinem Kubernetes-Cluster mit Promtail, Loki und Grafana. Installation, Konfiguration und Nutzung. Jetzt entdecken!'
 date: '24.08.2022'
 autor:
   - Tobias Frölich
@@ -65,7 +65,7 @@ Entwickelt von Grafana Labs, ist "Loki ein horizontal skalierbares, hochverfügb
 Deck
 :::
 :::globalParagraph
-Wenn Sie nur einen schnellen Blick darauf werfen möchten, können Sie Deck verwenden, um diesen Stack mit einem Befehl auf Ihrem Computer einzurichten. Nach der <a href="https://getdeck.dev/docs/deck/installation" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Installation von Deck</a> können Sie Folgendes ausführen:
+Wenn du nur einen schnellen Blick darauf werfen möchtest, kannst du Deck verwenden, um diesen Stack mit einem Befehl auf deinem Computer einzurichten. Nach der <a href="https://getdeck.dev/docs/deck/installation" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Installation von Deck</a> kannst du Folgendes ausführen:
 :::
 :::BlogCode{.mb-5}
 ```docker
@@ -73,7 +73,7 @@ $ deck get https://raw.githubusercontent.com/Getdeck/wharf/main/loki/deck.yaml
 ```
 :::
 :::globalParagraph
-Folgen Sie den Anweisungen, die nach Abschluss des Installationsprozesses angezeigt werden, um sich bei Grafana anzumelden und mit der Erkundung zu beginnen.
+Folge den Anweisungen, die nach Abschluss des Installationsprozesses angezeigt werden, um sich bei Grafana anzumelden und mit der Erkundung zu beginnen.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -83,17 +83,18 @@ Setup
 In diesem Artikel konzentrieren wir uns auf die Helm-Installation. Grafana Labs bietet eine Reihe von <a href="https://grafana.com/docs/loki/latest/installation/?pg=get&plcmt=selfmanaged-box2-cta1" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">anderen Installationsmethoden</a> an.
 :::
 :::globalParagraph
-Im <a href="https://github.com/grafana/helm-charts" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Helm-Chart-Repository von Grafana</a> finden Sie 5 Charts, die mit Loki zusammenhängen. *Loki-canary* ermöglicht Ihnen die Installation von Canary-Builds von Loki in Ihrem Cluster. *Loki-distributed* installiert die relevanten Komponenten als Microservices und bietet Ihnen die üblichen Vorteile von Microservices wie Skalierbarkeit, Ausfallsicherheit usw., während Sie sie unabhängig voneinander konfigurieren können. *Loki-simple-scalable* ist ähnlich, jedoch sind einige der Komponenten immer aktiviert, was einige der Konfigurationsmöglichkeiten einschränkt. Das Chart mit dem Namen *Loki* wird einen einzelnen StatefulSet in Ihrem Cluster bereitstellen, der alles enthält, was Sie zum Ausführen von Loki benötigen. Das letzte in der Gruppe ist *loki-stack*, das zusätzlich zum Loki-Chart dasselbe StatefulSet bereitstellt, auch Promtail, Grafana und einige andere. Für unseren Anwendungsfall haben wir uns für das Loki-Chart entschieden. Neben Loki selbst werden in unserem Cluster auch Promtail und Grafana ausgeführt. Im folgenden Abschnitt zeigen wir Ihnen, wie Sie diesen Log-Aggregations-Stack in Ihrem Cluster installieren können!
+Im <a href="https://github.com/grafana/helm-charts" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Helm-Chart-Repository von Grafana</a> findest du 5 Charts, die mit Loki zusammenhängen. *Loki-canary* ermöglicht dir die Installation von Canary-Builds von Loki in deinem Cluster. *Loki-distributed* installiert die relevanten Komponenten als [Microservices](/leistungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} und bietet dir die üblichen Vorteile von Microservices wie Skalierbarkeit, Ausfallsicherheit usw., während du sie unabhängig voneinander konfigurieren kannst. *Loki-simple-scalable* ist ähnlich, jedoch sind einige der Komponenten immer aktiviert, was einige der Konfigurationsmöglichkeiten einschränkt. Das Chart mit dem Namen *Loki* wird einen einzelnen StatefulSet in deinem Cluster bereitstellen, der alles enthält, was du zum Ausführen von Loki benötigst. Das letzte in der Gruppe ist *loki-stack*, das zusätzlich zum Loki-Chart dasselbe StatefulSet bereitstellt, auch Promtail, Grafana und einige andere. Für unseren Anwendungsfall haben wir uns für das Loki-Chart entschieden. Neben Loki selbst werden in unserem Cluster auch Promtail und Grafana ausgeführt. Im folgenden Abschnitt zeigen wir dir, wie du diesen Log-Aggregations-Stack in deinem Cluster installieren kannst!
 :::
 
 <!--- Störer -->
 ::GlobalPartial{content=catcher-1}
+::
 
 :::globalTitle{:size="lg" .mb-5}
 Voraussetzungen
 :::
 :::globalParagraph
-Um mitzumachen, benötigen Sie einen Kubernetes-Cluster, auf den Sie über kubectl zugreifen können, und Helm muss auf Ihrem Computer eingerichtet sein.
+Um mitzumachen, benötigst du einen Kubernetes-Cluster, auf den du über kubectl zugreifen kannst, und Helm muss auf deinem Computer eingerichtet sein.
 :::
 :::globalParagraph
 Zunächst müssen wir das Chart-Repository von Grafana zu unserer lokalen Helm-Installation hinzufügen und die neuesten Charts abrufen, wie folgt:
@@ -113,7 +114,7 @@ Sobald das erledigt ist, können wir mit dem eigentlichen Installationsprozess b
 Loki Installation
 :::
 :::globalParagraph
-Lassen Sie uns damit beginnen, Loki in unserem Cluster zum Laufen zu bringen. Um Ihre Installation zu konfigurieren, werfen Sie einen Blick auf die Werte, die das Loki-Chart über den Befehl 'helm show values' akzeptiert, und speichern Sie diese in einer Datei.
+Lass uns damit beginnen, Loki in unserem Cluster zum Laufen zu bringen. Um deine Installation zu konfigurieren, wirf einen Blick auf die Werte, die das Loki-Chart über den Befehl 'helm show values' akzeptiert, und speichere diese in einer Datei.
 :::
 :::BlogCode{.mb-5}
 ```docker
@@ -121,7 +122,7 @@ $ helm show values grafana/loki > loki-values.yaml
 ```
 :::
 :::globalParagraph
-Wir werden die Einstellungen nicht im Detail besprechen, da die meisten Werte auf ihren Standardwerten belassen werden können. Sie sollten jedoch einen Blick auf den persistence-Schlüssel werfen, um Loki so zu konfigurieren, dass Ihre Protokolle tatsächlich in einem PersistentVolume gespeichert werden.
+Wir werden die Einstellungen nicht im Detail besprechen, da die meisten Werte auf ihren Standardwerten belassen werden können. Du solltest jedoch einen Blick auf den persistence-Schlüssel werfen, um Loki so zu konfigurieren, dass deine Protokolle tatsächlich in einem PersistentVolume gespeichert werden.
 :::
 :::BlogCode{.mb-5}
 ```json
@@ -134,7 +135,7 @@ persistence:
 ```
 :::
 :::globalParagraph
-Sobald Sie die Werte an Ihre Vorlieben angepasst haben, installieren Sie Loki in Ihrem Cluster mit dem folgenden Befehl:
+Sobald du die Werte an deine Vorlieben angepasst hast, installiere Loki in deinem Cluster mit dem folgenden Befehl:
 :::
 :::BlogCode{.mb-5}
 :::
@@ -190,7 +191,7 @@ config:
 ```
 :::
 :::globalParagraph
-Unter 'lokiAddress' geben wir an, dass Promtail Protokolle an '[http://loki:3100/loki/api/v1/push](http://loki:3100/loki/api/v1/push){.bs-link-blue :target="_blank"}' senden soll. Beachten Sie, dass Sie, wenn Loki nicht im selben Namespace wie Promtail läuft, die vollständige Service-Adressnotation verwenden müssen, z. B. '<service-name>.<namespace>.svc.cluster.local:<service-port>'. Promtail läuft als DaemonSet und hat die folgenden Tolerations, um auf Master- und Worker-Knoten ausgeführt zu werden.
+Unter 'lokiAddress' geben wir an, dass Promtail Protokolle an '[http://loki:3100/loki/api/v1/push](http://loki:3100/loki/api/v1/push){.bs-link-blue :target="_blank"}' senden soll. Beachtem dass du, wenn Loki nicht im selben Namespace wie Promtail läuft, die vollständige Service-Adressnotation verwenden musst, z. B. '<service-name>.<namespace>.svc.cluster.local:<service-port>'. Promtail läuft als DaemonSet und hat die folgenden Tolerations, um auf Master- und Worker-Knoten ausgeführt zu werden.
 :::
 :::BlogCode{.mb-5}
 ```json
@@ -204,10 +205,10 @@ tolerations:
 ```
 :::
 :::globalParagraph
-Wenn Sie nicht möchten, dass Promtail auf Ihren Master-/Control-Plane-Knoten ausgeführt wird, können Sie dies hier ändern.
+Wenn du nicht möchtest, dass Promtail auf deinen Master-/Control-Plane-Knoten ausgeführt wird, kannst du dies hier ändern.
 :::
 :::globalParagraph
-Jetzt, da wir die wichtigsten Werte festgelegt haben, lassen Sie uns das installieren!
+Jetzt, da wir die wichtigsten Werte festgelegt haben, lass uns das installieren!
 :::
 
 :::BlogCode{.mb-5}
@@ -216,7 +217,7 @@ $ helm upgrade --install promtail grafana/promtail --namespace=loki -f promtail-
 ```
 :::
 :::globalParagraph
-Überprüfen Sie, ob alles wie erwartet funktioniert:
+Überprüfe, ob alles wie erwartet funktioniert:
 :::
 :::BlogCode{.mb-5}
 ```
@@ -226,7 +227,7 @@ promtail   8         8         8       8            8           <none>          
 ```
 :::
 :::globalParagraph
-Sie können auch mit dem Flag '-o wide' einen Blick auf die Pods werfen, um zu sehen, auf welchem Knoten sie ausgeführt werden:
+Du kannst auch mit dem Flag '-o wide' einen Blick auf die Pods werfen, um zu sehen, auf welchem Knoten sie ausgeführt werden:
 
 :::
 :::BlogCode{.mb-5}
@@ -248,10 +249,10 @@ promtail-r4xsz                  1/1     Running   0          1h    1.1.1.1     w
 Grafana Installation
 :::
 :::globalParagraph
-Zu guter Letzt, lassen Sie uns eine Instanz von Grafana in unserem Cluster starten.
+Zu guter Letzt, lass uns eine Instanz von Grafana in unserem Cluster starten.
 :::
 :::globalParagraph
-Die folgenden Werte ermöglichen die Persistenz. Wenn Sie möchten, dass Ihre Grafana-Instanz E-Mails senden kann, können Sie SMTP wie unten gezeigt konfigurieren. Fügen Sie einfach Ihren SMTP-Host und 'from_address' hinzu, um ein Secret mit Ihren Anmeldeinformationen zu erstellen.
+Die folgenden Werte ermöglichen die Persistenz. Wenn du möchtest, dass deine Grafana-Instanz E-Mails senden kann, kannst du SMTP wie unten gezeigt konfigurieren. Füge einfach deinen SMTP-Host und 'from_address' hinzu, um ein Secret mit deinen Anmeldeinformationen zu erstellen.
 :::
 
 :::BlogCode{.mb-5}
@@ -278,7 +279,7 @@ smtp:
 ```
 :::
 :::globalParagraph
-Sobald Sie Ihre Werte konfiguriert haben, können Sie Grafana wie folgt in Ihrem Cluster installieren:
+Sobald du deine Werte konfiguriert hast, kannst du Grafana wie folgt in deinem Cluster installieren:
 :::
 
 :::BlogCode{.mb-5}
@@ -287,7 +288,7 @@ helm upgrade --install loki-grafana grafana/grafana --namespace=loki -f grafana-
 ```
 :::
 :::globalParagraph
-Überprüfen Sie, ob alles reibungslos verlaufen ist:
+Überprüfe, ob alles reibungslos verlaufen ist:
 :::
 :::BlogCode{.mb-5}
 ```json
@@ -311,7 +312,7 @@ Werkzeuge für das Handwerk: Die Navigation im Kubernetes-Ökosystem
 Michael und Robert sprechen ausführlich über die Feinheiten der lokalen Kubernetes-Entwicklung und geben auch einige echte Codierungsbeispiele.
 ::::
 ::::globalParagraph{:font-size="lg" }
-Weitere Ausgaben unseres Podcasts finden Sie hier:
+Weitere Ausgaben unseres Podcasts findest du hier:
 ::::
 ::::GlobalButton{:url="/kubernetes-podcast/" :label="Mehr anzeigen" :color="green"}
 ::::
@@ -321,11 +322,11 @@ Weitere Ausgaben unseres Podcasts finden Sie hier:
 Verwendung
 :::
 :::globalParagraph
-Verbinden Sie Ihre neu erstellte Loki-Instanz mit Grafana ist einfach. Alles, was Sie tun müssen, ist eine Datenquelle in Grafana zu erstellen. Unter Konfiguration → Datenquellen klicken Sie auf 'Datenquelle hinzufügen' und wählen Sie Loki aus der Liste aus. Ihnen wird dieses Einstellungsfenster angezeigt, in dem Sie nur die URL Ihrer Loki-Instanz konfigurieren müssen, um Ihre Protokolle mit Grafana zu analysieren. Da Grafana im selben Namespace wie Loki läuft, reicht es aus, '[http://loki:3001](http://loki:3001){.bs-link-blue :target="_blank"}' anzugeben.
+Verbinde deine neu erstellte Loki-Instanz einfach mit Grafana. Alles, was du tun musst, ist eine Datenquelle in Grafana zu erstellen. Unter Konfiguration → Datenquellen klicke auf 'Datenquelle hinzufügen' und wähle Loki aus der Liste aus. Dir wird dieses Einstellungsfenster angezeigt, in dem du nur die URL deiner Loki-Instanz konfigurieren musst, um Ihre Protokolle mit Grafana zu analysieren. Da Grafana im selben Namespace wie Loki läuft, reicht es aus, '[http://loki:3001](http://loki:3001){.bs-link-blue :target="_blank"}' anzugeben.
 :::
 ![Verwendung](/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana-1.jpg){.object-cover .max-w-full .mb-5}
 :::globalParagraph
-Wenn Sie fertig sind, klicken Sie auf 'Speichern & testen' und voilà, Sie sind bereit, Abfragen gegen Loki auszuführen.
+Wenn du fertig bist, klicke auf 'Speichern & testen' und voilà, du bisr bereit, Abfragen gegen Loki auszuführen.
 :::
 
 :::globalTitle{:size="lg" .mb-5}

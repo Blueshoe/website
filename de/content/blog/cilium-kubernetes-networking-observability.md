@@ -10,8 +10,8 @@ head:
       content: 'website'
     - property: 'og:title'
       content: 'Using Cilium for Kubernetes networking and observability'
-    # - property: 'og:description'
-    #   content: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!'
+    - property: 'og:description'
+      content: 'Erfahre, wie du Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzt. Jetzt lesen und Kubernetes optimieren!'
     - property: 'og:image'
       content: 'https://www.blueshoe.io/img/blogs/cilium-kubernetes.jpg'
     - property: 'og:image:secure_url'
@@ -20,8 +20,8 @@ head:
       content: 'summary'
     - name: 'twitter:title'
       content: 'Using Cilium for Kubernetes networking and observability'
-    # - name: 'twitter:description'
-    #   content: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!.'
+    - name: 'twitter:description'
+      content: 'Erfahre, wie du Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzt. Jetzt lesen und Kubernetes optimieren!'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.io/img/blogs/cilium-kubernetes.jpg'
 src: '/blog/cilium-kubernetes-networking-observability'
@@ -29,7 +29,7 @@ img: '/img/blogs/cilium-kubernetes.jpg'
 alt: 'cilium kubernetes'
 preTitle: 'eBPF-basiertes Networking, Beobachtbarkeit, Sicherheit'
 title: "Verwendung von Cilium für Kubernetes-Netzwerke und Beobachtbarkeit"
-# description: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!'
+description: 'Erfahre, wie du Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzt. Jetzt lesen und Kubernetes optimieren!'
 date: '19.04.2023'
 autor:
   - Tobias Frölich
@@ -256,7 +256,7 @@ Dies erlaubt eingehenden HTTP-Verkehr von Endpunkten mit dem Label ```app: clien
 Cilium für Observability verwenden
 :::
 :::GlobalParagraph
-Cilium Hubble ist ein leistungsstolles Observability-Tool, das tiefe Einblicke in den Netzwerkverkehr und die Sicherheit eines Kubernetes-Clusters bietet. In diesem Abschnitt werden wir erkunden, wie man Hubble für Observability einrichtet und verwendet.
+Cilium Hubble ist ein leistungsstarkes Observability-Tool, das tiefe Einblicke in den Netzwerkverkehr und die Sicherheit eines Kubernetes-Clusters bietet. In diesem Abschnitt werden wir erkunden, wie man Hubble für Observability einrichtet und verwendet.
 :::
 
 :::GlobalTitle{:size="md" :tag="h3" .mb-5}
@@ -276,7 +276,7 @@ $ cilium hubble enable --ui
 Wenn wir "cilium status" erneut ausführen, sehen wir, dass Hubble aktiviert und ausgeführt wird.
 :::
 :::GlobalParagraph
-Um die gesammelten Daten zu nutzen, installieren wir das Hubble CLI wie in der <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Dokumentation</a> beschrieben. Sobald die Installation abgeschlossen ist, können wir den Hubble API-Zugriff überprüfen, indem wir zunächst eine Portweiterleitung für Hubble erstellen und dann das Hubble CLI verwenden, um den Hubble-Status zu überprüfen und die API abzufragen, wie folgt:
+Um die gesammelten Daten zu nutzen, installieren wir das Hubble CLI wie in der <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Dokumentation</a> beschrieben. Sobald die Installation abgeschlossen ist, können wir den Hubble-API-Zugriff überprüfen, indem wir zuerst ein Port-Forwarding für Hubble erstellen und dann die Hubble CLI verwenden, um den Hubble-Status zu überprüfen und die [API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} abzufragen. Dies geschieht wie folgt:
 :::
 
 :::BlogCode{.mb-5}
@@ -308,7 +308,7 @@ Apr  4 07:14:30.121: 10.244.0.166:41986 (host) <- cilium-test/echo-same-node-9f8
 :::
 
 :::GlobalParagraph
-Wenn Sie grafische Benutzeroberflächen bevorzugen, können Sie auch die <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Hubble UI</a> in Ihrem Cluster bereitstellen. Hubble UI bietet Ihnen Zugriff auf eine grafische Service-Karte, mit der Sie den Datenverkehr innerhalb des Clusters visuell inspizieren können. Für unsere Beispielkonfiguration sieht Hubble UI wie folgt aus:
+Wenn du grafische Benutzeroberflächen bevorzugst, kannst du auch <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Hubble UI</a> in deinem Cluster bereitstellen.  Hubble UI bietet dir Zugriff auf eine grafische Servicemap, die zur visuellen Überprüfung des Datenverkehrs im Cluster verwendet werden kann. Für unser Beispiel-Setup sieht Hubble UI folgendermaßen aus:
 :::
 
 ![hubble_ui](/img/blogs/hubble-ui.jpg){.object-cover .max-w-full .mb-6}
@@ -341,6 +341,6 @@ Service Mesh
 Cilium <a href="https://docs.cilium.io/en/stable/network/servicemesh/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Service Mesh</a> zielt darauf ab, traditionelle Service-Mesh-Lösungen wie Linkerd zu ersetzen. Es gibt jedoch einen entscheidenden Unterschied: Während Linkerd auf Sidecar-Proxies zur Verwaltung des Datenverkehrs zwischen Pods angewiesen ist, verwendet Cilium Service Mesh auf der Knotenebene eBPF, um den Datenverkehr zu verwalten. Dies verbessert die Leistung, reduziert die Last und entkoppelt den Service Mesh weiter von den tatsächlichen Workloads.
 :::
 
-:::BlogRelatedPosts{:url='["/blog/docker-desktop-und-kubernetes", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/", "/blog/docker-vs-podman", "/blog/kubernetes-logging-mit-promtail-loki-und-grafana/", "/blog/alternative-to-telepresence-2-gefyra"]'}
+:::BlogRelatedPosts{:url='["/blog/docker-desktop-und-kubernetes", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/richtige-api-technologie-auswaehlen", "/blog/kubernetes-logging-mit-promtail-loki-und-grafana", "/blog/function-as-a-service-faas-vs-kubernetes"]'}
 
 :::
