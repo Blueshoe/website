@@ -106,7 +106,10 @@ export const useGeneralStore = defineStore('general', () => {
       href: undefined,
       dropDown: true,
       isDropDown: false,
-      children: [entwicklung, beratung]
+      children: [entwicklung, beratung],
+      childrenContentStyle: 'single',
+      showChildrenContentDivider: true,
+      showChildrenTitle: true
     },
     { name: 'projekte', href: '/projekte/', dropDown: false },
     { name: 'unsereTools', href: '/tools/', dropDown: false },

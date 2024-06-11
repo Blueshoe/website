@@ -5,6 +5,9 @@ export type Menu = {
   dropDown?: boolean;
   isDropDown?: boolean;
   children?: SubMenu[][];
+  childrenContentStyle?: 'single' | 'multiple';
+  showChildrenContentDivider?: boolean;
+  showChildrenTitle?: boolean;
 };
 
 export type SubMenu = {
