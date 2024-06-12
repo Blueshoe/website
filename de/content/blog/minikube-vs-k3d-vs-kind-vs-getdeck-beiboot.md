@@ -301,7 +301,7 @@ Wie du sehen kannst, haben alle drei Kandidaten bereits eine signifikante Belieb
 
 <!--- Störer -->
 ::GlobalPartial{content=catcher-1}
-
+::
 :::globalTitle{:size="lg" .mb-5 .mt-8}
 Leistungsbewertung
 :::
@@ -403,7 +403,7 @@ Minikube wird mit einer CLI geliefert, die viele Emojis verwendet. Das ist eine 
 Die Installation ist sehr einfach. Du kannst es über Brew, ein Skript oder als Binärdatei herunterladen und manuell in deinen Pfad legen.
 :::
 :::globalParagraph
-Minikube macht es sehr einfach und schnell, einen neuen Cluster zu erstellen. Es ist nur ein Befehl mit zwei Wörtern: *minikube start*. Das ist einfach genug. Wie würden Sie denken, Konfigurationsoptionen zu übergeben? Richtig! Direkt als Argument an die Startoperation. Eine sehr wichtige Konfiguration ist die Kubernetes-API-Version. Es spielt keine Rolle, welche Version von Minikube Sie auf Ihrem lokalen Rechner installiert haben, Sie können <a href="https://kubernetes.io/releases/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">immer eine andere Kubernetes-API-Version</a> als die Standardversion auswählen. Und das ist sehr einfach und intuitiv. Ihr Produktionscluster läuft auf Version 1.25.5, dann möchten Sie ausführen:
+Minikube macht es sehr einfach und schnell, einen neuen Cluster zu erstellen. Es ist nur ein Befehl mit zwei Wörtern: *minikube start*. So einfach ist das. Wie gibt man Konfigurationsoptionen an? Genau! Direkt als Argument für den Startvorgang. Eine sehr wichtige Konfiguration ist die Kubernetes-API-Version. Es spielt keine Rolle, welche Version von Minikube du auf deinem lokalen Rechner installiert hast. Du kannst <a href="https://kubernetes.io/releases/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">immer eine andere Kubernetes-API-Version</a> als die Standardversion auswählen. Das ist sehr einfach und intuitiv. Dein Produktionscluster läuft auf Version 1.25.5, dann möchtest du Folgendes ausführen:
 :::
 :::BlogCode{.mb-5}
 ```
@@ -411,20 +411,20 @@ minikube start --kubernetes-version=1.25.5
 ```
 :::
 :::globalParagraph
-...und Sie erhalten die richtige [API-](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} version.
+...und du erhältst die richtige [API-](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} Version.
 :::
 :::globalParagraph
-Andere grundlegende Cluster-Operationen sind ebenso: das Anhalten des Clusters, das Stoppen oder Löschen ist immer nur ein Befehl.
+Andere grundlegende Clusteroperationen sind ähnlich: Das Anhalten, Stoppen oder Löschen des Clusters erfolgt immer mit nur einem Befehl.
 :::
 
 :::globalParagraph{.mt-8 .text-xl}
 **Saubere CLI, schnelles Kubernetes Dashboard**
 :::
 :::globalParagraph
-Die Befehlspalette der minikube CLI ist sauber und übersichtlich. Wenn Sie mit mehreren Clustern parallel arbeiten, die entweder gestartet sind oder sich im Ruhezustand befinden, können Sie immer das Argument *-p/--profile* zu den meisten Aktionen hinzufügen und die gewünschte Aktion auf dem angegebenen Cluster ausführen.
+Die Befehlspalette der minikube CLI ist sauber und übersichtlich. Wenn du mit mehreren Clustern parallel arbeitest, die entweder gestartet sind oder sich im Ruhezustand befinden, kannst du immer das Argument *-p/--profile* zu den meisten Aktionen hinzufügen und die gewünschte Aktion auf dem angegebenen Cluster ausführen.
 :::
 :::globalParagraph
-Wie können Sie alle vorhandenen Cluster auf dem Rechner auflisten? Das ist eine
+Wie listet man alle vorhandenen Cluster auf der Maschine auf? Das ist ein
 :::
 :::BlogCode{.mb-5}
 ```
@@ -432,26 +432,26 @@ minikube profile list
 ```
 :::
 :::globalParagraph
-...und es wird Ihnen eine Liste der erstellten Cluster angezeigt.
+...und dir wird eine Liste der erstellten Cluster angezeigt.
 :::
 :::globalParagraph
-Wenn Sie einen laufenden Cluster haben, können Sie immer das offizielle Kubernetes-Dashboard mit *minikube dashboard* öffnen (für das Standardprofil). Natürlich können Sie das Kubernetes-Dashboard immer auf jedem Cluster installieren, aber dieser Befehl ist wirklich eine Abkürzung, um nach wenigen Sekunden eine visuelle Benutzeroberfläche für diesen Cluster zu erhalten.
+Wenn du einen laufenden Cluster hast, kannst du immer das offizielle Kubernetes-Dashboard mit *minikube dashboard* öffnen (für das Standardprofil). Natürlich kannst du das Kubernetes-Dashboard immer auf jedem Cluster installieren, aber dieser Befehl ist wirklich eine Abkürzung, um nach wenigen Sekunden eine visuelle Benutzeroberfläche für diesen Cluster zu erhalten.
 :::
 
 ![minikube dashboard](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-4.jpg){.object-cover .w-full .mb-5}
 
 :::globalParagraph
-**Fügen Sie diese Ingress hinzu**
+**Ingress hinzufügen**
 :::
 :::globalParagraph
-Wenn Sie eine Kubernetes-Bereitstellung oder einen Service auf Ihre lokale Entwicklungsmaschine freigeben müssen, verwenden Sie einfach die Befehle für Netzwerk und Konnektivität:
+Wenn du eine Kubernetes-Bereitstellung oder einen Dienst auf deiner lokalen Entwicklungsmaschine freigeben musst, verwende einfach die Netzwerk- und Verbindungskommandos:
 :::
 :::GlobalBlock{.ul-disk .mb-5}
 - *minikube service*: gibt eine URL zurück, um eine Verbindung zu einem Service herzustellen
 - *minikube tunnel*: Verbindung zu LoadBalancer-Services herstellen
 :::
 :::globalParagraph
-Ein häufiges Komponente, die über Addons aktiviert werden muss, ist der Ingress-Controller. Normalerweise ist dies die bevorzugte Methode, um eine Anwendung freizugeben. Mit Minikube haben Sie standardmäßig keinen Ingress-Controller zur Verfügung, stattdessen müssen Sie ihn manuell bereitstellen. Glücklicherweise gibt es ein Addon mit dem bekannten und weit verbreiteten "nginx-ingress". Führen Sie einfach aus:
+Ein häufiges Komponente, die über Addons aktiviert werden muss, ist der Ingress-Controller. Normalerweise ist dies die bevorzugte Methode, um eine Anwendung freizugeben. Mit Minikube hast du standardmäßig keinen Ingress-Controller zur Verfügung, stattdessen musst du ihn manuell bereitstellen. Glücklicherweise gibt es ein Addon mit dem bekannten und weit verbreiteten "nginx-ingress". Führe einfach aus:
 :::
 :::BlogCode{.mb-5}
 ```
@@ -460,7 +460,7 @@ minikube addons enable ingress
 :::
 
 :::globalParagraph
-und Sie können Ingress-Objekte erstellen, die unter http://192.168.49.2 bereitgestellt werden. Bitte beachten Sie, dass die IP-Adresse Ihres Clusters eine andere sein kann. Sie können sie herausfinden mit
+und du kannst Ingress-Objekte erstellen, die unter http://192.168.49.2 bereitgestellt werden. Bitte beachte, dass die IP-Adresse deines Clusters eine andere sein kann. Du kannst sie herausfinden mit
 :::
 :::BlogCode{.mb-5}
 ```
@@ -482,17 +482,17 @@ Ein Befehl zum Generieren des Tab-Completion-Skripts ist auch für viele Termina
 k3d
 :::
 :::globalParagraph
-Die Installation der k3d CLI ist sehr einfach. Sie können es über Brew, ein Skript oder als Binärdatei herunterladen und manuell in Ihren Pfad legen. Die CLI benötigt jedoch etwas Zeit, um sich daran zu gewöhnen. Im Vergleich zu Minikube bietet k3d nicht so viele Funktionen auf der Befehlszeile, aber Sie können mit k3d fast alle erforderlichen Setups genauso gut realisieren.
+Die Installation der k3d CLI ist sehr einfach. Du kannst es über Brew, ein Skript oder als Binärdatei herunterladen und manuell in deinen Pfad legen. Die CLI benötigt jedoch etwas Zeit, um sich daran zu gewöhnen. Im Vergleich zu Minikube bietet k3d nicht so viele Funktionen auf der Befehlszeile, aber du kannst mit k3d fast alle erforderlichen Setups genauso gut realisieren.
 :::
 
 :::globalTitle{:size="sm" :tag="h3" .mb-5}
 Weniger CLI-Optionen, aber Ingress out of the box
 :::
 :::globalParagraph
-Ein Entwickler wird die meisten praktischen Funktionen vermissen, die die Minikube CLI bietet, aber die k3d CLI vermisst. Das ist jedoch kein großes Problem. Wenn Sie ein erfahrenerer Entwickler sind, arbeiten Sie wahrscheinlich sehr effizient mit kubectl und kennen andere Tools aus dem Ökosystem wie Helm oder Kustomize. Wenn Sie beispielsweise das Kubernetes-Dashboard benötigen, müssen Sie es über Helm installieren (oder eine andere Installationsmethode). Das ist kein großes Problem, aber es ist nicht so bequem wie bei Minikube. Sobald Sie einen Cluster erstellt haben, wird Ihr globaler kubeconfig-Kontext so eingestellt, dass er auf den neuen Cluster zeigt.
+Ein Entwickler wird die meisten praktischen Funktionen vermissen, die die Minikube CLI bietet, aber die k3d CLI vermisst. Das ist jedoch kein großes Problem. Wenn du ein erfahrenerer Entwickler bist, arbeitest du wahrscheinlich sehr effizient mit kubectl und kennst andere Tools aus dem Ökosystem wie Helm oder Kustomize. Wenn du beispielsweise das Kubernetes-Dashboard benötigst, musst du es über Helm installieren (oder eine andere Installationsmethode). Das ist kein großes Problem, aber es ist nicht so bequem wie bei Minikube. Sobald du einen Cluster erstellt hast, wird dein globaler kubeconfig-Kontext so eingestellt, dass er auf den neuen Cluster zeigt.
 :::
 :::globalParagraph
-k3d wird mit Traefik als Ingress-Controller geliefert. Es ist immer installiert, es sei denn, Sie deaktivieren es explizit mit einem Konfigurationsflag. Bei Blueshoe haben wir es als sehr hilfreich empfunden, es immer verfügbar zu haben, da wir dieses wichtige Feature während der Entwicklungseinrichtung nicht behandeln mussten.
+k3d wird mit Traefik als Ingress-Controller geliefert. Es ist immer installiert, es sei denn du deaktivierst es explizit mit einem Konfigurationsflag. Bei Blueshoe haben wir es als sehr hilfreich empfunden, es immer verfügbar zu haben, da wir dieses wichtige Feature während der Entwicklungseinrichtung nicht behandeln mussten.
 :::
 
 
@@ -500,7 +500,7 @@ k3d wird mit Traefik als Ingress-Controller geliefert. Es ist immer installiert,
 Port-Mapping meh
 :::
 :::globalParagraph
-Das Festlegen des Port-Mappings auf Ihrem lokalen Rechner kann etwas umständlich sein. Wenn Sie beispielsweise eine Anwendung über Ingress auf Port 8080 auf Ihrer Entwicklungsmaschine freigeben möchten, müssen Sie dies während der Clustererstellung angeben. Und die Notation ist für Entwickler nicht super intuitiv. Schauen Sie sich die Dokumentation an. Erstellen Sie einen Cluster mit einer festen Reihe von Port-Mappings wie folgt:
+Das Festlegen des Port-Mappings auf deinem lokalen Rechner kann etwas umständlich sein. Wenn du beispielsweise eine Anwendung über Ingress auf Port 8080 auf deiner Entwicklungsmaschine freigeben möchtest, musst du dies während der Clustererstellung angeben. Und die Notation ist für Entwickler nicht super intuitiv. Schaue dir die Dokumentation an. Erstelle einen Cluster mit einer festen Reihe von Port-Mappings wie folgt:
 :::
 
 :::BlogCode{.mb-5}
@@ -512,7 +512,7 @@ k3d cluster create -p "8080:80@loadbalancer" -p "8443:443@loadbalancer" …
 Es sind auch andere Portkonfigurationen möglich, aber aus Sicht der Entwicklererfahrung ist es nicht sehr praktisch, den gesamten Cluster neu zu erstellen, nur weil man vergessen hat, die Ports zuzuordnen.
 :::
 :::globalParagraph
-Wenn Sie nur als Entwickler in einem Team arbeiten möchten, erhalten Sie wahrscheinlich sowieso eine Cluster-Konfigurationsdatei. Mit dieser und den richtigen Spezifikationen werden Sie eine sehr gute Zeit haben, alles einzurichten. Sie müssen nur Folgendes ausführen:
+Wenn du nur als Entwickler in einem Team arbeiten möchtest, erhältst du wahrscheinlich sowieso eine Cluster-Konfigurationsdatei. Mit dieser Datei und den richtigen Spezifikationen wird es dir leichtfallen, alles einzurichten. Du musst nur noch starten:
 :::
 
 :::BlogCode{.mb-5}
@@ -521,7 +521,7 @@ k3d cluster create --config myconfig.yaml
 ```
 :::
 :::globalParagraph
-...und innerhalb weniger Sekunden sind Sie bereit. Das ist schnell und sehr praktisch. Ein großer Vorteil für die Entwicklererfahrung bei k3d.
+...und innerhalb weniger Sekunden bist du startklar. Das ist schnell und sehr bequem. Ein großes Plus für die Entwicklererfahrung mit k3d.
 :::
 :::globalParagraph
 Es gibt auch einen Befehl, um das Tab-Completion-Skript für viele Terminals zu generieren.
@@ -531,10 +531,10 @@ Es gibt auch einen Befehl, um das Tab-Completion-Skript für viele Terminals zu 
 kind
 :::
 :::globalParagraph
-kind ist in den meisten Aspekten sehr ähnlich zu k3d. Genau wie k3d und minikube können Sie es mit beliebten Paketmanagern, Skripten und als einzelne ausführbare Datei installieren.
+kind ist in den meisten Aspekten sehr ähnlich zu k3d. Genau wie k3d und minikube kannst du es mit beliebten Paketmanagern, Skripten und als einzelne ausführbare Datei installieren.
 :::
 :::globalParagraph
-Wenn Sie bereits mit der k3d-Befehlszeilenschnittstelle vertraut sind, werden Sie sich wahrscheinlich schnell an die kind-Befehlszeilenschnittstelle gewöhnen. Die Optionen sind fast identisch, und auch die Einschränkungen sind ähnlich.
+Wenn du bereits mit der k3d-Befehlszeilenschnittstelle vertraut bist, wirst du dich wahrscheinlich schnell an die kind-Befehlszeilenschnittstelle gewöhnen. Die Optionen sind fast identisch, und auch die Einschränkungen sind ähnlich.
 :::
 :::globalParagraph
 In diesem Abschnitt gibt es nicht viel hinzuzufügen.
@@ -545,7 +545,7 @@ In diesem Abschnitt gibt es nicht viel hinzuzufügen.
 Entwicklungsoptionen
 :::
 :::globalParagraph
-Es kann herausfordernd und umständlich sein, Ihren eigenen Code in einem der Kubernetes-Tools auszuführen. Zunächst müssen Sie Container-Images erstellen, da Kubernetes nur das Ausführen von Container-Instanzen zulässt. Normalerweise bezieht Kubernetes diese Images aus einem externen Container-Register (wie Dockerhub, quay.io oder einem selbst gehosteten Register). Wenn ein Entwickler eigenen Code ausführen möchte, erfordert dies eine Arbeitslastspezifikation und ein Register, das das Container-Image bereitstellt. Dies kann zu einem enormen Effizienzverlust führen.
+Es kann herausfordernd und umständlich sein, deinen eigenen Code in einem der Kubernetes-Tools auszuführen. Zunächst musst du Container-Images erstellen, da Kubernetes nur das Ausführen von Container-Instanzen zulässt. Normalerweise bezieht Kubernetes diese Images aus einem externen Container-Register (wie Dockerhub, quay.io oder einem selbst gehosteten Register). Wenn ein Entwickler eigenen Code ausführen möchte, erfordert dies eine Arbeitslastspezifikation und ein Register, das das Container-Image bereitstellt. Dies kann zu einem enormen Effizienzverlust führen.
 :::
 :::globalParagraph
 Glücklicherweise bieten alle Tools einige Workarounds oder Abkürzungen, um diese Hürde zu überwinden (zumindest teilweise).
@@ -560,7 +560,7 @@ Lokalen Code einbinden
 minikube und k3d bieten die Möglichkeit, Code direkt von der Entwicklermaschine in den laufenden Kubernetes-Knoten einzubinden.
 :::
 :::globalParagraph
-Mit k3d ist dies mit dem <a href="https://docs.k3s.io/storage" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">lokalen Pfadbereitsteller</a> von k3s möglich. Ein Entwickler kann einen <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PersistentVolumeClaim</a> erstellen, der auf einen Pfad im Host-System verweist. Anschließend kann dieser PVC in eine Container-Instanz eingebunden und im Container-Prozess verwendet werden. Dadurch können Sie entweder einen Container-Prozess mit dem aktuellen Code ausführen (den Container neu starten, sobald der Code geändert wurde) oder den Container-Prozess mit *Hot-Reloading-Funktionen* starten. Natürlich ist dies stark abhängig von einem Framework oder Prozess, der ausgeführt wird, und hat nichts mit Kubernetes zu tun. Dies funktioniert jedoch nur bei der Erstellung des Clusters wie folgt:
+Mit k3d ist dies mit dem <a href="https://docs.k3s.io/storage" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">lokalen Pfadbereitsteller</a> von k3s möglich. Ein Entwickler kann einen <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">PersistentVolumeClaim</a> erstellen, der auf einen Pfad im Host-System verweist. Anschließend kann dieser PVC in eine Container-Instanz eingebunden und im Container-Prozess verwendet werden. Dadurch kannst du entweder einen Container-Prozess mit dem aktuellen Code ausführen (den Container neu starten, sobald der Code geändert wurde) oder den Container-Prozess mit *Hot-Reloading-Funktionen* starten. Natürlich ist dies stark abhängig von einem Framework oder Prozess, der ausgeführt wird, und hat nichts mit Kubernetes zu tun. Dies funktioniert jedoch nur bei der Erstellung des Clusters wie folgt:
 :::
 
 :::BlogCode{.mb-5}
@@ -573,7 +573,7 @@ k3d cluster create my-cluster --volume /my/home/go/src/github.com/nginx:/data
 Das Hinzufügen von Volumes nachdem der Cluster erstellt und ausgeführt wird, ist <a href="https://github.com/k3d-io/k3d/issues/566" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">noch ein offenes Problem</a>.
 :::
 :::globalParagraph
-Mit dem <a href="https://minikube.sigs.k8s.io/docs/handbook/mount/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube mount</a>-Befehl ist dasselbe möglich. Sie können sogar Speichervolumes nach der Erstellung des Clusters einbinden. Anstatt einen Kubernetes PVC zu verwenden, können Sie den Code mit der *hostPath*-Eigenschaft eines Pods einbinden, was es etwas bequemer macht.
+Mit dem <a href="https://minikube.sigs.k8s.io/docs/handbook/mount/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube mount</a>-Befehl ist dasselbe möglich. Du kannst sogar Speichervolumes nach der Erstellung des Clusters einbinden. Anstatt einen Kubernetes PVC zu verwenden, kannst du den Code mit der *hostPath*-Eigenschaft eines Pods einbinden, was es etwas bequemer macht.
 :::
 
 
@@ -582,13 +582,13 @@ Lokales Container-Image laden
 :::
 
 :::globalParagraph
-Ein praktischerer und weniger invasiver Ansatz, um lokalen Code in minikube, k3d und kind auszuführen, ist die Load-Image-Funktion. Warum weniger invasiv? - Als Entwickler müssen Sie die Kubernetes-Objekte (Pods, PVCs usw.) für Ihre lokale Umgebung nicht anpassen, basierend auf den Pfaden, die möglicherweise einzigartig für Ihr System sind (z. B. das Einbinden von Home-Verzeichnissen unterscheidet sich normalerweise zwischen Entwicklern). Stattdessen stellen Sie ein Container-Image für Ihren lokalen Cluster zur Verfügung, ohne dass ein dediziertes Container-Register erforderlich ist. Das bedeutet, Sie erstellen ein lokales Container-Image basierend auf Ihrem aktuellen Code (z. B. *docker build . -t myimage*) und übertragen es direkt in Ihr lokales Kubernetes, um es auszuführen.
+Ein praktischerer und weniger invasiver Ansatz, um lokalen Code in minikube, k3d und kind auszuführen, ist die Load-Image-Funktion. Warum weniger invasiv? - Als Entwickler musst du die Kubernetes-Objekte (Pods, PVCs usw.) für deine lokale Umgebung nicht anpassen, basierend auf den Pfaden, die möglicherweise einzigartig für dein System sind (z. B. das Einbinden von Home-Verzeichnissen unterscheidet sich normalerweise zwischen Entwicklern). Stattdessen stellst du ein Container-Image für deinen lokalen Cluster zur Verfügung, ohne dass ein dediziertes Container-Register erforderlich ist. Das bedeutet, du erstellst ein lokales Container-Image basierend auf deinem aktuellen Code (z. B. *docker build . -t myimage*) und übertragen es direkt in dein lokales Kubernetes, um es auszuführen.
 :::
 :::globalParagraph
 Dieser Ansatz wird von fast allen Kubernetes-Entwicklungstools wie <a href="https://tilt.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">tilt.dev</a>, <a href="https://www.devspace.sh/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">devspace</a> und anderen genutzt. Diese Arten von Entwicklungstools führen automatisch einen Build-Load-Execute-Zyklus durch, während sie auf Codeänderungen achten. Dieser Ansatz ist langsamer als das Einbinden von lokalem Code mit einem angepassten Container-Prozess, aber zumindest modifiziert er (normalerweise) nicht die Kubernetes-Objekte.
 :::
 :::globalParagraph
-Um dies mit minikube zu tun, führen Sie aus...
+Um dies mit minikube zu tun, führst du aus...
 :::
 
 :::BlogCode{.mb-5}
@@ -597,7 +597,7 @@ minikube image load <name>
 ```
 :::
 :::globalParagraph
-Bei k3d laden Sie ein Image mit...
+Bei k3d lade ein Image mit...
 :::
 :::BlogCode{.mb-5}
 ```
@@ -614,7 +614,7 @@ kind load docker-image <name>
 :::
 
 :::globalParagraph
-...von Ihrer Konsole aus.
+...von deiner Konsole aus.
 :::
 :::globalParagraph
 Es gibt noch einige andere verfügbare Tools wie ksync, das Code in in Kubernetes ausgeführte Container kopiert, aber mit einem allgemeineren technischen Ansatz. Eine großartige Option für Entwickler, die mit jeder Art von Kubernetes-Umgebung, sei es lokal oder remote, arbeiten, wird im nächsten Abschnitt vorgestellt.
@@ -643,7 +643,7 @@ Gefyra verbindet sich nicht nur mit lokalen Kubernetes-Clustern, die auf minikub
 Gefyra führt den Code auf einer lokalen Docker-Laufzeitumgebung aus (ohne Kubernetes überhaupt) und führt einige Netzwerk- und Prozessmagie durch, um die lokale Container-Instanz mit einem Kubernetes-Cluster zu verbinden. Der Prozess auf einer Entwicklermaschine fühlt sich an, als würde er direkt in einem Kubernetes-Namespace ausgeführt (einschließlich Netzwerkfunktionen) und bietet den Vorteil, dass alle gängigen Entwicklungstools lokal verfügbar sind. Dies kann die Entwicklungsgeschwindigkeit drastisch verbessern und gleichzeitig eine sehr gute Übereinstimmung zwischen Entwicklung und Produktion gewährleisten.
 :::
 :::globalParagraph
-Wenn Sie eine Meinung zu Gefyra haben, fehlende Funktionen haben oder einen Fehler melden möchten, können Sie gerne ein Issue oder eine Diskussion auf <a href="https://github.com/gefyrahq/gefyra" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GitHub</a> eröffnen.
+Wenn du eine Meinung zu Gefyra hast, fehlende Funktionen oder einen Fehler melden möchtest, kannst du gerne ein Issue oder eine Diskussion auf <a href="https://github.com/gefyrahq/gefyra" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">GitHub</a> eröffnen.
 :::
 
 
@@ -651,13 +651,13 @@ Wenn Sie eine Meinung zu Gefyra haben, fehlende Funktionen haben oder einen Fehl
 Grafische Benutzeroberflächen und Docker Desktop
 :::
 :::globalParagraph
-Wenn Sie nach einer grafischen Benutzeroberfläche für Ihren lokalen Kubernetes-Cluster suchen, werfen Sie einen Blick auf <a href="https://github.com/inercia/k3x" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">K3x</a> und <a href="https://github.com/kubernetes-sigs/minikube-gui" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube GUI</a>. Beide Projekte befinden sich zum Zeitpunkt des Verfassens dieses Artikels noch in einem sehr frühen Entwicklungsstadium.
+Wenn du nach einer grafischen Benutzeroberfläche für deinen lokalen Kubernetes-Cluster suchst, wirf einen Blick auf <a href="https://github.com/inercia/k3x" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">K3x</a> und <a href="https://github.com/kubernetes-sigs/minikube-gui" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">minikube GUI</a>. Beide Projekte befinden sich zum Zeitpunkt des Verfassens dieses Artikels noch in einem sehr frühen Entwicklungsstadium.
 :::
 :::globalParagraph
 Die Hauptziele dieser Projekte sind es, dem Benutzer zu ermöglichen, Kubernetes-Cluster mit einem Mausklick zu erstellen, zu starten und zu beenden. Darüber hinaus ermöglichen sie Entwicklern, die wichtigsten Operationen mit Tastenkombinationen zu verwalten und die Lernkurve bei der Verwendung von Kubernetes zu reduzieren.
 :::
 :::globalParagraph
-Und dann gibt es Docker Desktop, das eine eigene Kubernetes-Lösung mitbringt. Allerdings bietet Kubernetes in Docker Desktop nicht wirklich die Funktionen, die minikube, k3d oder kind bieten. Sie können lediglich einen Kubernetes-Cluster mit einer grafischen Benutzeroberfläche starten und stoppen.
+Und dann gibt es Docker Desktop, das eine eigene Kubernetes-Lösung mitbringt. Allerdings bietet Kubernetes in Docker Desktop nicht wirklich die Funktionen, die minikube, k3d oder kind bieten. Du kannst lediglich einen Kubernetes-Cluster mit einer grafischen Benutzeroberfläche starten und stoppen.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
@@ -685,7 +685,7 @@ Getdeck kommt jetzt auch mit einer grafischen Benutzeroberfläche: <a href="http
 Damit können Entwickler Beiboot-Cluster in kürzester Zeit verwalten. Sie können eine Verbindung dazu herstellen und damit arbeiten, als würde es auf ihrem lokalen Rechner laufen, aber ohne dass der Computer abstürzt.
 :::
 :::globalParagraph
-Sie können dies mit unserem kostenlosen Getdeck-as-a-Service-Angebot einfach testen. Laden Sie einfach die Desktop-App herunter, geben Sie einige Ports ein, erstellen Sie einen Cluster und beginnen Sie mit der Entwicklung in einem virtuellen Kubernetes-Cluster, der von uns gehostet und bezahlt wird. Der Cluster unterliegt folgenden Einschränkungen:
+Du kannst dies mit unserem kostenlosen Getdeck-as-a-Service-Angebot einfach testen. Lade einfach die Desktop-App herunter, gib einige Ports ein, erstelle einen Cluster und beginne mit der Entwicklung in einem virtuellen Kubernetes-Cluster, der von uns gehostet und bezahlt wird. Der Cluster unterliegt folgenden Einschränkungen:
 :::
 
 :::GlobalBlock{.ul-disk .mb-5}
@@ -706,19 +706,19 @@ Es ist sehr schwierig, einen Gewinner in diesem Vergleich zu wählen. Alle drei 
 Ich habe das Gefühl, dass minikube etwas voraus ist und am nächsten an der offiziellen Kubernetes-Entwicklungsroadmap liegt. Insbesondere für einen einzelnen (potenziell unerfahrenen) Entwickler scheint die Einstiegshürde ziemlich niedrig zu sein. Es ist jedoch die Option mit dem höchsten Ressourcenbedarf. Ich würde minikube Anfängern von Kubernetes empfehlen.
 :::
 :::globalParagraph
-Bei Blueshoe waren wir in der Vergangenheit sehr zufrieden mit k3d. Besonders wenn Sie viele verschiedene Kubernetes-Cluster ausführen, werden Sie über den geringeren Ressourcenverbrauch im Vergleich zu minikube erfreut sein. Wenn Sie in einem Team arbeiten, werden die mit k3d oder kind gelieferten Konfigurationsdateien für alle von großem Nutzen sein.
+Bei Blueshoe waren wir in der Vergangenheit sehr zufrieden mit k3d. Besonders wenn du viele verschiedene Kubernetes-Cluster ausführst, wirst du über den geringeren Ressourcenverbrauch im Vergleich zu minikube erfreut sein. Wenn du in einem Team arbeitest, werden die mit k3d oder kind gelieferten Konfigurationsdateien für alle von großem Nutzen sein.
 :::
 :::globalParagraph
-Für einige unserer automatisierten Testfälle sind wir auf minikube umgestiegen, aufgrund des *--kubernetes-version* Arguments. Es ist sehr einfach, die gewünschte Kubernetes-Version festzulegen und voila, es läuft. Bei k3d müssen Sie sich das entsprechende k3s Docker-Image ansehen, das verwendet werden soll.
+Für einige unserer automatisierten Testfälle sind wir auf minikube umgestiegen, aufgrund des *--kubernetes-version* Arguments. Es ist sehr einfach, die gewünschte Kubernetes-Version festzulegen und voila, es läuft. Bei k3d musst du dir das entsprechende k3s Docker-Image ansehen, das verwendet werden soll.
 :::
 :::globalParagraph
 Langfristig betrachten wir die lokale Kubernetes-Entwicklung tatsächlich nicht als nachhaltige Option. Remote-Entwicklungsumgebungen sind die Zukunft! Getdeck Beiboot wird alle auf Kubernetes basierenden Ressourcen ausführen, und mit Tools wie Gefyra ermöglichen wir Entwicklern, in einer echten Kubernetes-basierten Entwicklungsumgebung zu arbeiten.
 :::
 :::globalParagraph
-Wenn Sie mehr über die Kubernetes-basierte Entwicklung erfahren möchten, können Sie mir auf LinkedIn <a href="http://www.linkedin.com/in/michael-schilonka" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">folgen</a>, unserem Discord <a href="https://discord.gg/7A8mnvQjRp" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">beitreten</a> oder uns bei Blueshoe kontaktieren.
+Wenn du mehr über die Kubernetes-basierte Entwicklung erfahren möchtest, kannst du mir auf LinkedIn <a href="http://www.linkedin.com/in/michael-schilonka" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">folgen</a>, unserem Discord <a href="https://discord.gg/7A8mnvQjRp" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">beitreten</a> oder uns bei Blueshoe kontaktieren.
 :::
 
 
-:::BlogRelatedPosts{:url='["/blog/docker-vs-podman", "/blog/performance-comparison-gke-vs-eks", "/blog/kubernetes-logging-with-promtail-loki-and-grafana", "/blog/local-kubernetes-development", "/blog/vuejs-error-tracking-with-sentry"]'}
+:::BlogRelatedPosts{:url='["/blog/richtige-api-technologie-auswaehlen", "/blog/function-as-a-service-faas-vs-kubernetes", "/blog/kubernetes-logging-mit-promtail-loki-und-grafana", "/blog/kubernetes-development", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz"]'}
 
 :::
