@@ -5,13 +5,13 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Falls Sie sich jemals gefragt haben, welches Tool für die lokale Kubernetes-Entwicklung das beste für Sie ist. Vielleicht finden Sie die Antwort in diesem Blogbeitrag, in dem wir die beliebtesten Optionen vergleichen.'
+      content: 'Suchst du das beste Tool für die lokale Kubernetes-Entwicklung? In diesem Blogbeitrag vergleichen wir die beliebtesten Optionen.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Minikube vs. k3d vs. kind vs. Getdeck'
     - property: 'og:description'
-      content: 'Falls Sie sich jemals gefragt haben, welches Tool für die lokale Kubernetes-Entwicklung das beste für Sie ist. Vielleicht finden Sie die Antwort in diesem Blogbeitrag, in dem wir die beliebtesten Optionen vergleichen.'
+      content: 'Suchst du das beste Tool für die lokale Kubernetes-Entwicklung? In diesem Blogbeitrag vergleichen wir die beliebtesten Optionen.'
     - property: 'og:image'
       content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -21,7 +21,7 @@ head:
     - name: 'twitter:title'
       content: 'Minikube vs. k3d vs. kind vs. Getdeck'
     - name: 'twitter:description'
-      content: 'Falls Sie sich jemals gefragt haben, welches Tool für die lokale Kubernetes-Entwicklung das beste für Sie ist. Vielleicht finden Sie die Antwort in diesem Blogbeitrag, in dem wir die beliebtesten Optionen vergleichen.'
+      content: 'Suchst du das beste Tool für die lokale Kubernetes-Entwicklung? In diesem Blogbeitrag vergleichen wir die beliebtesten Optionen.'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
 src: '/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot'
@@ -29,7 +29,7 @@ img: '/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot.jpg'
 alt: 'minikube vs k3d vs kind vs getdeck'
 preTitle: 'Kubernetes for Development'
 title: "Minikube vs. k3d vs. kind vs. Getdeck"
-description: 'Falls Sie sich jemals gefragt haben, welches Tool für die lokale Kubernetes-Entwicklung das beste für Sie ist. Vielleicht finden Sie die Antwort in diesem Blogbeitrag, in dem wir die beliebtesten Optionen vergleichen.'
+description: 'Suchst du das beste Tool für die lokale Kubernetes-Entwicklung? In diesem Blogbeitrag vergleichen wir die beliebtesten Optionen.'
 date: '27.02.2023'
 autor:
   - Michael Schilonka
@@ -56,7 +56,7 @@ Einführung
 In diesem Artikel vergleichen wir drei beliebte lokale Kubernetes-Entwicklungstools. Zusätzlich wird Getdeck Beiboot als remote Kubernetes-basierte Entwicklungsumgebung in den Vergleich aufgenommen.
 :::
 :::globalParagraph
-Der Schwerpunkt dieses Blogbeitrags liegt auf der Bewertung der DX ("Developer Experience") in tatsächlichen Entwicklungsszenarien. Dies ist besonders wichtig, da Sie diese Tools möglicherweise auch für Produktbereitstellungen verwenden könnten. Die wichtigen Dimensionen für die Bewertung dieser Tools unterscheiden sich jedoch sehr zwischen Entwicklung und Produktionshosting.
+Der Schwerpunkt dieses Blogbeitrags liegt auf der Bewertung der DX ("Developer Experience") in tatsächlichen Entwicklungsszenarien. Dies ist besonders wichtig, da du dieses Tools möglicherweise auch für Produktbereitstellungen verwenden kannst. Die wichtigen Dimensionen für die Bewertung dieser Tools unterscheiden sich jedoch sehr zwischen Entwicklung und Produktionshosting.
 :::
 :::globalParagraph
 Die folgenden Aspekte sind für Softwareentwicklungsfälle relevant:
@@ -107,17 +107,17 @@ Michael und Robert sprechen darüber, wie wir von Docker Compose zu einer echten
 Alleskönner für verschiedene Plattformen
 :::
 :::globalParagraph
-Ein sehr wichtiger Unterschied zwischen Minikube und allen anderen Teilnehmern ist, dass es Kubernetes-Cluster <a href="https://minikube.sigs.k8s.io/docs/drivers/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">mit einem der verschiedenen Treiber</a> bereitstellen kann. Diese Treiber implementieren die Art und Weise, wie Sie den Kubernetes-Cluster auf einer Entwicklungs-Maschine ausführen: entweder in einer virtuellen Maschine (z.B. Hyper-V, KVM2, QEMU oder andere) oder in einer Container-Laufzeitumgebung (z.B. mit Docker oder Podman). Wenn man sich Minikube mit den oben genannten Bewertungsaspekten ansieht, kann man Unterschiede in den Details zwischen diesen Treibern feststellen. Aber im Allgemeinen abstrahiert Minikube die Implementierung des Treibers für den Entwickler.
+Ein sehr wichtiger Unterschied zwischen Minikube und allen anderen Teilnehmern ist, dass es Kubernetes-Cluster <a href="https://minikube.sigs.k8s.io/docs/drivers/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">mit einem der verschiedenen Treiber</a> bereitstellen kann. Diese Treiber implementieren die Art und Weise, wie du den Kubernetes-Cluster auf einer Entwicklungs-Maschine ausführst: entweder in einer virtuellen Maschine (z.B. Hyper-V, KVM2, QEMU oder andere) oder in einer Container-Laufzeitumgebung (z.B. mit Docker oder Podman). Wenn man sich Minikube mit den oben genannten Bewertungsaspekten ansieht, kann man Unterschiede in den Details zwischen diesen Treibern feststellen. Aber im Allgemeinen abstrahiert Minikube die Implementierung des Treibers für den Entwickler.
 :::
 :::globalParagraph
-Daher ist es sehr wahrscheinlich, dass Minikube Kubernetes für praktisch jede Plattform ausführen kann, an der ein Entwickler arbeitet. Mit einer einheitlichen Benutzeroberfläche ist Minikube eine sehr plattformunabhängige Lösung. Wenn Ihr Team mit Windows, macOS, Linux oder sogar exotischeren Plattformen arbeitet, ist es ein großer Vorteil, wenn alle Mitglieder das gleiche Tool verwenden. Sie können Wissen leichter teilen, Skripte für die Automatisierung bereitstellen und Dokumentation erstellen, die alle Plattformen gleichermaßen abdeckt.
+Daher ist es sehr wahrscheinlich, dass Minikube Kubernetes für praktisch jede Plattform ausführen kann, an der ein Entwickler arbeitet. Mit einer einheitlichen Benutzeroberfläche ist Minikube eine sehr plattformunabhängige Lösung. Wenn dein Team mit Windows, macOS, Linux oder sogar exotischeren Plattformen arbeitet, ist es ein großer Vorteil, wenn alle Mitglieder das gleiche Tool verwenden. Du kannst Wissen leichter teilen, Skripte für die Automatisierung bereitstellen und Dokumentation erstellen, die alle Plattformen gleichermaßen abdeckt.
 :::
 :::globalParagraph
 Ein großer Pluspunkt für Minikube ist seine umfassende Dokumentation. Sie enthält nicht nur technische Referenzen, sondern auch eine lange Liste von Tutorials für viele spezifische Anwendungsfälle und Bereitstellungsszenarien.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5 .mt-8}
-Verwenden Sie alle K8s-Funktionen mit Minikube
+Verwende alle K8s-Funktionen mit Minikube
 :::
 :::globalParagraph
 Mit Minikube kann ein Entwickler praktisch jede erforderliche Kubernetes-Funktion verwenden. Einige von ihnen müssen mit dem Flag *–feature-gates* aktiviert werden. Dies ist eine Reihe von Schlüssel-Wert-Paaren, die Feature-Gates für experimentelle Funktionen beschreiben. Andere Funktionen werden vom Addons-System von Minikube gesteuert. *Addons* können von Drittanbietern integriert werden. Hier ist eine Liste von Addons von meinem System.
@@ -163,7 +163,7 @@ minikube addons enable [...]
 :::
 
 :::globalParagraph
-...und ermöglicht es einem Minikube-Cluster, diese bestimmte Funktion im lokalen Entwicklungsscluster bereitzustellen. Wenn Sie beispielsweise Volumesnapshots benötigen, wie wir es beim Aufbau des Getdeck Beiboot-Regalfeatures getan haben, führen Sie einfach Folgendes aus:
+...und ermöglicht es einem Minikube-Cluster, diese bestimmte Funktion im lokalen Entwicklungsscluster bereitzustellen. Wenn du beispielsweise Volumesnapshots benötigst, wie wir es beim Aufbau des Getdeck Beiboot-Regalfeatures getan haben, führe einfach Folgendes aus:
 :::
 
 :::BlogCode{.mb-5}
@@ -183,7 +183,7 @@ Minikube-Profile: mehrere logische Cluster auf einer Entwicklungs-Maschine
 Als wir begannen, Kubernetes zu übernehmen, suchten wir nach einer Lösung, die es uns ermöglichte, mehrere logische Cluster auf einer Entwicklungs-Maschine zu verwalten. In den Jahren 2016/2017 legte Minikube nicht viel Wert auf dieses spezielle Feature. Es war nur möglich, einen Cluster pro Maschine zu starten, und es gab nur eine Single-Node-Cluster-Konfiguration. Aus diesem Grund haben wir uns bei Blueshoe entschieden, mit k3d zu arbeiten. Minikube hat jedoch dieses wichtige Entwickler-Feature aufgeholt und unterstützt jetzt mehrere sogenannte Minikube-Profile.
 :::
 :::globalParagraph
-Minikube-Profile sind logische Cluster, die separat voneinander gestartet und gestoppt werden können. Es ermöglicht einem Entwickler, mehr als eine Kubernetes-basierte Entwicklungsumgebung zu haben. Denken Sie nur an mehrere getrennte Projekte, die unterschiedliche Kubernetes-API-Versionen, Funktionen oder einfach unterschiedliche Workloads erfordern, die in ihnen ausgeführt werden. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Sie können ausführen</a>:
+Minikube-Profile sind logische Cluster, die separat voneinander gestartet und gestoppt werden können. Es ermöglicht einem Entwickler, mehr als eine Kubernetes-basierte Entwicklungsumgebung zu haben. Denke nur an mehrere getrennte Projekte, die unterschiedliche Kubernetes-[API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-Versionen, Funktionen oder einfach unterschiedliche Workloads erfordern, die in ihnen ausgeführt werden. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Du kannst ausführen</a>:
 :::
 
 :::BlogCode{.mb-5}
@@ -192,7 +192,7 @@ minikube start -p myprofile1
 ```
 :::
 :::globalParagraph
-und Sie erhalten einen leeren neuen Cluster mit einem frischen Profil, das neben anderen Profilen existieren kann.
+und du erhältst einen leeren neuen Cluster mit einem frischen Profil, das neben anderen Profilen existieren kann.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
@@ -210,14 +210,14 @@ k3d basiert auf k3s, einer schlanken Kubernetes-Lösung, die von Rancher entwick
 Das Besondere an k3s ist, dass es einige der standardmäßigen Kubernetes-Komponenten wie <a href="https://etcd.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">etcd</a> durch weniger skalierbare und ressourcenintensive Alternativen (z. B. SQLite) ersetzt. Darüber hinaus wird das gesamte System in eine sehr kleine ausführbare Binärdatei kompiliert (weniger als 40 MiB), was auch den Speicherplatzbedarf sehr gering hält. Das Basis-Kubernetes-System k3s wurde ursprünglich für IoT- und Edge-Computing-Umgebungen entwickelt. Ich würde sagen, dass es auch für Entwicklungsumgebungen perfekt ist, da diese geringen Ressourcenanforderungen perfekt passen. Den Vergleich des Ressourcenverbrauchs werden wir später in diesem Artikel sehen.
 :::
 :::globalParagraph
-Da k3d nur ein Wrapper für k3s ist, kann es sich auf die Entwicklererfahrung konzentrieren. Es wird mit <a href="https://k3d.io/v5.4.7/usage/commands/k3d/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">sehr guter Dokumentation</a> geliefert, genau wie Minikube, die auch Tutorials für bestimmte Anwendungsszenarien enthält. Zum Beispiel finden Sie ein Beispiel für einen Entwicklungsworkflow mit <a href="https://tilt.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Tilt</a> und einen Build-Push-Test-Zyklus mit k3d's <a href="https://k3d.io/v5.4.7/usage/registries/#using-a-local-registry" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Container-Image-Sharing</a>-Funktion.
+Da k3d nur ein Wrapper für k3s ist, kann es sich auf die Entwicklererfahrung konzentrieren. Es wird mit <a href="https://k3d.io/v5.4.7/usage/commands/k3d/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">sehr guter Dokumentation</a> geliefert, genau wie Minikube, die auch Tutorials für bestimmte Anwendungsszenarien enthält. Zum Beispiel findest du ein Beispiel für einen Entwicklungsworkflow mit <a href="https://tilt.dev/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Tilt</a> und einen Build-Push-Test-Zyklus mit k3d's <a href="https://k3d.io/v5.4.7/usage/registries/#using-a-local-registry" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Container-Image-Sharing</a>-Funktion.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5 .mt-8}
 Gut für Teams: Teilen von k3d-Konfigurationen
 :::
 :::globalParagraph
-Ein großer Vorteil, den k3d bietet (den Minikube zu diesem Zeitpunkt vermisst), ist, dass k3d eine <a href="https://k3d.io/v5.4.7/usage/configfile/#using-config-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Cluster-Konfigurationsdatei</a> bereitstellt (ab Version 4.0.0). Dadurch können Entwicklungsteams die Konfiguration eines k3d-Clusters in einer lokalen YAML-Datei speichern, die im Team geteilt werden kann. Diese Datei enthält die Konfiguration für fast alle Parameter, die einen Cluster ausmachen, z. B. die Anzahl der Clusterknoten, die Kubernetes-Version, die lokal zugeordneten Ports, Registrierungen, Funktionen und vieles mehr. Mit dieser Datei können Sie die gleiche Cluster-Konfiguration im Team problemlos bereitstellen, ohne dass der Entwickler einer Anleitung oder einem Skript folgen muss, um seinen lokalen Kubernetes-Cluster einzurichten. Sie können k3d cluster create --config mycluster1.yaml ausführen und alles wird wie angegeben bereitgestellt. Meiner Meinung nach ist das viel einfacher als das, was Sie derzeit mit Minikube tun können.e simple than what you can currently do with minikube.
+Ein großer Vorteil, den k3d bietet (den Minikube zu diesem Zeitpunkt vermisst), ist, dass k3d eine <a href="https://k3d.io/v5.4.7/usage/configfile/#using-config-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Cluster-Konfigurationsdatei</a> bereitstellt (ab Version 4.0.0). Dadurch können Entwicklungsteams die Konfiguration eines k3d-Clusters in einer lokalen YAML-Datei speichern, die im Team geteilt werden kann. Diese Datei enthält die Konfiguration für fast alle Parameter, die einen Cluster ausmachen, z. B. die Anzahl der Clusterknoten, die Kubernetes-Version, die lokal zugeordneten Ports, Registrierungen, Funktionen und vieles mehr. Mit dieser Datei kannst du die gleiche Cluster-Konfiguration im Team problemlos bereitstellen, ohne dass der Entwickler einer Anleitung oder einem Skript folgen muss, um seinen lokalen Kubernetes-Cluster einzurichten. Du kannst k3d cluster create --config mycluster1.yaml ausführen und alles wird wie angegeben bereitgestellt. Meiner Meinung nach ist das viel einfacher als das, was du derzeit mit Minikube tun kannst.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5 .mt-8}
@@ -241,7 +241,7 @@ Ich vermute, dass in k3d nur wenige Funktionen fehlen, da sie in k3s nicht unter
 Minikube vs. kind
 :::
 :::globalParagraph
-Kind ist ein weiteres Projekt, das von einer <a href="https://kind.sigs.k8s.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes SIG</a> vorangetrieben wird. An diesem Punkt konnte ich nicht herausfinden, warum es noch gepflegt wird (ich habe einen Grund gefunden, aber lesen Sie weiter). Kind ist ein Akronym für "Kubernetes in Docker" und entstand aus der Idee, Kubernetes auf einer Container-Runtime (anstelle einer virtuellen Maschine) auszuführen. Heutzutage bevorzugt auch Minikube die Verwendung von Docker als Bereitstellungsoption, sodass es keinen Unterschied mehr zwischen Minikube und Kind gibt, was diesen wichtigen Punkt betrifft. Sie haben jedoch eine schöne Seite in ihrer Dokumentation, auf der die <a href="https://kind.sigs.k8s.io/docs/design/principles/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Prinzipien und Zielanwendungsfälle von Kind</a> erklärt werden. Ich würde sagen, es läuft alles auf Automatisierung hinaus.
+Kind ist ein weiteres Projekt, das von einer <a href="https://kind.sigs.k8s.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Kubernetes SIG</a> vorangetrieben wird. An diesem Punkt konnte ich nicht herausfinden, warum es noch gepflegt wird (ich habe einen Grund gefunden, aber lies weiter). Kind ist ein Akronym für "Kubernetes in Docker" und entstand aus der Idee, Kubernetes auf einer Container-Runtime (anstelle einer virtuellen Maschine) auszuführen. Heutzutage bevorzugt auch Minikube die Verwendung von Docker als Bereitstellungsoption, sodass es keinen Unterschied mehr zwischen Minikube und Kind gibt, was diesen wichtigen Punkt betrifft. Sie haben jedoch eine schöne Seite in ihrer Dokumentation, auf der die <a href="https://kind.sigs.k8s.io/docs/design/principles/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Prinzipien und Zielanwendungsfälle von Kind</a> erklärt werden. Ich würde sagen, es läuft alles auf Automatisierung hinaus.
 :::
 ![minikube vs. kind](/img/blogs/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot-3.jpg){.object-cover .max-w-full .mb-5}
 
@@ -249,7 +249,7 @@ Kind ist ein weiteres Projekt, das von einer <a href="https://kind.sigs.k8s.io/"
 Konfigurationsdateien und K8s-Funktionen
 :::
 :::globalParagraph
-Ähnlich wie k3d bietet auch Kind die Möglichkeit, <a href="https://kind.sigs.k8s.io/docs/user/configuration/#a-note-on-cli-parameters-and-configuration-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Konfigurationsdateien</a> zu verwenden. Ähnlich wie bei k3d können Sie...
+Ähnlich wie k3d bietet auch Kind die Möglichkeit, <a href="https://kind.sigs.k8s.io/docs/user/configuration/#a-note-on-cli-parameters-and-configuration-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Konfigurationsdateien</a> zu verwenden. Ähnlich wie bei k3d kannst du...
 :::
 :::BlogCode{.mb-5}
 ```
@@ -281,7 +281,7 @@ Wenn man die Startseite beider Produkte vergleicht, behauptet Minikube, sich "[.
 Vergleich von Minikube, k3d und Kind im Jahr 2023
 :::
 :::globalParagraph
-Lassen Sie uns nun einen direkten Vergleich dieser drei Alternativen für die lokale Kubernetes-Entwicklung im Jahr 2023 durchführen.
+Lass uns nun einen direkten Vergleich dieser drei Alternativen für die lokale Kubernetes-Entwicklung im Jahr 2023 durchführen.
 :::
 
 :::globalTitle{:size="lg" .mb-5 .mt-8}
@@ -296,7 +296,7 @@ Beliebtheit ist ein Indikator dafür, wie sicher die fortlaufende Wartung eines 
 3. k3d: >4,1k Sterne auf GitHub
 :::
 :::globalParagraph
-Wie Sie sehen können, haben alle drei Kandidaten bereits eine signifikante Beliebtheit auf GitHub. Minikube ist jedoch bei weitem die beliebteste Option. Ich würde sagen, dass alle drei Lösungen aufgrund ihrer lebendigen Community dauerhaft gewartet werden.
+Wie du sehen kannst, haben alle drei Kandidaten bereits eine signifikante Beliebtheit auf GitHub. Minikube ist jedoch bei weitem die beliebteste Option. Ich würde sagen, dass alle drei Lösungen aufgrund ihrer lebendigen Community dauerhaft gewartet werden.
 :::
 
 <!--- Störer -->
@@ -338,7 +338,7 @@ Die Startzeiten sind wie folgt:
 - Kind: 19,691 s
 :::
 :::globalParagraph
-Die Startzeiten aller Kandidaten sind ziemlich nah beieinander. Wenn Sie beispielsweise zuerst die erforderlichen Container-Images herunterladen müssen, wird dies wahrscheinlich den Gesamtprozess mehr beeinflussen als der zugrunde liegende Bootstrapping-Prozess. Mit Ausnahme des kvm2-Treibers von Minikube. Dieser Prozess ist viel aufwändiger und beinhaltet das Hochfahren einer gesamten virtuellen Maschine. Ich gehe davon aus, dass VM-basierte Treiber sowieso nicht die erste Wahl für die Mehrheit der Entwickler sind.
+Die Startzeiten aller Kandidaten sind ziemlich nah beieinander. Wenn du beispielsweise zuerst die erforderlichen Container-Images herunterladen musst, wird dies wahrscheinlich den Gesamtprozess mehr beeinflussen als der zugrunde liegende Bootstrapping-Prozess. Mit Ausnahme des kvm2-Treibers von Minikube. Dieser Prozess ist viel aufwändiger und beinhaltet das Hochfahren einer gesamten virtuellen Maschine. Ich gehe davon aus, dass VM-basierte Treiber sowieso nicht die erste Wahl für die Mehrheit der Entwickler sind.
 :::
 
 :::globalTitle{:size="md" :tag="h3" .mb-5 .mt-8}
@@ -363,7 +363,7 @@ Cluster-Ressourcenverbrauch
 Ich habe einen lokalen Kubernetes-Cluster gestartet und etwa 120 s nach dem abgeschlossenen Start die Ressourcenverbräuche für einen im Leerlauf befindlichen Einzelknoten-Cluster überprüft. Dafür habe ich den Befehl "docker stats" verwendet.
 :::
 :::globalParagraph
-Bitte beachten Sie, dass ich traefik bei k3d deaktiviert habe, um eine vergleichbare Konfiguration zu erhalten. Da k3d mindestens zwei Container ausführt, habe ich die Verbräuche aggregiert.
+Bitte beachte, dass ich traefik bei k3d deaktiviert habe, um eine vergleichbare Konfiguration zu erhalten. Da k3d mindestens zwei Container ausführt, habe ich die Verbräuche aggregiert.
 :::
 :::globalParagraph
 Hier sind die Ergebnisse:
@@ -400,7 +400,7 @@ Minikube
 Minikube wird mit einer CLI geliefert, die viele Emojis verwendet. Das ist eine sehr individuelle Vorliebe, aber ich finde sie ein wenig nervig. Allerdings können <a href="https://github.com/kubernetes/minikube/issues/5024" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">sie deaktiviert werden</a>.
 :::
 :::globalParagraph
-Die Installation ist sehr einfach, Sie können es über Brew, ein Skript oder als Binärdatei herunterladen und manuell in Ihren Pfad legen.
+Die Installation ist sehr einfach. Du kannst es über Brew, ein Skript oder als Binärdatei herunterladen und manuell in deinen Pfad legen.
 :::
 :::globalParagraph
 Minikube macht es sehr einfach und schnell, einen neuen Cluster zu erstellen. Es ist nur ein Befehl mit zwei Wörtern: *minikube start*. Das ist einfach genug. Wie würden Sie denken, Konfigurationsoptionen zu übergeben? Richtig! Direkt als Argument an die Startoperation. Eine sehr wichtige Konfiguration ist die Kubernetes-API-Version. Es spielt keine Rolle, welche Version von Minikube Sie auf Ihrem lokalen Rechner installiert haben, Sie können <a href="https://kubernetes.io/releases/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">immer eine andere Kubernetes-API-Version</a> als die Standardversion auswählen. Und das ist sehr einfach und intuitiv. Ihr Produktionscluster läuft auf Version 1.25.5, dann möchten Sie ausführen:

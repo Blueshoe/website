@@ -303,7 +303,7 @@ Kubernetes ruft normalerweise Images aus einem Container-Register ab, was bedeut
 Das dockershim ist eine Komponente, die mit Docker Desktop Kubernetes geliefert wird und zwischen dem Kubernetes <a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">kubelet</a> und der Docker-Engine übersetzt.
 :::
 :::globalParagraph
-Das ist ein großer Vorteil für Entwickler, da sie ihre Container-Images nicht hochladen und herunterladen müssen, bevor sie sie in Docker Desktop Kubernetes ausführen können. Diese Funktion ist in gewisser Weise ähnlich zu dem, was du <a href="https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">mit k3d, minikube und kind erreichen kannst, indem du das Container-Image auf deine Cluster-Knoten importieren</a>. Mit Docker Desktop musst du jedoch das Container-Image wie gewohnt erstellen und es nicht in einen Kubernetes-Knoten importieren. Das ist sogar schneller als bei anderen lokalen Kubernetes-Lösungen.
+Das ist ein großer Vorteil für Entwickler, da sie ihre Container-Images nicht hochladen und herunterladen müssen, bevor sie sie in Docker Desktop Kubernetes ausführen können. Diese Funktion ist in gewisser Weise ähnlich zu dem, was du <a href="https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">mit k3d, minikube und kind erreichen kannst, indem du das Container-Image auf deine Cluster-Knoten importierst</a>. Mit Docker Desktop musst du jedoch das Container-Image wie gewohnt erstellen und es nicht in einen Kubernetes-Knoten importieren. Das ist sogar schneller als bei anderen lokalen Kubernetes-Lösungen.
 :::
 :::globalParagraph
 Wenn du die Ausgabe der oben genannten <a href="https://github.com/nginxinc/NGINX-Demos/tree/master/nginx-hello-nonroot" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">"hello-nginx"</a>-Anwendung ändern möchtest, wirf zuerst einen Blick auf die Workload-Spezifikation:
@@ -403,7 +403,7 @@ Es gibt bereits einige interessante Docker Desktop-Erweiterungen im Marketplace,
 Langfristig betrachtet sehe ich die lokale Kubernetes-Entwicklung jedoch nicht als nachhaltige Option. Remote-Entwicklungsumgebungen sind die Zukunft! Getdeck Beiboot wird alle auf Kubernetes basierenden Ressourcen ausführen, und mit [Tools](/tools/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} wie Gefyra ermöglichen wir Entwicklern, in einer echten Kubernetes-basierten Entwicklungsumgebung mit nur wenigen lokal ausgeführten Containern zu arbeiten.
 :::
 :::globalParagraph
-Wenn du mehr über die Kubernetes-basierte Entwicklung erfahren möchtest, <a href="https://www.linkedin.com/in/michael-schilonka/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">folge Sie mir auf LinkedIn</a> oder schreibe uns bei Blueshoe.
+Wenn du mehr über die Kubernetes-basierte Entwicklung erfahren möchtest, <a href="https://www.linkedin.com/in/michael-schilonka/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">folge mir auf LinkedIn</a> oder schreibe uns bei Blueshoe.
 :::
 
 

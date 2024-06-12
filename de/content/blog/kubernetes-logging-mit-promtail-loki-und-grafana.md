@@ -138,7 +138,15 @@ persistence:
 Sobald du die Werte an deine Vorlieben angepasst hast, installiere Loki in deinem Cluster mit dem folgenden Befehl:
 :::
 :::BlogCode{.mb-5}
+```docker
+$ helm upgrade --install loki grafana/loki -n loki -f loki-values.yaml
+```
 :::
+
+:::globalParagraph
+Nachdem das erledigt ist, kannst du überprüfen, ob alles funktioniert hat, indem du kubectl verwendest:
+:::
+
 :::BlogCode{.mb-5}
 ```docker
 $ kubectl get pods -n loki
@@ -322,7 +330,7 @@ Weitere Ausgaben unseres Podcasts findest du hier:
 Verwendung
 :::
 :::globalParagraph
-Verbinde deine neu erstellte Loki-Instanz einfach mit Grafana. Alles, was du tun musst, ist eine Datenquelle in Grafana zu erstellen. Unter Konfiguration → Datenquellen klicke auf 'Datenquelle hinzufügen' und wähle Loki aus der Liste aus. Dir wird dieses Einstellungsfenster angezeigt, in dem du nur die URL deiner Loki-Instanz konfigurieren musst, um Ihre Protokolle mit Grafana zu analysieren. Da Grafana im selben Namespace wie Loki läuft, reicht es aus, '[http://loki:3001](http://loki:3001){.bs-link-blue :target="_blank"}' anzugeben.
+Verbinde deine neu erstellte Loki-Instanz einfach mit Grafana. Alles, was du tun musst, ist eine Datenquelle in Grafana zu erstellen. Unter Konfiguration → Datenquellen klicke auf 'Datenquelle hinzufügen' und wähle Loki aus der Liste aus. Dir wird dieses Einstellungsfenster angezeigt, in dem du nur die URL deiner Loki-Instanz konfigurieren musst, um deine Protokolle mit Grafana zu analysieren. Da Grafana im selben Namespace wie Loki läuft, reicht es aus, '[http://loki:3001](http://loki:3001){.bs-link-blue :target="_blank"}' anzugeben.
 :::
 ![Verwendung](/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana-1.jpg){.object-cover .max-w-full .mb-5}
 :::globalParagraph
