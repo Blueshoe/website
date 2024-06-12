@@ -14,6 +14,7 @@
         <booster-image
           v-if="!isStory"
           :src="src"
+          title="background image"
           class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
           alt="background image"
           format="webp"
@@ -31,6 +32,7 @@
 
 <script setup lang="ts">
 import BoosterImage from '#booster/components/BoosterImage';
+import Title from './Title.vue';
 type BgColor = 'bg-white' | 'bg-bs-blue';
 type Target = '_blank' | '_self';
 

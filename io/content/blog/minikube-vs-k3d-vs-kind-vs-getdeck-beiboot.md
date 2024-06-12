@@ -124,7 +124,7 @@ With minikube a developer can use practically any required Kubernetes feature. S
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 |-----------------------------|--------------------------------|
 |         ADDON NAME          |           MAINTAINER           |
 |-----------------------------|--------------------------------|
@@ -157,7 +157,7 @@ These addons are enabled with...
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 minikube addons enable [...]
 ```
 :::
@@ -167,7 +167,7 @@ minikube addons enable [...]
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 minikube addons enable volumesnapshots
 ```
 :::
@@ -187,7 +187,7 @@ minikube profiles are logical clusters that can be started and stopped separatel
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 minikube start -p myprofile1
 ```
 :::
@@ -252,7 +252,7 @@ Config files and K8s features
 Just like k3d, kind also provides the possibility to use <a href="https://kind.sigs.k8s.io/docs/user/configuration/#a-note-on-cli-parameters-and-configuration-files" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">configuration files</a>. Similar to k3d, you can run...
 :::
 :::BlogCode{.mb-5}
-```json
+```
 kind create cluster --config mycluster1.yaml
 ```
 :::
@@ -461,7 +461,7 @@ The installation is very simple, you can get it via brew, script, or download it
 minikube makes it very easy and swift to create a new cluster. It’s just one command with two words: *minikube start*. That’s simple enough. How would you think to pass configuration options? Right! Directly as an argument to the start operation. One very important configuration is the Kubernetes API version. It doesn’t matter which version of minikube you have installed on your local machine, you can <a href="https://kubernetes.io/releases/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">always select a different Kubernetes API version</a> than the default. And that’s very simple and intuitive. Your production cluster runs on version 1.25.5, then you want to run:
 :::
 :::BlogCode{.mb-5}
-```json
+```
 minikube start --kubernetes-version=1.25.5
 ```
 :::
@@ -482,7 +482,7 @@ The command pallet of the minikube CLI is clean and relatable. If you are workin
 How do you list all existing clusters on the machine? That’s a
 :::
 :::BlogCode{.mb-5}
-```json
+```
 minikube profile list
 ```
 :::
@@ -509,7 +509,7 @@ If you need to expose a Kubernetes deployment or service to your local developme
   One common component that needs to be enabled via addons is the ingress controller. Usually, that is the preferred way to expose an application. With minikube you don’t have an ingress controller available by default, instead, you have to provide it manually. Luckily, there is an addon with the well-known and widely adopted “nginx-ingress” available. Just run:
 :::
 :::BlogCode{.mb-5}
-```json
+```
 minikube addons enable ingress
 ```
 :::
@@ -518,7 +518,7 @@ minikube addons enable ingress
 and you can create ingress objects that will be served under http://192.168.49.2. Please note that the IP address of your cluster can be a different one. You can find it out with
 :::
 :::BlogCode{.mb-5}
-```json
+```
 minikube ip
 ```
 :::
@@ -559,7 +559,7 @@ Setting the port mapping to your local machine can be a bit cumbersome. For exam
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 k3d cluster create -p "8080:80@loadbalancer" -p "8443:443@loadbalancer" …
 ```
 :::
@@ -571,7 +571,7 @@ If you just want to work as a developer in a team, you probably get a cluster co
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 k3d cluster create --config myconfig.yaml
 ```
 :::
@@ -619,7 +619,7 @@ With k3d this is possible with the <a href="https://docs.k3s.io/storage" class="
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 k3d cluster create my-cluster --volume /my/home/go/src/github.com/nginx:/data
 ```
 :::
@@ -647,7 +647,7 @@ In order to do so with minikube, you run...
 :::
 
 :::BlogCode{.mb-5}
-```json
+```
 minikube image load <name>
 ```
 :::
@@ -655,7 +655,7 @@ minikube image load <name>
 In k3d you load an image with...
 :::
 :::BlogCode{.mb-5}
-```json
+```
 k3d image import <name>
 ```
 :::
@@ -663,7 +663,7 @@ k3d image import <name>
 and with kind it is...
 :::
 :::BlogCode{.mb-5}
-```json
+```
 kind load docker-image <name>
 ```
 :::
