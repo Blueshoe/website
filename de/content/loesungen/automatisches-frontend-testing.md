@@ -55,7 +55,7 @@ Wir haben diesen Schmerz für uns gelöst und tun das auch für dich:
 ::::GlobalBlock{.ul-disk}
 - Vollautomatisches Frontend-Testing, in dem jeder falsche Pixel auffällt
 - Automatisches testen wichtiger Funktionspfade in deinem Frontend
-- Um 80% reduziterter Personalaufwand für Frontend-Testing
+- Um 80% reduzierter Personalaufwand für Frontend-Testing
 ::::
 #button
 ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
@@ -114,53 +114,15 @@ Verlässliches Testing zu jeder Zeit
 ::
 :::
 
-<!--- Profitiere von: Boxen
-:::GlobalSmallCardWithImageSection{ :bg="bg-white" :numberCards=3}
-
-#cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/cloud-storage.svg" :href="/leistungen/cloud-native-development/"}
-
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-80% Personalaufwand sparen
-:::
-::
-
-::GlobalSmallCardWithImage{:src="/img/global/icons/consulting_1.svg" :href="/leistungen/cloud-native-beratung/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Wir helfen dir, Lösungen zu finden
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Wir unterstützen dich dabei, Lösungen für die Herausforderungen bei der Cloud-Entwicklung und der Verwaltung von Service-Architekturen auf Kubernetes zu finden.
-:::
-#title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Cloud-Beratung
-:::
-::
-::GlobalSmallCardWithImage{:src="/img/global/icons/software-development_1.svg" :href="/tools/"}
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Unsere Beteiligung on der OSS-Community
-:::
-:::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Wir entwickeln Open-Source-Tools, um die Cloud-Native-Entwicklung für Entwickler zugänglicher zu machen.
-:::
-#title
-::::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
-Open-Source-Tools
-::::
-::: --->
-
-
 <!--- Persönlich betreut, perfekt konfiguriert --->
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
-:::GlobalPreTitle{.mb-3 :color="text-white"}
+:::GlobalSimpleSection{:bg="bg-bs-gray"}
+:::GlobalPreTitle{.mb-3}
 Persönlich betreut, perfekt konfiguriert
 :::
-::::GlobalTitle{:color="text-white" .mb-6}
+::::GlobalTitle{.mb-6}
 Wir arbeiten mit dir auf Augenhöhe
 ::::
-::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
+::::GlobalBlock{.mb-4 .ul-disk}
 - Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst.
 - Wir kommunizieren glasklar. Auch für Nicht-Techies.
 - Wir denken uns ein und suchen mit dir immer die beste Lösung. Nicht die Teuerste.

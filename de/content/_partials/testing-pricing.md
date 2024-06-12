@@ -4,19 +4,20 @@
 :::GlobalPricingCard
 
 #title
-Test Pilot
+Test Mikroskop
 
 #subtitle
-Ein Workshop über einen halben Tag um einen moderaten Anforderungskatalog zu erstellen.
+Wir bauen dir visuelle Regression-Tests für deine Frontends.
 
 #priceDescription
-- **4 h** Workshop
-- Für Projekte ohne Schnittstellen
-- 1 Geschäftsführer
-- Übersichtliche Anforderungsdokumentation
+- Erstellung der Test-Basis ("Baseline")
+- Aufbau auf Komponentenbibliothek
+- Aufbau auf Website
+- Integration CI Pipeline
+- Beispielsweise über LostPixel
 
 #price
-4.500 €
+8.000 €
 :::
 
 #card2
@@ -26,37 +27,51 @@ Ein Workshop über einen halben Tag um einen moderaten Anforderungskatalog zu er
 Test Roboter
 
 #subtitle
-Ein klassischer Workshop um auch umfangreichere Softwareprojekte zu definieren.
+Wir bauen visuelle Regression-Tests für deine Frontends und testen diese auch auf Funktion.
 
 #recommendedLabel
 Empfohlen
 
 #priceDescription
-- **1 Tag** Workshop
-- Für komplexere Projekte mit Schnittstellen
-- 1 Geschäftsführer
-- Ausführliche Anforderungsdokumentation
+- Automatische Tests für deine wichtigsten Prozesse
+- Finde Bugs bevor diese in Produktion landen
+- Erstellung der Test-Basis ("Baseline")
+- Aufbau auf Komponentenbibliothek
+- Aufbau auf Website
+- Integration CI Pipeline
+- Beispielsweise über LostPixel und Cypress
 
 #price
-7.500 €
+15.000 €
 :::
 
 #card3
 :::GlobalPricingCard
 
 #title
-Mechanischer Türsteher 
+Digitaler Gatekeeper 
 
 #subtitle
-Für riesige Software-Plattformen und sehr kritische Anwendungen.
+Für deine riesige Software-Plattformen bauen wir komplette automatisierte 
+Teststrecken und verhindern jeden Bug in Produktion.
+
 
 #priceDescription
-- **2 Tage** Workshop
-- Für sehr komplexe Projekte mit vielen Schnittstellen
-- 2 Geschäftsführer
-- Umfangreiche Anforderungsdokumentation
+- Automatische Tests für deine alle Prozesse
+- Erstellung der Test-Basis ("Baseline")
+- Integration CI Pipeline
+- Kontinuierliche Erweiterung möglich
+- Beispielsweise über LostPixel und Cypress
 
 #price
-18.500 €
+::::GlobalButton
+---
+label: "Auf Anfrage" 
+url: "https://blueshoe.io/hannes/" 
+size: "wide" 
+color: "green"
+target: "_blank"
+---
+::::
 :::
 ::
