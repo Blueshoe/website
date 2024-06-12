@@ -4,8 +4,8 @@ head:
   meta:
     - property: 'og:locale'
       content: 'de_DE'
-    # - name: 'description'
-    #   content: 'Erfahren Sie, wie Sie mit Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzen. Jetzt lesen und Kubernetes optimieren!'
+    - name: 'description'
+      content: 'Erfahre, wie du Cilium eBPF für leistungsstarke Netzwerk-, Sicherheits- und Überwachungsaufgaben in Kubernetes nutzt. Jetzt lesen und Kubernetes optimieren!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
@@ -152,7 +152,7 @@ E3: Deep dive into Getdeck
 Michael und Robert stellen Getdeck vor und demonstrieren es. Außerdem vergleichen sie lokale und entfernte Kubernetes- und Pre-Production-Cluster.
 ::::
 ::::globalParagraph{:font-size="lg" }
-Weitere Ausgaben unseres Podcasts finden Sie hier:
+Weitere Ausgaben unseres Podcasts findest du hier:
 ::::
 ::::GlobalButton{:url="/kubernetes-podcast/" :label="Show more" :color="green"}
 ::::
