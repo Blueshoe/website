@@ -326,27 +326,27 @@ Verbinde deine neu erstellte Loki-Instanz einfach mit Grafana. Alles, was du tun
 :::
 ![Verwendung](/img/blogs/kubernetes-logging-with-promtail-loki-and-grafana-1.jpg){.object-cover .max-w-full .mb-5}
 :::globalParagraph
-Wenn du fertig bist, klicke auf 'Speichern & testen' und voilà, du bisr bereit, Abfragen gegen Loki auszuführen.
+Wenn du fertig bist, klicke auf 'Speichern & Testen' und voilà, du bist bereit, Abfragen gegen Loki auszuführen.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
 LogQL
 :::
 :::globalParagraph
-‘LogQL ist die von Grafana Loki inspirierte Abfragesprache, ähnlich wie PromQL. Abfragen fungieren wie ein verteiltes grep, um Log-Quellen zu aggregieren. LogQL verwendet Labels und Operatoren zur Filterung.’
+‘LogQL ist die von Grafana Loki inspirierte Abfragesprache, ähnlich wie PromQL. Abfragen fungieren wie ein verteilter grep, um Log-Quellen zu aggregieren. LogQL verwendet Labels und Operatoren zur Filterung.’
 :::
 :::globalParagraph
-Mit LogQL können Sie einfach Abfragen gegen Ihre Protokolle ausführen. Sie können entweder Protokollabfragen ausführen, um den Inhalt tatsächlicher Protokollzeilen zu erhalten, oder Metrikabfragen verwenden, um Werte basierend auf den Ergebnissen zu berechnen.
+Mit LogQL kannst du einfach Abfragen gegen deine Protokolle ausführen. Du kannst entweder Protokollabfragen ausführen, um den Inhalt tatsächlicher Protokollzeilen zu erhalten, oder Metrikabfragen verwenden, um Werte basierend auf den Ergebnissen zu berechnen.
 :::
 :::globalParagraph
-LogQL ist <a href="https://grafana.com/docs/loki/latest/logql/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">gut dokumentiert</a>, daher gehen wir nicht auf jedes Feature im Detail ein, sondern geben Ihnen stattdessen einige Abfragen, die Sie sofort gegen Ihre Protokolle ausführen können, um loszulegen. Gehen Sie zum Explore-Panel in Grafana (${grafanaUrl}/explore), wählen Sie Ihre Loki-Datenquelle im Dropdown-Menü aus und sehen Sie sich an, was Loki bisher für Sie gesammelt hat.
+LogQL ist <a href="https://grafana.com/docs/loki/latest/logql/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">gut dokumentiert</a>, daher gehen wir nicht auf jedes Feature im Detail ein, sondern geben dir stattdessen einige Abfragen, die du sofort gegen deine Protokolle ausführen kannst, um loszulegen. Gehe zum Explore-Panel in Grafana (${grafanaUrl}/explore), wähle deine Loki-Datenquelle im Dropdown-Menü aus und schau dir an, was Loki bisher für dich gesammelt hat.
 :::
 
 :::globalTitle{:size="md" .mb-5}
 Simple Log Query
 :::
 :::globalParagraph
-Wenn Sie nur Protokolle von einem einzelnen Pod möchten, ist es so einfach wie die Ausführung einer Abfrage wie dieser:
+Wenn du nur die Protokolle eines einzelnen Pods haben möchtest, ist es so einfach, eine Abfrage wie diese auszuführen:
 :::
 :::BlogCode{.mb-5}
 ```
@@ -354,14 +354,14 @@ Wenn Sie nur Protokolle von einem einzelnen Pod möchten, ist es so einfach wie 
 ```
 :::
 :::globalParagraph
-Grafana wählt automatisch das richtige Panel für Sie aus und zeigt an, was Ihr Loki Pod protokolliert.
+Grafana wählt automatisch das richtige Panel für dich aus und zeigt an, was dein Loki Pod protokolliert.
 :::
 
 :::globalTitle{:size="md" .mb-5}
 Fehler in einem Namespace
 :::
 :::globalParagraph
-Diese Abfrage filtert Protokolle aus einem bestimmten Namespace, die das Wort "Fehler" enthalten. Sie zählt sie über den im Dashboard ausgewählten Bereich und gibt die Summe zurück, um Ihnen einen einfachen Überblick darüber zu geben, was in Ihrem Cluster passiert.
+Diese Abfrage filtert Protokolle aus einem bestimmten Namespace, die das Wort "Fehler" enthalten. Sie zählt sie über den im Dashboard ausgewählten Bereich und gibt die Summe zurück, um dir einen einfachen Überblick darüber zu geben, was in deinem Cluster passiert.
 :::
 :::BlogCode{.mb-5}
 ```
@@ -373,7 +373,7 @@ sum(count_over_time({namespace="loki"} |= "error" [$__range]))
 Durchschnittliche Antwortzeit in einem Namespace, nach Pfad und Anwendung
 :::
 :::globalParagraph
-Diese Abfrage ist so komplex wie es in diesem Artikel wird. Sie sammelt Protokolle aus einem Namespace und wendet dann mehrere nützliche Funktionen von LogQL an, wie zum Beispiel Musterabgleich, reguläre Ausdrücke, Zeilenformatierung und Filterung. Am Ende erhalten Sie die durchschnittliche Antwortzeit von Anwendungen, die im angegebenen Namespace innerhalb des ausgewählten Intervalls ausgeführt werden. Sie filtern effektiv die Protokollzeilen heraus, die von Kubernetes Liveness- und Readiness-Probes generiert werden, gruppiert nach App-Label und Pfad. Hinweis: Diese genaue Abfrage funktioniert für das Protokollformat von Django Hurricane, aber Sie können sie anpassen, indem Sie das Muster an Ihr Protokollformat anpassen.
+Diese Abfrage ist so komplex wie es in diesem Artikel wird. Sie sammelt Protokolle aus einem Namespace und wendet dann mehrere nützliche Funktionen von LogQL an, wie zum Beispiel Musterabgleich, reguläre Ausdrücke, Zeilenformatierung und Filterung. Am Ende erhältst du die durchschnittliche Antwortzeit von Anwendungen, die im angegebenen Namespace innerhalb des ausgewählten Intervalls ausgeführt werden. Sie filtern effektiv die Protokollzeilen heraus, die von Kubernetes Liveness- und Readiness-Probes generiert werden, gruppiert nach App-Label und Pfad. Hinweis: Diese genaue Abfrage funktioniert für das Protokollformat von Django Hurricane, aber du kannst sie anpassen, indem du das Muster an dein Protokollformat anpasst.
 :::
 :::BlogCode{.mb-5}
 ```
@@ -385,17 +385,17 @@ avg_over_time({namespace="application"} | pattern "<date> <time> <access> <level
 Sonstige Merkmale/Weitere Lektüre/Heiligtümer
 :::
 :::globalParagraph
-Wenn Sie Ihre Logs nicht in Ihrem Cluster speichern möchten, können Sie die gesammelten Daten an S3-kompatible Speicherlösungen wie Amazon S3 oder MinIO senden. Der Prozess der Log-Analyse/-Ansicht bleibt derselbe.
+Wenn du deine Logs nicht in deinem Cluster speichern möchtest, kannst du die gesammelten Daten an S3-kompatible Speicherlösungen wie Amazon S3 oder MinIO senden. Der Prozess der Log-Analyse/-Ansicht bleibt derselbe.
 :::
 :::globalParagraph
-Die Dateispeicherung funktioniert nicht, wenn Sie das verteilte Chart verwenden, da mehrere Pods Lese-/Schreibvorgänge auf demselben PV durchführen müssten. Dies ist im <a href="https://github.com/kubernetes-sigs/kind" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Chart-Repository</a> dokumentiert, wird jedoch leider nicht in der offiziellen Dokumentation von Loki erwähnt.
+Die Dateispeicherung funktioniert nicht, wenn du das verteilte Chart verwendest, da mehrere Pods Lese-/Schreibvorgänge auf demselben PV durchführen müssten. Dies ist im <a href="https://github.com/kubernetes-sigs/kind" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Chart-Repository</a> dokumentiert, wird jedoch leider nicht in der offiziellen Dokumentation von Loki erwähnt.
 :::
 :::globalParagraph
-<a href="https://grafana.com/docs/loki/latest/tools/logcli/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">LogCLI</a> ist das CLI-Tool von Loki, mit dem Sie Ihre Protokolle bequem von der Kommandozeile aus durchsuchen können. Hierfür müssen Sie Ihre Loki-Instanz über HTTP freigeben oder Port-Forwarding von Ihrem Cluster zu Ihrem Computer verwenden.
+<a href="https://grafana.com/docs/loki/latest/tools/logcli/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">LogCLI</a> ist das CLI-Tool von Loki, mit dem du deine Protokolle bequem von der Kommandozeile aus durchsuchen kannst. Hierfür musst du deine Loki-Instanz über HTTP freigeben oder Port-Forwarding von deinem Cluster zu deinem Computer verwenden.
 :::
 
 
 
-:::BlogRelatedPosts{:url='["/blog/vuejs-error-tracking-with-sentry", "/blog/performance-comparison-gke-vs-eks", "/blog/kubernetes-development/", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/", "/blog/evolution-of-application-development-to-cloud-native"]'}
+:::BlogRelatedPosts{:url='["/blog/richtige-api-technologie-auswaehlen", "/blog/function-as-a-service-faas-vs-kubernetes", "/blog/kubernetes-development", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz"]'}
 
 :::
