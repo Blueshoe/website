@@ -112,7 +112,7 @@ Python- und Django-Entwicklung
 Herausforderungen, die es wert sind, gelöst zu werden
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-Wenn Sie ein bestimmtes Projekt im Sinn haben, kommen Sie zu uns. Wir sind immer hilfsbereit.
+Wenn Du ein bestimmtes Projekt im Sinn hast, kommen zu uns. Wir sind immer hilfsbereit.
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 **Telefon:** +49 89 54 19 84 22<br/>
@@ -128,7 +128,7 @@ target: "_blank"
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-white" .uppercase .mb-3}
-Ihr nächstes Projekt
+Dein nächstes Projekt
 :::
 ::
 :::
