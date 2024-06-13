@@ -1,10 +1,13 @@
 <template>
   <ul
     v-click-outside="emitOnClickOutside"
-    class="absolute left-[12px] top-[70px] grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
+    class="absolute left-3 top-16 grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
   >
-    <div v-if="props.navItem.children" class="border-r-2 border-bs-menu-hover">
-      <div class="text-base text-black font-normal px-6 py-2">
+    <div
+      v-if="props.navItem.children"
+      :class="{ 'border-r-2 border-bs-menu-hover': props.navItem.showChildrenContentDivider }"
+    >
+      <div v-if="props.navItem.showChildrenTitle" class="text-base text-black font-normal px-6 py-2">
         <span v-text="t('entwicklung')" />
       </div>
       <div class="grid grid-cols-2">
@@ -34,7 +37,7 @@
       </div>
     </div>
     <div v-if="props.navItem.children">
-      <div class="text-base text-black font-normal px-6 py-2">
+      <div v-if="props.navItem.showChildrenTitle" class="text-base text-black font-normal px-6 py-2">
         <span v-text="t('beratung')" />
       </div>
       <div class="grid grid-cols-2">
@@ -67,7 +70,7 @@
 </template>
 
 <script setup lang="ts">
-import BoosterImage from '#booster/components/BoosterImage';
+import BoosterImage from '#booster/components/BoosterImage.vue';
 import type { Menu } from '~/types';
 
 //  --------------------------------------------------------------------------------------------------------------------
