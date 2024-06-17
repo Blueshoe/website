@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-import type { Menu, Heading, Filter, SortedItems } from '~/types';
+import type { Menu, Heading, Filter, SortedItems, SubMenu } from '~/types';
 
 export const useGeneralStore = defineStore('general', () => {
   const headingListData = ref<Heading[]>([]);
@@ -9,96 +9,127 @@ export const useGeneralStore = defineStore('general', () => {
   const initialSorting = ref<SortedItems[]>(sortedItems.value);
   const isMobileMenuOpen = ref(false);
 
-  const entwicklung = [
-    {
-      name: 'cloudNativeDevelopment',
-      href: '/leistungen/cloud-native-development/',
-      icon: '/img/global/icons/cloud-storage.svg'
-    },
-    {
-      name: 'headlessCms',
-      href: '/leistungen/headless-cms/',
-      icon: '/img/global/icons/cms_1.svg'
-    },
-    {
-      name: 'wagtailCms',
-      href: '/leistungen/wagtail-cms/',
-      icon: '/img/global/icons/bird_1.svg'
-    },
-    {
-      name: 'pythonDjango',
-      href: '/leistungen/python-django-agentur/',
-      icon: '/img/global/icons/python.svg'
-    },
-    {
-      name: 'headlessECommerce',
-      href: '/leistungen/headless-e-commerce/',
-      icon: '/img/global/icons/buy-online.svg'
-    },
-    {
-      name: 'apiEntwicklung',
-      href: '/leistungen/api-entwicklung/',
-      icon: '/img/global/icons/api_1.svg'
-    },
-    {
-      name: 'oscarECommerce',
-      href: '/leistungen/oscar-e-commerce/',
-      icon: '/img/global/icons/shopping-cart.svg'
-    },
-    {
-      name: 'workflowAutomatisierung',
-      href: '/leistungen/workflow-automatisierung/',
-      icon: '/img/global/icons/data-transformation.svg'
-    }
-  ];
+  const entwicklung: SubMenu = {
+    title: 'entwicklung',
+    showTitle: true,
+    links: [
+      {
+        name: 'cloudNativeDevelopment',
+        href: '/leistungen/cloud-native-development/',
+        icon: '/img/global/icons/cloud-storage.svg'
+      },
+      {
+        name: 'headlessCms',
+        href: '/leistungen/headless-cms/',
+        icon: '/img/global/icons/cms_1.svg'
+      },
+      {
+        name: 'wagtailCms',
+        href: '/leistungen/wagtail-cms/',
+        icon: '/img/global/icons/bird_1.svg'
+      },
+      {
+        name: 'pythonDjango',
+        href: '/leistungen/python-django-agentur/',
+        icon: '/img/global/icons/python.svg'
+      },
+      {
+        name: 'headlessECommerce',
+        href: '/leistungen/headless-e-commerce/',
+        icon: '/img/global/icons/buy-online.svg'
+      },
+      {
+        name: 'apiEntwicklung',
+        href: '/leistungen/api-entwicklung/',
+        icon: '/img/global/icons/api_1.svg'
+      },
+      {
+        name: 'oscarECommerce',
+        href: '/leistungen/oscar-e-commerce/',
+        icon: '/img/global/icons/shopping-cart.svg'
+      },
+      {
+        name: 'workflowAutomatisierung',
+        href: '/leistungen/workflow-automatisierung/',
+        icon: '/img/global/icons/data-transformation.svg'
+      }
+    ]
+  };
 
-  const beratung = [
-    {
-      name: 'dockerKubernetes',
-      href: '/leistungen/docker-kubernetes/',
-      icon: '/img/global/icons/docker_kubernetes.svg'
-    },
-    {
-      name: 'unikube',
-      href: '/leistungen/unikube/',
-      icon: '/img/global/icons/unikube-logo.svg'
-    },
-    {
-      name: 'djangoHurricane',
-      href: '/leistungen/django-hurricane/',
-      icon: '/img/global/icons/hurricane-icon.svg'
-    },
-    {
-      name: 'cloudBeratung',
-      href: '/leistungen/cloud-native-beratung/',
-      icon: '/img/global/icons/consulting_1.svg'
-    },
-    {
-      name: 'microserviceArchitekturen',
-      href: '/leistungen/microservice-architektur-beratung/',
-      icon: '/img/global/icons/infrastructure_1.svg'
-    },
-    {
-      name: 'kubernetesMigration',
-      href: '/leistungen/migration-auf-kubernetes/',
-      icon: '/img/global/icons/migration.svg'
-    },
-    {
-      name: 'cloudInfrastruktur',
-      href: '/leistungen/cloud-infrastruktur-beratung/',
-      icon: '/img/global/icons/cloud-computing.svg'
-    },
-    {
-      name: 'cloudNativeTools',
-      href: '/leistungen/cloud-native-tools/',
-      icon: '/img/global/icons/repair.svg'
-    },
-    {
-      name: 'cloudSicherheit',
-      href: '/leistungen/cloud-sicherheit-beratung/',
-      icon: '/img/global/icons/cyber-security.svg'
-    }
-  ];
+  const beratung: SubMenu = {
+    title: 'beratung',
+    showTitle: true,
+    links: [
+      {
+        name: 'dockerKubernetes',
+        href: '/leistungen/docker-kubernetes/',
+        icon: '/img/global/icons/docker_kubernetes.svg'
+      },
+      {
+        name: 'unikube',
+        href: '/leistungen/unikube/',
+        icon: '/img/global/icons/unikube-logo.svg'
+      },
+      {
+        name: 'djangoHurricane',
+        href: '/leistungen/django-hurricane/',
+        icon: '/img/global/icons/hurricane-icon.svg'
+      },
+      {
+        name: 'cloudBeratung',
+        href: '/leistungen/cloud-native-beratung/',
+        icon: '/img/global/icons/consulting_1.svg'
+      },
+      {
+        name: 'microserviceArchitekturen',
+        href: '/leistungen/microservice-architektur-beratung/',
+        icon: '/img/global/icons/infrastructure_1.svg'
+      },
+      {
+        name: 'kubernetesMigration',
+        href: '/leistungen/migration-auf-kubernetes/',
+        icon: '/img/global/icons/migration.svg'
+      },
+      {
+        name: 'cloudInfrastruktur',
+        href: '/leistungen/cloud-infrastruktur-beratung/',
+        icon: '/img/global/icons/cloud-computing.svg'
+      },
+      {
+        name: 'cloudNativeTools',
+        href: '/leistungen/cloud-native-tools/',
+        icon: '/img/global/icons/repair.svg'
+      },
+      {
+        name: 'cloudSicherheit',
+        href: '/leistungen/cloud-sicherheit-beratung/',
+        icon: '/img/global/icons/cyber-security.svg'
+      }
+    ]
+  };
+
+  const childTest: SubMenu = {
+    title: 'Test',
+    showTitle: true,
+    singleLineLinks: true,
+    links: [
+      {
+        name: 'dockerKubernetes',
+        href: '/leistungen/docker-kubernetes/',
+        icon: '/img/global/icons/docker_kubernetes.svg'
+      },
+      {
+        name: 'unikube',
+        href: '/leistungen/unikube/',
+        icon: '/img/global/icons/unikube-logo.svg'
+      },
+      {
+        name: 'djangoHurricane',
+        href: '/leistungen/django-hurricane/',
+        icon: '/img/global/icons/hurricane-icon.svg'
+      }
+    ]
+  };
 
   const menu = ref<Menu[]>([
     {
@@ -106,12 +137,17 @@ export const useGeneralStore = defineStore('general', () => {
       href: undefined,
       dropDown: true,
       isDropDown: false,
-      children: [entwicklung, beratung],
-      childrenContentStyle: 'single',
-      showChildrenContentDivider: true,
-      showChildrenTitle: true
+      showChildrenDivider: true,
+      children: [entwicklung, beratung]
     },
-    { name: 'projekte', href: '/projekte/', dropDown: false },
+    {
+      name: 'projekte',
+      href: '/projekte/',
+      dropDown: true,
+      isDropDown: false,
+      singleChildrenContentStyle: true,
+      children: [childTest]
+    },
     { name: 'unsereTools', href: '/tools/', dropDown: false },
     { name: 'überUns', href: '/team/', dropDown: false },
     { name: 'jobs', href: '/jobs/', dropDown: false },

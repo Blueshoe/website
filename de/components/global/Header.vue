@@ -62,7 +62,7 @@
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
-import BoosterImage from '#booster/components/BoosterImage';
+import BoosterImage from '#booster/components/BoosterImage.vue';
 import { useGeneralStore } from '~/store';
 import DesktopMenu from '~/components/global/DesktopMenu.vue';
 import MobileMenu from '~/components/global/MobileMenu.vue';

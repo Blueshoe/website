@@ -1,69 +1,53 @@
 <template>
   <ul
     v-click-outside="emitOnClickOutside"
-    class="absolute left-3 top-16 grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
+    class="absolute left-3 top-16 grid grid-cols-1 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
+    :class="{ 'grid-cols-2': !props.navItem.singleChildrenContentStyle }"
   >
     <div
-      v-if="props.navItem.children"
-      :class="{ 'border-r-2 border-bs-menu-hover': props.navItem.showChildrenContentDivider }"
+      v-for="(child, index) in props.navItem.children"
+      :key="index"
+      :class="{ 'border-r-2 border-bs-menu-hover': props.navItem.showChildrenDivider }"
     >
-      <div v-if="props.navItem.showChildrenTitle" class="text-base text-black font-normal px-6 py-2">
-        <span v-text="t('entwicklung')" />
+      <div v-if="child.showTitle" class="text-base text-black font-normal px-6 py-2">
+        <span v-text="t(child.title)" />
       </div>
-      <div class="grid grid-cols-2">
-        <li
-          v-for="(child, index) in props.navItem.children[0]"
-          :key="index"
-          class="relative font-source-sans-pro font-normal text-base py-2.5"
-          @click.stop="emitHandleCloseMenu(props.navItem)"
-        >
-          <NuxtLink
-            :to="child.href"
-            class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
+      <div class="flex grow items-center">
+        <div :class="[child.singleLineLinks ? 'w-1/2 border-r-2 border-bs-menu-hover' : 'grid grid-cols-2 w-full']">
+          <li
+            v-for="(link, i) in child.links"
+            :key="i"
+            class="w-fit relative font-source-sans-pro font-normal text-base py-2.5"
+            @click.stop="emitHandleCloseMenu(props.navItem)"
           >
-            <div class="flex items-center gap-2 px-6 py-1">
-              <BoosterImage
-                :src="child.icon"
-                width="40"
-                title="menu icon"
-                class="max-w-[40px]"
-                alt="menu icon"
-                format="webp"
-              />
-              <span v-text="t(child.name)" />
-            </div>
-          </NuxtLink>
-        </li>
-      </div>
-    </div>
-    <div v-if="props.navItem.children">
-      <div v-if="props.navItem.showChildrenTitle" class="text-base text-black font-normal px-6 py-2">
-        <span v-text="t('beratung')" />
-      </div>
-      <div class="grid grid-cols-2">
-        <li
-          v-for="(child, index2) in props.navItem.children[1]"
-          :key="index2"
-          class="relative font-source-sans-pro font-normal text-base py-2.5"
-          @click.stop="emitHandleCloseMenu(props.navItem)"
-        >
-          <NuxtLink
-            :to="child.href"
-            class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
-          >
-            <div class="flex items-center gap-2 px-6 py-1">
-              <BoosterImage
-                :src="child.icon"
-                width="40"
-                title="menu icon"
-                class="max-w-[40px]"
-                alt="menu icon"
-                format="webp"
-              />
-              <span v-text="t(child.name)" />
-            </div>
-          </NuxtLink>
-        </li>
+            <NuxtLink
+              :to="link.href"
+              class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
+              @mouseover="setActiveChild(link)"
+            >
+              <div class="flex items-center gap-2 px-6 py-1">
+                <BoosterImage
+                  class="max-w-[40px]"
+                  :src="link.icon"
+                  :title="`${t(link.name)} Icon`"
+                  :alt="`${t(link.name)} Icon`"
+                  width="40"
+                  format="webp"
+                />
+                <span v-text="t(link.name)" />
+              </div>
+            </NuxtLink>
+          </li>
+        </div>
+        <div v-if="child.singleLineLinks && currentActiveImage" class="w-1/2 flex justify-center">
+          <BoosterImage
+            class="max-w-[160px]"
+            :src="currentActiveImage"
+            :title="`${t(currentActiveChildName)} Icon`"
+            :alt="`${t(currentActiveChildName)} Icon`"
+            format="webp"
+          />
+        </div>
       </div>
     </div>
   </ul>
@@ -71,7 +55,7 @@
 
 <script setup lang="ts">
 import BoosterImage from '#booster/components/BoosterImage.vue';
-import type { Menu } from '~/types';
+import type { Menu, SubMenuLink } from '~/types/menu';
 
 //  --------------------------------------------------------------------------------------------------------------------
 //  props
@@ -85,6 +69,25 @@ const props = defineProps<PropsInterface>();
 const { t } = useI18n({
   useScope: 'local'
 });
+
+const currentActiveImage = ref('');
+const currentActiveChildName = ref('');
+
+function setActiveChild(link: SubMenuLink) {
+  currentActiveImage.value = link.icon;
+  currentActiveChildName.value = t(link.name);
+}
+
+watch(
+  props.navItem,
+  (newNavItem) => {
+    if (newNavItem.children && newNavItem.children[0].links[0].icon && newNavItem.children[0].singleLineLinks) {
+      currentActiveImage.value = newNavItem.children[0].links[0].icon;
+      currentActiveChildName.value = t(newNavItem.children[0].links[0].name);
+    }
+  },
+  { immediate: true }
+);
 
 //  --------------------------------------------------------------------------------------------------------------------
 //  emits

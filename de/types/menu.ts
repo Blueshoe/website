@@ -4,14 +4,20 @@ export type Menu = {
   icon?: string;
   dropDown?: boolean;
   isDropDown?: boolean;
-  children?: SubMenu[][];
-  childrenContentStyle?: 'single' | 'multiple';
-  showChildrenContentDivider?: boolean;
-  showChildrenTitle?: boolean;
+  children?: SubMenu[];
+  singleChildrenContentStyle?: boolean;
+  showChildrenDivider?: boolean;
 };
 
-export type SubMenu = {
+export type SubMenuLink = {
   name: string;
   href: string;
   icon: string;
+};
+
+export type SubMenu = {
+  title: string;
+  showTitle?: boolean;
+  singleLineLinks?: boolean;
+  links: SubMenuLink[];
 };
