@@ -5,13 +5,13 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Entdecken Sie den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
+      content: 'Entdecke den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Django CMS Plugins und Apps'
     - property: 'og:description'
-      content: 'Entdecken Sie den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
+      content: 'Entdecke den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/blogs/clint-patterson-exfrR9KkzlE.jpg'
     - property: 'og:image:secure_url'
@@ -21,7 +21,7 @@ head:
     - name: 'twitter:title'
       content: 'Django CMS Plugins und Apps'
     - name: 'twitter:description'
-      content: 'Entdecken Sie den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
+      content: 'Entdecke den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/blogs/clint-patterson-exfrR9KkzlE.jpg'
 src: '/blog/django-cms-plugins-und-apps'
@@ -29,7 +29,7 @@ img: '/img/blogs/clint-patterson-exfrR9KkzlE.jpg'
 alt: 'clint-patterson-exfrR9KkzlE'
 preTitle: "Das sind die Unterschiede"
 title: "Django CMS Plugins und Apps"
-description: 'Entdecken Sie den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
+description: 'Entdecke den Unterschied zwischen Django CMS Plugins und Apps mit klaren Erklärungen und Beispielen für Nutzer und Entwickler.'
 date: '30.07.2017'
 autor:
   - Robert Stein
