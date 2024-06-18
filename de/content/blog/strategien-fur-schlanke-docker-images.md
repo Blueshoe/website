@@ -29,7 +29,7 @@ img: '/img/blogs/pexels-chanaka.jpg'
 alt: 'pexels-chanaka'
 preTitle: "So viel wie nötig, so wenig wie möglich"
 title: "Strategien für schlanke Docker Images"
-description: 'Strategien für schlanke Docker Images: Erfahren Sie, wie Sie Docker Images mit Multi-Stage Dockerfiles und optimierten Basis-Images effizient und klein halten. Perfekt für Entwickler.'
+description: 'Strategien für schlanke Docker Images: Erfahre, wie du Docker Images mit Multi-Stage Dockerfiles und optimierten Basis-Images effizient und klein hältst. Perfekt für Entwickler.'
 date: '30.07.2020'
 autor:
   - Gutschi
