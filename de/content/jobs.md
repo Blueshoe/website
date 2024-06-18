@@ -102,16 +102,7 @@ JOBS BEI BLUESHOE
 Lust auf blaue Schuhe?
 ::::
 ::::GlobalParagraph{.mb-4}
-Aktuell haben wir folgende Stellen zu besetzen:
-::::
-::::GlobalParagraph{.mb-4}
-<a href="https://blueshoe.workwise.io/job/43017-senior-backend-developer-mit-fokus-python-remote-m-w-d" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">(Senior-) Python Entwickler:in (m/w/d)</a>
-::::
-::::GlobalParagraph{.mb-4}
-<a href="https://blueshoe.workwise.io/job/14194-junior-it-projektmanager-m-w-d-100-remote" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">IT Project Manager (m/w/d) - Teilzeit - Home Office</a>
-::::
-::::GlobalParagraph{.mb-4}
-Wir freuen uns auf deine Bewerbung!
+Aktuell haben wir keine Stellen zu besetzen.
 ::::
 :::
 
