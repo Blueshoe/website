@@ -5,13 +5,13 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Erfahren Sie, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
+      content: 'Finde heraus, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Was steckt hinter Googles AMP?'
     - property: 'og:description'
-      content: 'Erfahren Sie, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
+      content: 'Finde heraus, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/blogs/magnet-me-Ayx2M0iiVFQl.jpg'
     - property: 'og:image:secure_url'
@@ -21,7 +21,7 @@ head:
     - name: 'twitter:title'
       content: 'Was steckt hinter Googles AMP?'
     - name: 'twitter:description'
-      content: 'Erfahren Sie, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
+      content: 'Finde heraus, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/blogs/magnet-me-Ayx2M0iiVFQl.jpg'
 src: '/blog/was-ist-amp'
@@ -29,7 +29,7 @@ img: '/img/blogs/magnet-me-Ayx2M0iiVFQl.jpg'
 alt: 'magnet-me-Ayx2M0iiVFQl'
 preTitle: "Wir haben das Tech-Projekt unter die Lupe genommen"
 title: "Was steckt hinter Googles AMP?"
-description: 'Erfahren Sie, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
+description: 'Finde heraus, ob Googles AMP nur ein Hype ist oder eine zukunftsweisende Technologie für Webseiten-Betreiber. Wir analysieren Vorteile und Anwendungen von AMP.'
 date: '17.03.2017'
 autor:
   - Robert Stein
