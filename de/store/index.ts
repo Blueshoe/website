@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
-import type { Menu, Heading, Filter, SortedItems } from '~/types';
+import type { Menu, Heading, Filter, SortedItems, SubMenu } from '~/types';
 
 export const useGeneralStore = defineStore('general', () => {
   const headingListData = ref<Heading[]>([]);
@@ -52,53 +52,80 @@ export const useGeneralStore = defineStore('general', () => {
     }
   ];
 
-  const beratung = [
-    {
-      name: 'dockerKubernetes',
-      href: '/leistungen/docker-kubernetes/',
-      icon: '/img/global/icons/docker_kubernetes.svg'
-    },
-    {
-      name: 'unikube',
-      href: '/leistungen/unikube/',
-      icon: '/img/global/icons/unikube-logo.svg'
-    },
-    {
-      name: 'djangoHurricane',
-      href: '/leistungen/django-hurricane/',
-      icon: '/img/global/icons/hurricane-icon.svg'
-    },
-    {
-      name: 'cloudBeratung',
-      href: '/leistungen/cloud-native-beratung/',
-      icon: '/img/global/icons/consulting_1.svg'
-    },
-    {
-      name: 'microserviceArchitekturen',
-      href: '/leistungen/microservice-architektur-beratung/',
-      icon: '/img/global/icons/infrastructure_1.svg'
-    },
-    {
-      name: 'kubernetesMigration',
-      href: '/leistungen/migration-auf-kubernetes/',
-      icon: '/img/global/icons/migration.svg'
-    },
-    {
-      name: 'cloudInfrastruktur',
-      href: '/leistungen/cloud-infrastruktur-beratung/',
-      icon: '/img/global/icons/cloud-computing.svg'
-    },
-    {
-      name: 'cloudNativeTools',
-      href: '/leistungen/cloud-native-tools/',
-      icon: '/img/global/icons/repair.svg'
-    },
-    {
-      name: 'cloudSicherheit',
-      href: '/leistungen/cloud-sicherheit-beratung/',
-      icon: '/img/global/icons/cyber-security.svg'
-    }
-  ];
+  const beratung: SubMenu = {
+    title: 'beratung',
+    showTitle: true,
+    links: [
+      {
+        name: 'dockerKubernetes',
+        href: '/leistungen/docker-kubernetes/',
+        icon: '/img/global/icons/docker_kubernetes.svg'
+      },
+      {
+        name: 'unikube',
+        href: '/leistungen/unikube/',
+        icon: '/img/global/icons/unikube-logo.svg'
+      },
+      {
+        name: 'djangoHurricane',
+        href: '/leistungen/django-hurricane/',
+        icon: '/img/global/icons/hurricane-icon.svg'
+      },
+      {
+        name: 'cloudBeratung',
+        href: '/leistungen/cloud-native-beratung/',
+        icon: '/img/global/icons/consulting_1.svg'
+      },
+      {
+        name: 'microserviceArchitekturen',
+        href: '/leistungen/microservice-architektur-beratung/',
+        icon: '/img/global/icons/infrastructure_1.svg'
+      },
+      {
+        name: 'kubernetesMigration',
+        href: '/leistungen/migration-auf-kubernetes/',
+        icon: '/img/global/icons/migration.svg'
+      },
+      {
+        name: 'cloudInfrastruktur',
+        href: '/leistungen/cloud-infrastruktur-beratung/',
+        icon: '/img/global/icons/cloud-computing.svg'
+      },
+      {
+        name: 'cloudNativeTools',
+        href: '/leistungen/cloud-native-tools/',
+        icon: '/img/global/icons/repair.svg'
+      },
+      {
+        name: 'cloudSicherheit',
+        href: '/leistungen/cloud-sicherheit-beratung/',
+        icon: '/img/global/icons/cyber-security.svg'
+      }
+    ]
+  };
+
+  const childTest: SubMenu = {
+    title: 'Test',
+    showTitle: true,
+    singleLineLinks: true,
+    links: [
+      {
+        name: 'dockerKubernetes',
+        href: '/leistungen/docker-kubernetes/',
+        icon: '/img/global/icons/docker_kubernetes.svg'
+      },
+      {
+        name: 'unikube',
+        href: '/leistungen/unikube/',
+        icon: '/img/global/icons/unikube-logo.svg'
+      },
+      {
+        name: 'djangoHurricane',
+        href: '/leistungen/django-hurricane/',
+        icon: '/img/global/icons/hurricane-icon.svg'
+      }
+    ]
+  };
 
   const menu = ref<Menu[]>([
     {
@@ -106,9 +133,17 @@ export const useGeneralStore = defineStore('general', () => {
       href: undefined,
       dropDown: true,
       isDropDown: false,
+      showChildrenDivider: true,
       children: [entwicklung, beratung]
     },
-    { name: 'projekte', href: '/projekte/', dropDown: false },
+    {
+      name: 'projekte',
+      href: '/projekte/',
+      dropDown: true,
+      isDropDown: false,
+      singleChildrenContentStyle: true,
+      children: [childTest]
+    },
     { name: 'unsereTools', href: '/tools/', dropDown: false },
     { name: 'überUns', href: '/team/', dropDown: false },
     { name: 'jobs', href: '/jobs/', dropDown: false },
