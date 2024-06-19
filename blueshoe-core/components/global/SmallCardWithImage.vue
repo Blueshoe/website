@@ -60,6 +60,7 @@
 
 <script setup lang="ts">
 import BoosterImage from '#booster/components/BoosterImage';
+import Title from './Title.vue';
 type BgColor = 'bg-white' | 'bg-bs-blue';
 type Target = '_blank' | '_self';
 

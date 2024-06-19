@@ -12,7 +12,7 @@ Stabil und langlebig
 <span>1.</span> Anforderungsanalyse-Workshop
 
 #cardText
-Beginnen Sie hier Ihre Reise
+Beginne hier deine Reise
 :::
 
 #card2
@@ -22,7 +22,7 @@ Beginnen Sie hier Ihre Reise
 <span>2.</span> Umsetzbare Anforderungsdefinition
 
 #cardText
-Sie erhalten eine genaue Preisindikation für Ihr Projekt
+Du erhältst eine genaue Preisindikation für dein Projekt
 :::
 
 #card3
@@ -51,7 +51,7 @@ Korrigierende Wartung </br> Perfektive Wartung </br> Adaptive Wartung
 :::
 
 #buttonBlockTitle
-Vereinbaren Sie jetzt ein Treffen mit unserem Experten
+Vereinbare jetzt ein Treffen mit unserem Experten
 #buttonLabel
-Zeitfenster finden
+Termin finden
 ::
