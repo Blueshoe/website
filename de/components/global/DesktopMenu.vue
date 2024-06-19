@@ -57,6 +57,8 @@ const handleCloseMenu = (nav: Menu) => {
 <i18n lang="json">
 {
   "en": {
+    "services": "Leistungen",
+    "solutions": "Lösungen",
     "cloudNativeDevelopment": "Cloud Native Development",
     "headlessCms": "Headless CMS",
     "wagtailCms": "Wagtail CMS",
