@@ -148,8 +148,8 @@ export const useGeneralStore = defineStore('general', () => {
       },
       {
         name: 'requirementsDocs',
-        href: '/leistungen/anforderungsanalyse/',
-        icon: '/img/services/bessere_anforderungen.svg',
+        href: '/leistungen/anforderungsanalyse#anforderungsdokumentation',
+        icon: '/img/services/Was-wird-erledigt.svg',
         image: '/img/global/icons/RAPID_A.svg',
         caps: 'A',
         helpText: 'Projektbeschreibung und Kosten'

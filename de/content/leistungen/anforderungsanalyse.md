@@ -63,19 +63,14 @@ Je nach Komplexität bieten wir dir folgende Optionen an:
 
 <!--- Was erledigen wir für euch --->
 :::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true}
-::::GlobalTitle{.mb-6}
+::::GlobalTitle{.mb-6 id="anforderungsdokumentation"}
 Was erledigen wir für euch
 ::::
 ::::GlobalBlock{.mb-4 .ul-disk}
-- Verminderte Komplexität (spezialisiert auf Content-Verwaltung)
-- Erleichterte Einbindung von Dritt-Lösungen
-- Leichte Skalierbarkeit (z. B. größere Server)
-- Kein Page-Reload mehr
-- Sprach-agnostisch (API kann mit jeder Programmiersprache genutzt werden)
-- Frontend-freundlich
-- Beliebigkeit (Kanäle, Plattformen etc.)
-- Keine Content-Migrationen mehr
-- Vorteile dank Open Source
+- Wir bringen die richtigen Leute an einen Tisch
+- Wir moderieren einen Workshop um alle wesentlichen Anforderungen des Produktes zu erkunden
+- Wir streichen zusätzliche Funktionen und legen diese in einen Speicher für später
+- Wir erstellen und iterieren den Anforderungskatalog bis zur finalen Fassung
 ::::
 #button
 ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
@@ -121,10 +116,7 @@ Welches Ergebnis kannst du erwarten?
 <!--- Projekte --->
 :::GlobalSliderSection{:numberCards=2 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
 ::::GlobalTitle{.mb-6}
-Beispiele für Headless CMS-Projekte
-::::
-::::GlobalParagraph
-Wie Webseiten aussehen können, die mit dem Headless-Ansatz entwickelt wurden? Na so zum Beispiel.
+Projekte, für die wir die Anforderungen analysiert haben.
 ::::
 
 #card1
