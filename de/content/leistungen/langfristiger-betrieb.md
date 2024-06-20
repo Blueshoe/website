@@ -26,14 +26,14 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-::GlobalSimpleSection{:bg="bg-white"}
-:::GlobalPreTitle{.mb-3}
+::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/rapid_maintenance.svg" :imagePosition="right"}
+:::GlobalPreTitle{.mb-3 :color="text-white"}
 LANGANHALTENDE WARTUNG UND SUPPORT FÜR DEIN SOFTWAREPROJEKT BEI BLUESHOE
 :::
-:::GlobalTitle{.mb-6}
+:::GlobalTitle{.mb-6 :color="text-white"}
 Langfristigen Software-Betrieb bei Blueshoe
 :::
-:::GlobalParagraph
+:::GlobalParagraph{:color="text-white"}
 Solide und langlebige Software benötigt anhaltende Wartung. Blueshoe is spezialisiert auf kontinuierliche Wartung und schnellem Support von Web-Systemen zu erschwinglichen Preisen.
 
 :::

@@ -27,7 +27,6 @@
             >
               <div class="flex items-center gap-2 px-6 py-1">
                 <BoosterImage
-                  v-if="!child.singleLineLinks"
                   class="max-w-[40px]"
                   :src="link.icon"
                   :title="`${t(link.name)} Icon`"
@@ -35,16 +34,15 @@
                   width="40"
                   format="webp"
                 />
-                <span v-else class="font-bold" v-text="t(link.caps)" />
-                <span v-text="t(link.name)" />
+                <span :class="child.singleLineLinks ? 'first-letter:font-bold' : ''" v-text="t(link.name)" />
               </div>
             </NuxtLink>
           </li>
         </div>
         <div v-if="child.singleLineLinks && currentActiveImage" class="w-1/2 flex justify-center">
           <div>
-            <span class="px-8 font-bold">{{ currentActiveChildName }}</span><br />
-            <span class="px-8">{{ currentActiveHelpText }}</span>
+            <span class="px-8 text-base font-semibold leading-5 font-source-sans-pro uppercase">{{ currentActiveChildName }}</span><br />
+            <span class="px-8 font-extralight font-oswald text-[40px] leading-[48px]">{{ currentActiveHelpText }}</span>
             <BoosterImage
               class="p-8 w-[250px]"
               :src="currentActiveImage"
@@ -52,7 +50,6 @@
               :alt="`${t(currentActiveChildName)} Icon`"
               format="webp"
             />
-            
           </div>
         </div>
       </div>
@@ -82,7 +79,7 @@ const currentActiveChildName = ref('');
 const currentActiveHelpText = ref('');
 
 function setActiveChild(link: SubMenuLink) {
-  currentActiveImage.value = link.icon;
+  currentActiveImage.value = link.image || '';
   currentActiveChildName.value = t(link.name);
   currentActiveHelpText.value = t(link.helpText);
 }
@@ -90,8 +87,8 @@ function setActiveChild(link: SubMenuLink) {
 watch(
   props.navItem,
   (newNavItem) => {
-    if (newNavItem.children && newNavItem.children[0].links[0].icon && newNavItem.children[0].singleLineLinks) {
-      currentActiveImage.value = newNavItem.children[0].links[0].icon;
+    if (newNavItem.children && newNavItem.children[0].links[0].image && newNavItem.children[0].singleLineLinks) {
+      currentActiveImage.value = newNavItem.children[0].links[0].image || '';
       currentActiveChildName.value = t(newNavItem.children[0].links[0].name);
       currentActiveHelpText.value = t(newNavItem.children[0].links[0].helpText || '');
     }
@@ -119,11 +116,11 @@ const emitHandleCloseMenu = (nav: Menu) => {
 <i18n lang="json">
 {
   "en": {
-    "requirementsEngineering": "Anforderungs Workshops",
-    "requirementsDocs": "Anforderungsdokumentation",
-    "projectGreenlight": "Freigabeentscheidung",
-    "softwareDevelopment": "Software & Infrastruktur Realisierung",
-    "softwareMaintenance": "Wartung & Support",
+    "requirementsEngineering": "Requirements Workshop",
+    "requirementsDocs": "Actionable Scope",
+    "projectGreenlight": "Project greenlight, or stop",
+    "softwareDevelopment": "Implementation",
+    "softwareMaintenance": "Durable Maintenance",
     "automaticFrontendTesting": "Automatisches Frontend Testing",
     "rightsAccessManagement": "Rights & Access Management",
     "websiteBooster": "Schnelle Websites",

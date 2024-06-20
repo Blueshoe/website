@@ -26,7 +26,7 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-::GlobalSimpleSection{:bg="bg-bs-blue"}
+::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/programmer.svg" :imagePosition="right"}
 :::GlobalPreTitle{.mb-3 :color="text-white"}
 Wir realisieren IT-Projekte ohne Fallstricke
 :::

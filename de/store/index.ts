@@ -141,37 +141,42 @@ export const useGeneralStore = defineStore('general', () => {
       {
         name: 'requirementsEngineering',
         href: '/leistungen/anforderungsanalyse/',
-        icon: '/img/global/icons/RAPID_R.svg',
+        icon: '/img/global/icons/discussion.svg',
+        image: '/img/global/icons/RAPID_R.svg',
         caps: 'R',
-        helpText: 'Requirements Workshop'
+        helpText: 'Anforderungsanalyse'
       },
       {
         name: 'requirementsDocs',
         href: '/leistungen/anforderungsanalyse/',
-        icon: '/img/global/icons/RAPID_A.svg',
+        icon: '/img/services/bessere_anforderungen.svg',
+        image: '/img/global/icons/RAPID_A.svg',
         caps: 'A',
-        helpText: 'Actionable Scope'
+        helpText: 'Projektbeschreibung und Kosten'
       },
       {
         name: 'projectGreenlight',
         href: '/leistungen/anforderungsanalyse/',
-        icon: '/img/global/icons/RAPID_P.svg',
+        icon: '/img/global/icons/go.svg',
+        image: '/img/global/icons/RAPID_P.svg',
         caps: 'P',
-        helpText: 'Project greenlight, or stop'
+        helpText: 'Projekt Freigabeentscheidung'
       },
       {
         name: 'softwareDevelopment',
         href: '/leistungen/software-realisierung/',
-        icon: '/img/global/icons/RAPID_I.svg',
+        icon: '/img/global/icons/programmer.svg',
+        image: '/img/global/icons/RAPID_I.svg',
         caps: 'I',
-        helpText: 'Implementation'
+        helpText: 'Software & Infrastruktur Realisierung'
       },
       {
         name: 'softwareMaintenance',
         href: '/leistungen/langfristiger-betrieb/',
-        icon: '/img/global/icons/RAPID_D.svg',
+        icon: '/img/global/icons/rapid_maintenance.svg',
+        image: '/img/global/icons/RAPID_D.svg',
         caps: 'D',
-        helpText: 'Durable Maintenance'
+        helpText: 'Wartung & Support'
       }
     ]
   };

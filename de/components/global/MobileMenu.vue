@@ -82,6 +82,19 @@ const toggleChild = (nav: Menu) => {
 <i18n lang="json">
 {
   "en": {
+    "services": "Leistungen",
+    "solutions": "Lösungen",
+    "requirementsEngineering": "Anforderungs Workshops",
+    "requirementsDocs": "Anforderungsdokumentation",
+    "projectGreenlight": "Freigabeentscheidung",
+    "softwareDevelopment": "Software & Infrastruktur Realisierung",
+    "softwareMaintenance": "Wartung & Support",
+    "automaticFrontendTesting": "Automatisches Frontend Testing",
+    "rightsAccessManagement": "Rights & Access Management",
+    "websiteBooster": "Schnelle Websites",
+    "websiteAccessability": "Barrierefreie Websites",
+    "hostingCostReduction": "Hostingkosten reduzieren",
+    "gefyra": "Kubernetes Development",
     "cloudNativeDevelopment": "Cloud Native Development",
     "headlessCms": "Headless CMS",
     "wagtailCms": "Wagtail CMS",

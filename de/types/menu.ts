@@ -13,6 +13,7 @@ export type SubMenuLink = {
   name: string;
   href: string;
   icon: string;
+  image?: string;
   caps?: string;
   helpText?: string;
 };
