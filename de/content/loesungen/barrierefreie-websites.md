@@ -96,19 +96,19 @@ Profitiere von:
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/services/neue_nutzergruppen.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Neue Nutzergruppen erschließen
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/lizenzkostenfrei.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
-Besseres Nutzererlebnis
+Keine Lizenzkosten
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/services/gesetzeskonform.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Gesetzeskonform Dienstleistungen anbieten
 :::

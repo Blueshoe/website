@@ -16,7 +16,7 @@ export const useGeneralStore = defineStore('general', () => {
       {
         name: 'automaticFrontendTesting',
         href: '/loesungen/automatisches-frontend-testing/',
-        icon: '/img/global/icons/docker_kubernetes.svg'
+        icon: '/img/services/test_automation.svg'
       },
       {
         name: 'rightsAccessManagement',
@@ -31,7 +31,7 @@ export const useGeneralStore = defineStore('general', () => {
       {
         name: 'websiteAccessability',
         href: '/loesungen/barrierefreie-websites/',
-        icon: '/img/global/icons/docker_kubernetes.svg'
+        icon: '/img/services/barrierefreie_website.svg'
       },
       {
         name: 'hostingCostReduction',
