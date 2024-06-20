@@ -123,7 +123,7 @@ Ob Docker oder Podman - wenn die Produktionsbereitstellungen ernst genommen werd
 
 :::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" .mb-6}
 ::::GlobalTitle{:tag="h3" .mb-6}
-Tools für das Handwerk - Ausgabe 1: Kubernetes-Entwicklungsumgebungen
+Tools for the craft - Ausgabe 1: Kubernetes-Entwicklungsumgebungen
 ::::
 ::::globalParagraph{:font-size="lg" .mb-4}
 Hier findest du die erste Ausgabe unseres Kubernetes-Podcasts "Tools für das Handwerk: Die Navigation im Kubernetes-Ökosystem". Michael und Robert sprechen ausführlich über die Feinheiten der lokalen Kubernetes-Entwicklung und geben auch einige echte Codierungsbeispiele.
@@ -200,6 +200,6 @@ Fühle dich frei, <a href="https://www.linkedin.com/in/michael-schilonka/" class
 :::
 
 
-:::BlogRelatedPosts{:url='["/blog/container-orchestration-options-comparison", "/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/strategies-for-slim-docker-images", "/blog/local-kubernetes-development", "/blog/evolution-of-application-development-to-cloud-native"]'}
+:::BlogRelatedPosts{:url='["/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/strategien-fur-schlanke-docker-images", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz"]'}
 
 :::
