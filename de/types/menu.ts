@@ -13,6 +13,8 @@ export type SubMenuLink = {
   name: string;
   href: string;
   icon: string;
+  caps?: string;
+  helpText?: string;
 };
 
 export type SubMenu = {

@@ -57,15 +57,6 @@ Je nach Komplexität bieten wir dir folgende Optionen an:
 :::GlobalPartial{content=workshop-pricing}
 :::
 
-::GlobalSimpleSection{:bg="bg-white"}
-:::GlobalParagraph{.mb-4}
-Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. 
-:::
-:::GlobalParagraph{.mb-4}
-Bitte sprich uns an, wenn du einen Workshop mit Blueshoe durchführen möchtest.
-:::
-::
-
 <!--- Call an expert --->
 :::GlobalPartial{content=catcher-2}
 :::

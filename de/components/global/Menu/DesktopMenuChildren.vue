@@ -27,6 +27,7 @@
             >
               <div class="flex items-center gap-2 px-6 py-1">
                 <BoosterImage
+                  v-if="!child.singleLineLinks"
                   class="max-w-[40px]"
                   :src="link.icon"
                   :title="`${t(link.name)} Icon`"
@@ -34,19 +35,25 @@
                   width="40"
                   format="webp"
                 />
+                <span v-else class="font-bold" v-text="t(link.caps)" />
                 <span v-text="t(link.name)" />
               </div>
             </NuxtLink>
           </li>
         </div>
         <div v-if="child.singleLineLinks && currentActiveImage" class="w-1/2 flex justify-center">
-          <BoosterImage
-            class="max-w-[160px]"
-            :src="currentActiveImage"
-            :title="`${t(currentActiveChildName)} Icon`"
-            :alt="`${t(currentActiveChildName)} Icon`"
-            format="webp"
-          />
+          <div>
+            <span class="px-8 font-bold">{{ currentActiveChildName }}</span><br />
+            <span class="px-8">{{ currentActiveHelpText }}</span>
+            <BoosterImage
+              class="p-8 w-[250px]"
+              :src="currentActiveImage"
+              :title="`${t(currentActiveChildName)} Icon`"
+              :alt="`${t(currentActiveChildName)} Icon`"
+              format="webp"
+            />
+            
+          </div>
         </div>
       </div>
     </div>
@@ -72,10 +79,12 @@ const { t } = useI18n({
 
 const currentActiveImage = ref('');
 const currentActiveChildName = ref('');
+const currentActiveHelpText = ref('');
 
 function setActiveChild(link: SubMenuLink) {
   currentActiveImage.value = link.icon;
   currentActiveChildName.value = t(link.name);
+  currentActiveHelpText.value = t(link.helpText);
 }
 
 watch(
@@ -84,6 +93,7 @@ watch(
     if (newNavItem.children && newNavItem.children[0].links[0].icon && newNavItem.children[0].singleLineLinks) {
       currentActiveImage.value = newNavItem.children[0].links[0].icon;
       currentActiveChildName.value = t(newNavItem.children[0].links[0].name);
+      currentActiveHelpText.value = t(newNavItem.children[0].links[0].helpText || '');
     }
   },
   { immediate: true }
@@ -110,6 +120,8 @@ const emitHandleCloseMenu = (nav: Menu) => {
 {
   "en": {
     "requirementsEngineering": "Anforderungs Workshops",
+    "requirementsDocs": "Anforderungsdokumentation",
+    "projectGreenlight": "Freigabeentscheidung",
     "softwareDevelopment": "Software & Infrastruktur Realisierung",
     "softwareMaintenance": "Wartung & Support",
     "automaticFrontendTesting": "Automatisches Frontend Testing",

@@ -141,17 +141,37 @@ export const useGeneralStore = defineStore('general', () => {
       {
         name: 'requirementsEngineering',
         href: '/leistungen/anforderungsanalyse/',
-        icon: '/img/services/Was-wird-erledigt.svg'
+        icon: '/img/global/icons/RAPID_R.svg',
+        caps: 'R',
+        helpText: 'Requirements Workshop'
+      },
+      {
+        name: 'requirementsDocs',
+        href: '/leistungen/anforderungsanalyse/',
+        icon: '/img/global/icons/RAPID_A.svg',
+        caps: 'A',
+        helpText: 'Actionable Scope'
+      },
+      {
+        name: 'projectGreenlight',
+        href: '/leistungen/anforderungsanalyse/',
+        icon: '/img/global/icons/RAPID_P.svg',
+        caps: 'P',
+        helpText: 'Project greenlight, or stop'
       },
       {
         name: 'softwareDevelopment',
         href: '/leistungen/software-realisierung/',
-        icon: '/img/global/icons/unikube-logo.svg'
+        icon: '/img/global/icons/RAPID_I.svg',
+        caps: 'I',
+        helpText: 'Implementation'
       },
       {
         name: 'softwareMaintenance',
         href: '/leistungen/langfristiger-betrieb/',
-        icon: '/img/global/icons/hurricane-icon.svg'
+        icon: '/img/global/icons/RAPID_D.svg',
+        caps: 'D',
+        helpText: 'Durable Maintenance'
       }
     ]
   };

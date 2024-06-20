@@ -95,41 +95,29 @@ Profitiere von:
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/80personalkostensparen.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 80% Personalaufwand sparen
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/lizenzkostenfrei.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Keine Lizenzkosten
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/110verlasslich.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Verlässliches Testing zu jeder Zeit
 :::
 ::
 :::
 
-<!--- Persönlich betreut, perfekt konfiguriert --->
-:::GlobalSimpleSection{:bg="bg-bs-gray"}
-:::GlobalPreTitle{.mb-3}
-Persönlich betreut, perfekt konfiguriert
+<!--- persönlicher Kontakt --->
+:::GlobalPartial{content=personal-box-1}
 :::
-::::GlobalTitle{.mb-6}
-Wir arbeiten mit dir auf Augenhöhe
-::::
-::::GlobalBlock{.mb-4 .ul-disk}
-- Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst.
-- Wir kommunizieren glasklar. Auch für Nicht-Techies.
-- Wir denken uns ein und suchen mit dir immer die beste Lösung. Nicht die Teuerste.
-- Wir sind Techies mit Herz und lieben komplexe Herausforderungen.
-- Wir sind auch in schwierigen Situationen belastbar.
-::::
-:::
+
 
 <!--- Referenzen --->
 :::GlobalBrandsSlider{data-title="Referenzen"}
@@ -183,11 +171,6 @@ Allianz Global Benefits
 :::
 ::
 :::
-
-<!--- persönlicher Kontakt --->
-:::GlobalPartial{content=personal-box-1}
-:::
-
 
 
 <!--- Call an expert --->

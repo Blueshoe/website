@@ -26,122 +26,83 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-::GlobalSimpleSection{:bg="bg-white"}
-:::GlobalPreTitle{.mb-3}
-BLUESHOE REALISIERT DEIN SOFTWARE PROJEKT NACH MODERNSTEN STANDARDS UND IN HOHER GESCHWINDIGKEIT
+::GlobalSimpleSection{:bg="bg-bs-blue"}
+:::GlobalPreTitle{.mb-3 :color="text-white"}
+Wir realisieren IT-Projekte ohne Fallstricke
 :::
-:::GlobalTitle{.mb-6}
-Software-Entwicklungsangebote bei Blueshoe
+:::GlobalTitle{.mb-6 :color="text-white"}
+Software-Realisierung
 :::
-:::GlobalParagraph
-Super schnell, super sexy.
+:::GlobalParagraph{:color="text-white"}
+Seit 2014 haben uns die meisten Kunden beauftragt, weil mindestens einer dieser Punkte zutraf:
+:::
+:::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
+- Die internen oder externen Kosten für Realisierung und/oder Betrieb von Software zu hoch sind
+- Die Umsetzung von Projekten dauert wesentlich zu lange
+- Die Kompetenz und/oder Betreuungsqualität des bisherigen Entwicklungspartners ist mangelhaft
+:::
+:::GlobalParagraph{.mb-4 :color="text-white"}
+Du musstest nicken, oder?
+:::
+:::GlobalParagraph{:color="text-white"}
+Dann ist hier die Stelle, an der wir ins Spiel kommen: Wir realisieren Software-Projekte immer auf Basis von 3 Säulen:
+:::
+:::GlobalBlock{.ul-disk :color="text-white"}
+- 35% schnellere Entwicklung durch einen standardisierten Technologie-Stack
+- Lösungen ohne Lizenzkosten auf Basis von Open Source Technologien
+- 100% Fokus auf unsere Kernkompetenzen
 :::
 ::
 
-::GlobalSimplePricing{:cardCount="2" :hasAccent="false"}
+
+<!--- Pricing --->
+:::GlobalSimpleSection{:bg="bg-white"}
+::::GlobalTitle
+Dabei lassen wir euch immer die Wahl zwischen 2 Optionen:
+::::
+:::
+:::GlobalPartial{content=dev-pricing}
+:::
+
+<!--- Call an expert --->
+:::GlobalPartial{content=catcher-2}
+:::
+
+<!--- Profitiere von: --->
+:::GlobalSectionWithImage{:image="/img/services/bessere_anforderungen.svg" :alt="bessere anforderungen" :imagePosition="right" :isButton=true :bg="bg-bs-gray"}
+::::GlobalTitle{.mb-6}
+Profitiere von:
+::::
+::::GlobalBlock{.ul-disk}
+- 10 Jahre Erfahrung in über 200 komplexen Web Projekten
+- Ein direkter Draht zu unseren Geschäftsführern
+- Maßgeschneiderte Standardlösungen mit hoher Langlebigkeit
+- Schnelle Reaktions- und Umsetzungszeiten
+::::
+#button
+::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Jetzt profitieren" :target="_blank"}
+::
+:::
 
 
+<!--- Profitiere von: Boxen --->
+:::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-:::GlobalPricingCard
-
-#title
-Als Dienstleistung
-
-#subtitle
-Wir realisieren deine Software nach verbrauchten Entwicklerstunden.
-
-#priceDescription
-- **Flexible Ressourcen**
-- Kosten nach Verbrauch
-- Keine Fixkosten
-- Aufwandsschätzung für Budgetierung
-
-#price
-140 € - 200 € / Stunde
-:::
-
-#card2
-:::GlobalPricingCard
-
-#title
-Als Werkvertrag
-
-#subtitle
-Wir realisieren deine Software als Werkvertrag.
-
-#priceDescription
-- **Fixierter Preis**
-- Volle Kostenkontrolle
-- Fester Zeitplan oder flexible Planung
-- Professionelle Umsetzung
-
-#price
-::::GlobalButton
----
-label: "Auf Anfrage" 
-url: "https://blueshoe.io/hannes/" 
-size: "wide" 
-color: "green"
-target: "_blank"
----
-::::
-::
-
-::GlobalSimpleSection{:bg="bg-bs-white"}
-::GlobalParagraph
-Die angegebenen Preise verstehen sich als Netto-Preise, zuzüglich der derzeit gültigen gesetzlichen Mehrwertsteuer. Mehr Infos erhälst du auch auf unserer Enwticklungskategorien:
-- <a class="text-bs-blue hover:underline" href="/leistungen/cloud-native-development/">Cloud Native Development</a>
-- <a class="text-bs-blue hover:underline" href="/leistungen/headless-e-commerce/">Headless E-Commerce</a>
-- <a class="text-bs-blue hover:underline" href="/leistungen/microservice-architektur-beratung/">Microservice-Architektur-Beratung</a>
-- <a class="text-bs-blue hover:underline" href="/leistungen/python-django-agentur/">Python & Django</a>
-
-Bitte sprich uns an, wenn du ein Softwareprojekt mit Blueshoe durchführen möchtest.
-::::GlobalButton
----
-label: "Termin vereinbaren" 
-url: "https://blueshoe.io/hannes/" 
-size: "normal" 
-color: "blue"
-target: "_blank"
----
-::::
-
-::
-::
-
-<!--- Was ist enthalten --->
-:::GlobalListCardSliderSection{:bg="bg-bs-blue" :numberCards=3}
-::::GlobalPreTitle{:color="text-white" .mb-4 data-title="Werte"}
-SOFTWARE ONBOARDING BEI BLUESHOE
-::::
-::::GlobalTitle{:color="text-white" .mb-6}
-Was unser Lift & Shift Angebot besonders auszeichnet
-::::
-#card1
-::GlobalListCardWithImage{:src="/img/global/icons/you-build-it-you-run-it.svg"}
-:::GlobalTitle{:size="sm" :color="text-white" :tag="h4" .mb-4 }
-Langjährige Erfahrung
-:::
-:::GlobalParagraph{:fontSize="lg"  :color="text-white"}
-TODO
+::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
+:::GlobalTitle{:size="sm" :tag="h4" .mb-4}
+35% schnellere Entwicklung
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/iteration-in-mind.svg"}
-:::GlobalTitle{:size="sm" :color="text-white" :tag="h4" .mb-4}
-Spezielles Team
-:::
-:::GlobalParagraph{:fontSize="lg"  :color="text-white"}
-TODO
+::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
+:::GlobalTitle{:size="sm" :tag="h4" .mb-4}
+Keine Lizenzkosten
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/keep_your_eyes_peeled.svg"}
-:::GlobalTitle{:size="sm" :color="text-white" :tag="h4" .mb-4}
-Standardisierung
-:::
-:::GlobalParagraph{:fontSize="lg"  :color="text-white"}
-TODO
+::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
+:::GlobalTitle{:size="sm" :tag="h4" .mb-4}
+Hohe Langlebigkeit
 :::
 ::
 :::
@@ -150,8 +111,65 @@ TODO
 :::GlobalPartial{content=personal-box-1}
 :::
 
-<!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+<!--- Referenzen --->
+:::GlobalBrandsSlider{data-title="Referenzen"}
+::: 
+
+<!--- Wir sind eher der Beziehungstyp--->
+:::GlobalSimpleSection{:bg="bg-bs-blue"}
+::::GlobalTitle{.mb-6 :color="text-white"}
+Wir sind eher der Beziehungstyp
+::::
+::::GlobalParagraph{.mb-4 :color="text-white"}
+Und, ganz wichtig, wir lassen dich nach dem Projekt auch nicht allein. Über 90% unserer Projekte betreuen wir langfristig. Teilweise schon eine ganze Dekade. Natürlich nur, wenn du das willst.
+<!--- Durable Maintenance --->
+::::
 :::
 
 
+<!--- Projekte --->
+:::GlobalSliderSection{:numberCards=2 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
+::::GlobalTitle{.mb-6}
+Projekte die wir komplett umgesetzt haben
+::::
+
+#card1
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/tuhh-logo.jpg", "alt": "TUHH"}' :desktopImage='{"src": "/img/global/slide/digital-learning-lab.jpg", "alt": "maurer"}' :tags='["Django", "Python", "Docker", "Kubernetes"]'}
+:::GlobalParagraph{:fontSize="lg"}
+Wir haben für die Technische Universität Hamburg das “Digital Learning Lab” gebaut, eine Plattform für digitale Unterrichtsgestaltung. Hier können Lehrkräfte aus ganz Deutschland digitale Tools nutzen und Unterrichtsbausteine für den eigenen (Fern)unterricht nutzen.
+:::
+#title
+:::GlobalTitle
+Technische Universität Hamburg
+:::
+#button
+:::GlobalButton{:url="https://digitallearninglab.de/" :label="Zum Digital Learning Lab" :target="_blank"}
+:::
+::
+
+#card2
+::GlobalSliderCard{:logo='{"src": "/img/global/slide/allianz_logo.jpg", "alt": "allianz"}' :desktopImage='{"src": "/img/global/slide/allianz_foto.jpg", "alt": "allianz"}' :mobileImage='{"src": "/img/global/slide/allianz_foto_mobile.jpg", "alt": "allianz"}' :tags='["Django", "Python", "Wagtail", "Open Shift"]'}
+:::GlobalParagraph{:fontSize="lg"}
+Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit Headless CMS gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
+:::
+#title
+:::GlobalTitle
+Allianz Global Benefits
+:::
+#button
+:::GlobalButton{:url="https://www.allianzglobalbenefits.com/" :label="Zu Allianz Global Benefits" :color="green" :target="_blank"}
+:::
+::
+:::
+
+
+
+
+<!--- Call an expert --->
+:::GlobalPartial{content=catcher-2}
+:::
+
+
+<!--- Service Grid --->
+:::GlobalPartial{content=services-grid-1}
+:::
