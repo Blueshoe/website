@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Wir machen barrierefreie Webseiten: Gesetzeskonform und Nutzerfreundlich ab Juni 2025'
+  title: 'Kosten sparen mit Hosting-Migration | Günstiges Hosting in Deutschland'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Erfüllen Sie das BFSG 2025: Optimieren Sie Ihre Webseite barrierefrei und erreichen Sie mehr Nutzer. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'SpareCloud-Kosten und profitiere von günstigem Hosting in Deutschland. Wir haben viel Erfahrung in der Migration von Projekten von AWA, Google, Azure zu einem deutschen Anbieter.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Wir machen barrierefreie Webseiten: Gesetzeskonform und Nutzerfreundlich ab Juni 2025'
+      content: 'Kosten sparen mit Hosting-Migration | Günstiges Hosting in Deutschland'
     - property: 'og:description'
-      content: 'Erfüllen Sie das BFSG 2025: Optimieren Sie Ihre Webseite barrierefrei und erreichen Sie mehr Nutzer. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'SpareCloud-Kosten und profitiere von günstigem Hosting in Deutschland. Wir haben viel Erfahrung in der Migration von Projekten von AWA, Google, Azure zu einem deutschen Anbieter.'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,14 +19,14 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Wir machen barrierefreie Webseiten: Gesetzeskonform und Nutzerfreundlich ab Juni 2025'
+      content: 'Kosten sparen mit Hosting-Migration | Günstiges Hosting in Deutschland'
     - name: 'twitter:description'
-      content: 'Erfüllen Sie das BFSG 2025: Optimieren Sie Ihre Webseite barrierefrei und erreichen Sie mehr Nutzer. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'SpareCloud-Kosten und profitiere von günstigem Hosting in Deutschland. Wir haben viel Erfahrung in der Migration von Projekten von AWA, Google, Azure zu einem deutschen Anbieter.'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
+:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/hostingkosten_senken.svg" :alt="hostingkosten senken" :imagePosition="right"}
 :::GlobalPreTitle{.mb-3 :color="text-white"}
 Migration zu günstigen Hosting-Dienstleistern
 :::
@@ -96,20 +96,20 @@ Profitiere von:
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
-:::GlobalTitle{:size="sm" :tag="h4" .mb-4}
+::GlobalListCardWithImage{:src="/img/global/icons/lizenzkostenfrei.svg" center}
+:::GlobalTitle{:size="sm" :tag="h4"}
 Geringere Kosten
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
-:::GlobalTitle{:size="sm" :tag="h4" .mb-4}
+::GlobalListCardWithImage{:src="/img/global/icons/deutschland.svg" center}
+:::GlobalTitle{:size="sm" :tag="h4"}
 Hosting in DE
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
-:::GlobalTitle{:size="sm" :tag="h4" .mb-4}
+::GlobalListCardWithImage{:src="/img/global/icons/einfaches_management.svg" center}
+:::GlobalTitle{:size="sm" :tag="h4"}
 Einfaches Management
 :::
 ::

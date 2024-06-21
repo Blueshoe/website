@@ -1,6 +1,6 @@
 :::GlobalSmallCardWithImageSection{ :bg="bg-bs-gray" :numberCards=3}
 ::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Dienstleistungen"}
-Unsere Lösungen, die für dich interessant sein könnten:
+Wir haben unter anderem folgende Lösungen in unserem Schmuckkästchen:
 ::::
 
 #cards

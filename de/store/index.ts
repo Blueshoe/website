@@ -21,12 +21,12 @@ export const useGeneralStore = defineStore('general', () => {
       {
         name: 'rightsAccessManagement',
         href: '/loesungen/rights-access-management/',
-        icon: '/img/global/icons/docker_kubernetes.svg'
+        icon: '/img/global/icons/iam_management.svg'
       },
       {
         name: 'websiteBooster',
         href: '/loesungen/schnelle-websites/',
-        icon: '/img/global/icons/docker_kubernetes.svg'
+        icon: '/img/global/icons/schnelle_websites.svg'
       },
       {
         name: 'websiteAccessability',
@@ -36,7 +36,7 @@ export const useGeneralStore = defineStore('general', () => {
       {
         name: 'hostingCostReduction',
         href: '/loesungen/hostingkosten-reduzieren/',
-        icon: '/img/global/icons/docker_kubernetes.svg'
+        icon: '/img/global/icons/hostingkosten_senken.svg'
       },
       {
         name: 'headlessCms',

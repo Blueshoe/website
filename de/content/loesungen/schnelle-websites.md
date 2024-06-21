@@ -26,7 +26,7 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
+:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/schnelle_websites.svg" :alt="schnelle websites" :imagePosition="right"}
 :::GlobalPreTitle{.mb-3 :color="text-white"}
 Websites, auf denen niemand mehr abspringt
 :::
@@ -95,19 +95,19 @@ Profitiere von:
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/mehr_umsatz.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Mehr Umsatz
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/besseres_nutzererlebnis.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Besseres Nutzererlebnis
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/bessere_rankings.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Bessere Suchmaschinen-Rankings
 :::

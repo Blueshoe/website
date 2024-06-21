@@ -6,17 +6,22 @@
         <div
           class="flex flex-col items-center xl:items-stretch xl:flex-row xl:justify-center w-[60%] mx-auto">
           <div class="mb-4 xl:mb-0 xl:mr-7 flex items-center">
-            <booster-image :src="src" alt="Blueshoe expert" title="Blueshoe expert"
-              class="border-[5px] border-bs-green rounded-full w-[100px] h-[100px] xl:w-[110px] xl:h-[110px]" />
+            <div class="flex flex-col items-center">
+              <booster-image :src="src" :alt="'Blueshoe expert ' + alt" :title="'Blueshoe expert ' + alt"
+              class="border-[5px] border-bs-green rounded-full" />
+              <span class="pt-1 font-bold text-white" v-text="alt" />
+            </div>
           </div>
+          
+
           <div class="flex flex-col items-center">
             <div class="text-white font-oswald font-bold text-center text-[22px] md:text-[32px] xl:leading-[32px] mb-6">
               <slot name="buttonBlockTitle" />
             </div>
             
-            <div class="w-full">
+            <div class="w-full pt-4">
               <NuxtLink :to="buttonUrl" :target="buttonTarget"
-                class="inline-block bg-bs-green text-center text-lg xl:text-xl font-normal font-roboto cursor-pointer text-white w-full rounded-lg py-3 xl:py-4">
+                class="inline-block bg-bs-green text-center text-lg xl:text-xl font-normal font-roboto cursor-pointer text-white w-full rounded-lg py-4 xl:py-4">
                 <slot name="buttonLabel" />
               </NuxtLink>
             </div>

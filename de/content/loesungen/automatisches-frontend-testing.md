@@ -26,7 +26,7 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
+:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/services/test_automation.svg" :alt="frontend testing" :imagePosition="right"}
 :::GlobalPreTitle{.mb-3 :color="text-white"}
 Kein manuelles Testing mehr
 :::

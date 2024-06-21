@@ -26,7 +26,7 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
+:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/iam_management.svg" :alt="iam management" :imagePosition="right"}
 :::GlobalPreTitle{.mb-3 :color="text-white"}
 Viele Systeme, ein sicheres zentrales Identity- und Access-Management
 :::
@@ -99,19 +99,19 @@ Profitiere von:
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/it_sicherheit.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 IT-Sicherheit spürbar erhöhen
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/lizenzkostenfrei.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Keine Lizenzkosten
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/groß_integrierbar.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Großflächig integrierbar
 :::
