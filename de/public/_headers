@@ -1,7 +1,9 @@
-/img/
+/img/global/icons/*
     Cache-Control: public, max-age=3600
-/_nuxt/
+/_nuxt/*
     Cache-Control: public, max-age=3600
 favicon.ico
     Cache-Control: public, max-age=3600
+https://:blueshoe-de.pages.dev/*
+  X-Robots-Tag: noindex
 
