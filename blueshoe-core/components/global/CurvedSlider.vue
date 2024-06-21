@@ -85,8 +85,11 @@
           class="flex flex-col items-center xl:items-stretch xl:flex-row xl:justify-center xl:mt-12 w-[60%] xl:w-full mx-auto"
           :class="[size === 'small' ? 'mt-4' : 'pt-4 xl:pt-10']">
           <div class="mb-4 xl:mb-0 xl:mr-7">
-            <img :src="src" :alt="alt"
-              class="border-[5px] border-bs-green rounded-full w-[100px] h-[100px] xl:w-[110px] xl:h-[110px]" />
+            <div class="flex flex-col items-center">
+              <booster-image :src="src" :alt="'Blueshoe expert ' + alt" :title="'Blueshoe expert ' + alt"
+              class="border-[5px] border-bs-green rounded-full" />
+              <span class="pt-1 text-bs-blue font-bold" v-text="alt" />
+            </div>
           </div>
           <div class="flex flex-col items-center">
             <div class="text-bs-blue font-oswald font-bold text-center" :class="[
@@ -115,6 +118,7 @@
 </template>
 
 <script setup lang="ts">
+import BoosterImage from '#booster/components/BoosterImage';
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";

@@ -1,15 +1,15 @@
-:::GlobalSmallCardWithImageSection{ :bg="bg-bs-gray" :numberCards=3}
-    ::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Dienstleistungen"}
+:::GlobalSmallCardWithImageSection{ :bg="bg-bs-blue" :numberCards=6}
+    ::::GlobalTitle{:color="text-white" .text-center .mb-6 data-title="LÖSUNGEN"}
     Unsere beliebtesten IT-Lösungen umfassen unter anderem:
     ::::
 
 #cards
     ::GlobalSmallCardWithImage{:lang="de" :src="/img/services/test_automation.svg" :href="/loesungen/automatisches-frontend-testing/"}
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Moderne Anwendungsentwicklung für die Cloud
+        Lorem impsum
         :::
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Sei schneller als Ihre Konkurrenz mit unserer externen Entwicklungsleistung. Pünktlich und im Budget.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -19,10 +19,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :src="/img/services/barrierefreie_website.svg" :href="/loesungen/barrierefreie-websites/"}
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Wir helfen Dir, Lösungen zu finden
+        Lorem impsum Lorem impsum 
         :::
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Spare Geld, indem Du die Fehler vermeiden, die wir bereits gemacht haben. Lass uns Dir bei Deiner Cloud-Strategie helfen.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -45,10 +45,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/schnelle_websites.svg" :href="/loesungen/schnelle-websites/"}
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Umzug zum modernen Orchestrierungsframework
+        TODO
         :::
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Steigere die Effizienz Deiner Abläufe mit automatischer Skalierung, Bereitstellung und Verwaltung Deiner Anwendungen.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -58,10 +58,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/hostingkosten_senken.svg" :href="/loesungen/hostingkosten-reduzieren/"}
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Steigerung der Entwicklergeschwindigkeit
+        Lorem ipsum
         :::
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Liefern Sie Funktionen schneller mit weniger Entwicklerfrustration und bleiben Sie Ihrer Konkurrenz voraus.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -71,10 +71,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/iam_management.svg" :href="/loesungen/rights-access-management/"}
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Übergang von Monolithen
+        Todo
         :::
         :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-        Machen Sie das Beheben von Fehlern zum Kinderspiel. Ermöglichen Sie eine schnelle Einarbeitung neuer Entwickler und erhöhen Sie Ihre Entwicklungsgeschwindigkeit.
+        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}

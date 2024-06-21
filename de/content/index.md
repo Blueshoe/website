@@ -25,7 +25,7 @@ head:
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
-::GlobalWrapperMain{:leftNavigationCard=-180}
+::GlobalWrapperMain{:leftNavigationCard=-190}
 
   :::GlobalSimpleSection{:bg="bg-white"}
     ::::GlobalPreTitle{.mb-3}
@@ -50,6 +50,21 @@ head:
   :::
   <!--- Featured Services Grid --->
   :::GlobalPartial{content=services-grid-2}
+  :::
+  <!--- So punkten wir --->
+  :::GlobalPartial{content=personal-box-2}
+  :::
+
+  <!--- Referenzen --->
+  :::GlobalBrandsSlider{data-title="REFERENZEN"}
+  ::: 
+
+  <!--- RAPID --->
+  :::GlobalPartial{content=full-service-agency-2}
+  :::
+
+  <!--- RAPID --->
+  :::GlobalPartial{content=catcher-1}
   :::
 ::
 
