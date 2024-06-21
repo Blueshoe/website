@@ -1,5 +1,5 @@
 <!--- persönlicher Kontakt --->
-:::GlobalCardWithBackgroundImageSection{:src="/img/about-us/blue_shoes-47.jpg" :width="md:w-3/5"}
+:::GlobalCardWithBackgroundImageSection{:src="/img/about-us/blue_shoes-47.jpg" :alt="Blueshoe auf Augenhöhe" :width="md:w-3/5"}
 ::::GlobalPreTitle{.mb-4 data-title="Vision"}
 Blueshoe als persönlicher Ansprechpartner
 ::::

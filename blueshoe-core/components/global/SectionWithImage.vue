@@ -11,12 +11,12 @@
             format="webp"
           />
           <booster-image
+            critical 
             v-if="!isStory"
             :src="image"
             :alt="alt"
             :title="alt"
-            class="mx-auto h-auto max-w-full sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full"
-            format="webp"
+            class="mx-auto h-auto max-w-full sm:max-w-[200px] md:max-w-[270px] lg:max-w-[380px] xl:max-w-[420px] w-full p-10"
           />
         </div>
         <div :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']" class="">

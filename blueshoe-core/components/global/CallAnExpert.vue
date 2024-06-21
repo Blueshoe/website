@@ -6,7 +6,7 @@
         <div
           class="flex flex-col items-center xl:items-stretch xl:flex-row xl:justify-center w-[60%] mx-auto">
           <div class="mb-4 xl:mb-0 xl:mr-7 flex items-center">
-            <img :src="src" :alt="alt"
+            <booster-image :src="src" alt="Blueshoe expert" title="Blueshoe expert"
               class="border-[5px] border-bs-green rounded-full w-[100px] h-[100px] xl:w-[110px] xl:h-[110px]" />
           </div>
           <div class="flex flex-col items-center">
@@ -28,6 +28,7 @@
 </template>
 
 <script setup lang="ts">
+import BoosterImage from '#booster/components/BoosterImage';
 
 interface Props {
   bg?: "bg-bs-blue" | "bg-white" | "bg-bs-gray";

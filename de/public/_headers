@@ -1,4 +1,4 @@
-/img/global/icons/*
+/img/*
     Cache-Control: public, max-age=3600
 /_nuxt/*
     Cache-Control: public, max-age=3600

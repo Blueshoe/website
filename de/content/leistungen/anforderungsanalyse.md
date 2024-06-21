@@ -26,7 +26,7 @@ head:
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/discussion.svg" :imagePosition="right"}
+:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/discussion.svg" :alt="blueshoe workshop" :imagePosition="right"}
 :::GlobalPreTitle{.mb-3 :color="text-white"}
 Erfolgreiche Projekte starten mit exzellenten Anforderungen
 :::

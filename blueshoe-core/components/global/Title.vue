@@ -1,5 +1,5 @@
 <template>
-  <component :is="tag" class="font-extralight" :class="[color, font, text]" :id="id">
+  <component :is="tag" class="font-extralight font-oswald" :class="[color, font, text]" :id="id">
     <ContentSlot unwrap="p" />
   </component>
 </template>

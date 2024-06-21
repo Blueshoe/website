@@ -82,6 +82,26 @@ useHead({
       innerHTML:
         "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MNZQV3V3KS');"
     }
+  ],
+  link: [
+    { tagPosition: 'head', rel: 'preconnect', href: 'https://fonts.googleapis.com', fetchpriority: 'high' },
+    {
+      tagPosition: 'head',
+      rel: 'preconnect',
+      href: 'https://fonts.gstatic.com',
+      crossorigin: 'anonymous',
+      fetchpriority: 'high'
+    },
+    {
+      tagPosition: 'head',
+      href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap',
+      rel: 'stylesheet'
+    },
+    {
+      tagPosition: 'head',
+      href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;500;600;700&display=swap',
+      rel: 'stylesheet'
+    }
   ]
 });
 </script>
