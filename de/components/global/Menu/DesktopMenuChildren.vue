@@ -32,7 +32,6 @@
                   :title="`${t(link.name)} Icon`"
                   :alt="`${t(link.name)} Icon`"
                   width="40"
-                  format="webp"
                 />
                 <span :class="child.singleLineLinks ? 'first-letter:font-bold' : ''" v-text="t(link.name)" />
               </div>
@@ -48,7 +47,6 @@
               :src="currentActiveImage"
               :title="`${t(currentActiveChildName)} Icon`"
               :alt="`${t(currentActiveChildName)} Icon`"
-              format="webp"
             />
           </div>
         </div>

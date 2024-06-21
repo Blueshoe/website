@@ -65,7 +65,13 @@ const images = [
   { src: '/img/global/icons/migration.svg', alt: 'migration icon' },
   { src: '/img/global/icons/repair.svg', alt: 'repair icon' },
   { src: '/img/global/icons/cyber-security.svg', alt: 'cyber security icon' },
-  { src: '/img/global/icons/cloud-computing.svg', alt: 'cloud computing icon' }
+  { src: '/img/services/test_automation.svg', alt: 'test automation' },
+  { src: '/img/global/icons/discussion.svg', alt: 'cloud computing icon' },
+  { src: '/img/global/icons/RAPID_R.svg', alt: 'requirements' },
+  { src: '/img/global/icons/RAPID_A.svg', alt: 'actionable scope' },
+  { src: '/img/global/icons/RAPID_P.svg', alt: 'project greenlight' },
+  { src: '/img/global/icons/RAPID_I.svg', alt: 'implementation' },
+  { src: '/img/global/icons/RAPID_D.svg', alt: 'durable maintenance' }
 ];
 
 useHead({
