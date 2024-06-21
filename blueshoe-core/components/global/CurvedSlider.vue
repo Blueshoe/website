@@ -1,4 +1,5 @@
 <template>
+  <client-only>
   <div :class="bg">
     <div class="bs-container">
       <div
@@ -153,6 +154,7 @@
       </div>
     </div>
   </div>
+</client-only>
 </template>
 
 <script setup lang="ts">

@@ -65,7 +65,7 @@ head:
 
   <!--- RAPID --->
   :::GlobalPartial{content=catcher-1}
-  :::
+  ::: 
 
   :::GlobalSimpleSection{:bg="bg-white" data-title="WER SIND WIR?"}
     ::::GlobalTitle{.mb-6}
