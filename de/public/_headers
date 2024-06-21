@@ -1,6 +1,6 @@
-/img/*
+/img/
     Cache-Control: public, max-age=3600
-/_nuxt/*
+/_nuxt/
     Cache-Control: public, max-age=3600
 favicon.ico
     Cache-Control: public, max-age=3600
