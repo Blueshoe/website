@@ -123,6 +123,7 @@ const emitHandleCloseMenu = (nav: Menu) => {
     "rightsAccessManagement": "Rights & Access Management",
     "websiteBooster": "Schnelle Websites",
     "websiteAccessability": "Barrierefreie Websites",
+    "connectingSystems": "Systeme Vernetzen",
     "hostingCostReduction": "Hostingkosten reduzieren",
     "gefyra": "Kubernetes Development",
     "cloudNativeDevelopment": "Cloud Native Development",

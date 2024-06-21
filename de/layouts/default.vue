@@ -65,6 +65,7 @@ const images = [
   { src: '/img/global/icons/consulting_1.svg', alt: 'consulting icon' },
   { src: '/img/global/icons/schnelle_websites.svg', alt: 'schnelle websites' },
   { src: '/img/global/icons/hostingkosten_senken.svg', alt: 'hostingkosten senken' },
+  { src: '/img/global/icons/systeme_verbinden.svg', alt: 'systeme verbinden' },
   { src: '/img/global/icons/infrastructure_1.svg', alt: 'infrastructure icon' },
   { src: '/img/global/icons/migration.svg', alt: 'migration icon' },
   { src: '/img/global/icons/repair.svg', alt: 'repair icon' },

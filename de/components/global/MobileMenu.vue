@@ -92,6 +92,7 @@ const toggleChild = (nav: Menu) => {
     "automaticFrontendTesting": "Automatisches Frontend Testing",
     "rightsAccessManagement": "Rights & Access Management",
     "websiteBooster": "Schnelle Websites",
+    "connectingSystems": "Systeme Vernetzen",
     "websiteAccessability": "Barrierefreie Websites",
     "hostingCostReduction": "Hostingkosten reduzieren",
     "gefyra": "Kubernetes Development",

@@ -39,6 +39,11 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/global/icons/hostingkosten_senken.svg'
       },
       {
+        name: 'connectingSystems',
+        href: '/loesungen/systeme-vernetzen/',
+        icon: '/img/global/icons/systeme_verbinden.svg'
+      },
+      {
         name: 'headlessCms',
         href: '/loesungen/headless-cms/',
         icon: '/img/global/icons/cms_1.svg'
@@ -58,11 +63,11 @@ export const useGeneralStore = defineStore('general', () => {
         href: '/loesungen/headless-e-commerce/',
         icon: '/img/global/icons/buy-online.svg'
       },
-      {
-        name: 'apiEntwicklung',
-        href: '/loesungen/api-entwicklung/',
-        icon: '/img/global/icons/api_1.svg'
-      },
+      // {
+      //   name: 'apiEntwicklung',
+      //   href: '/loesungen/api-entwicklung/',
+      //   icon: '/img/global/icons/api_1.svg'
+      // },
       // {
       //   name: 'oscarECommerce',
       //   href: '/loesungen/oscar-e-commerce/',

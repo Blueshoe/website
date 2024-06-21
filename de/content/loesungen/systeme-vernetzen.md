@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Automatisches Frontend-Testing: 80% Zeitersparnis | Über 200 Projekte seit 2014'
+  title: 'System-Integration und Prozessautomatisierung mit individuellen APIs | Über 200 IT-Projekte seit 2014'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Eliminieren Sie manuelles Frontend-Testing und sparen 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
+      content: 'Optimieren Sie Ihre Prozesse durch System-Integration und Automatisierung. Erfahren Sie mehr über unsere maßgeschneiderten API-Lösungen und profitieren Sie von unserer langjährigen Erfahrung.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Automatisches Frontend-Testing: 80% Zeitersparnis | Über 200 Projekte seit 2014'
+      content: 'System-Integration und Prozessautomatisierung mit individuellen APIs | Über 200 IT-Projekte seit 2014'
     - property: 'og:description'
-      content: 'Eliminieren Sie manuelles Frontend-Testing und sparen 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
+      content: 'Optimieren Sie Ihre Prozesse durch System-Integration und Automatisierung. Erfahren Sie mehr über unsere maßgeschneiderten API-Lösungen und profitieren Sie von unserer langjährigen Erfahrung.'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,56 +19,56 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Automatisches Frontend-Testing: 80% Zeitersparnis | Über 200 Projekte seit 2014'
+      content: 'System-Integration und Prozessautomatisierung mit individuellen APIs | Über 200 IT-Projekte seit 2014'
     - name: 'twitter:description'
-      content: 'Eliminieren Sie manuelles Frontend-Testing und sparen 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
+      content: 'Optimieren Sie Ihre Prozesse durch System-Integration und Automatisierung. Erfahren Sie mehr über unsere maßgeschneiderten API-Lösungen und profitieren Sie von unserer langjährigen Erfahrung.'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
-:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/services/test_automation.svg" :alt="frontend testing" :imagePosition="right"}
+:::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/systeme_verbinden.svg" :alt="systeme verbinden" :imagePosition="right"}
   :::GlobalPreTitle{.mb-3 :color="text-white"}
-  Kein manuelles Testing mehr
+    Schnellere Prozesse durch System-Integrationen
   :::
   ::::GlobalTitle{.mb-6 :color="text-white"}
-  Vollautomatisches Frontend-Testing
+    Systeme miteinander vernetzen und Prozesse automatisieren
   ::::
   ::::GlobalParagraph{.mb-4 :color="text-white"}
-  Seit 2014 haben wir über 200 IT-Projekte umgesetzt. Einer der größten Schmerzpunkte war das manuelle Testen von Features im Frontend:
+    Seit 2014 haben wir über 200 IT-Projekte umgesetzt. Oft hängen Arbeitsprozesse von mehreren Systemen ab, wie ERPs, CRMs, eCommerce-Systemen oder CSV-Exporten. Diese Systeme sind häufig nicht integriert und somit nicht ideal aufgestellt:
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-  - Manuelle Tests durch Menschen sind zeitaufwändig und teuer
-  - Tester arbeiten nicht 100% genau. Sie sind einfach Menschen
-  - Man kann nicht nach jedem neuen Release alle Funktionen testen
+  - Manuelle Prozesse zwischen Systemen sind personal- und zeitaufwendig
+  - Es bestehen Fehlerquellen durch den Faktor “Mensch”
+  - Die Datenlage bei manuellen Prozessen ist häufig dünn
   ::::
   ::::GlobalParagraph{:color="text-white"}
-  Das kommt dir sicherlich bekannt vor.
+    Kennst du das aus deinem Unternehmen?
   ::::
 :::
 
 
-<!--- Wir haben diesen Schmerz für uns gelöst und tun das auch für dich: --->
+<!--- Wir integrieren Systeme und beenden manuelle Prozesse --->
 :::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Wir haben diesen Schmerz für uns gelöst und tun das auch für dich:
-::::
-::::GlobalBlock{.ul-disk}
-- Vollautomatisches Frontend-Testing, in dem jeder falsche Pixel auffällt
-- Automatisches testen wichtiger Funktionspfade in deinem Frontend
-- Um 80% reduzierter Personalaufwand für Frontend-Testing
-::::
+  ::::GlobalTitle{.mb-6}
+  Wir integrieren Systeme und beenden manuelle Prozesse
+  ::::
+  ::::GlobalBlock{.ul-disk}
+  - Prozessautomatisierung durch die Entwicklung individueller APIs
+  - Integration von Mechanismen zur automatischen Fehlererkennung
+  - Langlebige API-Lösungen, die sich beliebig erweitern lassen
+  ::::
 #button
-::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
-::
+  ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
+  ::
 :::
 
 <!--- Pricing --->
 :::GlobalSimpleSection{:bg="bg-white"}
-::::GlobalTitle
-Unsere Testing-Pakete:
-::::
+  ::::GlobalTitle
+    Unsere Integrations-Pakete
+  ::::
 :::
-:::GlobalPartial{content=testing-pricing}
+:::GlobalPartial{content=api-pricing}
 :::
 
 <!--- Call an expert --->
@@ -85,7 +85,7 @@ Unsere Testing-Pakete:
 #card1
 ::GlobalListCardWithImage{:src="/img/global/icons/80personalkostensparen.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
-80% Personalaufwand sparen
+50% Personalaufwand sparen
 :::
 ::
 #card2
@@ -95,17 +95,29 @@ Keine Lizenzkosten
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/110verlasslich.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/fehlerquellen.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
-Verlässliches Testing zu jeder Zeit
+90% der Fehlerquellen eliminieren
 :::
 ::
 :::
 
-<!--- persönlicher Kontakt --->
-:::GlobalPartial{content=personal-box-1}
+<!--- Persönlich betreut, perfekt konfiguriert --->
+:::GlobalSimpleSection{:bg="bg-bs-gray"}
+:::GlobalPreTitle{.mb-3}
+Persönlich betreut, perfekt konfiguriert
 :::
-
+::::GlobalTitle{.mb-6}
+Wir arbeiten mit dir auf Augenhöhe
+::::
+::::GlobalBlock{.mb-4 .ul-disk}
+- Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst.
+- Wir kommunizieren glasklar. Auch für Nicht-Techies.
+- Wir denken uns ein und suchen mit dir immer die beste Lösung. Nicht die Teuerste.
+- Wir sind Techies mit Herz und lieben komplexe Herausforderungen.
+- Wir sind auch in schwierigen Situationen belastbar.
+::::
+:::
 
 <!--- Referenzen --->
 :::GlobalBrandsSlider{data-title="Referenzen"}
@@ -120,10 +132,10 @@ Verlässliches Testing zu jeder Zeit
 <!--- Projekte --->
 :::GlobalSliderSection{:numberCards=2 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
 ::::GlobalTitle{.mb-6}
-Projekte in denen wir Testautomatisierung umgesetzt haben
+Projekte in denen wir Identity und Access-Management umgesetzt haben
 ::::
 ::::GlobalParagraph
-Umfangreiche Backend- und Frontend-Tests erleichtern uns in mehreren Projekten das Leben und sorgen für zügige, regelmäßige und fehlerfreie Releases.
+Unsere IAM-Lösungen vereinfachen das Nutzermanagement unter anderem in folgenden Projekten:
 ::::
 
 #card1
@@ -154,6 +166,11 @@ Allianz Global Benefits
 :::
 ::
 :::
+
+<!--- persönlicher Kontakt --->
+:::GlobalPartial{content=personal-box-1}
+:::
+
 
 
 <!--- Call an expert --->

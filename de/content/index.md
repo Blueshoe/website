@@ -27,27 +27,35 @@ head:
 ---
 ::GlobalWrapperMain{:leftNavigationCard=-180}
 
-:::GlobalSimpleSection{:bg="bg-white"}
-::::GlobalPreTitle{.mb-3}
-CLOUD NATIVE SOFTWARE DEVELOPMENT & CONSULTING
-::::
-::::GlobalTitle{.mb-6}
-Wir sind Blueshoe
-::::
-::::GlobalParagraph
-Wir sind deine zuverlässige Agentur für die Umsetzung Cloud nativer Software, Webseiten, Plattformen, Apps, PWAs und Online-Shops auf Basis von Kubernetes
-::::
-::::GlobalParagraph
-Punktgenau. Passgenau. Pragmatisch.
-::::
-:::
+  :::GlobalSimpleSection{:bg="bg-white"}
+    ::::GlobalPreTitle{.mb-3}
+    AGENTUR FÜR CLOUD NATIVE SOFTWARE DEVELOPMENT & CONSULTING MIT OPEN SOURCE
+    ::::
+    ::::GlobalTitle{.mb-6}
+    Wir sind Blueshoe
+    ::::
+    ::::GlobalParagraph
+    Wir lösen komplexe Probleme für mittelständische B2B-Unternehmen und den öffentlichen Sektor. Du bist bei uns richtig wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
+    ::::
+    ::::GlobalBlock{.mb-4 .ul-disk}
+    - Sie nicht standardisiert ist
+    - Die Kosten für die Entwicklung und den Betrieb zu hoch sind
+    - Die Umsetzung zu lange dauert
+    - Die Kompetenz und die Betreuungsqualität deines bisherigen Partners nicht befriedigend sind
+    - Du keine Lust mehr auf horrende Lizenzkosten hast
+    ::::
+  :::
+
+  :::HomepageCyclicSlider
+  :::
+  <!--- Featured Services Grid --->
+  :::GlobalPartial{content=services-grid-2}
+  :::
+::
 
 
-:::HomepageCyclicSlider
-:::
 
-
-:::GlobalSmallCardWithImageSection{ :bg="bg-bs-blue" :numberCards=3}
+<!-- :::GlobalSmallCardWithImageSection{ :bg="bg-bs-blue" :numberCards=3}
 ::::GlobalTitle{:color="text-white" .text-center .mb-6 data-title="Agentur"}
 Ihre Agentur für Cloud Native Software-Entwicklung
 ::::
@@ -97,10 +105,10 @@ Wir entwickeln Open-Source-Tools, um die Cloud-Native-Entwicklung für Entwickle
 Open-Source-Tools
 :::
 ::
-:::
+::: -->
 
 
-:::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=4}
+<!-- :::GlobalListCardSliderSection{:bg="bg-bs-gray" :dotColor="black" :numberCards=4}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 UNSERE LEISTUNGEN
 ::::
@@ -146,10 +154,10 @@ Warung & Betrieb
 Gern übernehmen wir für dich die Instandhaltung deiner Software-Systeme, kümmern uns um dein Hosting oder managen dein Deployment. Dabei verwenden wir ausschließlich Lösungen, die die Datenschutz- und Sicherheitsanforderungen deutscher Unternehmen erfüllen.
 :::
 ::
-:::
+::: -->
 
 
-:::GlobalSimpleSection{:bg="bg-white"}
+<!-- :::GlobalSimpleSection{:bg="bg-white"}
 ::::GlobalTitle{.mb-6 .text-center}
 Unternehmen, die uns vertrauen
 ::::
@@ -161,15 +169,15 @@ Unternehmen, die uns vertrauen
 
 
 :::GlobalCardWithBackgroundImageSection{:src="/img/homepage/team3-klein.webp" }
-::::GlobalPreTitle{.mb-2}
-INDIVIDUELLE SOFTWAREENTWICKLUNG
-::::
-::::GlobalTitle{.mb-6}
-So einzigartig wie deine Ansprüche
-::::
-::::GlobalParagraph
-Individuelle Aufgabenstellungen und komplexe Anforderungen benötigen **passgenaue Software**. Wir glauben, dass sich in der Softwareentwicklung nicht jeder sprichwörtliche Nagel mit dem gleichen Hammer einschlagen lässt. Wir analysieren sehr genau, was dein grundsätzliches Ziel ist und präzisieren gemeinsam mit dir das geplante Ergebnis deines Projekts. Daran anschließend konzipieren wir, entsprechend deiner Anforderungen, individuelle Lösungen, bei denen wir unsere Ressourcen und unser Know-how effizient nutzen. Das bedeutet auch, dass wir bereits existierende Lösungen einsetzen, wo es Sinn macht.
-::::
+  ::::GlobalPreTitle{.mb-2}
+  INDIVIDUELLE SOFTWAREENTWICKLUNG
+  ::::
+  ::::GlobalTitle{.mb-6}
+  So einzigartig wie deine Ansprüche
+  ::::
+  ::::GlobalParagraph
+  Individuelle Aufgabenstellungen und komplexe Anforderungen benötigen **passgenaue Software**. Wir glauben, dass sich in der Softwareentwicklung nicht jeder sprichwörtliche Nagel mit dem gleichen Hammer einschlagen lässt. Wir analysieren sehr genau, was dein grundsätzliches Ziel ist und präzisieren gemeinsam mit dir das geplante Ergebnis deines Projekts. Daran anschließend konzipieren wir, entsprechend deiner Anforderungen, individuelle Lösungen, bei denen wir unsere Ressourcen und unser Know-how effizient nutzen. Das bedeutet auch, dass wir bereits existierende Lösungen einsetzen, wo es Sinn macht.
+  ::::
 :::
 
 
@@ -235,7 +243,7 @@ Manchmal ist es schwierig einzuschätzen, ob jemand in ein bestimmtes Budget pas
 #button
 ::GlobalButton{:url="/kontakt/" :label="Kontaktiere uns!" :color="blue"}
 ::
-:::
+::: -->
 
 
 
