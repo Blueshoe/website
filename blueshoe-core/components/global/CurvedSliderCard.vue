@@ -72,7 +72,7 @@
           <img
             :src="src"
             :alt="alt"
-            class="relative top-[7px]"
+            class="relative top-[7px] h-full w-full"
             :class="{ 'xl:w-[90px]': size === 'small' }"
           />
         </div>
