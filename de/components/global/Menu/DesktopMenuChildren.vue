@@ -38,15 +38,15 @@
             </NuxtLink>
           </li>
         </div>
-        <div v-if="child.singleLineLinks && currentActiveImage" class="w-1/2 flex justify-center">
-          <div>
-            <span class="px-8 text-base font-semibold leading-5 font-source-sans-pro uppercase">{{ currentActiveChildName }}</span><br />
-            <span class="px-8 font-extralight font-oswald text-[40px] leading-[48px]">{{ currentActiveHelpText }}</span>
+        <div v-if="child.singleLineLinks && currentActiveImage" class="w-1/2 px-8">
+          <div class="flex flex-col">
+            <span class="text-base font-semibold font-source-sans-pro uppercase" v-text="currentActiveChildName" />
+            <span class="font-extralight font-oswald text-4xl" v-text="currentActiveHelpText" />
             <BoosterImage
-              class="p-8 w-[250px]"
+              class="mt-4 !h-[153px] max-w-full"
               :src="currentActiveImage"
-              :title="`${t(currentActiveChildName)} Icon`"
-              :alt="`${t(currentActiveChildName)} Icon`"
+              :title="`${currentActiveChildName} Icon`"
+              :alt="`${currentActiveChildName} Icon`"
             />
           </div>
         </div>
@@ -79,7 +79,7 @@ const currentActiveHelpText = ref('');
 function setActiveChild(link: SubMenuLink) {
   currentActiveImage.value = link.image || '';
   currentActiveChildName.value = t(link.name);
-  currentActiveHelpText.value = t(link.helpText);
+  currentActiveHelpText.value = link.helpText || '';
 }
 
 watch(
