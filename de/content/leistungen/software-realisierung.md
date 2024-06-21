@@ -69,38 +69,26 @@ Dabei lassen wir euch immer die Wahl zwischen 2 Optionen:
 :::
 
 <!--- Profitiere von: --->
-:::GlobalSectionWithImage{:image="/img/services/bessere_anforderungen.svg" :alt="bessere anforderungen" :imagePosition="right" :isButton=true :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Profitiere von:
-::::
-::::GlobalBlock{.ul-disk}
-- 10 Jahre Erfahrung in über 200 komplexen Web Projekten
-- Ein direkter Draht zu unseren Geschäftsführern
-- Maßgeschneiderte Standardlösungen mit hoher Langlebigkeit
-- Schnelle Reaktions- und Umsetzungszeiten
-::::
-#button
-::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Jetzt profitieren" :target="_blank"}
-::
+:::GlobalPartial{content=profit-from-1}
 :::
 
 
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
-::GlobalListCardWithImage{:src="/img/global/icons/consulting-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/programmer.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 35% schnellere Entwicklung
 :::
 ::
 #card2
-::GlobalListCardWithImage{:src="/img/global/icons/conception-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/lizenzkostenfrei.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Keine Lizenzkosten
 :::
 ::
 #card3
-::GlobalListCardWithImage{:src="/img/global/icons/development-hannes.svg" center}
+::GlobalListCardWithImage{:src="/img/global/icons/go.svg" center}
 :::GlobalTitle{:size="sm" :tag="h4" .mb-4}
 Hohe Langlebigkeit
 :::

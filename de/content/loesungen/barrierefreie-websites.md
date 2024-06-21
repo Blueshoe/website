@@ -77,19 +77,7 @@ Unsere Barrierefreiheits-Pakete
 :::
 
 <!--- Profitiere von: --->
-:::GlobalSectionWithImage{:image="/img/services/bessere_anforderungen.svg" :alt="bessere anforderungen" :imagePosition="right" :isButton=true :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Profitiere von:
-::::
-::::GlobalBlock{.ul-disk}
-- 10 Jahre Erfahrung in über 200 komplexen Web Projekten
-- Ein direkter Draht zu unseren Geschäftsführern
-- Maßgeschneiderte Standardlösungen mit hoher Langlebigkeit
-- Schnelle Reaktions- und Umsetzungszeiten
-::::
-#button
-::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Jetzt profitieren" :target="_blank"}
-::
+:::GlobalPartial{content=profit-from-1}
 :::
 
 
@@ -137,14 +125,9 @@ Wir arbeiten mit dir auf Augenhöhe
 ::: 
 
 <!--- Wir betreuen auch komplette Projekte --->
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
-::::GlobalTitle{.mb-6 :color="text-white"}
-Wir betreuen auch komplette Projekte
-::::
-::::GlobalParagraph{.mb-4 :color="text-white"}
-Wir sind kein One-Trick-Pony und betreuen IT-Projekte von der grünen Wiese bis zum langfristigen Betrieb und der Erweiterung. Dabei arbeiten wir nach einem standardisiertem Konzept, dass uns schneller und flexibler als Andere macht.
-::::
+:::GlobalPartial{content=full-service-agency-1}
 :::
+
 
 
 <!--- Projekte --->

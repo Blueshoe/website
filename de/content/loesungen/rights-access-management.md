@@ -27,50 +27,50 @@ head:
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/iam_management.svg" :alt="iam management" :imagePosition="right"}
-:::GlobalPreTitle{.mb-3 :color="text-white"}
-Viele Systeme, ein sicheres zentrales Identity- und Access-Management
-:::
-::::GlobalTitle{.mb-6 :color="text-white"}
-Endlich volle Kontrolle über Nutzerrechte. In einem System für alle Systeme.
-::::
-::::GlobalParagraph{.mb-4 :color="text-white"}
-In vielen komplexen Kundenprojekten haben wir unterschiedliche Systeme miteinander integriert. Identity- und Access-Management ist dabei immer wieder eine Hürde. Wir bringen dir Langlebigkeit, Sicherheit und Einfachheit:
-::::
-::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-- Keine Nutzerdaten mehr migrieren
-- Neue Systeme können einfach und standardisiert mit bestehenden Nutzerdaten verwendet werden
-- Kostenersparnisse durch wesentlich simplifizierte Nutzer- und Rechteverwaltung ohne Lizenzkosten
-- Hohe Sicherheit durch ein spezialisiertes IAM-Tool, das schnelle Logins garantiert
-::::
-::::GlobalParagraph{:color="text-white"}
-Klingt gut, oder? Wie machen wir das?
-::::
+  :::GlobalPreTitle{.mb-3 :color="text-white"}
+    Viele Systeme, ein sicheres zentrales Identity- und Access-Management
+  :::
+  ::::GlobalTitle{.mb-6 :color="text-white"}
+    Endlich volle Kontrolle über Nutzerrechte. In einem System für alle Systeme.
+  ::::
+  ::::GlobalParagraph{.mb-4 :color="text-white"}
+    In vielen komplexen Kundenprojekten haben wir unterschiedliche Systeme miteinander integriert. Identity- und Access-Management ist dabei immer wieder eine Hürde. Wir bringen dir Langlebigkeit, Sicherheit und Einfachheit:
+  ::::
+  ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
+  - Keine Nutzerdaten mehr migrieren
+  - Neue Systeme können einfach und standardisiert mit bestehenden Nutzerdaten verwendet werden
+  - Kostenersparnisse durch wesentlich simplifizierte Nutzer- und Rechteverwaltung ohne Lizenzkosten
+  - Hohe Sicherheit durch ein spezialisiertes IAM-Tool, das schnelle Logins garantiert
+  ::::
+  ::::GlobalParagraph{:color="text-white"}
+    Klingt gut, oder? Wie machen wir das?
+  ::::
 :::
 
 
 <!--- Wir haben diesen Schmerz für uns gelöst und tun das auch für dich: --->
 :::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Wir setzen auf ein zentrales Open Source IAM Tool: Keycloak
-::::
-::::GlobalBlock{.ul-disk}
-- Lizenzkostenfrei durch Open Source
-- Spezialisiertes Tool, das für höchste Sicherheit sorgt
-- Einfache Implementierung durch Standardisierung
-- SSO, Single Logout, Social Logins, 2FA
-- Geeignet für die Cloud und Kubernetes
-- Breite Unterstützung unterschiedlicher Protokolle (SAML, OpenID, OIDC)
-::::
+  ::::GlobalTitle{.mb-6}
+  Wir setzen auf ein zentrales Open Source IAM Tool: Keycloak
+  ::::
+  ::::GlobalBlock{.ul-disk}
+  - Lizenzkostenfrei durch Open Source
+  - Spezialisiertes Tool, das für höchste Sicherheit sorgt
+  - Einfache Implementierung durch Standardisierung
+  - SSO, Single Logout, Social Logins, 2FA
+  - Geeignet für die Cloud und Kubernetes
+  - Breite Unterstützung unterschiedlicher Protokolle (SAML, OpenID, OIDC)
+  ::::
 #button
-::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
-::
+  ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
+  ::
 :::
 
 <!--- Pricing --->
 :::GlobalSimpleSection{:bg="bg-white"}
-::::GlobalTitle
-Unsere Keycloak-Pakete
-::::
+  ::::GlobalTitle
+    Unsere Keycloak-Pakete
+  ::::
 :::
 :::GlobalPartial{content=keycloak-pricing}
 :::
@@ -80,19 +80,7 @@ Unsere Keycloak-Pakete
 :::
 
 <!--- Profitiere von: --->
-:::GlobalSectionWithImage{:image="/img/services/bessere_anforderungen.svg" :alt="bessere anforderungen" :imagePosition="right" :isButton=true :bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6}
-Profitiere von:
-::::
-::::GlobalBlock{.ul-disk}
-- 10 Jahre Erfahrung in über 200 komplexen Web Projekten
-- Ein direkter Draht zu unseren Geschäftsführern
-- Maßgeschneiderte Standardlösungen mit hoher Langlebigkeit
-- Schnelle Reaktions- und Umsetzungszeiten
-::::
-#button
-::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Jetzt profitieren" :target="_blank"}
-::
+:::GlobalPartial{content=profit-from-1}
 :::
 
 
@@ -140,14 +128,9 @@ Wir arbeiten mit dir auf Augenhöhe
 ::: 
 
 <!--- Wir betreuen auch komplette Projekte --->
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
-::::GlobalTitle{.mb-6 :color="text-white"}
-Wir betreuen auch komplette Projekte
-::::
-::::GlobalParagraph{.mb-4 :color="text-white"}
-Wir sind kein One-Trick-Pony und betreuen IT-Projekte von der grünen Wiese bis zum langfristigen Betrieb und der Erweiterung. Dabei arbeiten wir nach einem standardisiertem Konzept, dass uns schneller und flexibler als Andere macht.
-::::
+:::GlobalPartial{content=full-service-agency-1}
 :::
+
 
 
 <!--- Projekte --->

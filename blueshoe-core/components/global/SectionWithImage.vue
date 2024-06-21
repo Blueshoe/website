@@ -2,7 +2,7 @@
   <div :class="bg" class="relative">
     <div class="bs-container">
       <div class="flex flex-col sm:grid sm:grid-cols-2 py-10 px-4 lg:px-0">
-        <div :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']" class="mb-8">
+        <div :class="[imagePosition === 'left' ? 'sm:order-1' : 'sm:order-2']">
           <img
             v-if="isStory"
             :src="image"
