@@ -139,7 +139,7 @@ export const useGeneralStore = defineStore('general', () => {
   };
 
   const services: SubMenu = {
-    title: 'RAPID-Konzept für schnelle Entwicklung',
+    title: 'RAPID-System für schnelle Entwicklung',
     showTitle: true,
     singleLineLinks: true,
     links: [

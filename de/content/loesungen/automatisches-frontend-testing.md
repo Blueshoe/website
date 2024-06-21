@@ -108,8 +108,8 @@ Verlässliches Testing zu jeder Zeit
 
 
 <!--- Referenzen --->
-:::GlobalBrandsSlider{data-title="Referenzen"}
-::: 
+:::GlobalPartial{content=references-1}
+:::
 
 <!--- Wir betreuen auch komplette Projekte --->
 :::GlobalPartial{content=full-service-agency-1}

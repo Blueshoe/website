@@ -1,5 +1,5 @@
-:::GlobalSimpleSection{:bg="bg-bs-gray"}
-::::GlobalTitle{.mb-6 data-title="RAPID SYSTEM"}
+:::GlobalSimpleSection{:bg="bg-bs-gray" data-title="RAPID SYSTEM"}
+::::GlobalTitle{.mb-6 .text-center}
 Wir shippen auch komplexe Projekte in Rekordzeit
 ::::
 ::::GlobalParagraph{.mb-4}

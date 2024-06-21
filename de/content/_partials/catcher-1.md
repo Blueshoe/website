@@ -1,4 +1,4 @@
-::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.webp" :alt="Hannes Hanusch" :buttonUrl="https://blueshoe.io/hannes/" :size="full" :bg="bg-bs-gray" .mb-6}
+::GlobalCurvedSlider{:src="/img/slider/hannes_hanusch.webp" :alt="Hannes Hanusch" :buttonUrl="https://blueshoe.io/hannes/" :size="full" :bg="bg-bs-gray"}
 
 #preTitle
 Softwareentwicklung von Blueshoe

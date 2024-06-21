@@ -100,18 +100,44 @@ Hohe Langlebigkeit
 :::
 
 <!--- Referenzen --->
-:::GlobalBrandsSlider{data-title="Referenzen"}
-::: 
+:::GlobalPartial{content=references-1}
+:::
 
 <!--- Wir sind eher der Beziehungstyp--->
-:::GlobalSimpleSection{:bg="bg-bs-blue"}
-::::GlobalTitle{.mb-6 :color="text-white"}
+:::GlobalSmallCardWithImageSection{:bg="bg-bs-blue" :numberCards=2 data-title="Beispiele: Saleor und Wagtail"}
+::::GlobalTitle{.mb-6 :color="text-white" }
 Wir sind eher der Beziehungstyp
 ::::
-::::GlobalParagraph{.mb-4 :color="text-white"}
+::::GlobalParagraph{.mb-4 :color="text-white" }
 Und, ganz wichtig, wir lassen dich nach dem Projekt auch nicht allein. Über 90% unserer Projekte betreuen wir langfristig. Teilweise schon eine ganze Dekade. Natürlich nur, wenn du das willst.
-<!--- Durable Maintenance --->
 ::::
+
+#cards
+::GlobalSmallCardWithImage{:src="/img/global/icons/right.svg" :href="/leistungen/langfristiger-betrieb/" :bg="bg-bs-blue"}
+:::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
+Langfristigen Software-Betrieb bei Blueshoe
+:::
+:::GlobalParagraph{:fontSize="lg" :color="text-white"}
+Wenn Du bereits eine Software hast und diese von Blueshoe betreuen lassen möchtest, hier entlang.
+:::
+#title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
+Wartung & Support
+:::
+::
+
+::GlobalSmallCardWithImage{:src="/img/global/icons/left.svg" :href="/leistungen/anforderungsanalyse/" :bg="bg-bs-blue"}
+:::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
+Erfolgreiche Projekte starten mit exzellenten Anforderungen
+:::
+:::GlobalParagraph{:fontSize="lg" :color="text-white"}
+Wenn Du noch gar nicht umsetzen, sondern erstmal deine Anforderungen mit uns erforschen willst.
+:::
+#title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
+Anforderungsanalyse
+:::
+::
 :::
 
 

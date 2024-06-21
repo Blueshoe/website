@@ -96,7 +96,7 @@ Warum sind unsere Anforderungen besser?
 :::
 
 <!--- Referenzen --->
-:::GlobalBrandsSlider{data-title="Referenzen"}
+:::GlobalPartial{content=references-1}
 :::
 
 <!--- Welches Ergebnis kannst du erwarten?--->
@@ -166,7 +166,7 @@ Blueshoe ist der richtige Partner für dich wenn, ...
 :::
 
 <!--- Blueshoe ist der richtige Partner für dich wenn, ... --->
-:::GlobalSimpleSection{:bg="bg-blue"}
+:::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=2 data-title="Beispiele: Saleor und Wagtail"}
 ::::GlobalTitle{.mb-6}
 Der Anforderungskatalog ist fertig, jetzt geht’s ans Eingemachte.
 ::::
@@ -176,9 +176,36 @@ Sobald deine Anforderungen klar sind, erstellen wir ein verbindliches Angebot. S
 ::::GlobalParagraph{.mb-4}
 Du kannst den Anforderungskatalog auch nutzen, um Angebote von anderen Dienstleistern einzuholen. Wenn du dich für einen anderen Anbieter entscheidest, ist das kein Problem.
 ::::
-::::GlobalParagraph{.mb-4}
+::::GlobalParagraph
 Aber natürlich wären wir gern dein Realisierungspartner.
 ::::
+
+#cards
+::GlobalSmallCardWithImage{:src="/img/global/icons/right.svg" :href="/leistungen/software-realisierung/" :bg="bg-bs-blue"}
+:::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
+Wir realisieren IT-Projekte ohne Fallstricke
+:::
+:::GlobalParagraph{:fontSize="lg" :color="text-white"}
+Hier die Stelle, an der Blueshoe richtig los legt: Wir realisieren dein Software-Projekte. Schau dir unsere Vorteile an.
+:::
+#title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
+Software & Infrastruktur Realisierung
+:::
+::
+
+::GlobalSmallCardWithImage{:src="/img/global/icons/right.svg" :href="/leistungen/langfristiger-betrieb/" :bg="bg-bs-blue"}
+:::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
+Langfristigen Software-Betrieb bei Blueshoe
+:::
+:::GlobalParagraph{:fontSize="lg" :color="text-white"}
+Wenn Du bereits eine Software hast und diese von Blueshoe betreuen lassen möchtest, hier entlang.
+:::
+#title
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
+Wartung & Support
+:::
+::
 :::
 
 <!--- Call an expert --->

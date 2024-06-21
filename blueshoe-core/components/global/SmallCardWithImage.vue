@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="props.href" :target="target" v-if="props.href">
+  <NuxtLink :to="props.href" :target="target" v-if="props.href" class="transition ease-in-out delay-50 duration-100 hover:-translate-1 hover:scale-105">
     <div class="flex flex-col sm:flex-row justify-between gap-6 lg:gap-1 shadow-xl w-full h-full p-6" :class="bg">
       <div v-if="src" class="sm:order-2 flex items-center justify-center px-6 sm:p-0">
         <img

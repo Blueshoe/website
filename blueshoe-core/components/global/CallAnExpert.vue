@@ -9,13 +9,13 @@
             <div class="flex flex-col items-center">
               <booster-image :src="src" :alt="'Blueshoe expert ' + alt" :title="'Blueshoe expert ' + alt"
               class="border-[5px] border-bs-green rounded-full" />
-              <span class="pt-1 font-bold text-white" v-text="alt" />
+              <span class="pt-1 font-bold" :class="bg === 'bg-bs-blue' ? 'text-white' : ''" v-text="alt" />
             </div>
           </div>
           
 
           <div class="flex flex-col items-center">
-            <div class="text-white font-oswald font-bold text-center text-[22px] md:text-[32px] xl:leading-[32px] mb-6">
+            <div :class="bg === 'bg-bs-blue' ? 'text-white' : ''" class="font-oswald font-bold text-center text-[22px] md:text-[32px] xl:leading-[32px] mb-6">
               <slot name="buttonBlockTitle" />
             </div>
             
