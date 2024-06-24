@@ -121,7 +121,7 @@ TODO
 :::
 
 <!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+:::GlobalPartial{content=services-grid-2}
 :::
 
 

@@ -120,7 +120,7 @@ Wir arbeiten mit dir auf Augenh√∂he
 :::
 
 <!--- Referenzen --->
-:::GlobalPartial{content=references-1}
+:::GlobalPartial{content=references-2}
 :::
 
 <!--- Wir betreuen auch komplette Projekte --->
@@ -164,5 +164,5 @@ Auch in komplexen Projekten achten wir darauf, dass die Seiten-Geschwindigkeit √
 
 
 <!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+:::GlobalPartial{content=services-grid-2}
 :::

@@ -120,7 +120,7 @@ Wir arbeiten mit dir auf Augenhöhe
 :::
 
 <!--- Referenzen --->
-:::GlobalPartial{content=references-1}
+:::GlobalPartial{content=references-2}
 :::
 
 <!--- Wir betreuen auch komplette Projekte --->
@@ -179,5 +179,5 @@ Allianz Global Benefits
 
 
 <!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+:::GlobalPartial{content=services-grid-2}
 :::

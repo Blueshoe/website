@@ -80,6 +80,7 @@ Unsere Testing-Pakete:
 :::
 
 
+
 <!--- Profitiere von: Boxen --->
 :::GlobalListCardSliderSection{:bg="bg-white" :dotColor="black" :numberCards=3 .text-center}
 #card1
@@ -108,12 +109,13 @@ Verlässliches Testing zu jeder Zeit
 
 
 <!--- Referenzen --->
-:::GlobalPartial{content=references-1}
+:::GlobalPartial{content=references-2}
 :::
 
 <!--- Wir betreuen auch komplette Projekte --->
 :::GlobalPartial{content=full-service-agency-1}
 :::
+
 
 
 
@@ -144,5 +146,5 @@ Umfangreiche Backend- und Frontend-Tests erleichtern uns in mehreren Projekten d
 
 
 <!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+:::GlobalPartial{content=services-grid-2}
 :::

@@ -108,7 +108,7 @@ Einfaches Management
 :::
 
 <!--- Referenzen --->
-:::GlobalPartial{content=references-1}
+:::GlobalPartial{content=references-2}
 :::
 
 <!--- Wir betreuen auch komplette Projekte --->
@@ -147,5 +147,5 @@ Wenn die Grundlagen stimmen, lassen sich auch komplexe Projekte gut zwischen den
 
 
 <!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+:::GlobalPartial{content=services-grid-2}
 :::

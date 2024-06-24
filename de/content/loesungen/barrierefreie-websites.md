@@ -108,7 +108,7 @@ Gesetzeskonform Dienstleistungen anbieten
 :::
 
 <!--- Referenzen --->
-:::GlobalPartial{content=references-1}
+:::GlobalPartial{content=references-2}
 :::
 
 <!--- Wir betreuen auch komplette Projekte --->
@@ -144,5 +144,5 @@ Unsere Maßnahmen für ein barrierefreies Internet helfen dabei allen Menschen Z
 
 
 <!--- Service Grid --->
-:::GlobalPartial{content=services-grid-1}
+:::GlobalPartial{content=services-grid-2}
 :::
