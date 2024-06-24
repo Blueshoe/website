@@ -42,14 +42,14 @@ head:
   - Kostenersparnisse durch wesentlich simplifizierte Nutzer- und Rechteverwaltung ohne Lizenzkosten
   - Hohe Sicherheit durch ein spezialisiertes IAM-Tool, das schnelle Logins garantiert
   ::::
-  ::::GlobalParagraph{:color="text-white"}
+  ::::GlobalParagraph{.mb-10 :color="text-white"}
     Klingt gut, oder? Wie machen wir das?
   ::::
 :::
 
 
 <!--- Wir haben diesen Schmerz für uns gelöst und tun das auch für dich: --->
-:::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
+:::GlobalSectionWithImage{.bottom-[50px] .w-[80%] .left-1/2 .transform .-translate-x-1/2 :image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
   ::::GlobalTitle{.mb-6}
   Wir setzen auf ein zentrales Open Source IAM Tool: Keycloak
   ::::

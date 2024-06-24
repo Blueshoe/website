@@ -41,14 +41,14 @@ head:
   - Tester arbeiten nicht 100% genau. Sie sind einfach Menschen
   - Man kann nicht nach jedem neuen Release alle Funktionen testen
   ::::
-  ::::GlobalParagraph{:color="text-white"}
+  ::::GlobalParagraph{.mb-10 :color="text-white"}
   Das kommt dir sicherlich bekannt vor.
   ::::
 :::
 
 
 <!--- Wir haben diesen Schmerz für uns gelöst und tun das auch für dich: --->
-:::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
+:::GlobalSectionWithImage{.bottom-[50px] .w-[80%] .left-1/2 .transform .-translate-x-1/2 :image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
 ::::GlobalTitle{.mb-6}
 Wir haben diesen Schmerz für uns gelöst und tun das auch für dich:
 ::::

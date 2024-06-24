@@ -42,14 +42,14 @@ Ab Juni 2025 schreibt das Barrierefreiheitsstärkungsgesetz (BFSG) vor, dass all
 - Generell verbesserte Nutzerfreundlichkeit für alle Nutzer
 - Imagegewinn für das Unternehmen
 ::::
-::::GlobalParagraph{:color="text-white"}
+::::GlobalParagraph{.mb-10 :color="text-white"}
 Klingt so, als wäre es Zeit, das Thema anzugehen, oder?
 ::::
 :::
 
 
 <!--- Wir haben Barrierefreiheitsprojekte umgesetzt: --->
-:::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
+:::GlobalSectionWithImage{.bottom-[50px] .w-[80%] .left-1/2 .transform .-translate-x-1/2 :image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
 ::::GlobalTitle{.mb-6}
 Wir haben Barrierefreiheitsprojekte umgesetzt:
 ::::

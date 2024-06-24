@@ -41,14 +41,14 @@ head:
   - Es bestehen Fehlerquellen durch den Faktor “Mensch”
   - Die Datenlage bei manuellen Prozessen ist häufig dünn
   ::::
-  ::::GlobalParagraph{:color="text-white"}
+  ::::GlobalParagraph{.mb-10 :color="text-white"}
     Kennst du das aus deinem Unternehmen?
   ::::
 :::
 
 
 <!--- Wir integrieren Systeme und beenden manuelle Prozesse --->
-:::GlobalSectionWithImage{:image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
+:::GlobalSectionWithImage{.bottom-[50px] .w-[80%] .left-1/2 .transform .-translate-x-1/2 :image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
   ::::GlobalTitle{.mb-6}
   Wir integrieren Systeme und beenden manuelle Prozesse
   ::::
@@ -102,22 +102,10 @@ Keine Lizenzkosten
 ::
 :::
 
-<!--- Persönlich betreut, perfekt konfiguriert --->
-:::GlobalSimpleSection{:bg="bg-bs-gray"}
-:::GlobalPreTitle{.mb-3}
-Persönlich betreut, perfekt konfiguriert
+<!--- persönlicher Kontakt --->
+:::GlobalPartial{content=personal-box-1}
 :::
-::::GlobalTitle{.mb-6}
-Wir arbeiten mit dir auf Augenhöhe
-::::
-::::GlobalBlock{.mb-4 .ul-disk}
-- Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst.
-- Wir kommunizieren glasklar. Auch für Nicht-Techies.
-- Wir denken uns ein und suchen mit dir immer die beste Lösung. Nicht die Teuerste.
-- Wir sind Techies mit Herz und lieben komplexe Herausforderungen.
-- Wir sind auch in schwierigen Situationen belastbar.
-::::
-:::
+
 
 <!--- Referenzen --->
 :::GlobalPartial{content=references-2}
@@ -166,11 +154,6 @@ Allianz Global Benefits
 :::
 ::
 :::
-
-<!--- persönlicher Kontakt --->
-:::GlobalPartial{content=personal-box-1}
-:::
-
 
 
 <!--- Call an expert --->
