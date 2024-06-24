@@ -9,9 +9,12 @@ export const useGeneralStore = defineStore('general', () => {
   const initialSorting = ref<SortedItems[]>(sortedItems.value);
   const isMobileMenuOpen = ref(false);
 
-  const solutions = {
+  const solutions: SubMenu = {
     title: 'Lösungspakete',
     showTitle: true,
+    showExtraButton: true,
+    extraButtonLabel: 'Hier ist ein Button',
+    extraButtonLink: '/leistungen/anforderungsanalyse/',
     links: [
       {
         name: 'automaticFrontendTesting',
@@ -145,6 +148,9 @@ export const useGeneralStore = defineStore('general', () => {
     defaultSubmenuHeadline: 'Rapid System für schnelle Entwicklung',
     defaultSubmenuHelpText: 'Dies ist eine Beschreibung',
     defaultSubmenuImage: '/img/global/icons/RAPID.svg',
+    showExtraButton: true,
+    extraButtonLabel: 'Hier ist ein Button',
+    extraButtonLink: '/leistungen/anforderungsanalyse/',
     links: [
       {
         name: 'requirementsEngineering',

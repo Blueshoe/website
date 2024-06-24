@@ -34,7 +34,7 @@
                   :alt="`${t(link.name)} Icon`"
                   width="40"
                 />
-                <span :class="child.singleLineLinks ? 'first-letter:font-bold' : ''" v-text="t(link.name)" />
+                <span :class="{ 'first-letter:font-bold': child.singleLineLinks }" v-text="t(link.name)" />
               </div>
             </NuxtLink>
           </li>
@@ -50,9 +50,26 @@
               :title="`${currentActiveChildName} Icon`"
               :alt="`${currentActiveChildName} Icon`"
             />
+
+            <GlobalButton
+              v-if="child.showExtraButton && child.extraButtonLabel"
+              class="mt-4"
+              :url="child.extraButtonLink"
+              :label="child.extraButtonLabel"
+              color="green"
+              size="small"
+            />
           </div>
         </div>
       </div>
+      <GlobalButton
+        v-if="child.showExtraButton && child.extraButtonLabel && !child.singleLineLinks"
+        class="mt-4 ml-4"
+        :url="child.extraButtonLink"
+        :label="child.extraButtonLabel"
+        color="green"
+        size="small"
+      />
     </div>
   </ul>
 </template>

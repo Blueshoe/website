@@ -47,6 +47,14 @@
             </div>
           </NuxtLink>
         </li>
+        <GlobalButton
+          v-if="child.showExtraButton && child.extraButtonLabel"
+          class="my-4 ml-4"
+          :url="child.extraButtonLink"
+          :label="child.extraButtonLabel"
+          color="green"
+          size="small"
+        />
       </div>
     </ul>
   </div>

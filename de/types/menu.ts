@@ -26,4 +26,7 @@ export type SubMenu = {
   defaultSubmenuHeadline?: string;
   defaultSubmenuHelpText?: string;
   defaultSubmenuImage?: string;
+  showExtraButton?: boolean;
+  extraButtonLabel?: string;
+  extraButtonLink?: string;
 };
