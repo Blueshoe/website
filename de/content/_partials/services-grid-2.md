@@ -6,10 +6,10 @@
 #cards
     ::GlobalSmallCardWithImage{:lang="de" :bg="bg-bs-blue" :src="/img/services/test_automation.svg" :href="/loesungen/automatisches-frontend-testing/"}
         :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-        Lorem impsum
+        Personalaufwand um 80% reduzieren
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+        Unser vollautomatisches Frontend-Testing macht neue Releases zum Kinderspiel. Jetzt zurücklehnen und alles automatisiert testen lassen.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
@@ -19,10 +19,11 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :bg="bg-bs-blue" :src="/img/services/barrierefreie_website.svg" :href="/loesungen/barrierefreie-websites/"}
         :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-        Lorem impsum Lorem impsum 
+        Konform mit dem BFSG
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+        Wir helfen dir dabei, die Anforderungen des Barrierefreiheitsstärkungsgesetzes in deinen Websites umzusetzen. Erschließe dir damit neue spannende Nutzergruppen.
+
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
@@ -32,10 +33,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :bg="bg-bs-blue" :src="/img/global/icons/systeme_verbinden.svg" :href="/loesungen/systeme-vernetzen/"}
         :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-        Systeme für schnellere Abläufe verbinden
+        Abläufe optimieren und Effizienz vervielfachen
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        Sparen Sie Zeit und Geld, indem Sie Ihre Systeme besser miteinander verbinden mit unseren maßgeschneiderten APIs.
+        Mittels individueller Schnittstellen bringen wir Systeme und Prozesse zusammen. Wir entfernen Manualität und Fehlerquellen. Dein Unternehmen bekommt von uns einen Turbolader.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
@@ -45,10 +46,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :bg="bg-bs-blue" :src="/img/global/icons/schnelle_websites.svg" :href="/loesungen/schnelle-websites/"}
         :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-        TODO
+        Umsatz steigern mit dem Website-Turbo
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+        Nutzer haben keine Zeit und Geduld zu warten bis deine Inhalte geladen haben. Wir sorgen dafür, dass deswegen keiner mehr abspringt und das surfen zum absoluten Vergnügen wird.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
@@ -58,10 +59,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :bg="bg-bs-blue" :src="/img/global/icons/hostingkosten_senken.svg" :href="/loesungen/hostingkosten-reduzieren/"}
         :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-        Lorem ipsum
+        Bis zu 10-fach geringere Hosting-Kosten
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        Die großen Platzhirsche (AWS, Azure, Google) sind sehr teuer. Durch eine Migration zu einem günstigeren Anbieter lässt sich schnell viel Geld sparen. Wir sind dein Umzugsunternehmen dafür.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
@@ -71,10 +72,10 @@
 
     ::GlobalSmallCardWithImage{:lang="de" :bg="bg-bs-blue" :src="/img/global/icons/iam_management.svg" :href="/loesungen/rights-access-management/"}
         :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-        Todo
+        Zentral und sicher Nutzerdaten verwalten
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+        Login-Daten sind extrem sicherheitsrelevant. Sie sollten daher einer einzigen zentralen Verwaltung mit einem spezialisierten Tool unterliegen. Mit unserer Lösung kannst du wieder ruhiger schlafen.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}

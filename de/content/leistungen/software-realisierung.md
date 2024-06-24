@@ -104,7 +104,7 @@ Hohe Langlebigkeit
 :::
 
 <!--- Wir sind eher der Beziehungstyp--->
-:::GlobalSmallCardWithImageSection{:bg="bg-bs-blue" :numberCards=2 data-title="Beispiele: Saleor und Wagtail"}
+:::GlobalSmallCardWithImageSection{:bg="bg-bs-blue" :numberCards=2}
 ::::GlobalTitle{.mb-6 :color="text-white" }
 Wir sind eher der Beziehungstyp
 ::::
