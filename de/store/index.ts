@@ -62,7 +62,7 @@ export const useGeneralStore = defineStore('general', () => {
         name: 'headlessECommerce',
         href: '/loesungen/headless-e-commerce/',
         icon: '/img/global/icons/buy-online.svg'
-      },
+      }
       // {
       //   name: 'apiEntwicklung',
       //   href: '/loesungen/api-entwicklung/',
@@ -142,6 +142,9 @@ export const useGeneralStore = defineStore('general', () => {
     title: 'RAPID-System für schnelle Entwicklung',
     showTitle: true,
     singleLineLinks: true,
+    defaultSubmenuHeadline: 'Rapid System für schnelle Entwicklung',
+    defaultSubmenuHelpText: 'Dies ist eine Beschreibung',
+    defaultSubmenuImage: '/img/global/icons/RAPID.svg',
     links: [
       {
         name: 'requirementsEngineering',

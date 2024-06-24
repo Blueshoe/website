@@ -23,4 +23,7 @@ export type SubMenu = {
   showTitle?: boolean;
   singleLineLinks?: boolean;
   links: SubMenuLink[];
+  defaultSubmenuHeadline?: string;
+  defaultSubmenuHelpText?: string;
+  defaultSubmenuImage?: string;
 };
