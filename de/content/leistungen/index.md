@@ -25,6 +25,7 @@ head:
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
+
 ::GlobalWrapperSections
 
 :::GlobalSectionWithBackgroundImage{:src="/img/services/cloud_native_development_header.svg"}
@@ -122,7 +123,7 @@ head:
 :::
 
 :::GlobalSectionWithImage{:image="/img/global/icons/RAPID_A_only.svg" :alt="actionable scope" :imagePosition="right" :bg="bg-bs-gray" data-title="2. Die Projektbeschreibung und Kosten"}
-  ::::GlobalTitle{.mb-6}
+  ::::GlobalTitle{.mb-6 id="projektbeschreibung"}
   2\. Die Projektbeschreibung und Kosten
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -148,7 +149,7 @@ head:
 :::
 
 :::GlobalSectionWithImage{:image="/img/global/icons/RAPID_P_only.svg" :alt="project greenlight" :imagePosition="left" :bg="bg-white" data-title="3. Die Entscheidung über Projektfreigabe oder Stopp" .pb-10}
-  ::::GlobalTitle{.mb-6}
+  ::::GlobalTitle{.mb-6 id="projektfreigabe"}
   3\. Die Entscheidung über Projektfreigabe oder Stopp
   ::::
   ::::GlobalParagraph{.mb-4}

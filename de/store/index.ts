@@ -14,7 +14,7 @@ export const useGeneralStore = defineStore('general', () => {
     showTitle: true,
     showExtraButton: true,
     extraButtonLabel: 'Alle Lösungspakete',
-    extraButtonLink: '/leistungen/anforderungsanalyse/',
+    extraButtonLink: '/loesungen/',
     links: [
       {
         name: 'automaticFrontendTesting',
@@ -149,7 +149,7 @@ export const useGeneralStore = defineStore('general', () => {
     defaultSubmenuHelpText: 'Dies ist eine Beschreibung',
     defaultSubmenuImage: '/img/global/icons/RAPID.svg',
     showExtraButton: true,
-    extraButtonLabel: 'Das RAPID-System im Erklärt',
+    extraButtonLabel: 'Das RAPID-System erklärt',
     extraButtonLink: '/leistungen/',
     links: [
       {
@@ -162,7 +162,7 @@ export const useGeneralStore = defineStore('general', () => {
       },
       {
         name: 'requirementsDocs',
-        href: '/leistungen/anforderungsanalyse#anforderungsdokumentation',
+        href: '/leistungen#projektbeschreibung',
         icon: '/img/services/Was-wird-erledigt.svg',
         image: '/img/global/icons/RAPID_A.svg',
         caps: 'A',
@@ -170,7 +170,7 @@ export const useGeneralStore = defineStore('general', () => {
       },
       {
         name: 'projectGreenlight',
-        href: '/leistungen/anforderungsanalyse/',
+        href: '/leistungen#projektfreigabe',
         icon: '/img/global/icons/go.svg',
         image: '/img/global/icons/RAPID_P.svg',
         caps: 'P',
