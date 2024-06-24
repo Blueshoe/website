@@ -10,7 +10,7 @@
             :modules="[SwiperNavigation, SwiperVirtual]"
             :slides-per-view="1"
             :allow-touch-move="true"
-            :virtual="true"
+            :virtual="false"
             :navigation="{
               prevEl: '.swiper-button-prev',
               nextEl: '.swiper-button-next'
