@@ -58,6 +58,7 @@
               :label="child.extraButtonLabel"
               color="green"
               size="small"
+              @click.stop="emitHandleCloseMenu(props.navItem)"
             />
           </div>
         </div>
@@ -69,6 +70,7 @@
         :label="child.extraButtonLabel"
         color="green"
         size="small"
+        @click.stop="emitHandleCloseMenu(props.navItem)"
       />
     </div>
   </ul>
