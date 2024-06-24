@@ -19,11 +19,12 @@
             :key="i"
             class="w-fit relative font-source-sans-pro font-normal text-base py-2.5"
             @click.stop="emitHandleCloseMenu(props.navItem)"
+            @mouseover="setActiveChild(link)"
+            @mouseleave="setDefaultActiveChild()"
           >
             <NuxtLink
               :to="link.href"
               class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
-              @mouseover="setActiveChild(link)"
             >
               <div class="flex items-center gap-2 px-6 py-1">
                 <BoosterImage
@@ -43,7 +44,7 @@
             <span class="text-base font-semibold font-source-sans-pro uppercase" v-text="currentActiveChildName" />
             <span class="font-extralight font-oswald text-4xl" v-text="currentActiveHelpText" />
             <BoosterImage
-              class="mt-4 !h-[153px] max-w-full"
+              class="mt-4 !h-[153px] max-w-full p-2"
               :src="currentActiveImage"
               :title="`${currentActiveChildName} Icon`"
               :alt="`${currentActiveChildName} Icon`"
@@ -82,17 +83,19 @@ function setActiveChild(link: SubMenuLink) {
   currentActiveHelpText.value = link.helpText || '';
 }
 
-watch(
-  props.navItem,
-  (newNavItem) => {
-    if (newNavItem.children && newNavItem.children[0].links[0].image && newNavItem.children[0].singleLineLinks) {
-      currentActiveImage.value = newNavItem.children[0].links[0].image || '';
-      currentActiveChildName.value = t(newNavItem.children[0].links[0].name);
-      currentActiveHelpText.value = t(newNavItem.children[0].links[0].helpText || '');
-    }
-  },
-  { immediate: true }
-);
+function setDefaultActiveChild() {
+  if (
+    props.navItem.children &&
+    props.navItem.children[0].defaultSubmenuImage &&
+    props.navItem.children[0].singleLineLinks
+  ) {
+    currentActiveImage.value = props.navItem.children[0].defaultSubmenuImage || '';
+    currentActiveChildName.value = t(props.navItem.children[0].defaultSubmenuHeadline || '');
+    currentActiveHelpText.value = t(props.navItem.children[0].defaultSubmenuHelpText || '');
+  }
+}
+
+setDefaultActiveChild();
 
 //  --------------------------------------------------------------------------------------------------------------------
 //  emits
