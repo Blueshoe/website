@@ -13,7 +13,7 @@ export const useGeneralStore = defineStore('general', () => {
     title: 'Lösungspakete',
     showTitle: true,
     showExtraButton: true,
-    extraButtonLabel: 'Hier ist ein Button',
+    extraButtonLabel: 'Alle Lösungspakete',
     extraButtonLink: '/leistungen/anforderungsanalyse/',
     links: [
       {
@@ -149,8 +149,8 @@ export const useGeneralStore = defineStore('general', () => {
     defaultSubmenuHelpText: 'Dies ist eine Beschreibung',
     defaultSubmenuImage: '/img/global/icons/RAPID.svg',
     showExtraButton: true,
-    extraButtonLabel: 'Hier ist ein Button',
-    extraButtonLink: '/leistungen/anforderungsanalyse/',
+    extraButtonLabel: 'Das RAPID-System im Erklärt',
+    extraButtonLink: '/leistungen/',
     links: [
       {
         name: 'requirementsEngineering',

@@ -118,7 +118,7 @@ Verlässliches Testing zu jeder Zeit
 
 
 <!--- Projekte --->
-:::GlobalSliderSection{:numberCards=2 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
+:::GlobalSliderSection{:numberCards=3 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
 ::::GlobalTitle{.mb-6}
 Projekte in denen wir Testautomatisierung umgesetzt haben
 ::::
@@ -127,32 +127,14 @@ Umfangreiche Backend- und Frontend-Tests erleichtern uns in mehreren Projekten d
 ::::
 
 #card1
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/tuhh-logo.jpg", "alt": "TUHH"}' :desktopImage='{"src": "/img/global/slide/digital-learning-lab.jpg", "alt": "maurer"}' :tags='["Django", "Python", "Docker", "Kubernetes"]'}
-:::GlobalParagraph{:fontSize="lg"}
-Wir haben für die Technische Universität Hamburg das “Digital Learning Lab” gebaut, eine Plattform für digitale Unterrichtsgestaltung. Hier können Lehrkräfte aus ganz Deutschland digitale Tools nutzen und Unterrichtsbausteine für den eigenen (Fern)unterricht nutzen.
-:::
-#title
-:::GlobalTitle
-Technische Universität Hamburg
-:::
-#button
-:::GlobalButton{:url="https://digitallearninglab.de/" :label="Zum Digital Learning Lab" :target="_blank"}
-:::
-::
-
+  :::GlobalPartial{content=slides/ofa-1}
+  :::
 #card2
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/allianz_logo.jpg", "alt": "allianz"}' :desktopImage='{"src": "/img/global/slide/allianz_foto.jpg", "alt": "allianz"}' :mobileImage='{"src": "/img/global/slide/allianz_foto_mobile.jpg", "alt": "allianz"}' :tags='["Django", "Python", "Wagtail", "Open Shift"]'}
-:::GlobalParagraph{:fontSize="lg"}
-Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit Headless CMS gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
-:::
-#title
-:::GlobalTitle
-Allianz Global Benefits
-:::
-#button
-:::GlobalButton{:url="https://www.allianzglobalbenefits.com/" :label="Zu Allianz Global Benefits" :color="green" :target="_blank"}
-:::
-::
+  :::GlobalPartial{content=slides/luma-2}
+  :::
+#card3
+  :::GlobalPartial{content=slides/secret-project-2}
+  :::
 :::
 
 

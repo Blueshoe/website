@@ -165,45 +165,14 @@ The Woodshop
 ::
 
 #card2
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/augsburg_university_logo.jpg", "alt": "augsburg university"}' :desktopImage='{"src": "/img/global/slide/augsburg_university.jpg", "alt": "augsburg university"}' :mobileImage='{"src": "/img/global/slide/augsburg_university_mobile.jpg", "alt": "augsburg university"}' :tags='["Django CMS", "Bootstrap", "Solr", "Nginx" ]'}
-:::GlobalParagraph{:fontSize="lg"}
-Neue Website für die Universität Augsburg. Inklusive Login für Studenten. Komplexe Rechteverwaltung. Abbildung der verschiedenen Fakultäten.
-:::
-#title
-:::GlobalTitle
-Universität Augsburg
-:::
-#button
-:::GlobalButton{:url="https://www.uni-augsburg.de/de/" :label="Mehr erfahren" :target="_blank"}
-:::
-::
-
+  :::GlobalPartial{content=slides/unia-1}
+  :::
 #card3
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :desktopImage='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :mobileImage='{"src": "/img/global/slide/wintercompany_mobile.jpg", "alt": "winter&company"}' :tags='["Python", "Django", "HubSpot", "Docker", "Webpack", "Divio Cloud"]'}
-:::GlobalParagraph{:fontSize="lg"}
-Technische Betreuung und Weiterentwicklung der Website. Inklusive Kundenlogin und umfangreichem Produktfinder.
-:::
-#title
-:::GlobalTitle
-Winter & Company
-:::
-#button
-:::GlobalButton{:url="https://www.winter-company.com" :label="Zur Website" :target="_blank"}
-:::
-::
-
+  :::GlobalPartial{content=slides/wuc-1}
+  :::
 #card4
-::GlobalSliderCard{:logo='{"src": "/img/global/slide/allgau_logo.jpg", "alt": "allgau"}' :desktopImage='{"src": "/img/global/slide/allgau.jpg", "alt": "allgau"}' :mobileImage='{"src": "/img/global/slide/allgau_mobile.jpg", "alt": "allgau"}' :tags='["Django", "Python"]'}
-:::GlobalParagraph{:fontSize="lg"}
-Plattform zur Verifizierung von Markenpartnern der Allgäu GmbH, anhand administrierbarer Fragebögen.
-:::
-#title
-:::GlobalTitle
-Allgäu GmbH - Dialogplattform
-:::
-#button
-:::GlobalButton{:url="https://dialogplattform.allgaeu.de/" :label="Zur Plattform" :target="_blank"}
-:::
+  :::GlobalPartial{content=slides/allgau-1}
+  :::
 ::
 
 #card5
