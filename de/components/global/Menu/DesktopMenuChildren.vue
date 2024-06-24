@@ -43,8 +43,9 @@
           <div class="flex flex-col">
             <span class="text-base font-semibold font-source-sans-pro uppercase" v-text="currentActiveChildName" />
             <span class="font-extralight font-oswald text-4xl" v-text="currentActiveHelpText" />
+
             <BoosterImage
-              class="mt-4 !h-[153px] max-w-full p-2"
+              class="mt-4"
               :src="currentActiveImage"
               :title="`${currentActiveChildName} Icon`"
               :alt="`${currentActiveChildName} Icon`"

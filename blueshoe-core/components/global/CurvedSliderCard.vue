@@ -25,7 +25,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div
       v-if="!firstCard"
       class="h-[1px] border-t-2 absolute rotate-[-76deg]"
@@ -39,7 +39,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div
       class="h-[1px] border-t-2 absolute rotate-[76deg]"
       :class="[
@@ -52,7 +52,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div
       class="h-[1px] border-t-2 absolute rotate-[-76deg]"
       :class="[
@@ -65,7 +65,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div>
       <div :class="`flex flex-col h-[350px] ${!firstCard ? 'ml-4' : ''}`">
         <div class="h-[40%] md:h-[30%]">
@@ -74,7 +74,7 @@
             :alt="alt"
             class="relative top-[7px] h-full w-full"
             :class="{ 'xl:w-[90px]': size === 'small' }"
-          />
+          >
         </div>
         <div
           class="h-[40%] flex flex-col"
