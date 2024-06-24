@@ -54,6 +54,7 @@
           :label="child.extraButtonLabel"
           color="green"
           size="small"
+          @click="isMobileMenuOpen = false"
         />
       </div>
     </ul>
