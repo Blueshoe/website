@@ -67,11 +67,13 @@ head:
   :::GlobalPartial{content=catcher-1}
   ::: 
 
-  :::GlobalSimpleSection{:bg="bg-white" data-title="WER SIND WIR?"}
-    ::::GlobalTitle{.mb-6}
+<!--- persönlicher Kontakt --->
+  :::GlobalCardWithBackgroundImageSection{:src="/img/about-us/team1.webp" :alt="Wir sind Blueshoe" :width="md:w-3/5"}
+    ::::GlobalTitle{:tag="h3" .mb-6  data-title="WER SIND WIR?"}
     Wer ist Blueshoe überhaupt?
     ::::
-    ::::GlobalBlock{.ul-disk}
+
+    ::::GlobalBlock{.mb-4 .ul-disk}
     - Wir sind ein europäisches Unternehmen mit Sitz in München, mit Remote-Culture und Begeisterung für Open-Source-Software
     - Arbeiten in allen Projektphasen transparent und nachvollziehbar
     - Spaß bei der Arbeit ist uns wichtig und wir lieben große und komplexe Software-Projekte
