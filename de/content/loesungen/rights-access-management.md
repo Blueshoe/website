@@ -47,13 +47,12 @@ head:
   ::::
 :::
 
-
 <!--- Wir haben diesen Schmerz für uns gelöst und tun das auch für dich: --->
-:::GlobalSectionWithImage{.bottom-[50px] .w-[80%] .left-1/2 .transform .-translate-x-1/2 :image="/img/services/Was-wird-erledigt.svg" :alt="was wird erledigt" :imagePosition="left" :isButton=true :bg="bg-bs-gray"}
-  ::::GlobalTitle{.mb-6}
+:::GlobalPodcastSection{:videoId="6b_DXrESzgY" :videoPosition="right"}
+  ::::GlobalTitle{:tag="h3" .mb-6}
   Wir setzen auf ein zentrales Open Source IAM Tool: Keycloak
   ::::
-  ::::GlobalBlock{.ul-disk}
+  ::::GlobalBlock{.ul-disk .mb-6}
   - Lizenzkostenfrei durch Open Source
   - Spezialisiertes Tool, das für höchste Sicherheit sorgt
   - Einfache Implementierung durch Standardisierung
@@ -61,10 +60,11 @@ head:
   - Geeignet für die Cloud und Kubernetes
   - Breite Unterstützung unterschiedlicher Protokolle (SAML, OpenID, OIDC)
   ::::
-#button
   ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
   ::
 :::
+
+
 
 <!--- Pricing --->
 :::GlobalSimpleSection{:bg="bg-white"}
