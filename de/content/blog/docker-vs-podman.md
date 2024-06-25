@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Hier findest du einen Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest bzw. welches Tool am besten für deine individuellen Bedürfnisse geeignet sein könnte.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/docker-vs-podman.jpg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/docker-vs-podman.jpg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Hier findest du einen Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest bzw. welches Tool am besten für deine individuellen Bedürfnisse geeignet sein könnte.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/docker-vs-podman.jpg'
 src: '/blog/docker-vs-podman'
 img: '/img/blogs/docker-vs-podman.jpg'
 alt: 'Docker vs. Podman'
@@ -39,12 +39,12 @@ productUpdates: []
 topic:
   - Entwicklung
 ---
-In diesem Artikel vergleichen wir Podman und Docker, um zu sehen, wie sie sich gegeneinander behaupten. Wir beginnen mit einem Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest. Anschließend gehen wir auf die Details ein, was jedes Tool einzigartig macht, bevor wir zu unserem Fazit kommen, welches Tool am besten für deine Bedürfnisse geeignet ist: Podman oder Docker!
+In diesem Artikel vergleichen wir Podman und Docker, um zu sehen, wie sie sich im Vergleich zueinander schlagen. Wir beginnen mit einem Überblick darüber,  was die beiden Tools sind und warum du dich für das eine oder das andere entscheiden solltest. Dann gehen wir ins Detail, was jedes Tool einzigartig macht, bevor wir zu unserem Fazit kommen, welches Tool am besten für deine Bedürfnisse geeignet ist: Podman oder Docker!
 <!--more-->
 
 ![Docker vs. Podman](/img/blogs/docker-vs-podman.jpg){.object-cover .max-w-full .mb-5}
 
-:::BlogNavigationCard{:title="Was wir in diesem Beitrag betrachten werden:"}
+:::BlogNavigationCard{:title="Was wir uns in diesem Beitrag ansehen werden:"}
 
 :::
 
@@ -52,10 +52,10 @@ In diesem Artikel vergleichen wir Podman und Docker, um zu sehen, wie sie sich g
 Was ist Docker im Jahr 2023?
 :::
 :::globalParagraph
-Docker ist ein langjähriger Akteur in der Container-Welt und existiert seit 2013. Wenn du die Branche schon eine Weile verfolgst, hast du sicherlich schon von Docker gehört oder es sogar selbst verwendet!
+<a href="https://www.docker.com/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker</a> ist ein langjähriger Akteur in der Container-Welt und existiert seit 2013. Wenn du die Branche schon eine Weile verfolgst, hast du sicherlich schon von Docker gehört oder es sogar selbst verwendet!
 :::
 :::globalParagraph
-In den letzten Jahren hat sich das Unternehmen darauf konzentriert, die Entwicklererfahrung zu verbessern und sicherzustellen, dass Container in allen Phasen des Anwendungslebenszyklus effektiv von Entwicklern genutzt werden können. Es bietet auch eine umfangreiche Funktionssammlung für den Betrieb von Containern in der Produktion. Das Unternehmen hinter der Technologie, Docker Inc., hat auch <a href="https://twitter.com/romeensheth/status/1597808112135651329" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">eine fantastische Geschäftsumstellung gemacht und ist jetzt sehr profitabel</a> mit seinem Abonnementmodell. Sich auf Docker als kommerziell unterstütztes Produkt zu verlassen, könnte eine solide Entscheidung für die Zukunft sein.
+In den letzten Jahren hat sich das Unternehmen darauf konzentriert, die Entwicklererfahrung zu verbessern und sicherzustellen, dass Container in allen Phasen des Anwendungslebenszyklus effektiv von Entwicklern genutzt werden können. Es bietet auch eine umfangreiche Funktionssammlung für den Betrieb von Containern in der Produktion. Das Unternehmen hinter der Technologie, Docker Inc., hat auch <a href="https://twitter.com/romeensheth/status/1597808112135651329" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">einen fantastischen geschäftlichen Schwenk vollzogen</a> und ist nun mit seinem abonnementbasierten Modell sehr profitabel. Sich auf Docker als kommerziell unterstütztes Produkt zu verlassen, könnte eine solide Entscheidung für die Zukunft sein.
 :::
 :::globalParagraph
 Da Docker schon lange auf dem Markt ist, unterstützt es auch viele Funktionen, wie den <a href="https://docs.docker.com/engine/security/rootless/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Rootless-Modus</a> (dazu später mehr). Dadurch ist es nicht mehr erforderlich, den Docker-Daemon mit Root-Rechten auf den Servern auszuführen. Das macht es für alle einfacher, da du Container verwenden kannst, ohne dich um privilegierten Zugriff oder die Sicherheitsprobleme kümmern zu müssen, die du als Root-Benutzer sonst hättest.
@@ -68,13 +68,13 @@ Docker bietet eine sehr umfassende Dokumentation zu nahezu jedem Thema, das bei 
 Was ist das Besondere an Podman?
 :::
 :::globalParagraph
-Podman ist eine relativ neue Container-Laufzeitumgebung, hat aber bereits Einzug in viele Standard-Software-Repositories für Linux gehalten. Du musst keine externen Quellen hinzufügen, um es auf deinem Host zu installieren. Es ist manchmal bereits bei einer frischen Installation verfügbar.
+<a href="https://podman.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Podman</a> ist eine relativ neue Container-Laufzeitumgebung, hat aber bereits Einzug in viele Standard-Software-Repositories für Linux erhalten. Du musst keine externen Quellen hinzufügen, um es auf deinem Host zu installieren. Es ist manchmal bereits bei einer frischen Installation verfügbar.
 :::
 :::globalParagraph
-Podman läuft ohne Daemon und bietet eine Entwicklungserfahrung, die sich sehr nahe an der von Docker anfühlt. Die meisten Befehle in der Podman-Befehlszeilenschnittstelle sind identisch mit denen der Docker-Befehlszeile. Podman Desktop, eine grafische Benutzeroberfläche für Podman, sieht auch fast identisch mit Docker Desktop aus.
+Podman läuft ohne Daemon und bietet eine Entwicklungserfahrung, die der von Docker sehr nahe kommt, d.h., die meisten Befehle in der Podman-CLI sind identisch mit denen der Docker-CLI. Podman Desktop, eine grafische Benutzeroberfläche für Podman, sieht ebenfalls fast genauso wie Docker Desktop aus.
 :::
 :::globalParagraph
-Die Dokumentation von Podman ist ehrlich gesagt etwas schlecht und lässt bestimmte Themen vollständig aus.
+Die Dokumentation von Podman ist ehrlich gesagt nicht so gut und lässt bestimmte Themen vollständig aus.
 :::
 :::globalParagraph
 Die folgende Abbildung zeigt einen Graphen von Google Trends, der das wachsende Interesse an Podman in den letzten Jahren deutlich zeigt.
@@ -98,14 +98,14 @@ Lass uns einen genaueren Blick auf die Unterschiede zwischen Podman und Docker w
 Daemon – oder kein Daemon
 :::
 :::globalParagraph
-Docker führt einen <a href="https://man7.org/linux/man-pages/man7/daemon.7.html" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Daemon-Prozess</a> ('docked') auf dem Host-System aus, der in der Regel mit Root-Rechten ausgestattet ist. Was macht der Daemon-Prozess in den Tiefen des Systems? Nun, im Grunde alles, was zur Verwaltung von Containern auf dem Host benötigt wird: Überwachung laufender Container-Instanzen, Verwaltung der Container-Images, Bereitstellung von Speichervolumes und vieles mehr. Er erstellt Container-Netzwerke auf Anfrage und kümmert sich um alle niedrigstufigen Container-Dinge, insbesondere <a href="https://www.docker.com/blog/what-is-containerd-runtime/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">containerd</a> und <a href="https://github.com/opencontainers/runc" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">runc</a>. Der Daemon-Prozess erstellt eine <a href="/our-services/api-development-company/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">API-Schnittstelle</a> mit einem HTTP-Protokoll, um seine Funktionalität für alle Arten von Benutzeroberflächen zugänglich zu machen, einschließlich der <a href="https://docs.docker.com/engine/reference/commandline/cli/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker-Befehlszeile</a>. Abhängig von der Plattform wird die Docker-Schnittstelle über einen Unix-Socket, einen benannten Pipe oder einen TCP-Port materialisiert (mit vielen Optionen, um sie sicher zu machen). Der Docker-Daemon läuft mit sehr geringem Ressourcenverbrauch.
+Docker führt einen <a href="https://man7.org/linux/man-pages/man7/daemon.7.html" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Daemon-Prozess</a> ('docked') auf dem Host-System aus, der in der Regel mit Root-Rechten ausgestattet ist. Was macht der Daemon-Prozess in den Tiefen des Systems? Nun, im Grunde alles, was zur Verwaltung von Containern auf dem Host benötigt wird: Überwachung laufender Container-Instanzen, Verwaltung der Container-Images, Bereitstellung von Speichervolumes und vieles mehr. Er erstellt Container-Netzwerke auf Anfrage und kümmert sich um alle niedrigstufigen Container-Dinge, insbesondere <a href="https://www.docker.com/blog/what-is-containerd-runtime/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">containerd</a> und <a href="https://github.com/opencontainers/runc" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">runc</a>. Der Daemon-Prozess erstellt eine <a href="/leistungen/api-entwicklung/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid">API-Schnittstelle</a> mit einem HTTP-Protokoll, um seine Funktionalität für alle Arten von Benutzeroberflächen zugänglich zu machen, einschließlich der <a href="https://docs.docker.com/engine/reference/commandline/cli/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Docker-Befehlszeile</a>. Je nach Plattform wird die Docker-Schnittstelle über einen Unix-Socket, eine benannte Pipe oder einen TCP-Port (mit vielen Optionen, um sie sicher zu machen) realisiert. Der Docker-Daemon läuft mit sehr geringem Ressourcenverbrauch.
 :::
 
 :::globalTitle{:size="sm" :tag="h3" .mb-5}
 Kein Daemon mit Podman
 :::
 :::globalParagraph
-Podman verzichtet dagegen auf den Daemon-Prozess ('daemonlose Container-Engine'). Das Container-Management erfolgt direkt vom Client aus. Wenn Podman mit einem Benutzer außer Root aufgerufen wird, sind nur Operationen möglich, die dieser Benutzer berechtigt ist. Das begrenzt die Möglichkeiten für den Benutzer - aber auch für Eindringlinge, die einen Container von innen kentern.
+Podman verzichtet dagegen auf den Daemon-Prozess ('daemonlose Container-Engine'). Das Container-Management erfolgt direkt vom Client aus. Daher erlaubt das Aufrufen von Podman mit einem anderen Benutzer als root nur die Operationen, die dieser Benutzer ausführen darf. Dies beschränkt natürlich die Möglichkeiten des Benutzers – aber auch die von Eindringlingen, die einen Container von innen übernehmen könnten.
 :::
 :::globalParagraph
 Aus Sicherheitssicht ist das 'rootless'-Phänomen also eine ziemlich gute Idee. Und doch könnte es irgendwann schnell zu Ende gehen. Darauf werden wir im nächsten Abschnitt genauer eingehen.
@@ -115,10 +115,10 @@ Aus Sicherheitssicht ist das 'rootless'-Phänomen also eine ziemlich gute Idee. 
 Podman für die Produktion - etwas komplizierter
 :::
 :::globalParagraph
-Ein entscheidender Nachteil des Fehlens eines Daemon-Prozesses bei der Verwendung von Podman für Produktions-Workloads wird deutlich, wenn versucht wird, Podman für Produktions-Workloads auszuführen. Mit Docker kannst du beispielsweise einfach eine 'Restart-Policy' für Container angeben und sicherstellen, dass sie im Falle eines Absturzes neu gestartet werden. Podman führt keinen Prozessmonitor aus und muss diese Aktivität daher an anderer Stelle delegieren: Hier kommt unser guter alter Freund systemd ins Spiel. Obwohl <a href="https://en.wikipedia.org/wiki/Systemd" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">systemd</a> sehr verbreitet und wahrscheinlich von den meisten Systemadministratoren gut verstanden wird, handelt es sich dennoch um eine sehr komplexe zusätzliche Lösung, die mit eigenen Kosten verbunden ist. Podman unterstützt den Benutzer, indem es die systemd-Einheiten generiert (die Konfiguration, mit der systemd weiß, wie ein Prozess überwacht und verwaltet werden soll), aber dies ist ein völlig anderes Ökosystem. Wenn du von Docker kommst, kann dies eine gewisse Einarbeitungszeit erfordern, um alles mit dem gewünschten Verhalten zum Laufen zu bringen. Ein weiterer Pluspunkt für systemd ist jedoch, dass eine Einheit genauso gut mit verringerten Benutzerrechten ausgeführt werden kann.
+Ein entscheidenderer Nachteil des Verzichts auf einen Daemon-Prozess wird deutlich, wenn versucht wird, Podman für Produktions-Workloads zu verwenden. Mit Docker kannst du beispielsweise einfach eine <a href="https://docs.docker.com/config/containers/start-containers-automatically/#use-a-restart-policy" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">'Restart-Policy'</a> für Container angeben und sicherstellen, dass sie im Falle eines Absturzes neu gestartet werden. Podman führt keinen Prozessmonitor aus und muss diese Aufgabe daher an eine andere Stelle delegieren: Hier kommt unser guter alter Freund systemd ins Spiel. Obwohl <a href="https://en.wikipedia.org/wiki/Systemd" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">systemd</a> sehr verbreitet ist und wahrscheinlich von den meisten Systemadministratoren gut verstanden wird, handelt es sich dennoch um eine sehr komplexe zusätzliche Lösung, die mit eigenen Kosten verbunden ist. Podman unterstützt den Benutzer, indem es die systemd-Einheiten generiert (die Konfiguration, um systemd mitzuteilen, wie ein Prozess überwacht und verwaltet werden soll), aber dies ist ein völlig anderes Ökosystem. Wenn du von Docker kommst, kann dies eine gewisse Einarbeitungszeit erfordern, um alles mit dem gewünschten Verhalten zum Laufen zu bringen. Ein weiterer Pluspunkt für systemd ist jedoch, dass eine Einheit genauso gut mit verringerten Benutzerrechten ausgeführt werden kann.
 :::
 :::globalParagraph
-Ob Docker oder Podman - wenn die Produktionsbereitstellungen ernst genommen werden sollen, muss letztendlich irgendwo ein Daemon-Prozess involviert sein. Und natürlich, wenn du die Podman REST-API verwenden möchtest, <a href="https://github.com/containers/podman/tree/main/pkg/bindings" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">gibt es dafür einen Dienstprozess (Daemon)</a>.
+Ob Docker oder Podman - wenn die Produktionsbereitstellungen ernst genommen werden sollen, muss letztendlich irgendwo ein Daemon-Prozess involviert sein. Und natürlich <a href="https://github.com/containers/podman/tree/main/pkg/bindings" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">gibt es einen Dienstprozess (Daemon)</a>, wenn du die Podman REST API verwenden möchtest..
 :::
 
 :::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" .mb-6}
