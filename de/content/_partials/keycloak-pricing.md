@@ -7,10 +7,13 @@
 Keycloak Starter
 
 #subtitle
-IAM Workshop mit Fokus auf Keycloak
+Workshop mit Fokus auf Keycloak
 
 #priceDescription
-- Keycloak
+- IAM Grundlagen: Protokolle, Konzepte und Möglichkeiten
+- Vorbereitung auf spezielle Herausforderungen in deinem Unternehmen
+- Remote per Video-Konferenz
+- Bis zu 5 Teilnehmer
 
 #price
 2.500 €
@@ -29,7 +32,12 @@ Entwicklung deiner persönlichen IAM Strategie mit Umsetzungsplan
 Empfohlen
 
 #priceDescription
-- Keycloak
+- Workshop zur Vorbereitung "Keycloak Starter"
+- Remote per Video-Konferenz oder persönlich vor Ort
+- Individuelle Betrachtung deiner IT-Landschaft
+- Erstellung einer Roadmap für Integration
+- Unterstützung bei der Implementierung und Betriebsumgebung
+- Praktischer Leitfaden für die Anbundung deiner Apps
 
 #price
 4.000 €
@@ -42,11 +50,18 @@ Empfohlen
 Keycloak Everywhere
 
 #subtitle
-Entwicklung und Integration der persönlichen IAM Strategie
+Entwicklung und Integration deiner individuellen IAM Strategie
 
 
 #priceDescription
-- Nochmals Keycloak
+- Workshop zur Vorbereitung "Keycloak Starter"
+- Individuelle Betrachtung deiner IT-Landschaft
+- Implementierung der Betriebsumgebung
+- Erstellung einer Roadmap für Integration
+- Perfekte Konfiguration, Anbindung aller Apps
+- Individuelle Dokumentation für alle speziellen Lösungen
+- Schulung für Administratoren und IT-Personal
+
 
 #price
 ::::GlobalButton

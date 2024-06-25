@@ -133,13 +133,13 @@ Großflächig integrierbar
   :::GlobalPartial{content=slides/fondsfinanz-1}
   :::
 #card2
-  :::GlobalPartial{content=slides/luma-1}
+  :::GlobalPartial{content=slides/agb-1}
   :::
 #card3
-  :::GlobalPartial{content=slides/wuc-1}
+  :::GlobalPartial{content=slides/luma-1}
   :::
 #card4
-  :::GlobalPartial{content=slides/agb-1}
+  :::GlobalPartial{content=slides/wuc-1}
   :::
 :::
 

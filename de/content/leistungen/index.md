@@ -263,7 +263,7 @@ head:
 
 
 
-:::GlobalSliderSection{:numberCards=2 data-title="Projekte die wir mit dem RAPID zur Welt gebracht haben"}
+:::GlobalSliderSection{:numberCards=5 data-title="Projekte die wir mit dem RAPID zur Welt gebracht haben"}
   ::::GlobalTitle{.mb-6}
   Projekte die wir mit dem RAPID zur Welt gebracht haben
   ::::
@@ -275,6 +275,15 @@ head:
   :::GlobalPartial{content=slides/fondsfinanz-1}
   :::
 #card2
+  :::GlobalPartial{content=slides/luma-1}
+  :::
+#card3
+  :::GlobalPartial{content=slides/tuhh-1}
+  :::
+#card4
+  :::GlobalPartial{content=slides/wuc-1}
+  :::
+#card5
   :::GlobalPartial{content=slides/secret-project-1}
   :::
 :::
