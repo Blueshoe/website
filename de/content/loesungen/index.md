@@ -40,3 +40,7 @@ head:
 <!--- Service Grid --->
 :::GlobalPartial{content=services-grid-2}
 :::
+
+<!--- Service Grid --->
+:::GlobalPartial{content=services-grid-1}
+:::
