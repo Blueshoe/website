@@ -120,7 +120,7 @@ Gesetzeskonform Dienstleistungen anbieten
 <!--- Projekte --->
 :::GlobalSliderSection{:numberCards=3 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
 ::::GlobalTitle{.mb-6}
-Projekte in denen wir Maßnahmen für barrierefreiheit umgesetzt haben
+Projekte in denen wir Maßnahmen für Barrierefreiheit umgesetzt haben
 ::::
 ::::GlobalParagraph
 Unsere Maßnahmen für ein barrierefreies Internet helfen dabei allen Menschen Zugang zu relevanten Inhalten zu ermöglichen.

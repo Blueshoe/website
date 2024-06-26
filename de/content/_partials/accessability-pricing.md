@@ -4,23 +4,24 @@
 :::GlobalPricingCard
 
 #title
-WCGA Starter
+BITV 2.0 Starter
 
 #subtitle
 Barrierefreiheitsreport und Umsetzungsempfehlungen
 
 #priceDescription
-- LOL
+- Barrierefreiheitsreport 
+- Individuelle Umsetzungsempfehlungen auf Basis unserer Erfahrungen
 
 #price
-xxx €
+2.300 €
 :::
 
 #card2
 :::GlobalPricingCard{:accented="true"}
 
 #title
-WCGA Premium
+BITV 2.0 Premium
 
 #subtitle
 Barrierefreiheitsreport inklusive Umsetzungsbegleitung für ihr Team
@@ -29,24 +30,33 @@ Barrierefreiheitsreport inklusive Umsetzungsbegleitung für ihr Team
 Empfohlen
 
 #priceDescription
-- 12 h Umsetzungsarbeit enthalten
+- Barrierefreiheitsreport 
+- Tiefe Analyse der Kernprozesse deiner Webanwendung
+- Untersuchung kritischer Pfade
+- Individuelle Umsetzungsempfehlungen auf Basis unserer Erfahrungen
+- 12 h Beratung für dein Team enthalten
 
 #price
-xxx €
+4.000 €
 :::
 
 #card3
 :::GlobalPricingCard
 
 #title
-WCGA Complete
+BITV Complete
 
 #subtitle
 Barrierefreiheitsreport inklusive Umsetzung der Maßnahmen
 
 
 #priceDescription
-- All Inclusive für Deine barrierefreie Website
+- Alles aus "BITV 2.0 Premium"
+- All-inclusive für Deine barrierefreie Website
+- Komplette Umsetzung
+- Sicherstellung der BITV nach dem notwenigen Grad
+- Testprotokolle 
+- Nutzertests auf Wunsch
 
 #price
 ::::GlobalButton

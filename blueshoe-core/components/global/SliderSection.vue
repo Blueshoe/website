@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div :class="bg">
     <div class="bs-container">
       <div class="py-10 px-4 lg:px-0">
@@ -10,13 +11,13 @@
             :modules="[SwiperNavigation, SwiperVirtual]"
             :slides-per-view="1"
             :allow-touch-move="true"
-            :virtual="false"
+            :virtual="true"
             :navigation="{
               prevEl: '.swiper-button-prev',
               nextEl: '.swiper-button-next'
             }"
           >
-            <SwiperSlide v-for="(number, i) in props.numberCards" :key="i" :virtual-index="i" class="mb-10">
+            <SwiperSlide v-for="(number, i) in props.numberCards" :key="i" :virtualIndex="i"  class="mb-10">
               <div class="mb-4">
                 <slot :name="'card' + number" />
               </div>
@@ -28,6 +29,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script setup lang="ts">

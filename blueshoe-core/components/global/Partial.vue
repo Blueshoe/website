@@ -1,5 +1,5 @@
 <template>
-    <div v-if="content">
+    <div>
         <ContentRenderer :value="data">
             <template #empty>
                 <p>No content found.</p>
@@ -10,12 +10,15 @@
 
 <script setup lang="ts">
 
+
 const props = defineProps({
     content: {
         default: "default"
     }
 
 });
-const data = await queryContent('_partials/' + props.content).where({ _partial: true }).findOne()
+const arg = ref(props.content);
+const { data } = await useAsyncData(arg.value, () => queryContent('_partials/' + arg.value).where({ _partial: true }).findOne());
+
 
 </script>
