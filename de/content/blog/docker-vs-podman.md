@@ -5,13 +5,13 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Hier findest du einen Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest bzw. welches Tool am besten für deine individuellen Bedürfnisse geeignet sein könnte.'
+      content: 'Docker vs. Podman: Erfahre die Unterschiede und finde das beste Tool für dich 🚀. Jetzt entdecken!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Docker vs. Podman'
     - property: 'og:description'
-      content: 'Hier findest du einen Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest bzw. welches Tool am besten für deine individuellen Bedürfnisse geeignet sein könnte.'
+      content: 'Docker vs. Podman: Erfahre die Unterschiede und finde das beste Tool für dich 🚀. Jetzt entdecken!'
     - property: 'og:image'
       content: 'https://www.blueshoe.io/img/blogs/docker-vs-podman.jpg'
     - property: 'og:image:secure_url'
@@ -21,7 +21,7 @@ head:
     - name: 'twitter:title'
       content: 'Docker vs. Podman'
     - name: 'twitter:description'
-      content: 'Hier findest du einen Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest bzw. welches Tool am besten für deine individuellen Bedürfnisse geeignet sein könnte.'
+      content: 'Docker vs. Podman: Erfahre die Unterschiede und finde das beste Tool für dich 🚀. Jetzt entdecken!'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.io/img/blogs/docker-vs-podman.jpg'
 src: '/blog/docker-vs-podman'
@@ -29,7 +29,7 @@ img: '/img/blogs/docker-vs-podman.jpg'
 alt: 'Docker vs. Podman'
 preTitle: 'Ein kritisches Verständnis für Entwicklung und Produktion'
 title: "Docker vs. Podman"
-description: 'Hier findest du einen Überblick darüber, was jedes Tool ist und warum du dich möglicherweise für das eine oder andere entscheiden möchtest bzw. welches Tool am besten für deine individuellen Bedürfnisse geeignet sein könnte.'
+description: 'Docker vs. Podman: Erfahre die Unterschiede und finde das beste Tool für dich 🚀. Jetzt entdecken!'
 date: '13.02.2023'
 author:
   - Michael Schilonka
@@ -139,14 +139,14 @@ Weitere Ausgaben unseres Podcasts findest du hier:
 Rootful und rootless
 :::
 :::globalParagraph
-Eine sehr nützliche (und manchmal unterschätzte) Funktion von Docker sind Overlay-Netzwerke. Diese ähneln 'echten' (virtuellen) Netzwerken auf einer Host-Maschine. Docker-Netzwerke ermöglichen alle Arten von komplexen Verbindungstopologien mit Routen, NATs und IP-Pools usw. Das ist besonders nützlich in Situationen, in denen eine bestimmte Produktionsumgebung erfüllt werden soll und verschiedene Dienste, die eine Anwendung ausmachen, locker gekoppelt werden sollen. Tatsächlich läuft jeder Container in seinem eigenen Namespace im Linux-Kernel, sodass es möglich ist, Ressourcenbeschränkungen für jeden Container, Netzwerkeinstellungen usw. festzulegen. Einer der grundlegenden Gedanken bei der Aufteilung des Linux-Kernels in mehrere Räume war die Prozesssicherheit. Im Moment ist dies größtenteils nur mit Root-Rechten möglich. Dennoch ist <a href="https://lwn.net/Articles/540087/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Sandboxing mit Namespaces auch mit nicht privilegierten Benutzern möglich</a>.
+Eine sehr nützliche (und manchmal unterschätzte) Funktion von Docker sind Overlay-Netzwerke. Diese ähneln 'echten' (virtuellen) Netzwerken auf einer Host-Maschine. Docker-Netzwerke ermöglichen alle Arten von komplexen Verbindungstopologien mit Routen, NATs und IP-Pools usw. Das ist besonders nützlich in Situationen, in denen eine bestimmte Produktionsumgebung erreicht und verschiedene Dienste, die eine Anwendung ausmachen, lose gekoppelt werden sollen. Tatsächlich läuft jeder Container in seinem eigenen Namespace im Linux-Kernel, sodass es möglich ist, Ressourcenbeschränkungen für jeden Container, Netzwerkeinstellungen usw. festzulegen. Einer der grundlegenden Gedanken bei der Aufteilung des Linux-Kernels in mehrere Räume war die Prozesssicherheit. Im Moment ist dies größtenteils nur mit Root-Rechten möglich. Dennoch ist <a href="https://lwn.net/Articles/540087/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Sandboxing mit Namespaces auch mit nicht privilegierten Benutzern möglich</a>.
 :::
 
 :::globalTitle{:size="sm" :tag="h3" .mb-5}
 Wie es in der Realität aussieht
 :::
 :::globalParagraph
-Wichtige Funktionen verschwinden, wenn Docker im Rootless-Modus ausgeführt wird, und das gilt auch für Podman. Ich habe herausgefunden, dass es eine Option gibt, Podman rootful auszuführen, um diese Fähigkeiten, insbesondere eine ordnungsgemäße Netzwerkkommunikation, zu erlangen.
+Wichtige Funktionen verschwinden, wenn Docker im Rootless-Modus ausgeführt wird, und das gilt auch für Podman. Ich habe herausgefunden, dass es eine Option gibt, Podman rootful auszuführen, um diese Fähigkeiten, insbesondere ein ordentliches Netzwerk, zu erhalten.
 :::
 :::globalParagraph
 In der Praxis hat das Podman-Entwicklungsteam eine meiner bescheidenen Meinung nach fragwürdige Lösung für das fehlende Networking geschaffen, indem es das Konzept des 'Pods' als Alternative eingeführt hat.
@@ -160,12 +160,13 @@ Der Podman "Infra Container"
 :::
 :::globalParagraph
 Übrigens: Jedes Podman-Pod erhält einen speziellen Container namens "Infra-Container". Er tut nichts weiter, als einzuschlafen, sobald das Pod erstellt ist. Alle Attribute, die das Pod definieren, werden tatsächlich diesem speziellen Container zugewiesen, einschließlich Port-Bindungen, Kernel-Namespaces, Ressourcenbeschränkungen usw. Sobald das Pod erstellt ist, können diese Attribute nie wieder geändert werden. Angenommen, du erstellst ein neues Pod und fügst später einen Container hinzu, der einen neuen Port mit dem Host bindet - Podman wird dazu nicht in der Lage sein. Du musst das gesamte Pod mit der neuen Port-Bindung (oder anderen Attributen) neu erstellen.
+:::
 
-:::globalTitle{:size="sm" :tag="h3" .mb-5}
+:::globalTitle{:size="md" :tag="h3" .mb-5}
 Privilegien vs. Fähigkeiten
 :::
 :::globalParagraph
-Das Ausführen eines Prozesses mit reduzierten Privilegien geht mit erheblichen Einschränkungen der Fähigkeiten einher. Das macht Sinn, insbesondere um zu verhindern, dass ausgenutzte Container-Prozesse Systemänderungen vornehmen oder auf andere Prozesse zugreifen können. Das Herabsetzen der Ausführungsprivilegien ist im Allgemeinen vorzuziehen, und ich nehme dieses Thema sehr ernst. Der Verzicht auf den Sandbox-Mechanismus zugunsten fehlender Netzwerkfähigkeiten führt jedoch zu einer anderen Klasse von Systemanfälligkeiten (<a href="https://de.wikipedia.org/wiki/Privilege_Escalation" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">wir haben dies in der Vergangenheit häufig erlebt</a>).
+Jeden Prozess mit herabgesetzten Rechten auszuführen, bringt erhebliche Einschränkungen mit sich. Das macht Sinn, besonders um zu verhindern, dass ausgenutzte Containerprozesse Systemänderungen vornehmen oder auf andere Prozesse zugreifen können. Das Herabsetzen der Ausführungsrechte ist generell vorzuziehen, und ich nehme dieses Thema sehr ernst. Allerdings führt der Tausch des Sandbox-Mechanismus zugunsten fehlender Netzwerkfähigkeiten eine weitere Klasse von Systemanfälligkeiten ein.
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -193,13 +194,13 @@ Daher finde ich dieses Feature irreführend, insbesondere in Bezug auf die Kommu
 Fazit
 :::
 :::globalParagraph
-Ich hoffe, dieser Artikel hat dir ein besseres Verständnis für die Unterschiede zwischen Podman und Docker gegeben. Wie du sehen kannst, gibt es viele Ähnlichkeiten zwischen den beiden Tools, aber sie haben auch einige wesentliche Unterschiede, die je nach Anwendungsfall eine Option möglicherweise besser geeignet machen als die andere. Obwohl Podman sich noch in einem frühen Entwicklungsstadium befindet, hat es bereits Anzeichen dafür gezeigt, eine würdige Alternative zu Docker zu sein, indem es eine einfachere Benutzererfahrung bietet und gleichzeitig die Kompatibilität mit vorhandenen Images aus anderen Registern wie Docker Hub oder Google Container Registry (GCR) beibehält. Ich bin gespannt, wie sich diese Tools im Laufe der Zeit weiterentwickeln, während sie beide neue Funktionen hinzufügen. Schau dir auch <a href="https://podman-desktop.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Podman Desktop</a> an. Ich bin mir nicht sicher, ob Podman auch den Weg der Entwicklererfahrung („DX“) wie Docker geht oder ob sie versuchen, Produktionsserver zu betreiben. Lass mich wissen, was du denkst.
+Ich hoffe, dieser Artikel hat dir ein besseres Verständnis für die Unterschiede zwischen Podman und Docker gegeben. Wie du sehen kannst, gibt es viele Ähnlichkeiten zwischen den beiden Tools, aber sie haben auch einige wesentliche Unterschiede, die je nach Anwendungsfall die eine Option geeigneter machen könnten als die andere. Obwohl Podman sich noch in einem frühen Entwicklungsstadium befindet, hat es bereits Anzeichen dafür gezeigt, eine würdige Alternative zu Docker zu sein, indem es eine einfachere Benutzererfahrung bietet und gleichzeitig die Kompatibilität mit vorhandenen Images aus anderen Registern wie Docker Hub oder Google Container Registry (GCR) beibehält. Ich bin gespannt, wie sich diese Tools im Laufe der Zeit weiterentwickeln, während sie beide neue Funktionen hinzufügen. Schau dir auch <a href="https://podman-desktop.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Podman Desktop</a> an. Ich bin mir nicht sicher, ob Podman auch den Weg der Entwicklererfahrung („DX“) wie Docker geht oder ob sie versuchen, Produktionsserver zu betreiben. Lass mich wissen, was du denkst.
 :::
 :::globalParagraph
 Fühle dich frei, <a href="https://www.linkedin.com/in/michael-schilonka/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">folge mir auf LinkedIn</a> oder trete unserem <a href="https://discord.gg/eQBkQwYAYy" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Discord</a> bei.
 :::
 
 
-:::BlogRelatedPosts{:url='["/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/strategien-fur-schlanke-docker-images", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz"]'}
+:::BlogRelatedPosts{:url='["/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot", "/blog/strategien-fur-schlanke-docker-images", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz", "/blog/docker-desktop-und-kubernetes", "/blog/richtige-api-technologie-auswaehlen"]'}
 
 :::

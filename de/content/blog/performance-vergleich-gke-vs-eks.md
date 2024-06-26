@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Warum nehmen wir einfach an, dass verwaltete K8s-Plattformen in allen wichtigen Metriken solide performen? Wir haben GKE vs. EKS benchmarkt und hier sind die schockierenden Ergebnisse.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/performance-comparison-gke-vs-eks.jpg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/performance-comparison-gke-vs-eks.jpg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Warum nehmen wir einfach an, dass verwaltete K8s-Plattformen in allen wichtigen Metriken solide performen? Wir haben GKE vs. EKS benchmarkt und hier sind die schockierenden Ergebnisse.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.io/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.io/img/blogs/performance-comparison-gke-vs-eks.jpg'
 src: '/blog/performance-vergleich-gke-vs-eks'
 img: '/img/blogs/performance-comparison-gke-vs-eks.jpg'
 alt: 'Leistungsvergleich: GKE vs. EKS'
@@ -39,13 +39,12 @@ productUpdates: []
 topic:
   - Operation
 ---
-Die solide Leistung verwalteter Kubernetes-Plattformen wird im Allgemeinen als gegeben angesehen und kaum in Frage gestellt. Doch vielleicht gibt es Unterschiede in der Leistung von Containern auf verschiedenen beliebten verwalteten Kubernetes-Plattformen. Ich wollte genauer hinschauen und habe die beiden beliebtesten Kubernetes-Services ausgewählt, die wir bei Blueshoe für unsere Kunden verwenden: Amazon Elastic Kubernetes Service (EKS) und Google Kubernetes Engine (GKE).
+Die solide Leistung von verwalteten Kubernetes-Plattformen wird im Allgemeinen als selbstverständlich angesehen und wird kaum jemals in Frage gestellt. Allerdings könnte es Unterschiede in der Performance von Containern auf verschiedenen beliebten verwalteten Kubernetes-Plattformen geben. Ich wollte einen genaueren Blick darauf werfen und habe die beiden beliebtesten Kubernetes-Dienste ausgewählt, die wir bei Blueshoe für unsere Kunden nutzen: Amazon Elastic Kubernetes Service (EKS) und Google Kubernetes Engine (GKE).
 <!--more-->
 
 ![Leistungsvergleich: GKE vs. EKS](/img/blogs/performance-comparison-gke-vs-eks.jpg){.object-cover .max-w-full .mb-5}
 
 :::BlogNavigationCard{:title="Inhaltsverzeichnis"}
-
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -59,7 +58,7 @@ Laut <a href="https://www.statista.com/statistics/1230308/container-technology-o
 - 21% der Befragten verwenden GKE
 :::
 :::globalParagraph
-Bitte beachte, dass die Auswahl mehrerer Antworten möglich war, daher sind die Gruppen nicht ausschließlich. Die Zahlen haben sich wahrscheinlich seitdem etwas geändert, aber es ist offensichtlich, dass diese beiden sehr beliebte Optionen in der Welt des verwalteten Kubernetes sind. Die Zahlen entsprechen auch der Verteilung der von Blueshoe verwalteten Kubernetes-Plattformen bis heute.
+Bitte beachte, dass die Auswahl mehrerer Antworten möglich war, daher sind die Gruppen nicht exklusiv. Die Zahlen haben sich wahrscheinlich seitdem etwas geändert, aber es ist offensichtlich, dass diese beiden sehr beliebte Optionen in der Welt des verwalteten Kubernetes sind. Die Zahlen entsprechen auch der Verteilung der von Blueshoe verwalteten Kubernetes-Plattformen bis heute.
 :::
 :::globalParagraph
 Natürlich sollten wir die Analyse der Container-Runtime-Leistung mit diesen beiden Lösungen beginnen.
