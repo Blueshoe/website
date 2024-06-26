@@ -3,7 +3,7 @@
   Wir betreuen auch komplette Projekte
   ::::
   ::::GlobalParagraph{.mb-4 .text-white}
-  Wir sind kein One-Trick-Pony und betreuen IT-Projekte von der grünen Wiese bis zum langfristigen Betrieb und der Erweiterung. Dabei arbeiten wir nach einem standardisiertem Konzept, dass uns schneller und flexibler als Andere macht.
+  Wir sind kein One-Trick-Pony und betreuen IT-Projekte von der grünen Wiese bis zum langfristigen Betrieb und der Erweiterung. Dabei arbeiten wir nach einem [standardisiertem Konzept](/leistungen/){.text-white .underline .hover:text-bs-green}, dass uns schneller und flexibler als Andere macht.
   ::::
 #button
   ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Kontaktiere uns" :color="green"}

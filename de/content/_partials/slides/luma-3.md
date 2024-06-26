@@ -7,6 +7,6 @@ LUMA bietet seinen Kunden den vermutlich schnellesten Shop aller Online-Metzgere
 LUMA Delikatessen AG - B2C Webshop und Website
 :::
 #button
-:::GlobalButton{:url="https://luma-delikatessen.ch/de/" :label="Zur LUMA Website"}
+:::GlobalButton{:url="https://luma-delikatessen.ch/de/" :label="Zur LUMA Website" target="_blank"}
 :::
 ::
