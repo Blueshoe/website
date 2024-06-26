@@ -774,6 +774,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glidejs/glide@npm:^3.6.1":
+  version: 3.6.1
+  resolution: "@glidejs/glide@npm:3.6.1"
+  checksum: 10c0/8280b50250832bb45ec1772098052d4ee0963fc93e1d48421ef69ba99607eb1602e188c3b97710178150575d6bcc2eb467d3aaa08c6dc64799ba73d60726381b
+  languageName: node
+  linkType: hard
+
 "@gtm-support/core@npm:^2.0.0":
   version: 2.3.1
   resolution: "@gtm-support/core@npm:2.3.1"
@@ -2612,6 +2619,13 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 10c0/576d4e9d382393316ed815c593f7f5c157408ec5e184521d077fcb15d514b5a985245f153ef52142b9b976cb9bd8f801850d51238153ebd0dc9e96b7a7548588
+  languageName: node
+  linkType: hard
+
+"@types/glidejs__glide@npm:^3":
+  version: 3.6.5
+  resolution: "@types/glidejs__glide@npm:3.6.5"
+  checksum: 10c0/608e35877c8228c301e76ee4b6eca265d65cf892ebb978d43926bca644b5590250ee780b2903a485b9e4e93fa4bd91d81c6b9e3cdb9e76cb722cf4ae5845fe35
   languageName: node
   linkType: hard
 
@@ -10120,6 +10134,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-app@workspace:."
   dependencies:
+    "@glidejs/glide": "npm:^3.6.1"
     "@histoire/plugin-nuxt": "npm:^0.17.10"
     "@histoire/plugin-vue": "npm:^0.17.12"
     "@lehoczky/vue-termynal": "npm:^1.3.0"
@@ -10131,6 +10146,7 @@ __metadata:
     "@nuxtjs/tailwindcss": "npm:^6.11.0"
     "@pinia/nuxt": "npm:^0.5.1"
     "@tailwindcss/typography": "npm:^0.5.10"
+    "@types/glidejs__glide": "npm:^3"
     "@typescript-eslint/parser": "npm:^6.19.1"
     "@zadigetvoltaire/nuxt-gtm": "npm:^0.0.13"
     click-outside-vue3: "npm:^4.0.1"

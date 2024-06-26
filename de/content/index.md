@@ -81,7 +81,7 @@ head:
 
 <!--- persönlicher Kontakt --->
   :::GlobalCardWithBackgroundImageSection{:src="/img/about-us/team1.webp" :alt="Wir sind Blueshoe" :width="md:w-3/5"}
-    ::::GlobalTitle{:tag="h3" .mb-6  data-title="WER SIND WIR?"}
+    ::::GlobalTitle{:tag="h3" .mb-6 data-title="WER SIND WIR?"}
     Wer ist Blueshoe überhaupt?
     ::::
 
