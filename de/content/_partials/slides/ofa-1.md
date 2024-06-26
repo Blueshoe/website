@@ -7,5 +7,5 @@ Für Ofa Bamberg entwickeln und pflegen wir eine Reihe von Anwendungen und Websi
 Ofa Bamberg GmbH - B2B Webshop und B2C Website 
 :::
 #button
-:::GlobalButton{:url="https://www.ofa.de/de-de/" :label="Zur Ofa Bamberg Website"}
+:::GlobalButton{:url="https://www.ofa.de/de-de/" :label="Zur Ofa Bamberg Website" :target="_blank"}
 :::

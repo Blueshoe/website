@@ -40,7 +40,7 @@
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
-        Systeme Verbinden
+        Systeme vernetzen
         :::
     ::
 

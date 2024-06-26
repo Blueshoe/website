@@ -5,25 +5,25 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Eliminieren Sie manuelles Frontend-Testing und sparen 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
+      content: 'Eliminiere manuelles Frontend-Testing und spare 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Automatisches Frontend-Testing: 80% Zeitersparnis | Über 200 Projekte seit 2014'
     - property: 'og:description'
-      content: 'Eliminieren Sie manuelles Frontend-Testing und sparen 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
+      content: 'Eliminiere manuelles Frontend-Testing und spare 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/test_automation.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/test_automation.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Automatisches Frontend-Testing: 80% Zeitersparnis | Über 200 Projekte seit 2014'
     - name: 'twitter:description'
-      content: 'Eliminieren Sie manuelles Frontend-Testing und sparen 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
+      content: 'Eliminiere manuelles Frontend-Testing und spare 80% Personalaufwand. Vollautomatisches Testing für fehlerfreie Releases. Persönliche Betreuung und schnelle Umsetzung.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/test_automation.svg'
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/services/test_automation.svg" :alt="frontend testing" :imagePosition="right"}
@@ -37,9 +37,9 @@ head:
   Seit 2014 haben wir über 200 IT-Projekte umgesetzt. Einer der größten Schmerzpunkte war das manuelle Testen von Features im Frontend:
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-  - Manuelle Tests durch Menschen sind zeitaufwändig und teuer
-  - Tester arbeiten nicht 100% genau. Sie sind einfach Menschen
-  - Man kann nicht nach jedem neuen Release alle Funktionen testen
+  - Manuelle Tests durch Menschen sind zeitaufwändig und teuer.
+  - Tester arbeiten nicht 100% genau. Sie sind einfach Menschen.
+  - Man kann nicht nach jedem neuen Release alle Funktionen testen.
   ::::
   ::::GlobalParagraph{.mb-10 :color="text-white"}
   Das kommt dir sicherlich bekannt vor.

@@ -8,11 +8,11 @@ Wir arbeiten mit dir auf Augenhöhe
 ::::
 
 ::::GlobalBlock{.mb-4 .ul-disk}
-- Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst
-- Wir kommunizieren glasklar. Auch für Nicht-Techies
+- Wir sind transparent und geben dir die Einblicke, die du dir so sehnlichst wünschst.
+- Wir kommunizieren glasklar. Auch für Nicht-Techies.
 - Wir denken uns ein und suchen mit dir immer die beste Lösung. Nicht die Teuerste.
-- Wir sind Techies mit Herz und lieben komplexe Herausforderungen
-- Wir sind auch in schwierigen Situationen belastbar
+- Wir sind Techies mit Herz und lieben komplexe Herausforderungen.
+- Wir sind auch in schwierigen Situationen belastbar.
 ::::
 :::::GlobalButton
 ---
