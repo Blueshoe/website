@@ -16,21 +16,7 @@ Einfache Wartung für eine Basis-Pflege Deiner Software.
 - Reporting
 
 #price
-1.300 € / Monat
-
-#additionals
-::::GlobalPricingAdditional
-Entwickler: 200 € / h
-::::::GlobalTooltip
-Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
-::::::
-::::
-::::GlobalPricingAdditional
-Support: 180 € / h
-::::::GlobalTooltip
-Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
-::::::
-::::
+1.300 € / Monat*
 :::
 
 #card2
@@ -54,22 +40,7 @@ Empfohlen
 - Detailiertes Reporting
 
 #price
-3.000 € / Monat
-
-#additionals
-::::GlobalPricingAdditional{:accented="true"}
-Entwickler: 160 € / h
-::::::GlobalTooltip
-Eine Entwicklerstunde für kleine Anpassungen an Deiner Software. Große Anpassungen bieten wir als eigenes Projekt an.
-::::::
-::::
-::::GlobalPricingAdditional{:accented="true"}
-Support: 140 € / h
-::::::GlobalTooltip
-Eine Supportstunde für die bearbeitung von Support-Anfragen an Deiner Software.
-::::::
-::::
-
+3.000 € / Monat*
 
 :::
 

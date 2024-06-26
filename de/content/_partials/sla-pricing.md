@@ -1,6 +1,21 @@
-::GlobalSimplePricing{ :cardCount="3" }
-
+::GlobalSimplePricing{ :cardCount="4" }
 #card1
+:::GlobalPricingCard
+
+#title
+Free
+
+#subtitle
+Blueshoe bearbeitet nach bester Anstrengung innerhalb eines Monats.
+
+#priceDescription
+- Ticket-System
+
+#price
+Kostenlos
+:::
+
+#card2
 :::GlobalPricingCard
 
 #title
@@ -19,7 +34,7 @@ Blueshoe bearbeitet innerhalb eines Werktags dein Problem.
 1.000 € / Monat
 :::
 
-#card2
+#card3
 :::GlobalPricingCard{:accented="true"}
 
 #title
@@ -44,7 +59,7 @@ Empfohlen
 
 :::
 
-#card3
+#card4
 :::GlobalPricingCard
 
 #title
