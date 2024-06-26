@@ -10,10 +10,10 @@ export const useGeneralStore = defineStore('general', () => {
   const isMobileMenuOpen = ref(false);
 
   const solutions: SubMenu = {
-    title: 'Lösungspakete',
+    title: 'Unsere Lösungen',
     showTitle: true,
     showExtraButton: true,
-    extraButtonLabel: 'Alle Lösungspakete',
+    extraButtonLabel: 'Alle Lösungen anzeigen',
     extraButtonLink: '/loesungen/',
     links: [
       {
@@ -146,7 +146,7 @@ export const useGeneralStore = defineStore('general', () => {
     showTitle: true,
     singleLineLinks: true,
     defaultSubmenuHeadline: 'Rapid System für schnelle Entwicklung',
-    defaultSubmenuHelpText: 'Dies ist eine Beschreibung',
+    defaultSubmenuHelpText: '35% schneller zum erfolgreichen Projekt',
     defaultSubmenuImage: '/img/global/icons/RAPID.svg',
     showExtraButton: true,
     extraButtonLabel: 'Das RAPID-System erklärt',

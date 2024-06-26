@@ -7,22 +7,24 @@
           <slot />
         </div>
         <div class="block z-0 slider-shadow relative lg:mx-5" :class="bgSlider">
+          <client-only>
           <Swiper
-            :modules="[SwiperNavigation, SwiperVirtual]"
+            :modules="[SwiperNavigation]"
             :slides-per-view="1"
             :allow-touch-move="true"
-            :virtual="true"
+            :virtual="false"
             :navigation="{
               prevEl: '.swiper-button-prev',
               nextEl: '.swiper-button-next'
             }"
           >
-            <SwiperSlide v-for="(number, i) in props.numberCards" :key="i" :virtualIndex="i"  class="mb-10">
+            <SwiperSlide v-for="(number, i) in props.numberCards" :key="i"  class="mb-10">
               <div class="mb-4">
                 <slot :name="'card' + number" />
               </div>
             </SwiperSlide>
           </Swiper>
+          </client-only>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>

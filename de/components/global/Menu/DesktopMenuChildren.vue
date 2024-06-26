@@ -56,7 +56,7 @@
               class="mt-4"
               :url="child.extraButtonLink"
               :label="child.extraButtonLabel"
-              color="green"
+              color="blue"
               size="small"
               @click.stop="emitHandleCloseMenu(props.navItem)"
             />
@@ -68,7 +68,7 @@
         class="mt-4 ml-4"
         :url="child.extraButtonLink"
         :label="child.extraButtonLabel"
-        color="green"
+        color="blue"
         size="small"
         @click.stop="emitHandleCloseMenu(props.navItem)"
       />
