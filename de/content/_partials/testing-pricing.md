@@ -57,7 +57,7 @@ Teststrecken und verhindern jeden Bug in Produktion.
 
 
 #priceDescription
-- Automatische Tests für deine alle Prozesse
+- Automatische Tests für all deine Prozesse
 - Erstellung der Test-Basis ("Baseline")
 - Integration CI Pipeline
 - Kontinuierliche Erweiterung möglich

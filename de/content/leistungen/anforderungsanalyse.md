@@ -27,24 +27,23 @@ head:
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/discussion.svg" :alt="blueshoe workshop" :imagePosition="right"}
-:::GlobalPreTitle{.mb-3 :color="text-white"}
-Erfolgreiche Projekte starten mit exzellenten Anforderungen
-:::
-::::GlobalTitle{.mb-6 :color="text-white"}
-Unsere Anforderungsworkshops
-::::
-::::GlobalParagraph{.mb-4 :color="text-white"}
-Seit 2014 berichten uns Kunden, was in vorherigen Projekten mit anderen Dienstleistern schief gelaufen ist. Folgende Dinge haben wir immer wieder gehört:
-::::
-::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-- Die Projektkosten waren am Ende immer viel höher als im ersten Angebot
-- Anforderungen wurden nicht und oder nur unzureichend dokumentiert und abgestimmt
-- Aufwände für Aufgaben wurden nicht gut eingeschätzt und liefen kontinuierlich aus dem Ruder
-
-::::
-::::GlobalParagraph{:color="text-white"}
-Kennst du das? Deshalb setzen wir bei Blueshoe auf Anforderungsworkshops. Gemeinsam erstellen wir den Anforderungskatalog, bis du zufrieden bist. Dieser Katalog bildet die Basis für unsere Konzeption – nur so wird dein Projekt erfolgreich.
-::::
+  :::GlobalPreTitle{.mb-3 :color="text-white"}
+  Erfolgreiche Projekte starten mit exzellenten Anforderungen
+  :::
+  ::::GlobalTitle{.mb-6 :color="text-white"}
+  Unsere Anforderungsworkshops
+  ::::
+  ::::GlobalParagraph{.mb-4 :color="text-white"}
+  Seit 2014 berichten uns Kunden, was in vorherigen Projekten mit anderen Dienstleistern schief gelaufen ist. Folgende Dinge haben wir immer wieder gehört:
+  ::::
+  ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
+  - Die Projektkosten waren am Ende immer viel höher als im ersten Angebot
+  - Anforderungen wurden nicht und oder nur unzureichend dokumentiert und abgestimmt
+  - Aufwände für Aufgaben wurden nicht gut eingeschätzt und liefen kontinuierlich aus dem Ruder
+  ::::
+  ::::GlobalParagraph{:color="text-white"}
+  Kennst du das? Deshalb setzen wir bei Blueshoe auf Anforderungsworkshops. Gemeinsam erstellen wir den Anforderungskatalog, bis du zufrieden bist. Dieser Katalog bildet die Basis für unsere Konzeption – nur so wird dein Projekt erfolgreich.
+  ::::
 :::
 
 

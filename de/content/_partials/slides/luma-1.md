@@ -7,6 +7,6 @@ Unsere Systemarchitektur, die auf Microservices basiert und von Kubernetes betri
 LUMA Delikatessen AG - B2C Webshop und Website
 :::
 #button
-:::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Kontaktiere uns"}
+:::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Kontaktiere uns" target="_blank"}
 :::
 ::

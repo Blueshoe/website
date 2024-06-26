@@ -11,9 +11,9 @@
     - Über 10 Jahre Erfahrung in über 200 komplexen Open Source Web-Projekten.
     - Ca. 35% schnellere Projektumsetzung.
     - Keine Lizenzkosten. Wir nutzen Open-Source-Software.
-    - Wir integrieren uns nahtlos auch in bestehende Systeme
-    - Du erhältst maßgeschneiderte Standardlösungen mit hoher Langlebigkeit
-    - Schnelle Reaktionszeiten. Probleme werden i.d.R. innerhalb von 2h gelöst
-    - Du hast einen direkten Draht zur Geschäftsführung
+    - Wir integrieren uns nahtlos auch in bestehende Systeme.
+    - Du erhältst maßgeschneiderte Standardlösungen mit hoher Langlebigkeit.
+    - Schnelle Reaktionszeiten. Probleme werden i.d.R. innerhalb von 2h gelöst.
+    - Du hast einen direkten Draht zur Geschäftsführung.
     ::::
 :::

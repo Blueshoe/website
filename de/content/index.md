@@ -35,14 +35,14 @@ head:
     Wir sind Blueshoe
     ::::
     ::::GlobalParagraph{.mb-4}
-    Wir lösen komplexe Probleme für mittelständische B2B-Unternehmen und den öffentlichen Sektor. Du bist bei uns richtig wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
+    Wir lösen komplexe Probleme für mittelständische B2B-Unternehmen und den öffentlichen Sektor. Du bist bei uns richtig, wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
     ::::
     ::::GlobalBlock{.ul-disk}
-    - Sie nicht standardisiert ist
-    - Die Kosten für die Entwicklung und den Betrieb zu hoch sind
-    - Die Umsetzung zu lange dauert
-    - Die Kompetenz und die Betreuungsqualität deines bisherigen Partners nicht befriedigend sind
-    - Du keine Lust mehr auf horrende Lizenzkosten hast
+    - Sie nicht standardisiert ist.
+    - Die Kosten für die Entwicklung und den Betrieb zu hoch sind.
+    - Die Umsetzung zu lange dauert.
+    - Die Kompetenz und die Betreuungsqualität deines bisherigen Partners nicht befriedigend sind.
+    - Du keine Lust mehr auf horrende Lizenzkosten hast.
     ::::
   :::
 
@@ -66,7 +66,7 @@ head:
     ::::
 
     ::::GlobalParagraph{.mb-4}
-    Egal ob du eine klare Herausforderung hast, bereits Lösungsansätze oder einen Prototyp entwickelt hast, oder aber auch schon eine Anwendung im Betrieb hast, mit der du nicht glücklich bist. Mit unserem RAPID-System können wir dir schnell und systematisch helfen.
+    Egal, ob du vor einer klaren Herausforderung stehst, bereits Lösungsansätze oder einen Prototyp entwickelt hast, oder aber auch schon eine Anwendung im Betrieb hast, mit der du nicht glücklich bist - mit unserem RAPID-System können wir dir schnell und systematisch helfen.
     ::::
 
     ::::GlobalButton{:url="/leistungen/" :label="Das RAPID-System erklärt" :color="blue"}
