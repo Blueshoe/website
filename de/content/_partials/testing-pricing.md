@@ -1,55 +1,112 @@
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing{ :cardCount="4" }
 
+<!--- Do it yourself --->
 #card1
 :::GlobalPricingCard
 
 #title
-Test Mikroskop
+Test Starter
 
 #subtitle
-Wir bauen dir visuelle Regression-Tests für deine Frontends.
+Erledige dein Frontend-Testing selber. Den Kickstart gibt es von uns.
 
 #priceDescription
-- Erstellung der Test-Basis ("Baseline")
-- Aufbau auf Komponentenbibliothek
-- Aufbau auf Website
-- Integration CI Pipeline
-- Beispielsweise über LostPixel
+- Do it yourself
+- 30 Minuten Gespräch
+- Hinweise, Tipps & Tricks
+- Empfehlungen für Tools und Herangehensweisen
 
 #price
-8.000 €
+Kostenlos
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
+<!--- Do it with you --->
 #card2
 :::GlobalPricingCard{:accented="true"}
 
 #title
-Test Roboter
-
-#subtitle
-Wir bauen visuelle Regression-Tests für deine Frontends und testen diese auch auf Funktion.
+Test Gold
 
 #recommendedLabel
 Empfohlen
 
+#subtitle
+Wir erstellen mit dir die visuelle Frontend-Tests für deine Website.
+
+
 #priceDescription
-- Automatische Tests für deine wichtigsten Prozesse
-- Finde Bugs bevor diese in Produktion landen
+- Alles aus "Test Starter"
+- Blueshoe unterstützt dein Test-Team
 - Erstellung der Test-Basis ("Baseline")
-- Aufbau auf Komponentenbibliothek
-- Aufbau auf Website
+- Aufbau auf Komponentenbibliothek oder Website
 - Integration CI Pipeline
-- Beispielsweise über LostPixel und Cypress
+- Beispielsweise über LostPixel
 
 #price
-15.000 €
+4.000 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
+<!--- Do it for you --->
 #card3
 :::GlobalPricingCard
 
 #title
-Digitaler Gatekeeper 
+Test Platinum
+
+#subtitle
+Wir bauen die visuelle Frontend-Tests für deine Website und testen diese auch auf Funktion.
+
+#priceDescription
+- Alles aus "Test Gold"
+- Blueshoe ist dein Test-Team
+- Automatische Tests für deine wichtigsten Prozesse
+- Finde Bugs bevor diese in Produktion landen
+- Aufbau auf Komponentenbibliothek
+- Aufbau auf Website
+- Beispielsweise über LostPixel und Cypress
+
+#price
+9.000 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
+:::
+
+#card4
+:::GlobalPricingCard
+
+#title
+Enterprise
 
 #subtitle
 Für deine riesige Software-Plattformen bauen wir komplette automatisierte 
@@ -57,7 +114,8 @@ Teststrecken und verhindern jeden Bug in Produktion.
 
 
 #priceDescription
-- Automatische Tests für all deine Prozesse
+- Automatische Tests für alle deine Prozesse
+- Dedizierter Projektmanager
 - Erstellung der Test-Basis ("Baseline")
 - Integration CI Pipeline
 - Kontinuierliche Erweiterung möglich
@@ -69,7 +127,7 @@ Teststrecken und verhindern jeden Bug in Produktion.
 label: "Auf Anfrage" 
 url: "https://blueshoe.io/hannes/" 
 size: "wide" 
-color: "green"
+color: "blue"
 target: "_blank"
 ---
 ::::

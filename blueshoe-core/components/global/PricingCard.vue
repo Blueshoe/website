@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div
-                :class="`border-b-4 border-l-4 border-r-4 ${accented ? 'bg-bs-blue border-bs-blue w-[300px] text-white' : 'border-bs-green'} p-4 w-72`">
+                :class="`border-b-4 border-l-4 border-r-4 ${accented ? 'bg-bs-blue border-bs-blue w-[300px]' : 'bg-bs-green border-bs-green'}  text-white p-4 w-72`">
                 <div class="text-2xl font-oswald">
                     <slot name="price" />
                 </div>
