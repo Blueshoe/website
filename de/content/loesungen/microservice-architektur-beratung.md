@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Microservice Architektur Beratung. Wir helfen dir, deine Microservice-Strategie zu definieren. Endlich schneller Software entwickeln.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Microservice Architektur Beratung. Wir helfen dir, deine Microservice-Strategie zu definieren. Endlich schneller Software entwickeln.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
 ---
 
 ::GlobalWrapperSections
@@ -147,10 +147,10 @@ Vom Microservice zur Microservices-Architektur
 Du verstehst, ein einzelner Microservice macht noch keine Architektur aus und ist isoliert ohnehin nicht sehr nützlich. Nachdem du einen Microservice erstellt hast, musst du ihn in eine bestehende Architektur integrieren, um ihn zu nutzen. Der Begriff Microservices-Architektur bezieht sich daher auf eine Systemarchitektur, die aus vielen integrierten Microservices besteht.
 ::::
 ::::GlobalParagraph{.mb-4}
-Die richtige Integration von Microservices ist ein wichtiger Punkt, dem besondere Aufmerksamkeit gewidmet werden sollte. Es ist wichtig, die Autonomie und Unabhängigkeit zwischen den Diensten zu ermöglichen. Falsch umgesetzt, kann sie die Vorteile von Microservices im Kern zunichte machen und sie unflexibel und gekoppelt machen. Es gibt verschiedene Technologien, die für die Integration verwendet werden können, wie [REST, GraphQL, Protocol Buffers](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}  und mehr. Die Wahl der besten Technologie hängt jedoch von der Gesamtarchitektur und der Anwendung ab.
+Die richtige Integration von Microservices ist ein wichtiger Punkt, dem besondere Aufmerksamkeit gewidmet werden sollte. Es ist wichtig, die Autonomie und Unabhängigkeit zwischen den Diensten zu ermöglichen. Falsch umgesetzt, kann sie die Vorteile von Microservices im Kern zunichte machen und sie unflexibel und gekoppelt machen. Es gibt verschiedene Technologien, die für die Integration verwendet werden können, wie [REST, GraphQL, Protocol Buffers](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}  und mehr. Die Wahl der besten Technologie hängt jedoch von der Gesamtarchitektur und der Anwendung ab.
 ::::
 ::::GlobalParagraph
-Generell ist es ratsam, die für die Integration verwendeten APIs technologieunabhängig zu halten, Änderungen zu vermeiden, sie für die Nutzer/innen einfach zu gestalten und interne Implementierungsdetails zu verbergen. Außerdem sollte eine gemeinsame Datenbank vermieden werden und die Kommunikation sollte vorzugsweise choreografiert statt orchestriert werden.
+Generell ist es ratsam, die für die Integration verwendeten ([APIs](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} technologieunabhängig zu halten, Änderungen zu vermeiden, sie für die Nutzer/innen einfach zu gestalten und interne Implementierungsdetails zu verbergen. Außerdem sollte eine gemeinsame Datenbank vermieden werden und die Kommunikation sollte vorzugsweise choreografiert statt orchestriert werden.
 ::::
 :::
 

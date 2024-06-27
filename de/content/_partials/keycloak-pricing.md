@@ -35,7 +35,7 @@ Empfohlen
 - Workshop zur Vorbereitung "Keycloak Starter"
 - Remote per Video-Konferenz oder persönlich vor Ort
 - Individuelle Betrachtung deiner IT-Landschaft
-- Erstellung einer Roadmap für Integration
+- Erstellung einer Roadmap zur Integration
 - Unterstützung bei der Implementierung und Betriebsumgebung
 - Praktischer Leitfaden für die Anbundung deiner Apps
 
@@ -57,7 +57,7 @@ Entwicklung und Integration deiner individuellen IAM Strategie
 - Workshop zur Vorbereitung "Keycloak Starter"
 - Individuelle Betrachtung deiner IT-Landschaft
 - Implementierung der Betriebsumgebung
-- Erstellung einer Roadmap für Integration
+- Erstellung einer Roadmap zur Integration
 - Perfekte Konfiguration, Anbindung aller Apps
 - Individuelle Dokumentation für alle speziellen Lösungen
 - Schulung für Administratoren und IT-Personal

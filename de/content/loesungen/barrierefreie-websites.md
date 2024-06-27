@@ -1,29 +1,29 @@
 ---
 head:
-  title: 'Wir machen barrierefreie Webseiten: Gesetzeskonform und Nutzerfreundlich ab Juni 2025'
+  title: 'BFSG 2025: Barrierefreie Webseite erstellen und mehr Nutzer erreichen'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Erfüllen Sie das BFSG 2025: Optimieren Sie Ihre Webseite barrierefrei und erreichen Sie mehr Nutzer. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'Erfülle das BFSG 2025: Mach deine Webseite barrierefrei, erreiche mehr Nutzer. Nutze unsere Erfahrung und maßgeschneiderte Lösungen.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Wir machen barrierefreie Webseiten: Gesetzeskonform und Nutzerfreundlich ab Juni 2025'
+      content: 'BFSG 2025: Barrierefreie Webseite erstellen und mehr Nutzer erreichen'
     - property: 'og:description'
-      content: 'Erfüllen Sie das BFSG 2025: Optimieren Sie Ihre Webseite barrierefrei und erreichen Sie mehr Nutzer. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'Erfülle das BFSG 2025: Mach deine Webseite barrierefrei, erreiche mehr Nutzer. Nutze unsere Erfahrung und maßgeschneiderte Lösungen.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/barrierefreie_website.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/barrierefreie_website.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Wir machen barrierefreie Webseiten: Gesetzeskonform und Nutzerfreundlich ab Juni 2025'
+      content: 'BFSG 2025: Barrierefreie Webseite erstellen und mehr Nutzer erreichen'
     - name: 'twitter:description'
-      content: 'Erfüllen Sie das BFSG 2025: Optimieren Sie Ihre Webseite barrierefrei und erreichen Sie mehr Nutzer. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'Erfülle das BFSG 2025: Mach deine Webseite barrierefrei, erreiche mehr Nutzer. Nutze unsere Erfahrung und maßgeschneiderte Lösungen.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/barrierefreie_website.svg'
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/services/barrierefreie_website.svg" :alt="barrierefreie websites" :imagePosition="right"}
@@ -34,7 +34,7 @@ Webseiten für alle Nutzer zugänglich machen
 Das Barrierefreiheitsstärkungsgesetz (BFSG) im Web umsetzen.
 ::::
 ::::GlobalParagraph{.mb-4 :color="text-white"}
-Ab Juni 2025 schreibt das Barrierefreiheitsstärkungsgesetz (BFSG) vor, dass alle Anbieter von elektronischen Dienstleistungen über eine Website – sei es im Bereich eCommerce oder andere – ihre Websites gemäß den gesetzlichen Vorgaben barrierefrei gestalten müssen. Wir haben viel Erfahrung in der Umrüstung von Websites auf Barrierefreiheit:
+Ab Juni 2025 schreibt das Barrierefreiheitsstärkungsgesetz (BFSG) vor, dass alle Anbieter von elektronischen Dienstleistungen über eine Website – sei es im Bereich E-Commerce oder andere – ihre Websites gemäß den gesetzlichen Vorgaben barrierefrei gestalten müssen. Wir haben viel Erfahrung in der Umrüstung von Websites auf Barrierefreiheit:
 ::::
 ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
 - Mehr Nutzer durch Barrierefreiheit ansprechen

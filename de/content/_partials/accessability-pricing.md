@@ -52,7 +52,7 @@ Barrierefreiheitsreport inklusive Umsetzung der Maßnahmen
 
 #priceDescription
 - Alles aus "BITV 2.0 Premium"
-- All-inclusive für Deine barrierefreie Website
+- All-inclusive für deine barrierefreie Website
 - Komplette Umsetzung
 - Sicherstellung der BITV nach dem notwenigen Grad
 - Testprotokolle 

@@ -11,19 +11,19 @@ head:
     - property: 'og:title'
       content: 'Software Entwicklung bei Blueshoe'
     - property: 'og:description'
-      content: 'Software Entwicklung bei Blueshoe'
+      content: 'Software-Projekte: 35% schneller, keine Lizenzkosten, 100% Fokus auf Kernkompetenzen. Jetzt Kontakt aufnehmen!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/programmer.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/programmer.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Software Entwicklung bei Blueshoe'
     - name: 'twitter:description'
-      content: 'Software Entwicklung bei Blueshoe'
+      content: 'Software-Projekte: 35% schneller, keine Lizenzkosten, 100% Fokus auf Kernkompetenzen. Jetzt Kontakt aufnehmen!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/programmer.svg'
 ---
 
 ::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/programmer.svg" :imagePosition="right"}
@@ -37,9 +37,9 @@ Software-Realisierung
 Seit 2014 haben uns die meisten Kunden beauftragt, weil mindestens einer dieser Punkte zutraf:
 :::
 :::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-- Die internen oder externen Kosten für Realisierung und/oder Betrieb von Software zu hoch sind
-- Die Umsetzung von Projekten dauert wesentlich zu lange
-- Die Kompetenz und/oder Betreuungsqualität des bisherigen Entwicklungspartners ist mangelhaft
+- Die internen oder externen Kosten für Realisierung und/oder Betrieb von Software sind zu hoch.
+- Die Umsetzung von Projekten dauert wesentlich zu lange.
+- Die Kompetenz und/oder Betreuungsqualität des bisherigen Entwicklungspartners ist mangelhaft.
 :::
 :::GlobalParagraph{.mb-4 :color="text-white"}
 Du musstest nicken, oder?
@@ -164,7 +164,7 @@ Technische Universität Hamburg
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/allianz_logo.jpg", "alt": "allianz"}' :desktopImage='{"src": "/img/global/slide/allianz_foto.jpg", "alt": "allianz"}' :mobileImage='{"src": "/img/global/slide/allianz_foto_mobile.jpg", "alt": "allianz"}' :tags='["Django", "Python", "Wagtail", "Open Shift"]'}
 :::GlobalParagraph{:fontSize="lg"}
-Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit Headless CMS gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
+Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit [Headless CMS](/loesungen/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
 :::
 #title
 :::GlobalTitle

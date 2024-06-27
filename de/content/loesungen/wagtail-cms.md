@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Mit Wagtail CMS wird der Traum vom Headless CMS endlich Wirklichkeit. ✅ Pfeilschnell ✅ SEO optimiert ✅  Rasch Erweiterbar |  Jetzt anfragen!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/wagtail_cms.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/wagtail_cms.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Mit Wagtail CMS wird der Traum vom Headless CMS endlich Wirklichkeit. ✅ Pfeilschnell ✅ SEO optimiert ✅  Rasch Erweiterbar |  Jetzt anfragen!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/wagtail_cms.svg'
 ---
 
 ::GlobalWrapperSections
@@ -77,7 +77,7 @@ Darum mögen wir Wagtail CMS so
 - Kontrolle über Frontend-Design und -Struktur
 - Hohe Skalierbarkeit
 - Cache-freundlich
-- Inhalts-API für [‘headless’ websites](/leistungen/headless-cms/){.text-white .underline .hover:text-bs-green}
+- Inhalts-API für [‘headless’ websites](/loesungen/headless-cms/){.text-white .underline .hover:text-bs-green}
 - Leistungsstarke Suche (mit Elasticsearch oder PostgreSQL)
 - Erstklassige Einbettung von Inhalten
 - Mehrsprachigkeit

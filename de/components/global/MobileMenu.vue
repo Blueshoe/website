@@ -93,10 +93,10 @@ const toggleChild = (nav: Menu) => {
   "en": {
     "services": "Leistungen",
     "solutions": "Lösungen",
-    "requirementsEngineering": "Anforderungs Workshops",
+    "requirementsEngineering": "Anforderungsworkshops",
     "requirementsDocs": "Anforderungsdokumentation",
     "projectGreenlight": "Freigabeentscheidung",
-    "softwareDevelopment": "Software & Infrastruktur Realisierung",
+    "softwareDevelopment": "Software- & Infrastrukturrealisierung",
     "softwareMaintenance": "Wartung & Support",
     "automaticFrontendTesting": "Automatisches Frontend Testing",
     "rightsAccessManagement": "Rights & Access Management",

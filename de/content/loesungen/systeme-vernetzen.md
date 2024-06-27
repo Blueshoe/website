@@ -1,29 +1,29 @@
 ---
 head:
-  title: 'System-Integration und Prozessautomatisierung mit individuellen APIs | Über 200 IT-Projekte seit 2014'
+  title: 'Systemintegration & Automatisierung | BLUESHOE'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Optimieren Sie Ihre Prozesse durch System-Integration und Automatisierung. Erfahren Sie mehr über unsere maßgeschneiderten API-Lösungen und profitieren Sie von unserer langjährigen Erfahrung.'
+      content: 'Erhöhe die Effizienz durch Systemintegration und Automatisierung. Entdecke unsere API-Lösungen und profitiere von unserer Erfahrung.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'System-Integration und Prozessautomatisierung mit individuellen APIs | Über 200 IT-Projekte seit 2014'
+      content: 'Systemintegration & Automatisierung | BLUESHOE'
     - property: 'og:description'
-      content: 'Optimieren Sie Ihre Prozesse durch System-Integration und Automatisierung. Erfahren Sie mehr über unsere maßgeschneiderten API-Lösungen und profitieren Sie von unserer langjährigen Erfahrung.'
+      content: 'Erhöhe die Effizienz durch Systemintegration und Automatisierung. Entdecke unsere API-Lösungen und profitiere von unserer Erfahrung.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/systeme_verbinden.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/systeme_verbinden.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'System-Integration und Prozessautomatisierung mit individuellen APIs | Über 200 IT-Projekte seit 2014'
+      content: 'Systemintegration & Automatisierung | BLUESHOE'
     - name: 'twitter:description'
-      content: 'Optimieren Sie Ihre Prozesse durch System-Integration und Automatisierung. Erfahren Sie mehr über unsere maßgeschneiderten API-Lösungen und profitieren Sie von unserer langjährigen Erfahrung.'
+      content: 'Erhöhe die Effizienz durch Systemintegration und Automatisierung. Entdecke unsere API-Lösungen und profitiere von unserer Erfahrung.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/systeme_verbinden.svg'
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/systeme_verbinden.svg" :alt="systeme verbinden" :imagePosition="right"}
@@ -34,12 +34,12 @@ head:
     Systeme miteinander vernetzen und Prozesse automatisieren
   ::::
   ::::GlobalParagraph{.mb-4 :color="text-white"}
-    Seit 2014 haben wir über 200 IT-Projekte umgesetzt. Oft hängen Arbeitsprozesse von mehreren Systemen ab, wie ERPs, CRMs, eCommerce-Systemen oder CSV-Exporten. Diese Systeme sind häufig nicht integriert und somit nicht ideal aufgestellt:
+    Seit 2014 haben wir über 200 IT-Projekte umgesetzt. Oft hängen Arbeitsprozesse von mehreren Systemen ab, wie ERPs, CRMs, E-Commerce-Systemen oder CSV-Exporten. Diese Systeme sind häufig nicht integriert und somit nicht ideal aufgestellt:
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-  - Manuelle Prozesse zwischen Systemen sind personal- und zeitaufwendig
-  - Es bestehen Fehlerquellen durch den Faktor “Mensch”
-  - Die Datenlage bei manuellen Prozessen ist häufig dünn
+  - Manuelle Prozesse zwischen Systemen sind personal- und zeitaufwendig.
+  - Es bestehen Fehlerquellen durch den Faktor “Mensch”.
+  - Die Datenlage bei manuellen Prozessen ist häufig dünn.
   ::::
   ::::GlobalParagraph{.mb-10 :color="text-white"}
     Kennst du das aus deinem Unternehmen?
@@ -53,9 +53,9 @@ head:
   Wir integrieren Systeme und beenden manuelle Prozesse
   ::::
   ::::GlobalBlock{.ul-disk}
-  - Prozessautomatisierung durch die Entwicklung individueller APIs
+  - Prozessautomatisierung durch die Entwicklung individueller [APIs](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
   - Integration von Mechanismen zur automatischen Fehlererkennung
-  - Langlebige API-Lösungen, die sich beliebig erweitern lassen
+  - Langlebige [API-Lösungen](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, die sich beliebig erweitern lassen
   ::::
 #button
   ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
@@ -143,7 +143,7 @@ Technische Universität Hamburg
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/allianz_logo.jpg", "alt": "allianz"}' :desktopImage='{"src": "/img/global/slide/allianz_foto.jpg", "alt": "allianz"}' :mobileImage='{"src": "/img/global/slide/allianz_foto_mobile.jpg", "alt": "allianz"}' :tags='["Django", "Python", "Wagtail", "Open Shift"]'}
 :::GlobalParagraph{:fontSize="lg"}
-Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit Headless CMS gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
+Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit [Headless CMS](/loesungen/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
 :::
 #title
 :::GlobalTitle

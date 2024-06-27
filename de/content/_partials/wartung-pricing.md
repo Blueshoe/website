@@ -7,7 +7,7 @@
 Quick Care
 
 #subtitle
-Einfache Wartung für eine Basis-Pflege Deiner Software.
+Einfache Wartung für eine Basis-Pflege deiner Software.
 
 #priceDescription
 - **Wartung**
@@ -26,7 +26,7 @@ Einfache Wartung für eine Basis-Pflege Deiner Software.
 Deep Care
 
 #subtitle
-Umfangreiche Wartung für eine umfassende Pflege Deiner Software.
+Umfangreiche Wartung für eine umfassende Pflege deiner Software.
 
 #recommendedLabel
 Empfohlen

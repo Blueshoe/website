@@ -7,7 +7,7 @@
 Kleiner Workshop
 
 #subtitle
-Ein Workshop über einen halben Tag um einen moderaten Anforderungskatalog zu erstellen.
+Ein Workshop über einen halben Tag, um einen moderaten Anforderungskatalog zu erstellen.
 
 #priceDescription
 - **4 h** Workshop
@@ -26,7 +26,7 @@ Ein Workshop über einen halben Tag um einen moderaten Anforderungskatalog zu er
 Großer Workshop
 
 #subtitle
-Ein klassischer Workshop um auch umfangreichere Softwareprojekte zu definieren.
+Ein klassischer Workshop, um auch umfangreichere Softwareprojekte zu definieren.
 
 #recommendedLabel
 Empfohlen
