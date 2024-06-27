@@ -9230,6 +9230,7 @@ __metadata:
     prettier: "npm:^3.2.4"
     sitemap: "npm:^7.1.1"
     typescript: "npm:^5.3.3"
+    vanilla-cookieconsent: "npm:3.0.1"
     vue: "npm:^3.4.15"
     vue-final-modal: "npm:^4.5.3"
     vue-plyr: "npm:^7.0.0"
@@ -9924,7 +9925,7 @@ __metadata:
     loadjs: "npm:^4.2.0"
     rangetouch: "npm:^2.0.1"
     url-polyfill: "npm:^1.1.12"
-  checksum: 10c0/63d7bdeef18a9c76478b8669cd49da852a9e8083ee6fb0c3096d6604768e75ce90e2e41effc737a681948442ee0a67ba697fc6106ec718349244d7198006a1d4
+  checksum: 10c0/dd7641825a6c0742d4a9818f7f121fb5ca74e03c50529aedab3ff8f26babb811077c34ecc7e43560c9ce8d788da5df4849ed1ed010f75a7caf5f9153975a50c4
   languageName: node
   linkType: hard
 
@@ -12885,6 +12886,13 @@ __metadata:
   dependencies:
     builtins: "npm:^5.0.0"
   checksum: 10c0/36a9067650f5b90c573a0d394b89ddffb08fe58a60507d7938ad7c38f25055cc5c6bf4a10fbd604abe1f4a31062cbe0dfa8e7ccad37b249da32e7b71889c079e
+  languageName: node
+  linkType: hard
+
+"vanilla-cookieconsent@npm:3.0.1":
+  version: 3.0.1
+  resolution: "vanilla-cookieconsent@npm:3.0.1"
+  checksum: 10c0/dfb91004aaa14575561c6e6d8dd885b4cb9a867f99cce204802392e2ce725674b6b544b8af39e3eed2c25a9d30357c9ea45dbcef552a49c8445c6b4b0abd7db0
   languageName: node
   linkType: hard
 
