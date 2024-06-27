@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 interface Props {
-  bg?: 'bg-bs-gray' | 'bg-white' | 'bg-bs-blue';
+  bg?: 'bg-bs-gray' | 'bg-white' | 'bg-bs-blue' | 'bg-transparent';
   isButton?: boolean;
   width?: string
 }

@@ -25,28 +25,47 @@ head:
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
-::GlobalWrapperMain{:leftNavigationCard=-260}
+::GlobalWrapperMain{:leftNavigationCard=-320}
 
-  :::GlobalSimpleSection{:bg="bg-white"}
+  :::GlobalSimpleSection{.z-100 :bg="bg-transparent"}
     ::::GlobalPreTitle{.mb-3}
-    AGENTUR FÜR CLOUD NATIVE SOFTWARE DEVELOPMENT & CONSULTING MIT OPEN SOURCE
+    BLUESHOE: AGENTUR FÜR OPEN SOURCE CLOUD NATIVE SOFTWARE DEVELOPMENT 
     ::::
     ::::GlobalTitle{.mb-6}
-    Wir sind Blueshoe
+    35% schnellere Projektumsetzung mit System
     ::::
     ::::GlobalParagraph{.mb-4}
-    Wir lösen komplexe Probleme für mittelständische B2B-Unternehmen und den öffentlichen Sektor. Du bist bei uns richtig, wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
+    Du suchst eine Lösung für komplexe Probleme in mittelständischen B2B-Unternehmen oder im öffentlichen Sektor? Du bist bei uns richtig, wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
     ::::
-    ::::GlobalBlock{.ul-disk}
-    - Sie nicht standardisiert ist.
-    - Die Kosten für die Entwicklung und den Betrieb zu hoch sind.
-    - Die Umsetzung zu lange dauert.
-    - Die Kompetenz und die Betreuungsqualität deines bisherigen Partners nicht befriedigend sind.
-    - Du keine Lust mehr auf horrende Lizenzkosten hast.
+    ::::GlobalBlock{.bg-white .bg-opacity-80 .w-3/4 .rounded-l .p-4 .ul-disk}
+    - Sie nicht standardisiert ist
+    - Deine Kosten für die Entwicklung und den Betrieb zu hoch sind
+    - Deine Umsetzung zu lange dauert
+    - Die Kompetenz und die Betreuungsqualität deines bisherigen Partners nicht befriedigend sind
+    - Du keine Lust mehr auf horrende Lizenzkosten hast
+    ::::
+    ::::GlobalParagraph{.bg-white .bg-opacity-90 .xl:w-max  .p-2 .rounded-l}
+    
+      ::::GlobalButton{.xl:inline}
+      ---
+      label: "Quickwins zum Festpreis"
+      url: "#quickwins"
+      size: "normal"
+      color: "blue"
+      ---
+      ::::
+      ::::GlobalButton{.xl:px-6 .xl:inline}
+      ---
+      label: "Enterprise-Lösungen"
+      url: "#rapid"
+      size: "normal"
+      color: "blue"
+      ---
+      ::::
     ::::
   :::
 
-  :::HomepageCyclicSlider
+  :::HomepageCyclicSlider{.xl:mt-[-300px] .mt-[-140px]}
   :::
   <!--- Featured Services Grid --->
   :::GlobalPartial{content=services-grid-2}
@@ -65,8 +84,8 @@ head:
     Wir shippen auch komplexe Projekte in Rekordzeit
     ::::
 
-    ::::GlobalParagraph{.mb-4}
-    Egal, ob du vor einer klaren Herausforderung stehst, bereits Lösungsansätze oder einen Prototyp entwickelt hast, oder aber auch schon eine Anwendung im Betrieb hast, mit der du nicht glücklich bist - mit unserem RAPID-System können wir dir schnell und systematisch helfen.
+    ::::GlobalParagraph{.mb-4 id="rapid"}
+    Egal ob du eine klare Herausforderung hast, bereits Lösungsansätze oder einen Prototyp entwickelt hast, oder aber auch schon eine Anwendung im Betrieb hast, mit der du nicht glücklich bist. Mit unserem **RAPID-System** können wir dir schnell und systematisch helfen.
     ::::
 
     ::::GlobalButton{:url="/leistungen/" :label="Das RAPID-System erklärt" :color="blue"}
@@ -81,18 +100,19 @@ head:
 
 <!--- persönlicher Kontakt --->
   :::GlobalCardWithBackgroundImageSection{:src="/img/about-us/team1.webp" :alt="Wir sind Blueshoe" :width="md:w-3/5"}
-    ::::GlobalTitle{:tag="h3" .mb-6 data-title="WER SIND WIR?"}
-    Wer ist Blueshoe überhaupt?
+    ::::GlobalTitle{:tag="h3" .mb-6 data-title="WAS DICH BEI UNS ERWARTET"}
+    Was dich bei uns erwartet?
     ::::
 
     ::::GlobalBlock{.mb-4 .ul-disk}
-    - Wir sind ein europäisches Unternehmen mit Sitz in München, mit Remote-Culture und Begeisterung für Open-Source-Software
-    - Arbeiten in allen Projektphasen transparent und nachvollziehbar
-    - Spaß bei der Arbeit ist uns wichtig und wir lieben große und komplexe Software-Projekte
-    - Wir bezeichnen uns als Techies mit Herz
-    - Wir sind überdurchschnittlich motiviert, für dich die beste Lösung zu entwickeln
-    - Wir kommunizieren klar und verständlich. Auch für Nicht-Techniker.
-    - Auch in schwierigen Projektsituationen bleiben wir belastbar
+    - Du arbeitest mit einem europäischen Unternehmen in München zusammen, das eine Remote-Kultur pflegt und für Open-Source-Software begeistert ist.
+    - Du erlebst transparente und nachvollziehbare Arbeitsprozesse.
+    - Du profitierst von einem Team, das Spaß an großen, komplexen Software-Projekten hat.
+    - Du arbeitest mit engagierten Techies mit Herz.
+    - Du kannst dich auf unsere Motivation verlassen, die beste und nicht die teuerste Lösung für dich zu entwickeln.
+    - Du erhältst klare und verständliche Kommunikation, auch für Nicht-Techniker.
+    - Du kannst auf unsere Belastbarkeit in schwierigen Projektsituationen zählen.
+
     ::::
   :::
 
