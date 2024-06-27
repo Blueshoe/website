@@ -1,58 +1,120 @@
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing{ :cardCount="4" }
 
+<!--- Do it yourself --->
 #card1
 :::GlobalPricingCard
 
 #title
-Ignition
+Boost Starter
 
 #subtitle
-Geschwindigkeitsanalyse mit Report und Handlungsempfehlungen
+Du erledigst deine Website-Optimierung selbst. Den Kickstart gibt es von Blueshoe.
 
 #priceDescription
+- Do it yourself
+- 30 Minuten Gespräch
+- Hinweise, Tipps & Tricks
 - Analyse deiner Website-Performance
-- Identifikation von Engpässen
-- Erstellung von individuellen Handlungsempfehlungen basierend auf unserer Erfahrung
+
 
 #price
-2.500 €
+Kostenlos
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
+<!--- Do with you --->
 #card2
 :::GlobalPricingCard{:accented="true"}
 
 #title
-Ignition Plus
-
-#subtitle
-Geschwindigkeitsanalyse und Handlungsempfehlungen plus Umsetzungsbegleitung für dein Team.
+Boost Gold
 
 #recommendedLabel
 Empfohlen
 
+#subtitle
+Blueshoe begleitet dein Website-Team bei der Optimierung der Geschwindigkeit.
+
 #priceDescription
-- Alles aus "Ignition"
-- Zieldefinition und individuelle Roadmap
-- Beratung deines Teams bei der Umsetzung
-- 24 h Umsetzungsarbeit enthalten
+- Alles aus "Boost Starter"
+- Blueshoe **unterstützt** dein Website-Team
+- Identifikation von Engpässen
+- Erstellung von individuellen Handlungsempfehlungen basierend auf unserer Erfahrung
+- Begleitung bei Umsetzung der notwendigen Maßnahmen
 
 #price
-4.000 €
+3.000 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
+<!--- Do for you --->
 #card3
 :::GlobalPricingCard
 
 #title
-Booster
+Boost Platinum
 
 #subtitle
-Geschwindigkeitsanalyse inklusive Umsetzung aller Verbesserungsmaßnahmen
+Blueshoe übernimmt die Geschwindigkeitsanalyse, erstellt Handlungsempfehlungen und setzt diese für dich um.
 
 
 #priceDescription
-- Alles aus "Ignition Plus"
+- Alles aus "Boost Gold"
+- Blueshoe **ist** dein Website-Team
+- Zieldefinition und individuelle Roadmap
+- **Perfekte Optimierung** der vereinbarten Maßnahmen
+- Garantierte Steigerung der Website-Performance
+- Umsetzungen weiterer SEO-Optimierungen
+
+#price
+9.000 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
+:::
+
+#card4
+:::GlobalPricingCard
+
+#title
+Enterprise
+
+#subtitle
+Blueshoe identifiziert alle Performance-Problem auf deiner Website und löst diese für dich. Für beliebig große Websites.
+
+
+#priceDescription
+- Alles aus "Boost Platinum"
 - All-inclusive für deine Website Performance
+- **Dedizierter Projektmanager**
 
 #price
 ::::GlobalButton
@@ -60,7 +122,7 @@ Geschwindigkeitsanalyse inklusive Umsetzung aller Verbesserungsmaßnahmen
 label: "Auf Anfrage" 
 url: "https://blueshoe.io/hannes/" 
 size: "wide" 
-color: "green"
+color: "blue"
 target: "_blank"
 ---
 ::::

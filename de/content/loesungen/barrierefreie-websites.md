@@ -66,7 +66,7 @@ Wir haben Barrierefreiheitsprojekte umgesetzt:
 <!--- Pricing --->
 :::GlobalSimpleSection{:bg="bg-white"}
 ::::GlobalTitle
-Unsere Barrierefreiheits-Pakete
+Unsere Barrierefreiheits-Pakete:
 ::::
 :::
 :::GlobalPartial{content=accessability-pricing}
