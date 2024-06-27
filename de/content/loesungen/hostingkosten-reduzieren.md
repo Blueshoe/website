@@ -5,13 +5,13 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'SpareCloud-Kosten und profitiere von günstigem Hosting in Deutschland. Wir haben viel Erfahrung in der Migration von Projekten von AWA, Google, Azure zu einem deutschen Anbieter.'
+      content: 'Spare Cloud-Kosten mit günstigem Hosting in Deutschland. ✅ Migration von AWS, Google und Azure zu deutschen Anbietern. Jetzt informieren!'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Kosten sparen mit Hosting-Migration | Günstiges Hosting in Deutschland'
     - property: 'og:description'
-      content: 'SpareCloud-Kosten und profitiere von günstigem Hosting in Deutschland. Wir haben viel Erfahrung in der Migration von Projekten von AWA, Google, Azure zu einem deutschen Anbieter.'
+      content: 'Spare Cloud-Kosten mit günstigem Hosting in Deutschland. ✅ Migration von AWS, Google und Azure zu deutschen Anbietern. Jetzt informieren!'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -21,7 +21,7 @@ head:
     - name: 'twitter:title'
       content: 'Kosten sparen mit Hosting-Migration | Günstiges Hosting in Deutschland'
     - name: 'twitter:description'
-      content: 'SpareCloud-Kosten und profitiere von günstigem Hosting in Deutschland. Wir haben viel Erfahrung in der Migration von Projekten von AWA, Google, Azure zu einem deutschen Anbieter.'
+      content: 'Spare Cloud-Kosten mit günstigem Hosting in Deutschland. ✅ Migration von AWS, Google und Azure zu deutschen Anbietern. Jetzt informieren!'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
@@ -54,9 +54,9 @@ Besser und günstiger? Da gibt’s doch keinen Grund, noch zu warten!
 Wir machen ihr Hosting günstig
 ::::
 ::::GlobalBlock{.ul-disk}
-- Wir haben keine Vereinbarungen mit Hostern und betrachten ihr Projekt neutral
-- Wir haben viel Erfahrung in der Migration von Projekten zwischen Cloud-Hostern
-- Wir finden auch versteckte Sicherheitsrisiken, sobald wir Projekte zur Migration vorbereiten
+- Wir haben keine Vereinbarungen mit Hostern und betrachten ihr Projekt neutral.
+- Wir haben viel Erfahrung in der Migration von Projekten zwischen Cloud-Hostern.
+- Wir finden auch versteckte Sicherheitsrisiken, sobald wir Projekte zur Migration vorbereiten.
 ::::
 #button
 ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}

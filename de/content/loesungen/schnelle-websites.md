@@ -5,25 +5,25 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Steigern Sie Umsatz und SEO-Rankings mit schnellen Ladezeiten. Experten für Website-Optimierung. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'Steigere deinen Umsatz und deine SEO-Rankings mit schnellen Ladezeiten. Experten für Website-Optimierung. Profitiere von unserer Erfahrung und maßgeschneiderten Lösungen.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Pfeilschnelle Websites: Mehr Umsatz und bessere Rankings'
     - property: 'og:description'
-      content: 'Steigern Sie Umsatz und SEO-Rankings mit schnellen Ladezeiten. Experten für Website-Optimierung. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'Steigere deinen Umsatz und deine SEO-Rankings mit schnellen Ladezeiten. Experten für Website-Optimierung. Profitiere von unserer Erfahrung und maßgeschneiderten Lösungen.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/schnelle_websites.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/schnelle_websites.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Pfeilschnelle Websites: Mehr Umsatz und bessere Rankings'
     - name: 'twitter:description'
-      content: 'Steigern Sie Umsatz und SEO-Rankings mit schnellen Ladezeiten. Experten für Website-Optimierung. Profitieren Sie von unserer Erfahrung und maßgeschneiderten Lösungen.'
+      content: 'Steigere deinen Umsatz und deine SEO-Rankings mit schnellen Ladezeiten. Experten für Website-Optimierung. Profitiere von unserer Erfahrung und maßgeschneiderten Lösungen.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/schnelle_websites.svg'
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/schnelle_websites.svg" :alt="schnelle websites" :imagePosition="right"}
@@ -65,7 +65,7 @@ Wir machen Websites schnell
 <!--- Pricing --->
 :::GlobalSimpleSection{:bg="bg-white"}
 ::::GlobalTitle
-Unsere Barrierefreiheits-Pakete
+Unsere Pakete für deinen Website-Turbo
 ::::
 :::
 :::GlobalPartial{content=booster-pricing}

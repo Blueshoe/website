@@ -147,7 +147,7 @@ const emitHandleCloseMenu = (nav: Menu) => {
     "websiteBooster": "Schnelle Websites",
     "websiteAccessability": "Barrierefreie Websites",
     "connectingSystems": "Systeme Vernetzen",
-    "hostingCostReduction": "Hostingkosten reduzieren",
+    "hostingCostReduction": "Hostingkosten Reduzieren",
     "gefyra": "Kubernetes Development",
     "cloudNativeDevelopment": "Cloud Native Development",
     "headlessCms": "Headless CMS",

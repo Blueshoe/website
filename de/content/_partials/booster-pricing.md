@@ -7,12 +7,12 @@
 Ignition
 
 #subtitle
-Geschwindigkeits-Analsyse mit Report und Handlungsempfehlungen
+Geschwindigkeitsanalyse mit Report und Handlungsempfehlungen
 
 #priceDescription
 - Analyse deiner Website-Performance
 - Identifikation von Engpässen
-- Erstellung von individuellen Handlungsempfehlungen basieren auf unserer Erfahrung
+- Erstellung von individuellen Handlungsempfehlungen basierend auf unserer Erfahrung
 
 #price
 2.500 €
@@ -25,7 +25,7 @@ Geschwindigkeits-Analsyse mit Report und Handlungsempfehlungen
 Ignition Plus
 
 #subtitle
-Geschwindigkeits-Analsyse und Handlungsempfehlungen plus Umsetzungsbegleitung für dein Team.
+Geschwindigkeitsanalyse und Handlungsempfehlungen plus Umsetzungsbegleitung für dein Team.
 
 #recommendedLabel
 Empfohlen
@@ -52,7 +52,7 @@ Geschwindigkeitsanalyse inklusive Umsetzung aller Verbesserungsmaßnahmen
 
 #priceDescription
 - Alles aus "Ignition Plus"
-- All-inclusive für Deine Website Performance
+- All-inclusive für deine Website Performance
 
 #price
 ::::GlobalButton

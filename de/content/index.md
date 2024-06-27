@@ -1,17 +1,17 @@
 ---
 head:
-  title: 'Individuelle Softwareentwicklung aus München'
+  title: 'Cloud Native Softwareentwicklung & Consulting – Schnell & Lizenzfrei'
   meta:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Individuelle Softwareentwicklung aus München. Zuverlässige Agentur für Web, E-Commerce, Plattformen und Portale, PWAs und mehr. ✅ Robust ✅ Skalierbar ✅ Sicher'
+      content: 'Agentur für Cloud Native Software Development & Consulting mit Open Source. ✅ Schnell ✅ Lizenzfrei ✅ Nahtlos integriert ✅ Direkt zur Geschäftsführung'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
-      content: 'Individuelle Softwareentwicklung aus München'
+      content: 'Cloud Native Softwareentwicklung & Consulting – Schnell & Lizenzfrei'
     - property: 'og:description'
-      content: 'Individuelle Softwareentwicklung aus München. Zuverlässige Agentur für Web, E-Commerce, Plattformen und Portale, PWAs und mehr. ✅ Robust ✅ Skalierbar ✅ Sicher'
+      content: 'Agentur für Cloud Native Software Development & Consulting mit Open Source. ✅ Schnell ✅ Lizenzfrei ✅ Nahtlos integriert ✅ Direkt zur Geschäftsführung'
     - property: 'og:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
@@ -19,9 +19,9 @@ head:
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
-      content: 'Individuelle Softwareentwicklung aus München'
+      content: 'Cloud Native Softwareentwicklung & Consulting – Schnell & Lizenzfrei'
     - name: 'twitter:description'
-      content: 'Individuelle Softwareentwicklung aus München. Zuverlässige Agentur für Web, E-Commerce, Plattformen und Portale, PWAs und mehr. ✅ Robust ✅ Skalierbar ✅ Sicher'
+      content: 'Agentur für Cloud Native Software Development & Consulting mit Open Source. ✅ Schnell ✅ Lizenzfrei ✅ Nahtlos integriert ✅ Direkt zur Geschäftsführung'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---

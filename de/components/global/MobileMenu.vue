@@ -103,7 +103,7 @@ const toggleChild = (nav: Menu) => {
     "websiteBooster": "Schnelle Websites",
     "connectingSystems": "Systeme Vernetzen",
     "websiteAccessability": "Barrierefreie Websites",
-    "hostingCostReduction": "Hostingkosten reduzieren",
+    "hostingCostReduction": "Hostingkosten Reduzieren",
     "gefyra": "Kubernetes Development",
     "cloudNativeDevelopment": "Cloud Native Development",
     "headlessCms": "Headless CMS",
