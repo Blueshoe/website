@@ -120,7 +120,7 @@ Keine Lizenzkosten
 <!--- Projekte --->
 :::GlobalSliderSection{:numberCards=2 data-title="Successful projects" :bg="bg-bs-gray" data-title="Erfolgreiche Projekte"}
 ::::GlobalTitle{.mb-6}
-Projekte in denen wir Identity und Access-Management umgesetzt haben
+Projekte in denen wir Systeme vernetzt haben
 ::::
 ::::GlobalParagraph
 Unsere IAM-Lösungen vereinfachen das Nutzermanagement unter anderem in folgenden Projekten:

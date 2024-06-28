@@ -77,7 +77,7 @@ target: "_blank"
 API Platinum
 
 #subtitle
-Blueshoe analysiert die gewünschte Integrationd, entwickelt die notwendigen Schnittstellen und stellt diese bereit.
+Blueshoe analysiert die gewünschte Integration, entwickelt die notwendigen Schnittstellen und stellt diese bereit.
 
 
 #priceDescription
