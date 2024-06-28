@@ -60,12 +60,23 @@ const images = [
   { src: '/img/global/icons/docker_kubernetes.svg', alt: 'docker kubernetes icon' },
   { src: '/img/global/icons/unikube-logo.svg', alt: 'unikube logo icon' },
   { src: '/img/global/icons/hurricane-icon.svg', alt: 'hurricane icon icon' },
+  { src: '/img/global/icons/iam_management.svg', alt: 'iam management' },
+  { src: '/img/services/barrierefreie_website.svg', alt: 'barrierefreie websites' },
   { src: '/img/global/icons/consulting_1.svg', alt: 'consulting icon' },
+  { src: '/img/global/icons/schnelle_websites.svg', alt: 'schnelle websites' },
+  { src: '/img/global/icons/hostingkosten_senken.svg', alt: 'hostingkosten senken' },
+  { src: '/img/global/icons/systeme_verbinden.svg', alt: 'systeme verbinden' },
   { src: '/img/global/icons/infrastructure_1.svg', alt: 'infrastructure icon' },
   { src: '/img/global/icons/migration.svg', alt: 'migration icon' },
   { src: '/img/global/icons/repair.svg', alt: 'repair icon' },
   { src: '/img/global/icons/cyber-security.svg', alt: 'cyber security icon' },
-  { src: '/img/global/icons/cloud-computing.svg', alt: 'cloud computing icon' }
+  { src: '/img/services/test_automation.svg', alt: 'test automation' },
+  { src: '/img/global/icons/discussion.svg', alt: 'cloud computing icon' },
+  { src: '/img/global/icons/RAPID_R.svg', alt: 'requirements' },
+  { src: '/img/global/icons/RAPID_A.svg', alt: 'actionable scope' },
+  { src: '/img/global/icons/RAPID_P.svg', alt: 'project greenlight' },
+  { src: '/img/global/icons/RAPID_I.svg', alt: 'implementation' },
+  { src: '/img/global/icons/RAPID_D.svg', alt: 'durable maintenance' }
 ];
 
 useHead({
@@ -75,6 +86,26 @@ useHead({
       tagPosition: 'head',
       innerHTML:
         "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MNZQV3V3KS');"
+    }
+  ],
+  link: [
+    { tagPosition: 'head', rel: 'preconnect', href: 'https://fonts.googleapis.com', fetchpriority: 'high' },
+    {
+      tagPosition: 'head',
+      rel: 'preconnect',
+      href: 'https://fonts.gstatic.com',
+      crossorigin: 'anonymous',
+      fetchpriority: 'high'
+    },
+    {
+      tagPosition: 'head',
+      href: 'https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap',
+      rel: 'stylesheet'
+    },
+    {
+      tagPosition: 'head',
+      href: 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;500;600;700&display=swap',
+      rel: 'stylesheet'
     }
   ]
 });

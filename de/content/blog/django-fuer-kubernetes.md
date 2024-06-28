@@ -48,7 +48,7 @@ Wir haben uns erneut Gedanken gemacht, wie wir das Ausführen von Django-Anwendu
 ![hurricane_logo](/img/blogs/hurricane_logo_text.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-Wir bei Blueshoe sind schon immer Fans von **Open Source**. In sehr vielen unserer Projekten kommen Open Source-Komponenten zum Einsatz, wir nutzen ja auch u. a. sehr stark das **Django Framework** und wir bemühen uns auch, Open Source-Projekte bei der Maintenance und Weiterentwicklung zu unterstützen. Seit einiger Zeit hat nun auch **Kubernetes** bei uns Einzug erhalten, wodurch wir uns mehr und mehr der Herausforderung stellen, wie wir möglichst **Cloud Native** entwickeln können. Dazu haben wir auch schon Blog-Posts geschrieben, z. B.: [Cloud Native Kubernetes development](/leistungen/cloud-native-development){.bs-link-blue}.
+Wir bei Blueshoe sind schon immer Fans von **Open Source**. In sehr vielen unserer Projekten kommen Open Source-Komponenten zum Einsatz, wir nutzen ja auch u. a. sehr stark das **Django Framework** und wir bemühen uns auch, Open Source-Projekte bei der Maintenance und Weiterentwicklung zu unterstützen. Seit einiger Zeit hat nun auch **Kubernetes** bei uns Einzug erhalten, wodurch wir uns mehr und mehr der Herausforderung stellen, wie wir möglichst **Cloud Native** entwickeln können. Dazu haben wir auch schon Blog-Posts geschrieben, z. B.: [Cloud Native Kubernetes development](/loesungen/cloud-native-development){.bs-link-blue}.
 :::
 :::globalParagraph
 Heute möchten wir euch unser neues Open Source-Projekt **<a href="https://django-hurricane.io/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Django-Hurricane</a>** vorstellen.

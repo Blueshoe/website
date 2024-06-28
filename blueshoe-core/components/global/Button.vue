@@ -23,7 +23,7 @@ interface Props {
   url?: string;
   color?: 'blue' | 'green' | 'black';
   target?: '_blank' | '_self';
-  size?: 'small' | 'normal';
+  size?: 'small' | 'normal' | 'wide';
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -67,6 +67,9 @@ switch (props.size) {
     break;
   case 'normal':
     sizeClass.value = 'text-lg border-4 py-2 px-8';
+    break;
+  case 'wide':
+    sizeClass.value = 'text-lg border-4 py-2 px-8 w-full';
     break;
 }
 </script>

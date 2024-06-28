@@ -47,7 +47,7 @@ Wir Blueshoes merken in Gesprächen mit Techies und vor allem mit unseren Kunden
 ![Bildschirmfoto](/img/blogs/Bildschirmfoto_4.jpg){.object-cover .max-w-full .mb-5}
 
 :::globalParagraph
-Beim Thema [Kubernetes (K8s)](/leistungen/docker-kubernetes/){.bs-link-blue} stellen wir fest, dass bei einer der grundsätzlichen Entscheidungen und zwar, ob man managed oder unmanaged Kubernetes verwenden möchte, oftmals am wenigsten Wissen vorhanden ist. Das wollen wir ändern!
+Beim Thema [Kubernetes (K8s)](/loesungen/docker-kubernetes/){.bs-link-blue} stellen wir fest, dass bei einer der grundsätzlichen Entscheidungen und zwar, ob man managed oder unmanaged Kubernetes verwenden möchte, oftmals am wenigsten Wissen vorhanden ist. Das wollen wir ändern!
 :::
 
 :::globalTitle{:size="lg" .mb-5}
@@ -117,5 +117,5 @@ Ganz oben auf der “managed”-Skala steht z. B. das managed Kubernetes Angebot
 **Bestehen explizite Anforderungen von on-premise Hosting,** oder aber triftige Gründe, Kubernetes z. B. in einem eigenen Rechenzentrum zu betreiben, dann **führt kein Weg an unmanaged Kubernetes vorbei.**
 :::
 :::globalParagraph
-**Gut zu wissen:** Im Zusammenhang mit unserer neuen [Kubernetes-Service-Plattform Unikube](/leistungen/unikube/){.bs-link-blue} muss man sich die Frage managed vs. unmanaged Kubernetes gar nicht stellen. Für Unikube spielt es keine Rolle wie der K8s-Cluster installiert wurde, ob vollständig oder nur teilweise managed, unmanaged oder sogar nur lokal simuliert.
+**Gut zu wissen:** Im Zusammenhang mit unserer neuen [Kubernetes-Service-Plattform Unikube](/loesungen/unikube/){.bs-link-blue} muss man sich die Frage managed vs. unmanaged Kubernetes gar nicht stellen. Für Unikube spielt es keine Rolle wie der K8s-Cluster installiert wurde, ob vollständig oder nur teilweise managed, unmanaged oder sogar nur lokal simuliert.
 :::

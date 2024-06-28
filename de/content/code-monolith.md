@@ -72,13 +72,14 @@ Mehrwerte der Transformation vom Monolithen zur Service-Architektur
 
 <!--- Störer -->
 ::GlobalPartial{content=catcher-1}
+::
 
 :::GlobalSliderSection{:numberCards=2 :bg="bg-bs-gray" data-title="Beispiele für Projekte mit Service-Architektur"}
 ::::GlobalTitle{.mb-6}
 Beispiele für Projekte mit Service-Architektur
 ::::
 ::::GlobalParagraph
-Wie Webseiten aussehen können, die mit dem Headless-Ansatz entwickelt wurden? Na so zum Beispiel.
+Wie Webseiten aussehen können, die mit dem [Headless](/loesungen/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-Ansatz entwickelt wurden? Na so zum Beispiel.
 ::::
 
 #card1
@@ -98,7 +99,7 @@ Technische Universität Hamburg
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/allianz_logo.jpg", "alt": "allianz"}' :desktopImage='{"src": "/img/global/slide/allianz_foto.jpg", "alt": "allianz"}' :mobileImage='{"src": "/img/global/slide/allianz_foto_mobile.jpg", "alt": "allianz"}' :tags='["Django", "Python", "Wagtail", "Open Shift"]'}
 :::GlobalParagraph{:fontSize="lg"}
-Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit Headless CMS gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
+Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit [Headless CMS](/loesungen/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
 :::
 #title
 :::GlobalTitle

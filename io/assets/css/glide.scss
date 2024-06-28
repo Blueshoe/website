@@ -1,0 +1,21 @@
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+.glide__arrow {
+    background-color: white;
+    border-radius: 999px;
+}
+
+.glide__arrow--left {
+    left: -18px;
+    background: white url('https://api.iconify.design/bi/arrow-left.svg?color=%232470a9&width=26&height=26') no-repeat center center;
+    height: 40px;
+    width: 40px;
+}
+
+.glide__arrow--right {
+    right: -18px;
+    background: white url('https://api.iconify.design/bi/arrow-right.svg?color=%232470a9&width=26&height=26') no-repeat center center;
+    height: 40px;
+    width: 40px;
+}

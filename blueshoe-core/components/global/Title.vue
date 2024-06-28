@@ -1,5 +1,11 @@
 <template>
-  <component :is="tag" class="font-extralight" :class="[color, font, text]">
+  <component
+    :is="tag"
+    :id="id"
+    class="font-extralight font-oswald hyphens-auto"
+    :class="[color, font, text]"
+    lang="de"
+  >
     <ContentSlot unwrap="p" />
   </component>
 </template>
@@ -14,6 +20,7 @@ interface Props {
   font?: Font;
   size?: Size;
   tag?: string;
+  id?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {

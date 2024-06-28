@@ -41,7 +41,7 @@ productUpdates: []
 sonstiges:
   - Entwicklung
 ---
-Kannst du dir eine Welt ohne [APIs](/leistungen/api-entwicklung/) vorstellen? Eine Welt ohne die Leichtigkeit und Zuverlässigkeit eines OpenAPI-Schemas? Ja, ich auch nicht - und doch mussten Entwickler noch vor wenigen Jahren geniale Wege finden, um Systeme miteinander kommunizieren zu lassen.
+Kannst du dir eine Welt ohne [APIs](/loesungen/api-entwicklung/) vorstellen? Eine Welt ohne die Leichtigkeit und Zuverlässigkeit eines OpenAPI-Schemas? Ja, ich auch nicht - und doch mussten Entwickler noch vor wenigen Jahren geniale Wege finden, um Systeme miteinander kommunizieren zu lassen.
 <!--more-->
 
 ![Grundlagen der API-Strategie: Wie du die richtige Technologie für deine Anwendung auswählst](/img/blogs/api-technologies-rest-graphql.svg){.object-cover .max-w-full .mb-5}
@@ -72,7 +72,7 @@ In diesem Beitrag möchte ich einen kleinen Überblick über REST und GraphQL ge
 Also, wollen wir anfangen?
 :::
 
-:::GlobalButton{:url="/leistungen/api-entwicklung/" :label="Erfahre mehr über unsere API-Entwicklungsdienste" :color="blue" .mb-6} 
+:::GlobalButton{:url="/loesungen/api-entwicklung/" :label="Erfahre mehr über unsere API-Entwicklungsdienste" :color="blue" .mb-6} 
 :::
 
 <!---  Die Grundlagen und Stärken von REST-APIs verstehen -->
@@ -84,13 +84,13 @@ Die Grundlagen und Stärken von REST-APIs verstehen
 Eigenschaften von REST-APIs
 :::
 :::globalParagraph
-REST [APIs](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} weisen zwei grundlegende Eigenschaften auf, die ihrem Design zugrunde liegen: Zustandslosigkeit und die Verwendung von HTTP-Methoden. Erstens implementieren REST-APIs das zustandslose Paradigma, was bedeutet, dass jede Anfrage eines Clients an den Server alle erforderlichen Informationen enthalten muss, um sie zu verstehen und zu erfüllen, ohne auf vorherige Interaktionen angewiesen zu sein. Dies vereinfacht die Serverimplementierung und Skalierbarkeit, da keine Sitzungsdaten auf dem Server gespeichert werden müssen. Zweitens nutzen REST-APIs die vielseitigen Methoden des HTTP-Protokolls, wie z.B. GET, POST, PUT, DELETE, um verschiedene Aktionen auf Ressourcen auszuführen. Diese Methoden ermöglichen es Entwicklern, APIs zu erstellen, die eng mit den Prinzipien von CRUD (Create, Read, Update, Delete) übereinstimmen und die Klarheit, Vorhersagbarkeit und Zugänglichkeit ihrer API-Endpunkte verbessern.
+REST [APIs](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} weisen zwei grundlegende Eigenschaften auf, die ihrem Design zugrunde liegen: Zustandslosigkeit und die Verwendung von HTTP-Methoden. Erstens implementieren REST-APIs das zustandslose Paradigma, was bedeutet, dass jede Anfrage eines Clients an den Server alle erforderlichen Informationen enthalten muss, um sie zu verstehen und zu erfüllen, ohne auf vorherige Interaktionen angewiesen zu sein. Dies vereinfacht die Serverimplementierung und Skalierbarkeit, da keine Sitzungsdaten auf dem Server gespeichert werden müssen. Zweitens nutzen REST-APIs die vielseitigen Methoden des HTTP-Protokolls, wie z.B. GET, POST, PUT, DELETE, um verschiedene Aktionen auf Ressourcen auszuführen. Diese Methoden ermöglichen es Entwicklern, APIs zu erstellen, die eng mit den Prinzipien von CRUD (Create, Read, Update, Delete) übereinstimmen und die Klarheit, Vorhersagbarkeit und Zugänglichkeit ihrer API-Endpunkte verbessern.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 Anwendungsfälle von REST
 :::
 :::globalParagraph
-Wenn du eine [API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} mit einem klar definierten Client-Server-Vertrag planst (das bedeutet unter anderem weniger Flexibilität bei den Serverantworten), ist REST eine sehr gute Option für dich. REST ist nicht nur effizient und einfach zu implementieren, sondern wird auch von allen Programmiersprachen weitgehend unterstützt, die mit HTTP-Methoden arbeiten können.
+Wenn du eine [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} mit einem klar definierten Client-Server-Vertrag planst (das bedeutet unter anderem weniger Flexibilität bei den Serverantworten), ist REST eine sehr gute Option für dich. REST ist nicht nur effizient und einfach zu implementieren, sondern wird auch von allen Programmiersprachen weitgehend unterstützt, die mit HTTP-Methoden arbeiten können.
 :::
 :::globalParagraph
 Obwohl REST vordefinierte Anfragen erwartet und nur festgelegte Antworten liefert, bietet es dennoch eine hohe Flexibilität für die Erstellung einer API. Mit REST kannst du alles aufbauen!
@@ -143,7 +143,7 @@ Obwohl GraphQL seit 2015 existiert, ist es im Vergleich zu REST oder sogar älte
 Eigenschaften von GraphQL
 :::
 :::globalParagraph{.mb-5}
-GraphQL [APIs](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} besitzen charakteristische Merkmale, die sie von traditionellen REST-APIs unterscheiden und einen flexibleren und effizienteren Ansatz für die Datenabfrage bieten. Eine bemerkenswerte Funktion von GraphQL ist seine Fähigkeit, Abfragen zu optimieren und den Datentransfer zu minimieren. Im Gegensatz zu REST-APIs, bei denen Endpunkte festgelegt sind und vordefinierte Datenstrukturen zurückgeben, ermöglicht GraphQL den Clients, genau anzugeben, welche Daten sie mit einer einzigen Abfrage benötigen. Diese Fähigkeit beseitigt Probleme mit Über- und Unterabfrage, die bei REST-APIs häufig auftreten, bei denen Clients möglicherweise mehr oder weniger Daten erhalten als erforderlich. Darüber hinaus ermöglicht das Typsystem von GraphQL Clients, verschachtelte oder verwandte Daten in einer einzigen Abfrage anzufordern, wodurch die Notwendigkeit für mehrere Anfragen an den Server reduziert wird. Durch Bereitstellung einer präzisen und deklarativen Syntax für die Datenabfrage ermöglicht GraphQL den Clients, nur die erforderlichen Daten abzurufen, was zu einer effizienteren Netzwerknutzung und einer verbesserten Leistung führt. Darüber hinaus unterstützt GraphQL Funktionen wie Query Batching und Caching, wodurch der Datentransfer optimiert und die Latenz für Client-Anwendungen reduziert wird. Insgesamt verbessern die Abfrageoptimierungsfunktionen von GraphQL die Effizienz und Reaktionsfähigkeit von API-Interaktionen und machen es zu einer hervorragenden Wahl für die moderne Anwendungsentwicklung. resulting in more efficient network usage and improved performance.
+GraphQL [APIs](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} besitzen charakteristische Merkmale, die sie von traditionellen REST-APIs unterscheiden und einen flexibleren und effizienteren Ansatz für die Datenabfrage bieten. Eine bemerkenswerte Funktion von GraphQL ist seine Fähigkeit, Abfragen zu optimieren und den Datentransfer zu minimieren. Im Gegensatz zu REST-APIs, bei denen Endpunkte festgelegt sind und vordefinierte Datenstrukturen zurückgeben, ermöglicht GraphQL den Clients, genau anzugeben, welche Daten sie mit einer einzigen Abfrage benötigen. Diese Fähigkeit beseitigt Probleme mit Über- und Unterabfrage, die bei REST-APIs häufig auftreten, bei denen Clients möglicherweise mehr oder weniger Daten erhalten als erforderlich. Darüber hinaus ermöglicht das Typsystem von GraphQL Clients, verschachtelte oder verwandte Daten in einer einzigen Abfrage anzufordern, wodurch die Notwendigkeit für mehrere Anfragen an den Server reduziert wird. Durch Bereitstellung einer präzisen und deklarativen Syntax für die Datenabfrage ermöglicht GraphQL den Clients, nur die erforderlichen Daten abzurufen, was zu einer effizienteren Netzwerknutzung und einer verbesserten Leistung führt. Darüber hinaus unterstützt GraphQL Funktionen wie Query Batching und Caching, wodurch der Datentransfer optimiert und die Latenz für Client-Anwendungen reduziert wird. Insgesamt verbessern die Abfrageoptimierungsfunktionen von GraphQL die Effizienz und Reaktionsfähigkeit von API-Interaktionen und machen es zu einer hervorragenden Wahl für die moderne Anwendungsentwicklung. resulting in more efficient network usage and improved performance.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 Anwendungsfälle von GraphQL
@@ -216,7 +216,7 @@ Auf der anderen Seite, wenn du etwas strenger in Bezug auf Serverantworten sein 
 Übersicht über alternative API-Technologien
 :::
 :::globalParagraph
-Zum Schluss möchte ich zwei alternative Ansätze zur [API-Entwicklung](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} erwähnen, die wir bei Blueshoe ebenfalls verwenden und anbieten.
+Zum Schluss möchte ich zwei alternative Ansätze zur [API-Entwicklung](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} erwähnen, die wir bei Blueshoe ebenfalls verwenden und anbieten.
 :::
 :::globalTitle{:color="text-bs-blue" :font="font-oswald" :size="md" :tag="h3" .mb-5}
 gRPC und seine Rolle in Microservices
@@ -225,10 +225,10 @@ gRPC und seine Rolle in Microservices
 gRPC (das g steht nicht für Google) ist ein Open-Source-RPC-Framework, das ursprünglich von Google entwickelt wurde. Es basiert auf HTTP/2, Protocol Buffers (protobuf) und anderen modernen Technologien und bietet eine robuste und effiziente Möglichkeit, Dienste in verschiedenen Umgebungen zu verbinden.
 :::
 :::globalParagraph
-gRPC bietet viele Vorteile in [Microservice-Architekturen](/leistungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}. Einige davon sind:
+gRPC bietet viele Vorteile in [Microservice-Architekturen](/loesungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}. Einige davon sind:
 :::
 ::GlobalBlock{:font-size="lg" :color="text-bs-text" .ul-disk .mb-5}
-  - **Effiziente Serialisierung mit Protocol Buffers**: gRPC verwendet Protocol Buffers als seine Interface Definition Language (IDL) zur Definition von Serviceverträgen und zur Serialisierung von Daten. Protocol Buffers bieten ein kompaktes Binärformat und effiziente Serialisierungs- und Deserialisierungsprozesse, was zu kleineren Nachrichtengrößen und schnellerer Datenübertragung führt. Diese Effizienz ist insbesondere in [Microservices](/leistungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-Umgebungen mit hohem Datendurchsatz von Vorteil.
+  - **Effiziente Serialisierung mit Protocol Buffers**: gRPC verwendet Protocol Buffers als seine Interface Definition Language (IDL) zur Definition von Serviceverträgen und zur Serialisierung von Daten. Protocol Buffers bieten ein kompaktes Binärformat und effiziente Serialisierungs- und Deserialisierungsprozesse, was zu kleineren Nachrichtengrößen und schnellerer Datenübertragung führt. Diese Effizienz ist insbesondere in [Microservices](/loesungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-Umgebungen mit hohem Datendurchsatz von Vorteil.
   - **Starke Typisierung und Codegenerierung**: Die gleiche Technologie von Protocol Buffers wird auch für die Typisierung und Codegenerierung verwendet. Dadurch kann die Entwicklung beschleunigt und menschliche Fehler minimiert werden.
   - **Bidirektionales Streaming und Flusssteuerung**: gRPC unterstützt verschiedene Kommunikationsmuster, einschließlich unärer, serverseitiger Streaming, clientseitiger Streaming und bidirektionaler Streaming. Diese Flexibilität ermöglicht es Diensten, Daten in Echtzeit effizient auszutauschen und unterstützt Anwendungsfälle wie Chat-Anwendungen, Echtzeitanalyse und ereignisgesteuerte Architekturen. Darüber hinaus verhindern die integrierten Flusssteuerungsmechanismen von gRPC Probleme wie Rückstau und gewährleisten eine optimale Ressourcennutzung und Systemstabilität.
 ::
@@ -252,7 +252,7 @@ Sicherheitsfunktionen von SOAP
 Zusammenfassung
 :::
 :::globalParagraph
-Wie du siehst, gibt es viele Möglichkeiten, eine [API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} zu implementieren, und die Wahl der richtigen Technologie kann manchmal schwierig sein. Ich hoffe, mit diesem kurzen Überblick einen Hinweis darauf geben zu können, wann man einen bestimmten Ansatz verwenden sollte, um deine API zu erstellen. Und wenn du jemals eine maßgeschneiderte Lösung brauchst, [melde dich bei uns](/kontakt){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}!
+Wie du siehst, gibt es viele Möglichkeiten, eine [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} zu implementieren, und die Wahl der richtigen Technologie kann manchmal schwierig sein. Ich hoffe, mit diesem kurzen Überblick einen Hinweis darauf geben zu können, wann man einen bestimmten Ansatz verwenden sollte, um deine API zu erstellen. Und wenn du jemals eine maßgeschneiderte Lösung brauchst, [melde dich bei uns](/kontakt){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}!
 :::
 
 
