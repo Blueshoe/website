@@ -1,6 +1,6 @@
-:::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=6}
-    ::::GlobalTitle{.text-center .mb-6 data-title="LÖSUNGEN"}
-    Unsere beliebtesten IT-Lösungen umfassen unter anderem:
+:::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=6 id="quickwins"}
+    ::::GlobalTitle{.text-center .mb-6 data-title="LÖSUNGEN" id="quickwins"}
+    Unsere Quickwins zum Festpreis:
     ::::
 
 #cards

@@ -260,7 +260,7 @@ Fondsfinanz - Automation Hub
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/winter-company.jpg", "alt": "winter&company"}' :desktopImage='{"src": "/img/global/slide/wintercompany.jpg", "alt": "winter&company"}' :mobileImage='{"src": "/img/global/slide/wintercompany_mobile.jpg", "alt": "winter&company"}' :tags='["Django", "Python", "Hubspot"]'}
 :::GlobalParagraph{:fontSize="lg"}
-Die komplette Webumgebung wurde modernisiert, vom ehemaligen Monolithen auf Microservices umgestellt und läuft nun auf Kubernetes. Im Ergebnis entstand eine pfeilschnelle Website, die durch eine API-first-Strategie schnell weiterentwickelt werden kann.
+Die komplette Webumgebung wurde modernisiert, vom ehemaligen Monolithen auf [Microservices](/loesungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} umgestellt und läuft nun auf Kubernetes. Im Ergebnis entstand eine [pfeilschnelle Website](/loesungen/schnelle-websites/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, die durch eine [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-First-Strategie schnell weiterentwickelt werden kann.
 :::
 #title
 :::GlobalTitle

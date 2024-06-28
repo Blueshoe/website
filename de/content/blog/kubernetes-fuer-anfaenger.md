@@ -219,7 +219,7 @@ Eine Node ist eine virtuelle Maschine oder ein physischer Computer. Eine Node is
 Die Node selbst besitzt kleinere Applikationen um diese Arbeit auch durchführen zu können:
 :::
 :::GlobalBlock{.ul-disk .mb-5}
-- **Kubelet**: Jede Node besitzt ein sogenanntes Kubelet, der die Node selbst managt und via API mit dem Control Plane kommuniziert
+- **Kubelet**: Jede Node besitzt ein sogenanntes Kubelet, der die Node selbst managt und via [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} mit dem Control Plane kommuniziert
 - **Tools um die Container innerhalb der Node zu betreiben:** Die Node stellt Platz zur Verfügung, um die containerisierte Software zu beherbergen. Allerdings kann es notwendig werden, dass Arbeiten an der containerisierten Software durchgeführt werden. Um die Software auf der Node bearbeiten zu können (z.B. zu starten) verfügt die Node über Tools, um die Software, die im Container auf der Node liegt, ansprechen zu können. In der Darstellung werden Docker-Container genutzt. Aus diesem Grund handelt es sich um ein spezielles Tool, um Docker-Container zu verwalten.
 :::
 :::globalParagraph
@@ -233,7 +233,7 @@ Control Plane
 Der Control Plane ist das Herzstück von Kubernetes, die ausführende Kubernetes-Instanz (sozusagen die Schaltzentrale), die alle Aktivitäten im Cluster koordiniert. Ein Control Plane ist ebenfalls eine Node, allerdings mit der speziellen Aufgabe, den Cluster zu koordinieren.
 :::
 :::globalParagraph
-Der Control Plane stellt eine API zur Verfügung, um mit den anderen Clusterbestandteilen zu kommunizieren.
+Der Control Plane stellt eine [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} zur Verfügung, um mit den anderen Clusterbestandteilen zu kommunizieren.
 :::
 
 :::globalTitle{:size="md" .mb-5}

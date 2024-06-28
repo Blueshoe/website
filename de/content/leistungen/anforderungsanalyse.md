@@ -11,19 +11,19 @@ head:
     - property: 'og:title'
       content: 'Anforderungsanalyse bei Blueshoe'
     - property: 'og:description'
-      content: 'Anforderungsanalyse bei Blueshoe'
+      content: 'Kennst du das? Hohe Kosten, schlechte Planung?  Bei Blueshoe setzen wir auf Anforderungsworkshops, um dein Projekt erfolgreich zu machen.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/discussion.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/discussion.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Anforderungsanalyse bei Blueshoe'
     - name: 'twitter:description'
-      content: 'Anforderungsanalyse bei Blueshoe'
+      content: 'Kennst du das? Hohe Kosten, schlechte Planung?  Bei Blueshoe setzen wir auf Anforderungsworkshops, um dein Projekt erfolgreich zu machen.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/discussion.svg'
 ---
 
 :::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/discussion.svg" :alt="blueshoe workshop" :imagePosition="right"}
@@ -37,9 +37,9 @@ head:
   Seit 2014 berichten uns Kunden, was in vorherigen Projekten mit anderen Dienstleistern schief gelaufen ist. Folgende Dinge haben wir immer wieder gehört:
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-  - Die Projektkosten waren am Ende immer viel höher als im ersten Angebot
-  - Anforderungen wurden nicht und oder nur unzureichend dokumentiert und abgestimmt
-  - Aufwände für Aufgaben wurden nicht gut eingeschätzt und liefen kontinuierlich aus dem Ruder
+  - Die Projektkosten waren am Ende immer viel höher als im ersten Angebot.
+  - Anforderungen wurden nicht und oder nur unzureichend dokumentiert und abgestimmt.
+  - Aufwände für Aufgaben wurden nicht gut eingeschätzt und liefen kontinuierlich aus dem Ruder.
   ::::
   ::::GlobalParagraph{:color="text-white"}
   Kennst du das? Deshalb setzen wir bei Blueshoe auf Anforderungsworkshops. Gemeinsam erstellen wir den Anforderungskatalog, bis du zufrieden bist. Dieser Katalog bildet die Basis für unsere Konzeption – nur so wird dein Projekt erfolgreich.
@@ -66,10 +66,10 @@ Je nach Komplexität bieten wir dir folgende Optionen an:
 Was erledigen wir für euch
 ::::
 ::::GlobalBlock{.mb-4 .ul-disk}
-- Wir bringen die richtigen Leute an einen Tisch
-- Wir moderieren einen Workshop um alle wesentlichen Anforderungen des Produktes zu erkunden
-- Wir streichen zusätzliche Funktionen und legen diese in einen Speicher für später
-- Wir erstellen und iterieren den Anforderungskatalog bis zur finalen Fassung
+- Wir bringen die richtigen Leute an einen Tisch.
+- Wir moderieren einen Workshop, um alle wesentlichen Anforderungen des Produktes zu erkunden.
+- Wir streichen zusätzliche Funktionen und legen diese in einen Speicher für später.
+- Wir erstellen und iterieren den Anforderungskatalog bis zur finalen Fassung.
 ::::
 #button
 ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Termin vereinbaren" :target="_blank"}
@@ -104,9 +104,9 @@ Warum sind unsere Anforderungen besser?
 Welches Ergebnis kannst du erwarten?
 ::::
 ::::GlobalBlock{.mb-4 .ul-disk :color="text-white"}
-- Wir erstellen einen Katalog mit allen wesentlichen Anforderungen für die Lösung
-- Der Katalog beinhaltet alle notwendigen Zusatzinformationen zur Realisierung des Produktes
-- Kontextinformationen helfen, das geplante Software-Projekt mit seinen Grenzen einzuordnen (Abhängigkeiten, Drittsysteme, Limitierungen, etc.)
+- Wir erstellen einen Katalog mit allen wesentlichen Anforderungen für die Lösung.
+- Der Katalog beinhaltet alle notwendigen Zusatzinformationen zur Realisierung des Produktes.
+- Kontextinformationen helfen, das geplante Software-Projekt mit seinen Grenzen einzuordnen (Abhängigkeiten, Drittsysteme, Limitierungen, etc.).
 - Alle Inhalte sind nicht an Blueshoe gebunden. Du kannst die Anforderungen auch mit anderen Dienstleistern verwenden.
 ::::
 :::
@@ -135,7 +135,7 @@ Technische Universität Hamburg
 #card2
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/allianz_logo.jpg", "alt": "allianz"}' :desktopImage='{"src": "/img/global/slide/allianz_foto.jpg", "alt": "allianz"}' :mobileImage='{"src": "/img/global/slide/allianz_foto_mobile.jpg", "alt": "allianz"}' :tags='["Django", "Python", "Wagtail", "Open Shift"]'}
 :::GlobalParagraph{:fontSize="lg"}
-Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit Headless CMS gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
+Die Allianz bietet ihren Netzwerkpartnern eine Vielzahl von Produkten und Dienstleistungen, um die Zukunft Ihrer Mitarbeiter zu sichern. Für Allianz Global Benefits haben wir eine B2B Plattform mit [Headless CMS](/loesungen/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} gebaut, die Komplexität skaliert und dabei gleichzeitig die besten lokalen und globalen Lösungen anbietet.
 :::
 #title
 :::GlobalTitle
@@ -153,10 +153,10 @@ Allianz Global Benefits
 Blueshoe ist der richtige Partner für dich wenn, ...
 ::::
 ::::GlobalBlock{.mb-4 .ul-disk}
-- du 10 Jahre Erfahrung in über 200 komplexen Open Source basierten Web Projekten schätzt
-- dir ein direkter Draht zu unseren Geschäftsführern wichtig ist
-- du Lösungen mit hoher Langlebigkeit suchst
-- du Wert auf schnelle Reaktions- und Umsetzungszeiten legst
+- du 10 Jahre Erfahrung in über 200 komplexen Open Source basierten Web Projekten schätzt.
+- dir ein direkter Draht zu unseren Geschäftsführern wichtig ist.
+- du Lösungen mit hoher Langlebigkeit suchst.
+- du Wert auf schnelle Reaktions- und Umsetzungszeiten legst.
 ::::
 :::
 
@@ -185,7 +185,7 @@ Aber natürlich wären wir gern dein Realisierungspartner.
 Wir realisieren IT-Projekte ohne Fallstricke
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-Hier die Stelle, an der Blueshoe richtig los legt: Wir realisieren dein Software-Projekte. Schau dir unsere Vorteile an.
+Hier die Stelle, an der Blueshoe richtig los legt: Wir realisieren dein Software-Projekte. Schau dir deine Vorteile an.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
@@ -198,7 +198,7 @@ Software & Infrastruktur Realisierung
 Langfristigen Software-Betrieb bei Blueshoe
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-Wenn Du bereits eine Software hast und diese von Blueshoe betreuen lassen möchtest, hier entlang.
+Wenn du bereits eine Software hast und diese von Blueshoe betreuen lassen möchtest, hier entlang.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}

@@ -137,11 +137,11 @@ const emitHandleCloseMenu = (nav: Menu) => {
 <i18n lang="json">
 {
   "en": {
-    "requirementsEngineering": "Requirements Workshop",
-    "requirementsDocs": "Actionable Scope",
-    "projectGreenlight": "Project greenlight, or stop",
-    "softwareDevelopment": "Implementation",
-    "softwareMaintenance": "Durable Maintenance",
+    "requirementsEngineering": "Anforderungsworkshop",
+    "requirementsDocs": "Anforderunsdokumentation",
+    "projectGreenlight": "Freigabeentscheidung",
+    "softwareDevelopment": "Software- & Infrastrukturrealisierung",
+    "softwareMaintenance": "Wartung & Support",
     "automaticFrontendTesting": "Automatisches Frontend Testing",
     "rightsAccessManagement": "Rights & Access Management",
     "websiteBooster": "Schnelle Websites",

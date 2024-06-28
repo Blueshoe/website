@@ -1,52 +1,125 @@
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing{ :cardCount="4" }
 
+<!--- Do it yourself --->
 #card1
 :::GlobalPricingCard
 
 #title
-API Discovery
+API Starter
 
 #subtitle
-Barrierefreiheitsreport und Umsetzungsempfehlungen
+Du entwickelst deine APIs selbst. Den Kickstart gibt es von Blueshoe.
 
 #priceDescription
-- LOL
+- Do it yourself
+- 30 Minuten Gespräch
+- Hinweise, Tipps & Tricks
+- Empfehlungen für Herangehensweisen
+
 
 #price
-xxx €
+Kostenlos
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
+<!--- Do with you --->
 #card2
-:::GlobalPricingCard
+:::GlobalPricingCard{:accented="true"}
 
 #title
-Standard API Integration
-
-#subtitle
-Barrierefreiheitsreport inklusive Umsetzungsbegleitung für ihr Team
+API Gold
 
 #recommendedLabel
 Empfohlen
 
+#subtitle
+Blueshoe unterstützt dein Team bei der Integration der Systeme.
+
 #priceDescription
-- 12 h Umsetzungsarbeit enthalten
+- Alles aus "API Starter"
+- Blueshoe **unterstützt** dein IT-Team
+- Analyse der **notwenigen Schnittstellen**
+- Beratung über verschiedene API-Technologien
+- Begleitung bei der Vorbereitung und Entwicklung der Integrationslösung auf Basis **unserer Erfahrungen**
+
 
 #price
-xxx €
+2.400 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
+
+<!--- Do for you --->
 #card3
 :::GlobalPricingCard
 
 #title
-Supercharged APIs
+API Platinum
 
 #subtitle
-API API API Automatisierung
+Blueshoe analysiert die gewünschte Integrationd, entwickelt die notwendigen Schnittstellen und stellt diese bereit.
 
 
 #priceDescription
-- All Inclusive für Deine barrierefreie Website
+- Alles aus "API Gold"
+- Blueshoe **ist dein IT-Team**
+- Entwicklung und Bereistellung der Schnittstellen
+- Erstellung der Dokumentation über Datenfelder und Funktionen
+- **Individuelle** Beratung 
+- Ende-zu-Ende Testing
+
+#price
+9.900 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
+:::
+
+#card4
+:::GlobalPricingCard
+
+#title
+Enterprise
+
+#subtitle
+Für deine riesige Software-Plattformen stellt Blueshoe das optimale API sicher. Kein 
+Cent zu viel.
+
+
+#priceDescription
+- Alles aus "API Premium"
+- All-inclusive für Dein System-Integration
+- **Dedizierter Projektmanager**
+- Automatisches Schnittstellen-Testing auf Wunsch
+- **Belastungstest**
 
 #price
 ::::GlobalButton
@@ -54,7 +127,7 @@ API API API Automatisierung
 label: "Auf Anfrage" 
 url: "https://blueshoe.io/hannes/" 
 size: "wide" 
-color: "green"
+color: "blue"
 target: "_blank"
 ---
 ::::

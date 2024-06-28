@@ -104,7 +104,7 @@
   height: 100%;
   z-index: 1;
 }
-.marquee-container .intro {
+.marquee-container  {
   position: relative;
-  z-index: -1;
+  // background-color: rgba(255, 255, 255, 1);
 }

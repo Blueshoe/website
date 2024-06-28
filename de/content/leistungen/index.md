@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Blueshoe entwickelt Software nach dem RAPID-System. Damit sind wir bis zu 35% schneller in der Entwicklung.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Blueshoe entwickelt Software nach dem RAPID-System. Damit sind wir bis zu 35% schneller in der Entwicklung.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
 ---
 
 ::GlobalWrapperSections
@@ -97,9 +97,9 @@ head:
   **Was wird erledigt?**
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk}
-  - Wir bringen die richtigen Leute an einen Tisch
-  - Wir moderieren einen Workshop um alle wesentlichen Anforderungen des Produktes zu erkunden
-  - Wir streichen zusätzliche Funktionen und legen diese in einen Speicher für später
+  - Wir bringen die richtigen Leute an einen Tisch.
+  - Wir moderieren einen Workshop um alle wesentlichen Anforderungen des Produktes zu erkunden.
+  - Wir streichen zusätzliche Funktionen und legen diese in einen Speicher für später.
   ::::
   ::::GlobalParagraph{.mb-4}
   **Warum ist Blueshoe schneller als andere?**
@@ -130,21 +130,21 @@ head:
   **Was wird erledigt?**
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk}
-  - Wir erstellen einen Katalog mit allen wesentlichen Anforderungen für die Lösung
-  - Der Katalog beinhaltet alle notwendigen Zusatzinformationen zur Realisierung des Produktes
-  - Kontextinformationen helfen das geplante Software-Projekt mit seinen Grenzen einzuordnen (Abhängigkeiten, Drittsysteme, Limitierungen, etc.)
-  - Alle Inhalte sind nicht an Blueshoe gebunden
+  - Wir erstellen einen Katalog mit allen wesentlichen Anforderungen für die Lösung.
+  - Der Katalog beinhaltet alle notwendigen Zusatzinformationen zur Realisierung des Produktes.
+  - Kontextinformationen helfen das geplante Software-Projekt mit seinen Grenzen einzuordnen (Abhängigkeiten, Drittsysteme, Limitierungen, etc.).
+  - Alle Inhalte sind nicht an Blueshoe gebunden.
   ::::
   ::::GlobalParagraph{.mb-4}
   **Warum ist Blueshoe schneller als andere?**
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk}
-  - Erfahrung erlaubt uns den Blick für das Wesentliche
-  - Wir nutzen eine Reihe von KI-Tools zu unserem Vorteil
-  - Wir verwenden einen standardisierten, lizenzskostenfreien open source tech stack
-  - Wir haben jedes Problem schon mehr als einmal gelöst
-  - Wir haben 100% Fokus auf das was wir am besten können
-  - Standardisierter Katalog für Anforderungsprozess (profitieren Sie von unserer jahrelangen Erfahrung)
+  - Erfahrung erlaubt uns den Blick für das Wesentliche.
+  - Wir nutzen eine Reihe von KI-Tools zu unserem Vorteil.
+  - Wir verwenden einen standardisierten, lizenzskostenfreien Open Source Tech Stack.
+  - Wir haben jedes Problem schon mehr als einmal gelöst.
+  - Wir haben 100% Fokus auf das, was wir am besten können.
+  - Standardisierter Katalog für Anforderungsprozess (profitieren Sie von unserer jahrelangen Erfahrung).
   ::::
 :::
 
@@ -156,10 +156,10 @@ head:
   **Was wird erledigt?**
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk}
-  - Blueshoe erstellt ein Angebot zur Realisierung des Produktes nach den Bedürfnissen des Kunden
-  - Vereinbarung einer Timeline bis Fertigstellung des Produktes und darüber hinaus
-  - Blueshoe gibt Ausblick auf Betreuung nach Inbetriebnahme des Produktes (Wartung, Support, Weiterentwicklung)
-  - Kunde gibt Freigabe zum Projektstart, oder stoppt 
+  - Blueshoe erstellt ein Angebot zur Realisierung des Produktes nach den Bedürfnissen des Kunden.
+  - Vereinbarung einer Timeline bis Fertigstellung des Produktes und darüber hinaus.
+  - Blueshoe gibt Ausblick auf Betreuung nach Inbetriebnahme des Produktes (Wartung, Support, Weiterentwicklung).
+  - Kunde gibt Freigabe zum Projektstart, oder stoppt.
 
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -179,20 +179,20 @@ head:
   **Was wird erledigt?**
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk}
-  - Blueshoe realisiert alle Projektbereiche in einem agilen Prozess
-  - Ein dedizierter Projektmanager organisiert den Prozess und steht dem Kunden ständig zur Verfügung
-  - Regelmäßige Abstimmungstermine und ein tief integriertes Ticketsystem erlauben dem Kunden ständigen Zugriff auf das Team
-  - Echtzeit-Reporting und regelmäßige Updates geben 100% Transparenz
+  - Blueshoe realisiert alle Projektbereiche in einem agilen Prozess.
+  - Ein dedizierter Projektmanager organisiert den Prozess und steht dem Kunden ständig zur Verfügung.
+  - Regelmäßige Abstimmungstermine und ein tief integriertes Ticketsystem erlauben dem Kunden ständigen Zugriff auf das Team.
+  - Echtzeit-Reporting und regelmäßige Updates geben 100% Transparenz.
   ::::
   ::::GlobalParagraph{.mb-4}
   **Warum ist Blueshoe schneller als andere?**
   ::::
   ::::GlobalBlock{.mb-4 .ul-disk}
   - Moderner Software-Stack ermöglicht zukunftssichere Realisierung von Softwareprodukten bis zu 10x schneller
-  - Eigene innovative Tools verbessern die Entwicklungsgeschwindigkeit komplexer Systeme um bis zu 35%
-  - Wir verwenden einen standardisierten open source tech stack
-  - Wir haben jedes Problem schon einmal gelöst
-  - Wir haben 100% Fokus auf das was wir am besten können
+  - Eigene innovative [Tools](/tools/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} verbessern die Entwicklungsgeschwindigkeit komplexer Systeme um bis zu 35%
+  - Wir verwenden einen standardisierten Open Source Tech Stack.
+  - Wir haben jedes Problem schon einmal gelöst.
+  - Wir haben 100% Fokus auf das was wir am besten können.
   ::::
 
   ::GlobalSmallCardWithImage{:src="/img/global/icons/right.svg" :href="/leistungen/software-realisierung/" :bg="bg-bs-green"}

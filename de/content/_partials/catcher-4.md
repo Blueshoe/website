@@ -46,7 +46,7 @@ Korrigierende Wartung </br> Perfektive Wartung </br> Adaptive Wartung
 :::
 
 #buttonBlockTitle
-Vereinbare jetzt ein Treffen mit unserem Experten
+Hier geht's zum kostenlosen Videocall-Erstgespräch
 #buttonLabel
 Termin finden
 ::

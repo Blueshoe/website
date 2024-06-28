@@ -467,7 +467,8 @@ Technologien zum Geheimnismanagement
 Geheimhaltung und Verschlüsselung von Daten
 :::
 :::globalParagraph
-Bereits kleine Projekte benötigen für den Betrieb einige Daten, die geheim bleiben müssen und nur denjenigen Personen/Apps verfügbar sind, die sie auch wirklich brauchen. Dazu gehören unter anderem Passwörter für die Autorisierung bei anderen Services (Datenbank, API, etc.) oder Keys für die Verschlüsselung von gespeicherten Daten. Da diese nicht in falsche Hände gelangen sollten, dürfen sie nicht unverschlüsselt (plain-text) in die versionierten Kubernetes-Ressourcen (Kustomize-Manifeste, Helm-Charts, …) geschrieben werden. Es gibt verschiedene Tools, die das Management von solchen Geheimnissen ermöglichen und dabei unterschiedliche Ansätze verfolgen.
+Bereits kleine Projekte benötigen für den Betrieb einige Daten, die geheim bleiben müssen und nur denjenigen Personen/Apps verfügbar sind, die sie auch wirklich brauchen. Dazu gehören unter anderem Passwörter für die Autorisierung bei anderen Services (Datenbank, [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+, etc.) oder Keys für die Verschlüsselung von gespeicherten Daten. Da diese nicht in falsche Hände gelangen sollten, dürfen sie nicht unverschlüsselt (plain-text) in die versionierten Kubernetes-Ressourcen (Kustomize-Manifeste, Helm-Charts, …) geschrieben werden. Es gibt verschiedene Tools, die das Management von solchen Geheimnissen ermöglichen und dabei unterschiedliche Ansätze verfolgen.
 :::
 
 :::globalTitle{:size="sm" :tag="h4" .mb-5}

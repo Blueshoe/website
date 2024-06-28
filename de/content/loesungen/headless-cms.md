@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Wir entwicklen für dich Websites mit Headless-CMS. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/headless_cms.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/headless_cms.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Wir entwicklen für dich Websites mit Headless-CMS. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar ✅ Schnell erweiterbar. Jetzt mehr erfahren!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/headless_cms.svg'
 ---
 
 ::GlobalWrapperSections
@@ -65,7 +65,8 @@ Kurz zusammengefasst:
 - Erleichterte Einbindung von Dritt-Lösungen
 - Leichte Skalierbarkeit (z. B. größere Server)
 - Kein Page-Reload mehr
-- Sprach-agnostisch (API kann mit jeder Programmiersprache genutzt werden)
+- Sprach-agnostisch ([API](/loesungen/api-entwicklung/){.text-white .underline .hover:text-bs-green}
+) kann mit jeder Programmiersprache genutzt werden)
 - Frontend-freundlich
 - Beliebigkeit (Kanäle, Plattformen etc.)
 - Keine Content-Migrationen mehr
@@ -76,24 +77,26 @@ Kurz zusammengefasst:
 ::
 :::
 
-:::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=2 data-title="Beispiele: Saleor und Wagtail"}
+:::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=2 data-title="Beispiele: Oscar E-Commerce und Wagtail"}
 ::::GlobalTitle{.mb-6}
 Beispiele für Headless-Technologien
 ::::
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/saleor.svg" :href="/leistungen/headless-e-commerce/" :bg="bg-bs-blue"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/2_oscar.svg" :href="/loesungen/oscar-e-commerce/" :bg="bg-bs-blue"}
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-Headless e-commerce framework.
+Headless E-Commerce-Framework.
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-So sollte E-Commerce im Jahr 2021 aussehen. Nicht anders. Wir zeigen dir gerne, was man mit Saleor alles machen kann.
+So sollte E-Commerce im Jahr 2024 aussehen. Auf keine andere Weise. Wir zeigen dir gerne, was du mit Oscar Commerce alles machen kannst.
+
+
 :::
 #title
-:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}
-Saleor E-Commerce
+:::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .mb-6}
+Oscar E-Commerce
 :::
 ::
-::GlobalSmallCardWithImage{:src="/img/global/icons/2_wagtail_cms.svg" :href="/leistungen/wagtail-cms/" :bg="bg-bs-blue"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/2_wagtail_cms.svg" :href="/loesungen/wagtail-cms/" :bg="bg-bs-blue"}
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 State of the Art mit Headless-Ansatz.
 :::
@@ -112,14 +115,15 @@ Wagtail CMS
 Headless CMS auf einen Blick
 ::::
 :::GlobalParagraph{:color="text-white" .mb-6}
-Alle Inhalte über eine Schnittstelle (API ) erstellen und verwalten bedeutet unter anderem, dass alle Inhalte an einem Ort zusammenlaufen, auf den alle Autoren unabhängig voneinander zugreifen können. Ob zwei oder zehn Ausspielorte – die finale Anzahl musst du nicht heute entscheiden, denn die Anzahl der Ausspielorte ist zu jeder Zeit erweiterbar. Das ist besonders praktisch, wenn du flexibel auf Trends und Veränderungen reagieren möchtest.
+Alle Inhalte über eine Schnittstelle ([API](/loesungen/api-entwicklung/){.text-white .underline .hover:text-bs-green}) zu erstellen und zu verwalten bedeutet unter anderem, dass alle Inhalte an einem Ort zusammenlaufen, auf den alle Autoren unabhängig voneinander zugreifen können. Ob zwei oder zehn Ausspielorte – die finale Anzahl musst du nicht heute entscheiden, denn die Anzahl der Ausspielorte ist zu jeder Zeit erweiterbar. Das ist besonders praktisch, wenn du flexibel auf Trends und Veränderungen reagieren möchtest.
 :::
 #card1
 ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4 }
 Ein Zentraler Speicher für alles
 ::
 ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-Klare Aufteilung in separate Microservices. Flexibilität durch mehrere Ausspielorte (Applikationen, Webseiten etc.).
+Klare Aufteilung in separate [Microservices](/loesungen/microservice-architektur-beratung/){.text-white .underline .hover:text-bs-green}
+. Flexibilität durch mehrere Ausspielorte (Applikationen, Webseiten etc.).
 ::
 #card2
 ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}
@@ -179,7 +183,7 @@ Allianz Global Benefits
 Warum ist Blueshoe dein Experte für Headless CMS?
 ::::
 ::::GlobalParagraph
-Wir sind Fans von flexiblen Lösungen – starre CMS-Strukturen machen deshalb unserer Meinung nach nur begrenzt Sinn. Da Inhalte heute über unterschiedliche Plattformen und Geräte konsumiert werden, ist ein Headless CMS wie [Wagtail](/leistungen/wagtail-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} für uns die modernste Antwort. Ob Smartphone, KI-fähige Sprachassistent oder VR-Headset – mit einem Headless CMS von Blueshoe können Content-Manager aufatmen.
+Wir sind Fans von flexiblen Lösungen – starre CMS-Strukturen machen deshalb unserer Meinung nach nur begrenzt Sinn. Da Inhalte heute über unterschiedliche Plattformen und Geräte konsumiert werden, ist ein Headless CMS wie [Wagtail](/loesungen/wagtail-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} für uns die modernste Antwort. Ob Smartphone, KI-fähige Sprachassistent oder VR-Headset – mit einem Headless CMS von Blueshoe können Content-Manager aufatmen.
 ::::
 #button
 ::GlobalButton{:url="/kontakt/" :label="Kontaktiere uns!" :color="green"}

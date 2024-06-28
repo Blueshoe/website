@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Blitzschnelle Online-Shops durch den Headless Ansatz. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar | Jetzt mehr über modernes E-Commerce erfahren!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/headless_commerce.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/headless_commerce.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Blitzschnelle Online-Shops durch den Headless Ansatz. ✅ Pfeilschnell ✅ Robust ✅ Skalierbar | Jetzt mehr über modernes E-Commerce erfahren!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/services/headless_commerce.svg'
 ---
 
 ::GlobalWrapperSections
@@ -46,10 +46,10 @@ Die Zukunft des Onlineshops
 Was bedeutet Headless E-Commerce?
 ::::
 ::::GlobalParagraph{.mb-4}
-Der Begriff “Headless” kommt aus der IT-Architektur und steht dafür, dass **Frontend und Backend** nicht mehr konsequent zusammengehören, sondern **voneinander getrennt funktionieren**. Früher waren die Darstellung und die dazugehörigen Daten eines Onlineshops eng verbunden. Im Zuge der [Cloud-Native-Entwicklung](/leistungen/cloud-native-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} operieren die beiden Bereiche immer losgelöster voneinander.
+Der Begriff “Headless” kommt aus der IT-Architektur und steht dafür, dass **Frontend und Backend** nicht mehr konsequent zusammengehören, sondern **voneinander getrennt funktionieren**. Früher waren die Darstellung und die dazugehörigen Daten eines Onlineshops eng verbunden. Im Zuge der [Cloud-Native-Entwicklung](/loesungen/cloud-native-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} operieren die beiden Bereiche immer losgelöster voneinander.
 ::::
 ::::GlobalParagraph
-Genau diesen Ansatz verfolgt auch die Headless Commerce-Technologie: Frontend und Backend funktionieren unabhängig voneinander, kommunizieren über Schnittstellen (API) miteinander und können mit verschiedenen Headless-Komponenten kombiniert werden. Was auch bedeutet, dass **einzelne Komponenten** problemlos ausgetauscht oder **individualisiert werden können**.
+Genau diesen Ansatz verfolgt auch die [Headless](/loesungen/headless-cms/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} Commerce-Technologie: Frontend und Backend funktionieren unabhängig voneinander, kommunizieren über Schnittstellen ([APIs](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}) miteinander und können mit verschiedenen Headless-Komponenten kombiniert werden. Was auch bedeutet, dass **einzelne Komponenten** problemlos ausgetauscht oder **individualisiert werden können**.
 ::::
 :::
 
@@ -61,7 +61,7 @@ WAS SPRICHT FÜR HEADLESS E-COMMERCE?
 Schneller, höher, weiter!
 ::::
 ::::GlobalParagraph{.mb-4}
-Die Anforderungen an einen modernen Onlineshop sind hoch! **Schnelle Performance, intuitive Bedienung** und das **Management von riesigen Datenmengen** sind nur ein paar der Herausforderungen, denen sich ein modernes E-Commerce-System stellen muss.
+Die Anforderungen an einen modernen Onlineshop sind hoch! **[Schnelle Performance](/loesungen/schnelle-websites/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}, intuitive Bedienung** und das **Management von riesigen Datenmengen** sind nur ein paar der Herausforderungen, denen sich ein modernes E-Commerce-System stellen muss.
 ::::
 ::::GlobalParagraph
 Die Komplexität im Bereich Onlinehandel ist in den letzten Jahren stetig gewachsen. Der Wunsch nach Individualisierung ist ebenfalls gestiegen. Zudem muss man als Shop-Betreiber immer <b >schneller auf </b> **[Marktveränderungen](/blog/digitale-transformation-und-industrie-4-0/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}**, **Trends und Kundenwünsche eingehen können**.
@@ -76,7 +76,7 @@ Die Komplexität im Bereich Onlinehandel ist in den letzten Jahren stetig gewach
 Die Vorteile von Headless E-Commerce
 ::::
 ::::GlobalParagraph{:color="text-white" .mb-6}
-Wer einen Onlineshop nach eigenen Wünschen umsetzen möchte und mehrere Kanäle bespielen will, ist mit einem Headless E-Commerce-System gut beraten. Außerdem verbessert sich durch die Headless-Technologie die Performance des Shops sowie die [User Experience](/blog/wie-wichtig-ist-user-experience-ux-2019/){.text-white .underline .hover:text-bs-green} (UX).
+Wer einen Onlineshop nach eigenen Wünschen umsetzen möchte und mehrere Kanäle bespielen will, ist mit einem Headless E-Commerce-System gut beraten. Außerdem verbessert sich durch die Headless-Technologie die [Performance](/loesungen/schnelle-websites/){.text-white .underline .hover:text-bs-green} des Shops sowie die [User Experience](/blog/wie-wichtig-ist-user-experience-ux-2019/){.text-white .underline .hover:text-bs-green} (UX).
 ::::
 #card1
 ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4 }
@@ -90,7 +90,8 @@ Das Baukastenprinzip ermöglicht flexible Erweiterungen, ohne jedes Mal in den K
 Schnellere Ladezeiten, bessere UX
 ::
 ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-Da die Daten beim Headless-E-Commerce ohne Umweg über die entsprechende Schnittstelle (API) ins Frontend geschickt werden, gibt es keinen Datenstau mehr. Und damit weniger Kunden, die beim Checkout abspringen.
+Da die Daten beim Headless-E-Commerce ohne Umweg über die entsprechende Schnittstelle ([API](/loesungen/api-entwicklung/){.text-white .underline .hover:text-bs-green}
+) ins Frontend geschickt werden, gibt es keinen Datenstau mehr. Und damit weniger Kunden, die beim Checkout abspringen.
 ::
 #card3
 ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}

@@ -65,7 +65,7 @@ Wir machen Websites schnell
 <!--- Pricing --->
 :::GlobalSimpleSection{:bg="bg-white"}
 ::::GlobalTitle
-Unsere Pakete für deinen Website-Turbo
+Unsere Pakete für deinen Website-Turbo:
 ::::
 :::
 :::GlobalPartial{content=booster-pricing}

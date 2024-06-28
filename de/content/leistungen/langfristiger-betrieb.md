@@ -11,19 +11,19 @@ head:
     - property: 'og:title'
       content: 'Langfristigen Software-Betrieb bei Blueshoe'
     - property: 'og:description'
-      content: 'Blueshoe bietet kontinuierliche Wartung und schnellen Support für langlebige Webapplikationen. Profitiere von unserer langjährigen Erfahrung für zuverlässigen Betrieb und Incident-Handling.'
+      content: 'Stabile Webapps mit verlässlicher Betreuung: Langfristiger Betrieb, schnelle Problemlösungen, sichere Updates und agile Änderungen. Jetzt informieren!'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/rapid_maintenance.svg'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/rapid_maintenance.svg'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
       content: 'Langfristigen Software-Betrieb bei Blueshoe'
     - name: 'twitter:description'
-      content: 'Blueshoe bietet kontinuierliche Wartung und schnellen Support für langlebige Webapplikationen. Profitiere von unserer langjährigen Erfahrung für zuverlässigen Betrieb und Incident-Handling.'
+      content: 'Stabile Webapps mit verlässlicher Betreuung: Langfristiger Betrieb, schnelle Problemlösungen, sichere Updates und agile Änderungen. Jetzt informieren!'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
+      content: 'https://www.blueshoe.de/img/global/icons/rapid_maintenance.svg'
 ---
 
 ::GlobalSectionWithImage{:bg="bg-bs-blue" :image="/img/global/icons/rapid_maintenance.svg" :imagePosition="right"}
@@ -65,7 +65,7 @@ head:
   Schritt 1: Wähle dein Wartungspaket
   :::
   ::::GlobalParagraph{.mb-4}
-  Abhängig davon, wie kritisch und/oder komplex deine Anwendung ist und ob dein eigenes Team ggf. auch Aufgaben übernimmt, haben wir unterschiedlich große Wartungspakete für dich. Gern helfen wir dir bei der Auswahl, sprich uns an.
+  Abhängig davon, wie kritisch und/oder komplex deine Anwendung ist und ob dein eigenes Team ggf. auch Aufgaben übernimmt, haben wir unterschiedlich große Wartungspakete für dich. Gern helfen wir dir bei der Auswahl, [sprich uns an](/kontakt/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}.
   ::::
 :::
 
