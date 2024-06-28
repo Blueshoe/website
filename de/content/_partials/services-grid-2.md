@@ -1,5 +1,5 @@
 :::GlobalSmallCardWithImageSection{:bg="bg-bs-gray" :numberCards=6 id="quickwins"}
-    ::::GlobalTitle{.text-center .mb-6 data-title="Quickwins zum Festpreis" id="quickwins"}
+    ::::GlobalTitle{.text-center .mb-6 data-title="Quickwins" id="quickwins"}
     Unsere Quickwins zum Festpreis
     ::::
 

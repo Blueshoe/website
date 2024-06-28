@@ -87,7 +87,7 @@ const handleCloseMenu = (nav: Menu) => {
     "k8sPodcast": "K8s Podcast",
     "kontakt": "Kontakt",
     "entwicklung": "Entwicklung",
-    "beratung": "Beratung"
+    "beratung": "Enterprise Lösungen"
   }
 }
 </i18n>

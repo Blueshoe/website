@@ -106,7 +106,7 @@ Anpassungen stehen direkt nach der Implementierung des Codes zur Verfügung. Das
 Wieso ist Blueshoe dein Experte für Cloud Native Development?
 ::::
 ::::GlobalParagraph{.mb-4}
-Wir abstrahieren gerne - auch auf Infrastrukturebene. Umdenken ist eine unserer Stärken. Und die Zufriedenheit unsere Kunden liegt uns am Herzen. Deshalb haben wir uns dafür entschieden, nur noch Cloud Native zu entwickeln. Alle Applikationen, die wir bauen, entwickeln wir mit [Kubernetes](/leistungen/docker-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}. Jeder unserer Developer ist mit dem Cloud First Approach vertraut und setzt diesen tagtäglich um.
+Wir abstrahieren gerne - auch auf Infrastrukturebene. Umdenken ist eine unserer Stärken. Und die Zufriedenheit unsere Kunden liegt uns am Herzen. Deshalb haben wir uns dafür entschieden, nur noch Cloud Native zu entwickeln. Alle Applikationen, die wir bauen, entwickeln wir mit [Kubernetes](/loesungen/docker-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}. Jeder unserer Developer ist mit dem Cloud First Approach vertraut und setzt diesen tagtäglich um.
 ::::
 ::::GlobalParagraph
 Außerdem beraten wir dich bei Fragen zu Cloud Native und geben unser Wissen weiter. Eine 24/7-Betreuung deiner Cloud-Architektur und der dazugehörigen Applikationen bieten wir ebenfalls an.

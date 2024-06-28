@@ -121,7 +121,7 @@ Für Unternehmen, die ...
 ::
 #text-1
 ::GlobalBlock{:color="text-white" :fontSize="lg" .leading-6 .mb-4 .ul-disk}
-- die Arbeitskraft ihrer Entwickler für eine erfolgreiche [Cloud-Native-Entwicklungsstrategie](/leistungen/cloud-native-development/){.text-white .underline .hover:text-bs-green} voll ausschöpfen möchten.
+- die Arbeitskraft ihrer Entwickler für eine erfolgreiche [Cloud-Native-Entwicklungsstrategie](/loesungen/cloud-native-development/){.text-white .underline .hover:text-bs-green} voll ausschöpfen möchten.
 - von optimierten und bewährten Entwicklungsprozessen profitieren wollen.
 - eine durchdachte Automatisierung und niedrige Barrieren für die Entwicklung von Cloud-Nativen-Anwendungen anstreben.
 - auf der Suche nach Beratung bei ihrer Umstellung auf erfolgreiche Cloud-Native-Entwicklung sind.
@@ -147,7 +147,7 @@ Cloud Application-Entwickler (Devs), die ...
 ::
 #text-3
 ::GlobalBlock{:color="text-white" :fontSize="lg" .leading-6 .mb-4 .ul-disk}
-- mit der Komplexität von [Kubernetes/Docker](/leistungen/docker-kubernetes/){.text-white .underline .hover:text-bs-green} zu kämpfen haben.
+- mit der Komplexität von [Kubernetes/Docker](/loesungen/docker-kubernetes/){.text-white .underline .hover:text-bs-green} zu kämpfen haben.
 - Applikationen entwickeln und in Betrieb nehmen wollen, ohne in die Infrastruktur eintauchen zu müssen.
 - nach einer Dokumentation der gegebenen Umgebung suchen.
 ::
@@ -173,7 +173,7 @@ MEHR ÜBER UNIKUBE ERFAHREN
 Cloud Computing und Kubernetes sind die größten Paradigmenwechsel in der Softwareentwicklung seit Jahrzehnten.
 ::::
 ::::GlobalParagraph{.mb-4}
-Unsere Mission mit [Unikube](https://unikube.io/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} ist es, [Cloud Native-Entwicklung](/leistungen/cloud-native-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} und [Kubernetes](/leistungen/docker-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} für jedes Entwicklerteam zugänglich zu machen, unabhängig von der Erfahrung.
+Unsere Mission mit [Unikube](https://unikube.io/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} ist es, [Cloud Native-Entwicklung](/loesungen/cloud-native-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} und [Kubernetes](/loesungen/docker-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} für jedes Entwicklerteam zugänglich zu machen, unabhängig von der Erfahrung.
 ::::
 ::::GlobalParagraph{.mb-4}
 Wenn du mehr darüber wissen willst, stellen wir dir Unikube gerne in einem kurzen Call unverbindlich vor.

@@ -92,7 +92,7 @@ const toggleChild = (nav: Menu) => {
 {
   "en": {
     "services": "Leistungen",
-    "solutions": "Lösungen",
+    "solutions": "Unsere",
     "requirementsEngineering": "Anforderungsworkshops",
     "requirementsDocs": "Anforderungsdokumentation",
     "projectGreenlight": "Freigabeentscheidung",
@@ -131,7 +131,7 @@ const toggleChild = (nav: Menu) => {
     "k8sPodcast": "K8s Podcast",
     "kontakt": "Kontakt",
     "entwicklung": "Entwicklung",
-    "beratung": "Beratung",
+    "beratung": "Enterprise Lösungen",
     "zurück": "Zurück"
   }
 }

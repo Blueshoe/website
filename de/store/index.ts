@@ -10,7 +10,7 @@ export const useGeneralStore = defineStore('general', () => {
   const isMobileMenuOpen = ref(false);
 
   const solutions: SubMenu = {
-    title: 'Unsere Lösungen',
+    title: 'Unsere Quickwins',
     showTitle: true,
     showExtraButton: true,
     extraButtonLabel: 'Alle Lösungen anzeigen',
@@ -45,37 +45,20 @@ export const useGeneralStore = defineStore('general', () => {
         name: 'connectingSystems',
         href: '/loesungen/systeme-vernetzen/',
         icon: '/img/global/icons/systeme_verbinden.svg'
-      },
-      {
-        name: 'headlessCms',
-        href: '/loesungen/headless-cms/',
-        icon: '/img/global/icons/cms_1.svg'
-      },
+      }
+      // {
+      //   name: 'headlessCms',
+      //   href: '/loesungen/headless-cms/',
+      //   icon: '/img/global/icons/cms_1.svg'
+      // },
       // {
       //   name: 'wagtailCms',
       //   href: '/loesungen/wagtail-cms/',
       //   icon: '/img/global/icons/bird_1.svg'
       // },
       // {
-      //   name: 'pythonDjango',
-      //   href: '/loesungen/python-django-agentur/',
-      //   icon: '/img/global/icons/python.svg'
-      // },
-      {
-        name: 'headlessECommerce',
-        href: '/loesungen/headless-e-commerce/',
-        icon: '/img/global/icons/buy-online.svg'
-      }
-      // {
-      //   name: 'apiEntwicklung',
-      //   href: '/loesungen/api-entwicklung/',
-      //   icon: '/img/global/icons/api_1.svg'
-      // },
-      // {
-      //   name: 'oscarECommerce',
-      //   href: '/loesungen/oscar-e-commerce/',
-      //   icon: '/img/global/icons/shopping-cart.svg'
-      // },
+      // 
+
       // {
       //   name: 'workflowAutomatisierung',
       //   href: '/loesungen/workflow-automatisierung/',
@@ -85,38 +68,18 @@ export const useGeneralStore = defineStore('general', () => {
   };
 
   const beratung: SubMenu = {
-    title: 'beratung',
+    title: 'Enterprise Lösungen',
     showTitle: true,
     links: [
       {
-        name: 'gefyra',
-        href: 'https://www.blueshoe.io/gefyra/',
-        icon: '/img/global/icons/gefyra.svg'
+        name: 'pythonDjango',
+        href: '/loesungen/python-django-agentur/',
+        icon: '/img/global/icons/python.svg'
       },
       {
-        name: 'dockerKubernetes',
-        href: '/loesungen/docker-kubernetes/',
-        icon: '/img/global/icons/docker_kubernetes.svg'
-      },
-      // {
-      //   name: 'unikube',
-      //   href: '/loesungen/unikube/',
-      //   icon: '/img/global/icons/unikube-logo.svg'
-      // },
-      {
-        name: 'djangoHurricane',
-        href: '/loesungen/django-hurricane/',
-        icon: '/img/global/icons/hurricane-icon.svg'
-      },
-      {
-        name: 'cloudBeratung',
-        href: '/loesungen/cloud-native-beratung/',
-        icon: '/img/global/icons/consulting_1.svg'
-      },
-      {
-        name: 'microserviceArchitekturen',
-        href: '/loesungen/microservice-architektur-beratung/',
-        icon: '/img/global/icons/infrastructure_1.svg'
+        name: 'cloudInfrastruktur',
+        href: '/loesungen/cloud-infrastruktur-beratung/',
+        icon: '/img/global/icons/cloud-computing.svg'
       },
       {
         name: 'kubernetesMigration',
@@ -124,20 +87,70 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/global/icons/migration.svg'
       },
       {
-        name: 'cloudInfrastruktur',
-        href: '/loesungen/cloud-infrastruktur-beratung/',
-        icon: '/img/global/icons/cloud-computing.svg'
+        name: 'wagtailCms',
+        href: '/loesungen/wagtail-cms/',
+        icon: '/img/global/icons/bird_1.svg'
       },
+      {
+        name: 'cloudNativeDevelopment',
+        href: '/loesungen/cloud-native-development/',
+        icon: '/img/global/icons/cloud-storage.svg'
+      },
+      {
+        name: 'apiEntwicklung',
+        href: '/loesungen/api-entwicklung/',
+        icon: '/img/global/icons/api_1.svg'
+      },
+      {
+        name: 'headlessECommerce',
+        href: '/loesungen/headless-e-commerce/',
+        icon: '/img/global/icons/buy-online.svg'
+      },
+      {
+        name: 'oscarECommerce',
+        href: '/loesungen/oscar-e-commerce/',
+        icon: '/img/global/icons/shopping-cart.svg'
+      },
+      // {
+      //   name: 'gefyra',
+      //   href: 'https://www.blueshoe.io/gefyra/',
+      //   icon: '/img/global/icons/gefyra.svg'
+      // },
+      // {
+      //   name: 'dockerKubernetes',
+      //   href: '/loesungen/docker-kubernetes/',
+      //   icon: '/img/global/icons/docker_kubernetes.svg'
+      // },
+      // {
+      //   name: 'unikube',
+      //   href: '/loesungen/unikube/',
+      //   icon: '/img/global/icons/unikube-logo.svg'
+      // },
+      // {
+      //   name: 'djangoHurricane',
+      //   href: '/loesungen/django-hurricane/',
+      //   icon: '/img/global/icons/hurricane-icon.svg'
+      // },
+      // {
+      //   name: 'cloudBeratung',
+      //   href: '/loesungen/cloud-native-beratung/',
+      //   icon: '/img/global/icons/consulting_1.svg'
+      // },
+      // {
+      //   name: 'microserviceArchitekturen',
+      //   href: '/loesungen/microservice-architektur-beratung/',
+      //   icon: '/img/global/icons/infrastructure_1.svg'
+      // },
       // {
       //   name: 'cloudNativeTools',
       //   href: '/loesungen/cloud-native-tools/',
       //   icon: '/img/global/icons/repair.svg'
       // },
-      {
-        name: 'cloudSicherheit',
-        href: '/loesungen/cloud-sicherheit-beratung/',
-        icon: '/img/global/icons/cyber-security.svg'
-      }
+      // {
+      //   name: 'cloudSicherheit',
+      //   href: '/loesungen/cloud-sicherheit-beratung/',
+      //   icon: '/img/global/icons/cyber-security.svg'
+      // }
     ]
   };
 

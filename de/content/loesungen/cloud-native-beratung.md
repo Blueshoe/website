@@ -117,7 +117,7 @@ Cloud-Anwendungsentwicklung
 Blueshoe ist spezialisiert auf maßgeschneiderte Softwarelösungen für jeden Anwendungsfall, wenn eine Standardlösung nicht das Richtige ist. Unsere Teams sind agil, immer in Kontakt und liefern Lösungen, die direkt in der Cloud eingesetzt werden können.
 :::
 :::GlobalParagraph{:fontSize="lg"}
-[Wie wir DevOps-Teams unterstützen](/leistungen/cloud-native-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+[Wie wir DevOps-Teams unterstützen](/loesungen/cloud-native-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 :::
 ::
 #card2
@@ -141,7 +141,7 @@ Cloud-Sicherheit
 Eine cloud-native Infrastruktur ermöglicht es deinen Teams, produktiv "shift left" umzusetzen und Sicherheits- und Compliance-Anforderungen zu erfüllen. Wir helfen dir bei der Auswahl der besten Integrationen und Tools und sorgen dafür, dass deine Infrastruktur sicher bleibt.
 :::
 :::GlobalParagraph{:fontSize="lg"}
-[Wie wir deine Cloud-Sicherheit auf Vordermann bringen](/leistungen/cloud-sicherheit-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+[Wie wir deine Cloud-Sicherheit auf Vordermann bringen](/loesungen/cloud-sicherheit-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 :::
 ::
 #card4
@@ -153,7 +153,7 @@ Kubernetes-Migration
 Führe Kubernetes in deiner gesamten Infrastruktur ein, um schnellere und sicherere Bereitstellungen, optimierte Kosten und mehr Flexibilität zu erreichen. Unsere Kubernetes-Experten helfen dir bei der Migration von deiner aktuellen Architektur und machen euch fit für Kubernetes.
 :::
 :::GlobalParagraph{:fontSize="lg"}
-[Wie wir dich Kubernetes-Ready machen](/leistungen/migration-auf-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+[Wie wir dich Kubernetes-Ready machen](/loesungen/migration-auf-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 :::
 ::
 #card5
@@ -165,7 +165,7 @@ Microservice-Architektur-Beratung
 Das Aufbrechen einer monolithischen Architektur wirft viele Fragen auf. Unsere Teams können dir helfen, sie zu beantworten. Wir untersuchen deine aktuelle Architektur, geben Empfehlungen, wie du Microservices implementieren kannst, und bringen dich auf den Weg zu mehr Stabilität und Produktivität.
 :::
 :::GlobalParagraph{:fontSize="lg"}
-[Wie wir das Beste aus Microservices holen](/leistungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+[Wie wir das Beste aus Microservices holen](/loesungen/microservice-architektur-beratung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
 :::
 ::
 :::

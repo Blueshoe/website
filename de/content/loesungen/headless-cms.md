@@ -46,7 +46,7 @@ Mehr Flexibilität durch die Trennung von Frontend und Backend
 Was sind die Vorteile von Headless CMS?
 ::::
 ::::GlobalParagraph{.mb-4}
-Eine Datenquelle, viele Ausspielmöglichkeiten: Ein auf [Python/django](/leistungen/python-django-agentur/) basierendes Headless CMS bietet zahlreiche Vorteile gegenüber einem traditionellen CMS. Wenn das Backend vom Frontend entkoppelt ist, wird vieles leichter.
+Eine Datenquelle, viele Ausspielmöglichkeiten: Ein auf [Python/django](/loesungen/python-django-agentur/) basierendes Headless CMS bietet zahlreiche Vorteile gegenüber einem traditionellen CMS. Wenn das Backend vom Frontend entkoppelt ist, wird vieles leichter.
 ::::
 ::::GlobalParagraph
 Natürlich macht es keinen Sinn, ein Headless CMS zu implementieren, wenn man sich sicher ist, dass der Content lediglich für eine einzige Webseite verwendet werden soll. Aber wenn es um mehrere Geräte bzw. Plattformen geht, auf denen der Inhalt ausgespielt werden soll, ist ein Headless CMS die ideale Lösung.
