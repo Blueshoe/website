@@ -1,4 +1,4 @@
-::GlobalSimplePricing{:cardCount="2" :hasAccent="false"}
+::GlobalSimplePricing{:cardCount="2"}
 
 
 #card1

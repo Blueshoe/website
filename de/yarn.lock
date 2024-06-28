@@ -10666,7 +10666,7 @@ __metadata:
     loadjs: "npm:^4.2.0"
     rangetouch: "npm:^2.0.1"
     url-polyfill: "npm:^1.1.12"
-  checksum: 10c0/63d7bdeef18a9c76478b8669cd49da852a9e8083ee6fb0c3096d6604768e75ce90e2e41effc737a681948442ee0a67ba697fc6106ec718349244d7198006a1d4
+  checksum: 10c0/dd7641825a6c0742d4a9818f7f121fb5ca74e03c50529aedab3ff8f26babb811077c34ecc7e43560c9ce8d788da5df4849ed1ed010f75a7caf5f9153975a50c4
   languageName: node
   linkType: hard
 

@@ -1,25 +1,27 @@
 <template>
   <ul class="flex border-b border-bs-menu-hover z-20" @mouseleave="onClickOutside">
-    <li
+    <NuxtLink
       v-for="(nav, i) in menu"
       :key="i"
+      :to="nav.href"
       class="cursor-pointer hover:bg-bs-menu-hover px-2 xl:px-4 pt-4 pb-5 first:pr-1"
+      :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''"
       @mouseover="nav.dropDown ? (nav.isDropDown = true) : null"
       @mouseleave="nav.dropDown ? (nav.isDropDown = false) : null"
     >
-      <NuxtLink :to="nav.href" :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''">
+      <li>
         {{ t(nav.name) }}
-        <span v-if="nav.dropDown" class="">
+        <span v-if="nav.dropDown">
           <Icon name="ri:arrow-down-s-fill" width="30" height="30" class="pb-1" />
         </span>
-      </NuxtLink>
-      <DesktopMenuChildren
-        v-if="nav.dropDown && nav.children && nav.isDropDown"
-        :nav-item="nav"
-        @on-click-outside="onClickOutside"
-        @handle-close-menu="handleCloseMenu"
-      />
-    </li>
+        <DesktopMenuChildren
+          v-if="nav.dropDown && nav.children && nav.isDropDown"
+          :nav-item="nav"
+          @on-click-outside="onClickOutside"
+          @handle-close-menu="handleCloseMenu"
+        />
+      </li>
+    </NuxtLink>
   </ul>
 </template>
 

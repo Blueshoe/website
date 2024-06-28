@@ -85,7 +85,7 @@ export const useGeneralStore = defineStore('general', () => {
     }
   ];
 
-  const menu = ref<Menu[]>([u
+  const menu = ref<Menu[]>([
     {
       name: 'services',
       href: undefined,
