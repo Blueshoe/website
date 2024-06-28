@@ -125,7 +125,7 @@
                   :src="src"
                   :alt="'Blueshoe expert ' + alt"
                   :title="'Blueshoe expert ' + alt"
-                  class="border-[5px] border-bs-green rounded-full"
+                  class="border-[5px] border-bs-green rounded-full w-[100px]! h-[100px]! xl:w-[110px]! xl:h-[110px]!"
                 />
                 <span
                   class="pt-1 text-bs-blue font-bold"
