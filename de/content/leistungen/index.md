@@ -70,7 +70,7 @@ head:
 :::GlobalSimpleSectionWithImage{.py-6 :img="/img/global/icons/RAPID.svg" :alt="Das RAPID System"}
 :::
 
-:::GlobalSliderWithImageSection{:numberCards=3 :images='[{"src": "/img/global/icons/lizenzkostenfrei.svg", "alt": "kosten sparen"}, {"src": "/img/global/icons/schnelle_websites.svg", "alt": "schnelle entwicklung"}, {"src": "/img/services/bessere_anforderungen.svg", "alt": "bessere Anforderungen"}]' data-title="Für wen eignet sich RAPID?"}
+:::GlobalSliderWithImageSection{:numberCards=3 :images='[{"src": "/img/global/icons/schnelle_websites.svg", "alt": "schnelle entwicklung"}, {"src": "/img/global/icons/lizenzkostenfrei.svg", "alt": "kosten sparen"}, {"src": "/img/services/bessere_anforderungen.svg", "alt": "bessere Anforderungen"}]' data-title="Für wen eignet sich RAPID?"}
   ::::GlobalTitle{:color="text-white" .mb-6}
   Für wen eignet sich das RAPID-System?
   ::::
@@ -99,7 +99,7 @@ head:
   Planungssicherheit
   ::
   ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-  Unsere Erfahrung in verschiedenen RAPID-basierten Projekten hilft uns dabei, Zeitpläne genauer festzulegen und uns an diese auch halten zu können. Das gleiche gilt für die Kosten, die wir dir mitteilen. Ändern sich die Anforderungen nicht, ändert sich auch der Preis nicht
+  Unsere Erfahrung in verschiedenen RAPID-basierten Projekten hilft uns dabei, Zeitpläne genauer festzulegen und uns an diese auch halten zu können. Das gleiche gilt für die Kosten, die wir dir mitteilen. Ändern sich die Anforderungen nicht, ändert sich auch der Preis nicht.
   ::
 :::
 

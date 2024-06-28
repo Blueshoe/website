@@ -54,7 +54,7 @@ Gefyra
 :::
 ::
 
-::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="https://django-hurricane.io/" :target="_blank"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/hurricane-icon.svg" :href="/loesungen/django-hurricane/"}
 :::GlobalParagraph{:fontSize="lg" .mb-4}
 Django perfekt mit K8s kombinieren
 :::
