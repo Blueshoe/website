@@ -48,5 +48,5 @@ Korrigierende Wartung </br> Perfektive Wartung </br> Adaptive Wartung
 #buttonBlockTitle
 Hier geht's zum kostenlosen Videocall-Erstgespräch
 #buttonLabel
-Termin finden
+Jetzt Termin buchen
 ::

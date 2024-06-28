@@ -40,48 +40,66 @@ head:
 :::GlobalServicesNavigationCard{:title="Das RAPID-System von Blueshoe"}
 :::
 
+:::GlobalSimpleSection{:isButton=true .md:w-3/4 .mx-auto data-title="In 5 Phasen zur lizenzkostenfreien, langlebigen Software"}
+  ::::GlobalTitle{.mb-6}
+  In 5 Phasen zur lizenzkostenfreien, langlebigen Software
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  Seit 2014 entwickeln wir komplexe IT-Lösungen für verschiedene Branchen. Aus über 200 Projekten haben wir ein Konzept erstellt, das maßgeschneiderte Softwarelösungen bis zu 35% schneller bereitstellt als andere Anbieter.
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  Dafür legen wir Wert auf die Einhaltung von 5 Phasen:
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  **R - (Requirements Analysis Workshops)** - Unsere Anforderungsworkshops folgen einem standardisierten Muster. Sind dafür da den Scope des Projekts zu begrenzen, die wichtigsten Anforderungen zu fokussieren und Lücken aufzudecken.
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  **A - (Actionable Requirements Definition)** - Das Ergebnis aus unseren Anforderungsworkshops. Hier sind alle Anforderungen für das initiale Projekt katalogisiert und der Projekt-Scope definiert. Anhand dieser Inhalte sollte jeder Dienstleister im Stande sein, ein belastbares Angebot zu schnüren
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  **P - (Project Greenlight or stop)** - Die wichtigste Entscheidung im Projekt steht an. Die Projektbeschreibung und ein Angebot liegen bei dir auf dem Tisch. Wenn jetzt alles passt, dann gib das Go! Wenn nicht, geht’s zurück ans Reißbrett.
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  **I - (Implementation)** - Jetzt geht’s ans Eingemachte. Wir setzen die Projektplanung auf und beginnen mit Detailkonzeption und Entwicklung. Dabei arbeiten wir möglichst transparent, damit du jederzeit reagieren kannst.
+  ::::
+  ::::GlobalParagraph{.mb-4}
+  **D - (Durable Maintenance)** - Nach dem Projekt ist vor dem Betrieb. Das Ergebnis aus einem Software-Projekt ist meist nur so gut, wie seine nachfolgende kontinuierliche Wartung. Wir halten Systeme funktional und aktuell, so dass du lange Freude daran hast.
+  ::::
+:::
+
 :::GlobalSimpleSectionWithImage{.py-6 :img="/img/global/icons/RAPID.svg" :alt="Das RAPID System"}
 :::
 
-:::GlobalSimpleSection{:isButton=true .md:w-3/4 .mx-auto data-title="In 5 Phasen zum lizenkostenfreien und langlebigen Software Produkt"}
-  ::::GlobalTitle{.mb-6}
-  In 5 Phasen zum lizenkostenfreien und langlebigen Software Produkt
-  ::::
-  ::::GlobalParagraph{.mb-4}
-  TODO Cloud Native Development ist die Entwicklungsstrategie der Zukunft. Sie ist **schnell, modern, agil und flexibel** einsetzbar. Die optimale Methode, um Web Applikationen schneller entwickeln, anpassen und bereitstellen zu können. Von überall aus.
-  ::::
-  ::::GlobalParagraph
-  TODO Die **Anwendungen können selbst skalieren** und sind nicht mehr an bestimmte Server, Netzwerke oder Rechenleistungen gebunden. Und wenn es doch einmal zu einem Fehler in der Infrastruktur kommen sollte, greifen verschiedene Recovery-Mechanismen ein und machen die Servicestruktur wieder fit.
-  ::::
-:::
-
-:::GlobalSliderWithImageSection{:numberCards=3 :images='[{"src": "/img/global/icons/lizenzkostenfrei.svg", "alt": "kosten sparen"}, {"src": "/img/global/icons/schnelle_websites.svg", "alt": "schnelle entwicklung"}, {"src": "/img/services/bessere_anforderungen.svg", "alt": "bessere Anforderungen"}]' data-title="Für wen eignet sich das RAPID-System?"}
+:::GlobalSliderWithImageSection{:numberCards=3 :images='[{"src": "/img/global/icons/lizenzkostenfrei.svg", "alt": "kosten sparen"}, {"src": "/img/global/icons/schnelle_websites.svg", "alt": "schnelle entwicklung"}, {"src": "/img/services/bessere_anforderungen.svg", "alt": "bessere Anforderungen"}]' data-title="Für wen eignet sich RAPID?"}
   ::::GlobalTitle{:color="text-white" .mb-6}
   Für wen eignet sich das RAPID-System?
   ::::
+  ::::GlobalParagraph{:color="text-white" .mb-4}
+  Wir haben RAPID für Unternehmen entwickelt, die große Teile ihrer Digitalisierung mit Dienstleistern abbilden und häufig nur kleinere IT-Abteilungen haben. Das betrifft vor allem B2B-Unternehmen im Mittelstand zwischen 50 - 2000 Mitarbeitern, deren Fachabteilung schneller und effizienter Projekte umsetzen möchten.
+  ::::
   ::::GlobalParagraph{:color="text-white" .mb-6}
-  TODO Wer Cloud Native Development betreibt merkt schnell, dass dadurch mehr Zeit dafür bleibt, Code zu schreiben. Wir können Dank der containergestützten Entwicklung mehr Fokus darauf legen, noch bessere Web Applikationen zu bauen.
+  An RAPID schätzen unsere Kunden besonders:
   ::::
 #card1
   ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4 }
-  TODO Langfristig geringere Kosten
+  Klarheit und Transparenz
   ::
   ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-  TODO Flexible Microservice-Architektur, ein hoher Grad an automatisierter Skalierung sowie eine schnellere Reaktion auf Kundenanforderungen bringen einen Wettbewerbsvorteil.
+  Fest definiertes Vorgehen und strukturierte Abläufe sorgen für Risikominimierung. Missverständnisse sollen minimiert werden.
   ::
 #card2
   ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}
-  TODO Schnellere Projektentwicklung
+  Effizienz durch Erfahrung
   ::
   ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-  TODO Bei Cloud Native Development wird die Leistungsfähigkeit an den Bedarf angepasst und Anforderungen in Echtzeit zugewiesen.
+  Wir nutzen ein strukturiertes Vorgehen, bewährte Methoden und standardisierte Komponenten in unseren Projekten. Damit können wir unsere breite Erfahrung in jedem Projekt einbringen und sind damit auch einfach schneller.
   ::
 #card3
   ::GlobalTitle{:color="text-white" :tag="h3" :size="lg" .mb-4}
-  TODO Persönliche Zusammenarbeit auf Augenhöhe mit Experten
+  Planungssicherheit
   ::
   ::GlobalParagraph{:fontSize="lg" :color="text-white"}
-  TODO Anpassungen stehen direkt nach der Implementierung des Codes zur Verfügung. Das Ausrollen von individuellen Updates mit eventueller Downtime wird überflüssig.
+  Unsere Erfahrung in verschiedenen RAPID-basierten Projekten hilft uns dabei, Zeitpläne genauer festzulegen und uns an diese auch halten zu können. Das gleiche gilt für die Kosten, die wir dir mitteilen. Ändern sich die Anforderungen nicht, ändert sich auch der Preis nicht
   ::
 :::
 
@@ -89,8 +107,15 @@ head:
 :::GlobalPartial{content=catcher-2}
 :::
 
-:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_R_only.svg" :alt="requirements workshop" :imagePosition="left" data-title="1. Die Anforderungsanalyse"}
-  ::::GlobalTitle{.mb-6}
+:::GlobalSimpleSection
+  ::::GlobalTitle{.mb-6 .text-center}
+  Die RAPID-Phasen im Detail
+  ::::
+:::
+
+
+:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_R_only.svg" :alt="requirements workshop" :imagePosition="left" data-title="1. Anforderungsanalyse"}
+  ::::GlobalTitle{.mb-6 :tag="h3"}
   1\. Die Anforderungsanalyse
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -122,8 +147,8 @@ head:
 
 :::
 
-:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_A_only.svg" :alt="actionable scope" :imagePosition="right" :bg="bg-bs-gray" data-title="2. Die Projektbeschreibung und Kosten"}
-  ::::GlobalTitle{.mb-6 id="projektbeschreibung"}
+:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_A_only.svg" :alt="actionable scope" :imagePosition="right" :bg="bg-bs-gray" data-title="2. Projektbeschreibung und Kosten"}
+  ::::GlobalTitle{.mb-6 id="projektbeschreibung" :tag="h3"}
   2\. Die Projektbeschreibung und Kosten
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -148,8 +173,8 @@ head:
   ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_P_only.svg" :alt="project greenlight" :imagePosition="left" :bg="bg-white" data-title="3. Die Entscheidung über Projektfreigabe oder Stopp" .pb-10}
-  ::::GlobalTitle{.mb-6 id="projektfreigabe"}
+:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_P_only.svg" :alt="project greenlight" :imagePosition="left" :bg="bg-white" data-title="3. Projektfreigabe oder Stopp" .pb-10}
+  ::::GlobalTitle{.mb-6 id="projektfreigabe" :tag="h3"}
   3\. Die Entscheidung über Projektfreigabe oder Stopp
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -171,8 +196,8 @@ head:
   ::::
 :::
 
-:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_I_only.svg" :alt="project greenlight" :imagePosition="right" :bg="bg-bs-gray"  .relative .h-full .pb-[70px] data-title="4. Realisierung von Projekt und Infrastruktur"}
-  ::::GlobalTitle{.mb-6}
+:::GlobalSectionWithImage{:image="/img/global/icons/RAPID_I_only.svg" :alt="project greenlight" :imagePosition="right" :bg="bg-bs-gray"  .relative .h-full .pb-[70px] data-title="4. Projektrealisierung"}
+  ::::GlobalTitle{.mb-6 :tag="h3"}
   4\. Realisierung von Projekt und Infrastruktur
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -206,22 +231,8 @@ head:
   ::
 :::
 
-
-
-:::GlobalSectionWithImage{:image="/img/global/icons/groß_integrierbar.svg" :alt="contact-header" :isButton=true :imagePosition="right" :bg="bg-bs-blue" .bottom-[50px] .w-[80%] .left-1/2 .transform .-translate-x-1/2}
-  ::::GlobalTitle{.mb-6 .text-white}
-  Wir shippen auch komplexe Projekte in Rekordzeit
-  ::::
-  ::::GlobalParagraph{.mb-4 .text-white}
-  Egal ob du eine klare Herausforderung hast, bereits Lösungsansätze oder einen Prototyp entwickelt hast, oder aber auch schon eine Anwendung im Betrieb hast, mit der du nicht glücklich bist. Mit unserem RAPID-System können wir dir schnell und systematisch helfen.
-  ::::
-#button
-  ::GlobalButton{:url="https://blueshoe.io/hannes/" :label="Kontaktiere uns" :color="green"}
-  ::
-:::
-
 :::GlobalSectionWithImage{:image="/img/global/icons/RAPID_D_only.svg" :alt="project greenlight" :imagePosition="left" :bg="bg-white"  .relative .h-full .pb-[70px] data-title="5. Anhaltender Betrieb"}
-  ::::GlobalTitle{.mb-6}
+  ::::GlobalTitle{.mb-6 :tag="h3"}
   5\. Anhaltender Betrieb
   ::::
   ::::GlobalParagraph{.mb-4}
@@ -263,7 +274,7 @@ head:
 
 
 
-:::GlobalSliderSection{:numberCards=5 data-title="Projekte die wir mit dem RAPID zur Welt gebracht haben"}
+:::GlobalSliderSection{:numberCards=5 data-title="RAPID Beispielprojekte"}
   ::::GlobalTitle{.mb-6}
   Projekte die wir mit dem RAPID zur Welt gebracht haben
   ::::

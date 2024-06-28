@@ -1,6 +1,6 @@
 :::GlobalSmallCardWithImageSection{ :bg="bg-bs-gray" :numberCards=3}
-::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Dienstleistungen"}
-Wir haben unter anderem folgende Lösungen in unserem Schmuckkästchen:
+::::GlobalTitle{:color="text-black" .text-center .mb-6 data-title="Unsere Enterprise-Lösungen"}
+Unsere Enterprise-Lösungen
 ::::
 
 #cards
@@ -109,10 +109,10 @@ Python- und Django-Entwicklung
 ::GlobalSmallCardWithImage{bg="bg-bs-blue"}
 
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-Herausforderungen, die es wert sind, gelöst zu werden
+Dein nächstes Projekt
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
-Wenn Du ein bestimmtes Projekt im Sinn hast, kommen zu uns. Wir sind immer hilfsbereit.
+Du hast ein Projekt im Sinn? Sprich mit uns! Wir geben gern unverbindlich unseren Senf dazu.
 :::
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 **Telefon:** +49 89 54 19 84 22<br/>
@@ -121,7 +121,7 @@ Wenn Du ein bestimmtes Projekt im Sinn hast, kommen zu uns. Wir sind immer hilfs
 :::GlobalButton
 ---
 url: "https://blueshoe.io/hannes/" 
-label: "Meeting buchen" 
+label: "Jetzt Termin buchen" 
 color: "green" 
 target: "_blank"
 ---

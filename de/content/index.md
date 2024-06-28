@@ -35,7 +35,7 @@ head:
     35% schnellere Projektumsetzung mit System
     ::::
     ::::GlobalParagraph{.mb-4}
-    Du suchst eine Lösung für komplexe Probleme in mittelständischen B2B-Unternehmen oder im öffentlichen Sektor? Du bist bei uns richtig, wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
+    Du suchst eine Lösung für komplexe Herausforderungen in deinem mittelständischen Unternehmen? Du bist bei uns richtig, wenn du mit deiner aktuellen Lösung nicht ganz zufrieden bist, weil:
     ::::
     ::::GlobalBlock{.bg-white .bg-opacity-80 .w-3/4 .rounded-l .p-4 .ul-disk}
     - Sie nicht standardisiert ist
@@ -81,7 +81,7 @@ head:
   <!--- RAPID --->
   :::GlobalSimpleSection{:bg="bg-bs-gray" data-title="RAPID SYSTEM"}
     ::::GlobalTitle{.mb-6 .text-center}
-    Wir shippen auch komplexe Projekte in Rekordzeit
+    Auch deine komplexen Projekte shippen wir in Rekordzeit
     ::::
 
     ::::GlobalParagraph{.mb-4 id="rapid"}

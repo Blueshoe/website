@@ -34,7 +34,7 @@
                   :alt="`${t(link.name)} Icon`"
                   width="40"
                 />
-                <span :class="{ 'first-letter:font-bold': child.singleLineLinks }" v-text="t(link.name)" />
+                <span v-text="t(link.name)" />
               </div>
             </NuxtLink>
           </li>

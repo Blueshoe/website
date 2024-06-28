@@ -1,5 +1,6 @@
-::GlobalSimplePricing{ :cardCount="3" }
+::GlobalSimplePricing{ :cardCount="4" }
 
+<!--- Do it yourself --->
 #card1
 :::GlobalPricingCard
 
@@ -8,6 +9,7 @@ Kleiner Workshop
 
 #subtitle
 Ein Workshop über einen halben Tag, um einen moderaten Anforderungskatalog zu erstellen.
+Blueshoe unterstützt dich bei der Erarbeitung der Dokumentation.
 
 #priceDescription
 - **4 h** Workshop
@@ -17,6 +19,17 @@ Ein Workshop über einen halben Tag, um einen moderaten Anforderungskatalog zu e
 
 #price
 4.500 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
 #card2
@@ -27,6 +40,7 @@ Großer Workshop
 
 #subtitle
 Ein klassischer Workshop, um auch umfangreichere Softwareprojekte zu definieren.
+Blueshoe erarbeitet die gesamte Dokumentation für dich.
 
 #recommendedLabel
 Empfohlen
@@ -39,6 +53,17 @@ Empfohlen
 
 #price
 7.500 €
+
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 
 #card3
@@ -48,7 +73,9 @@ Empfohlen
 Maxi Workshop
 
 #subtitle
-Für riesige Software-Plattformen und sehr kritische Anwendungen.
+Für große Software-Plattformen und kritische Anwendungen.
+Blueshoe erarbeitet die gesamte Dokumentation für dich und klärt
+auch mit Drittparteien die Anforderungen.
 
 #priceDescription
 - **2 Tage** Workshop
@@ -58,5 +85,47 @@ Für riesige Software-Plattformen und sehr kritische Anwendungen.
 
 #price
 18.500 €
+#additionals
+::::GlobalButton
+---
+label: "Jetzt Buchen"
+url: "https://blueshoe.io/hannes/"
+size: "wide"
+color: "blue"
+target: "_blank"
+---
+::::
+:::
+
+#card4
+:::GlobalPricingCard
+
+#title
+Enterprise
+
+#subtitle
+Für riesige Software-Plattformen und sehr kritische Anwendungen.
+Blueshoe erarbeitet die gesamte Dokumentation für dich und stimmt diese
+mit allen Stakeholdern.
+
+
+
+#priceDescription
+- Beliebig umfangreiche Anforderungsdokumentation
+- Beliebig viele Stakeholder
+- Dedizierter Projektmanager
+- Kompletter Prozess von Blueshoe modertiert
+- Beliebig viele vor-Ort- oder Remote Workshops
+
+#price
+::::GlobalButton
+---
+label: "Auf Anfrage" 
+url: "https://blueshoe.io/hannes/" 
+size: "wide" 
+color: "blue"
+target: "_blank"
+---
+::::
 :::
 ::

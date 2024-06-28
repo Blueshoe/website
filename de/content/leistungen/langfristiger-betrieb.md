@@ -133,7 +133,7 @@ Standardisierung
 :::
 
 #cards
-::GlobalSmallCardWithImage{:src="/img/global/icons/left.svg" :href="/leistungen/langfristiger-betrieb/" :bg="bg-bs-blue"}
+::GlobalSmallCardWithImage{:src="/img/global/icons/left.svg" :href="/leistungen/anforderungsanalyse/" :bg="bg-bs-blue"}
 :::GlobalParagraph{:fontSize="lg" :color="text-white" .leading-6 .mb-4}
 Erfolgreiche Projekte starten mit exzellenten Anforderungen
 :::

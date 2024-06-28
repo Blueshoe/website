@@ -158,7 +158,7 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/global/icons/discussion.svg',
         image: '/img/global/icons/RAPID_R.svg',
         caps: 'R',
-        helpText: 'Anforderungsanalyse'
+        helpText: 'Requirements Workshop'
       },
       {
         name: 'requirementsDocs',
@@ -166,7 +166,7 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/services/Was-wird-erledigt.svg',
         image: '/img/global/icons/RAPID_A.svg',
         caps: 'A',
-        helpText: 'Projektbeschreibung und Kosten'
+        helpText: 'Actionable Scope'
       },
       {
         name: 'projectGreenlight',
@@ -174,7 +174,7 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/global/icons/go.svg',
         image: '/img/global/icons/RAPID_P.svg',
         caps: 'P',
-        helpText: 'Projekt Freigabeentscheidung'
+        helpText: 'Project greenlight, or stop'
       },
       {
         name: 'softwareDevelopment',
@@ -182,7 +182,7 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/global/icons/programmer.svg',
         image: '/img/global/icons/RAPID_I.svg',
         caps: 'I',
-        helpText: 'Software & Infrastruktur Realisierung'
+        helpText: 'Implementation'
       },
       {
         name: 'softwareMaintenance',
@@ -190,7 +190,7 @@ export const useGeneralStore = defineStore('general', () => {
         icon: '/img/global/icons/rapid_maintenance.svg',
         image: '/img/global/icons/RAPID_D.svg',
         caps: 'D',
-        helpText: 'Wartung & Support'
+        helpText: 'Durable Operations'
       }
     ]
   };
