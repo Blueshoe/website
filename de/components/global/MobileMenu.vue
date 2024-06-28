@@ -92,7 +92,7 @@ const toggleChild = (nav: Menu) => {
 {
   "en": {
     "services": "Leistungen",
-    "solutions": "Unsere",
+    "solutions": "Lösungen",
     "requirementsEngineering": "Anforderungsworkshops",
     "requirementsDocs": "Anforderungsdokumentation",
     "projectGreenlight": "Freigabeentscheidung",
