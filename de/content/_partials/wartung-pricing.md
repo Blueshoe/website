@@ -68,7 +68,7 @@ Für spezielle Wartungsprojekte haben wir auch spezielle Angebote.
 label: "Auf Anfrage" 
 url: "https://blueshoe.io/hannes/" 
 size: "wide" 
-color: "green"
+color: "blue"
 target: "_blank"
 ---
 ::::

@@ -84,7 +84,7 @@ Für besonders kritische Applikationen bieten wir auch besondere SLAs.
 label: "Auf Anfrage" 
 url: "https://blueshoe.io/hannes/" 
 size: "wide" 
-color: "green"
+color: "blue"
 target: "_blank"
 ---
 ::::
