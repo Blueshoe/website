@@ -1,52 +1,55 @@
 <template>
-  <NuxtLink
+  <div
     v-if="props.href"
-    :to="props.href"
-    :target="target"
-    class="transition ease-in-out delay-50 duration-100 hover:-translate-1 hover:scale-105"
+    class="transition ease-in-out delay-50 duration-300 hover:scale-105"
   >
-    <div
-      class="flex flex-col sm:flex-row justify-between gap-6 lg:gap-1 shadow-xl w-full h-full p-6"
-      :class="bg"
+    <NuxtLink
+      :to="props.href"
+      :target="target"
     >
       <div
-        v-if="src"
-        class="sm:order-2 flex items-center justify-center px-6 sm:p-0"
+        class="flex flex-col sm:flex-row justify-between gap-6 lg:gap-1 shadow-xl w-full h-full p-6"
+        :class="bg"
       >
-        <img
-          v-if="isStory"
-          :src="src"
-          class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
-          alt="background image"
-          format="webp"
-          width="120"
-          height="120"
-        >
-        <booster-image
-          v-if="!isStory"
-          :src="src"
-          title="background image"
-          class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
-          alt="background image"
-          format="webp"
-          width="120"
-          height="120"
-        />
-      </div>
-      <div class="sm:order-1">
-        <ContentSlot
-          unwrap="p"
-          name="title"
-        /> 
         <div
-          :lang="props.lang"
-          class="text-lg font-light font-source-sans-pro leading-[26px] text-bs-text hyphens-auto"
+          v-if="src"
+          class="sm:order-2 flex items-center justify-center px-6 sm:p-0"
         >
-          <slot />
+          <img
+            v-if="isStory"
+            :src="src"
+            class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
+            alt="background image"
+            format="webp"
+            width="120"
+            height="120"
+          >
+          <booster-image
+            v-if="!isStory"
+            :src="src"
+            title="background image"
+            class="max-w-[310px] sm:min-w-[150px] sm:max-w-[200px] md:max-w-[160px] w-full lg:min-w-[120px] xl:w-[110px]"
+            alt="background image"
+            format="webp"
+            width="120"
+            height="120"
+          />
+        </div>
+        <div class="sm:order-1">
+          <ContentSlot
+            unwrap="p"
+            name="title"
+          /> 
+          <div
+            :lang="props.lang"
+            class="text-lg font-light font-source-sans-pro leading-[26px] text-bs-text hyphens-auto"
+          >
+            <slot />
+          </div>
         </div>
       </div>
-    </div>
-  </NuxtLink>
+    </NuxtLink>
+  </div>
   <!--- I didn't know it better --->
   <div
     v-else
