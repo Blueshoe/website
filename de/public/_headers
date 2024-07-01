@@ -4,6 +4,8 @@
     Cache-Control: public, max-age=3600
 favicon.ico
     Cache-Control: public, max-age=3600
+/_partials/*
+  X-Robots-Tag: noindex
 https://:blueshoe-de.pages.dev/*
   X-Robots-Tag: noindex
 
