@@ -40,7 +40,7 @@ onMounted(() => {
   }
 });
 
-const { data: allPages } = await useAsyncData('all', () => queryContent().find());
+const { data: allPages } = await useAsyncData('all', () => queryContent().where({ _partial: false }).find());
 
 useHead({
   titleTemplate: (titleChunk: string) => {

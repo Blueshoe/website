@@ -49,7 +49,7 @@
         Umsatz steigern mit dem Website-Turbo
         :::
         :::GlobalParagraph{:fontSize="lg" :color="text-white"}
-        Nutzer haben keine Zeit und Geduld zu warten bis deine Inhalte geladen haben. Wir sorgen dafür, dass deswegen keiner mehr abspringt und das surfen zum absoluten Vergnügen wird.
+        Nutzer haben keine Zeit und Geduld zu warten, bis deine Inhalte geladen haben. Wir sorgen dafür, dass deswegen keiner mehr abspringt und das Surfen zum absoluten Vergnügen wird.
         :::
     #title
         :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-green" .leading-6 .uppercase .mb-6}

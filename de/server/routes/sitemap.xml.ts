@@ -3,7 +3,7 @@ import { serverQueryContent } from '#content/server';
 
 export default defineEventHandler(async (event) => {
   // Fetch all documents
-  const docs = await serverQueryContent(event).find();
+  const docs = await serverQueryContent(event).where({ _partial: false }).find();
   const sitemap = new SitemapStream({
     hostname: 'https://www.blueshoe.de/'
   });

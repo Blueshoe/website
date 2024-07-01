@@ -117,7 +117,7 @@ Function as a Service wurde von Unternehmen jeder Größe genutzt, um innovative
 Kubernetes Verstehen
 :::
 :::GlobalParagraph
-[Kubernetes](/blog/local-kubernetes-development/){.bs-link-blue} ist eine Open-Source-Container-Orchestrierungsplattform, die die Art und Weise, wie Anwendungen verwaltet und bereitgestellt werden, revolutioniert hat. Es bietet eine umfassende Lösung zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen. Mit seinen leistungsstarken Funktionen und Komponenten bietet Kubernetes eine skalierbare und flexible Plattform für die moderne Anwendungsentwicklung.
+[Kubernetes](/blog/kubernetes-development/){.bs-link-blue} ist eine Open-Source-Container-Orchestrierungsplattform, die die Art und Weise, wie Anwendungen verwaltet und bereitgestellt werden, revolutioniert hat. Es bietet eine umfassende Lösung zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von containerisierten Anwendungen. Mit seinen leistungsstarken Funktionen und Komponenten bietet Kubernetes eine skalierbare und flexible Plattform für die moderne Anwendungsentwicklung.
 :::
 
 <!--- Störer -->
