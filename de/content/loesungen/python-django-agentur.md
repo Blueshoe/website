@@ -173,7 +173,7 @@ The Woodshop
 #card4
   :::GlobalPartial{content=slides/allgau-1}
   :::
-::
+
 
 #card5
 ::GlobalSliderCard{:logo='{"src": "/img/global/slide/ofa-bamberg.jpg", "alt": "ofa bamberg"}' :desktopImage='{"src": "/img/global/slide/ofa-bamberg-foto.jpg", "alt": "ofa bamberg"}' :mobileImage='{"src": "/img/global/slide/ofa-bamberg-mobile.jpg", "alt": "ofa bamberg"}' :tags='["Django CMS", "Bootstrap", "JavaScript", "HubSpot"]'}
