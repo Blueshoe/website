@@ -13,9 +13,9 @@ head:
     - property: 'og:description'
       content: 'Microservice Architektur Beratung. Wir helfen dir, deine Microservice-Strategie zu definieren. Endlich schneller Software entwickeln.'
     - property: 'og:image'
-      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
+      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - property: 'og:image:secure_url'
-      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
+      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
     - name: 'twitter:card'
       content: 'summary'
     - name: 'twitter:title'
@@ -23,7 +23,7 @@ head:
     - name: 'twitter:description'
       content: 'Microservice Architektur Beratung. Wir helfen dir, deine Microservice-Strategie zu definieren. Endlich schneller Software entwickeln.'
     - name: 'twitter:image'
-      content: 'https://www.blueshoe.de/img/services/cloud_native_development_header.svg'
+      content: 'https://www.blueshoe.de/img/meta/blueshoe-cloud-native-devlopment.png'
 ---
 
 ::GlobalWrapperSections
