@@ -141,7 +141,8 @@ export default defineNuxtConfig({
   },
   router: {
     options: {
-      scrollBehaviorType: 'smooth'
+      scrollBehaviorType: 'smooth',
     }
+
   }
 });

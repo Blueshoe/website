@@ -1,5 +1,5 @@
 <template>
-  <div :class="bg">
+  <div :class="bg" class="scroll-m-8">
     <div class="bs-container py-10">
       <div class="flex flex-col items-center px-4 lg:px-0">
         <div v-if="isMainSlot" class="mb-10"><slot /></div>
