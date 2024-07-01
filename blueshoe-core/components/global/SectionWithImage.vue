@@ -1,7 +1,7 @@
 <template>
   <div
     :class="bg"
-    class="relative"
+    class="relative scroll-m-8"
   >
     <div class="bs-container">
       <div class="flex flex-col sm:grid sm:grid-cols-2 py-10 px-4 lg:px-0">

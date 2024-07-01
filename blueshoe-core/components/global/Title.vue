@@ -2,7 +2,7 @@
   <component
     :is="tag"
     :id="id"
-    class="font-extralight font-oswald hyphens-auto"
+    class="font-extralight font-oswald hyphens-auto scroll-mt-20"
     :class="[color, font, text]"
     lang="de"
   >

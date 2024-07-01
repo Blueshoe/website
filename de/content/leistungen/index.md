@@ -174,7 +174,7 @@ head:
 :::
 
 :::GlobalSectionWithImage{:image="/img/global/icons/RAPID_P_only.svg" :alt="project greenlight" :imagePosition="left" :bg="bg-white" data-title="3. Projektfreigabe oder Stopp" .pb-10}
-  ::::GlobalTitle{.mb-6 id="projektfreigabe" :tag="h3"}
+  ::::GlobalTitle{.mb-6 :tag="h3" id="projektfreigabe"}
   3\. Die Entscheidung über Projektfreigabe oder Stopp
   ::::
   ::::GlobalParagraph{.mb-4}
