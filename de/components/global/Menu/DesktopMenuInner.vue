@@ -5,7 +5,7 @@
       <Icon name="ri:arrow-down-s-fill" width="30" height="30" class="pb-1" />
     </span>
     <DesktopMenuChildren
-      v-if="props.navItem.dropDown && props.navItem.children && props.navItem.isDropDown"
+      v-show="props.navItem.dropDown && props.navItem.children && props.navItem.isDropDown"
       :nav-item="props.navItem"
       @on-click-outside="emitOnClickOutside"
       @handle-close-menu="emitHandleCloseMenu"
