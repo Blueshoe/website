@@ -34,8 +34,16 @@
         >
           <NuxtLink :to="link.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <booster-image :src="child.icon" title="icon" width="40" height="40" class="max-w-[40px]" alt="icon" format="webp" />
-              <span>{{ t(child.name) }}</span>
+              <BoosterImage
+                class="max-w-[40px]"
+                :src="link.icon"
+                :title="`${t(link.name)} Icon`"
+                :alt="`${t(link.name)} Icon`"
+                width="40"
+                height="40"
+                format="webp"
+              />
+              <span>{{ t(link.name) }}</span>
             </div>
           </NuxtLink>
         </li>
@@ -47,14 +55,7 @@
           color="green"
           size="small"
           @click="isMobileMenuOpen = false"
-        >
-          <NuxtLink :to="child.href">
-            <div class="flex items-center gap-2 px-6 py-1">
-              <booster-image :src="child.icon" title="icon" width="40" height="40" class="max-w-[40px]" alt="icon" format="webp" />
-              <span>{{ t(child.name) }}</span>
-            </div>
-          </NuxtLink>
-        </li>
+        />
       </div>
     </ul>
   </div>

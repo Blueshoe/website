@@ -74,33 +74,4 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <style scoped>
-.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #fff;
-}
-.swiper-button-next:after {
-  content: none;
-}
-.swiper-button-next {
-  background: white url('https://api.iconify.design/bi/arrow-right.svg?color=%232470a9&width=26&height=26') no-repeat
-    center center;
-  right: -23px;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
-}
-.swiper-button-prev:after {
-  content: none;
-}
-.swiper-button-prev {
-  background: white url('https://api.iconify.design/bi/arrow-left.svg?color=%232470a9&width=26&height=26') no-repeat
-    center center;
-  left: -23px;
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
-}
 </style>

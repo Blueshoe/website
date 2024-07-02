@@ -1,49 +1,27 @@
 <template>
-  <ul class="flex border-b border-bs-menu-hover z-20">
-    <li v-for="(nav, i) in menu" :key="i"
+  <ul class="flex border-b border-bs-menu-hover z-20" @mouseleave="onClickOutside">
+    <NuxtLink
+      v-for="(nav, i) in menu"
+      :key="i"
+      :to="nav.href"
       class="cursor-pointer hover:bg-bs-menu-hover px-2 xl:px-4 pt-4 pb-5 first:pr-1"
-      @click="nav.dropDown ? (nav.isDropDown = true) : navigateTo(nav.href)">
-      <NuxtLink :to="nav.href" :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''">
+      :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''"
+      @mouseover="nav.dropDown ? (nav.isDropDown = true) : null"
+      @mouseleave="nav.dropDown ? (nav.isDropDown = false) : null"
+    >
+      <li>
         {{ t(nav.name) }}
-        <span v-if="nav.dropDown" class="">
+        <span v-if="nav.dropDown">
           <Icon name="ri:arrow-down-s-fill" width="30" height="30" class="pb-1" />
         </span>
-      </NuxtLink>
-      <ul v-click-outside="onClickOutside" v-if="nav.dropDown && nav.children && nav.isDropDown"
-        class="absolute left-[12px] top-[70px] grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2">
-        <div class="border-r-2 border-bs-menu-hover">
-          <div class="text-base text-black font-normal px-6 py-2">{{ t('entwicklung') }}</div>
-          <div class="grid grid-cols-2">
-            <li v-for="(child, index) in nav.children[0]" :key="index"
-              class="relative font-source-sans-pro font-normal text-base py-2.5" @click.stop="handleCloseMenu(nav)">
-              <NuxtLink :to="child.href"
-                class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue">
-                <div class="flex items-center gap-2 px-6 py-1">
-                  <booster-image :src="child.icon" width="40" title="menu icon" class="max-w-[40px]" alt="menu icon"
-                    format="webp" />
-                  <span>{{ t(child.name) }}</span>
-                </div>
-              </NuxtLink>
-            </li>
-          </div>
-        </div>
-        <div>
-          <div class="text-base text-black font-normal px-6 py-2">{{ t('beratung') }}</div>
-          <div class="grid grid-cols-2">
-            <li v-for="(child, index2) in nav.children[1]" :key="index2"
-              class="relative font-source-sans-pro font-normal text-base py-2.5" @click.stop="handleCloseMenu(nav)">
-              <NuxtLink :to="child.href"
-                class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue">
-                <div class="flex items-center gap-2 px-6 py-1">
-                  <booster-image :src="child.icon" width="40" title="menu icon" class="max-w-[40px]" alt="menu icon" format="webp" />
-                  <span>{{ t(child.name) }}</span>
-                </div>
-              </NuxtLink>
-            </li>
-          </div>
-        </div>
-      </ul>
-    </li>
+        <DesktopMenuChildren
+          v-if="nav.dropDown && nav.children && nav.isDropDown"
+          :nav-item="nav"
+          @on-click-outside="onClickOutside"
+          @handle-close-menu="handleCloseMenu"
+        />
+      </li>
+    </NuxtLink>
   </ul>
 </template>
 
@@ -78,7 +56,8 @@ const handleCloseMenu = (nav: Menu) => {
 };
 </script>
 
-<i18n lang="json">{
+<i18n lang="json">
+{
   "en": {
     "services": "Leistungen",
     "solutions": "Lösungen",
@@ -110,4 +89,5 @@ const handleCloseMenu = (nav: Menu) => {
     "entwicklung": "Entwicklung",
     "beratung": "Enterprise Lösungen"
   }
-}</i18n>
+}
+</i18n>
