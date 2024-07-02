@@ -37,7 +37,7 @@
             <img
               :src="images[activeSlider].src"
               :alt="images[activeSlider].alt"
-              class="object-contain max-w-[500px] w-full h-full"
+              class="object-contain max-w-[350px] w-full h-full"
             />
           </div>
           <div class="flex flex-col relative" :class="[imagePosition === 'left' ? 'sm:order-2' : 'sm:order-1']">
@@ -87,7 +87,7 @@ function handleSlider(i: number) {
 }
 </script>
 
-<style>
+<style scoped>
 .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: v-bind(dotColor) !important;
 }

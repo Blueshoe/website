@@ -41,7 +41,8 @@ export default defineNuxtConfig({
         'python',
         'java',
         'php',
-        'ruby'
+        'ruby',
+        'docker'
       ]
     }
   },
@@ -68,7 +69,7 @@ export default defineNuxtConfig({
     defaultLocale: 'en'
   },
   delayHydration: {
-    mode: 'mount',
+    mode: false,
     debug: process.env.NODE_ENV === 'development'
   },
   booster: {
@@ -123,9 +124,12 @@ export default defineNuxtConfig({
       vimeo: 'https://i.vimeocdn.com'
     }
   },
+  ssr: true,
   nitro: {
+    static: true,
     prerender: {
-      routes: ['/sitemap.xml'],
+      routes: ['/sitemap.xml', '/'],
+      crawlLinks: true,
       // ignore external links that break github action
       ignore: [
         '/[https://www.ampproject.org/roadmap/',
@@ -134,5 +138,11 @@ export default defineNuxtConfig({
       ],
       failOnError: false
     }
+  },
+  router: {
+    options: {
+      scrollBehaviorType: 'smooth',
+    }
+
   }
 });

@@ -5,7 +5,7 @@
         v-for="(nav, i) in menu"
         :key="i"
         class="cursor-pointer border-b border-bs-menu-hover hover:bg-bs-menu-hover px-4 pt-4 pb-5 first:pr-1"
-        @click="toggleSubmenu(nav)"
+        @click="toggleChild(nav)"
       >
         <NuxtLink :to="nav.href" class="block w-full">
           {{ t(nav.name) }}
@@ -22,37 +22,40 @@
       >
         {{ t('zurück') }}
       </div>
-      <div class="border-b-2 border-bs-menu-hover">
-        <div class="text-base text-black font-normal px-6 py-2">{{ t('entwicklung') }}</div>
+      <div v-for="(child, index) in children" :key="index" class="border-b-2 border-bs-menu-hover">
+        <div v-if="child.showTitle" class="text-base text-black font-normal px-6 py-2">
+          <span v-text="t(child.title)" />
+        </div>
         <li
-          v-for="(child, i) in subMenu[0]"
+          v-for="(link, i) in child.links"
           :key="i"
           class="font-source-sans-pro font-normal text-base hover:bg-bs-menu-hover py-2.5"
           @click="isMobileMenuOpen = false"
         >
-          <NuxtLink :to="child.href">
+          <NuxtLink :to="link.href">
             <div class="flex items-center gap-2 px-6 py-1">
-              <booster-image :src="child.icon" title="icon" width="40" height="40" class="max-w-[40px]" alt="icon" format="webp" />
-              <span>{{ t(child.name) }}</span>
+              <BoosterImage
+                class="max-w-[40px]"
+                :src="link.icon"
+                :title="`${t(link.name)} Icon`"
+                :alt="`${t(link.name)} Icon`"
+                width="40"
+                height="40"
+                format="webp"
+              />
+              <span>{{ t(link.name) }}</span>
             </div>
           </NuxtLink>
         </li>
-      </div>
-      <div>
-        <div class="text-base text-black font-normal px-6 py-2">{{ t('beratung') }}</div>
-        <li
-          v-for="(child, i) in subMenu[1]"
-          :key="i"
-          class="font-source-sans-pro font-normal text-base hover:bg-bs-menu-hover py-2.5"
+        <GlobalButton
+          v-if="child.showExtraButton && child.extraButtonLabel"
+          class="my-4 ml-4"
+          :url="child.extraButtonLink"
+          :label="child.extraButtonLabel"
+          color="green"
+          size="small"
           @click="isMobileMenuOpen = false"
-        >
-          <NuxtLink :to="child.href">
-            <div class="flex items-center gap-2 px-6 py-1">
-              <booster-image :src="child.icon" title="icon" width="40" height="40" class="max-w-[40px]" alt="icon" format="webp" />
-              <span>{{ t(child.name) }}</span>
-            </div>
-          </NuxtLink>
-        </li>
+        />
       </div>
     </ul>
   </div>
@@ -60,7 +63,7 @@
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
-import BoosterImage from '#booster/components/BoosterImage';
+import BoosterImage from '#booster/components/BoosterImage.vue';
 import { useGeneralStore } from '~/store';
 import type { Menu, SubMenu } from '~/types';
 
@@ -72,22 +75,36 @@ const generalStore = useGeneralStore();
 const { menu, isMobileMenuOpen } = storeToRefs(generalStore);
 
 const isDropDownOpen = ref(false);
-const subMenu = ref<SubMenu[][]>([]);
+const children = ref<SubMenu[]>([]);
 
-const toggleSubmenu = (nav: Menu) => {
+const toggleChild = (nav: Menu) => {
   if (!nav.dropDown) {
     isMobileMenuOpen.value = false;
     return;
   }
   nav.isDropDown = !nav.isDropDown;
   isDropDownOpen.value = !isDropDownOpen.value;
-  subMenu.value = nav.children ? nav.children : [];
+  children.value = nav.children ? nav.children : [];
 };
 </script>
 
 <i18n lang="json">
 {
   "en": {
+    "services": "Leistungen",
+    "solutions": "Lösungen",
+    "requirementsEngineering": "Anforderungsworkshops",
+    "requirementsDocs": "Anforderungsdokumentation",
+    "projectGreenlight": "Freigabeentscheidung",
+    "softwareDevelopment": "Software- & Infrastrukturrealisierung",
+    "softwareMaintenance": "Wartung & Support",
+    "automaticFrontendTesting": "Automatisches Frontend Testing",
+    "rightsAccessManagement": "Rights & Access Management",
+    "websiteBooster": "Schnelle Websites",
+    "connectingSystems": "Systeme Vernetzen",
+    "websiteAccessability": "Barrierefreie Websites",
+    "hostingCostReduction": "Hostingkosten Reduzieren",
+    "gefyra": "Kubernetes Development",
     "cloudNativeDevelopment": "Cloud Native Development",
     "headlessCms": "Headless CMS",
     "wagtailCms": "Wagtail CMS",
@@ -114,7 +131,7 @@ const toggleSubmenu = (nav: Menu) => {
     "k8sPodcast": "K8s Podcast",
     "kontakt": "Kontakt",
     "entwicklung": "Entwicklung",
-    "beratung": "Beratung",
+    "beratung": "Enterprise Lösungen",
     "zurück": "Zurück"
   }
 }

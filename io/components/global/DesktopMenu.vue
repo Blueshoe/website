@@ -13,8 +13,8 @@
         /></span>
       </NuxtLink>
       <ul
-        v-click-outside="onClickOutside"
         v-if="nav.dropDown && nav.children && nav.isDropDown"
+        v-click-outside="onClickOutside"
         class="absolute left-[12px] top-[70px] grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
       >
         <div class="border-r-2 border-bs-menu-hover">

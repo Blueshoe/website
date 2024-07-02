@@ -276,7 +276,7 @@ $ cilium hubble enable --ui
 Wenn wir "cilium status" erneut ausführen, sehen wir, dass Hubble aktiviert und ausgeführt wird.
 :::
 :::GlobalParagraph
-Um die gesammelten Daten zu nutzen, installieren wir das Hubble CLI wie in der <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Dokumentation</a> beschrieben. Sobald die Installation abgeschlossen ist, können wir den Hubble-API-Zugriff überprüfen, indem wir zuerst ein Port-Forwarding für Hubble erstellen und dann die Hubble CLI verwenden, um den Hubble-Status zu überprüfen und die [API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} abzufragen. Dies geschieht wie folgt:
+Um die gesammelten Daten zu nutzen, installieren wir das Hubble CLI wie in der <a href="https://docs.cilium.io/en/stable/gettingstarted/hubble_setup/#install-the-hubble-client" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Dokumentation</a> beschrieben. Sobald die Installation abgeschlossen ist, können wir den Hubble-API-Zugriff überprüfen, indem wir zuerst ein Port-Forwarding für Hubble erstellen und dann die Hubble CLI verwenden, um den Hubble-Status zu überprüfen und die [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} abzufragen. Dies geschieht wie folgt:
 :::
 
 :::BlogCode{.mb-5}

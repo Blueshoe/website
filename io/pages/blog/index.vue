@@ -93,12 +93,43 @@ useHead({
 const generalStore = useGeneralStore();
 const { sortedItems, initialSorting, filters } = storeToRefs(generalStore);
 
-onMounted(async () => {
-  const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
+const updateBlogFilters = () => {
+  const uniqueItemsMap = new Map();
+
+  filters.value.forEach((filter) => {
+    uniqueItemsMap.set(filter.name, new Set());
+  });
+
+  sortedItems.value?.forEach((entry) => {
+    Object.keys(entry).forEach((key) => {
+      if (uniqueItemsMap.has(key)) {
+        entry[key].forEach((item) => {
+          uniqueItemsMap.get(key).add(item);
+        });
+      }
+    });
+  });
+
+  filters.value.forEach((filter) => {
+    if (uniqueItemsMap.has(filter.name)) {
+      filter.items = Array.from(uniqueItemsMap.get(filter.name)).map((item) => {
+        return {
+          name: item,
+          isSelected: false
+        };
+      });
+    }
+  });
+};
+
+const { data: blogs } = await useAsyncData('blogs', () => queryContent('/blog').find());
+
+onMounted(() => {
   sortedItems.value = blogs.value?.sort((a, b) => {
     return convertToDate(b.date) - convertToDate(a.date);
   });
   initialSorting.value = sortedItems.value;
-  console.log('sortedItems', sortedItems.value);
+
+  updateBlogFilters();
 });
 </script>

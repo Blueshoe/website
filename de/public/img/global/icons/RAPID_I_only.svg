@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="78.202881mm"
+   height="102.2009mm"
+   viewBox="0 0 78.202881 102.2009"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-65.881242,-97.366666)">
+    <path
+       id="rect12-3-6-8"
+       style="fill:#2470a9;fill-opacity:1;stroke:#2470a9;stroke-width:1.122;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 66.6214,97.927666 h 62.61888 l 14.26095,50.439964 -14.26095,50.63894 H 66.6214 l 14.14169,-50.69826 z"
+       sodipodi:nodetypes="ccccccc" />
+    <g
+       id="g9"
+       transform="matrix(0.10418365,0,0,0.09313546,82.17197,123.11954)">
+      <path
+         d="m 256.349,148.413 v 69.003 c 0,40.523 -32.851,73.374 -73.374,73.374 -40.523,0 -73.374,-32.851 -73.374,-73.374 v -69.003 z"
+         fill="#ffffff"
+         data-original="#fdbeb9"
+         class=""
+         opacity="1"
+         id="path1-1" />
+      <path
+         d="m 101.855,178.573 h 37.16 c 16.657,0 30.16,-13.503 30.16,-30.16 0,16.657 13.503,30.16 30.16,30.16 h 64.761 v -16.607 c 0,-44.801 -36.319,-81.12 -81.12,-81.12 -44.801,0 -81.12,36.319 -81.12,81.12 v 16.607 z"
+         fill="#2470a9"
+         data-original="#fd7da0"
+         class=""
+         opacity="1"
+         id="path2-09" />
+      <path
+         d="M 284.394,255.33 H 81.557 c -25.316,0 -45.838,20.522 -45.838,45.838 V 456 H 330.232 V 301.168 c 0,-25.316 -20.522,-45.838 -45.838,-45.838 z"
+         fill="#63d9b6"
+         data-original="#67ccd1"
+         class=""
+         opacity="1"
+         id="path3-79" />
+      <path
+         d="m 155.665,355.665 c 0,-38.247 13.824,-73.26 36.736,-100.335 H 81.557 c -25.316,0 -45.838,20.522 -45.838,45.838 V 456 H 192.402 C 169.489,428.925 155.665,393.912 155.665,355.665 Z M 10,456 h 345.951 v 44 H 10 Z"
+         fill="#97a2a6"
+         data-original="#27a2cc"
+         class=""
+         opacity="1"
+         id="path4-7" />
+      <path
+         d="m 487.054,108.09 c 0,-6.006 -0.628,-11.864 -1.809,-17.519 L 500,82.052 473.434,36.038 458.66,44.568 A 85.195,85.195 0 0 0 428.335,27.046 V 10 h -53.132 v 17.046 a 85.165,85.165 0 0 0 -30.325,17.522 l -14.774,-8.53 -26.566,46.014 14.755,8.519 c -1.181,5.655 -1.809,11.513 -1.809,17.519 0,6.006 0.628,11.864 1.809,17.519 l -14.755,8.519 26.566,46.013 14.774,-8.53 a 85.178,85.178 0 0 0 30.325,17.521 v 17.046 h 53.132 v -17.046 a 85.178,85.178 0 0 0 30.325,-17.521 l 14.774,8.53 26.566,-46.013 -14.755,-8.519 a 85.613,85.613 0 0 0 1.809,-17.519 z"
+         style="clip-rule:evenodd;fill-rule:evenodd"
+         fill="#e09932"
+         data-original="#fdcb50"
+         class=""
+         opacity="1"
+         id="path5-5" />
+      <circle
+         cx="401.76901"
+         cy="108.09"
+         r="37.679001"
+         style="clip-rule:evenodd;fill-rule:evenodd"
+         transform="rotate(-45.001,401.77,108.095)"
+         fill="#ffffff"
+         data-original="#ffffff"
+         id="circle5" />
+      <path
+         d="m 101.855,178.573 h 37.16 c 16.657,0 30.16,-13.503 30.16,-30.16 v 0 c 0,16.657 13.503,30.16 30.16,30.16 h 64.761 v -16.607 c 0,-44.801 -36.319,-81.12 -81.12,-81.12 v 0 c -44.801,0 -81.12,36.319 -81.12,81.12 v 16.607 z"
+         style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         fill="none"
+         stroke="#052a75"
+         stroke-width="20"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         data-original="#052a75"
+         class=""
+         id="path6-2" />
+      <path
+         d="M 284.394,255.33 H 81.557 c -25.316,0 -45.838,20.522 -45.838,45.838 V 456 H 330.232 V 301.168 c 0,-25.316 -20.522,-45.838 -45.838,-45.838 z M 109.601,178.573 v 38.844 c 0,13.739 3.785,26.59 10.356,37.584 M 245.993,255 c 6.571,-10.994 10.356,-23.845 10.356,-37.584 V 178.572 M 10,456 h 345.951 v 44 H 10 Z"
+         style="stroke-width:20;stroke-linejoin:round;stroke-miterlimit:10"
+         fill="none"
+         stroke="#052a75"
+         stroke-width="20"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         data-original="#052a75"
+         class=""
+         id="path7-7" />
+      <path
+         d="m 232.16,331.502 22.815,24.163 -22.815,24.163 m -98.369,0 -22.815,-24.163 22.815,-24.163 m 54.369,-3.97 -10.369,56.266"
+         style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         fill="none"
+         stroke="#ffffff"
+         stroke-width="20"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         data-original="#ffffff"
+         class=""
+         id="path8-43" />
+      <path
+         d="m 487.054,108.09 c 0,-6.006 -0.628,-11.864 -1.809,-17.519 L 500,82.052 473.434,36.038 458.66,44.568 A 85.195,85.195 0 0 0 428.335,27.046 V 10 h -53.132 v 17.046 a 85.165,85.165 0 0 0 -30.325,17.522 l -14.774,-8.53 -26.566,46.014 14.755,8.519 c -1.181,5.655 -1.809,11.513 -1.809,17.519 0,6.006 0.628,11.864 1.809,17.519 l -14.755,8.519 26.566,46.013 14.774,-8.53 a 85.178,85.178 0 0 0 30.325,17.521 v 17.046 h 53.132 v -17.046 a 85.178,85.178 0 0 0 30.325,-17.521 l 14.774,8.53 26.566,-46.013 -14.755,-8.519 a 85.613,85.613 0 0 0 1.809,-17.519 z"
+         style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         fill="none"
+         stroke="#052a75"
+         stroke-width="20"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         data-original="#052a75"
+         class=""
+         id="path9-1" />
+    </g>
+  </g>
+</svg>

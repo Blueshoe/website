@@ -84,7 +84,7 @@ You receive a precise price indication for your project
 :::
 
 #card3
-:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small"}
+:::GlobalCurvedSliderGreenCard{:zIndex=3 :size="small" :backgroundColor="#f5f5f5"}
 Project greenlight or stop
 :::
 

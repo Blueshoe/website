@@ -6,6 +6,8 @@ Allow: */*.jpg
 Allow: */*.jpeg
 Allow: */*.gif
 Allow: */*.png
+Disallow: /_partials/
+Disallow: /_nuxt/
 
 Sitemap: https://www.blueshoe.de/sitemap.xml
 Host: https://www.blueshoe.de/

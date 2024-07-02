@@ -5,7 +5,7 @@
         <div>
           <slot />
         </div>
-        <div class="block md:hidden mb-2">
+        <div class="block md:hidden">
           <Swiper
             :modules="[SwiperPagination, SwiperVirtual]"
             :slides-per-view="1"
@@ -22,7 +22,7 @@
           </Swiper>
         </div>
         <div
-          class="hidden md:grid md:grid-cols-2 mb-2"
+          class="hidden md:grid md:grid-cols-2"
           :class="{ 'lg:grid-cols-3': props.numberCards > 2 && props.numberCards !== 4 }"
         >
           <div v-for="(number, i) in props.numberCards" :key="i"><slot :name="'card' + number" /></div>
@@ -50,7 +50,7 @@ const props = withDefaults(defineProps<Props>(), {
 });
 </script>
 
-<style>
+<style scoped>
 .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: v-bind(dotColor) !important;
 }

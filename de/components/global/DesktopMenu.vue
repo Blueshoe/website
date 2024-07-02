@@ -1,73 +1,35 @@
 <template>
-  <ul class="flex border-b border-bs-menu-hover z-20">
-    <li
+  <ul class="flex border-b border-bs-menu-hover z-20" @mouseleave="onClickOutside">
+    <NuxtLink
       v-for="(nav, i) in menu"
       :key="i"
+      :to="nav.href"
       class="cursor-pointer hover:bg-bs-menu-hover px-2 xl:px-4 pt-4 pb-5 first:pr-1"
-      @click="nav.dropDown ? (nav.isDropDown = true) : navigateTo(nav.href)"
+      :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''"
+      @mouseover="nav.dropDown ? (nav.isDropDown = true) : null"
+      @mouseleave="nav.dropDown ? (nav.isDropDown = false) : null"
     >
-      <NuxtLink :to="nav.href" :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''">
+      <li>
         {{ t(nav.name) }}
-        <span v-if="nav.dropDown" class=""
-          ><Icon name="ri:arrow-down-s-fill" width="30" height="30" class="pb-1"
-        /></span>
-      </NuxtLink>
-      <ul
-        v-click-outside="onClickOutside"
-        v-if="nav.dropDown && nav.children && nav.isDropDown"
-        class="absolute left-[12px] top-[70px] grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
-      >
-        <div class="border-r-2 border-bs-menu-hover">
-          <div class="text-base text-black font-normal px-6 py-2">{{ t('entwicklung') }}</div>
-          <div class="grid grid-cols-2">
-            <li
-              v-for="(child, index) in nav.children[0]"
-              :key="index"
-              class="relative font-source-sans-pro font-normal text-base py-2.5"
-              @click.stop="handleCloseMenu(nav)"
-            >
-              <NuxtLink
-                :to="child.href"
-                class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
-              >
-                <div class="flex items-center gap-2 px-6 py-1">
-                  <booster-image :src="child.icon" title="menu icon" width="40" class="max-w-[40px]" alt="menu icon" format="webp" />
-                  <span>{{ t(child.name) }}</span>
-                </div>
-              </NuxtLink>
-            </li>
-          </div>
-        </div>
-        <div>
-          <div class="text-base text-black font-normal px-6 py-2">{{ t('beratung') }}</div>
-          <div class="grid grid-cols-2">
-            <li
-              v-for="(child, index2) in nav.children[1]"
-              :key="index2"
-              class="relative font-source-sans-pro font-normal text-base py-2.5"
-              @click.stop="handleCloseMenu(nav)"
-            >
-              <NuxtLink
-                :to="child.href"
-                class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
-              >
-                <div class="flex items-center gap-2 px-6 py-1">
-                  <booster-image :src="child.icon" title="menu icon" width="40" class="max-w-[40px]" alt="menu icon" format="webp" />
-                  <span>{{ t(child.name) }}</span>
-                </div>
-              </NuxtLink>
-            </li>
-          </div>
-        </div>
-      </ul>
-    </li>
+        <span v-if="nav.dropDown">
+          <Icon name="ri:arrow-down-s-fill" width="30" height="30" class="pb-1" />
+        </span>
+        <DesktopMenuChildren
+          v-if="nav.dropDown && nav.children && nav.isDropDown"
+          :nav-item="nav"
+          @on-click-outside="onClickOutside"
+          @handle-close-menu="handleCloseMenu"
+        />
+      </li>
+    </NuxtLink>
   </ul>
 </template>
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
+import DesktopMenuChildren from './Menu/DesktopMenuChildren.vue';
 import { useGeneralStore } from '~/store';
-import BoosterImage from '#booster/components/BoosterImage';
+import type { Menu } from '~/types';
 
 const { t } = useI18n({
   useScope: 'local'
@@ -76,7 +38,7 @@ const { t } = useI18n({
 const generalStore = useGeneralStore();
 const { menu } = storeToRefs(generalStore);
 
-const onClickOutside = (e: Event) => {
+const onClickOutside = () => {
   menu.value.forEach((nav) => {
     if (nav.isDropDown) {
       nav.isDropDown = false;
@@ -84,7 +46,7 @@ const onClickOutside = (e: Event) => {
   });
 };
 
-const handleCloseMenu = (nav) => {
+const handleCloseMenu = (nav: Menu) => {
   menu.value = menu.value.map((item) => {
     if (item.name === nav.name) {
       item.isDropDown = false;
@@ -97,6 +59,8 @@ const handleCloseMenu = (nav) => {
 <i18n lang="json">
 {
   "en": {
+    "services": "Leistungen",
+    "solutions": "Lösungen",
     "cloudNativeDevelopment": "Cloud Native Development",
     "headlessCms": "Headless CMS",
     "wagtailCms": "Wagtail CMS",
@@ -123,7 +87,7 @@ const handleCloseMenu = (nav) => {
     "k8sPodcast": "K8s Podcast",
     "kontakt": "Kontakt",
     "entwicklung": "Entwicklung",
-    "beratung": "Beratung"
+    "beratung": "Enterprise Lösungen"
   }
 }
 </i18n>

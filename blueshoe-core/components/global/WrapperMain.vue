@@ -53,7 +53,12 @@ onMounted(() => {
     for (let i = 0; i < headingListData.value.length; i++) {
       const element = headingListData.value[i];
       const el = document.getElementById(element.id);
-      element.active = isElementInViewport(el);
+      if (!el) {
+        element.active = false;
+      } else {
+        element.active = isElementInViewport(el);
+      }
+      
     }
 
     const activeHeadings = headingListData.value.filter((obj) => obj.active);

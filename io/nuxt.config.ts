@@ -24,9 +24,25 @@ export default defineNuxtConfig({
       theme: {
         default: 'monokai'
       },
-      langs : ['javascript', 'typescript', 'json', 'bash', 'shell',
-        'yaml', 'markdown', 'html', 'css', 'scss', 'xml',
-        'graphql', 'sql', 'python', 'java', 'php', 'ruby']
+      langs: [
+        'javascript',
+        'typescript',
+        'json',
+        'bash',
+        'shell',
+        'yaml',
+        'markdown',
+        'html',
+        'css',
+        'scss',
+        'xml',
+        'graphql',
+        'sql',
+        'python',
+        'java',
+        'php',
+        'ruby'
+      ]
     }
   },
   tailwindcss: {

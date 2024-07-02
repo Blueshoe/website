@@ -286,7 +286,7 @@ Angenommen, du möchtest eine Kubernetes-basierte Entwicklungsumgebung erstellen
 
 :::GlobalBlock{.ol-decimal .mb-5}
 1. Sammele alle Ressourcen zur Bereitstellung eines Kubernetes-Clusters (z.B. brauchst du Helm-Charts, Kustomize-Ressourcen oder einfache YAML-Dateien). Wenn du unsicher bist, frage deinen DevOps, dir Anleitungen zur Verfügung zu stellen.
-2. Installiere alle Komponenten, die die Anwendung ausmachen, in deinem lokalen Kubernetes-Cluster  (z.B. erforderliche Datenbanken, Caches, Indizes, [APIs](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} und andere Anwendungen). Alternativ kannst du nur die Komponenten installieren, die wirklich für deine spezielle Anwendung erforderlich sind, um Rechenkapazität zu sparen.
+2. Installiere alle Komponenten, die die Anwendung ausmachen, in deinem lokalen Kubernetes-Cluster  (z.B. erforderliche Datenbanken, Caches, Indizes, [APIs](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} und andere Anwendungen). Alternativ kannst du nur die Komponenten installieren, die wirklich für deine spezielle Anwendung erforderlich sind, um Rechenkapazität zu sparen.
 3. Stelle sicher, dass alles läuft.
 :::
 :::globalParagraph

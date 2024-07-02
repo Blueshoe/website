@@ -231,7 +231,7 @@ Individual tasks and complex requirements need precisely fitting software. We be
 :::
 
 
-:::GlobalTabsSection{:labels='["Infrastructure", "Backend", "Frontend"]' init='true'}
+:::GlobalTabsSection{:labels='["Infrastructure", "Backend", "Frontend"]' init=true}
 ::::GlobalPreTitle{:color="text-bs-green" .mb-3}
 TOOLS, FRAMEWORKS AND TECHNOLOGIES WE WORK WITH
 ::::
