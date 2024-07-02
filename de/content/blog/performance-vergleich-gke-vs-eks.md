@@ -5,13 +5,13 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Warum nehmen wir einfach an, dass verwaltete K8s-Plattformen in allen wichtigen Metriken solide performen? Wir haben GKE vs. EKS benchmarkt und hier sind die schockierenden Ergebnisse.'
+      content: '/blog/migration-nach-cloud-native/'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'
       content: 'Leistungsvergleich: GKE vs. EKS'
     - property: 'og:description'
-      content: 'Warum nehmen wir einfach an, dass verwaltete K8s-Plattformen in allen wichtigen Metriken solide performen? Wir haben GKE vs. EKS benchmarkt und hier sind die schockierenden Ergebnisse.'
+      content: 'Vergleiche die Performance von GKE und EKS. Erfahre, welche Kubernetes-Plattform bei CPU, RAM und Dateisystem besser abschneidet. Jetzt mehr erfahren!'
     - property: 'og:image'
       content: 'https://www.blueshoe.io/img/blogs/performance-comparison-gke-vs-eks.jpg'
     - property: 'og:image:secure_url'
@@ -21,7 +21,7 @@ head:
     - name: 'twitter:title'
       content: 'Leistungsvergleich: GKE vs. EKS'
     - name: 'twitter:description'
-      content: 'Warum nehmen wir einfach an, dass verwaltete K8s-Plattformen in allen wichtigen Metriken solide performen? Wir haben GKE vs. EKS benchmarkt und hier sind die schockierenden Ergebnisse.'
+      content: 'Vergleiche die Performance von GKE und EKS. Erfahre, welche Kubernetes-Plattform bei CPU, RAM und Dateisystem besser abschneidet. Jetzt mehr erfahren!'
     - name: 'twitter:image'
       content: 'https://www.blueshoe.io/img/blogs/performance-comparison-gke-vs-eks.jpg'
 src: '/blog/performance-vergleich-gke-vs-eks'
@@ -29,7 +29,7 @@ img: '/img/blogs/performance-comparison-gke-vs-eks.jpg'
 alt: 'Leistungsvergleich: GKE vs. EKS'
 preTitle: 'Container-Runtime-Leistung'
 title: "Leistungsvergleich: GKE vs. EKS"
-description: 'Warum nehmen wir einfach an, dass verwaltete K8s-Plattformen in allen wichtigen Metriken solide performen? Wir haben GKE vs. EKS benchmarkt und hier sind die schockierenden Ergebnisse.'
+description: 'Vergleiche die Performance von GKE und EKS. Erfahre, welche Kubernetes-Plattform bei CPU, RAM und Dateisystem besser abschneidet. Jetzt mehr erfahren!'
 date: '09.02.2023'
 author:
   - Michael Schilonka
@@ -68,14 +68,15 @@ Natürlich sollten wir die Analyse der Container-Runtime-Leistung mit diesen bei
 Aber warum?
 :::
 :::globalParagraph
-Einerseits ist es einfach interessant festzustellen, wie diese beiden großen Player im Vergleich zueinander abschneiden. Auf der einen Seite hast du Amazon Web Services - den Riesen auf dem Markt der Hyperscaler. Und auf der anderen Seite gibt es Google - den Technologieriesen und Pionier von Kubernetes.
+Einerseits ist es einfach interessant festzustellen, wie diese beiden großen Player im Vergleich zueinander abschneiden. Auf der einen Seite hast du Amazon Web Services - den Riesen auf dem Markt der Hyperscaler. Und auf der anderen Seite gibt es Google - den Technologieriesen und Pionier von [Kubernetes](/blog/kubernetes-development){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+.
 :::
 :::globalParagraph
-Aber noch wichtiger ist, dass es immer auf die Kosten ankommt. Wenn du bei vergleichbarem Preis 10% mehr Leistung bekommen kannst, möchten einige vielleicht von der Portabilität von Kubernetes profitieren. Dabei geht es nicht um das Ökosystem oder potenziell angehängte Dienste (wie verwaltete Datenbanken oder Speicher), sondern um die reine Container-Runtime-Leistung. Ich wollte die Frage beantworten: "Mit welcher Geschwindigkeit läuft mein Code in einem ganz normalen Kubernetes-Cluster?". Und das ist, was ich gefunden habe:
+Aber noch wichtiger ist, dass es immer auf die Kosten ankommt. Wenn du bei vergleichbarem Preis 10% mehr Leistung bekommen kannst, möchten einige vielleicht die Portabilität von Kubernetes nutzen. Dabei geht es nicht um das Ökosystem oder potenziell angehängte Dienste (wie verwaltete Datenbanken oder Speicher), sondern um die reine Container-Runtime-Leistung. Ich wollte die Frage beantworten: "Mit welcher Geschwindigkeit läuft mein Code in einem ganz normalen Kubernetes-Cluster?". Und das ist, was ich gefunden habe:
 :::
 
 :::globalTitle{:size="lg" .mb-5}
-Der Benchmark-Setup
+Das Benchmark-Setup
 :::
 :::globalParagraph
 Auf EKS habe ich einen Kubernetes-Cluster mit folgenden Spezifikationen erstellt:
@@ -134,7 +135,7 @@ Glücklicherweise hat jemand bei <a href="https://severalnines.com/blog/" class=
 Um diesen Prozess zu vereinfachen und reproduzierbar zu machen, habe ich einen kleinen Test-Runner für sysbench gestartet. Dieses Tool plant das Benchmark im Cluster (mit einem Node-Selector), wartet auf den Abschluss des Jobs, analysiert das Ergebnis und erstellt eine Datei mit den Testergebnissen.
 :::
 :::globalParagraph
-<a href="https://github.com/Schille/k8s-perf" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ich habe den Code hier öffentlich gemacht</a>. Er basiert auf Python und Poetry. Wenn du Poetry installiert hast, kannst du einfach "poetry run benchmark <node selector>" ausführen und es wird die Kapazität der CPU, des Arbeitsspeichers und des Dateisystems benchmarken.
+<a href="https://github.com/Schille/k8s-perf" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ich habe den Code hier öffentlich gemacht</a>. Er basiert auf Python und Poetry. Wenn du Poetry installiert hast, kannst du einfach *'poetry run benchmark'* <node selector> ausführen und es wird die Kapazität der CPU, des Arbeitsspeichers und des Dateisystems benchmarken.
 :::
 
 :::GlobalPodcastSection{:videoId="tyvE9VlSWkE" :videoPosition="left" .mb-6}
@@ -206,7 +207,7 @@ Dieser Befehl schreibt 500 Gigabyte in den Hauptspeicher und erfasst die Schreib
 ![kubernetes](/img/blogs/performance-comparison-gke-vs-eks-3.jpg){.object-cover .w-max-full .mb-5}
 
 :::globalParagraph
-Auch hier ist GKE etwa 9% langsamer als der Container-Runtime von EKS, wenn es darum geht, viel in den Hauptspeicher zu schreiben. Auf einem EKS-Cluster kann dein Code potenziell mit 4,25 Gigabyte pro Sekunde in den RAM schreiben, während auf GKE dein Container nur mit 3,87 Gigabyte pro Sekunde schaufeln kann. Im Vergleich dazu läuft mein Laptop mit etwa 6,36 Gigabyte pro Sekunde, daher ist keines der Ergebnisse überwältigend.
+Auch hier ist GKE etwa 9% langsamer als der Container-Runtime von EKS, wenn es darum geht, viel in den Hauptspeicher zu schreiben. Auf einem EKS-Cluster kann dein Code potenziell mit 4,25 Gigabyte pro Sekunde in den RAM schreiben, während auf GKE dein Container nur mit 3,87 Gigabyte pro Sekunde schaufeln kann. Im Vergleich dazu läuft mein Laptop mit etwa 6,36 Gigabyte pro Sekunde. Daher ist keines der Ergebnisse überwältigend.
 :::
 
 :::globalTitle{:size="md" .mb-5}
@@ -271,6 +272,6 @@ Fühle dich frei, <a href="https://www.linkedin.com/in/michael-schilonka/" class
 
 
 
-:::BlogRelatedPosts{:url='["/blog/managed-vs-unmanaged-kubernetes", "/blog/strategien-fur-schlanke-docker-images", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz"]'}
+:::BlogRelatedPosts{:url='["/blog/managed-vs-unmanaged-kubernetes", "/blog/strategien-fur-schlanke-docker-images", "/blog/evolution-der-applikationsentwicklung-zu-einem-cloud-native-ansatz", "/blog/kubernetes-aufbau-plattform-kubernetes", "/blog/migration-nach-cloud-native"]'}
 
 :::

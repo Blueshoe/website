@@ -273,7 +273,7 @@ Cloud-Native-Migration
 #card3
 ::GlobalSliderCard{:desktopImage='{"src": "/img/global/slide/nick-fewings.jpg", "alt": "nick fewings"}' :tags='["Cloud-native development"]'}
 :::GlobalParagraph{:fontSize="lg"}
-Pssst! Wir haben bereits für einen bekannten Automobilhersteller im Bereich Cloud-Native gearbeitet. Auch für einige andere Kunden. Wenn Sie mehr wissen wollen, rufen Sie uns einfach an!
+Pssst! Wir haben bereits für einen bekannten Automobilhersteller im Bereich Cloud-Native gearbeitet. Auch für einige andere Kunden. Wenn du mehr wissen möchtest, ruf uns einfach an!
 :::
 #title
 :::GlobalTitle

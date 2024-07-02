@@ -102,7 +102,7 @@ Die Tools des Inbound Marketing sind dabei so vielfältig wie die Ansprüche von
 Tools wie Zendesk und Intercom können dabei helfen, mit den Kunden direkt in Kontakt zu treten. Hiermit ist der entsprechende Mitarbeiter schneller im unmittelbaren Kontakt mit dem Kunden und kann diesem beratend zur Seite stehen oder gar Supportanfragen beantworten.
 :::
 :::globalParagraph
-Ein weiteres nützliches Tool ist Hubspot. Es ermöglicht dem Nutzer, eine strukturierte Sales-Pipeline aufzusetzen und effektives Inbound-Marketing zu betreiben. Artikel, Newsletter, Formulare oder Landing Pages helfen dabei, einen unbekannten zu einem regelmäßigen Besucher oder gar zu einem Kunden konvertieren zu lassen. Es versetzt den Betreiber einer Webseite in die Lage, maßgeschneiderte Inhalte an den User auszuspielen. Ein Beispiel: Ein Besucher Ihrer Webseite liest sich die komplette Seite zu Ihrem Produkt A durch. Er schaut auch auf die Seite von Produkt B, aber nur flüchtig. In dem Suchfeld Ihrer Webseite sucht der Nutzer nun nach weiteren Informationen zu Produkt A. Egal, ob er diese findet oder nicht, Sie wissen nun, dass dieser Nutzer anscheinend ein gewisses Interesse an Produkt A hat. Schaffen Sie es jetzt, dass der Nutzer seine E-Mail-Adresse hinterlässt, sei es für einen Newsletter, ein Gewinnspiel oder im Live-Chat, paart Hubspot diese Daten mit dem zuvor gewonnenen Wissen. Dieses Wissen lässt sich nun in eine zielgenaue Kundenansprache umwandeln.
+Ein weiteres nützliches Tool ist Hubspot. Es ermöglicht dem Nutzer, eine strukturierte Sales-Pipeline aufzusetzen und effektives Inbound-Marketing zu betreiben. Artikel, Newsletter, Formulare oder Landing Pages helfen dabei, einen unbekannten zu einem regelmäßigen Besucher oder gar zu einem Kunden konvertieren zu lassen. Es versetzt den Betreiber einer Webseite in die Lage, maßgeschneiderte Inhalte an den User auszuspielen. Ein Beispiel: Ein Besucher Ihrer Webseite liest sich die komplette Seite zu Ihrem Produkt A durch. Er schaut auch auf die Seite von Produkt B, aber nur flüchtig. In dem Suchfeld Ihrer Webseite sucht der Nutzer nun nach weiteren Informationen zu Produkt A. Egal, ob er diese findet oder nicht, du weißt nun, dass dieser Nutzer anscheinend ein gewisses Interesse an Produkt A hat. Schaffe es jetzt, dass der Nutzer seine E-Mail-Adresse hinterlässt, sei es für einen Newsletter, ein Gewinnspiel oder im Live-Chat, paart Hubspot diese Daten mit dem zuvor gewonnenen Wissen. Dieses Wissen lässt sich nun in eine zielgenaue Kundenansprache umwandeln.
 :::
 :::globalParagraph
 Die grundsätzliche Methodik dieses Vorgehens sieht dabei so aus:
@@ -183,7 +183,7 @@ Markenbekanntheit, Budget oder Markterfahrung sind weitere Beispiele. Konzentrie
 Also, liebe Mittelständler: in die Hände gespuckt und los geht’s!
 :::
 :::globalParagraph
-Gern beraten wir Sie unverbindlich zu Themen der digitalen Transformation.
+Gern beraten wir dich unverbindlich zu Themen der digitalen Transformation.
 :::
 
 <hr class="mb-4" />

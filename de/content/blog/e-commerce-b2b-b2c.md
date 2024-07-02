@@ -103,7 +103,7 @@ KOMPLEXE SCHNITTSTELLEN UND ANBINDUNG AN BESTANDSPROZESSE
 Gerade im B2B-Sektor sind die Bestandsunternehmen oft schon seit Jahrzehnten am Markt. Dabei sind die Geschäftsprozesse sowie die verwendeten Software-Systeme nicht so schnell mitgewachsen wie man das hoffen würde. Gibt es ein funktionierendes System, gibt es oft wenig Grund dieses zu wechseln, denn Systemwechsel sind bekanntlich immer sehr teuer.
 :::
 :::globalParagraph
-Nun, dies bedeutet, dass B2B E-Commerce-Systeme oft auf Systemlandschaften aufsetzen müssen, die bspw. noch aus den 2000er Jahren stammen. Der B2B-Händler passt seine ERP-Software, seine Produktinformationsverwaltung, sein CRM, seine Produktionsschnittstellen eher nicht an ein E-Commerce-System an, sondern erwartet, dass das E-Commerce-System mit seiner bestehenden Systemlandschaft reibungslos funktioniert. Hier steckt der Teufel im Detail und die Systemintegration ist absolute Expertenarbeit. Versuchen Sie das mal mit einem Woo Commerce umzusetzen ;) .
+Nun, dies bedeutet, dass B2B E-Commerce-Systeme oft auf Systemlandschaften aufsetzen müssen, die bspw. noch aus den 2000er Jahren stammen. Der B2B-Händler passt seine ERP-Software, seine Produktinformationsverwaltung, sein CRM, seine Produktionsschnittstellen eher nicht an ein E-Commerce-System an, sondern erwartet, dass das E-Commerce-System mit seiner bestehenden Systemlandschaft reibungslos funktioniert. Hier steckt der Teufel im Detail und die Systemintegration ist absolute Expertenarbeit. Versuche das mal mit einem Woo Commerce umzusetzen ;) .
 :::
 
 :::globalTitle{:size="lg" .mb-5}

@@ -59,7 +59,7 @@ Gefyra
 Django perfekt mit K8s kombinieren
 :::
 :::GlobalParagraph{:fontSize="lg" .mb-4}
-Ein Kubernetes Native Stack, der speziell für Django entwickelt wurde. Führen Sie Django in einer Cloud-Native-Umgebung aus, einschließlich eines von Tornado betriebenen App-Servers.
+Ein Kubernetes Native Stack, der speziell für Django entwickelt wurde. Führe Django in einer Cloud-Native-Umgebung aus, einschließlich eines von Tornado betriebenen App-Servers.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
