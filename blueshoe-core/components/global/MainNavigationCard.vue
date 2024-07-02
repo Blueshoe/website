@@ -11,7 +11,10 @@
         :class="[heading.active ? 'border-b-4 border-bs-green' : 'border-b-4 border-white']"
         @click="handleScroll(heading)"
       >
-        <a class="text-lg font-source-sans-pro font-semibold cursor-pointer">{{ heading.title }}</a>
+        <span
+          class="text-lg font-source-sans-pro font-semibold cursor-pointer"
+          v-text="heading.title"
+        />
       </div>
     </div>
   </div>

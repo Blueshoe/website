@@ -1,39 +1,27 @@
 <template>
   <ul class="flex border-b border-bs-menu-hover z-20" @mouseleave="onClickOutside">
-    <NuxtLink
+    <div
       v-for="(nav, i) in menu"
       :key="i"
-      :to="nav.href"
       class="cursor-pointer hover:bg-bs-menu-hover px-2 xl:px-4 pt-4 pb-5 first:pr-1"
-      :active-class="!nav.dropDown ? 'border-b-2 border-black border-opacity-20' : ''"
       @mouseover="nav.dropDown ? (nav.isDropDown = true) : null"
       @mouseleave="nav.dropDown ? (nav.isDropDown = false) : null"
     >
-      <li>
-        {{ t(nav.name) }}
-        <span v-if="nav.dropDown">
-          <Icon name="ri:arrow-down-s-fill" width="30" height="30" class="pb-1" />
-        </span>
-        <DesktopMenuChildren
-          v-if="nav.dropDown && nav.children && nav.isDropDown"
-          :nav-item="nav"
-          @on-click-outside="onClickOutside"
-          @handle-close-menu="handleCloseMenu"
-        />
-      </li>
-    </NuxtLink>
+      <NuxtLink v-if="nav.href" :to="nav.href">
+        <DesktopMenuInner :nav-item="nav" @on-click-outside="onClickOutside" @handle-close-menu="handleCloseMenu" />
+      </NuxtLink>
+      <div v-else>
+        <DesktopMenuInner :nav-item="nav" @on-click-outside="onClickOutside" @handle-close-menu="handleCloseMenu" />
+      </div>
+    </div>
   </ul>
 </template>
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia';
-import DesktopMenuChildren from './Menu/DesktopMenuChildren.vue';
+import DesktopMenuInner from './Menu/DesktopMenuInner.vue';
 import { useGeneralStore } from '~/store';
 import type { Menu } from '~/types';
-
-const { t } = useI18n({
-  useScope: 'local'
-});
 
 const generalStore = useGeneralStore();
 const { menu } = storeToRefs(generalStore);
