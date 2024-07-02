@@ -38,7 +38,7 @@ marketing: []
 sonstiges: []
 ---
 ::globalParagraph
-Der “Cloud Native”-Entwicklungsprozess hat in immer mehr unserer Projekte Einzug gehalten. Insbesondere bei bereits bestehenden Projekten kann es eine Herausforderung sein, diese in einen Cloud Native Workflow zu migrieren. In diesem Blogpost zeigen wir euch die notwendigen Schritte für eine Migration nach Cloud Native anhand dreier Beispiele.
+Der “Cloud Native”-Entwicklungsprozess hat in immer mehr unserer Projekte Einzug gehalten. Insbesondere bei bereits bestehenden Projekten kann es eine Herausforderung sein, diese in einen Cloud Native Workflow zu migrieren. In diesem Blogpost zeigen wir euch die notwendigen Schritte für eine [Migration nach Cloud Native](/loesungen/migration-auf-kubernetes/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} anhand dreier Beispiele.
 ::
 <!--more-->
 

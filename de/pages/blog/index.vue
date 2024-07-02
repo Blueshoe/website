@@ -39,7 +39,7 @@ useHead({
     {
       name: 'description',
       content:
-        'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+        'Wir schreiben über alles, was mit Cloud Native zu tun hat und geben Ihnen einen Einblick in unsere Herangehensweise an verschiedene Herausforderungen, die bei der Entwicklung in Cloud Native Infrastrukturen auftreten.'
     },
     {
       property: 'og:locale',
@@ -56,7 +56,7 @@ useHead({
     {
       property: 'og:description',
       content:
-        'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+        'Wir schreiben über alles, was mit Cloud Native zu tun hat und geben Ihnen einen Einblick in unsere Herangehensweise an verschiedene Herausforderungen, die bei der Entwicklung in Cloud Native Infrastrukturen auftreten.'
     },
     {
       property: 'og:image',
@@ -77,7 +77,7 @@ useHead({
     {
       name: 'twitter:description',
       content:
-        'We write about all things cloud native and let you have a look into our approaches to different challenges to occur when developing within cloud native infrastructures.'
+        'Wir schreiben über alles, was mit Cloud Native zu tun hat und geben Ihnen einen Einblick in unsere Herangehensweise an verschiedene Herausforderungen, die bei der Entwicklung in Cloud Native Infrastrukturen auftreten.'
     },
     {
       name: 'twitter:image',

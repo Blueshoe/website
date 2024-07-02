@@ -5,7 +5,7 @@ head:
     - property: 'og:locale'
       content: 'de_DE'
     - name: 'description'
-      content: 'Einfacher Umstieg auf Kubernetes mit unseren Experten. Optimieren Sie Ihre Migration, skalieren Sie mühelos und verbessern Sie Ihre Anwendungsinfrastruktur.'
+      content: 'Einfacher Umstieg auf Kubernetes mit unseren Experten. Optimiere deine Migration, skaliere mühelos und verbessere deine Anwendungsinfrastruktur.'
     - property: 'og:type'
       content: 'website'
     - property: 'og:title'

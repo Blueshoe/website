@@ -20,10 +20,10 @@ Cloud-Entwicklung
 
 ::GlobalSmallCardWithImage{:lang="de" :src="/img/global/icons/consulting_1.svg" :href="/loesungen/cloud-native-beratung/"}
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Wir helfen Dir, Lösungen zu finden
+Wir helfen dir, Lösungen zu finden
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Spare Geld, indem Du die Fehler vermeiden, die wir bereits gemacht haben. Lass uns Dir bei Deiner Cloud-Strategie helfen.
+Spare Geld, indem du die Fehler vermeiden, die wir bereits gemacht haben. Lass uns dir bei deiner Cloud-Strategie helfen.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -35,7 +35,7 @@ Cloud-Beratung
 Systeme für schnellere Abläufe verbinden
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Sparen Sie Zeit und Geld, indem Sie Ihre Systeme besser miteinander verbinden mit unseren maßgeschneiderten APIs.
+Spare Zeit und Geld, indem du deine Systeme besser miteinander verbindest mit unseren maßgeschneiderten APIs.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -47,7 +47,7 @@ API-Entwicklung
 Umzug zum modernen Orchestrierungsframework
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Steigere die Effizienz Deiner Abläufe mit automatischer Skalierung, Bereitstellung und Verwaltung Deiner Anwendungen.
+Steigere die Effizienz deiner Abläufe mit automatischer Skalierung, Bereitstellung und Verwaltung deiner Anwendungen.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -60,7 +60,7 @@ Kubernetes-Migration
 Steigerung der Entwicklergeschwindigkeit
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Liefern Sie Funktionen schneller mit weniger Entwicklerfrustration und bleiben Sie Ihrer Konkurrenz voraus.
+Liefere Funktionen schneller mit weniger Entwicklerfrustration und bleibe deiner Konkurrenz voraus.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
@@ -72,7 +72,7 @@ Workflow-Automatisierung
 Übergang von Monolithen
 :::
 :::GlobalParagraph{:fontSize="lg" .leading-6 .mb-4}
-Machen Sie das Beheben von Fehlern zum Kinderspiel. Ermöglichen Sie eine schnelle Einarbeitung neuer Entwickler und erhöhen Sie Ihre Entwicklungsgeschwindigkeit.
+Mache das Beheben von Fehlern zum Kinderspiel. Mache eine schnelle Einarbeitung neuer Entwickler möglich und erhöhe deine Entwicklungsgeschwindigkeit.
 :::
 #title
 :::GlobalTitle{:size="xs" :tag="h3" :color="text-bs-blue" .uppercase .mb-3}
