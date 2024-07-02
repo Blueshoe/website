@@ -190,7 +190,7 @@ Service-Mesh: Technologie, um die Kommunikation zwischen Cluster-Bestandteilen z
 **Was machen Service-Meshes?**
 :::
 :::globalParagraph
-“Klassische” Anwendungen sind eher in der Form eines Monolithen konzipiert. “Moderne” cloud-native [Anwendungsarchitekturen](/leistungen/microservice-architektur-beratung/){.bs-link-blue} hingegen setzen auf einzelne Microservices und die Anwendung entsteht erst durch eine Verflechtung und Interaktion einzelner Microservices untereinander. Einzelne Services sind in Container verpackt, die in einzelnen Pods zusammengefasst sind, welche wiederum miteinander kommunizieren und Informationen austauschen (siehe dazu ["Kubernetes für Anfänger"](/blog/kubernetes-fuer-anfaenger/){.bs-link-blue}).
+“Klassische” Anwendungen sind eher in der Form eines Monolithen konzipiert. “Moderne” cloud-native [Anwendungsarchitekturen](/loesungen/microservice-architektur-beratung/){.bs-link-blue} hingegen setzen auf einzelne Microservices und die Anwendung entsteht erst durch eine Verflechtung und Interaktion einzelner Microservices untereinander. Einzelne Services sind in Container verpackt, die in einzelnen Pods zusammengefasst sind, welche wiederum miteinander kommunizieren und Informationen austauschen (siehe dazu ["Kubernetes für Anfänger"](/blog/kubernetes-fuer-anfaenger/){.bs-link-blue}).
 :::
 :::globalParagraph
 Die Kommunikation zwischen einzelnen Pods (,die den containerisierten Code enthalten) erfolgt in einem Kubernetes Cluster selbst und wird durch die Entwickler definiert. Zusätzlich kann durch die Entwickler noch ein sogenanntes Service Mesh eingesetzt werden, das es erlaubt, die Kommunikation zwischen Pods noch genauer zu spezifizieren.
@@ -467,7 +467,8 @@ Technologien zum Geheimnismanagement
 Geheimhaltung und Verschlüsselung von Daten
 :::
 :::globalParagraph
-Bereits kleine Projekte benötigen für den Betrieb einige Daten, die geheim bleiben müssen und nur denjenigen Personen/Apps verfügbar sind, die sie auch wirklich brauchen. Dazu gehören unter anderem Passwörter für die Autorisierung bei anderen Services (Datenbank, API, etc.) oder Keys für die Verschlüsselung von gespeicherten Daten. Da diese nicht in falsche Hände gelangen sollten, dürfen sie nicht unverschlüsselt (plain-text) in die versionierten Kubernetes-Ressourcen (Kustomize-Manifeste, Helm-Charts, …) geschrieben werden. Es gibt verschiedene Tools, die das Management von solchen Geheimnissen ermöglichen und dabei unterschiedliche Ansätze verfolgen.
+Bereits kleine Projekte benötigen für den Betrieb einige Daten, die geheim bleiben müssen und nur denjenigen Personen/Apps verfügbar sind, die sie auch wirklich brauchen. Dazu gehören unter anderem Passwörter für die Autorisierung bei anderen Services (Datenbank, [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}
+, etc.) oder Keys für die Verschlüsselung von gespeicherten Daten. Da diese nicht in falsche Hände gelangen sollten, dürfen sie nicht unverschlüsselt (plain-text) in die versionierten Kubernetes-Ressourcen (Kustomize-Manifeste, Helm-Charts, …) geschrieben werden. Es gibt verschiedene Tools, die das Management von solchen Geheimnissen ermöglichen und dabei unterschiedliche Ansätze verfolgen.
 :::
 
 :::globalTitle{:size="sm" :tag="h4" .mb-5}
@@ -496,7 +497,7 @@ Um in einem System mit vielen Bestandteilen den Überblick zu behalten, ist es s
 Cloud Native Development
 :::
 :::globalParagraph
-[Cloud Native Development](/leistungen/cloud-native-development/){.bs-link-blue} beschreibt einen Software-Entwicklungsansatz, bei dem Applikationen von Anfang an für den Einsatz in der Cloud konzipiert werden (<a href="https://www.ionos.de/digitalguide/websites/web-entwicklung/was-ist-cloud-native/#:~:text=Definition%3A%20Cloud%20Native%20Cloud%20Native%20beschreibt%20einen%20Software-Entwicklungs-Ansatz%2C,die%20St%C3%A4rken%20der%20Cloud-Computing-Architektur%20vollst%C3%A4ndig%20zu%20nutzen%20wissen" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ionos</a>). Folglich ist es sinnvoll, auch die Entwicklung selbst schon so weit wie möglich in der späteren Cloud-Umgebung stattfinden zu lassen.
+[Cloud Native Development](/loesungen/cloud-native-development/){.bs-link-blue} beschreibt einen Software-Entwicklungsansatz, bei dem Applikationen von Anfang an für den Einsatz in der Cloud konzipiert werden (<a href="https://www.ionos.de/digitalguide/websites/web-entwicklung/was-ist-cloud-native/#:~:text=Definition%3A%20Cloud%20Native%20Cloud%20Native%20beschreibt%20einen%20Software-Entwicklungs-Ansatz%2C,die%20St%C3%A4rken%20der%20Cloud-Computing-Architektur%20vollst%C3%A4ndig%20zu%20nutzen%20wissen" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Ionos</a>). Folglich ist es sinnvoll, auch die Entwicklung selbst schon so weit wie möglich in der späteren Cloud-Umgebung stattfinden zu lassen.
 :::
 :::globalParagraph
 Mit unserem Blueshoe-eigenen Technologie-Stack bestehend aus [Unikube, Gefyra und Getdeck](/tools/){.bs-link-blue} haben wir wesentlich dazu beigetragen, diesen Prozess für ganze Entwicklerteams effizienter und effektiver zu gestalten.

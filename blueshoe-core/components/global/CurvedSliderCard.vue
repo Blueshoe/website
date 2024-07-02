@@ -25,7 +25,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div
       v-if="!firstCard"
       class="h-[1px] border-t-2 absolute rotate-[-76deg]"
@@ -39,7 +39,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div
       class="h-[1px] border-t-2 absolute rotate-[76deg]"
       :class="[
@@ -52,7 +52,7 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div
       class="h-[1px] border-t-2 absolute rotate-[-76deg]"
       :class="[
@@ -65,23 +65,23 @@
         borderColor: borderColor,
         zIndex: zIndex,
       }"
-    ></div>
+    />
     <div>
-      <div class="flex flex-col h-[350px]">
-        <div class="h-[40%]">
+      <div :class="`flex flex-col h-[350px] ${!firstCard ? 'ml-4' : ''}`">
+        <div class="h-[40%] md:h-[30%]">
           <img
             :src="src"
             :alt="alt"
-            class="relative top-[7px]"
+            class="relative top-[7px] h-full w-full"
             :class="{ 'xl:w-[90px]': size === 'small' }"
-          />
+          >
         </div>
         <div
           class="h-[40%] flex flex-col"
           :class="size === 'small' ? 'pt-3 xl:pt-1' : 'pt-5 xl:pt-10'"
         >
           <div
-            class="font-oswald font-bold w-[155px] mb-1"
+            class="font-oswald font-bold w-[158px] mb-1"
             :class="[
               textColor,
               size === 'small'
@@ -92,11 +92,11 @@
             <slot name="cardTitle" />
           </div>
           <div
-            class="font-roboto w-[158px]"
+            class="font-roboto w-[158px] text-pretty"
             :class="[
               size === 'small'
-                ? 'w-[155px] xl:w-[125px] text-[13px] xl:text-[12px]'
-                : 'w-[160px] text-[14px] xl:text-[15px]',
+                ? 'w-[145px] xl:w-[125px] text-[14px] xl:text-[15px]'
+                : 'w-[150px] text-[14px] xl:text-[15px]',
             ]"
           >
             <slot name="cardText" />

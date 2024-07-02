@@ -112,7 +112,7 @@ Die Welt der Schülerinnen und Schüler verändert sich rasend schnell, deshalb 
 **FAZIT**
 ::
 ::globalParagraph
-In Zeiten von Corona ist es wichtiger als je zuvor, dass Schülerinnen und Schüler von Zuhause aus lernen können. Die digitale Lernplattform <a href="https://digitallearninglab.de/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Digital Learning Lab</a> , für die wir bei Blueshoe die [technische Entwicklungübernommen](/leistungen/python-django-agentur/){.bs-link-blue} haben, bietet allen Lehrerinnen und Lehrern die Möglichkeit, ihren Unterrichtsstoff schneller und effizienter digital aufzubereiten.
+In Zeiten von Corona ist es wichtiger als je zuvor, dass Schülerinnen und Schüler von Zuhause aus lernen können. Die digitale Lernplattform <a href="https://digitallearninglab.de/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Digital Learning Lab</a> , für die wir bei Blueshoe die [technische Entwicklungübernommen](/loesungen/python-django-agentur/){.bs-link-blue} haben, bietet allen Lehrerinnen und Lehrern die Möglichkeit, ihren Unterrichtsstoff schneller und effizienter digital aufzubereiten.
 ::
 ::globalParagraph
 Eine **wirklich gute und hilfreiche Sache** - nicht nur aufgrund der Corona-Krise, sondern auch im Hinblick auf die noch fehlende Digitalisierung des **deutschen Bildungssystems**.

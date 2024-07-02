@@ -183,7 +183,7 @@ Minikube-Profile: mehrere logische Cluster auf einer Entwicklungs-Maschine
 Als wir begannen, [Kubernetes](/blog/kubernetes-development/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} zu übernehmen, suchten wir nach einer Lösung, die es uns ermöglichte, mehrere logische Cluster auf einer Entwicklungs-Maschine zu verwalten. In den Jahren 2016/2017 legte Minikube nicht viel Wert auf dieses spezielle Feature. Es war nur möglich, einen Cluster pro Maschine zu starten, und es gab nur eine Single-Node-Cluster-Konfiguration. Aus diesem Grund haben wir uns bei Blueshoe entschieden, mit k3d zu arbeiten. Minikube hat jedoch dieses wichtige Entwickler-Feature aufgeholt und unterstützt jetzt mehrere sogenannte Minikube-Profile.
 :::
 :::globalParagraph
-Minikube-Profile sind logische Cluster, die separat voneinander gestartet und gestoppt werden können. Es ermöglicht einem Entwickler, mehr als eine Kubernetes-basierte Entwicklungsumgebung zu haben. Denke nur an mehrere getrennte Projekte, die unterschiedliche Kubernetes-[API](/leistungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-Versionen, Funktionen oder einfach unterschiedliche Workloads erfordern, die in ihnen ausgeführt werden. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Du kannst... </a>:
+Minikube-Profile sind logische Cluster, die separat voneinander gestartet und gestoppt werden können. Es ermöglicht einem Entwickler, mehr als eine Kubernetes-basierte Entwicklungsumgebung zu haben. Denke nur an mehrere getrennte Projekte, die unterschiedliche Kubernetes-[API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid}-Versionen, Funktionen oder einfach unterschiedliche Workloads erfordern, die in ihnen ausgeführt werden. <a href="https://minikube.sigs.k8s.io/docs/commands/start/" class="text-bs-blue hover:underline hover:decoration-bs-blue hover:decoration-solid" target="_blank">Du kannst... </a>:
 :::
 
 :::BlogCode{.mb-5}
@@ -411,7 +411,7 @@ minikube start --kubernetes-version=1.25.5
 ```
 :::
 :::globalParagraph
-...und du erhältst die richtige [API-](/our-services/api-development-agency/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} Version.
+...und du erhältst die richtige [API-](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} Version.
 :::
 :::globalParagraph
 Andere grundlegende Clusteroperationen sind ähnlich: Das Anhalten, Stoppen oder Löschen des Clusters erfolgt immer mit nur einem Befehl.
@@ -626,7 +626,7 @@ Die beste Alternative für die lokale Kubernetes-Entwicklung
 :::
 
 :::globalParagraph
-Die oben genannten Optionen machen nicht alle erforderlichen Entwicklungsfunktionen leicht zugänglich. Zum Beispiel ist das Überschreiben von Umgebungsvariablen nicht sehr einfach, da sie aus verschiedenen Kubernetes-Objekten stammen können: ConfigMaps, Secrets, Pod-Spezifikationen, Downward API und andere. Ein Entwickler, der nicht daran gewöhnt ist, mit Kubernetes zu arbeiten, könnte Schwierigkeiten haben, mit Umgebungsvariablen herumzuspielen.
+Die oben genannten Optionen machen nicht alle erforderlichen Entwicklungsfunktionen leicht zugänglich. Zum Beispiel ist das Überschreiben von Umgebungsvariablen nicht sehr einfach, da sie aus verschiedenen Kubernetes-Objekten stammen können: ConfigMaps, Secrets, Pod-Spezifikationen, Downward [API](/loesungen/api-entwicklung/){.text-bs-blue .hover:underline .hover:decoration-bs-blue .hover:decoration-solid} und andere. Ein Entwickler, der nicht daran gewöhnt ist, mit Kubernetes zu arbeiten, könnte Schwierigkeiten haben, mit Umgebungsvariablen herumzuspielen.
 :::
 :::globalParagraph
 Der allmächtige Debugger, der nicht einfach an einen in Kubernetes ausgeführten Prozess angehängt werden kann, ist mit den oben genannten Optionen nicht sehr praktisch. Die oben genannten Optionen haben auch einige andere Nachteile.

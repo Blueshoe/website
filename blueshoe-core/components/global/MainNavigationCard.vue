@@ -29,6 +29,7 @@ const props = defineProps<{
 const headingListData = ref(props.headings);
 
 function handleScroll(heading: Heading) {
+  console.log("now scrolling");
   scrollToElement(heading.id);
 }
 </script>

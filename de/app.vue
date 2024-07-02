@@ -1,9 +1,11 @@
 <template>
-  <Html lang="en">
+  <Html lang="de">
+    <div>
     <NuxtLayout>
       <NuxtPage />
       <ModalsContainer />
     </NuxtLayout>
+  </div>
   </Html>
 </template>
 <script setup lang="ts">

@@ -13,8 +13,8 @@
         /></span>
       </NuxtLink>
       <ul
-        v-click-outside="onClickOutside"
         v-if="nav.dropDown && nav.children && nav.isDropDown"
+        v-click-outside="onClickOutside"
         class="absolute left-[12px] top-[70px] grid grid-cols-2 bg-white shadow-lg w-[97.5%] xl:w-[98%] py-2"
       >
         <div class="border-r-2 border-bs-menu-hover">
@@ -31,7 +31,14 @@
                 class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
               >
                 <div class="flex items-center gap-2 px-6 py-1">
-                  <booster-image :src="child.icon" title="menu icon" width="40" class="max-w-[40px]" alt="menu icon" format="webp" />
+                  <booster-image
+                    :src="child.icon"
+                    title="menu icon"
+                    width="40"
+                    class="max-w-[40px]"
+                    alt="menu icon"
+                    format="webp"
+                  />
                   <span>{{ t(child.name) }}</span>
                 </div>
               </NuxtLink>
@@ -52,7 +59,14 @@
                 class="hover:after:inline-block hover:after:absolute hover:after:left-[25px] hover:after:bottom-[10px] hover:after:w-[100px] hover:after:border-b-[3px] hover:after:border-bs-blue"
               >
                 <div class="flex items-center gap-2 px-6 py-1">
-                  <booster-image :src="child.icon" title="menu icon" width="40" class="max-w-[40px]" alt="menu icon" format="webp" />
+                  <booster-image
+                    :src="child.icon"
+                    title="menu icon"
+                    width="40"
+                    class="max-w-[40px]"
+                    alt="menu icon"
+                    format="webp"
+                  />
                   <span>{{ t(child.name) }}</span>
                 </div>
               </NuxtLink>

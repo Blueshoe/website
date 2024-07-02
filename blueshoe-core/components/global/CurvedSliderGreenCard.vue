@@ -24,13 +24,27 @@
 interface Props {
   size: "full" | "small";
   zIndex?: number;
+  backgroundColor?: string;
 }
 
-const props = withDefaults(defineProps<Props>(), {});
+const props = withDefaults(defineProps<Props>(), {
+  backgroundColor: "#fff"
+});
+
+const windowWidth = ref(0);
+
+onMounted(() => {
+  window.addEventListener("resize", () => {
+    if (container.value) {
+      windowWidth.value = window.innerWidth;
+    }
+  });
+});
 
 const container = ref(null);
 
 const outerTriangleLeftStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
@@ -48,6 +62,7 @@ const outerTriangleLeftStyle = computed(() => {
 });
 
 const innerTriangleLeftStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
@@ -58,13 +73,14 @@ const innerTriangleLeftStyle = computed(() => {
     width: "0",
     height: "0",
     borderWidth: `${height / 2 - 1}px 0 ${height / 2 - 1}px ${height / 8.2}px`,
-    borderColor: "transparent transparent transparent #fff",
+    borderColor: `transparent transparent transparent ${props.backgroundColor}`,
     borderStyle: "solid",
     zIndex: props.zIndex,
   };
 });
 
 const outerTriangleRightStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
@@ -81,6 +97,7 @@ const outerTriangleRightStyle = computed(() => {
 });
 
 const innerTriangleRightStyle = computed(() => {
+  const width = windowWidth.value; // just for resize
   const height = container.value?.clientHeight || 0;
   return {
     position: "absolute",
